@@ -1,0 +1,101 @@
+traffic_vehicle : traffic.mustang_2015
+{
+	accessories[]: .mustang_2015.chassis
+	accessories[]: .mustang_2015.fwheel
+	accessories[]: .mustang_2015.rwheel
+
+	max_speed: 300
+
+	lod_dist[]: 53
+	lod_dist[]: 70
+	
+	
+	color[]: (0.0006, 0.0561, 0.4296) #blue
+	color[]: (0.9909, 0.5522, 0.017)  #yellow
+	color[]: (0.2519, 0, 0.004) #dark red
+	color[]: (0.6382, 0.0024, 0.0027)    #red
+	color[]: (0.8174, 0.159, 0.0099) #orange
+	color[]: (0.2963, 0.3154, 0.3534) #silver
+	color[]: (0.8336, 0.8892, 1) #oxford white
+	color[]: (0.0497, 0.0742, 0.0684) #green
+	color[]: (0.0202, 0.0212, 0.0193) #black
+	
+	vehicle_mass: 1600
+	
+	variant[]: traffic.mustang_conv
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .mustang_2015.chassis
+{
+	data_path: "/def/vehicle/ai/mustang_2015/chassis.sii"
+}
+
+vehicle_wheel_accessory: .mustang_2015.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_mustang.sii"
+}
+
+vehicle_wheel_accessory: .mustang_2015.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_mustang.sii"
+}
+
+
+traffic_vehicle : traffic.mustang_conv
+{
+	accessories[]: .mustang_conv.chassis
+	accessories[]: .mustang_conv.fwheel
+	accessories[]: .mustang_conv.rwheel
+
+	max_speed: 300
+
+	lod_dist[]: 53
+	lod_dist[]: 70
+	
+	
+	color[]: (0.0006, 0.0561, 0.4296) #blue
+	color[]: (0.9909, 0.5522, 0.017)  #yellow
+	color[]: (0.2519, 0, 0.004) #dark red
+	color[]: (0.6382, 0.0024, 0.0027)    #red
+	color[]: (0.8174, 0.159, 0.0099) #orange
+	color[]: (0.2963, 0.3154, 0.3534) #silver
+	color[]: (0.8336, 0.8892, 1) #oxford white
+	color[]: (0.0497, 0.0742, 0.0684) #green
+	color[]: (0.0202, 0.0212, 0.0193) #black
+	
+	vehicle_mass: 1600
+
+    spawn_condition[]: .traffic.mustang_conv.condition.weather
+    
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .mustang_conv.chassis
+{
+	data_path: "/def/vehicle/ai/mustang_2015/chassis_convert.sii"
+}
+
+vehicle_wheel_accessory: .mustang_conv.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_mustang.sii"
+}
+
+vehicle_wheel_accessory: .mustang_conv.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_mustang.sii"
+}
+
+traffic_spawn_condition: .traffic.mustang_conv.condition.weather
+{
+	# spawn only in nice weater
+	type: weather
+	num_param[]: 0
+}

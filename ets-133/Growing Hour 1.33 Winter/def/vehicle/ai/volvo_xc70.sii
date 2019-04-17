@@ -1,0 +1,40 @@
+traffic_vehicle : traffic.volvo_xc70
+{
+	accessories[]: .volvo_xc70.chassis
+	accessories[]: .volvo_xc70.fwheel
+	accessories[]: .volvo_xc70.rwheel
+
+	max_speed: 95
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	lod_dist[]: 100
+
+
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0382, 0.0318, 0.0273) #brown
+	color[]: (0, 0.0263, 0.1347) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.1596, 0.0093, 0.0197) #red
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .volvo_xc70.chassis
+{
+	data_path: "/def/vehicle/ai/volvo_xc70/chassis.sii"
+}
+
+vehicle_wheel_accessory: .volvo_xc70.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .volvo_xc70.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}

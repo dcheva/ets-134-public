@@ -1,0 +1,42 @@
+traffic_vehicle : traffic.niva
+{
+	accessories[]: .niva.chassis
+	accessories[]: .niva.fwheel
+	accessories[]: .niva.rwheel
+
+	max_speed: 100
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	spawn_ratio: 0.00
+
+	vehicle_mass: 1285
+    
+    	color[]: (0.1077, 0.0007, 0.0022) #red
+	color[]: (0.0242, 0.0242, 0.0242) #black
+	color[]: (0.2566, 0.1828, 0.1144) #brown
+	color[]: (0.0548, 0.0225, 0.3047) #blue
+	color[]: (0.0343, 0.0648, 0.008) #green
+	color[]: (1, 1, 1) #white
+	
+	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .niva.chassis
+{
+	data_path: "/def/vehicle/ai/niva/niva.sii"
+}
+
+vehicle_wheel_accessory: .niva.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_steel.sii"
+}
+
+vehicle_wheel_accessory: .niva.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_steel.sii"
+}

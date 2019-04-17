@@ -1,0 +1,43 @@
+traffic_vehicle : traffic.l_119
+{
+   accessories[]: .l_119.chassis
+   accessories[]: .l_119.fwheel
+   accessories[]: .l_119.rwheel
+
+   max_speed: 130
+
+   lod_dist[]: 40
+   lod_dist[]: 70
+
+	spawn_ratio: 0.0
+
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	color[]: (0.2345, 0.2086, 0.1811) #brown
+	color[]: (0.0295, 0.0684, 0.1878) #blue
+
+   vehicle_mass: 1200
+
+@include "drivers_generic.sui"
+   
+}
+
+vehicle_accessory: .l_119.chassis
+{
+   data_path: "/def/vehicle/ai/l_119/chassis.sii"
+}
+
+vehicle_wheel_accessory: .l_119.fwheel
+{
+   offset: 0
+   data_path: "/def/vehicle/ai_wheel/front_13in_steel.sii"
+}
+
+vehicle_wheel_accessory: .l_119.rwheel
+{
+   offset: 0
+   data_path: "/def/vehicle/ai_wheel/rear_13in_steel.sii"
+}

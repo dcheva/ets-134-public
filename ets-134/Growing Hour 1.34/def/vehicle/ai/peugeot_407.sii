@@ -1,0 +1,38 @@
+traffic_vehicle : traffic.peugeot_407
+{
+	accessories[]: .peugeot_407.chassis
+	accessories[]: .peugeot_407.fwheel
+	accessories[]: .peugeot_407.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0883, 0.0622, 0.0454) #brown
+	color[]: (0, 0.0263, 0.1347) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.1596, 0.0093, 0.0197) #red
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .peugeot_407.chassis
+{
+	data_path: "/def/vehicle/ai/peugeot_407/chassis.sii"
+}
+
+vehicle_wheel_accessory: .peugeot_407.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .peugeot_407.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}

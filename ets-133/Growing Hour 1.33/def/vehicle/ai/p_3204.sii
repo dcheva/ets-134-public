@@ -1,0 +1,80 @@
+traffic_vehicle : traffic.p_3204_1
+{
+	accessories[]: .p_3204_1.chassis
+	accessories[]: .p_3204_1.fwheel
+	accessories[]: .p_3204_1.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	spawn_ratio: 0.0	
+
+	color[]: (0.0595, 0.3005, 0.7912) #blue
+	color[]: (0.3662, 0.0251, 0.0144) #red
+	color[]: (0.0212, 0.2195, 0.2232) #green
+	color[]: (1, 1, 1) 				#white
+
+	vehicle_mass: 1700
+    
+    variant[]: traffic.p_3204_2
+    
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .p_3204_1.chassis
+{
+	data_path: "/def/vehicle/ai/p_3204/passengers1.sii"
+}
+
+vehicle_wheel_accessory: .p_3204_1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/29_steel_front.sii"
+}
+
+vehicle_wheel_accessory: .p_3204_1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/29_steel_double.sii"
+}
+
+
+traffic_vehicle : traffic.p_3204_2
+{
+	accessories[]: .p_3204_2.chassis
+	accessories[]: .p_3204_2.fwheel
+	accessories[]: .p_3204_2.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	color[]: (0.0595, 0.3005, 0.7912) #blue
+	color[]: (0.3662, 0.0251, 0.0144) #red
+	color[]: (0.0212, 0.2195, 0.2232) #green
+	color[]: (1, 1, 1) 				#white
+
+	vehicle_mass: 1700
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .p_3204_2.chassis
+{
+	data_path: "/def/vehicle/ai/p_3204/passengers2.sii"
+}
+
+vehicle_wheel_accessory: .p_3204_2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/29_steel_front.sii"
+}
+
+vehicle_wheel_accessory: .p_3204_2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/29_steel_double.sii"
+}
+

@@ -1,0 +1,230 @@
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  FR  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.t815.fr
+{
+	accessories[]: .t815.fr.chassis
+	accessories[]: .t815.fr.fwheel
+	accessories[]: .t815.fr.rwheel
+	accessories[]: .t815.fr.rwheel2
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	vehicle_mass: 25000
+	
+
+	spawn_ratio: 0
+	
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .t815.fr.chassis
+{
+	data_path: "/def/vehicle/ai/t815_7/fr.sii"
+}
+
+vehicle_wheel_accessory: .t815.fr.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/t815_f.sii"
+}
+
+vehicle_wheel_accessory: .t815.fr.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/t815_r.sii"
+}
+vehicle_wheel_accessory: .t815.fr.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/t815_r.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  IT  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.t815.it
+{
+	accessories[]: .t815.it.chassis
+	accessories[]: .t815.it.fwheel
+	accessories[]: .t815.it.rwheel
+	accessories[]: .t815.it.rwheel2
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .t815.it.chassis
+{
+	data_path: "/def/vehicle/ai/t815_7/it.sii"
+}
+
+vehicle_wheel_accessory: .t815.it.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/t815_f.sii"
+}
+
+vehicle_wheel_accessory: .t815.it.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/t815_r.sii"
+}
+vehicle_wheel_accessory: .t815.it.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/t815_r.sii"
+}
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  cz  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.t815.cz
+{
+	accessories[]: .t815.cz.chassis
+	accessories[]: .t815.cz.fwheel
+	accessories[]: .t815.cz.rwheel
+	accessories[]: .t815.cz.rwheel2
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .t815.cz.chassis
+{
+	data_path: "/def/vehicle/ai/t815_7/cz.sii"
+}
+
+vehicle_wheel_accessory: .t815.cz.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/t815_f.sii"
+}
+
+vehicle_wheel_accessory: .t815.cz.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/t815_r.sii"
+}
+vehicle_wheel_accessory: .t815.cz.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/t815_r.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  sk  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.t815.sk
+{
+	accessories[]: .t815.sk.chassis
+	accessories[]: .t815.sk.fwheel
+	accessories[]: .t815.sk.rwheel
+	accessories[]: .t815.sk.rwheel2
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .t815.sk.chassis
+{
+	data_path: "/def/vehicle/ai/t815_7/sk.sii"
+}
+
+vehicle_wheel_accessory: .t815.sk.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/t815_f.sii"
+}
+
+vehicle_wheel_accessory: .t815.sk.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/t815_r.sii"
+}
+vehicle_wheel_accessory: .t815.sk.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/t815_r.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  de  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.t815.de
+{
+	accessories[]: .t815.de.chassis
+	accessories[]: .t815.de.fwheel
+	accessories[]: .t815.de.rwheel
+	accessories[]: .t815.de.rwheel2
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .t815.de.chassis
+{
+	data_path: "/def/vehicle/ai/t815_7/de.sii"
+}
+
+vehicle_wheel_accessory: .t815.de.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/t815_f.sii"
+}
+
+vehicle_wheel_accessory: .t815.de.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/t815_r.sii"
+}
+vehicle_wheel_accessory: .t815.de.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/t815_r.sii"
+}

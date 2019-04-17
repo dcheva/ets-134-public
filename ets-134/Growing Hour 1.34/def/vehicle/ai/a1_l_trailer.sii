@@ -1,0 +1,18 @@
+traffic_trailer : trailer.a1_l_t
+{
+	accessories[]: .a1_l_t_trlr.chassis
+	accessories[]: .a1_l_t_trlr.rwheel0
+
+	cargo_mass: 0
+
+}
+
+vehicle_accessory: .a1_l_t_trlr.chassis
+{
+    	data_path: "/def/vehicle/ai/a1_l_trailer/chassis.sii"
+}
+vehicle_wheel_accessory: .a1_l_t_trlr.rwheel0
+{
+	offset: 0
+    data_path: "/def/vehicle/ai_wheel/a1_l_r.sii"
+}

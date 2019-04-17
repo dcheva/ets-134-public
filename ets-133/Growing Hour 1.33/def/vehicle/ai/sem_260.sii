@@ -1,0 +1,151 @@
+traffic_vehicle : traffic.sem_crane
+{
+	accessories[]: .sem_crane.chassis
+	accessories[]: .sem_crane.fwheel
+	accessories[]: .sem_crane.rwheel
+	accessories[]: .sem_crane.rwheel2
+
+	max_speed: 70
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	color[]: (0.7341, 0.1253, 0.01) #orange
+	color[]: (0.7454, 0.7454, 0.7454) #white
+	color[]: (0.0273, 0.0998, 0.1811) #blue
+
+    allow_parked: false
+    
+	trailer_count[]: 0
+	
+	spawn_ratio: 0.3
+
+	vehicle_mass: 10000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .sem_crane.chassis
+{
+	data_path: "/def/vehicle/ai/sem_260/crane.sii"
+}
+
+vehicle_wheel_accessory: .sem_crane.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .sem_crane.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .sem_crane.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+traffic_vehicle : traffic.sem_mixer
+{
+	accessories[]: .sem_mixer.chassis
+	accessories[]: .sem_mixer.fwheel
+	accessories[]: .sem_mixer.rwheel
+	accessories[]: .sem_mixer.rwheel2
+
+	max_speed: 80
+
+	trailer_count[]: 0
+	
+    allow_parked: false
+	
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	color[]: (0.0273, 0.0998, 0.1811) #blue
+	color[]: (0.0295, 0.0684, 0.1878) #blue
+	color[]: (0.1082, 0.3356, 0.1807) #green
+	color[]: (0.4839, 0.3932, 0.0375) #yellow
+	color[]: (0.3467, 0.0437, 0.0262) #red
+	
+	spawn_ratio: 0.3	
+
+	vehicle_mass: 10000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .sem_mixer.chassis
+{
+	data_path: "/def/vehicle/ai/sem_260/mixer.sii"
+}
+
+vehicle_wheel_accessory: .sem_mixer.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .sem_mixer.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .sem_mixer.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+traffic_vehicle : traffic.sem_dumper
+{
+	accessories[]: .sem_dumper.chassis
+	accessories[]: .sem_dumper.fwheel
+	accessories[]: .sem_dumper.rwheel
+	accessories[]: .sem_dumper.rwheel2
+
+	max_speed: 80
+
+	trailer_count[]: 0
+	
+    allow_parked: false
+	
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	color[]: (0.0273, 0.0998, 0.1811) #blue
+	color[]: (0.0295, 0.0684, 0.1878) #blue
+	color[]: (0.1082, 0.3356, 0.1807) #green
+	color[]: (0.4839, 0.3932, 0.0375) #yellow
+	color[]: (0.3467, 0.0437, 0.0262) #red
+
+	spawn_ratio: 0.3
+
+	vehicle_mass: 8000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .sem_dumper.chassis
+{
+	data_path: "/def/vehicle/ai/sem_260/dumper.sii"
+}
+
+vehicle_wheel_accessory: .sem_dumper.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .sem_dumper.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .sem_dumper.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+

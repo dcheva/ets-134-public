@@ -1,0 +1,10 @@
+# AI semi truck cables list.
+# Units have to be defined with same names as in "semi_truck_trlr_cables_data.sui".
+
+# NOTE: This is only definition of cables that should be included in body of "accessory_addon_trailer_cables_data" unit.
+
+	# Four cables: air blue, air red, electricity green
+	cables[]: .air_cable_y
+	cables[]: .air_cable_r
+	cables[]: .ele_cable_w
+	cables[]: .ele_cable_b

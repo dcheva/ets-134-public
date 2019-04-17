@@ -1,0 +1,230 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+#
+# Attributes:
+#
+# spawn_trailer_count - when spawning a vehicle of this type, the number of trailers will be randomly chosen from this array
+#
+# storage_path - path to list of traffic vehicle definitions for this type
+#
+
+
+
+
+traffic_vehicle_type : traffic.vehicle_type.car
+{
+	tags[]: "road"
+
+	attachable_trailer_type[]: simple
+
+	storage_path: "/def/vehicle/traffic_storage_car.sii"
+}
+
+
+
+traffic_vehicle_type : traffic.vehicle_type.car_city
+{
+	speed_class: car
+
+	tags[]: "city_centre"
+
+	storage_path: "/def/vehicle/traffic_storage_car_city.sii"
+}
+
+
+
+
+traffic_vehicle_type : traffic.vehicle_type.truck
+{
+    #spawn_trailer_count[]: 1 #Obsolent 1.32
+	tags[]: "road"
+
+	storage_path: "/def/vehicle/traffic_storage_truck.sii"
+}
+
+
+
+
+traffic_vehicle_type : traffic.vehicle_type.truck_city
+{
+    spawn_trailer_count[]: 1  #Obsolent 1.32
+	speed_class: truck
+
+	tags[]: "city_centre"
+
+	storage_path: "/def/vehicle/traffic_storage_truck_city.sii"
+}
+
+
+
+
+traffic_vehicle_type : traffic.vehicle_type.bus
+{
+	tags[]: "road"
+
+	storage_path: "/def/vehicle/traffic_storage_bus.sii"
+}
+
+traffic_vehicle_type : traffic.vehicle_type.slow
+{
+	attachable_trailer_type[]: simple
+
+	storage_path: "/def/vehicle/traffic_storage_slow.sii"
+}
+
+
+
+
+traffic_vehicle_type : traffic.vehicle_type.police
+{
+	speed_class: car
+	license_plate_type: police
+
+	tags[]: "road"
+
+	storage_path: "/def/vehicle/traffic_storage_police.sii"
+}
+
+
+
+
+traffic_vehicle_type : traffic.vehicle_type.train
+{
+	tags[]: "rail_train"
+
+	spawn_trailer_count[]: 6
+	spawn_trailer_count[]: 7
+	spawn_trailer_count[]: 8
+	spawn_trailer_count[]: 9
+	spawn_trailer_count[]: 10
+
+	attachable_trailer_type[]: train_car
+
+	safe_distance: 1000
+
+	suspension_coef: 0.0
+	deceleration_limit: 3.0
+
+	storage_path: "/def/vehicle/traffic_storage_train.sii"
+}
+
+
+
+
+traffic_vehicle_type : traffic.vehicle_type.train_fast
+{
+	tags[]: "rail_train"
+
+	spawn_trailer_count[]: 3
+	spawn_trailer_count[]: 4
+	spawn_trailer_count[]: 5
+
+	attachable_trailer_type[]: train_car
+
+	safe_distance: 1000
+
+	suspension_coef: 0.0
+	deceleration_limit: 3.0
+
+	storage_path: "/def/vehicle/traffic_storage_train_high_speed.sii"
+}
+
+
+
+
+traffic_vehicle_type : traffic.vehicle_type.tram
+{
+	tags[]: "rail_tram"
+
+	spawn_trailer_count[]: 1
+	spawn_trailer_count[]: 2
+	spawn_trailer_count[]: 3
+
+	attachable_trailer_type[]: tram_car
+
+	suspension_coef: 0.0
+	deceleration_limit: 8.0
+
+	storage_path: "/def/vehicle/traffic_storage_tram.sii"
+}
+
+
+
+
+
+traffic_vehicle_type : traffic.vehicle_type.escort_front
+{
+	tags[]: "road"
+
+	storage_path: "/def/vehicle/traffic_storage_escort_front.sii"
+	
+	license_plate_type: car
+	speed_class: car
+	
+	deceleration_limit: 6.0
+	
+	cache_size: 0
+}
+
+
+
+
+
+traffic_vehicle_type : traffic.vehicle_type.escort_back
+{
+	tags[]: "road"
+
+	storage_path: "/def/vehicle/traffic_storage_escort_back.sii"
+	
+	license_plate_type: car
+	speed_class: car
+	
+	deceleration_limit: 6.0
+	
+	cache_size: 0
+}
+
+
+
+
+traffic_vehicle_type : traffic.vehicle_type.event
+{
+    license_plate_type: car 
+	storage_path: "/def/vehicle/traffic_storage_event.sii"
+}
+
+
+traffic_vehicle_type : traffic.vehicle_type.parked
+{
+    license_plate_type: car  #Neu 1.32
+	storage_path: "/def/vehicle/traffic_storage_parked.sii"
+}
+
+
+
+
+traffic_vehicle_type : traffic.vehicle_type.emergency
+{
+	tags[]: "road"
+
+	license_plate_type: car
+
+	storage_path: "/def/vehicle/traffic_storage_emergency.sii"
+}
+
+
+ ####Obsolent 1.32
+#traffic_vehicle_type : traffic.vehicle_type.special 
+#{
+#	tags[]: "road"
+#
+#	storage_path: "/def/vehicle/traffic_storage_special.sii"
+#}
+}

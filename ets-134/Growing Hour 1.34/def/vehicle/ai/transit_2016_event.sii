@@ -1,0 +1,386 @@
+#xxxxxxxxxxxxxxxxxxxxxx variant fox  xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+traffic_vehicle : traffic.transit_16.fox_ev
+{
+	accessories[]: .transit_16.fox_ev.chassis
+	accessories[]: .transit_16.fox_ev.fwheel
+	accessories[]: .transit_16.fox_ev.rwheel
+
+	max_speed: 1
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 3500
+
+color[]: (1, 1, 1)
+
+variant[]: traffic.transit_16.cbn_ev
+}
+
+vehicle_accessory: .transit_16.fox_ev.chassis
+{
+	data_path: "/def/vehicle/ai/transit_2016/fox_ev.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.fox_ev.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.fox_ev.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+#xxxxxxxxxxxxxxxxxxxxxx variant cbn xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+traffic_vehicle : traffic.transit_16.cbn_ev
+{
+	accessories[]: .transit_16.cbn_ev.chassis
+	accessories[]: .transit_16.cbn_ev.fwheel
+	accessories[]: .transit_16.cbn_ev.rwheel
+
+	max_speed: 1
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 3500
+
+color[]: (1, 1, 1)
+
+
+}
+
+vehicle_accessory: .transit_16.cbn_ev.chassis
+{
+	data_path: "/def/vehicle/ai/transit_2016/cbn_ev.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.cbn_ev.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.cbn_ev.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+#xxxxxxxxxxxxxxxxxxxxxx variant light board xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+traffic_vehicle : traffic.transit_16.lig_bor
+{
+	accessories[]: .transit_16.lig_bor.chassis
+	accessories[]: .transit_16.lig_bor.fwheel
+	accessories[]: .transit_16.lig_bor.rwheel
+
+	max_speed: 1
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: true
+	vehicle_mass: 3000
+
+	color[]: (1, 1, 1) #white
+	color[]: (0.8387, 0.4072, 0.0512) #yellow
+	color[]: (1, 0.2082, 0) #orange
+
+
+
+}
+
+vehicle_accessory: .transit_16.lig_bor.chassis
+{
+	data_path: "/def/vehicle/ai/transit_2016/light_board.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.lig_bor.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.lig_bor.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+#xxxxxxxxxxxxxxxxxxxxxx variant light board r xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+traffic_vehicle : traffic.transit_16.lig_bor.r
+{
+	accessories[]: .transit_16.lig_bor.r.chassis
+	accessories[]: .transit_16.lig_bor.r.fwheel
+	accessories[]: .transit_16.lig_bor.r.rwheel
+
+	max_speed: 1
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: true
+	vehicle_mass: 3000
+
+	color[]: (1, 1, 1) #white
+	color[]: (0.8387, 0.4072, 0.0512) #yellow
+	color[]: (1, 0.2082, 0) #orange
+
+
+
+}
+
+vehicle_accessory: .transit_16.lig_bor.r.chassis
+{
+	data_path: "/def/vehicle/ai/transit_2016/light_board_r.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.lig_bor.r.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.lig_bor.r.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+#xxxxxxxxxxxxxxxxxxxxxx variant open door xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+traffic_vehicle : traffic.transit_16.open_d
+{
+	accessories[]: .transit_16.open_d.chassis
+	accessories[]: .transit_16.open_d.fwheel
+	accessories[]: .transit_16.open_d.rwheel
+
+	max_speed: 1
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: true
+	vehicle_mass: 3000
+
+	color[]: (1, 1, 1) #white
+	color[]: (0.8387, 0.4072, 0.0512) #yellow
+	color[]: (1, 0.2082, 0) #orange
+
+
+
+}
+
+vehicle_accessory: .transit_16.open_d.chassis
+{
+	data_path: "/def/vehicle/ai/transit_2016/door.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.open_d.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.open_d.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+#xxxxxxxxxxxxxxxxxxxxxx variant open door fedex xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+traffic_vehicle : traffic.transit_16.open_d_1
+{
+	accessories[]: .transit_16.open_d_1.chassis
+	accessories[]: .transit_16.open_d_1.fwheel
+	accessories[]: .transit_16.open_d_1.rwheel
+
+	max_speed: 1
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: true
+	vehicle_mass: 3000
+
+	color[]: (1, 1, 1) #white
+	#color[]: (0.8387, 0.4072, 0.0512) #yellow
+	#color[]: (1, 0.2082, 0) #orange
+
+
+	variant[]: traffic.transit_16.open_d_2
+	
+}
+
+vehicle_accessory: .transit_16.open_d_1.chassis
+{
+	data_path: "/def/vehicle/ai/transit_2016/door_2.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.open_d_1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.open_d_1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+#xxxxxxxxxxxxxxxxxxxxxx variant open door dhl xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+traffic_vehicle : traffic.transit_16.open_d_2
+{
+	accessories[]: .transit_16.open_d_2.chassis
+	accessories[]: .transit_16.open_d_2.fwheel
+	accessories[]: .transit_16.open_d_2.rwheel
+
+	max_speed: 1
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: true
+	vehicle_mass: 3000
+
+	color[]: (1, 1, 1) #white
+	#color[]: (0.8387, 0.4072, 0.0512) #yellow
+	#color[]: (1, 0.2082, 0) #orange
+
+
+
+}
+
+vehicle_accessory: .transit_16.open_d_2.chassis
+{
+	data_path: "/def/vehicle/ai/transit_2016/door_1.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.open_d_2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.open_d_2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+#xxxxxxxxxxxxxxxxxxxxxx standart car xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+traffic_vehicle : traffic.transit_16.ev
+{
+	accessories[]: .transit_16.ev.chassis
+	accessories[]: .transit_16.ev.fwheel
+	accessories[]: .transit_16.ev.rwheel
+
+	max_speed: 120
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 2800
+	
+	color[]: (1, 1, 1) #white
+	#color[]: (0.8387, 0.4072, 0.0512) yellow
+	color[]: (0.3662, 0.3277, 0.2788) #silver
+	color[]: (0.1247, 0.1022, 0.0822)
+	color[]: (0.0183, 0.0544, 0.1642)  #blue
+	color[]: (0.0343, 0.0343, 0.0343) #black
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transit_16.ev.chassis
+{
+	data_path: "/def/vehicle/ai/transit_2016/generic.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.ev.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.ev.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+#xxxxxxxxxxxxxxxxxxxxxx variant light board xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+traffic_vehicle : traffic.transit_16.lig_bor_2
+{
+	accessories[]: .transit_16.lig_bor_2.chassis
+	accessories[]: .transit_16.lig_bor_2.fwheel
+	accessories[]: .transit_16.lig_bor_2.rwheel
+
+	max_speed: 1
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: true
+	vehicle_mass: 3000
+
+	color[]: (1, 1, 1) #white
+	color[]: (0.8387, 0.4072, 0.0512) #yellow
+	color[]: (1, 0.2082, 0) #orange
+
+
+
+}
+
+vehicle_accessory: .transit_16.lig_bor_2.chassis
+{
+	data_path: "/def/vehicle/ai/transit_2016/light_board_2.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.lig_bor_2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.lig_bor_2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+#xxxxxxxxxxxxxxxxxxxxxx variant light board r xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+traffic_vehicle : traffic.transit_16.lig_bor.r2
+{
+	accessories[]: .transit_16.lig_bor.r2.chassis
+	accessories[]: .transit_16.lig_bor.r2.fwheel
+	accessories[]: .transit_16.lig_bor.r2.rwheel
+
+	max_speed: 1
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: true
+	vehicle_mass: 3000
+
+	color[]: (1, 1, 1) #white
+	color[]: (0.8387, 0.4072, 0.0512) #yellow
+	color[]: (1, 0.2082, 0) #orange
+
+
+
+}
+
+vehicle_accessory: .transit_16.lig_bor.r2.chassis
+{
+	data_path: "/def/vehicle/ai/transit_2016/light_board_r_2.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.lig_bor.r2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .transit_16.lig_bor.r2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}

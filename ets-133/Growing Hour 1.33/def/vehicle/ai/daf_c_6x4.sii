@@ -1,0 +1,55 @@
+traffic_vehicle : traffic.dafxf_c6x4
+{
+	accessories[]: .dafxf_c6x4.chassis
+	accessories[]: .dafxf_c6x4.fwheel
+	accessories[]: .dafxf_c6x4.rwheel
+	accessories[]: .dafxf_c6x4.rwheel2
+	accessories[]: .dafxf_c6x4.trlr_cables
+
+	max_speed: 90
+	attachable_trailer[]: ""
+
+	#color from upgrade shop
+	color[]: (0.1433, 0.159, 0.1916) #blue
+	color[]: (0.8307, 0.8307, 0.8307) #white
+	color[]: (0.5902, 0.4279, 0.0168) #yellow
+	color[]: (0, 0.1965, 0.3878) #blue
+	color[]: (0.4677, 0.0129, 0.0176) #red
+	color[]: (0, 0.1122, 0.0354) #green
+
+	engine_torque: 2500
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	vehicle_mass: 9831
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .dafxf_c6x4.chassis
+{
+	data_path: "/def/vehicle/ai/truck/daf.xf/c6x4.sii"
+}
+
+vehicle_wheel_accessory: .dafxf_c6x4.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .dafxf_c6x4.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+vehicle_wheel_accessory: .dafxf_c6x4.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+vehicle_addon_accessory : .dafxf_c6x4.trlr_cables
+{
+	data_path: "/def/vehicle/ai/truck/daf.xf/accessory/trlr_cables/stock.sii"
+}

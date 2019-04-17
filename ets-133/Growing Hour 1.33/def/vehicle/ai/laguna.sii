@@ -1,0 +1,46 @@
+traffic_vehicle: traffic.laguna
+{
+	accessories[]: .laguna.chassis
+	accessories[]: .laguna.fwheel
+	accessories[]: .laguna.rwheel
+
+	max_speed: 180
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+		
+	spawn_ratio: 1.0
+
+	color[]: (0.0006, 0.1141, 0.3557) #blue
+	color[]: (0.2177, 0.1756, 0.1308) #brown
+	color[]: (0.1153, 0.2651, 0.397) #blue2
+	color[]: (0.371, 0.371, 0.371) #gray
+	color[]: (0.277, 0.0035, 0.0056) #red
+	color[]: (0.0212, 0.0212, 0.0212) #dark gray
+	color[]: (0.2232, 0.2644, 0.397) #light blue
+	
+	vehicle_mass: 1500
+    
+ 
+    
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .laguna.chassis
+{
+	data_path: "/def/vehicle/ai/laguna/chassis.sii"
+}
+
+vehicle_wheel_accessory: .laguna.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_l.sii"
+}
+
+vehicle_wheel_accessory: .laguna.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_l.sii"
+}
+
+

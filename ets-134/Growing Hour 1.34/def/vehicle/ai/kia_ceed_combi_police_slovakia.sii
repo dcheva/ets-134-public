@@ -1,0 +1,34 @@
+traffic_vehicle : traffic.k_ceed_c.police.slovakia
+{
+	accessories[]: .k_ceed_c.police.slovakia.chassis
+	accessories[]: .k_ceed_c.police.slovakia.fwheel
+	accessories[]: .k_ceed_c.police.slovakia.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	lod_dist[]: 100
+
+	spawn_ratio: 0
+
+	vehicle_mass: 1800
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .k_ceed_c.police.slovakia.chassis
+{
+	data_path: "/def/vehicle/ai/kia_ceed_combi/chassis_police_slovakia.sii"
+}
+
+vehicle_wheel_accessory: .k_ceed_c.police.slovakia.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_2.sii"
+}
+
+vehicle_wheel_accessory: .k_ceed_c.police.slovakia.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_2.sii"
+}

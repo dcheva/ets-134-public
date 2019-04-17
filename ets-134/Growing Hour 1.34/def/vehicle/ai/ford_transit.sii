@@ -1,0 +1,42 @@
+traffic_vehicle : traffic.ford_transit
+{
+	accessories[]: .ford_transit.chassis
+	accessories[]: .ford_transit.fwheel
+	accessories[]: .ford_transit.rwheel
+
+	max_speed: 140
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+    spawn_ratio: 0.3
+	
+
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.0208, 0.0642, 0.2177) #blue
+	color[]: (0.1144, 0.1046, 0.0843) #light brown
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.8713, 0.8631, 0.8227) #white
+
+	vehicle_mass: 2500
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .ford_transit.chassis
+{
+	data_path: "/def/vehicle/ai/ford_transit/chassis.sii"
+}
+
+vehicle_wheel_accessory: .ford_transit.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_o.sii"
+}
+
+vehicle_wheel_accessory: .ford_transit.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_o.sii"
+}

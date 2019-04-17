@@ -1,0 +1,38 @@
+traffic_vehicle : traffic.jaguar_xf
+{
+	accessories[]: .jaguar_xf.chassis
+	accessories[]: .jaguar_xf.fwheel
+	accessories[]: .jaguar_xf.rwheel
+
+	max_speed: 62
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.0168, 0.0241, 0.0481) #dark blue
+	color[]: (0.1144, 0.1046, 0.0843) #light brown
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+
+	vehicle_mass: 2000
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .jaguar_xf.chassis
+{
+	data_path: "/def/vehicle/ai/jaguar_xf/chassis.sii"
+}
+
+vehicle_wheel_accessory: .jaguar_xf.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .jaguar_xf.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}

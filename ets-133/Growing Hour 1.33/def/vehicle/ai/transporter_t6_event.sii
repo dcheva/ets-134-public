@@ -1,0 +1,373 @@
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX door event XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.transport_t6.door
+{
+	accessories[]: .transport_t6.door.chassis
+	accessories[]: .transport_t6.door.fwheel
+	accessories[]: .transport_t6.door.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 2000
+	
+	color[]: (1, 1, 1) #white
+
+	
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transport_t6.door.chassis
+{
+	data_path: "/def/vehicle/ai/transporter_t6/door.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.door.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.door.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX door back event XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.transport_t6.door2
+{
+	accessories[]: .transport_t6.door2.chassis
+	accessories[]: .transport_t6.door2.fwheel
+	accessories[]: .transport_t6.door2.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 2000
+	
+	color[]: (1, 1, 1) #white
+
+	
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transport_t6.door2.chassis
+{
+	data_path: "/def/vehicle/ai/transporter_t6/door2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.door2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.door2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX l board XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.transport_t6.l_board
+{
+	accessories[]: .transport_t6.l_board.chassis
+	accessories[]: .transport_t6.l_board.fwheel
+	accessories[]: .transport_t6.l_board.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 2000
+	
+	color[]: (1, 1, 1) #white
+
+	
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transport_t6.l_board.chassis
+{
+	data_path: "/def/vehicle/ai/transporter_t6/event_l_board.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX l board uk (invert)XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.transport_t6.l_board2
+{
+	accessories[]: .transport_t6.l_board2.chassis
+	accessories[]: .transport_t6.l_board2.fwheel
+	accessories[]: .transport_t6.l_board2.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 2000
+	
+	color[]: (1, 1, 1) #white
+
+	
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transport_t6.l_board2.chassis
+{
+	data_path: "/def/vehicle/ai/transporter_t6/event_l_board_uk.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX l board < x XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.transport_t6.l_board_2
+{
+	accessories[]: .transport_t6.l_board_2.chassis
+	accessories[]: .transport_t6.l_board_2.fwheel
+	accessories[]: .transport_t6.l_board_2.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 2000
+	
+	color[]: (1, 1, 1) #white
+
+	
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transport_t6.l_board_2.chassis
+{
+	data_path: "/def/vehicle/ai/transporter_t6/event_l_board_x.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board_2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board_2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX l board x > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.transport_t6.l_board_3
+{
+	accessories[]: .transport_t6.l_board_3.chassis
+	accessories[]: .transport_t6.l_board_3.fwheel
+	accessories[]: .transport_t6.l_board_3.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 2000
+	
+	color[]: (1, 1, 1) #white
+
+	
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transport_t6.l_board_3.chassis
+{
+	data_path: "/def/vehicle/ai/transporter_t6/event_l_board_x2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board_3.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board_3.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX RANDOM EVENT XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX l board XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.transport_t6.l_board_e
+{
+	accessories[]: .transport_t6.l_board_e.chassis
+	accessories[]: .transport_t6.l_board_e.fwheel
+	accessories[]: .transport_t6.l_board_e.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 2000
+	
+	color[]: (1, 1, 1) #white
+
+	
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transport_t6.l_board_e.chassis
+{
+	data_path: "/def/vehicle/ai/transporter_t6/event_l_board_e.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board_e.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board_e.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX l board uk (invert)XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.transport_t6.l_board2_e
+{
+	accessories[]: .transport_t6.l_board2_e.chassis
+	accessories[]: .transport_t6.l_board2_e.fwheel
+	accessories[]: .transport_t6.l_board2_e.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 2000
+	
+	color[]: (1, 1, 1) #white
+
+	
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transport_t6.l_board2_e.chassis
+{
+	data_path: "/def/vehicle/ai/transporter_t6/event_l_board_uk_e.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board2_e.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board2_e.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX l board < x XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.transport_t6.l_board_2e
+{
+	accessories[]: .transport_t6.l_board_2e.chassis
+	accessories[]: .transport_t6.l_board_2e.fwheel
+	accessories[]: .transport_t6.l_board_2e.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 2000
+	
+	color[]: (1, 1, 1) #white
+
+	
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transport_t6.l_board_2e.chassis
+{
+	data_path: "/def/vehicle/ai/transporter_t6/event_l_board_xe.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board_2e.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board_2e.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX l board x > XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.transport_t6.l_board_3e
+{
+	accessories[]: .transport_t6.l_board_3e.chassis
+	accessories[]: .transport_t6.l_board_3e.fwheel
+	accessories[]: .transport_t6.l_board_3e.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 2000
+	
+	color[]: (1, 1, 1) #white
+
+	
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transport_t6.l_board_3e.chassis
+{
+	data_path: "/def/vehicle/ai/transporter_t6/event_l_board_x2e.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board_3e.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.l_board_3e.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}

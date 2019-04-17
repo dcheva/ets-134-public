@@ -1,0 +1,42 @@
+traffic_vehicle : traffic.panda
+{
+	accessories[]: .panda.chassis
+	accessories[]: .panda.fwheel
+	accessories[]: .panda.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2000
+
+	color[]: (0, 0.1122, 0.0354) #green
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.5902, 0.4279, 0.0168) #yellow
+	color[]: (0, 0.0527, 0.2177) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+
+	spawn_ratio: 0.00
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .panda.chassis
+{
+	data_path: "/def/vehicle/ai/panda/chassis.sii"
+}
+
+vehicle_wheel_accessory: .panda.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_15in_2.sii"
+}
+
+vehicle_wheel_accessory: .panda.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_15in_2.sii"
+}

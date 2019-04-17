@@ -1,0 +1,32 @@
+traffic_vehicle : traffic.k_ceed_c
+{
+	accessories[]: .k_ceed_c.chassis
+	accessories[]: .k_ceed_c.fwheel
+	accessories[]: .k_ceed_c.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	lod_dist[]: 100
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .k_ceed_c.chassis
+{
+	data_path: "/def/vehicle/ai/kia_ceed_combi/chassis.sii"
+}
+
+vehicle_wheel_accessory: .k_ceed_c.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_2.sii"
+}
+
+vehicle_wheel_accessory: .k_ceed_c.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_2.sii"
+}

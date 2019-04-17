@@ -1,0 +1,4 @@
+SiiNunit
+{
+@include "ai/city_cars.sii"
+}

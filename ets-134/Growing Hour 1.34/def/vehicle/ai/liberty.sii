@@ -1,0 +1,34 @@
+traffic_vehicle : traffic.liberty
+{
+	accessories[]: .liberty.chassis
+	accessories[]: .liberty.fwheel
+	accessories[]: .liberty.rwheel
+
+	max_speed: 80
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+
+	vehicle_mass: 200
+
+
+	
+}
+
+vehicle_accessory: .liberty.chassis
+{
+	data_path: "/def/vehicle/ai/liberty/chassis.sii"
+}
+
+vehicle_wheel_accessory: .liberty.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_10cm.sii"
+}
+
+vehicle_wheel_accessory: .liberty.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_10cm.sii"
+}
+

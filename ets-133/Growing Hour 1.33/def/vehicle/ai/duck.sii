@@ -1,0 +1,38 @@
+traffic_vehicle : traffic.duck
+{
+	accessories[]: .duck.chassis
+	accessories[]: .duck.fwheel
+	accessories[]: .duck.rwheel
+
+	max_speed: 115
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	spawn_ratio: 0.0
+
+	color[]: (0, 0.1122, 0.0354) #green
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.5902, 0.4279, 0.0168) #yellow
+	color[]: (0, 0.0527, 0.2177) #blue
+
+	vehicle_mass: 900
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .duck.chassis
+{
+	data_path: "/def/vehicle/ai/duck/chassis.sii"
+}
+
+vehicle_wheel_accessory: .duck.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/duck_front.sii"
+}
+
+vehicle_wheel_accessory: .duck.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/duck_rear.sii"
+}

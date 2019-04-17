@@ -1,0 +1,39 @@
+traffic_vehicle : traffic.santafe
+{
+	accessories[]: .santafe.chassis
+	accessories[]: .santafe.fwheel
+	accessories[]: .santafe.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0883, 0.0622, 0.0454) #brown
+	color[]: (0, 0.0263, 0.1347) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.1596, 0.0093, 0.0197) #red
+
+	vehicle_mass: 2000	
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .santafe.chassis
+{
+	data_path: "/def/vehicle/ai/santafe/chassis.sii"
+}
+
+vehicle_wheel_accessory: .santafe.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_santafe.sii"
+}
+
+vehicle_wheel_accessory: .santafe.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_santafe.sii"
+}

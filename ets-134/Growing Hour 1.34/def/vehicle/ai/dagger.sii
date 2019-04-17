@@ -1,0 +1,492 @@
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  cz  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.dagger.cz
+{
+	accessories[]: .dagger.cz.chassis
+	accessories[]: .dagger.cz.fwheel
+	accessories[]: .dagger.cz.rwheel
+
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"
+	
+}
+
+vehicle_accessory: .dagger.cz.chassis
+{
+	data_path: "/def/vehicle/ai/dagger/cz.sii"
+}
+
+vehicle_wheel_accessory: .dagger.cz.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_f.sii"
+}
+
+vehicle_wheel_accessory: .dagger.cz.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_r.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  de  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.dagger.de
+{
+	accessories[]: .dagger.de.chassis
+	accessories[]: .dagger.de.fwheel
+	accessories[]: .dagger.de.rwheel
+
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"
+	
+}
+
+vehicle_accessory: .dagger.de.chassis
+{
+	data_path: "/def/vehicle/ai/dagger/de.sii"
+}
+
+vehicle_wheel_accessory: .dagger.de.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_f.sii"
+}
+
+vehicle_wheel_accessory: .dagger.de.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_r.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  dk  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.dagger.dk
+{
+	accessories[]: .dagger.dk.chassis
+	accessories[]: .dagger.dk.fwheel
+	accessories[]: .dagger.dk.rwheel
+
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"
+	
+}
+
+vehicle_accessory: .dagger.dk.chassis
+{
+	data_path: "/def/vehicle/ai/dagger/dk.sii"
+}
+
+vehicle_wheel_accessory: .dagger.dk.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_f.sii"
+}
+
+vehicle_wheel_accessory: .dagger.dk.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_r.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  ee  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.dagger.ee
+{
+	accessories[]: .dagger.ee.chassis
+	accessories[]: .dagger.ee.fwheel
+	accessories[]: .dagger.ee.rwheel
+
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"
+	
+}
+
+vehicle_accessory: .dagger.ee.chassis
+{
+	data_path: "/def/vehicle/ai/dagger/ee.sii"
+}
+
+vehicle_wheel_accessory: .dagger.ee.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_f.sii"
+}
+
+vehicle_wheel_accessory: .dagger.ee.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_r.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  fi  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.dagger.fi
+{
+	accessories[]: .dagger.fi.chassis
+	accessories[]: .dagger.fi.fwheel
+	accessories[]: .dagger.fi.rwheel
+
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"
+	
+}
+
+vehicle_accessory: .dagger.fi.chassis
+{
+	data_path: "/def/vehicle/ai/dagger/fi.sii"
+}
+
+vehicle_wheel_accessory: .dagger.fi.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_f.sii"
+}
+
+vehicle_wheel_accessory: .dagger.fi.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_r.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  fr  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.dagger.fr
+{
+	accessories[]: .dagger.fr.chassis
+	accessories[]: .dagger.fr.fwheel
+	accessories[]: .dagger.fr.rwheel
+
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"
+	
+}
+
+vehicle_accessory: .dagger.fr.chassis
+{
+	data_path: "/def/vehicle/ai/dagger/fr.sii"
+}
+
+vehicle_wheel_accessory: .dagger.fr.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_f.sii"
+}
+
+vehicle_wheel_accessory: .dagger.fr.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_r.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  it  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.dagger.it
+{
+	accessories[]: .dagger.it.chassis
+	accessories[]: .dagger.it.fwheel
+	accessories[]: .dagger.it.rwheel
+
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"
+	
+}
+
+vehicle_accessory: .dagger.it.chassis
+{
+	data_path: "/def/vehicle/ai/dagger/it.sii"
+}
+
+vehicle_wheel_accessory: .dagger.it.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_f.sii"
+}
+
+vehicle_wheel_accessory: .dagger.it.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_r.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  lv  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.dagger.lv
+{
+	accessories[]: .dagger.lv.chassis
+	accessories[]: .dagger.lv.fwheel
+	accessories[]: .dagger.lv.rwheel
+
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"
+	
+}
+
+vehicle_accessory: .dagger.lv.chassis
+{
+	data_path: "/def/vehicle/ai/dagger/lv.sii"
+}
+
+vehicle_wheel_accessory: .dagger.lv.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_f.sii"
+}
+
+vehicle_wheel_accessory: .dagger.lv.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_r.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  no  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.dagger.no
+{
+	accessories[]: .dagger.no.chassis
+	accessories[]: .dagger.no.fwheel
+	accessories[]: .dagger.no.rwheel
+
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"
+	
+}
+
+vehicle_accessory: .dagger.no.chassis
+{
+	data_path: "/def/vehicle/ai/dagger/no.sii"
+}
+
+vehicle_wheel_accessory: .dagger.no.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_f.sii"
+}
+
+vehicle_wheel_accessory: .dagger.no.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_r.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  ru  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.dagger.ru
+{
+	accessories[]: .dagger.ru.chassis
+	accessories[]: .dagger.ru.fwheel
+	accessories[]: .dagger.ru.rwheel
+
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"
+	
+}
+
+vehicle_accessory: .dagger.ru.chassis
+{
+	data_path: "/def/vehicle/ai/dagger/ru.sii"
+}
+
+vehicle_wheel_accessory: .dagger.ru.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_f.sii"
+}
+
+vehicle_wheel_accessory: .dagger.ru.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_r.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  se  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.dagger.se
+{
+	accessories[]: .dagger.se.chassis
+	accessories[]: .dagger.se.fwheel
+	accessories[]: .dagger.se.rwheel
+
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"
+	
+}
+
+vehicle_accessory: .dagger.se.chassis
+{
+	data_path: "/def/vehicle/ai/dagger/se.sii"
+}
+
+vehicle_wheel_accessory: .dagger.se.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_f.sii"
+}
+
+vehicle_wheel_accessory: .dagger.se.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_r.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  sk  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.dagger.sk
+{
+	accessories[]: .dagger.sk.chassis
+	accessories[]: .dagger.sk.fwheel
+	accessories[]: .dagger.sk.rwheel
+
+
+	max_speed: 100
+	
+
+	engine_torque: 2300
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_ratio: 0
+
+	vehicle_mass: 25000
+@include "drivers_generic_police.sui"
+	
+}
+
+vehicle_accessory: .dagger.sk.chassis
+{
+	data_path: "/def/vehicle/ai/dagger/sk.sii"
+}
+
+vehicle_wheel_accessory: .dagger.sk.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_f.sii"
+}
+
+vehicle_wheel_accessory: .dagger.sk.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/dagger_r.sii"
+}
+

@@ -1,0 +1,87 @@
+traffic_vehicle : traffic.octavia_iii
+{
+	accessories[]: .octavia_iii.chassis
+	accessories[]: .octavia_iii.fwheel
+	accessories[]: .octavia_iii.rwheel
+
+	max_speed: 65
+
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0717, 0.06, 0.0657) #brown
+	color[]: (0.2345, 0.2086, 0.1811) #light_brown
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	color[]: (0, 0.0527, 0.2177) #blue
+	
+	
+	lod_dist[]: 50
+	lod_dist[]: 80
+	lod_dist[]: 100
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .octavia_iii.chassis
+{
+	data_path: "/def/vehicle/ai/skoda_octavia_iii/chassis.sii"
+}
+
+vehicle_wheel_accessory: .octavia_iii.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .octavia_iii.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXXXX hook XXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.octavia_iii.hook
+{
+	accessories[]: .octavia_iii.hook.chassis
+	accessories[]: .octavia_iii.hook.fwheel
+	accessories[]: .octavia_iii.hook.rwheel
+
+	max_speed: 77
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0717, 0.06, 0.0657) #brown
+	color[]: (0.2345, 0.2086, 0.1811) #light_brown
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	color[]: (0, 0.0527, 0.2177) #blue
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	lod_dist[]: 100
+	
+	attachable_trailer[]: "trailer.ai_car*"
+	allow_parked: false
+	trailer_count[]: 1
+	
+	spawn_ratio: 0.1
+	
+	vehicle_mass: 1800
+	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .octavia_iii.hook.chassis
+{
+	data_path: "/def/vehicle/ai/skoda_octavia_iii/hook.sii"
+}
+
+vehicle_wheel_accessory: .octavia_iii.hook.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .octavia_iii.hook.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}

@@ -1,0 +1,269 @@
+#
+#	CARGO TANK
+#
+
+traffic_trailer : train_car.cargo.tank
+{
+	accessories[]: .cargo.tank.tchassis
+	accessories[]: .cargo.tank.trwheel0
+	accessories[]: .cargo.tank.trwheel1
+	accessories[]: .cargo.tank.trwheel2
+	accessories[]: .cargo.tank.trwheel3
+
+	attachable_trailer[]: "train_car.cargo.*"
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .cargo.tank.tchassis
+{
+    	data_path: "/def/vehicle/ai/train_cars/chassis_tank.sii"
+}
+
+vehicle_wheel_accessory: .cargo.tank.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.tank.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.tank.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.tank.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+#
+#	CARGO FLAT
+#
+
+traffic_trailer : train_car.cargo.flat
+{
+	accessories[]: .cargo.flat.tchassis
+	accessories[]: .cargo.flat.trwheel0
+	accessories[]: .cargo.flat.trwheel1
+	accessories[]: .cargo.flat.trwheel2
+	accessories[]: .cargo.flat.trwheel3
+
+	attachable_trailer[]: "train_car.cargo.*"
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .cargo.flat.tchassis
+{
+    	data_path: "/def/vehicle/ai/train_cars/chassis_flat.sii"
+}
+
+vehicle_wheel_accessory: .cargo.flat.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.flat.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.flat.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.flat.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+#
+#	CARGO DUMP
+#
+
+traffic_trailer : train_car.cargo.dump
+{
+	accessories[]: .cargo.dump.tchassis
+	accessories[]: .cargo.dump.trwheel0
+	accessories[]: .cargo.dump.trwheel1
+	accessories[]: .cargo.dump.trwheel2
+	accessories[]: .cargo.dump.trwheel3
+
+	attachable_trailer[]: "train_car.cargo.*"
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .cargo.dump.tchassis
+{
+    	data_path: "/def/vehicle/ai/train_cars/chassis_dump.sii"
+}
+
+vehicle_wheel_accessory: .cargo.dump.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.dump.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.dump.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.dump.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+#
+#	CARGO CONTAINER
+#
+
+traffic_trailer : train_car.cargo.container
+{
+	accessories[]: .cargo.container.tchassis
+	accessories[]: .cargo.container.trwheel0
+	accessories[]: .cargo.container.trwheel1
+	accessories[]: .cargo.container.trwheel2
+	accessories[]: .cargo.container.trwheel3
+
+	attachable_trailer[]: "train_car.cargo.*"
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .cargo.container.tchassis
+{
+    	data_path: "/def/vehicle/ai/train_cars/chassis_container.sii"
+}
+
+vehicle_wheel_accessory: .cargo.container.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.container.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.container.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.container.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+#
+#	CARGO CHEM
+#
+
+traffic_trailer : train_car.cargo.chem
+{
+	accessories[]: .cargo.chem.tchassis
+	accessories[]: .cargo.chem.trwheel0
+	accessories[]: .cargo.chem.trwheel1
+	accessories[]: .cargo.chem.trwheel2
+	accessories[]: .cargo.chem.trwheel3
+
+	attachable_trailer[]: "train_car.cargo.*"
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .cargo.chem.tchassis
+{
+    	data_path: "/def/vehicle/ai/train_cars/chassis_chem.sii"
+}
+
+vehicle_wheel_accessory: .cargo.chem.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.chem.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.chem.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.chem.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+#
+#	CARGO BOX
+#
+
+traffic_trailer : train_car.cargo.box
+{
+	accessories[]: .cargo.box.tchassis
+	accessories[]: .cargo.box.trwheel0
+	accessories[]: .cargo.box.trwheel1
+	accessories[]: .cargo.box.trwheel2
+	accessories[]: .cargo.box.trwheel3
+
+	attachable_trailer[]: "train_car.cargo.*"
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .cargo.box.tchassis
+{
+    	data_path: "/def/vehicle/ai/train_cars/chassis_box.sii"
+}
+
+vehicle_wheel_accessory: .cargo.box.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.box.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.box.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}
+
+vehicle_wheel_accessory: .cargo.box.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/train_cars.sii"
+}

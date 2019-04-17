@@ -1,0 +1,58 @@
+traffic_vehicle : traffic.ice_loco
+{
+	accessories[]: .ice_loco.chassis
+	accessories[]: .ice_loco.fwheel
+	accessories[]: .ice_loco.rwheel
+	accessories[]: .ice_loco.rwheel2
+	accessories[]: .ice_loco.rwheel3
+
+	max_speed: 300 
+
+	vehicle_mass: 70000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 35000
+
+	attachable_trailer[]: "train_car.ice_car"
+	trailer_count[]: 5
+	trailer_count[]: 6
+
+	displacement_limit: 0.0
+
+    spawn_ratio: 0.0
+    
+	lod_dist[]: 50
+	lod_dist[]: 75
+	lod_dist[]: 120
+
+}
+
+vehicle_accessory: .ice_loco.chassis
+{
+	data_path: "/def/vehicle/ai/train_ice/chassis_l.sii"
+}
+
+vehicle_wheel_accessory: .ice_loco.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ice_loco.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ice_loco.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ice_loco.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

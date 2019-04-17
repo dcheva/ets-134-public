@@ -1,0 +1,47 @@
+traffic_vehicle : traffic.premium_b4x2
+{
+	accessories[]: .premium_b4x2.chassis
+	accessories[]: .premium_b4x2.fwheel
+	accessories[]: .premium_b4x2.rwheel
+	accessories[]: .premium_b4x2.trlr_cables
+
+	max_speed: 90
+	attachable_trailer[]: ""
+
+	engine_torque: 2040
+
+	#color from upgrade shop
+	color[]: (0.0948, 0.101, 0.1102) #gray
+	color[]: (0.8307, 0.8307, 0.8307) #white
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.0251, 0.0578, 0.1328) #blue
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	vehicle_mass: 7440
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .premium_b4x2.chassis
+{
+	data_path: "/def/vehicle/ai/truck/renault.premium/b4x2.sii"
+}
+
+vehicle_wheel_accessory: .premium_b4x2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .premium_b4x2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+vehicle_addon_accessory : .premium_b4x2.trlr_cables
+{
+	data_path: "/def/vehicle/ai/truck/renault.premium/accessory/trlr_cables/stock.sii"
+}

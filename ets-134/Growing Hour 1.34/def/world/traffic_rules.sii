@@ -1,0 +1,558 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+@include "traffic_rules_spawn.sui"
+
+traffic_rule_data : traffic_rule.major_road
+{
+	name: "Priority road"
+
+	rule: "priority"
+	num_params[]: -1
+	num_params[]: 0
+	num_params[]: 2
+}
+
+traffic_rule_data : traffic_rule.minor_road
+{
+	rule: "priority"
+	num_params[]: -1
+	num_params[]: 0
+	num_params[]: 1
+}
+
+traffic_rule_data : traffic_rule.give_way
+{
+	name: "Give way (crossroad - slow down)"
+
+	rule: "stop"
+	num_params[]: 0.0	# block time after reaching 'stop speed'
+	num_params[]: 8.0	# block while speed is higher than this [m/s] 
+
+	additional_rules[]: traffic_rule.minor_road
+}
+
+traffic_rule_data : traffic_rule.give_way_m
+{
+	name: "Give way (motorway lane merge)"
+
+	additional_rules[]: traffic_rule.minor_road
+}
+
+
+traffic_rule_data : traffic_rule.stop
+{
+	# Use this rule for both horizontal (road text) and vertical (traffic signs) 'stop' traffic rules
+	# The actual vehicle stop position is moved to a nearby intersection or 'traffic_rule.cross_line' (if any)
+
+	name: "Stop"
+
+	rule: "stop"
+	num_params[]: 0.5	# block time after reaching 'stop speed'
+	num_params[]: 0.5	# block while speed is higher than this [m/s] 
+
+	additional_rules[]: traffic_rule.minor_road
+}
+
+traffic_rule_data : traffic_rule.cross_line
+{
+	# Use this rule for (horizontal) crossroad traffic lines
+	# NOTE: This rule does nothing by itself!
+	# It only makes vehicles stop at the line if there is 'traffic_rule.stop' nearby or an intersection ahead
+
+	name: "Crossroad stop line"
+
+	rule: "property"
+	num_params[]: 7
+}
+
+traffic_rule_data : traffic_rule.cross_line_s
+{
+	# Combined crossroad line and stop rule
+
+	name: "Crossroad line + stop rule"
+
+	additional_rules[]: traffic_rule.cross_line
+	additional_rules[]: traffic_rule.stop
+}
+
+traffic_rule_data : traffic_rule.rblock_left
+{
+	rule: "road_block"
+	num_params[]: -1
+}
+
+traffic_rule_data : traffic_rule.rblock_right
+{
+	rule: "road_block"
+	num_params[]: 1
+}
+
+traffic_rule_data : traffic_rule.limit_end
+{
+	name: "End of speed limit"
+
+	rule: "speed_limit"
+	num_params[]: 0
+}
+
+traffic_rule_data : traffic_rule.no_priority
+{
+	name: "Reset priority"
+
+	num_params[]: 0
+	num_params[]: 0
+	num_params[]: 0
+}
+
+traffic_rule_data : traffic_rule.cross_end
+{
+	name: "Crossroad end (reset speed limit and priority)"
+
+	additional_rules[]: traffic_rule.limit_end
+	additional_rules[]: traffic_rule.no_priority
+}
+
+traffic_rule_data : traffic_rule.limit_20
+{
+	name: "Speed limit 20"
+
+	rule: "speed_limit"
+	num_params[]: 20
+}
+
+traffic_rule_data : traffic_rule.limit_30
+{
+	name: "Speed limit 30"
+
+	rule: "speed_limit"
+	num_params[]: 30
+}
+
+traffic_rule_data : traffic_rule.limit_40
+{
+	name: "Speed limit 40"
+
+	rule: "speed_limit"
+	num_params[]: 40
+}
+
+traffic_rule_data : traffic_rule.limit_50
+{
+	name: "Speed limit 50"
+
+	rule: "speed_limit"
+	num_params[]: 50
+}
+
+traffic_rule_data : traffic_rule.limit_60
+{
+	name: "Speed limit 60"
+
+	rule: "speed_limit"
+	num_params[]: 60
+}
+
+traffic_rule_data : traffic_rule.limit_70
+{
+	name: "Speed limit 70"
+
+	rule: "speed_limit"
+	num_params[]: 70
+}
+
+traffic_rule_data : traffic_rule.limit_80
+{
+	name: "Speed limit 80"
+
+	rule: "speed_limit"
+	num_params[]: 80
+}
+
+traffic_rule_data : traffic_rule.limit_90
+{
+	name: "Speed limit 90"
+
+	rule: "speed_limit"
+	num_params[]: 90
+}
+
+traffic_rule_data : traffic_rule.limit_100
+{
+	name: "Speed limit 100"
+
+	rule: "speed_limit"
+	num_params[]: 100
+}
+
+traffic_rule_data : traffic_rule.limit_110
+{
+	name: "Speed limit 110"
+
+	rule: "speed_limit"
+	num_params[]: 110
+}
+
+traffic_rule_data : traffic_rule.limit_120
+{
+	name: "Speed limit 120"
+
+	rule: "speed_limit"
+	num_params[]: 120
+}
+
+traffic_rule_data : traffic_rule.limit_130
+{
+	name: "Speed limit 130"
+
+	rule: "speed_limit"
+	num_params[]: 130
+}
+
+traffic_rule_data : traffic_rule.urban_area
+{
+	rule: "property"
+	num_params[]: 5
+}
+
+traffic_rule_data : traffic_rule.no_trucks
+{
+	name: "No trucks area"
+	rule: "actor_access"
+	num_params[]: 0 	# 0 - disallow, 1 - allow
+	num_params[]: 0 	# 0 - inclusive, 1 - exclusive
+	str_params[]: "truck"
+}
+
+
+traffic_rule_data : traffic_rule.trucks_only
+{
+	name: "Allow trucks only"
+	rule: "actor_access"
+	num_params[]: 1 	# 0 - disallow, 1 - allow
+	num_params[]: 1 	# 0 - inclusive, 1 - exclusive
+	num_params[]: 1 	# set vehicle access
+	num_params[]: 0 	# no change to trailer access
+	str_params[]: "truck"
+	str_params[]: "truck_city"
+}
+
+
+
+traffic_rule_data : traffic_rule.no_buses
+{
+	name: "No bus area"
+	rule: "actor_access"
+	num_params[]: 0 	# 0 - disallow, 1 - allow
+	num_params[]: 0 	# 0 - inclusive, 1 - exclusive
+	str_params[]: "bus"
+}
+
+traffic_rule_data : traffic_rule.city_xl_area
+{
+	name: "Urban area - Large city (very high traffic density)"
+
+	additional_rules[]: traffic_rule.urban_area
+#	additional_rules[]: traffic_rule.s_slow_no // 
+	additional_rules[]: traffic_rule.s_car_uh
+	additional_rules[]: traffic_rule.s_truck_u
+	additional_rules[]: traffic_rule.s_police_u
+	additional_rules[]: traffic_rule.s_bus_h
+	
+	additional_rules[]: traffic_rule.rudi_cars_u // rudi
+}
+
+traffic_rule_data : traffic_rule.city_area
+{
+	name: "Urban area - City (high traffic density)"
+
+	additional_rules[]: traffic_rule.urban_area
+#	additional_rules[]: traffic_rule.s_slow_no // 
+	additional_rules[]: traffic_rule.s_car_u
+	additional_rules[]: traffic_rule.s_truck_u
+	additional_rules[]: traffic_rule.s_police_u
+	additional_rules[]: traffic_rule.s_bus_l
+	
+	additional_rules[]: traffic_rule.rudi_cars_u // rudi
+}
+
+traffic_rule_data : traffic_rule.village_area
+{
+	name: "Urban area - Village (low traffic density)"
+
+	# No traffic density change
+
+	additional_rules[]: traffic_rule.urban_area
+}
+
+traffic_rule_data : traffic_rule.city_centre
+{
+	name: "Urban area - City Centre (city-specific vehicles)"
+
+	rule: "actor_access"
+	num_params[]: 1 # 0 - disallow, 1 - allow
+	num_params[]: 0 # 0 - inclusive, 1 - exclusive
+	str_params[]: "city_centre"
+
+	additional_rules[]: traffic_rule.s_car_c_u
+	additional_rules[]: traffic_rule.s_truck_c_u
+	
+	additional_rules[]: traffic_rule.rudi_cars_u // rudi
+}
+
+traffic_rule_data : traffic_rule.city_start
+{
+	name: "City start"
+	rule: "property"
+	num_params[]: 11
+	additional_rules[]: traffic_rule.limit_end
+}
+
+traffic_rule_data : traffic_rule.city_end
+{
+	name: "City end"
+	rule: "property"
+	num_params[]: 6
+	additional_rules[]: traffic_rule.limit_end
+}
+
+traffic_rule_data : traffic_rule.major_road_s
+{
+	name: "City start + priority road"
+
+	additional_rules[]: traffic_rule.city_start
+	additional_rules[]: traffic_rule.major_road
+}
+
+traffic_rule_data : traffic_rule.major_road_e
+{
+	name: "City end + priority road"
+
+	additional_rules[]: traffic_rule.city_end
+	additional_rules[]: traffic_rule.major_road
+}
+
+traffic_rule_data : traffic_rule.motorway
+{
+	name: "Motorway start"
+
+	additional_rules[]: traffic_rule.limit_end
+}
+
+traffic_rule_data : traffic_rule.motorway_end
+{
+	name: "Motorway end"
+
+	additional_rules[]: traffic_rule.limit_end
+}
+
+traffic_rule_data : traffic_rule.lane_join
+{
+	name: "Lane join"
+	rule: "property"
+	num_params[]: 17
+
+	additional_rules[]: traffic_rule.limit_end
+}
+
+traffic_rule_data : traffic_rule.lane_split
+{
+	name: "Lane split"
+	rule: "property"
+	num_params[]: 16
+}
+
+traffic_rule_data : traffic_rule.lane_add_o
+{
+	name: "New outer lane added"
+
+	additional_rules[]: traffic_rule.limit_end
+}
+
+traffic_rule_data : traffic_rule.lane_add_i
+{
+	name: "New inner lane added"
+
+	additional_rules[]: traffic_rule.limit_end
+}
+
+traffic_rule_data : traffic_rule.no_ai_turn
+{
+	name: "No AI turn"
+
+	additional_rules[]: traffic_rule.no_ai_left
+	additional_rules[]: traffic_rule.no_ai_right
+}
+
+traffic_rule_data : traffic_rule.no_ai_left
+{
+	name: "No AI left"
+	rule: "property"
+	num_params[]: 18
+}
+
+traffic_rule_data : traffic_rule.no_ai_right
+{
+	name: "No AI right"
+	rule: "property"
+	num_params[]: 20
+}
+
+traffic_rule_data : traffic_rule.no_ai_str
+{
+	name: "No AI straight"
+	rule: "property"
+	num_params[]: 22
+}
+
+traffic_rule_data : traffic_rule.low_pb_turn
+{
+	name: "Low probability AI turn"
+
+	additional_rules[]: traffic_rule.low_pb_left
+	additional_rules[]: traffic_rule.low_pb_right
+}
+
+traffic_rule_data : traffic_rule.low_pb_left
+{
+	name: "Low probability AI left"
+	rule: "property"
+	num_params[]: 19
+}
+
+traffic_rule_data : traffic_rule.low_pb_right
+{
+	name: "Low probability AI right"
+	rule: "property"
+	num_params[]: 21
+}
+
+traffic_rule_data : traffic_rule.low_pb_str
+{
+	name: "Low probability AI straight"
+	rule: "property"
+	num_params[]: 23
+}
+
+traffic_rule_data : traffic_rule.allow_slow
+{
+	name: "Allow slow vehicles"
+	rule: "actor_access"
+	num_params[]: 1 	# 0 - disallow, 1 - allow
+	num_params[]: 0 	# 0 - inclusive, 1 - exclusive
+	str_params[]: "slow"
+	str_params[]: "simple"
+	
+	additional_rules[]: traffic_rule.s_slow
+	
+}
+
+traffic_rule_data : traffic_rule.road
+{
+	rule: "actor_access"
+	num_params[]: 1 	# 0 - disallow, 1 - allow
+	num_params[]: 0 	# 0 - inclusive, 1 - exclusive
+	str_params[]: "road"
+}
+
+traffic_rule_data : traffic_rule.rail_train
+{
+	rule: "actor_access"
+	num_params[]: 1 	# 0 - disallow, 1 - allow
+	num_params[]: 1 	# 0 - inclusive, 1 - exclusive
+	str_params[]: "rail_train"
+}
+
+traffic_rule_data : traffic_rule.rail_tram
+{
+	rule: "actor_access"
+	num_params[]: 1 	# 0 - disallow, 1 - allow
+	num_params[]: 1 	# 0 - inclusive, 1 - exclusive
+	str_params[]: "rail_tram"
+}
+
+
+traffic_rule_data : traffic_rule.allow_tram
+{
+	name: "Allow trams"
+	rule: "actor_access"
+	num_params[]: 1 	# 0 - disallow, 1 - allow
+	num_params[]: 0 	# 0 - inclusive, 1 - exclusive
+	str_params[]: "rail_tram"
+
+	additional_rules[]: traffic_rule.s_tram
+}
+
+
+traffic_rule_data : traffic_rule.physics
+{
+	name: "Force physics"
+	rule: "property"
+	num_params[]: 25
+}
+
+traffic_rule_data : traffic_rule.overtake_alw
+{
+	# Allow overtaking
+	rule: "property"    #überholen
+	num_params[]: 2     #überholen
+}
+
+traffic_rule_data : traffic_rule.no_lane_chng
+{
+	# No lane change
+	rule: "property"
+	num_params[]: 0
+	num_params[]: 1
+}
+
+traffic_rule_data : traffic_rule.es_fr_only
+{
+	name: "Front escort vehicles only"
+	rule: "actor_access"
+	num_params[]: 1 	# 0 - disallow, 1 - allow
+	num_params[]: 1 	# 0 - inclusive, 1 - exclusive
+	str_params[]: "escort_front"
+}
+
+traffic_rule_data : traffic_rule.es_ba_only
+{
+	name: "Back escort vehicles only"
+	rule: "actor_access"
+	num_params[]: 1 	# 0 - disallow, 1 - allow
+	num_params[]: 1 	# 0 - inclusive, 1 - exclusive
+	str_params[]: "escort_back"
+	
+
+}
+
+traffic_rule_data : traffic_rule.escort_only
+{
+	name: "Escort vehicles only"
+	rule: "actor_access"
+	num_params[]: 1 	# 0 - disallow, 1 - allow
+	num_params[]: 1 	# 0 - inclusive, 1 - exclusive
+	str_params[]: "escort_front"
+	str_params[]: "escort_back"
+}
+
+traffic_rule_data : traffic_rule.no_escort
+{
+	name: "No escort vehicles"
+	rule: "actor_access"
+	num_params[]: 0 	# 0 - disallow, 1 - allow
+	num_params[]: 0 	# 0 - inclusive, 1 - exclusive
+	str_params[]: "escort_front"
+	str_params[]: "escort_back"
+	
+	
+}
+
+}

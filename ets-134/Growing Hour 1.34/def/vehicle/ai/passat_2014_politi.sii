@@ -1,0 +1,34 @@
+traffic_vehicle : traffic.passat_2014.politi
+{
+	accessories[]: .passat_2014.politi.chassis
+	accessories[]: .passat_2014.politi.fwheel
+	accessories[]: .passat_2014.politi.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+    spawn_ratio: 0
+
+	vehicle_mass: 2000
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .passat_2014.politi.chassis
+{
+	data_path: "/def/vehicle/ai/passat_2014/chassis_politi.sii"
+}
+
+vehicle_wheel_accessory: .passat_2014.politi.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_1.sii"
+}
+
+vehicle_wheel_accessory: .passat_2014.politi.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_1.sii"
+}
+

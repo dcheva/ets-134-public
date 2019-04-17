@@ -1,0 +1,18 @@
+traffic_trailer : trailer.tractor.wheat
+{
+	accessories[]: .tractor_trw.rwheel0
+	accessories[]: .tractor_trw.chassis.wheat
+
+	cargo_mass: 8000
+}
+
+vehicle_accessory: .tractor_trw.chassis.wheat
+{
+    	data_path: "/def/vehicle/ai/tractor_trailer/chassis_wheat.sii"
+}
+
+vehicle_wheel_accessory: .tractor_trw.rwheel0
+{
+	offset: 0
+    data_path: "/def/vehicle/ai_wheel/tractor_trailer.sii"
+}

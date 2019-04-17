@@ -1,0 +1,45 @@
+traffic_vehicle : traffic.huracan
+{
+	accessories[]: .huracan.chassis
+	accessories[]: .huracan.fwheel
+	accessories[]: .huracan.rwheel
+
+	max_speed: 260
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2000
+
+    spawn_ratio: 0.01
+    
+	color[]: (1, 0.653, 0)
+	color[]: (0.9573, 0.1932, 0.026)
+	color[]: (0.0062, 0.8264, 0)
+	color[]: (0.6884, 0, 0)
+	color[]: (0.0156, 0.3225, 0.6994)
+	color[]: (0, 0.1637, 0.6884)
+	color[]: (0.13, 0.13, 0.13)
+	color[]: (0.4451, 0.4451, 0.4451)
+	color[]: (0.0081, 0.0081, 0.0081)
+	color[]: (1, 1, 1)
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .huracan.chassis
+{
+	data_path: "/def/vehicle/ai/huracan/chassis.sii"
+}
+
+vehicle_wheel_accessory: .huracan.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/huracan_front_b.sii"
+}
+
+vehicle_wheel_accessory: .huracan.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/huracan_rear_b.sii"
+}

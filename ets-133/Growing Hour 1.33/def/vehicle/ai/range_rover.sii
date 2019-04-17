@@ -1,0 +1,85 @@
+traffic_vehicle : traffic.range_rover
+{
+	accessories[]: .range_rover.chassis
+	accessories[]: .range_rover.fwheel
+	accessories[]: .range_rover.rwheel
+
+	max_speed: 150
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0382, 0.0318, 0.0273) #brown
+	color[]: (0, 0.0263, 0.1347) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.1596, 0.0093, 0.0197) #red
+
+	vehicle_mass: 2200
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .range_rover.chassis
+{
+	data_path: "/def/vehicle/ai/range_rover/chassis.sii"
+}
+
+vehicle_wheel_accessory: .range_rover.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_20in.sii"
+}
+
+vehicle_wheel_accessory: .range_rover.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_20in.sii"
+}
+
+# XXXXXXXXXXXXXXXXX  hook  XXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.range_rover.hook
+{
+	accessories[]: .range_rover.hook.chassis
+	accessories[]: .range_rover.hook.fwheel
+	accessories[]: .range_rover.hook.rwheel
+
+	max_speed: 80
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	attachable_trailer[]: "trailer.ai_car*"
+	trailer_count[]: 1
+	allow_parked: false
+	spawn_ratio: 0.1
+	
+	vehicle_mass: 2200
+	
+	color[]: (0.0006, 0.0021, 0.0043) #black
+	color[]: (0.0382, 0.0318, 0.0273) #brown
+	color[]: (0, 0.0263, 0.1347) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.1596, 0.0093, 0.0197) #red
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .range_rover.hook.chassis
+{
+	data_path: "/def/vehicle/ai/range_rover/hook.sii"
+}
+
+vehicle_wheel_accessory: .range_rover.hook.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_20in.sii"
+}
+
+vehicle_wheel_accessory: .range_rover.hook.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_20in.sii"
+}

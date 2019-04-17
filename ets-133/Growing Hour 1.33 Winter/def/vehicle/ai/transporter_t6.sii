@@ -1,0 +1,136 @@
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX generic XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.transport_t6
+{
+	accessories[]: .transport_t6.chassis
+	accessories[]: .transport_t6.fwheel
+	accessories[]: .transport_t6.rwheel
+
+	max_speed: 58
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: true
+	vehicle_mass: 2000
+	spawn_ratio: 0.5
+	
+	color[]: (1, 1, 1) #white
+	#color[]: (0.5906, 0.4507, 0.0437) #yellow
+	color[]: (0.0886, 0.0908, 0.0953) #silver
+	color[]: (0.3047, 0.0197, 0.0214) #red
+	color[]: (0.0012, 0.0529, 0.2299)  #blue
+	#color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0802, 0.0307, 0.0109)  #brown
+	#color[]: (0.0481, 0.0843, 0.0802) #green
+	
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transport_t6.chassis
+{
+	data_path: "/def/vehicle/ai/transporter_t6/generic.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX generic hook XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.transport_t6.hook
+{
+	accessories[]: .transport_t6.hook.chassis
+	accessories[]: .transport_t6.hook.fwheel
+	accessories[]: .transport_t6.hook.rwheel
+
+	max_speed: 77
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 2000
+	
+	attachable_trailer[]: "trailer.ai_car*"
+	trailer_count[]: 1
+	spawn_ratio: 0.05
+	
+	color[]: (1, 1, 1) #white
+	#color[]: (0.5906, 0.4507, 0.0437) #yellow
+	color[]: (0.0886, 0.0908, 0.0953) #silver
+	color[]: (0.3047, 0.0197, 0.0214) #red
+	color[]: (0.0012, 0.0529, 0.2299)  #blue
+	#color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0802, 0.0307, 0.0109)  #brown
+	#color[]: (0.0481, 0.0843, 0.0802) #green
+	
+	#variant[]: traffic.transport_t6.hook_ev
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transport_t6.hook.chassis
+{
+	data_path: "/def/vehicle/ai/transporter_t6/hook.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.hook.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.hook.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}
+
+
+traffic_vehicle : traffic.transport_t6.hook_ev
+{
+	accessories[]: .transport_t6.hook_ev.chassis
+	accessories[]: .transport_t6.hook_ev.fwheel
+	accessories[]: .transport_t6.hook_ev.rwheel
+
+	max_speed: 77
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	vehicle_mass: 2000
+	
+	attachable_trailer[]: "trailer.a1_l_t*"
+	trailer_count[]: 1
+	spawn_ratio: 0.1
+
+	color[]: (1, 1, 1) #white
+	color[]: (1, 1, 1) #white
+	color[]: (1, 1, 1) #white
+	color[]: (0.5906, 0.4507, 0.0437) #yellow
+	
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .transport_t6.hook_ev.chassis
+{
+	data_path: "/def/vehicle/ai/transporter_t6/event_hook.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.hook_ev.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .transport_t6.hook_ev.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}

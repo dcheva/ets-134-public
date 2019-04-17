@@ -1,0 +1,91 @@
+traffic_vehicle : traffic.vw_touran
+{
+	accessories[]: .vw_touran.chassis
+	accessories[]: .vw_touran.fwheel
+	accessories[]: .vw_touran.rwheel
+
+	max_speed: 69
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	lod_dist[]: 100
+
+	color[]: (0.277, 0, 0.0113) #red
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.1039, 0.0692, 0.0442) #brown
+	#color[]: (0.0685, 0.1487, 0.2398) #light blue
+	color[]: (0, 0.0527, 0.2177) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white	
+
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .vw_touran.chassis
+{
+	data_path: "/def/vehicle/ai/vw_touran/chassis.sii"
+}
+
+vehicle_wheel_accessory: .vw_touran.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_l.sii"
+}
+
+vehicle_wheel_accessory: .vw_touran.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_l.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXX hook XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.vw_touran.hook
+{
+	accessories[]: .vw_touran.hook.chassis
+	accessories[]: .vw_touran.hook.fwheel
+	accessories[]: .vw_touran.hook.rwheel
+
+	max_speed: 77
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	lod_dist[]: 100
+	
+	attachable_trailer[]: "trailer.ai_car*"
+	allow_parked: false
+	trailer_count[]: 1
+	
+	spawn_ratio: 0.1
+
+	color[]: (0.1844, 0, 0.0085) #red
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0761, 0.0512, 0.0331) #brown
+	color[]: (0.1022, 0.1714, 0.2422) #light blue
+	color[]: (0, 0.0527, 0.2177) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white	
+
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .vw_touran.hook.chassis
+{
+	data_path: "/def/vehicle/ai/vw_touran/hook.sii"
+}
+
+vehicle_wheel_accessory: .vw_touran.hook.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_l.sii"
+}
+
+vehicle_wheel_accessory: .vw_touran.hook.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_l.sii"
+}

@@ -1,0 +1,127 @@
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX left door open XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+traffic_vehicle : traffic.ford_smax.ev_l
+{
+	accessories[]: .ford_smax.ev_l.chassis
+	accessories[]: .ford_smax.ev_l.fwheel
+	accessories[]: .ford_smax.ev_l.rwheel
+
+	max_speed: 1
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+
+	vehicle_mass: 1700
+
+	color[]: (0.2581, 0.0168, 0.0356) # red
+	color[]: (0.2581, 0.2622, 0.2158)
+	color[]: (0.3419, 0.3515, 0.3662)
+	color[]: (0.0307, 0.0466, 0.1651)
+	color[]: (1, 1, 1)
+	color[]: (0.0822, 0.0781, 0.0742) # magnetic
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .ford_smax.ev_l.chassis
+{
+	data_path: "/def/vehicle/ai/ford_smax/left_door.sii"
+}
+
+vehicle_wheel_accessory: .ford_smax.ev_l.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .ford_smax.ev_l.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX right door open XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+ traffic_vehicle : traffic.ford_smax.ev_r
+{
+	accessories[]: .ford_smax.ev_r.chassis
+	accessories[]: .ford_smax.ev_r.fwheel
+	accessories[]: .ford_smax.ev_r.rwheel
+
+	max_speed: 1
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+
+	vehicle_mass: 1700
+
+	color[]: (0.2581, 0.0168, 0.0356) # red
+	color[]: (0.2581, 0.2622, 0.2158)
+	color[]: (0.3419, 0.3515, 0.3662)
+	color[]: (0.0307, 0.0466, 0.1651)
+	color[]: (1, 1, 1)
+	color[]: (0.0822, 0.0781, 0.0742) # magnetic
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .ford_smax.ev_r.chassis
+{
+	data_path: "/def/vehicle/ai/ford_smax/right_door.sii"
+}
+
+vehicle_wheel_accessory: .ford_smax.ev_r.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .ford_smax.ev_r.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX doors open XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 
+ traffic_vehicle : traffic.ford_smax.ev_all
+{
+	accessories[]: .ford_smax.ev_all.chassis
+	accessories[]: .ford_smax.ev_all.fwheel
+	accessories[]: .ford_smax.ev_all.rwheel
+
+	max_speed: 1
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+
+	vehicle_mass: 1700
+
+	color[]: (0.2581, 0.0168, 0.0356) # red
+	color[]: (0.2581, 0.2622, 0.2158)
+	color[]: (0.3419, 0.3515, 0.3662)
+	color[]: (0.0307, 0.0466, 0.1651)
+	color[]: (1, 1, 1)
+	color[]: (0.0822, 0.0781, 0.0742) # magnetic
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .ford_smax.ev_all.chassis
+{
+	data_path: "/def/vehicle/ai/ford_smax/doors.sii"
+}
+
+vehicle_wheel_accessory: .ford_smax.ev_all.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+vehicle_wheel_accessory: .ford_smax.ev_all.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}

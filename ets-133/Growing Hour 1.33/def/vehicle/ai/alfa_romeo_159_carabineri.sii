@@ -1,0 +1,34 @@
+traffic_vehicle : traffic.a_romeo_159.carabineri
+{
+	accessories[]: .a_romeo_159.carabineri.chassis
+	accessories[]: .a_romeo_159.carabineri.fwheel
+	accessories[]: .a_romeo_159.carabineri.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	lod_dist[]: 100
+
+	spawn_ratio: 0
+
+	vehicle_mass: 1800
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .a_romeo_159.carabineri.chassis
+{
+	data_path: "/def/vehicle/ai/alfa_romeo_159/chassis_carabineri.sii"
+}
+
+vehicle_wheel_accessory: .a_romeo_159.carabineri.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_l.sii"
+}
+
+vehicle_wheel_accessory: .a_romeo_159.carabineri.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_l.sii"
+}

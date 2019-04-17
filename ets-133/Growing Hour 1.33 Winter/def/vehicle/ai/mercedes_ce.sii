@@ -1,0 +1,38 @@
+traffic_vehicle : traffic.mercedes_ce
+{
+	accessories[]: .mercedes_ce.chassis
+	accessories[]: .mercedes_ce.fwheel
+	accessories[]: .mercedes_ce.rwheel
+
+	max_speed: 57
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0883, 0.0622, 0.0454) #brown
+	color[]: (0, 0.0263, 0.1347) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.1596, 0.0093, 0.0197) #red
+
+	vehicle_mass: 2000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .mercedes_ce.chassis
+{
+	data_path: "/def/vehicle/ai/mercedes_ce/chassis.sii"
+}
+
+vehicle_wheel_accessory: .mercedes_ce.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_19in_l.sii"
+}
+
+vehicle_wheel_accessory: .mercedes_ce.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_19in_l.sii"
+}

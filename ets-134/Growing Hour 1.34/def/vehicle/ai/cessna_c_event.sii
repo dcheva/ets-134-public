@@ -1,0 +1,31 @@
+traffic_vehicle : traffic.cessna_c.event
+{
+	accessories[]: .cessna_c.event.chassis
+	accessories[]: .cessna_c.event.fwheel
+	accessories[]: .cessna_c.event.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2000
+
+}
+
+vehicle_accessory: .cessna_c.event.chassis
+{
+	data_path: "/def/vehicle/ai/cessna/cessna_c_event.sii"
+}
+
+vehicle_wheel_accessory: .cessna_c.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .cessna_c.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

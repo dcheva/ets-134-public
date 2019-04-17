@@ -1,0 +1,44 @@
+traffic_vehicle : traffic.econic
+{
+	accessories[]: .econic.chassis
+	accessories[]: .econic.fwheel
+	accessories[]: .econic.rwheel
+	accessories[]: .econic.rwheel2
+
+	max_speed: 100
+
+	trailer_count[]: 0
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	
+	vehicle_mass: 25000
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .econic.chassis
+{
+	data_path: "/def/vehicle/ai/econic/chassis.sii"
+}
+
+vehicle_wheel_accessory: .econic.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .econic.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel_single.sii"
+}
+
+vehicle_wheel_accessory: .econic.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+

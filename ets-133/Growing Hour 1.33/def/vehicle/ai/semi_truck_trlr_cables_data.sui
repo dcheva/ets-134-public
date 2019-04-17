@@ -1,0 +1,76 @@
+# AI semi truck cables data.
+# Units have to be defined with same names as in "semi_truck_trlr_cables_data.sui".
+
+# NOTE: This is only definition of cables that should be included beside of "accessory_addon_trailer_cables_data" unit.
+
+trailer_cable_data : .air_cable_y
+{
+	locator_prefix: air_cable_y
+	rest_locator_prefix: rst_cable_y
+
+	resolution: 3
+	ring_count: 8
+	ring_resolution: 5
+
+	width: 0.09
+
+	color: (0.5, 0.4, 0.1)
+	material: "/material/ropes/cable_spiral_alphed_white.mat"
+
+	back_faces: true
+	straight_cable_length: 3.0
+}
+
+trailer_cable_data : .air_cable_r
+{
+	locator_prefix: air_cable_r
+	rest_locator_prefix: rst_cable_r
+
+	resolution: 3
+	ring_count: 8
+	ring_resolution: 5
+
+	width: 0.09
+
+	color: (0.5, 0.1, 0.1)
+	material: "/material/ropes/cable_spiral_alphed_white.mat"
+
+	back_faces: true
+	straight_cable_length: 3.0
+}
+
+trailer_cable_data : .ele_cable_w
+{
+	locator_prefix: ele_cable_w
+	rest_locator_prefix: rst_cable_w
+
+	resolution: 3
+	ring_count: 8
+	ring_resolution: 5
+
+	width: 0.09
+
+	color: (0.1, 0.1, 0.1)
+	material: "/material/ropes/cable_spiral_alphed_white.mat"
+
+	back_faces: true
+	straight_cable_length: 3.0
+}
+
+trailer_cable_data : .ele_cable_b
+{
+	locator_prefix: ele_cable_b
+	rest_locator_prefix: rst_cable_b
+
+	resolution: 3
+	ring_count: 8
+	ring_resolution: 5
+
+	width: 0.09
+
+	color: (0.1, 0.1, 0.1)
+	material: "/material/ropes/cable_spiral_alphed_white.mat"
+
+	back_faces: true
+	straight_cable_length: 3.0
+}

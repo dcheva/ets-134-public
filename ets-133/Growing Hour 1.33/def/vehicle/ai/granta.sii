@@ -1,0 +1,47 @@
+traffic_vehicle: traffic.granta
+{
+	accessories[]: .granta.chassis
+	accessories[]: .granta.fwheel
+	accessories[]: .granta.rwheel
+
+	max_speed: 140
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+		
+	spawn_ratio: 0.0
+
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	color[]: (0.2345, 0.2086, 0.1811) #brown
+	color[]: (0.0295, 0.0684, 0.1878) #blue
+		
+	
+	vehicle_mass: 1300
+    
+ 
+    
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .granta.chassis
+{
+	data_path: "/def/vehicle/ai/granta/chassis.sii"
+}
+
+vehicle_wheel_accessory: .granta.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_15in_2.sii"
+}
+
+vehicle_wheel_accessory: .granta.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_15in_2.sii"
+}
+
+

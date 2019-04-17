@@ -1,0 +1,82 @@
+traffic_vehicle : traffic.riva_sedan
+{
+	accessories[]: .riva_sedan.chassis
+	accessories[]: .riva_sedan.fwheel
+	accessories[]: .riva_sedan.rwheel
+
+	max_speed: 140
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	spawn_ratio: 0.0	
+
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0, 0.0527, 0.2177) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.5902, 0.4279, 0.0168) #yellow
+
+	vehicle_mass: 1000
+    
+    variant[]: traffic.riva_combi
+    
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .riva_sedan.chassis
+{
+	data_path: "/def/vehicle/ai/riva/sedan.sii"
+}
+
+vehicle_wheel_accessory: .riva_sedan.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_13in_steel.sii"
+}
+
+vehicle_wheel_accessory: .riva_sedan.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_13in_steel.sii"
+}
+
+
+traffic_vehicle : traffic.riva_combi
+{
+	accessories[]: .riva_combi.chassis
+	accessories[]: .riva_combi.fwheel
+	accessories[]: .riva_combi.rwheel
+
+	max_speed: 140
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0, 0.0527, 0.2177) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.5902, 0.4279, 0.0168) #yellow
+
+	vehicle_mass: 1000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .riva_combi.chassis
+{
+	data_path: "/def/vehicle/ai/riva/combi.sii"
+}
+
+vehicle_wheel_accessory: .riva_combi.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_13in_steel.sii"
+}
+
+vehicle_wheel_accessory: .riva_combi.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_13in_steel.sii"
+}
+

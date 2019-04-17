@@ -1,0 +1,138 @@
+###############  default ( GREEN ) #####################
+
+traffic_trailer : train_car.w_passenger.g
+{
+	accessories[]: .w_passenger.g.tchassis
+	accessories[]: .w_passenger.g.trwheel0
+	accessories[]: .w_passenger.g.trwheel1
+	accessories[]: .w_passenger.g.trwheel2
+	accessories[]: .w_passenger.g.trwheel3
+
+	attachable_trailer[]: "train_car.w_passenger.*"
+	displacement_limit: 0.0
+    
+	lod_dist[]: 53
+	lod_dist[]: 70
+}  
+  
+vehicle_accessory: .w_passenger.g.tchassis
+{
+    	data_path: "/def/vehicle/ai/wagon_passenger/chassis_g.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.g.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.g.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.g.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.g.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+
+###############      RED       #####################
+
+traffic_trailer : train_car.w_passenger.r
+{
+	accessories[]: .w_passenger.r.tchassis
+	accessories[]: .w_passenger.r.trwheel0
+	accessories[]: .w_passenger.r.trwheel1
+	accessories[]: .w_passenger.r.trwheel2
+	accessories[]: .w_passenger.r.trwheel3
+
+	attachable_trailer[]: "train_car.w_passenger.*"
+	displacement_limit: 0.0
+    
+	lod_dist[]: 53
+	lod_dist[]: 70
+}  
+  
+vehicle_accessory: .w_passenger.r.tchassis
+{
+    	data_path: "/def/vehicle/ai/wagon_passenger/chassis_r.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.r.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.r.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.r.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.r.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+###############      BLUE      #####################
+
+traffic_trailer : train_car.w_passenger.b
+{
+	accessories[]: .w_passenger.b.tchassis
+	accessories[]: .w_passenger.b.trwheel0
+	accessories[]: .w_passenger.b.trwheel1
+	accessories[]: .w_passenger.b.trwheel2
+	accessories[]: .w_passenger.b.trwheel3
+
+	attachable_trailer[]: "train_car.w_passenger.*"
+	displacement_limit: 0.0
+    
+	lod_dist[]: 53
+	lod_dist[]: 70
+}  
+  
+vehicle_accessory: .w_passenger.b.tchassis
+{
+    	data_path: "/def/vehicle/ai/wagon_passenger/chassis_b.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.b.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.b.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.b.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.b.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

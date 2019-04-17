@@ -1,0 +1,34 @@
+ # xxxxxxxxx event road planer wirtgen w250i xxxxxxxxx
+traffic_vehicle : traffic.w250i
+{
+	accessories[]: .w250i.chassis
+	accessories[]: .w250i.fwheel
+	accessories[]: .w250i.rwheel
+
+	max_speed: 1
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	allow_parked: false
+	
+	vehicle_mass: 40000
+
+
+}
+
+vehicle_accessory: .w250i.chassis
+{
+	data_path: "/def/vehicle/ai/w250i/road_planer.sii"
+}
+
+vehicle_wheel_accessory: .w250i.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w250i.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

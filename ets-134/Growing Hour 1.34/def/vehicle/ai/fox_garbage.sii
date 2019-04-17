@@ -1,0 +1,40 @@
+traffic_vehicle : traffic.fox_garbage
+{
+	accessories[]: .fox_garbage.chassis
+	accessories[]: .fox_garbage.fwheel
+	accessories[]: .fox_garbage.rwheel
+
+	max_speed: 80
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	trailer_count[]: 0
+
+    allow_parked: false
+    
+	engine_torque: 2000
+
+	vehicle_mass: 20000
+    
+	color[]: (0.9049557515, 0.2428935112, 0.01165475188) # orange
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .fox_garbage.chassis
+{
+	data_path: "/def/vehicle/ai/fox/chassis_garbage.sii"
+}
+
+vehicle_wheel_accessory: .fox_garbage.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/fox_front.sii"
+}
+
+vehicle_wheel_accessory: .fox_garbage.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/fox_rear.sii"
+}

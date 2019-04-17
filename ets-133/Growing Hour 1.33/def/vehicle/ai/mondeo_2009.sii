@@ -1,0 +1,39 @@
+traffic_vehicle : traffic.mondeo_2009
+{
+	accessories[]: .mondeo_2009.chassis
+	accessories[]: .mondeo_2009.fwheel
+	accessories[]: .mondeo_2009.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	
+	color[]: (0.2581, 0.0168, 0.0356) # red
+	color[]: (0.2581, 0.2622, 0.2158)
+	color[]: (0.3419, 0.3515, 0.3662)
+	color[]: (0.0307, 0.0466, 0.1651)
+	color[]: (1, 1, 1)
+	color[]: (0.0822, 0.0781, 0.0742) # magnetic
+	
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .mondeo_2009.chassis
+{
+	data_path: "/def/vehicle/ai/mondeo_2009/chassis.sii"
+}
+
+vehicle_wheel_accessory: .mondeo_2009.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .mondeo_2009.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}

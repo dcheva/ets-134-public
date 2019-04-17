@@ -1,0 +1,9 @@
+SiiNunit
+{
+traffic_vehicle_type : rudi_cars
+{
+	speed_class: car
+	tags[]: "road"
+	storage_path: "/def/vehicle/traffic_storage_cars_traffic.sii"
+}
+}

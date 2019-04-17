@@ -1,0 +1,116 @@
+traffic_vehicle : traffic.daily
+{
+	accessories[]: .daily.chassis
+	accessories[]: .daily.fwheel
+	accessories[]: .daily.rwheel
+
+	max_speed: 100
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	color[]: (0.4564, 0.0069, 0.0097) #red
+	color[]: (0.5457, 0.5583, 0.5647) #white
+	color[]: (0.5457, 0.5583, 0.5647) #white
+	color[]: (0.5457, 0.5583, 0.5647) #white
+	color[]: (0.0012, 0.0356, 0.1682) #blue
+	color[]: (0.1144, 0.1412, 0.1714) #silver
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	
+	variant[]: traffic.daily.box
+	variant[]: traffic.daily.curtain
+
+	spawn_ratio: 0.3
+
+	vehicle_mass: 4000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .daily.chassis
+{
+	data_path: "/def/vehicle/ai/daily/korba.sii"
+}
+
+vehicle_wheel_accessory: .daily.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_front.sii"
+}
+
+vehicle_wheel_accessory: .daily.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_double.sii"
+}
+
+
+traffic_vehicle : traffic.daily.box
+{
+	accessories[]: .daily.box.chassis
+	accessories[]: .daily.box.fwheel
+	accessories[]: .daily.box.rwheel
+
+	max_speed: 100
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	spawn_ratio: 0.3	
+
+	vehicle_mass: 5000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .daily.box.chassis
+{
+	data_path: "/def/vehicle/ai/daily/box.sii"
+}
+
+vehicle_wheel_accessory: .daily.box.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_front.sii"
+}
+
+vehicle_wheel_accessory: .daily.box.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_double.sii"
+}
+
+
+traffic_vehicle : traffic.daily.curtain
+{
+	accessories[]: .daily.curtain.chassis
+	accessories[]: .daily.curtain.fwheel
+	accessories[]: .daily.curtain.rwheel
+
+	max_speed: 100
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	spawn_ratio: 0.3
+
+	vehicle_mass: 4500
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .daily.curtain.chassis
+{
+	data_path: "/def/vehicle/ai/daily/curtain.sii"
+}
+
+vehicle_wheel_accessory: .daily.curtain.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_front.sii"
+}
+
+vehicle_wheel_accessory: .daily.curtain.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_double.sii"
+}
+
+

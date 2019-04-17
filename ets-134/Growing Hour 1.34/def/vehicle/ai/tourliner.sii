@@ -1,0 +1,43 @@
+traffic_vehicle : traffic.tourliner
+{
+	accessories[]: .tourliner.chassis
+	accessories[]: .tourliner.fwheel
+	accessories[]: .tourliner.rwheel
+	
+	allow_parked: false
+	
+	max_speed: 100 
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	spawn_ratio: 0.0
+
+	color[]: (0.0103, 0.0171, 0.0835) # blue
+	color[]: (0.1144, 0.1046, 0.0843) #light brown
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.8713, 0.8631, 0.8227) #white
+
+	vehicle_mass: 12000	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .tourliner.chassis
+{
+	data_path: "/def/vehicle/ai/tourliner/chassis.sii"
+}
+
+vehicle_wheel_accessory: .tourliner.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .tourliner.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}

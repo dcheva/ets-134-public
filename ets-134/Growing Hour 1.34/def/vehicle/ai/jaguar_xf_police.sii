@@ -1,0 +1,33 @@
+traffic_vehicle : traffic.jaguar_xf.police
+{
+	accessories[]: .jaguar_xf.police.chassis
+	accessories[]: .jaguar_xf.police.fwheel
+	accessories[]: .jaguar_xf.police.rwheel
+
+	max_speed: 200
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	spawn_ratio: 0
+
+	vehicle_mass: 2000
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .jaguar_xf.police.chassis
+{
+	data_path: "/def/vehicle/ai/jaguar_xf/chassis_police.sii"
+}
+
+vehicle_wheel_accessory: .jaguar_xf.police.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .jaguar_xf.police.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}

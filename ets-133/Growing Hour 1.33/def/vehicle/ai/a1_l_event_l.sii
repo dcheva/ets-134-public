@@ -1,0 +1,35 @@
+traffic_vehicle : traffic.a1_l_l.event
+{
+	accessories[]: .a1_l_l.event.chassis
+	accessories[]: .a1_l_l.event.fwheel
+	accessories[]: .a1_l_l.event.rwheel
+
+	
+	max_speed: 100
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	
+	vehicle_mass: 1000
+
+
+
+}
+
+vehicle_accessory: .a1_l_l.event.chassis
+{
+	data_path: "/def/vehicle/ai/a1_l_event/chassis_l.sii"
+}
+
+vehicle_wheel_accessory: .a1_l_l.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_10cm.sii"
+}
+
+vehicle_wheel_accessory: .a1_l_l.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/a1_l_r.sii"
+}

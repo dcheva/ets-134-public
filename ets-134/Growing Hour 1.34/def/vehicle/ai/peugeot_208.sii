@@ -1,0 +1,41 @@
+traffic_vehicle : traffic.peugeot_208
+{
+	accessories[]: .peugeot_208.chassis
+	accessories[]: .peugeot_208.fwheel
+	accessories[]: .peugeot_208.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+
+	vehicle_mass: 1700
+
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.5902, 0.4279, 0.0168) #yellow
+	color[]: (0, 0.0527, 0.2177) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .peugeot_208.chassis
+{
+	data_path: "/def/vehicle/ai/peugeot_208/chassis.sii"
+}
+
+vehicle_wheel_accessory: .peugeot_208.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_4.sii"
+}
+
+vehicle_wheel_accessory: .peugeot_208.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_4.sii"
+}
+

@@ -1,0 +1,42 @@
+traffic_vehicle : traffic.opalin
+{
+	accessories[]: .opalin.chassis
+	accessories[]: .opalin.fwheel
+	accessories[]: .opalin.rwheel
+
+	allow_parked: false
+
+	max_speed: 100
+
+	lod_dist[]: 50
+	lod_dist[]: 100
+
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.0103, 0.0171, 0.0835) # blue
+	color[]: (0.1144, 0.1046, 0.0843) #light brown
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.8713, 0.8631, 0.8227) #white
+
+	vehicle_mass: 12000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .opalin.chassis
+{
+	data_path: "/def/vehicle/ai/opalin/chassis.sii"
+}
+
+vehicle_wheel_accessory: .opalin.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_bus.sii"
+}
+
+vehicle_wheel_accessory: .opalin.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_bus.sii"
+}

@@ -1,0 +1,32 @@
+traffic_vehicle : traffic.passat_2014.event
+{
+	accessories[]: .passat_2014.event.chassis
+	accessories[]: .passat_2014.event.fwheel
+	accessories[]: .passat_2014.event.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+
+	vehicle_mass: 1500
+	
+}
+
+vehicle_accessory: .passat_2014.event.chassis
+{
+	data_path: "/def/vehicle/ai/passat_2014/event.sii"
+}
+
+vehicle_wheel_accessory: .passat_2014.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/25_alu_vw_front.sii"
+}
+
+vehicle_wheel_accessory: .passat_2014.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/25_alu_vw_rear.sii"
+}

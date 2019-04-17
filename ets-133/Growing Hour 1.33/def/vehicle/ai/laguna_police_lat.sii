@@ -1,0 +1,40 @@
+traffic_vehicle: traffic.laguna.police_lat
+{
+	accessories[]: .laguna.police_lat.chassis
+	accessories[]: .laguna.police_lat.fwheel
+	accessories[]: .laguna.police_lat.rwheel
+
+	max_speed: 180
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+		
+	spawn_ratio: 0.0
+
+	
+	vehicle_mass: 1500
+
+    color[]: (1, 1, 1) #white
+    
+    
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .laguna.police_lat.chassis
+{
+	data_path: "/def/vehicle/ai/laguna/police_lat.sii"
+}
+
+vehicle_wheel_accessory: .laguna.police_lat.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_l.sii"
+}
+
+vehicle_wheel_accessory: .laguna.police_lat.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_l.sii"
+}
+
+

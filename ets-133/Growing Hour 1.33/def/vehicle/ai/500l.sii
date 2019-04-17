@@ -1,0 +1,39 @@
+traffic_vehicle : traffic.500l
+{
+	accessories[]: .500l.chassis
+	accessories[]: .500l.fwheel
+	accessories[]: .500l.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	color[]: (0, 0.1122, 0.0354) #green
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.5902, 0.4279, 0.0168) #yellow
+	color[]: (0, 0.0527, 0.2177) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+
+	vehicle_mass: 2000	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .500l.chassis
+{
+	data_path: "/def/vehicle/ai/500l/chassis.sii"
+}
+
+vehicle_wheel_accessory: .500l.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .500l.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}

@@ -1,0 +1,17 @@
+traffic_trailer : trailer.ai_car.ontour
+{
+	accessories[]: .ai_car.ontour.chassis
+	accessories[]: .ai_car.ontour.rwheel0
+
+	cargo_mass: 0
+}
+
+vehicle_accessory: .ai_car.ontour.chassis
+{
+    	data_path: "/def/vehicle/ai/caravan_ontour/chassis.sii"
+}
+vehicle_wheel_accessory: .ai_car.ontour.rwheel0
+{
+	offset: 0
+    data_path: "/def/vehicle/ai_wheel/caravan_wheel.sii"
+}

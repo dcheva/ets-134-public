@@ -1,0 +1,34 @@
+
+# event car
+
+traffic_vehicle : traffic.p3008.event
+{
+	accessories[]: .p3008.event.chassis
+	accessories[]: .p3008.event.fwheel
+	accessories[]: .p3008.event.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	vehicle_mass: 1200
+
+}
+
+vehicle_accessory: .p3008.event.chassis
+{
+	data_path: "/def/vehicle/ai/p3008/event.sii"
+}
+
+vehicle_wheel_accessory: .p3008.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in.sii"
+}
+
+vehicle_wheel_accessory: .p3008.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in.sii"
+}

@@ -1,0 +1,33 @@
+traffic_vehicle : traffic.focus_2009.police_rus
+{
+	accessories[]: .focus_2009.police_rus.chassis
+	accessories[]: .focus_2009.police_rus.fwheel
+	accessories[]: .focus_2009.police_rus.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	spawn_ratio: 0
+
+	vehicle_mass: 1800	
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .focus_2009.police_rus.chassis
+{
+	data_path: "/def/vehicle/ai/focus_2009/chassis_police_rus.sii"
+}
+
+vehicle_wheel_accessory: .focus_2009.police_rus.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .focus_2009.police_rus.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}

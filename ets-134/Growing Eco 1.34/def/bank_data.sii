@@ -1,0 +1,61 @@
+SiiNunit
+{
+
+bank_data : bank.data.storage
+{
+	min_after_loan_repay:	0
+
+	loan_offers[]: bank.data.loan1
+	loan_offers[]: bank.data.loan2
+	loan_offers[]: bank.data.loan3
+	loan_offers[]: bank.data.loan4
+
+	overdraft_duration:	5	# days
+	overdraft_warn_day:	2	# starting on 3rd day
+
+	insurance_data: .insurance
+	
+}
+
+insurance_data : .insurance
+{
+	coinsurance_fixed_base : 1000
+	coinsurance_fixed_min : 200
+	coinsurance_fixed_max : 10000
+	coinsurance_fixed_inc : 500
+	coinsurance_fixed_dec : 100
+
+	coinsurance_ratio_base : 0.1
+	coinsurance_ratio_min : 0.02
+	coinsurance_ratio_max : 1.0
+	coinsurance_ratio_inc : 0.05
+	coinsurance_ratio_dec : 0.01
+}
+
+bank_loan_data: bank.data.loan1
+{
+	amount: 120200
+	interest_rate: 0.16	# 16%
+	duration: 52		# in weeks
+}
+
+bank_loan_data: bank.data.loan2
+{
+	amount: 60200
+	interest_rate: 0.20	# 20 %
+	duration: 39		# in weeks
+}
+
+bank_loan_data: bank.data.loan3
+{
+	amount: 40200
+	interest_rate: 0.26	# 26 %
+	duration:  26		# in weeks
+}
+bank_loan_data: bank.data.loan4
+{
+	amount: 20200
+	interest_rate: 0.33	# 33 %
+	duration: 13		# in weeks
+}
+}

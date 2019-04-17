@@ -1,0 +1,202 @@
+traffic_vehicle : traffic.mazda_cx3
+{
+	accessories[]: .mazda_cx3.chassis
+	accessories[]: .mazda_cx3.fwheel
+	accessories[]: .mazda_cx3.rwheel
+
+	max_speed: 140
+
+	lod_dist[]: 60
+	lod_dist[]: 110	
+	vehicle_mass: 1600
+	
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0, 0.0527, 0.2177) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+
+	spawn_ratio: 1
+	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .mazda_cx3.chassis
+{
+	data_path: "/def/vehicle/ai/mazda_cx3/chassis.sii"
+}
+
+vehicle_wheel_accessory: .mazda_cx3.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .mazda_cx3.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}
+
+# _______________________________  TUNING BLACK  _______________________________
+
+traffic_vehicle : traffic.mazda_cx3.tuning_blk
+{
+	accessories[]: .mazda_cx3.tuning_blk.chassis
+	accessories[]: .mazda_cx3.tuning_blk.fwheel
+	accessories[]: .mazda_cx3.tuning_blk.rwheel
+
+	max_speed: 160
+
+	allow_parked: false
+
+	lod_dist[]: 60
+	lod_dist[]: 110	
+	vehicle_mass: 1600
+	
+	color[]: (0.02, 0.03, 0.04)
+	
+	spawn_ratio: 0.01
+
+	variant[]: traffic.mazda_cx3.tuning_wht
+	variant[]: traffic.mazda_cx3.tuning_red
+	variant[]: traffic.mazda_cx3.tuning_gry
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .mazda_cx3.tuning_blk.chassis
+{
+	data_path: "/def/vehicle/ai/mazda_cx3/chassis_black_stripes.sii"
+}
+
+vehicle_wheel_accessory: .mazda_cx3.tuning_blk.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_alu19_wheel.sii"
+}
+
+vehicle_wheel_accessory: .mazda_cx3.tuning_blk.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_alu19_wheel.sii"
+}
+
+# _______________________________  TUNING WHITE  _______________________________
+
+traffic_vehicle : traffic.mazda_cx3.tuning_wht
+{
+	accessories[]: .mazda_cx3.tuning_wht.chassis
+	accessories[]: .mazda_cx3.tuning_wht.fwheel
+	accessories[]: .mazda_cx3.tuning_wht.rwheel
+
+	max_speed: 160
+
+	allow_parked: false
+
+	lod_dist[]: 60
+	lod_dist[]: 110	
+	vehicle_mass: 1600
+	
+	color[]: (0.91, 0.92, 0.93)
+	
+	spawn_ratio: 0.01
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .mazda_cx3.tuning_wht.chassis
+{
+	data_path: "/def/vehicle/ai/mazda_cx3/chassis_white_tribal.sii"
+}
+
+vehicle_wheel_accessory: .mazda_cx3.tuning_wht.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_alu19_wheel.sii"
+}
+
+vehicle_wheel_accessory: .mazda_cx3.tuning_wht.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_alu19_wheel.sii"
+}
+
+# _______________________________  TUNING RED  _______________________________
+
+traffic_vehicle : traffic.mazda_cx3.tuning_red
+{
+	accessories[]: .mazda_cx3.tuning_red.chassis
+	accessories[]: .mazda_cx3.tuning_red.fwheel
+	accessories[]: .mazda_cx3.tuning_red.rwheel
+
+	max_speed: 160
+
+	allow_parked: false
+
+	lod_dist[]: 60
+	lod_dist[]: 110	
+	vehicle_mass: 1600
+	
+	color[]: (0.4, 0.0, 0.0)
+	
+	spawn_ratio: 0.01
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .mazda_cx3.tuning_red.chassis
+{
+	data_path: "/def/vehicle/ai/mazda_cx3/chassis_red_tribal.sii"
+}
+
+vehicle_wheel_accessory: .mazda_cx3.tuning_red.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_alu19_wheel.sii"
+}
+
+vehicle_wheel_accessory: .mazda_cx3.tuning_red.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_alu19_wheel.sii"
+}
+
+# _______________________________  TUNING GREY  _______________________________
+
+traffic_vehicle : traffic.mazda_cx3.tuning_gry
+{
+	accessories[]: .mazda_cx3.tuning_gry.chassis
+	accessories[]: .mazda_cx3.tuning_gry.fwheel
+	accessories[]: .mazda_cx3.tuning_gry.rwheel
+
+	max_speed: 160
+
+	allow_parked: false
+
+	lod_dist[]: 60
+	lod_dist[]: 110	
+	vehicle_mass: 1600
+	
+	color[]: (0.2, 0.21, 0.24)
+	
+	spawn_ratio: 0.01
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .mazda_cx3.tuning_gry.chassis
+{
+	data_path: "/def/vehicle/ai/mazda_cx3/chassis_grey_stripes.sii"
+}
+
+vehicle_wheel_accessory: .mazda_cx3.tuning_gry.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_alu19_wheel.sii"
+}
+
+vehicle_wheel_accessory: .mazda_cx3.tuning_gry.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_alu19_wheel.sii"
+}

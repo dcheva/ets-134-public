@@ -1,0 +1,2148 @@
+traffic_vehicle : traffic.rudi.a3
+{
+	accessories[]: .rudi.a3.chassis
+	accessories[]: .rudi.a3.fwheel
+	accessories[]: .rudi.a3.rwheel
+
+	max_speed: 170
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1600
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.a3.chassis
+{
+	data_path: "/def/vehicle/ai/a3/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.a3.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in.sii"
+}
+
+vehicle_wheel_accessory: .rudi.a3.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in.sii"
+}
+
+traffic_vehicle : traffic.rudi.accord
+{
+	accessories[]: .rudi.accord.chassis
+	accessories[]: .rudi.accord.fwheel
+	accessories[]: .rudi.accord.rwheel
+
+	max_speed: 180
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.accord.chassis
+{
+	data_path: "/def/vehicle/ai/accord/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.accord.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.accord.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}
+
+
+
+traffic_vehicle : traffic.rudi.a_romeo_159
+{
+	accessories[]: .rudi.a_romeo_159.chassis
+	accessories[]: .rudi.a_romeo_159.fwheel
+	accessories[]: .rudi.a_romeo_159.rwheel
+
+	max_speed: 180
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	lod_dist[]: 100
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.a_romeo_159.chassis
+{
+	data_path: "/def/vehicle/ai/alfa_romeo_159/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.a_romeo_159.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_l.sii"
+}
+
+vehicle_wheel_accessory: .rudi.a_romeo_159.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_l.sii"
+}
+
+traffic_vehicle : traffic.rudi.astra
+{
+	accessories[]: .rudi.astra.chassis
+	accessories[]: .rudi.astra.fwheel
+	accessories[]: .rudi.astra.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1500
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.astra.chassis
+{
+	data_path: "/def/vehicle/ai/astra/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.astra.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.astra.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_2.sii"
+}
+
+traffic_vehicle : traffic.rudi.audi_a6
+{
+	accessories[]: .rudi.audi_a6.chassis
+	accessories[]: .rudi.audi_a6.fwheel
+	accessories[]: .rudi.audi_a6.rwheel
+
+	max_speed: 180
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.audi_a6.chassis
+{
+	data_path: "/def/vehicle/ai/audi_a6/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.audi_a6.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .rudi.audi_a6.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+
+
+
+traffic_vehicle : traffic.rudi.bmw5
+{
+	accessories[]: .rudi.bmw5.chassis
+	accessories[]: .rudi.bmw5.fwheel
+	accessories[]: .rudi.bmw5.rwheel
+
+	max_speed: 190
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2000	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.bmw5.chassis
+{
+	data_path: "/def/vehicle/ai/bmw5/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.bmw5.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .rudi.bmw5.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}
+
+traffic_vehicle : traffic.rudi.c3
+{
+	accessories[]: .rudi.c3.chassis
+	accessories[]: .rudi.c3.fwheel
+	accessories[]: .rudi.c3.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2000	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.c3.chassis
+{
+	data_path: "/def/vehicle/ai/c3/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.c3.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_15in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.c3.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_15in_2.sii"
+}
+
+traffic_vehicle : traffic.rudi.captur
+{
+	accessories[]: .rudi.captur.chassis
+	accessories[]: .rudi.captur.fwheel
+	accessories[]: .rudi.captur.rwheel
+
+	max_speed: 140
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+		
+	vehicle_mass: 1200
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.captur.chassis
+{
+	data_path: "/def/vehicle/ai/captur/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.captur.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_4.sii"
+}
+
+vehicle_wheel_accessory: .rudi.captur.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_4.sii"
+}
+
+traffic_vehicle : traffic.rudi.citroen_c4
+{
+	accessories[]: .rudi.citroen_c4.chassis
+	accessories[]: .rudi.citroen_c4.fwheel
+	accessories[]: .rudi.citroen_c4.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2000	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.citroen_c4.chassis
+{
+	data_path: "/def/vehicle/ai/citroen_c4/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.citroen_c4.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .rudi.citroen_c4.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}
+
+traffic_vehicle : traffic.rudi.clio
+{
+	accessories[]: .rudi.clio.chassis
+	accessories[]: .rudi.clio.fwheel
+	accessories[]: .rudi.clio.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+
+	vehicle_mass: 1600
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.clio.chassis
+{
+	data_path: "/def/vehicle/ai/clio/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.clio.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .rudi.clio.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}
+
+
+
+
+
+traffic_vehicle : traffic.rudi.ducato
+{
+	accessories[]: .rudi.ducato.chassis
+	accessories[]: .rudi.ducato.fwheel
+	accessories[]: .rudi.ducato.rwheel
+
+	max_speed: 100
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+		
+	vehicle_mass: 4000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.ducato.chassis
+{
+	data_path: "/def/vehicle/ai/ducato/drop_side.sii"
+}
+
+vehicle_wheel_accessory: .rudi.ducato.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_front.sii"
+}
+
+vehicle_wheel_accessory: .rudi.ducato.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_rear.sii"
+}
+
+
+traffic_vehicle : traffic.rudi.ducato.box
+{
+	accessories[]: .rudi.ducato.box.chassis
+	accessories[]: .rudi.ducato.box.fwheel
+	accessories[]: .rudi.ducato.box.rwheel
+
+	max_speed: 100
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	vehicle_mass: 5000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.ducato.box.chassis
+{
+	data_path: "/def/vehicle/ai/ducato/box.sii"
+}
+
+vehicle_wheel_accessory: .rudi.ducato.box.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_front.sii"
+}
+
+vehicle_wheel_accessory: .rudi.ducato.box.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_rear.sii"
+}
+
+traffic_vehicle : traffic.rudi.ducato.plat
+{
+	accessories[]: .rudi.ducato.plat.chassis
+	accessories[]: .rudi.ducato.plat.fwheel
+	accessories[]: .rudi.ducato.plat.rwheel
+
+	max_speed: 100
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+
+	vehicle_mass: 4500
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.ducato.plat.chassis
+{
+	data_path: "/def/vehicle/ai/ducato/plat.sii"
+}
+
+vehicle_wheel_accessory: .rudi.ducato.plat.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_front.sii"
+}
+
+vehicle_wheel_accessory: .rudi.ducato.plat.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_rear.sii"
+}
+
+
+
+
+
+
+
+traffic_vehicle : traffic.rudi.duck
+{
+	accessories[]: .rudi.duck.chassis
+	accessories[]: .rudi.duck.fwheel
+	accessories[]: .rudi.duck.rwheel
+
+	max_speed: 100
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	spawn_ratio: 0.5
+	
+	vehicle_mass: 900
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .rudi.duck.chassis
+{
+	data_path: "/def/vehicle/ai/duck/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.duck.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/duck_front.sii"
+}
+
+vehicle_wheel_accessory: .rudi.duck.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/duck_rear.sii"
+}
+
+
+traffic_vehicle: traffic.rudi.duster
+{
+	accessories[]: .rudi.duster.chassis
+	accessories[]: .rudi.duster.fwheel
+	accessories[]: .rudi.duster.rwheel
+
+	max_speed: 120
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+			
+	vehicle_mass: 1300  
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.duster.chassis
+{
+	data_path: "/def/vehicle/ai/duster/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.duster.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_1.sii"
+}
+
+vehicle_wheel_accessory: .rudi.duster.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_1.sii"
+}
+
+
+traffic_vehicle : traffic.rudi.econic
+{
+	accessories[]: .rudi.econic.chassis
+	accessories[]: .rudi.econic.fwheel
+	accessories[]: .rudi.econic.rwheel
+	accessories[]: .rudi.econic.rwheel2
+
+	max_speed: 90
+
+	trailer_count[]: 0
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+	allow_parked: false
+	
+	spawn_ratio: 0.5
+	
+	vehicle_mass: 25000
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .rudi.econic.chassis
+{
+	data_path: "/def/vehicle/ai/econic/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.econic.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .rudi.econic.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel_single.sii"
+}
+
+vehicle_wheel_accessory: .rudi.econic.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+
+traffic_vehicle : traffic.rudi.fabia
+{
+	accessories[]: .rudi.fabia.chassis
+	accessories[]: .rudi.fabia.fwheel
+	accessories[]: .rudi.fabia.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1500
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.fabia.chassis
+{
+	data_path: "/def/vehicle/ai/fabia/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.fabia.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_15in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.fabia.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_15in_2.sii"
+}
+
+
+
+traffic_vehicle : traffic.rudi.focus_2009
+{
+	accessories[]: .rudi.focus_2009.chassis
+	accessories[]: .rudi.focus_2009.fwheel
+	accessories[]: .rudi.focus_2009.rwheel
+
+	max_speed: 170
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1800	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.focus_2009.chassis
+{
+	data_path: "/def/vehicle/ai/focus_2009/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.focus_2009.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .rudi.focus_2009.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}
+
+traffic_vehicle : traffic.rudi.ford_smax
+{
+	accessories[]: .rudi.ford_smax.chassis
+	accessories[]: .rudi.ford_smax.fwheel
+	accessories[]: .rudi.ford_smax.rwheel
+
+	max_speed: 170
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+
+	vehicle_mass: 1700
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .rudi.ford_smax.chassis
+{
+	data_path: "/def/vehicle/ai/ford_smax/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.ford_smax.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_o_1.sii"
+}
+
+vehicle_wheel_accessory: .rudi.ford_smax.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_o_1.sii"
+}
+
+
+
+traffic_vehicle : traffic.rudi.ford_transit
+{
+	accessories[]: .rudi.ford_transit.chassis
+	accessories[]: .rudi.ford_transit.fwheel
+	accessories[]: .rudi.ford_transit.rwheel
+
+	max_speed: 120
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2500
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.ford_transit.chassis
+{
+	data_path: "/def/vehicle/ai/ford_transit/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.ford_transit.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_o.sii"
+}
+
+vehicle_wheel_accessory: .rudi.ford_transit.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_o.sii"
+}
+
+
+traffic_vehicle : traffic.rudi.fox_garbage
+{
+	accessories[]: .rudi.fox_garbage.chassis
+	accessories[]: .rudi.fox_garbage.fwheel
+	accessories[]: .rudi.fox_garbage.rwheel
+
+	max_speed: 80
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	trailer_count[]: 0
+	
+	spawn_ratio: 0.5
+
+    allow_parked: false
+    
+	engine_torque: 2000
+
+	vehicle_mass: 20000
+    
+	color[]: (0.9049557515, 0.2428935112, 0.01165475188) # orange
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.fox_garbage.chassis
+{
+	data_path: "/def/vehicle/ai/fox/chassis_garbage.sii"
+}
+
+vehicle_wheel_accessory: .rudi.fox_garbage.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/fox_front.sii"
+}
+
+vehicle_wheel_accessory: .rudi.fox_garbage.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/fox_rear.sii"
+}
+
+
+
+
+
+
+traffic_vehicle : traffic.rudi.giulietta
+{
+	accessories[]: .rudi.giulietta.chassis
+	accessories[]: .rudi.giulietta.fwheel
+	accessories[]: .rudi.giulietta.rwheel
+
+	max_speed: 200
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2000
+	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.giulietta.chassis
+{
+	data_path: "/def/vehicle/ai/giulietta/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.giulietta.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_15in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.giulietta.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_15in_2.sii"
+}
+
+
+traffic_vehicle : traffic.rudi.golf
+{
+	accessories[]: .rudi.golf.chassis
+	accessories[]: .rudi.golf.fwheel
+	accessories[]: .rudi.golf.rwheel
+
+	max_speed: 170
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1500
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.golf.chassis
+{
+	data_path: "/def/vehicle/ai/golf/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.golf.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .rudi.golf.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}
+
+
+traffic_vehicle: traffic.rudi.granta
+{
+	accessories[]: .rudi.granta.chassis
+	accessories[]: .rudi.granta.fwheel
+	accessories[]: .rudi.granta.rwheel
+
+	max_speed: 140
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+		
+
+
+	vehicle_mass: 1300
+    
+ 
+    
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.granta.chassis
+{
+	data_path: "/def/vehicle/ai/granta/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.granta.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_15in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.granta.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_15in_2.sii"
+}
+
+
+
+
+
+traffic_vehicle : traffic.rudi.hymer
+{
+	accessories[]: .rudi.hymer.chassis
+	accessories[]: .rudi.hymer.fwheel
+	accessories[]: .rudi.hymer.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+
+	vehicle_mass: 3500
+	
+	spawn_ratio: 0.5
+
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .rudi.hymer.chassis
+{
+	data_path: "/def/vehicle/ai/hymer/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.hymer.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_1.sii"
+}
+
+vehicle_wheel_accessory: .rudi.hymer.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_1.sii"
+}
+
+
+
+traffic_vehicle : traffic.rudi.jaguar_xf
+{
+	accessories[]: .rudi.jaguar_xf.chassis
+	accessories[]: .rudi.jaguar_xf.fwheel
+	accessories[]: .rudi.jaguar_xf.rwheel
+
+	max_speed: 200
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.jaguar_xf.chassis
+{
+	data_path: "/def/vehicle/ai/jaguar_xf/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.jaguar_xf.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .rudi.jaguar_xf.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}
+
+traffic_vehicle : traffic.rudi.kia_ceed
+{
+	accessories[]: .rudi.kia_ceed.chassis
+	accessories[]: .rudi.kia_ceed.fwheel
+	accessories[]: .rudi.kia_ceed.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1600
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.kia_ceed.chassis
+{
+	data_path: "/def/vehicle/ai/kia_ceed/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.kia_ceed.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.kia_ceed.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_2.sii"
+}
+
+traffic_vehicle : traffic.rudi.k_ceed_c
+{
+	accessories[]: .rudi.k_ceed_c.chassis
+	accessories[]: .rudi.k_ceed_c.fwheel
+	accessories[]: .rudi.k_ceed_c.rwheel
+
+	max_speed: 170
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	lod_dist[]: 100
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.k_ceed_c.chassis
+{
+	data_path: "/def/vehicle/ai/kia_ceed_combi/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.k_ceed_c.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.k_ceed_c.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_2.sii"
+}
+
+
+
+
+
+traffic_vehicle : traffic.rudi.lancer_x
+{
+	accessories[]: .rudi.lancer_x.chassis
+	accessories[]: .rudi.lancer_x.fwheel
+	accessories[]: .rudi.lancer_x.rwheel
+
+	max_speed: 180
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1600
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.lancer_x.chassis
+{
+	data_path: "/def/vehicle/ai/lancer_x/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.lancer_x.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_1.sii"
+}
+
+vehicle_wheel_accessory: .rudi.lancer_x.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_1.sii"
+}
+
+traffic_vehicle : traffic.rudi.mazda_3
+{
+	accessories[]: .rudi.mazda_3.chassis
+	accessories[]: .rudi.mazda_3.fwheel
+	accessories[]: .rudi.mazda_3.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1600
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.mazda_3.chassis
+{
+	data_path: "/def/vehicle/ai/mazda_3/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mazda_3.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mazda_3.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}
+
+
+traffic_vehicle : traffic.rudi.mazda_cx3
+{
+	accessories[]: .rudi.mazda_cx3.chassis
+	accessories[]: .rudi.mazda_cx3.fwheel
+	accessories[]: .rudi.mazda_cx3.rwheel
+
+	max_speed: 140
+
+	lod_dist[]: 60
+	lod_dist[]: 110	
+	vehicle_mass: 1600
+	
+	
+	
+	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.mazda_cx3.chassis
+{
+	data_path: "/def/vehicle/ai/mazda_cx3/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mazda_cx3.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mazda_cx3.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}
+
+# _______________________________  TUNING BLACK  _______________________________
+
+traffic_vehicle : traffic.rudi.mazda_cx3.tuning_blk
+{
+	accessories[]: .rudi.mazda_cx3.tuning_blk.chassis
+	accessories[]: .rudi.mazda_cx3.tuning_blk.fwheel
+	accessories[]: .rudi.mazda_cx3.tuning_blk.rwheel
+
+	max_speed: 160
+
+	allow_parked: false
+
+	lod_dist[]: 60
+	lod_dist[]: 110	
+	vehicle_mass: 1600
+	
+	color[]: (0.02, 0.03, 0.04)
+	
+	spawn_ratio: 0.5
+
+
+	variant[]: traffic.rudi.mazda_cx3.tuning_wht
+	variant[]: traffic.rudi.mazda_cx3.tuning_red
+	variant[]: traffic.rudi.mazda_cx3.tuning_gry
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.mazda_cx3.tuning_blk.chassis
+{
+	data_path: "/def/vehicle/ai/mazda_cx3/chassis_black_stripes.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mazda_cx3.tuning_blk.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_alu19_wheel.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mazda_cx3.tuning_blk.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_alu19_wheel.sii"
+}
+
+# _______________________________  TUNING WHITE  _______________________________
+
+traffic_vehicle : traffic.rudi.mazda_cx3.tuning_wht
+{
+	accessories[]: .rudi.mazda_cx3.tuning_wht.chassis
+	accessories[]: .rudi.mazda_cx3.tuning_wht.fwheel
+	accessories[]: .rudi.mazda_cx3.tuning_wht.rwheel
+
+	max_speed: 160
+
+	allow_parked: false
+
+	lod_dist[]: 60
+	lod_dist[]: 110	
+	vehicle_mass: 1600
+	
+	color[]: (0.91, 0.92, 0.93)
+	
+	spawn_ratio: 0.5
+	
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.mazda_cx3.tuning_wht.chassis
+{
+	data_path: "/def/vehicle/ai/mazda_cx3/chassis_white_tribal.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mazda_cx3.tuning_wht.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_alu19_wheel.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mazda_cx3.tuning_wht.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_alu19_wheel.sii"
+}
+
+# _______________________________  TUNING RED  _______________________________
+
+traffic_vehicle : traffic.rudi.mazda_cx3.tuning_red
+{
+	accessories[]: .rudi.mazda_cx3.tuning_red.chassis
+	accessories[]: .rudi.mazda_cx3.tuning_red.fwheel
+	accessories[]: .rudi.mazda_cx3.tuning_red.rwheel
+
+	max_speed: 160
+
+	allow_parked: false
+
+	lod_dist[]: 60
+	lod_dist[]: 110	
+	vehicle_mass: 1600
+	
+	color[]: (0.4, 0.0, 0.0)
+	
+	spawn_ratio: 0.5
+	
+
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.mazda_cx3.tuning_red.chassis
+{
+	data_path: "/def/vehicle/ai/mazda_cx3/chassis_red_tribal.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mazda_cx3.tuning_red.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_alu19_wheel.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mazda_cx3.tuning_red.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_alu19_wheel.sii"
+}
+
+# _______________________________  TUNING GREY  _______________________________
+
+traffic_vehicle : traffic.rudi.mazda_cx3.tuning_gry
+{
+	accessories[]: .rudi.mazda_cx3.tuning_gry.chassis
+	accessories[]: .rudi.mazda_cx3.tuning_gry.fwheel
+	accessories[]: .rudi.mazda_cx3.tuning_gry.rwheel
+
+	max_speed: 160
+
+	allow_parked: false
+
+	lod_dist[]: 60
+	lod_dist[]: 110	
+	vehicle_mass: 1600
+	
+	color[]: (0.2, 0.21, 0.24)
+	
+	spawn_ratio: 0.5
+	
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.mazda_cx3.tuning_gry.chassis
+{
+	data_path: "/def/vehicle/ai/mazda_cx3/chassis_grey_stripes.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mazda_cx3.tuning_gry.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_alu19_wheel.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mazda_cx3.tuning_gry.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_alu19_wheel.sii"
+}
+
+
+traffic_vehicle : traffic.rudi.megane
+{
+	accessories[]: .rudi.megane.chassis
+	accessories[]: .rudi.megane.fwheel
+	accessories[]: .rudi.megane.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.megane.chassis
+{
+	data_path: "/def/vehicle/ai/renault_megane/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.megane.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.megane.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_2.sii"
+}
+
+traffic_vehicle : traffic.rudi.mercedes_ce
+{
+	accessories[]: .rudi.mercedes_ce.chassis
+	accessories[]: .rudi.mercedes_ce.fwheel
+	accessories[]: .rudi.mercedes_ce.rwheel
+
+	max_speed: 190
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.mercedes_ce.chassis
+{
+	data_path: "/def/vehicle/ai/mercedes_ce/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mercedes_ce.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_19in_l.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mercedes_ce.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_19in_l.sii"
+}
+
+traffic_vehicle : traffic.rudi.mini
+{
+	accessories[]: .rudi.mini.chassis
+	accessories[]: .rudi.mini.fwheel
+	accessories[]: .rudi.mini.rwheel
+
+	max_speed: 150
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1600
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.mini.chassis
+{
+	data_path: "/def/vehicle/ai/mini/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mini.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_15in_1.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mini.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_15in_1.sii"
+}
+
+
+
+traffic_vehicle : traffic.rudi.mondeo
+{
+	accessories[]: .rudi.mondeo.chassis
+	accessories[]: .rudi.mondeo.fwheel
+	accessories[]: .rudi.mondeo.rwheel
+
+	max_speed: 170
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.mondeo.chassis
+{
+	data_path: "/def/vehicle/ai/mondeo/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mondeo.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mondeo.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_2.sii"
+}
+
+traffic_vehicle : traffic.rudi.mondeo_2009
+{
+	accessories[]: .rudi.mondeo_2009.chassis
+	accessories[]: .rudi.mondeo_2009.fwheel
+	accessories[]: .rudi.mondeo_2009.rwheel
+
+	max_speed: 170
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.mondeo_2009.chassis
+{
+	data_path: "/def/vehicle/ai/mondeo_2009/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mondeo_2009.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .rudi.mondeo_2009.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}
+
+traffic_vehicle : traffic.rudi.octavia_2009
+{
+	accessories[]: .rudi.octavia_2009.chassis
+	accessories[]: .rudi.octavia_2009.fwheel
+	accessories[]: .rudi.octavia_2009.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.octavia_2009.chassis
+{
+	data_path: "/def/vehicle/ai/octavia_2009/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.octavia_2009.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .rudi.octavia_2009.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+
+traffic_vehicle : traffic.rudi.opalin
+{
+	accessories[]: .rudi.opalin.chassis
+	accessories[]: .rudi.opalin.fwheel
+	accessories[]: .rudi.opalin.rwheel
+
+	allow_parked: false
+
+	max_speed: 100
+
+	lod_dist[]: 50
+	lod_dist[]: 100
+
+	vehicle_mass: 12000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.opalin.chassis
+{
+	data_path: "/def/vehicle/ai/opalin/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.opalin.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_bus.sii"
+}
+
+vehicle_wheel_accessory: .rudi.opalin.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_bus.sii"
+}
+
+traffic_vehicle : traffic.rudi.p3008
+{
+	accessories[]: .rudi.p3008.chassis
+	accessories[]: .rudi.p3008.fwheel
+	accessories[]: .rudi.p3008.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	vehicle_mass: 2000
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .rudi.p3008.chassis
+{
+	data_path: "/def/vehicle/ai/p3008/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.p3008.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.p3008.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_2.sii"
+}
+
+
+traffic_vehicle : traffic.rudi.panda
+{
+	accessories[]: .rudi.panda.chassis
+	accessories[]: .rudi.panda.fwheel
+	accessories[]: .rudi.panda.rwheel
+
+	max_speed: 140
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2000
+
+
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.panda.chassis
+{
+	data_path: "/def/vehicle/ai/panda/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.panda.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_15in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.panda.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_15in_2.sii"
+}
+
+
+
+traffic_vehicle : traffic.rudi.passat_2014
+{
+	accessories[]: .rudi.passat_2014.chassis
+	accessories[]: .rudi.passat_2014.fwheel
+	accessories[]: .rudi.passat_2014.rwheel
+
+	max_speed: 180
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	vehicle_mass: 2000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.passat_2014.chassis
+{
+	data_path: "/def/vehicle/ai/passat_2014/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.passat_2014.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/25_alu_vw_front.sii"
+}
+
+vehicle_wheel_accessory: .rudi.passat_2014.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/25_alu_vw_rear.sii"
+}
+
+
+
+traffic_vehicle : traffic.rudi.passat_cc
+{
+	accessories[]: .rudi.passat_cc.chassis
+	accessories[]: .rudi.passat_cc.fwheel
+	accessories[]: .rudi.passat_cc.rwheel
+
+	max_speed: 180
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.passat_cc.chassis
+{
+	data_path: "/def/vehicle/ai/passat_cc/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.passat_cc.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_l.sii"
+}
+
+vehicle_wheel_accessory: .rudi.passat_cc.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_l.sii"
+}
+
+traffic_vehicle : traffic.rudi.peugeot_208
+{
+	accessories[]: .rudi.peugeot_208.chassis
+	accessories[]: .rudi.peugeot_208.fwheel
+	accessories[]: .rudi.peugeot_208.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+
+	vehicle_mass: 1700
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .rudi.peugeot_208.chassis
+{
+	data_path: "/def/vehicle/ai/peugeot_208/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.peugeot_208.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_4.sii"
+}
+
+vehicle_wheel_accessory: .rudi.peugeot_208.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_4.sii"
+}
+
+
+
+traffic_vehicle : traffic.rudi.peugeot_407
+{
+	accessories[]: .rudi.peugeot_407.chassis
+	accessories[]: .rudi.peugeot_407.fwheel
+	accessories[]: .rudi.peugeot_407.rwheel
+
+	max_speed: 170
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.peugeot_407.chassis
+{
+	data_path: "/def/vehicle/ai/peugeot_407/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.peugeot_407.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .rudi.peugeot_407.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}
+
+traffic_vehicle : traffic.rudi.peugeotbo
+{
+	accessories[]: .rudi.peugeotbo.chassis
+	accessories[]: .rudi.peugeotbo.fwheel
+	accessories[]: .rudi.peugeotbo.rwheel
+
+	max_speed: 120
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.peugeotbo.chassis
+{
+	data_path: "/def/vehicle/ai/peugeot_boxer/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.peugeotbo.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.peugeotbo.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_2.sii"
+}
+
+traffic_vehicle : traffic.rudi.punto
+{
+	accessories[]: .rudi.punto.chassis
+	accessories[]: .rudi.punto.fwheel
+	accessories[]: .rudi.punto.rwheel
+
+	max_speed: 140
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1500
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.punto.chassis
+{
+	data_path: "/def/vehicle/ai/punto/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.punto.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_15in.sii"
+}
+
+vehicle_wheel_accessory: .rudi.punto.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_15in.sii"
+}
+
+traffic_vehicle : traffic.rudi.qashqai
+{
+	accessories[]: .rudi.qashqai.chassis
+	accessories[]: .rudi.qashqai.fwheel
+	accessories[]: .rudi.qashqai.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.qashqai.chassis
+{
+	data_path: "/def/vehicle/ai/qashqai/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.qashqai.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .rudi.qashqai.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}
+
+traffic_vehicle : traffic.rudi.range_rover
+{
+	accessories[]: .rudi.range_rover.chassis
+	accessories[]: .rudi.range_rover.fwheel
+	accessories[]: .rudi.range_rover.rwheel
+
+	max_speed: 150
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2200
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.range_rover.chassis
+{
+	data_path: "/def/vehicle/ai/range_rover/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.range_rover.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_20in.sii"
+}
+
+vehicle_wheel_accessory: .rudi.range_rover.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_20in.sii"
+}
+
+
+traffic_vehicle : traffic.rudi.renegade
+{
+	accessories[]: .rudi.renegade.chassis
+	accessories[]: .rudi.renegade.fwheel
+	accessories[]: .rudi.renegade.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+
+
+	vehicle_mass: 2000	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.renegade.chassis
+{
+	data_path: "/def/vehicle/ai/renegade/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.renegade.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_o_1.sii"
+}
+
+vehicle_wheel_accessory: .rudi.renegade.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_o_1.sii"
+}
+
+
+traffic_vehicle : traffic.rudi.seat
+{
+	accessories[]: .rudi.seat.chassis
+	accessories[]: .rudi.seat.fwheel
+	accessories[]: .rudi.seat.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1600
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.seat.chassis
+{
+	data_path: "/def/vehicle/ai/seat/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.seat.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .rudi.seat.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}
+
+traffic_vehicle : traffic.rudi.octavia_iii
+{
+	accessories[]: .rudi.octavia_iii.chassis
+	accessories[]: .rudi.octavia_iii.fwheel
+	accessories[]: .rudi.octavia_iii.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	lod_dist[]: 100
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.octavia_iii.chassis
+{
+	data_path: "/def/vehicle/ai/skoda_octavia_iii/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.octavia_iii.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .rudi.octavia_iii.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}
+
+traffic_vehicle : traffic.rudi.talisman
+{
+	accessories[]: .rudi.talisman.chassis
+	accessories[]: .rudi.talisman.fwheel
+	accessories[]: .rudi.talisman.rwheel
+
+	max_speed: 140
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	vehicle_mass: 2000
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.talisman.chassis
+{
+	data_path: "/def/vehicle/ai/talisman/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.talisman.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_l.sii"
+}
+
+vehicle_wheel_accessory: .rudi.talisman.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_l.sii"
+}
+
+traffic_vehicle : traffic.rudi.tourer
+{
+	accessories[]: .rudi.tourer.chassis
+	accessories[]: .rudi.tourer.fwheel
+	accessories[]: .rudi.tourer.rwheel
+
+	max_speed: 150
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2000
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .rudi.tourer.chassis
+{
+	data_path: "/def/vehicle/ai/tourer/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.tourer.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .rudi.tourer.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}
+
+
+
+
+traffic_vehicle : traffic.rudi.volvo_xc70
+{
+	accessories[]: .rudi.volvo_xc70.chassis
+	accessories[]: .rudi.volvo_xc70.fwheel
+	accessories[]: .rudi.volvo_xc70.rwheel
+
+	max_speed: 190
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	lod_dist[]: 100
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.volvo_xc70.chassis
+{
+	data_path: "/def/vehicle/ai/volvo_xc70/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.volvo_xc70.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .rudi.volvo_xc70.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+
+traffic_vehicle : traffic.rudi.vw_touran
+{
+	accessories[]: .rudi.vw_touran.chassis
+	accessories[]: .rudi.vw_touran.fwheel
+	accessories[]: .rudi.vw_touran.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	lod_dist[]: 100
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.vw_touran.chassis
+{
+	data_path: "/def/vehicle/ai/vw_touran/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.vw_touran.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_l.sii"
+}
+
+vehicle_wheel_accessory: .rudi.vw_touran.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_l.sii"
+}
+
+
+
+
+traffic_vehicle : traffic.rudi.xc60
+{
+	accessories[]: .rudi.xc60.chassis
+	accessories[]: .rudi.xc60.fwheel
+	accessories[]: .rudi.xc60.rwheel
+
+	max_speed: 190
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 1800
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.xc60.chassis
+{
+	data_path: "/def/vehicle/ai/xc60/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.xc60.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_o.sii"
+}
+
+vehicle_wheel_accessory: .rudi.xc60.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_o.sii"
+}
+
+traffic_vehicle : traffic.rudi.xc90
+{
+	accessories[]: .rudi.xc90.chassis
+	accessories[]: .rudi.xc90.fwheel
+	accessories[]: .rudi.xc90.rwheel
+
+	max_speed: 180
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2100
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .rudi.xc90.chassis
+{
+	data_path: "/def/vehicle/ai/xc90/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.xc90.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_20in.sii"
+}
+
+vehicle_wheel_accessory: .rudi.xc90.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_20in.sii"
+}
+
+traffic_vehicle : traffic.rudi.ypsilon
+{
+	accessories[]: .rudi.ypsilon.chassis
+	accessories[]: .rudi.ypsilon.fwheel
+	accessories[]: .rudi.ypsilon.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+
+
+	vehicle_mass: 1700
+
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .rudi.ypsilon.chassis
+{
+	data_path: "/def/vehicle/ai/ypsilon/chassis.sii"
+}
+
+vehicle_wheel_accessory: .rudi.ypsilon.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_15in_2.sii"
+}
+
+vehicle_wheel_accessory: .rudi.ypsilon.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_15in_2.sii"
+}

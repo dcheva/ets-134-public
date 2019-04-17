@@ -1,0 +1,139 @@
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX combi XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.superb.combi
+{
+	accessories[]: .superb.combi.chassis
+	accessories[]: .superb.combi.fwheel
+	accessories[]: .superb.combi.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	spawn_ratio: 1
+
+	vehicle_mass: 1500
+   
+    	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0717, 0.06, 0.0657) #grey
+	color[]: (0.0462, 0.0098, 0.005) #brown
+	color[]: (0.011, 0.0727, 0.1128) #blue
+	color[]: (0.2345, 0.2086, 0.1811) #light_brown
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	
+	variant[]: traffic.superb.liftback
+	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .superb.combi.chassis
+{
+	data_path: "/def/vehicle/ai/superb_iii/combi.sii"
+}
+
+vehicle_wheel_accessory: .superb.combi.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .superb.combi.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX liftback XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.superb.liftback
+{
+	accessories[]: .superb.liftback.chassis
+	accessories[]: .superb.liftback.fwheel
+	accessories[]: .superb.liftback.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	spawn_ratio: 1
+
+	vehicle_mass: 1400
+    
+    color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0717, 0.06, 0.0657) #grey
+	color[]: (0.0462, 0.0098, 0.005) #brown
+	color[]: (0.011, 0.0727, 0.1128) #blue
+	color[]: (0.2345, 0.2086, 0.1811) #light_brown
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	
+	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .superb.liftback.chassis
+{
+	data_path: "/def/vehicle/ai/superb_iii/liftback.sii"
+}
+
+vehicle_wheel_accessory: .superb.liftback.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .superb.liftback.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX hook XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.superb.hook
+{
+	accessories[]: .superb.hook.chassis
+	accessories[]: .superb.hook.fwheel
+	accessories[]: .superb.hook.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	allow_parked: false
+	attachable_trailer[]: "trailer.ai_car*"
+	trailer_count[]: 1
+	spawn_ratio: 0.05
+
+	vehicle_mass: 1500
+    
+   
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0717, 0.06, 0.0657) #grey
+	color[]: (0.0462, 0.0098, 0.005) #brown
+	color[]: (0.011, 0.0727, 0.1128) #blue
+	color[]: (0.2345, 0.2086, 0.1811) #light_brown
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	
+	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .superb.hook.chassis
+{
+	data_path: "/def/vehicle/ai/superb_iii/hook.sii"
+}
+
+vehicle_wheel_accessory: .superb.hook.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .superb.hook.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}

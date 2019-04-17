@@ -1,0 +1,79 @@
+traffic_vehicle : traffic.octavia_iii.police_lt
+{
+	accessories[]: .octavia_iii.police_lt.chassis
+	accessories[]: .octavia_iii.police_lt.fwheel
+	accessories[]: .octavia_iii.police_lt.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	#lod_dist[]: 100
+
+	spawn_ratio: 0
+
+	vehicle_mass: 1800
+	
+	color[]: (1, 1, 1) #white
+
+	variant[]: traffic.octavia_iii.police_lt_n
+	  
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .octavia_iii.police_lt.chassis
+{
+	data_path: "/def/vehicle/ai/skoda_octavia_iii/chassis_police_lt.sii"
+}
+
+vehicle_wheel_accessory: .octavia_iii.police_lt.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .octavia_iii.police_lt.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}
+
+# xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+traffic_vehicle : traffic.octavia_iii.police_lt_n
+{
+	accessories[]: .octavia_iii.police_lt_n.chassis
+	accessories[]: .octavia_iii.police_lt_n.fwheel
+	accessories[]: .octavia_iii.police_lt_n.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 50
+	lod_dist[]: 80
+	#lod_dist[]: 100
+
+
+	vehicle_mass: 1800
+	
+	color[]: (1, 1, 1) #white
+	  
+	  
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .octavia_iii.police_lt_n.chassis
+{
+	data_path: "/def/vehicle/ai/skoda_octavia_iii/chassis_police_lt_n.sii"
+}
+
+vehicle_wheel_accessory: .octavia_iii.police_lt_n.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .octavia_iii.police_lt_n.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}

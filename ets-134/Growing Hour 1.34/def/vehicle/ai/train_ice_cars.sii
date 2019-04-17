@@ -1,0 +1,147 @@
+## MIDDLE carriages
+
+traffic_trailer : train_car.ice_car
+{
+	accessories[]: .ice_car.chassis
+	accessories[]: .ice_car.rwheel
+	accessories[]: .ice_car.rwheel1
+	accessories[]: .ice_car.rwheel2
+	accessories[]: .ice_car.rwheel3
+
+	attachable_trailer[]: "train_car.ice_car_2"
+	attachable_trailer[]: "train_car.ice_car"
+
+	trailer_count_min: 2
+
+	displacement_limit: 0.0
+
+
+}
+
+vehicle_accessory: .ice_car.chassis
+{
+	data_path: "/def/vehicle/ai/train_ice/chassis_c.sii"
+}
+
+vehicle_wheel_accessory: .ice_car.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ice_car.rwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ice_car.rwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ice_car.rwheel3
+{
+	offset: 6
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+
+## ONE TO LAST carriage
+
+traffic_trailer : train_car.ice_car_2
+{
+	accessories[]: .ice_car_2.chassis
+	accessories[]: .ice_car_2.rwheel
+	accessories[]: .ice_car_2.rwheel1
+	accessories[]: .ice_car_2.rwheel2
+	accessories[]: .ice_car_2.rwheel3
+
+	attachable_trailer[]: "train_car.ice_car_l"
+
+	trailer_count_min: 1
+    trailer_count_max: 1
+    
+	displacement_limit: 0.0
+
+
+}
+
+vehicle_accessory: .ice_car_2.chassis
+{
+	data_path: "/def/vehicle/ai/train_ice/chassis_c2.sii"
+}
+
+vehicle_wheel_accessory: .ice_car_2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ice_car_2.rwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ice_car_2.rwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ice_car_2.rwheel3
+{
+	offset: 6
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+
+
+## LAST carriage
+
+traffic_trailer : train_car.ice_car_l
+{
+	accessories[]: .ice_car_l.chassis
+	accessories[]: .ice_car_l.rwheel
+	accessories[]: .ice_car_l.rwheel1
+	accessories[]: .ice_car_l.rwheel2
+	accessories[]: .ice_car_l.rwheel3
+
+
+	trailer_count_min: 0
+
+	displacement_limit: 0.0
+
+
+}
+
+vehicle_accessory: .ice_car_l.chassis
+{
+	data_path: "/def/vehicle/ai/train_ice/chassis_lc.sii"
+}
+
+vehicle_wheel_accessory: .ice_car_l.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ice_car_l.rwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ice_car_l.rwheel2
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ice_car_l.rwheel3
+{
+	offset: 6
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

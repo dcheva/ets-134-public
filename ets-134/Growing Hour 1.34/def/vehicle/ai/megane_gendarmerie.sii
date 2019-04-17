@@ -1,0 +1,33 @@
+traffic_vehicle : traffic.megane.gendarmerie
+{
+	accessories[]: .megane.gendarmerie.chassis
+	accessories[]: .megane.gendarmerie.fwheel
+	accessories[]: .megane.gendarmerie.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	spawn_ratio: 0
+
+	vehicle_mass: 1800
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .megane.gendarmerie.chassis
+{
+	data_path: "/def/vehicle/ai/renault_megane/chassis_gendarmerie.sii"
+}
+
+vehicle_wheel_accessory: .megane.gendarmerie.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_4.sii"
+}
+
+vehicle_wheel_accessory: .megane.gendarmerie.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_4.sii"
+}

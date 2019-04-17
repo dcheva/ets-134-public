@@ -1,0 +1,1038 @@
+
+traffic_rule_data : traffic_rule.s_car_l
+{
+	# name: "Spawn density car low"
+
+	rule: "density"
+
+	str_params[]: "car"
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 2	# count limit
+	
+	num_params[]: 5.30	# 5:30
+	num_params[]: 1.0	# frequency
+	num_params[]: 2	# count limit
+	
+	num_params[]: 6.00	# 6:00
+	num_params[]: 3.0	# frequency
+	num_params[]: 5	# count limit
+
+	num_params[]: 6.30	# 6:30
+	num_params[]: 5.5	# frequency
+	num_params[]: 10	# count limit
+	
+	num_params[]: 7.0	# 7:00
+	num_params[]: 6.0	# frequency
+	num_params[]: 20	# count limit
+
+	num_params[]: 9.0	# 9:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 15 	# count limit
+	
+	num_params[]: 9.30	# 9:30
+	num_params[]: 4.0	# frequency
+	num_params[]: 15 	# count limit
+
+	num_params[]: 10.0	# 10:00
+	num_params[]: 4.0	# frequency
+	num_params[]: 15 	# count limit
+	
+	num_params[]: 15.0	# 15:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 15 	# count limit
+	
+	num_params[]: 15.30	# 15:30
+	num_params[]: 5.0	# frequency
+	num_params[]: 15	# count limit
+	
+	num_params[]: 16.0	# 16:00
+	num_params[]: 6.0	# frequency
+	num_params[]: 20	# count limit
+	
+	num_params[]: 18.0	# 18:00
+	num_params[]: 4.5	# frequency
+	num_params[]: 15 	# count limit
+
+	num_params[]: 19.0	# 19:00
+	num_params[]: 1.5	# frequency
+	num_params[]: 13 	# count limit
+
+    num_params[]: 20.0	# 20:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 21.0	# 21:00
+	num_params[]: 0.005	# frequency
+	num_params[]: 1 	# count limit
+
+	num_params[]: 22.0	# 22:00
+	num_params[]: 0.005	# frequency
+	num_params[]: 1 	# count limit
+
+	num_params[]: 23.0	# 23:00
+	num_params[]: 0.005	# frequency
+	num_params[]: 1 	# count limit
+	
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.005	# frequency
+	num_params[]: 1 	# count limit
+}
+
+traffic_rule_data : traffic_rule.s_car_h
+{
+	# name: "Spawn density car high"
+
+	rule: "density"
+
+	str_params[]: "car"
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 0.4	# frequency
+	num_params[]: 10	# count limit
+	
+	num_params[]: 5.30	# 5:30
+	num_params[]: 1.0	# frequency
+	num_params[]: 30	# count limit
+	
+	num_params[]: 6.00	# 6:00
+	num_params[]: 10.0	# frequency
+	num_params[]: 100	# count limit
+
+	num_params[]: 6.30	# 6:30
+	num_params[]: 15.0	# frequency
+	num_params[]: 150	# count limit
+	
+	num_params[]: 7.0	# 7:00
+	num_params[]: 25.0	# frequency
+	num_params[]: 250	# count limit
+
+	num_params[]: 9.0	# 9:00
+	num_params[]: 10.0	# frequency
+	num_params[]: 80	# count limit
+	
+	num_params[]: 9.30	# 9:30
+	num_params[]: 8.0	# frequency
+	num_params[]: 60	# count limit
+
+	num_params[]: 10.0	# 10:00
+	num_params[]: 6.0	# frequency
+	num_params[]: 60	# count limit
+	
+	num_params[]: 15.0	# 15:00
+	num_params[]: 10.0	# frequency
+	num_params[]: 100	# count limit
+	
+	num_params[]: 15.30	# 15:30
+	num_params[]: 15.0	# frequency
+	num_params[]: 150	# count limit
+	
+	num_params[]: 16.0	# 16:00
+	num_params[]: 25.0	# frequency
+	num_params[]: 250	# count limit
+	
+	num_params[]: 18.0	# 18:00
+	num_params[]: 8.0	# frequency
+	num_params[]: 80	# count limit
+
+	num_params[]: 19.0	# 19:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 60	# count limit
+
+    num_params[]: 20.0	# 20:00
+	num_params[]: 3.0	# frequency
+	num_params[]: 30	# count limit
+
+	num_params[]: 21.0	# 21:00
+	num_params[]: 2.0	# frequency
+	num_params[]: 25	# count limit
+
+	num_params[]: 22.0	# 22:00
+	num_params[]: 1.5	# frequency
+	num_params[]: 15    # count limit
+
+	num_params[]: 23.0	# 23:00
+	num_params[]: 0.8	# frequency
+	num_params[]: 2	    # count limit
+	
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.2	# frequency
+	num_params[]: 2 	# count limit
+}
+
+traffic_rule_data : traffic_rule.s_car_u
+{
+	# name: "Spawn density car urban"
+
+	rule: "density"
+
+	str_params[]: "car"
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 5	    # count limit
+	
+	num_params[]: 5.30	# 5:30
+	num_params[]: 1.5	# frequency
+	num_params[]: 5	    # count limit
+	
+	num_params[]: 6.00	# 6:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 20	# count limit
+
+	num_params[]: 6.30	# 6:30
+	num_params[]: 14.0	# frequency
+	num_params[]: 20	# count limit
+	
+	num_params[]: 7.0	# 7:00
+	num_params[]: 14.0	# frequency
+	num_params[]: 30	# count limit
+
+	num_params[]: 9.0	# 9:00
+	num_params[]: 14.0	# frequency
+	num_params[]: 30 	# count limit
+	
+	num_params[]: 9.30	# 9:30
+	num_params[]: 14.0	# frequency
+	num_params[]: 30 	# count limit
+
+	num_params[]: 10.0	# 10:00
+	num_params[]: 14.0	# frequency
+	num_params[]: 30 	# count limit
+	
+	num_params[]: 15.0	# 15:00
+	num_params[]: 14.0	# frequency
+	num_params[]: 30 	# count limit
+	
+	num_params[]: 15.30	# 15:30
+	num_params[]: 14.5	# frequency
+	num_params[]: 30	# count limit
+	
+	num_params[]: 16.0	# 16:00
+	num_params[]: 14.5	# frequency
+	num_params[]: 30	# count limit
+	
+	num_params[]: 18.0	# 18:00
+	num_params[]: 14.0	# frequency
+	num_params[]: 30 	# count limit
+
+	num_params[]: 19.0	# 19:00
+	num_params[]: 10.0	# frequency
+	num_params[]: 10 	# count limit
+
+    num_params[]: 20.0	# 20:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 5 	# count limit
+
+	num_params[]: 21.0	# 21:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 3 	# count limit
+
+	num_params[]: 22.0	# 22:00
+	num_params[]: 0.02	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 23.0	# 23:00
+	num_params[]: 0.02	# frequency
+	num_params[]: 1 	# count limit
+	
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.01	# frequency
+	num_params[]: 1 	# count limit
+}
+
+traffic_rule_data : traffic_rule.s_car_uh
+{
+	# name: "Spawn density car urban high density"
+
+	rule: "density"
+
+	str_params[]: "car"
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 2.0	# frequency
+	num_params[]: 10	# count limit
+	
+	num_params[]: 5.30	# 5:30
+	num_params[]: 2.0	# frequency
+	num_params[]: 15	# count limit
+	
+	num_params[]: 6.00	# 6:00
+	num_params[]: 10.0	# frequency
+	num_params[]: 30	# count limit
+
+	num_params[]: 6.30	# 6:30
+	num_params[]: 10.0	# frequency
+	num_params[]: 30	# count limit
+	
+	num_params[]: 7.0	# 7:00
+	num_params[]: 15.0	# frequency
+	num_params[]: 30	# count limit
+
+	num_params[]: 9.0	# 9:00
+	num_params[]: 10.0	# frequency
+	num_params[]: 30 	# count limit
+	
+	num_params[]: 9.30	# 9:30
+	num_params[]: 10.0	# frequency
+	num_params[]: 30 	# count limit
+
+	num_params[]: 10.0	# 10:00
+	num_params[]: 10.0	# frequency
+	num_params[]: 30 	# count limit
+	
+	num_params[]: 15.0	# 15:00
+	num_params[]: 15.0	# frequency
+	num_params[]: 30 	# count limit
+	
+	num_params[]: 15.30	# 15:30
+	num_params[]: 15.0	# frequency
+	num_params[]: 30	# count limit
+	
+	num_params[]: 16.0	# 16:00
+	num_params[]: 15.0	# frequency
+	num_params[]: 30	# count limit
+	
+	num_params[]: 18.0	# 18:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 10 	# count limit
+
+	num_params[]: 19.0	# 19:00
+	num_params[]: 3.0	# frequency
+	num_params[]: 5 	# count limit
+
+    num_params[]: 20.0	# 20:00
+	num_params[]: 0.5	# frequency
+	num_params[]: 3 	# count limit
+
+	num_params[]: 21.0	# 21:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 1 	# count limit
+
+	num_params[]: 22.0	# 22:00
+	num_params[]: 0.01	# frequency
+	num_params[]: 1 	# count limit
+
+	num_params[]: 23.0	# 23:00
+	num_params[]: 0.01	# frequency
+	num_params[]: 1 	# count limit
+	
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.01	# frequency
+	num_params[]: 1 	# count limit
+}
+
+
+
+traffic_rule_data : traffic_rule.s_car_c_u
+{
+	# name: "Spawn density car_city urban"
+
+	rule: "density"
+
+	str_params[]: "car_city"
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 2.0	# frequency
+	num_params[]: 10	# count limit
+	
+	num_params[]: 5.30	# 5:30
+	num_params[]: 2.0	# frequency
+	num_params[]: 25	# count limit
+	
+	num_params[]: 6.00	# 6:00
+	num_params[]: 15.0	# frequency
+	num_params[]: 80	# count limit
+
+	num_params[]: 6.30	# 6:30
+	num_params[]: 15.0	# frequency
+	num_params[]: 80	# count limit
+	
+	num_params[]: 7.0	# 7:00
+	num_params[]: 20.0	# frequency
+	num_params[]: 150	# count limit
+
+	num_params[]: 9.0	# 9:00
+	num_params[]: 15.0	# frequency
+	num_params[]: 100 	# count limit
+	
+	num_params[]: 9.30	# 9:30
+	num_params[]: 15.0	# frequency
+	num_params[]: 100 	# count limit
+
+	num_params[]: 10.0	# 10:00
+	num_params[]: 15.0	# frequency
+	num_params[]: 100 	# count limit
+	
+	num_params[]: 15.0	# 15:00
+	num_params[]: 15.0	# frequency
+	num_params[]: 100 	# count limit
+	
+	num_params[]: 15.30	# 15:30
+	num_params[]: 20.0	# frequency
+	num_params[]: 150	# count limit
+	
+	num_params[]: 16.0	# 16:00
+	num_params[]: 20.0	# frequency
+	num_params[]: 150	# count limit
+	
+	num_params[]: 18.0	# 18:00
+	num_params[]: 7.0	# frequency
+	num_params[]: 40 	# count limit
+
+	num_params[]: 19.0	# 19:00
+	num_params[]: 3.0	# frequency
+	num_params[]: 20 	# count limit
+
+    num_params[]: 20.0	# 20:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 5 	# count limit
+
+	num_params[]: 21.0	# 21:00
+	num_params[]: 0.5	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 22.0	# 22:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 1 	# count limit
+
+	num_params[]: 23.0	# 23:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 1 	# count limit
+	
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 1 	# count limit
+}
+
+
+traffic_rule_data : traffic_rule.rudi_cars_u
+{
+	# name: "Spawn density rudi_cars urban"
+
+	rule: "density"
+
+	str_params[]: "rudi_cars"
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 2.0	# frequency
+	num_params[]: 10	# count limit
+	
+	num_params[]: 5.30	# 5:30
+	num_params[]: 2.0	# frequency
+	num_params[]: 25	# count limit
+	
+	num_params[]: 6.00	# 6:00
+	num_params[]: 15.0	# frequency
+	num_params[]: 50	# count limit
+
+	num_params[]: 6.30	# 6:30
+	num_params[]: 20.0	# frequency
+	num_params[]: 40	# count limit
+	
+	num_params[]: 7.0	# 7:00
+	num_params[]: 20.0	# frequency
+	num_params[]: 45	# count limit
+
+	num_params[]: 9.0	# 9:00
+	num_params[]: 20.0	# frequency
+	num_params[]: 45 	# count limit
+	
+	num_params[]: 9.30	# 9:30
+	num_params[]: 20.0	# frequency
+	num_params[]: 45 	# count limit
+
+	num_params[]: 10.0	# 10:00
+	num_params[]: 20.0	# frequency
+	num_params[]: 45 	# count limit
+	
+	num_params[]: 15.0	# 15:00
+	num_params[]: 20.0	# frequency
+	num_params[]: 45 	# count limit
+	
+	num_params[]: 15.30	# 15:30
+	num_params[]: 20.0	# frequency
+	num_params[]: 45	# count limit
+	
+	num_params[]: 16.0	# 16:00
+	num_params[]: 20.0	# frequency
+	num_params[]: 45	# count limit
+	
+	num_params[]: 18.0	# 18:00
+	num_params[]: 20.0	# frequency
+	num_params[]: 45 	# count limit
+
+	num_params[]: 19.0	# 19:00
+	num_params[]: 20.0	# frequency
+	num_params[]: 30 	# count limit
+
+    num_params[]: 20.0	# 20:00
+	num_params[]: 20.0	# frequency
+	num_params[]: 25 	# count limit
+
+	num_params[]: 21.0	# 21:00
+	num_params[]: 10.0	# frequency
+	num_params[]: 15 	# count limit
+
+	num_params[]: 22.0	# 22:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 12 	# count limit
+
+	num_params[]: 23.0	# 23:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 8 	# count limit
+	
+	num_params[]: 0.0	# 00:00
+	num_params[]: 3.0	# frequency
+	num_params[]: 5 	# count limit
+}
+
+
+
+traffic_rule_data : traffic_rule.s_truck_l
+{
+	# name: "Spawn density truck low"
+
+	rule: "density"
+
+	str_params[]: "truck"
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 0.4	# frequency
+	num_params[]: 2	    # count limit
+	
+	num_params[]: 5.30	# 5:30
+	num_params[]: 0.4	# frequency
+	num_params[]: 2	    # count limit
+	
+	num_params[]: 6.00	# 6:00
+	num_params[]: 0.8	# frequency
+	num_params[]: 3	    # count limit
+
+	num_params[]: 6.30	# 6:30
+	num_params[]: 0.8	# frequency
+	num_params[]: 5	    # count limit
+	
+	num_params[]: 7.0	# 7:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 5    # count limit
+
+	num_params[]: 9.0	# 9:00
+	num_params[]: 0.8	# frequency
+	num_params[]: 4 	# count limit
+	
+	num_params[]: 9.30	# 9:30
+	num_params[]: 0.8	# frequency
+	num_params[]: 4 	# count limit
+
+	num_params[]: 10.0	# 10:00
+	num_params[]: 0.7	# frequency
+	num_params[]: 4 	# count limit
+	
+	num_params[]: 15.0	# 15:00
+	num_params[]: 0.8	# frequency
+	num_params[]: 4 	# count limit
+	
+	num_params[]: 15.30	# 15:30
+	num_params[]: 0.8	# frequency
+	num_params[]: 5 	# count limit
+	
+	num_params[]: 16.0	# 16:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 5    # count limit
+	
+	num_params[]: 18.0	# 18:00
+	num_params[]: 0.8	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 19.0	# 19:00
+	num_params[]: 0.8	# frequency
+	num_params[]: 2 	# count limit
+
+    num_params[]: 20.0	# 20:00
+	num_params[]: 0.1	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 21.0	# 21:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 22.0	# 22:00
+	num_params[]: 0.03	# frequency
+	num_params[]: 1 	# count limit
+
+	num_params[]: 23.0	# 23:00
+	num_params[]: 0.01	# frequency
+	num_params[]: 1 	# count limit
+	
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.01	# frequency
+	num_params[]: 1 	# count limit
+}
+
+traffic_rule_data : traffic_rule.s_truck_h
+{
+	# name: "Spawn density truck high"
+
+	rule: "density"
+
+	str_params[]: "truck"
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 0.5	# frequency
+	num_params[]: 5 	# count limit
+	
+	num_params[]: 5.30	# 5:30
+	num_params[]: 1.0	# frequency
+	num_params[]: 7 	# count limit
+	
+	num_params[]: 6.00	# 6:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 20	# count limit
+
+	num_params[]: 6.30	# 6:30
+	num_params[]: 10.0	# frequency
+	num_params[]: 25	# count limit
+	
+	num_params[]: 7.0	# 7:00
+	num_params[]: 20.0	# frequency
+	num_params[]: 50	# count limit
+
+	num_params[]: 9.0	# 9:00
+	num_params[]: 7.0	# frequency
+	num_params[]: 10	# count limit
+	
+	num_params[]: 9.30	# 9:30
+	num_params[]: 5.0	# frequency
+	num_params[]: 10	# count limit
+
+	num_params[]: 10.0	# 10:00
+	num_params[]: 3.0	# frequency
+	num_params[]: 10	# count limit
+	
+	num_params[]: 15.0	# 15:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 20	# count limit
+	
+	num_params[]: 15.30	# 15:30
+	num_params[]: 10.0	# frequency
+	num_params[]: 25	# count limit
+	
+	num_params[]: 16.0	# 16:00
+	num_params[]: 20.0	# frequency
+	num_params[]: 50	# count limit
+	
+	num_params[]: 18.0	# 18:00
+	num_params[]: 7.0	# frequency
+	num_params[]: 15	# count limit
+
+	num_params[]: 19.0	# 19:00
+	num_params[]: 4.0	# frequency
+	num_params[]: 10	# count limit
+
+    num_params[]: 20.0	# 20:00
+	num_params[]: 3.0	# frequency
+	num_params[]: 15    # count limit
+
+	num_params[]: 21.0	# 21:00
+	num_params[]: 3.0	# frequency
+	num_params[]: 15    # count limit
+
+	num_params[]: 22.0	# 22:00
+	num_params[]: 2.0	# frequency
+	num_params[]: 10    # count limit
+
+	num_params[]: 23.0	# 23:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 5     # count limit
+	
+	num_params[]: 0.0	# 00:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 10 	# count limit
+}
+
+traffic_rule_data : traffic_rule.s_truck_u
+{
+	# name: "Spawn density truck urban"
+
+	rule: "density"
+
+	str_params[]: "truck"
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 3	    # count limit
+	
+	num_params[]: 5.30	# 5:30
+	num_params[]: 1.0	# frequency
+	num_params[]: 4	    # count limit
+	
+	num_params[]: 6.00	# 6:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 6	    # count limit
+
+	num_params[]: 6.30	# 6:30
+	num_params[]: 1.0	# frequency
+	num_params[]: 6	    # count limit
+	
+	num_params[]: 7.0	# 7:00
+	num_params[]: 1.5	# frequency
+	num_params[]: 8	    # count limit
+
+	num_params[]: 9.0	# 9:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 4 	# count limit
+	
+	num_params[]: 9.30	# 9:30
+	num_params[]: 1.0	# frequency
+	num_params[]: 4 	# count limit
+
+	num_params[]: 10.0	# 10:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 4 	# count limit
+	
+	num_params[]: 15.0	# 15:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 5 	# count limit
+	
+	num_params[]: 15.30	# 15:30
+	num_params[]: 1.3	# frequency
+	num_params[]: 5	    # count limit
+	
+	num_params[]: 16.0	# 16:00
+	num_params[]: 1.5	# frequency
+	num_params[]: 6	    # count limit
+	
+	num_params[]: 18.0	# 18:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 5 	# count limit
+
+	num_params[]: 19.0	# 19:00
+	num_params[]: 0.8	# frequency
+	num_params[]: 4 	# count limit
+
+    num_params[]: 20.0	# 20:00
+	num_params[]: 0.6	# frequency
+	num_params[]: 3 	# count limit
+
+	num_params[]: 21.0	# 21:00
+	num_params[]: 0.4	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 22.0	# 22:00
+	num_params[]: 0.3	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 23.0	# 23:00
+	num_params[]: 0.2	# frequency
+	num_params[]: 1 	# count limit
+	
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.2	# frequency
+	num_params[]: 1 	# count limit
+}
+
+traffic_rule_data : traffic_rule.s_truck_c_u
+{
+	# name: "Spawn density truck_city urban"
+
+	rule: "density"
+
+	str_params[]: "truck_city"
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 1.0	# frequency
+	num_params[]: 2	    # count limit
+	
+	num_params[]: 5.30	# 5:30
+	num_params[]: 1.0	# frequency
+	num_params[]: 2	    # count limit
+	
+	num_params[]: 6.00	# 6:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 3	    # count limit
+
+	num_params[]: 6.30	# 6:30
+	num_params[]: 5.0	# frequency
+	num_params[]: 3	    # count limit
+	
+	num_params[]: 7.0	# 7:00
+	num_params[]: 5.5	# frequency
+	num_params[]: 5	    # count limit
+
+	num_params[]: 9.0	# 9:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 5 	# count limit
+	
+	num_params[]: 9.30	# 9:30
+	num_params[]: 5.0	# frequency
+	num_params[]: 5 	# count limit
+
+	num_params[]: 10.0	# 10:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 5 	# count limit
+	
+	num_params[]: 15.0	# 15:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 5 	# count limit
+	
+	num_params[]: 15.30	# 15:30
+	num_params[]: 5.3	# frequency
+	num_params[]: 5  	# count limit
+	
+	num_params[]: 16.0	# 16:00
+	num_params[]: 5.5	# frequency
+	num_params[]: 5	    # count limit
+	
+	num_params[]: 18.0	# 18:00
+	num_params[]: 5.0	# frequency
+	num_params[]: 4 	# count limit
+
+	num_params[]: 19.0	# 19:00
+	num_params[]: 3.8	# frequency
+	num_params[]: 3 	# count limit
+
+    num_params[]: 20.0	# 20:00
+	num_params[]: 2.0	# frequency
+	num_params[]: 3 	# count limit
+
+	num_params[]: 21.0	# 21:00
+	num_params[]: 1.6	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 22.0	# 22:00
+	num_params[]: 0.8	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 23.0	# 23:00
+	num_params[]: 0.3	# frequency
+	num_params[]: 1 	# count limit
+	
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.2	# frequency
+	num_params[]: 1 	# count limit
+}
+
+
+traffic_rule_data : traffic_rule.s_bus_l
+{
+	# name: "Spawn density bus low"
+
+	rule: "density"
+
+	str_params[]: "bus"
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2	    # count limit
+	
+	num_params[]: 5.30	# 5:30
+	num_params[]: 0.05	# frequency
+	num_params[]: 2	    # count limit
+	
+	num_params[]: 6.00	# 6:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2	    # count limit
+
+	num_params[]: 6.30	# 6:30
+	num_params[]: 0.05	# frequency
+	num_params[]: 2	    # count limit
+	
+	num_params[]: 7.0	# 7:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2  	# count limit
+
+	num_params[]: 9.0	# 9:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2 	# count limit
+	
+	num_params[]: 9.30	# 9:30
+	num_params[]: 0.05	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 10.0	# 10:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2 	# count limit
+	
+	num_params[]: 15.0	# 15:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2 	# count limit
+	
+	num_params[]: 15.30	# 15:30
+	num_params[]: 0.05	# frequency
+	num_params[]: 2  	# count limit
+	
+	num_params[]: 16.0	# 16:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2 	# count limit
+	
+	num_params[]: 18.0	# 18:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 19.0	# 19:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2 	# count limit
+
+    num_params[]: 20.0	# 20:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 21.0	# 21:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2 	# count limit
+
+	num_params[]: 22.0	# 22:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 1 	# count limit
+
+	num_params[]: 23.0	# 23:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 1 	# count limit
+	
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 1 	# count limit
+}
+
+traffic_rule_data : traffic_rule.s_bus_h
+{
+	# name: "Spawn density bus high"
+
+	rule: "density"
+
+	str_params[]: "bus"
+
+	num_params[]: 5.0	# 5:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2		# count limit	
+	
+	num_params[]: 7.0	# 7:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2		# count limit
+
+	num_params[]: 17.0	# 17:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2		# count limit
+
+	num_params[]: 23.0	# 23:00
+	num_params[]: 0.06	# frequency
+	num_params[]: 2		# count limit	
+	
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.08	# frequency
+	num_params[]: 3		# count limit
+}
+
+traffic_rule_data : traffic_rule.s_police
+{
+	# name: "Spawn density police"
+
+	rule: "density"
+
+	str_params[]: "police"
+
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.005	# frequency
+	num_params[]: 1		# count limit
+}
+
+traffic_rule_data : traffic_rule.s_police_u
+{
+	# name: "Spawn density police (urban)"
+
+	rule: "density"
+
+	str_params[]: "police"
+
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.005	# frequency
+	num_params[]: 1		# count limit
+}
+
+traffic_rule_data : traffic_rule.s_tram
+{
+	# name: "Spawn density tram"
+
+	rule: "density"
+
+	str_params[]: "tram"
+
+	num_params[]: 5.0	# 7:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2		# count limit
+
+	num_params[]: 17.0	# 17:00
+	num_params[]: 0.05	# frequency
+	num_params[]: 2		# count limit
+
+	num_params[]: 23.0	# 23:00
+	num_params[]: 0.0	# frequency
+	num_params[]: 0		# count limit
+
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.0	# frequency
+	num_params[]: 0		# count limit
+}
+
+traffic_rule_data : traffic_rule.s_train
+{
+	# name: "Spawn density train"
+
+	rule: "density"
+
+	str_params[]: "train"
+
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.015	# frequency
+	num_params[]: 2		# count limit
+}
+
+traffic_rule_data : traffic_rule.s_train_f
+{
+	# name: "Spawn density fast train"
+
+	rule: "density"
+
+	str_params[]: "train_fast"
+
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.015	# frequency
+	num_params[]: 2		# count limit
+}
+
+traffic_rule_data : traffic_rule.s_slow
+{
+	# name: "Spawn density slow"
+
+	rule: "density"
+
+	str_params[]: "slow"
+
+	num_params[]: 6.0	# 6:00
+	num_params[]: 0.08	# frequency
+	num_params[]: 1		# count limit
+
+	num_params[]: 17.0	# 17:00
+	num_params[]: 0.08	# frequency
+	num_params[]: 1		# count limit
+
+	num_params[]: 0.0	# 00:00
+	num_params[]: 0.0	# frequency
+	num_params[]: 0		# count limit
+}
+
+
+#Obsolent 1.32
+#traffic_rule_data : traffic_rule.s_slow_no
+#{
+#	# name: "No Spawn slow"
+#	rule: "density"
+#	str_params[]: "slow"
+#	num_params[]: 0.0	# 00:00
+#	num_params[]: 0.0	# frequency
+#	num_params[]: 0		# count limit
+#}
+
+

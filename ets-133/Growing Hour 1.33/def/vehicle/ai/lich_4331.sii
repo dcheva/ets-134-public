@@ -1,0 +1,47 @@
+traffic_vehicle : traffic.lich_4331
+{
+	accessories[]: .lich_4331.chassis
+	accessories[]: .lich_4331.fwheel
+	accessories[]: .lich_4331.rwheel
+
+	max_speed: 80
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	spawn_ratio: 0.0
+
+	trailer_count[]: 0
+
+    allow_parked: false
+    
+	engine_torque: 2000
+
+	vehicle_mass: 20000
+	
+	color[]: (0.0415, 0.3004, 0.7049) #lightBlue
+	color[]: (0.3467, 0.0437, 0.0262) #redOrange
+	color[]: (0.0172, 0.0281, 0.189) #purpleBlue
+	color[]: (0.2704, 0.3358, 0.4018) #blueGrey
+	color[]: (0.5393, 0.4095, 0.1247) #lightYellow
+	color[]: (0.0779, 0.0895, 0.0501) #militaryGreen
+	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .lich_4331.chassis
+{
+	data_path: "/def/vehicle/ai/lich_4331/chassis.sii"
+}
+
+vehicle_wheel_accessory: .lich_4331.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .lich_4331.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}

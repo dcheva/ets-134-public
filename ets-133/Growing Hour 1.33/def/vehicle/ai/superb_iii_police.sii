@@ -1,0 +1,79 @@
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX police XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.superb.police
+{
+	accessories[]: .superb.police.chassis
+	accessories[]: .superb.police.fwheel
+	accessories[]: .superb.police.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 1500
+    
+   
+	color[]: (1, 1, 1) #white
+	
+	variant[]: traffic.superb.police_old
+	
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .superb.police.chassis
+{
+	data_path: "/def/vehicle/ai/superb_iii/police.sii"
+}
+
+vehicle_wheel_accessory: .superb.police.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .superb.police.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX police old XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.superb.police_old
+{
+	accessories[]: .superb.police_old.chassis
+	accessories[]: .superb.police_old.fwheel
+	accessories[]: .superb.police_old.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 1500
+    
+   
+	color[]: (1, 1, 1) #white
+	
+	
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .superb.police_old.chassis
+{
+	data_path: "/def/vehicle/ai/superb_iii/police_old.sii"
+}
+
+vehicle_wheel_accessory: .superb.police_old.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .superb.police_old.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}

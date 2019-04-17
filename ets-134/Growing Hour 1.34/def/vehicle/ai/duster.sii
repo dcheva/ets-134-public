@@ -1,0 +1,46 @@
+traffic_vehicle: traffic.duster
+{
+	accessories[]: .duster.chassis
+	accessories[]: .duster.fwheel
+	accessories[]: .duster.rwheel
+
+	max_speed: 140
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+		
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	color[]: (0.7835, 0.7835, 0.7835) #white
+	color[]: (0.1488, 0.0434, 0.0084) #brown dark
+	color[]: (0.0666, 0.0578, 0.0273) #green
+	color[]: (0.0666, 0.0578, 0.0273) #green
+	color[]: (0.0666, 0.0578, 0.0273) #green
+	
+	vehicle_mass: 1300
+    
+ 
+    
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .duster.chassis
+{
+	data_path: "/def/vehicle/ai/duster/chassis.sii"
+}
+
+vehicle_wheel_accessory: .duster.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_1.sii"
+}
+
+vehicle_wheel_accessory: .duster.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_1.sii"
+}
+
+

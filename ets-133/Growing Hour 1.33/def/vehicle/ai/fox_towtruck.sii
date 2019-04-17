@@ -1,0 +1,42 @@
+traffic_vehicle : traffic.fox_towtruck
+{
+	accessories[]: .fox_towtruck.chassis
+	accessories[]: .fox_towtruck.fwheel
+	accessories[]: .fox_towtruck.rwheel
+
+	max_speed: 80
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	trailer_count[]: 0
+
+    allow_parked: false
+    
+	engine_torque: 2000
+
+	vehicle_mass: 20000
+    
+	color[]: (1.0, 0.653, 0.0) # yellow
+	color[]: (0.9049557515, 0.2428935112, 0.01165475188) # orange
+	color[]: (0.339, 0.3402, 0.371) # grey
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .fox_towtruck.chassis
+{
+	data_path: "/def/vehicle/ai/fox/chassis_towtruck.sii"
+}
+
+vehicle_wheel_accessory: .fox_towtruck.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/fox_front.sii"
+}
+
+vehicle_wheel_accessory: .fox_towtruck.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/fox_rear.sii"
+}

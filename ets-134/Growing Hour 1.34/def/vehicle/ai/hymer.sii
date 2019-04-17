@@ -1,0 +1,39 @@
+traffic_vehicle : traffic.hymer
+{
+	accessories[]: .hymer.chassis
+	accessories[]: .hymer.fwheel
+	accessories[]: .hymer.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 70
+	lod_dist[]: 110
+
+	vehicle_mass: 3500
+
+    spawn_ratio: 0.3
+
+	color[]: (0.7500, 0.7500, 0.7500) 
+	color[]: (0.1500, 0.1500, 0.1500)
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .hymer.chassis
+{
+	data_path: "/def/vehicle/ai/hymer/chassis.sii"
+}
+
+vehicle_wheel_accessory: .hymer.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_1.sii"
+}
+
+vehicle_wheel_accessory: .hymer.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_1.sii"
+}
+

@@ -1,0 +1,56 @@
+traffic_vehicle : traffic.bomb_traxx_d
+{
+	accessories[]: .bomb_traxx_d.chassis
+	accessories[]: .bomb_traxx_d.fwheel
+	accessories[]: .bomb_traxx_d.rwheel
+	accessories[]: .bomb_traxx_d.rwheel2
+	accessories[]: .bomb_traxx_d.rwheel3
+
+	max_speed: 140
+
+	vehicle_mass: 190000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 35000
+
+	attachable_trailer[]: "train_car.cargo.*"
+
+	displacement_limit: 0.0
+    spawn_ratio: 0
+    
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+}
+
+vehicle_accessory: .bomb_traxx_d.chassis
+{
+	data_path: "/def/vehicle/ai/bombardier_traxx/chassis_d.sii"
+}
+
+vehicle_wheel_accessory: .bomb_traxx_d.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/bombardier_traxx_front.sii"
+}
+
+vehicle_wheel_accessory: .bomb_traxx_d.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/bombardier_traxx_rear.sii"
+}
+
+vehicle_wheel_accessory: .bomb_traxx_d.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/bombardier_traxx_rear.sii"
+}
+
+vehicle_wheel_accessory: .bomb_traxx_d.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/bombardier_traxx_rear.sii"
+}

@@ -1,0 +1,33 @@
+traffic_vehicle : traffic.majestic_a
+{
+	accessories[]: .majestic_a.chassis
+	accessories[]: .majestic_a.fwheel
+	accessories[]: .majestic_a.rwheel
+
+	max_speed: 140
+
+	lod_dist[]: 60
+	lod_dist[]: 110	
+	vehicle_mass: 1600
+	
+	spawn_ratio: 1
+	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .majestic_a.chassis
+{
+	data_path: "/def/vehicle/ai/majestic_a_2018/chassis.sii"
+}
+
+vehicle_wheel_accessory: .majestic_a.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .majestic_a.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}

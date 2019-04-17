@@ -1,0 +1,40 @@
+traffic_vehicle : traffic.a80
+{
+	accessories[]: .a80.chassis
+	accessories[]: .a80.fwheel
+	accessories[]: .a80.rwheel
+
+	max_speed: 130
+
+	lod_dist[]: 40
+	lod_dist[]: 70
+	
+	spawn_ratio: 0.05
+
+	color[]: (0.7087, 0.5933, 0.3384) #beige
+	color[]: (0, 0.0527, 0.2177) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.7454, 0.7454, 0.7454) #white
+
+	vehicle_mass: 1400
+	
+	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .a80.chassis
+{
+	data_path: "/def/vehicle/ai/a80/chassis.sii"
+}
+
+vehicle_wheel_accessory: .a80.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_15in.sii"
+}
+
+vehicle_wheel_accessory: .a80.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_15in.sii"
+}

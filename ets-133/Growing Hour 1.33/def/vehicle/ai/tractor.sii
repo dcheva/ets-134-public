@@ -1,0 +1,36 @@
+traffic_vehicle : traffic.tractor
+{
+	accessories[]: .tractor.chassis
+	accessories[]: .tractor.fwheel
+	accessories[]: .tractor.rwheel
+
+	max_speed: 30
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	vehicle_mass: 15000
+	engine_torque: 1800
+
+	attachable_trailer[]: "trailer.tractor*"
+	trailer_count[]: 0
+	trailer_count[]: 1
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .tractor.chassis
+{
+	data_path: "/def/vehicle/ai/tractor/chassis.sii"
+}
+
+vehicle_wheel_accessory: .tractor.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/tractor_front.sii"
+}
+
+vehicle_wheel_accessory: .tractor.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/tractor_rear.sii"
+}

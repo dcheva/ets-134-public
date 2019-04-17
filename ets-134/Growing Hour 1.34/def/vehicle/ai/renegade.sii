@@ -1,0 +1,39 @@
+traffic_vehicle : traffic.renegade
+{
+	accessories[]: .renegade.chassis
+	accessories[]: .renegade.fwheel
+	accessories[]: .renegade.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.2269, 0.0129, 0.0129) #red
+	color[]: (0.5902, 0.4279, 0.0168) #yellow
+	color[]: (0, 0.0527, 0.2177) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+
+	vehicle_mass: 2000	
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .renegade.chassis
+{
+	data_path: "/def/vehicle/ai/renegade/chassis.sii"
+}
+
+vehicle_wheel_accessory: .renegade.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_o_1.sii"
+}
+
+vehicle_wheel_accessory: .renegade.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_o_1.sii"
+}

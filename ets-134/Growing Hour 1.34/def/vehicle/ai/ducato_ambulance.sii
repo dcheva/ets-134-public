@@ -1,0 +1,115 @@
+# XXXXXXXXXXXXXXXXXXX FR XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.ducato.fr
+{
+	accessories[]: .ducato.fr.chassis
+	accessories[]: .ducato.fr.fwheel
+	accessories[]: .ducato.fr.rwheel
+
+	max_speed: 100
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	
+	spawn_ratio: 0
+
+color[]: (1, 1, 1) #white
+
+	vehicle_mass: 3500
+@include "drivers_generic_police.sui"	
+
+}
+
+vehicle_accessory: .ducato.fr.chassis
+{
+	data_path: "/def/vehicle/ai/ducato/fr.sii"
+}
+
+vehicle_wheel_accessory: .ducato.fr.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_front.sii"
+}
+
+vehicle_wheel_accessory: .ducato.fr.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX IT XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.ducato.it
+{
+	accessories[]: .ducato.it.chassis
+	accessories[]: .ducato.it.fwheel
+	accessories[]: .ducato.it.rwheel
+
+	max_speed: 100
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	spawn_ratio: 0
+
+color[]: (1, 1, 1) #white
+
+	vehicle_mass: 3500
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .ducato.it.chassis
+{
+	data_path: "/def/vehicle/ai/ducato/it.sii"
+}
+
+vehicle_wheel_accessory: .ducato.it.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_front.sii"
+}
+
+vehicle_wheel_accessory: .ducato.it.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX UK XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.ducato.uk
+{
+	accessories[]: .ducato.uk.chassis
+	accessories[]: .ducato.uk.fwheel
+	accessories[]: .ducato.uk.rwheel
+
+	max_speed: 100
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	spawn_ratio: 0
+
+color[]: (1, 1, 1) #white
+
+	vehicle_mass: 3500
+@include "drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .ducato.uk.chassis
+{
+	data_path: "/def/vehicle/ai/ducato/uk.sii"
+}
+
+vehicle_wheel_accessory: .ducato.uk.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_front.sii"
+}
+
+vehicle_wheel_accessory: .ducato.uk.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_rear.sii"
+}

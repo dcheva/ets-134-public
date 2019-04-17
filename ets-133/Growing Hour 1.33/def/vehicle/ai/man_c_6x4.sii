@@ -1,0 +1,56 @@
+traffic_vehicle : traffic.mantgx_c6x4
+{
+	accessories[]: .mantgx_c6x4.chassis
+	accessories[]: .mantgx_c6x4.fwheel
+	accessories[]: .mantgx_c6x4.rwheel
+	accessories[]: .mantgx_c6x4.rwheel2
+	accessories[]: .mantgx_c6x4.trlr_cables
+
+	max_speed: 90
+	attachable_trailer[]: ""
+
+	engine_torque: 2300
+
+
+	#color from upgrade shop
+	color[]: (0.0664, 0.0664, 0.0664) #gray
+	color[]: (0.8307, 0.8307, 0.8307) #white
+	color[]: (0.2458, 0.0134, 0.013) #red
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.9911, 0.5906, 0.0781) #yellow
+	color[]: (0.0103, 0.0171, 0.0835) #blue
+
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	vehicle_mass: 9384
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .mantgx_c6x4.chassis
+{
+	data_path: "/def/vehicle/ai/truck/man.tgx/c6x4.sii"
+}
+
+vehicle_wheel_accessory: .mantgx_c6x4.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mantgx_c6x4.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+vehicle_wheel_accessory: .mantgx_c6x4.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+vehicle_addon_accessory : .mantgx_c6x4.trlr_cables
+{
+	data_path: "/def/vehicle/ai/truck/man.tgx/accessory/trlr_cables/stock.sii"
+}
