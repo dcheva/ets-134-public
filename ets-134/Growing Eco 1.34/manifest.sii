@@ -2,11 +2,11 @@ SiiNunit
 {
   mod_package : .universal 
   {
-    package_version: "1.33"
+    package_version: "1.34"
     author: "dmitry.cheva"
     icon: "eco.jpg"
     category[]:	"other"
-    display_name: "Growing Eco 1.33"
+    display_name: "Growing Eco 1.34"
     description_file: "mod_description.txt"
   }
 }
