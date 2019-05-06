@@ -1,0 +1,911 @@
+SiiNunit
+{
+ui::window : 0049c8dd1 {
+ clip_children: true
+ window_handler: 0049c8dd0
+ keep_aspect: center
+ fitting: false
+ my_children: 5
+ my_children[0]: 00c49b270
+ my_children[1]: 04c257e20
+ my_children[2]: 04c25dec0
+ my_children[3]: 04c25e260
+ my_children[4]: 04c268730
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: null
+}
+
+adviser_hdl : 0049c8dd0 {
+ window_link: 0049c8dd1
+}
+
+ui::group : 00c49b270 {
+ my_children: 3
+ my_children[0]: 00d82e553
+ my_children[1]: 00d82e554
+ my_children[2]: 01065cbd0
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1500
+ my_parent: 0049c8dd1
+}
+
+ui::text : 00d82e553 {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1510
+ my_parent: 00c49b270
+}
+
+ui::group : 00d82e554 {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1600
+ my_parent: 00c49b270
+}
+
+ui::group : 01065cbd0 {
+ my_children: 3
+ my_children[0]: 011164d83
+ my_children[1]: 011164d84
+ my_children[2]: 011164d85
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ my_parent: 00c49b270
+}
+
+ui::text_common : 011164d83 {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1210
+ my_parent: 01065cbd0
+}
+
+ui::button_common : 011164d84 {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1220
+ my_parent: 01065cbd0
+}
+
+ui::text_common : 011164d85 {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1230
+ my_parent: 01065cbd0
+}
+
+ui::group : 04c257e20 {
+ my_children: 3
+ my_children[0]: 04c25f0b4
+ my_children[1]: 04c25f0b5
+ my_children[2]: 04c25f0bc
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1501
+ my_parent: 0049c8dd1
+}
+
+ui::text : 04c25f0b4 {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1511
+ my_parent: 04c257e20
+}
+
+ui::group : 04c25f0b5 {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1601
+ my_parent: 04c257e20
+}
+
+ui::group : 04c25f0bc {
+ my_children: 3
+ my_children[0]: 04c25f0bd
+ my_children[1]: 04c25f0be
+ my_children[2]: 04c25f0bf
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ my_parent: 04c257e20
+}
+
+ui::text_common : 04c25f0bd {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1211
+ my_parent: 04c25f0bc
+}
+
+ui::button_common : 04c25f0be {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1221
+ my_parent: 04c25f0bc
+}
+
+ui::text_common : 04c25f0bf {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1231
+ my_parent: 04c25f0bc
+}
+
+ui::group : 04c25dec0 {
+ fitting: false
+ my_children: 0
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 105
+ layer: 14
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 0049c8dd1
+}
+
+ui::group : 04c25e260 {
+ fitting: false
+ my_children: 0
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 106
+ layer: 14
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 0049c8dd1
+}
+
+ui::group : 04c268730 {
+ fitting: false
+ my_children: 2
+ my_children[0]: 0049c8dd2
+ my_children[1]: 04c2691c0
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 80
+ layer: 13
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 0049c8dd1
+}
+
+ui::group : 0049c8dd2 {
+ fitting: false
+ my_children: 5
+ my_children[0]: 0052e5b30
+ my_children[1]: 0052f9430
+ my_children[2]: 00b8d9b90
+ my_children[3]: 0049c8dde
+ my_children[4]: 10c49b270
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 100
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c268730
+}
+
+ui::group : 0052e5b30 {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 101
+ my_parent: 0049c8dd2
+}
+
+ui::group : 0052f9430 {
+ my_children: 2
+ my_children[0]: 0052fcea0
+ my_children[1]: 0053041a0
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 330
+ my_parent: 0049c8dd2
+}
+
+ui::text_table_common : 0052fcea0 {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 332
+ my_parent: 0052f9430
+}
+
+ui::text_common : 0053041a0 {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 331
+ my_parent: 0052f9430
+}
+
+ui::button_common : 00b8d9b90 {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 290
+ my_parent: 0049c8dd2
+}
+
+ui::text_common : 0049c8dde {
+ value: 6F000000
+ look_template: txt.window.bcg_rect
+ text: ""
+ coords_l: 288
+ coords_r: 1152
+ coords_t: 900
+ coords_b: 878
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1101
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 0049c8dd2
+}
+
+ui::group : 10c49b270 {
+ fitting: false
+ my_children: 2
+ my_children[0]: 10c49b273
+ my_children[1]: 10c49b274
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 1500
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 0049c8dd2
+}
+
+ui_map : 10c49b273 {
+ coords_l: 543
+ coords_r: 897
+ coords_t: 876
+ coords_b: 746
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 700
+ layer: 10
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 10c49b270
+}
+
+ui::text_common : 10c49b274 {
+ value: ""
+ look_template: txt.normal.center
+ text: ""
+ coords_l: 643
+ coords_r: 797
+ coords_t: 876
+ coords_b: 766
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 730
+ layer: 11
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 10c49b270
+}
+
+ui::group : 04c2691c0 {
+ fitting: false
+ my_children: 15
+ my_children[0]: 0049c8ddd
+ my_children[1]: 00d847a10
+ my_children[2]: 0049e0fd0
+ my_children[3]: 0049d74c0
+ my_children[4]: 011164e70
+ my_children[5]: 0049c8dd8
+ my_children[6]: 0049c8dd6
+ my_children[7]: 0049c8dd5
+ my_children[8]: 0049c8dd11
+ my_children[9]: 0167e43b0
+ my_children[10]: 0167f8f20
+ my_children[11]: 01178d6d0
+ my_children[12]: 0049c8dd4
+ my_children[13]: 038b2a150
+ my_children[14]: 07762f060
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 102
+ layer: 13
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c268730
+}
+
+ui::portal : 0049c8ddd {
+ child_path: "/ui/adviser_map.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: false
+ my_children: 0
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 500
+ layer: 14
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+ui::text_common : 00d847a10 {
+ value: 6F000000
+ look_template: txt.window.bcg_rect
+ text: ""
+ coords_l: 288
+ coords_r: 1152
+ coords_t: 900
+ coords_b: 878
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+ui::text_common : 011164e70 {
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 301
+ my_parent: 04c2691c0
+}
+
+ui::portal : 0049d74c0 {
+ child_path: "/ui/adviser_running_line.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: true
+ my_children: 0
+ coords_l: 567
+ coords_r: 873
+ coords_t: 461
+ coords_b: 439
+ area_l: 567
+ area_r: 873
+ area_t: 461
+ area_b: 439
+ id: 300
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+ui::text_common : 0049e0fd0 {
+ value: "E 200.000.000.000,-"
+ look_template: txt.adv_money
+ text: ""
+ coords_l: 431
+ coords_r: 552
+ coords_t: 899
+ coords_b: 878
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 320
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+ui::text_common : 0049c8dd8 {
+ value: "100 km/h"
+ look_template: txt.adv_speed
+ text: ""
+ coords_l: 557
+ coords_r: 622
+ coords_t: 900
+ coords_b: 878
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 110
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+ui::text_common : 0049c8dd6 {
+ value: D12
+ look_template: txt.adv_gear
+ text: ""
+ coords_l: 622
+ coords_r: 667
+ coords_t: 900
+ coords_b: 878
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 130
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+ui::text_common : 0049c8dd5 {
+ value: "truck_small|5|FF0000FF"
+ look_template: txt.adv_icon
+ text: ""
+ coords_l: 667
+ coords_r: 701
+ coords_t: 897
+ coords_b: 881
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 135
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+ui::text : 0049c8dd11 {
+ text: "<img src=/material/ui/adviser/fuel.mat color=FF969696>"
+ coords_l: 701
+ coords_r: 717
+ coords_t: 897
+ coords_b: 881
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 141
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+ui::text_common : 0167e43b0 {
+ value: ""
+ look_template: txt.adv_fuel
+ text: ""
+ coords_l: 717
+ coords_r: 722
+ coords_t: 896
+ coords_b: 882
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 140
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+ui::text_common : 0167f8f20 {
+ value: "fatigue|8|FFE9A131"
+ look_template: txt.adv_icon
+ text: ""
+ coords_l: 722
+ coords_r: 754
+ coords_t: 897
+ coords_b: 881
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 155
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+ui::button_common : 01178d6d0 {
+ value: ""
+ value2: ""
+ look_template: btn.adviser.mail
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 411
+ coords_r: 431
+ coords_t: 900
+ coords_b: 878
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 120
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+ui::text_common : 0049c8dd4 {
+ value: "Wed 12:35 pm"
+ look_template: txt.adv_time
+ text: ""
+ coords_l: 754
+ coords_r: 848
+ coords_t: 900
+ coords_b: 878
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 150
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+ui::group : 038b2a150 {
+ fitting: true
+ my_children: 6
+ my_children[0]: 02f3b20b0
+ my_children[1]: 02fe05cb0
+ my_children[2]: 02fe085d0
+ my_children[3]: 02fe0c520
+ my_children[4]: 02fe0d370
+ my_children[5]: 02fe0dc30
+ coords_l: 555
+ coords_r: 885
+ coords_t: 493
+ coords_b: 461
+ area_l: 555
+ area_r: 885
+ area_t: 493
+ area_b: 461
+ id: 400
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+ui::text_common : 02f3b20b0 {
+ value: "@@weigh_device_title@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: 595
+ coords_r: 827
+ coords_t: 760
+ coords_b: 728
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 038b2a150
+}
+
+ui::text_common : 02fe05cb0 {
+ value: 6F000000
+ look_template: txt.window.bcg_rect
+ text: ""
+ coords_l: 555
+ coords_r: 885
+ coords_t: 760
+ coords_b: 728
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 038b2a150
+}
+
+ui::text : 02fe085d0 {
+ text: "<img src=/material/ui/icon/weigh_logo.mat>"
+ coords_l: 561
+ coords_r: 595
+ coords_t: 760
+ coords_b: 728
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 038b2a150
+}
+
+ui::text : 02fe0c520 {
+ text: "<img src=/material/ui/icon/weigh_red_off.mat><offset hshift=-10><img src=/material/ui/icon/weigh_green_off.mat>"
+ coords_l: 827
+ coords_r: 885
+ coords_t: 760
+ coords_b: 728
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 038b2a150
+}
+
+ui::text : 02fe0d370 {
+ text: "<img src=/material/ui/icon/weigh_red_on.mat>"
+ coords_l: 827
+ coords_r: 859
+ coords_t: 760
+ coords_b: 728
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 410
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 038b2a150
+}
+
+ui::text : 02fe0dc30 {
+ text: "<img src=/material/ui/icon/weigh_green_on.mat>"
+ coords_l: 849
+ coords_r: 881
+ coords_t: 760
+ coords_b: 728
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 420
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 038b2a150
+}
+
+ui::text : 07762f060 {
+ text: "<img src=/material/ui/adviser/speed_warning_bcg.mat xscale=stretch>"
+ coords_l: 557
+ coords_r: 622
+ coords_t: 900
+ coords_b: 878
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 111
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 04c2691c0
+}
+
+}
