@@ -6,7 +6,7 @@ SiiNunit
     author: "dmitry.cheva"
     icon: "eco.jpg"
     category[]:	"other"
-    display_name: "Growing Eco 1.34 x100"
+    display_name: "Growing Eco 1.34 x10"
     description_file: "mod_description.txt"
   }
 }

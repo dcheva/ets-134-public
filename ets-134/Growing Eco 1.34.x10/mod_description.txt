@@ -1,4 +1,4 @@
-[green]Growing 1.34 x100[normal]by Cheva
+[green]Growing 1.34 x10[normal]by Cheva
 
 [blue]Изменения в экономике и игре:[normal]
 	- Экспа увеличена в 1.5-2 от SCS раз.
