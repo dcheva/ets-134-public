@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.215.1026.dbc0 {
+input_config : _nameless.1de.f48d.24a0 {
  version: 6
  config_lines: 341
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -18,7 +18,7 @@ input_config : _nameless.215.1026.dbc0 {
  config_lines[12]: "input j_clutch ``"
  config_lines[13]: "input j_look_ud ``"
  config_lines[14]: "input j_look_lr ``"
- config_lines[15]: "constant c_steer_func 1.460000"
+ config_lines[15]: "constant c_steer_func 1.000000"
  config_lines[16]: "constant c_steer_dz 0.000000"
  config_lines[17]: "constant c_throt_dz 0.100000"
  config_lines[18]: "constant c_brake_dz 0.100000"
