@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.188.8afb.a3f0 {
+input_config : _nameless.215.1026.dbc0 {
  version: 6
  config_lines: 341
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -164,7 +164,7 @@ input_config : _nameless.188.8afb.a3f0 {
  config_lines[158]: "mix looklranaspd `looklranaraw * c_jrspeed`"
  config_lines[159]: "mix looklrspd `looklrdigspd + looklranaspd`"
  config_lines[160]: "mix lookudspd `lookudanaraw * c_jrspeed`"
- config_lines[161]: "mix lookpos1 `keyboard.end?0 | mouse.button_middle?0`"
+ config_lines[161]: "mix lookpos1 `keyboard.end?0 | keyboard.num5?0`"
  config_lines[162]: "mix lookpos2 `keyboard.pgdn?0 | keyboard.num9?0`"
  config_lines[163]: "mix lookpos3 `keyboard.del?0 | keyboard.num7?0`"
  config_lines[164]: "mix lookpos4 `keyboard.num6?0`"
