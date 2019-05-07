@@ -593,8 +593,8 @@ ui::text_common : 0049c8dd8 {
  value: "100 km/h"
  look_template: txt.adv_speed
  text: ""
- coords_l: 0
- coords_r: 1440
+ coords_l: 557
+ coords_r: 622
  coords_t: 900
  coords_b: 878
  area_l: 1
@@ -892,8 +892,8 @@ ui::text : 02fe0dc30 {
 
 ui::text : 07762f060 {
  text: "<img src=/material/ui/adviser/speed_warning_bcg.mat xscale=stretch>"
- coords_l: 557
- coords_r: 622
+ coords_l: 0
+ coords_r: 1440
  coords_t: 900
  coords_b: 878
  area_l: 1
