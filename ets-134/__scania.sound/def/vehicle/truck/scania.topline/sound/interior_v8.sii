@@ -186,9 +186,9 @@ sound_data: .r
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ unloaded sounds
-#
-# sound_engine_data ALL x3
-#
+
+
+
 sound_engine_data: .e0
 
 {
@@ -206,7 +206,7 @@ sound_engine_data: .e0
 
 	max_rpm: 690.0
 
-	volume: 0.44
+	volume: 0.40
 }
 
 
@@ -228,7 +228,7 @@ sound_engine_data: .e1
 
 	max_rpm: 1000.0
 
-	volume: 0.45
+	volume: 0.75
 
 }
 
@@ -251,7 +251,7 @@ sound_engine_data: .e2
 
 	max_rpm: 1290.0
 
-	volume: 0.54
+	volume: 0.90
 
 }
 
@@ -274,7 +274,7 @@ sound_engine_data: .e3
 
 	max_rpm: 1590.0
 
-	volume: 0.63
+	volume: 0.99
 
 }
 
@@ -296,7 +296,7 @@ sound_engine_data: .e4
 
 	max_rpm: 1889.0
 
-	volume: 0.63
+	volume: 0.99
 }
 
 
@@ -318,7 +318,7 @@ sound_engine_data: .e5
 
 	max_rpm: 2300.0
 
-	volume: 0.63
+	volume: 0.99
 
 }
 
@@ -340,7 +340,7 @@ sound_engine_data: .e6
 	min_rpm: 2100.0
 
 	max_rpm: 2600.0
-	volume: 0.69
+	volume: 0.99
 
 }
  
@@ -355,7 +355,7 @@ sound_engine_data: .e7
 
 	min_rpm: 300.0
 	max_rpm: 3000.0
-	volume: 0.28
+	volume: 0.30
 }
 
 
@@ -376,7 +376,7 @@ sound_engine_data: .el0
 
 	max_rpm: 550.0
 
-	volume: 0.60
+	volume: 0.50
 
 }
 
@@ -399,7 +399,7 @@ sound_engine_data: .el1
 
 	max_rpm: 900.0
 
-	volume: 0.36
+	volume: 0.60
 
 }
 
@@ -420,7 +420,7 @@ sound_engine_data: .el2
 
 	max_rpm: 1100.0
 
-	volume: 0.42
+	volume: 0.70
 
 }
 
@@ -443,7 +443,7 @@ sound_engine_data: .el3
 
 	max_rpm: 1400.0
 
-	volume: 0.51
+	volume: 0.85
 
 }
 
@@ -465,7 +465,7 @@ sound_engine_data: .el4
 
 	max_rpm: 1600.0
 
-	volume: 0.60
+	volume: 0.99
 }
 
 
@@ -487,7 +487,7 @@ sound_engine_data: .el5
 
 	max_rpm: 1800.0
 
-	volume: 0.69
+	volume: 0.99
 
 }
 
@@ -509,7 +509,7 @@ sound_engine_data: .el6
 	min_rpm: 1600.0
 
 	max_rpm: 2700.0
-	volume: 0.78
+	volume: 0.99
 
 }
 
@@ -526,7 +526,7 @@ is_2d: true
 
 	min_rpm: 300.0
 	max_rpm: 900.0
-	volume: 0.65
+	volume: 0.99
 }
 
 sound_engine_data: .el8
@@ -541,7 +541,7 @@ is_2d: true
 
 	min_rpm: 600.0
 	max_rpm: 1200.0
-	volume: 0.74
+	volume: 0.99
 }
 
 sound_engine_data: .el9
@@ -556,7 +556,7 @@ is_2d: true
 
 	min_rpm: 1000.0
 	max_rpm: 1600.0
-	volume: 0.78
+	volume: 0.99
 }
 
 sound_engine_data: .el10
@@ -571,7 +571,7 @@ is_2d: true
 
 	min_rpm: 1400.0
 	max_rpm: 2000.0
-	volume: 0.80
+	volume: 0.99
 }
 
 sound_engine_data: .el11
@@ -586,7 +586,7 @@ is_2d: true
 
 	min_rpm: 1800.0
 	max_rpm: 3000.0
-	volume: 0.92
+	volume: 0.99
 }
 
 sound_engine_data: .el12
@@ -599,7 +599,7 @@ sound_engine_data: .el12
 
 	min_rpm: 300.0
 	max_rpm: 3000.0
-	volume: 0.09
+	volume: 0.10
 }
 
 sound_engine_data: .el13
@@ -612,7 +612,7 @@ sound_engine_data: .el13
 
 	min_rpm: 300.0
 	max_rpm: 3000.0
-	volume: 0.28
+	volume: 0.30
 }
 
 sound_engine_data: .enf0
@@ -632,7 +632,7 @@ sound_engine_data: .enf0
 
 	max_rpm: 690.0
 
-	volume: 0.44
+	volume: 0.40
 }
 
 
@@ -654,7 +654,7 @@ sound_engine_data: .enf1
 
 	max_rpm: 1000.0
 
-	volume: 0.27
+	volume: 0.45
 
 }
 
@@ -677,7 +677,7 @@ sound_engine_data: .enf2
 
 	max_rpm: 1290.0
 
-	volume: 0.27
+	volume: 0.45
 
 }
 
@@ -700,7 +700,7 @@ sound_engine_data: .enf3
 
 	max_rpm: 1590.0
 
-	volume: 0.30
+	volume: 0.50
 
 }
 
@@ -722,7 +722,7 @@ sound_engine_data: .enf4
 
 	max_rpm: 1889.0
 
-	volume: 0.30
+	volume: 0.50
 }
 
 
@@ -744,7 +744,7 @@ sound_engine_data: .enf5
 
 	max_rpm: 2300.0
 
-	volume: 0.30
+	volume: 0.50
 
 }
 
@@ -766,7 +766,7 @@ sound_engine_data: .enf6
 	min_rpm: 2100.0
 
 	max_rpm: 2600.0
-	volume: 0.30
+	volume: 0.50
 
 }
  
@@ -781,7 +781,7 @@ sound_engine_data: .enf7
 
 	min_rpm: 300.0
 	max_rpm: 3000.0
-	volume: 0.28
+	volume: 0.30
 }
 
 # engine brake +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
