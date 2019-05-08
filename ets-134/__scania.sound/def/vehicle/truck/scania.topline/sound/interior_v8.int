@@ -175,7 +175,7 @@ sound_data: .r
 
 {
 
-	name: "/sound/truck/scania_2016/v8/int/scania_retarder_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/int/scania_retarder_int.ogg"
 
 	looped: true
 
@@ -206,7 +206,7 @@ sound_engine_data: .e0
 
 	max_rpm: 690.0
 
-	volume: 0.28
+	volume: 0.08
 }
 
 
@@ -228,7 +228,7 @@ sound_engine_data: .e1
 
 	max_rpm: 1000.0
 
-	volume: 0.45
+	volume: 0.15
 
 }
 
@@ -251,7 +251,7 @@ sound_engine_data: .e2
 
 	max_rpm: 1290.0
 
-	volume: 0.58
+	volume: 0.18
 
 }
 
@@ -274,7 +274,7 @@ sound_engine_data: .e3
 
 	max_rpm: 1590.0
 
-	volume: 0.71
+	volume: 0.21
 
 }
 
@@ -296,7 +296,7 @@ sound_engine_data: .e4
 
 	max_rpm: 1889.0
 
-	volume: 0.71
+	volume: 0.21
 }
 
 
@@ -318,7 +318,7 @@ sound_engine_data: .e5
 
 	max_rpm: 2300.0
 
-	volume: 0.71
+	volume: 0.21
 
 }
 
@@ -340,14 +340,14 @@ sound_engine_data: .e6
 	min_rpm: 2100.0
 
 	max_rpm: 2600.0
-	volume: 0.83
+	volume: 0.23
 
 }
  
 
 sound_engine_data: .e7
 {
-	name: "/sound/truck/scania_2016/v8/int/fan_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/int/fan_int.ogg"
 
 	looped: true
 
@@ -355,7 +355,7 @@ sound_engine_data: .e7
 
 	min_rpm: 300.0
 	max_rpm: 3000.0
-	volume: 0.26
+	volume: 0.06
 }
 
 
@@ -376,7 +376,7 @@ sound_engine_data: .el0
 
 	max_rpm: 550.0
 
-	volume: 0.30
+	volume: 0.10
 
 }
 
@@ -399,7 +399,7 @@ sound_engine_data: .el1
 
 	max_rpm: 900.0
 
-	volume: 0.42
+	volume: 0.12
 
 }
 
@@ -420,7 +420,7 @@ sound_engine_data: .el2
 
 	max_rpm: 1100.0
 
-	volume: 0.54
+	volume: 0.14
 
 }
 
@@ -443,7 +443,7 @@ sound_engine_data: .el3
 
 	max_rpm: 1400.0
 
-	volume: 0.57
+	volume: 0.17
 
 }
 
@@ -465,7 +465,7 @@ sound_engine_data: .el4
 
 	max_rpm: 1600.0
 
-	volume: 0.60
+	volume: 0.20
 }
 
 
@@ -487,7 +487,7 @@ sound_engine_data: .el5
 
 	max_rpm: 1800.0
 
-	volume: 0.73
+	volume: 0.23
 
 }
 
@@ -509,7 +509,7 @@ sound_engine_data: .el6
 	min_rpm: 1600.0
 
 	max_rpm: 2700.0
-	volume: 0.86
+	volume: 0.26
 
 }
 
@@ -526,7 +526,7 @@ is_2d: true
 
 	min_rpm: 300.0
 	max_rpm: 900.0
-	volume: 1.55
+	volume: 0.55
 }
 
 sound_engine_data: .el8
@@ -541,7 +541,7 @@ is_2d: true
 
 	min_rpm: 600.0
 	max_rpm: 1200.0
-	volume: 1.58
+	volume: 0.58
 }
 
 sound_engine_data: .el9
@@ -556,7 +556,7 @@ is_2d: true
 
 	min_rpm: 1000.0
 	max_rpm: 1600.0
-	volume: 1.59
+	volume: 0.59
 }
 
 sound_engine_data: .el10
@@ -571,7 +571,7 @@ is_2d: true
 
 	min_rpm: 1400.0
 	max_rpm: 2000.0
-	volume: 1.60
+	volume: 0.60
 }
 
 sound_engine_data: .el11
@@ -586,12 +586,12 @@ is_2d: true
 
 	min_rpm: 1800.0
 	max_rpm: 3000.0
-	volume: 1.64
+	volume: 0.64
 }
 
 sound_engine_data: .el12
 {
-	name: "/sound/truck/scania_2016/v8/int/fan_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/int/fan_int.ogg"
 
 	looped: true
 
@@ -599,12 +599,12 @@ sound_engine_data: .el12
 
 	min_rpm: 300.0
 	max_rpm: 3000.0
-	volume: 0.22
+	volume: 0.02
 }
 
 sound_engine_data: .el13
 {
-	name: "/sound/truck/scania_2016/v8/int/fan_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/int/fan_int.ogg"
 
 	looped: true
 
@@ -612,7 +612,7 @@ sound_engine_data: .el13
 
 	min_rpm: 300.0
 	max_rpm: 3000.0
-	volume: 0.26
+	volume: 0.06
 }
 
 sound_engine_data: .enf0
@@ -632,7 +632,7 @@ sound_engine_data: .enf0
 
 	max_rpm: 690.0
 
-	volume: 0.28
+	volume: 0.08
 }
 
 
@@ -654,7 +654,7 @@ sound_engine_data: .enf1
 
 	max_rpm: 1000.0
 
-	volume: 0.39
+	volume: 0.09
 
 }
 
@@ -677,7 +677,7 @@ sound_engine_data: .enf2
 
 	max_rpm: 1290.0
 
-	volume: 0.39
+	volume: 0.09
 
 }
 
@@ -700,7 +700,7 @@ sound_engine_data: .enf3
 
 	max_rpm: 1590.0
 
-	volume: 0.30
+	volume: 0.10
 
 }
 
@@ -722,7 +722,7 @@ sound_engine_data: .enf4
 
 	max_rpm: 1889.0
 
-	volume: 0.30
+	volume: 0.10
 }
 
 
@@ -744,7 +744,7 @@ sound_engine_data: .enf5
 
 	max_rpm: 2300.0
 
-	volume: 0.30
+	volume: 0.10
 
 }
 
@@ -766,14 +766,14 @@ sound_engine_data: .enf6
 	min_rpm: 2100.0
 
 	max_rpm: 2600.0
-	volume: 0.30
+	volume: 0.10
 
 }
  
 
 sound_engine_data: .enf7
 {
-	name: "/sound/truck/scania_2016/v8/int/fan_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/int/fan_int.ogg"
 
 	looped: true
 
@@ -781,7 +781,7 @@ sound_engine_data: .enf7
 
 	min_rpm: 300.0
 	max_rpm: 3000.0
-	volume: 0.26
+	volume: 0.06
 }
 
 # engine brake +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -792,7 +792,7 @@ sound_engine_data: .eb0
 
 {
 
-	name: "/sound/truck/scania_2016/v8/int/Scania_V8_Engine_Brake_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/int/Scania_V8_Engine_Brake_INT.ogg"
 
 	looped: true
 	
@@ -818,7 +818,7 @@ sound_data: .t
 
 {
 
-	name: "/sound/truck/scania_2016/v8/int/scania_turbo_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/int/scania_turbo_int.ogg"
 
 	
 is_2d: true
@@ -884,7 +884,7 @@ sound_data: .airbrake0
 
 {
 
-	name: "/sound/truck/scania_2016/v8/int/air_brake1_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/int/air_brake1_int.ogg"
 
 	looped: false
 
@@ -897,7 +897,7 @@ sound_data: .airbrake1
 
 {
 
-	name: "/sound/truck/scania_2016/v8/int/air_brake2_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/int/air_brake2_int.ogg"
 
 	looped: false
 
@@ -912,7 +912,7 @@ sound_data: .airbrake2
 
 {
 
-	name: "/sound/truck/scania_2016/v8/int/air_brake3_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/int/air_brake3_int.ogg"
 
 	looped: false
 
@@ -926,7 +926,7 @@ sound_data: .horn
 
 {
 
-	name: "/sound/truck/scania_2016/v8/int/scania_horn_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/int/scania_horn_int.ogg"
 
 	looped: true
 
@@ -937,7 +937,7 @@ sound_data: .horn
 
 sound_data: .ahorn
 {
-	name: "/sound/truck/scania_2016/v8/int/whistle_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/int/whistle_int.ogg"
 
 	looped: true
 
