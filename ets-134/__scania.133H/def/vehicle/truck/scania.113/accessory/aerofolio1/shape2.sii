@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : shape2.scania.113.aerofolio1
+{
+	name: "Deflector Complete (Topline)"
+	price: 150
+	unlock: 0
+	icon: "top_deflec"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/aerofolio1/aero_02.pmd"
+	conflict_with[]: "shape1.scania.113.aerofolio1"
+
+	
+}
+}

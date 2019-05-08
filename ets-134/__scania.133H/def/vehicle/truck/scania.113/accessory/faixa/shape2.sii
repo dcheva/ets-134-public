@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : shape2.scania.113.faixa
+{
+	name: "@@Pink Streamline Sticker@@"
+	price: 75
+	unlock: 0
+	icon: "pk_sticker"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/faixas/faixa.pmd"
+	look: rosa
+	
+}
+}

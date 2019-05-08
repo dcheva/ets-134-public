@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_paint_job_data : color11.scania.113.paint_job
+{
+	name: "Chilli Red"
+	price: 190
+	unlock: 0
+	base_color : (0.4187, 0.0015, 0.0138)
+	base_color_locked: true
+	stock: true
+}
+}

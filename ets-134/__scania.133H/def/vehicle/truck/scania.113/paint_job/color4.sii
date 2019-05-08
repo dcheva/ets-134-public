@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_paint_job_data : color4.scania.113.paint_job
+{
+	name: "Deep Ocean"
+	price: 190
+	unlock: 0
+	base_color : (0.0085, 0.0193, 0.0595)
+	base_color_locked: true
+	stock: true
+}
+}

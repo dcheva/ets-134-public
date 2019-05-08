@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_paint_job_data : color18.scania.113.paint_job
+{
+	name: "Blue Original Streamline"
+	price: 150
+	unlock: 0
+	base_color : (0.0117, 0.1644, 0.6568)
+	base_color_locked: true
+	stock: true
+}
+}

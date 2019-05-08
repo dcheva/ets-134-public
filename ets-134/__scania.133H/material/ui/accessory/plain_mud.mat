@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "plain_mud.tobj"
+	texture_name : "texture"
+}

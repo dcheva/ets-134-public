@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape1.scania.113.calhas
+{
+	name: "@@Wind Deflector@@"
+	price: 100
+	unlock: 0
+	icon: "wind_def"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/calhas/calha_01.pmd"
+	
+}
+}

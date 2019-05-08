@@ -1,0 +1,26 @@
+SiiNunit
+{
+accessory_transmission_data : 9_speed.380.scania.113.transmission
+{
+	name: "GR900R"
+	price: 1600
+	unlock: 0
+	icon: "transmission_generic"
+	
+	differential_ratio: 3.80
+	# reverse gear
+	ratios_reverse[0]: -16.42
+	# forward gears
+	ratios_forward[0]: 16.86
+	ratios_forward[1]: 10.10
+	ratios_forward[2]: 7.10
+	ratios_forward[3]: 5.09
+	ratios_forward[4]: 3.75
+	ratios_forward[5]: 2.69
+	ratios_forward[6]: 1.89
+	ratios_forward[7]: 1.36
+	ratios_forward[8]: 1.00
+	retarder: 5
+	crawls: 1
+}
+}

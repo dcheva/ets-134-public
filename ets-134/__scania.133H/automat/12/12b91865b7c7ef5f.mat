@@ -1,0 +1,14 @@
+material : "eut2.lamp.add.env.rfx" {
+	texture[0] : "/vehicle/truck/scania_113/textures/piscanovo.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/vehicle/truck/scania_113/textures/lightmask.tobj"
+	texture_name[1] : "texture_mask"
+	texture[2] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[2] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 0.4 , 0.4 , 0.4 }
+	env_factor : { 0.5 , 0.5 , 0.5 }
+	fresnel : { 0.2 , 0.9 }
+	shininess : 500
+	specular : { 1 , 1 , 1 }
+}

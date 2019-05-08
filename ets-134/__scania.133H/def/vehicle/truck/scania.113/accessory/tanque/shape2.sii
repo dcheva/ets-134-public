@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape2.scania.113.tanque
+{
+	name: "@@Chrome Square Tank + Painted support@@"
+	price: 350
+	unlock: 0
+	icon: "tank_sc"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/tanque/tanque_02.pmd"
+	
+}
+}

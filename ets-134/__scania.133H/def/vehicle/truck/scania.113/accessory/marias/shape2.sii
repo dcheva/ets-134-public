@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape2.scania.113.marias
+{
+	name: "Brazilian Red Lamps"
+	price: 30
+	unlock: 0
+	icon: "brs_red"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/marias/maria_02.pmd"
+	
+}
+}

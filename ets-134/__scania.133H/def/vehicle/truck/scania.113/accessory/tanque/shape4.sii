@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape4.scania.113.tanque
+{
+	name: "@@Chrome Cylinder Tank + Painted support@@"
+	price: 450
+	unlock: 0
+	icon: "tank_cc"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/tanque/tanque_red_02.pmd"
+	
+}
+}

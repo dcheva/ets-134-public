@@ -1,0 +1,34 @@
+SiiNunit
+{
+accessory_interior_data	: normal.scania.113.interior
+{
+	name: "@@Standard@@"
+	price: 1200
+	unlock: 0
+	icon: "interior_3"
+
+	model:           "/vehicle/truck/scania_113/interior/model.pmd"
+    collision:       "/vehicle/truck/scania_113/interior/model.pmc"
+	animated_model:  "/vehicle/truck/scania_113/interior/anim.pmd"
+	look: look1
+	variant: normal
+
+@include "4s_animations.sui"
+
+	dashboard_path:"/ui/dashboard/scania_rcab_2004_white.sii"
+	gps_path:"/ui/gps.sii"
+
+	glass_panes[]: .scania.r4.pane.front
+	glass_panes[]: .scania.r4.pane.close
+	glass_panes[]: .scania.r4.pane.far
+	glass_panes[]: .scania.r4.pane.top
+  
+	suitable_for[]: "normal.scania.113.cabin"
+
+	defaults[]: "/def/vehicle/truck/scania.113/accessory/steering_w/standard.sii"
+
+@include "4s_dashboard_color.sui"
+@include "seat.sui"
+}
+@include "glass.sui"
+}

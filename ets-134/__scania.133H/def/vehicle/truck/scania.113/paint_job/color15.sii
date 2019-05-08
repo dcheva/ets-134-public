@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_paint_job_data : color15.scania.113.paint_job
+{
+	name: "Baltic Blue"
+	price: 190
+	unlock: 0
+	base_color : (0.0138, 0.0138, 0.0984)
+	base_color_locked: true
+	stock: true
+}
+}

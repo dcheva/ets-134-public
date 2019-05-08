@@ -1,0 +1,18 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.laranja
+{
+	dir_type: wide
+	light_type: beacon
+	
+	diffuse_color: (1.0000, 0.3643, 0.0000)
+	range: 3.5
+	inner_angle: 0.0
+	outer_angle: 100.0
+	type: spot
+	forward_distance: false
+
+	model: "/model/flares/orange.pmd"
+	scale_factor: 1
+}
+}

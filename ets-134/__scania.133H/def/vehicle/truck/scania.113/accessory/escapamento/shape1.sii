@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape1.scania.113.escapamento
+{
+	name: "Chrome Exhaust Pipe"
+	price: 175
+	unlock: 0
+	icon: "exhaust_chrome"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/exhaust/escape_01.pmd"
+	
+}
+}

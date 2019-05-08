@@ -1,0 +1,14 @@
+material : "eut2.lamp.add.env.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/scania_113/marias/textures/marias.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/vehicle/truck/upgrade/scania_113/marias/textures/marias_lightmask.tobj"
+	texture_name[1] : "texture_mask"
+	texture[2] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[2] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 0.578765 , 0.578765 , 0.578765 }
+	env_factor : { 0.377313 , 0.377313 , 0.377313 }
+	fresnel : { 0.2 , 0.9 }
+	shininess : 500
+	specular : { 0.425212 , 0.425212 , 0.425212 }
+}

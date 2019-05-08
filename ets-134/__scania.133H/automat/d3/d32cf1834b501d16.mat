@@ -1,0 +1,9 @@
+material : "eut2.dif.spec.rfx" {
+	texture[0] : "/vehicle/truck/scania_113/textures/chapa.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.0356441 , 0.0356441 , 0.0356441 }
+	reflection : 0
+	shininess : 50
+	specular : { 0.0201546 , 0.0201546 , 0.0201546 }
+}

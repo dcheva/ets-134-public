@@ -1,0 +1,19 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.milhas
+{
+	dir_type: wide
+	light_type: beacon
+	
+	diffuse_color: (0.5058, 0.8512, 0.9882)
+	range: 50
+	inner_angle: 0.0
+	outer_angle: 45.0
+	type: spot
+	forward_distance: false
+	
+	model: "/model/flares/flare.pmd"
+	scale_factor: 3
+}
+
+}

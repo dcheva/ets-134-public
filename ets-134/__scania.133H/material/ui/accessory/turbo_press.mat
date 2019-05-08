@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "turbo_press.tobj"
+	texture_name : "texture"
+}

@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape1.scania.113.paralama
+{
+	name: "Rear Mudguard Painted"
+	price: 90
+	unlock: 0
+	icon: "mud_paint"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/paralama/paralama_01.pmd"
+
+}
+}

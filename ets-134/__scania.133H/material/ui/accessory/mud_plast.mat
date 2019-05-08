@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "mud_plast.tobj"
+	texture_name : "texture"
+}

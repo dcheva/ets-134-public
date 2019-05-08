@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : shape1.scania.113.lanternat
+{
+	name: "Rear Bumper Scania 113"
+	price: 70
+	unlock: 0
+	icon: "rearbumper/scania_rcab_2009/rearbumper_01"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/lanternas/lanterna.pmd"
+
+	
+}
+}

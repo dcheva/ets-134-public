@@ -1,0 +1,96 @@
+
+# Common truck sound list.
+# Units have to be defined with same names as in "common_sound_int_data.sui".
+
+#	retarder: .r
+	lift_axle: .lift
+	air_warning: .air_warn
+
+	lights_stick: .lights_s
+	high_beam_stick: .hbeam_s
+	light_horn_stick: .lhorn_s
+	blinker_stick: .blinker_s
+	blinker_stick_off: .blinker2_s
+	hazard_warning_stick: .hwarn_s
+	wipers_stick: .wiper_s
+	retarder_stick: .retarder_s
+	park_brake_stick: .pbrake_s
+	park_brake_stick_off: .pbrake2_s
+
+	aero_noise: .anoise
+	gear_grind_loop: .ggloop
+
+	air_cutoff[]: .aircut0
+	air_cutoff[]: .aircut1
+	air_cutoff[]: .aircut2
+
+# sound of tires - asphalt - rumblestripes - gravel - grass 
+	wheel_asphalt[]: .was0
+	wheel_rumble[]: .wru
+	wheel_gravel[]: .wgrv0
+	wheel_gravel[]: .wgrv1
+	wheel_gravel[]: .wgrv2
+	wheel_gravel[]: .wgrv3
+	wheel_grass[]: .wgrs0
+	wheel_grass[]: .wgrs1
+	wheel_grass[]: .wgrs2
+
+	seat_noise_treshold: 6.5
+	seat_noise[]: .snoise0
+	seat_noise[]: .snoise1
+	seat_noise[]: .snoise2
+	seat_noise[]: .snoise3
+	seat_noise[]: .snoise4
+	seat_noise[]: .snoise5
+	seat_noise[]: .snoise6
+	seat_noise[]: .snoise7
+	seat_noise[]: .snoise8
+	seat_noise[]: .snoise9
+	seat_noise[]: .snoise10
+	seat_noise[]: .snoise11
+	seat_noise[]: .snoise12
+	seat_noise[]: .snoise13
+	seat_noise[]: .snoise14
+	seat_noise[]: .snoise15
+	seat_noise[]: .snoise16
+		
+	suspension_noise_treshold: 3.5
+	suspension_noise[]: .sunoise0
+	suspension_noise[]: .sunoise1
+	suspension_noise[]: .sunoise2
+	suspension_noise[]: .sunoise3
+	suspension_noise[]: .sunoise4
+	suspension_noise[]: .sunoise5
+	suspension_noise[]: .sunoise6
+	suspension_noise[]: .sunoise7
+	
+# crash_metal = 60-90km/h, crash_hard = 30-59km/h, crash_soft = 6-29
+# crash_sctratch = loop sample pri speed > 1 
+
+	crash_metal[0]: .crashm0
+	crash_metal[1]: .crashm1
+	crash_metal[2]: .crashm2
+	crash_metal[3]: .crashm3
+	crash_metal[4]: .crashm4
+	crash_hard[0]: .crashha0
+	crash_hard[1]: .crashha1
+	crash_hard[2]: .crashha2
+	crash_hard[3]: .crashha3
+	crash_hard[4]: .crashha4
+	crash_soft[0]: .crashso0
+	crash_soft[1]: .crashso1
+	crash_soft[2]: .crashso2
+	crash_soft[3]: .crashso3
+	crash_soft[4]: .crashso4
+	crash_scratch[0]: .crashsc0
+	crash_scratch[1]: .crashsc1
+
+	gear_noise[]: .gnoise1
+	gear_noise[]: .gnoise2
+	gear_noise[]: .gnoise3
+	gear_noise[]: .gnoise4
+	gear_noise[]: .gnoise5
+	gear_noise[]: .gnoise6
+	gear_noise[]: .gnoise7
+	gear_noise[]: .gnoise8
+	gear_noise[]: .gnoise9

@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape1.scania.113.celular
+{
+	name: "@@iPhone 6@@"
+	price: 75
+	unlock: 0
+	icon: "iphone6"
+	interior_model: "/vehicle/truck/upgrade/scania_113/celular/iphone.pmd"
+	
+}
+}

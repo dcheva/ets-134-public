@@ -1,0 +1,31 @@
+SiiNunit
+{
+accessory_chassis_data : 6x2.scania.113.chassis
+{
+	name: "@@chassis@@ 6x2 Lift"
+	price: 1100
+	unlock: 0
+	info[]: "6x2l"
+	info[]: "450 + 250 @@unit_l@@"
+	icon: "6x2l"
+	detail_model: "/vehicle/truck/scania_113/truck.pmd"
+	collision:    "/vehicle/truck/scania_113/truck.pmc"
+	residual_travel[]: 0.12 	# 1st axle
+	residual_travel[]: 0.08 	# 3rd axle
+	residual_travel[]: 0.08 	# 2nd axle
+	tank_size: 700
+	variant: chs_6x2
+	look: default
+
+	powered_axle[0]: false	# front axle
+	powered_axle[1]: false	# rear axle
+	powered_axle[2]: true	# rear axle
+	kerb_weight[0]:	5100.1
+	kerb_weight[1]:	1350.1
+	kerb_weight[2]:	1350.1
+	liftable_axle[0]: false
+	liftable_axle[1]: true
+	liftable_axle[2]: false
+
+}
+}

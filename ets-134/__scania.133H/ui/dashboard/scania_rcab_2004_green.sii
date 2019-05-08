@@ -1,0 +1,512 @@
+﻿SiiNunit
+{
+ui::window : _nameless.025feaff0 {
+ clip_children: true
+ window_handler: null
+ keep_aspect: none
+ fitting: false
+ my_children: 6
+ my_children[0]: _nameless._.kgroundunlit
+ my_children[1]: _nameless._.ackgroundlit
+ my_children[2]: _nameless._.display0
+ my_children[3]: _nameless._.display1
+ my_children[4]: _nameless._.display2
+ my_children[5]: _nameless._.sharedisplay
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 0
+ area_r: 1152
+ area_t: 864
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: null
+}
+
+ui::text : _nameless._.kgroundunlit {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF000000>\r\n<ret><offset hshift=0 vshift=0><img src=/material/ui/dashboard/scania_rcab_2004/display_g.mat height=864 width=1152>"
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 10
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.025feaff0
+}
+
+ui::text : _nameless._.ackgroundlit {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF0A0F0A>\r\n<ret><offset hshift=0 vshift=0><img src=/material/ui/dashboard/scania_rcab_2004/display_g.mat height=864 width=1152>"
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 20
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.025feaff0
+}
+
+ui::group : _nameless._.display0 {
+ fitting: false
+ my_children: 5
+ my_children[0]: _nameless._.bg
+ my_children[1]: _nameless._.fuelbar
+ my_children[2]: _nameless._.fuelbarmax
+ my_children[3]: _nameless._.fueldist
+ my_children[4]: _nameless._.fuel
+ coords_l: 15
+ coords_r: 1167
+ coords_t: 864
+ coords_b: 0
+ area_l: 15
+ area_r: 1167
+ area_t: 864
+ area_b: 0
+ id: 100
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.025feaff0
+}
+
+ui::text : _nameless._.bg {
+ text: "<color value=FF1FBB56><offset vshift=100><img src=/material/ui/dashboard/scania_rcab_2004/pict.mat right=0.5 bottom=0.5 width=300 height=350>\r\n<offset vshift=-70 hshift=-10><img src=/material/ui/dashboard/scania_rcab_2004/pict.mat right=0.5 top=0.5 bottom=1.0 width=250 height=280>\r\n<ret><offset hshift=340 vshift=440><img src=/material/ui/white.mat height=15 width=710>\r\n<ret><offset hshift=340 vshift=370><img src=/material/ui/white.mat height=15 width=710>\r\n<ret><offset hshift=340 vshift=330><img src=/material/ui/white.mat height=110 width=15>\r\n<ret><offset hshift=1035 vshift=330><img src=/material/ui/white.mat height=110 width=15>\r\n<ret><offset hshift=501 vshift=330><img src=/material/ui/white.mat height=50 width=15>\r\n<ret><offset hshift=895 vshift=330><img src=/material/ui/white.mat height=50 width=15>\r\n<ret><offset hshift=698 vshift=330><img src=/material/ui/white.mat height=50 width=15>"
+ coords_l: 15
+ coords_r: 1167
+ coords_t: 864
+ coords_b: 300
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display0
+}
+
+ui::text : _nameless._.fuelbar {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=FF1FBB56>"
+ coords_l: 369
+ coords_r: 1053
+ coords_t: 479
+ coords_b: 424
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1070
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display0
+}
+
+ui::group : _nameless._.fuelbarmax {
+ fitting: false
+ my_children: 0
+ coords_l: 369
+ coords_r: 1053
+ coords_t: 479
+ coords_b: 424
+ area_l: 369
+ area_r: 1053
+ area_t: 479
+ area_b: 424
+ id: 1075
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.fueldist {
+ value: 2450km
+ look_template: txt.scania2004g.normal_c
+ text: ""
+ coords_l: 517
+ coords_r: 1065
+ coords_t: 760
+ coords_b: 675
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1080
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display0
+}
+
+ui::text_common : _nameless._.fuel {
+ value: "950 l"
+ look_template: txt.scania2004g.normal_c
+ text: ""
+ coords_l: 574
+ coords_r: 1018
+ coords_t: 653
+ coords_b: 568
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1060
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display0
+}
+
+ui::group : _nameless._.display1 {
+ fitting: false
+ my_children: 5
+ my_children[0]: _nameless._.bg.1
+ my_children[1]: _nameless._.speed
+ my_children[2]: _nameless._.km
+ my_children[3]: _nameless._.km.1
+ my_children[4]: _nameless._.ruisecontrol
+ coords_l: 15
+ coords_r: 1167
+ coords_t: 864
+ coords_b: 0
+ area_l: 15
+ area_r: 1167
+ area_t: 864
+ area_b: 0
+ id: 200
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.025feaff0
+}
+
+ui::text : _nameless._.bg.1 {
+ text: "<color value=FF1FBB56><offset vshift=100><img src=/material/ui/dashboard/scania_rcab_2004/pict.mat right=0.5 bottom=0.5 width=300 height=350>\r\n<ret><offset hshift=250 vshift=35><img src=/material/ui/dashboard/scania_rcab_2004/pict.mat height=430 width=370 left=0.5 bottom=0.5>\r\n<ret><offset hshift=720 vshift=0><img src=/material/ui/dashboard/share/speed.mat height=400 width=320>\r\n"
+ coords_l: 15
+ coords_r: 1167
+ coords_t: 864
+ coords_b: 300
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.speed {
+ value: 124
+ look_template: txt.scania2004g.normal
+ text: ""
+ coords_l: 611
+ coords_r: 886
+ coords_t: 472
+ coords_b: 344
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1020
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.km {
+ value: "km/h"
+ look_template: txt.scania2004g.small
+ text: ""
+ coords_l: 896
+ coords_r: 1140
+ coords_t: 457
+ coords_b: 379
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.km.1 {
+ value: "km/h"
+ look_template: txt.scania2004g.small
+ text: ""
+ coords_l: 415
+ coords_r: 660
+ coords_t: 457
+ coords_b: 362
+ area_l: 415
+ area_r: 660
+ area_t: 457
+ area_b: 362
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display1
+}
+
+ui::text_common : _nameless._.ruisecontrol {
+ value: 124
+ look_template: txt.scania2004g.normal
+ text: ""
+ coords_l: 126
+ coords_r: 406
+ coords_t: 472
+ coords_b: 344
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1100
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display1
+}
+
+ui::group : _nameless._.display2 {
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless._.oil.temperature
+ my_children[1]: _nameless._.watertemp
+ my_children[2]: _nameless._.bg.2
+ coords_l: 15
+ coords_r: 1167
+ coords_t: 864
+ coords_b: 0
+ area_l: 15
+ area_r: 1167
+ area_t: 864
+ area_b: 0
+ id: 300
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.025feaff0
+}
+
+ui::text_common : _nameless._.oil.temperature {
+ value: "999|C"
+ look_template: txt.scania2004g.temp_norm
+ text: ""
+ coords_l: 690
+ coords_r: 1009
+ coords_t: 471
+ coords_b: 343
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1010
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display2
+}
+
+ui::text_common : _nameless._.watertemp {
+ value: "999|C"
+ look_template: txt.scania2004g.temp_norm
+ text: ""
+ coords_l: 338
+ coords_r: 649
+ coords_t: 472
+ coords_b: 344
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1090
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display2
+}
+
+ui::text : _nameless._.bg.2 {
+ text: "<color value=FF1FBB56><offset vshift=100><img src=/material/ui/dashboard/scania_rcab_2004/pict.mat right=0.5 bottom=0.5 width=300 height=350>\r\n<ret><offset hshift=270 vshift=30><img src=/material/ui/dashboard/scania_rcab_2004/pict.mat height=400 width=400 left=0.5 top=0.5>\r\n<ret><offset hshift=680 vshift=40><img src=/material/ui/dashboard/volvo_fh16/pict.mat height=370 width=370 left=0.0 top=0.0 right=0.5 bottom=0.5>"
+ coords_l: 15
+ coords_r: 1167
+ coords_t: 864
+ coords_b: 300
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.display2
+}
+
+ui::group : _nameless._.sharedisplay {
+ fitting: false
+ my_children: 5
+ my_children[0]: _nameless._.clock
+ my_children[1]: _nameless._.gear
+ my_children[2]: _nameless._.km.2
+ my_children[3]: _nameless._.odometer
+ my_children[4]: _nameless._.gear.1
+ coords_l: 0
+ coords_r: 1152
+ coords_t: 864
+ coords_b: 0
+ area_l: 0
+ area_r: 1152
+ area_t: 864
+ area_b: 0
+ id: 950
+ layer: -1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.025feaff0
+}
+
+ui::text_common : _nameless._.clock {
+ value: "09:27"
+ look_template: txt.scania2004g.number
+ text: ""
+ coords_l: 731
+ coords_r: 1104
+ coords_t: 260
+ coords_b: 141
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1050
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gear {
+ value: "23|C"
+ look_template: txt.scania2004g.temp_digi
+ text: ""
+ coords_l: 742
+ coords_r: 1081
+ coords_t: 133
+ coords_b: &40a00020
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.km.2 {
+ value: km
+ look_template: txt.scania2004g.small
+ text: ""
+ coords_l: 558
+ coords_r: 759
+ coords_t: &42c1fffe
+ coords_b: &41980004
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.odometer {
+ value: 9952315km
+ look_template: txt.scania2004g.number
+ text: ""
+ coords_l: &40bfffc0
+ coords_r: 553
+ coords_t: 139
+ coords_b: 11
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1030
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.sharedisplay
+}
+
+ui::text_common : _nameless._.gear.1 {
+ value: N
+ look_template: txt.scania2004g.number
+ text: ""
+ coords_l: &4322fffe
+ coords_r: 311
+ coords_t: 260
+ coords_b: 132
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1040
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.sharedisplay
+}
+
+}

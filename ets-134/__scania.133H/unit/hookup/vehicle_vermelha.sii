@@ -1,0 +1,18 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.vermelha
+{
+	dir_type: wide
+	light_type: beacon
+	
+	diffuse_color: (0.8521, 0.0009, 0.0009)
+	range: 3.5
+	inner_angle: 0.0
+	outer_angle: 100.0
+	type: spot
+	forward_distance: false
+
+	model: "/model/flares/red.pmd"
+	scale_factor: 1
+}
+}

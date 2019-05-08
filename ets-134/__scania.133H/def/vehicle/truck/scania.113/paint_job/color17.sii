@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_paint_job_data : color17.scania.113.paint_job
+{
+	name: "Eucalyptus Green"
+	price: 190
+	unlock: 0
+	base_color : (0.0000, 0.1538, 0.0554)
+	base_color_locked: true
+	stock: true
+}
+}

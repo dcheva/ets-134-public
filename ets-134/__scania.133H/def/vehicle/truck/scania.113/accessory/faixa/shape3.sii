@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : shape3.scania.113.faixa
+{
+	name: "@@Black & White Streamline Sticker@@"
+	price: 75
+	unlock: 0
+	icon: "bw_sticker"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/faixas/faixa.pmd"
+	look: preto
+	
+}
+}

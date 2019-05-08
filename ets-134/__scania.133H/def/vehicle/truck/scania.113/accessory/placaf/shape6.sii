@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape6.scania.113.placaf
+{
+	name: "Minas Gerais"
+	price: 50
+	unlock: 0
+	icon: "scania"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/placa/placa.pmd"
+	look: mg
+}
+}

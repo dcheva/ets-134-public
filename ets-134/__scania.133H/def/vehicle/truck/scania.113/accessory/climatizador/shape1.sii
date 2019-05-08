@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape1.scania.113.climatizador
+{
+	name: "Air-Conditioner"
+	price: 175
+	unlock: 0
+	icon: "ac_icon"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/climatizador/clima_01.pmd"
+}
+}

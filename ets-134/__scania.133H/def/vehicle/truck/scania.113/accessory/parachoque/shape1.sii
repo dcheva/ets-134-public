@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape1.scania.113.parachoque
+{
+	name: "Bumper Color"
+	price: 200
+	unlock: 0
+	icon: "bumper_color"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/parachoque/parachoque_01.pmd"
+	
+}
+}

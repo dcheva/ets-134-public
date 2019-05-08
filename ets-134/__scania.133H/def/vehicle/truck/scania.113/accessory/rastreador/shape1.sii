@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape1.scania.113.rastreador
+{
+	name: "GPS Tracker"
+	price: 75
+	unlock: 0	
+	icon: "tracker"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/rastreador/rastreador_01.pmd"
+	interior_model: "/vehicle/truck/upgrade/scania_113/rastreador/rastreador_interior.pmd"
+}
+}

@@ -1,0 +1,434 @@
+SiiNunit
+{
+accessory_sound_data : int.scania.113.sound
+{
+	start: .start
+	stop: .stop
+	start_no_fuel: .startbad
+
+	engine[]: .e0
+	engine[]: .e1
+    engine[]: .e2
+    engine[]: .e3
+    engine[]: .e4
+    engine[]: .e5
+	
+	engine_load[]: .el0
+	engine_load[]: .el1
+	engine_load[]: .el2
+	engine_load[]: .el3
+	engine_load[]: .el4
+	engine_load[]: .el5
+	engine_load[]: .el6
+	
+	engine_nofuel[]: .enf0
+	engine_nofuel[]: .enf1
+	engine_nofuel[]: .enf2
+	engine_nofuel[]: .enf3
+	engine_nofuel[]: .enf4
+	engine_nofuel[]: .enf5
+	
+	turbo: .t
+
+	air_gear[0]: .airgear0
+	air_gear[1]: .airgear1
+	air_gear[2]: .airgear2
+	air_gear[3]: .airgear3
+	air_gear[4]: .airgear4
+
+	air_brake[0]: .airbrake0
+	air_brake[1]: .airbrake1
+    air_brake[2]: .airbrake2
+
+	engine_brake[]: .eb
+	horn: .horn
+	air_horn: .ahorn
+	reverse: .reverse
+	blinker_on: .blinker_on
+	blinker_off: .blinker_off
+	wipers_up: .wipers_up
+	wipers_down: .wipers_down
+	
+	exterior_sound: false
+
+
+@include "/def/vehicle/truck/common_sound_int.sui"
+
+}
+
+sound_data: .start
+{
+	name: "/sound/truck/scania_3_V8/int/int_start.ogg"
+	looped: false
+}
+
+sound_data: .startbad
+{
+	name: "/sound/truck/scania_3_V8/int/engine_on_bad.ogg"
+	looped: false
+}
+
+sound_data: .stop
+{
+	name: "/sound/truck/scania_3_V8/int/int_stop.ogg"
+	looped: false
+}
+
+sound_engine_data: .e0
+{
+	name: "/sound/truck/scania_3_V8/int/dryer.ogg"
+
+	looped: true
+
+	min_rpm: 300.0
+	max_rpm: 2950.0
+	volume: 0.84
+}
+
+sound_engine_data: .e1
+{
+	name: "/sound/truck/scania_3_V8/int/500rpm_int.ogg"
+
+	looped: true
+
+	pitch_reference: 600
+
+	min_rpm: 350.0
+	max_rpm: 760.0
+	volume: 0.44
+}
+
+sound_engine_data: .e2
+{
+	name: "/sound/truck/scania_3_V8/int/1000_int.ogg"
+
+	looped: true
+
+	pitch_reference: 1000
+
+	min_rpm: 720.0
+	max_rpm: 1510.0
+	volume: 0.33
+}
+
+sound_engine_data: .e3
+{
+	name: "/sound/truck/scania_3_V8/int/1400_int.ogg"
+
+	looped: true
+
+	pitch_reference: 1350
+
+	min_rpm: 1050.0
+	max_rpm: 1585.0
+	volume: 0.48
+}
+
+sound_engine_data: .e4
+{
+	name: "/sound/truck/scania_3_V8/int/1600_int.ogg"
+
+	looped: true
+
+	pitch_reference: 1650
+
+	min_rpm: 1400.0
+	max_rpm: 2500.0
+	volume: 0.55
+}
+
+sound_engine_data: .e5
+{
+	name: "/sound/truck/scania_3_V8/int/turbo_idle.ogg"
+
+	looped: true
+
+	pitch_reference: 1370
+
+	min_rpm: 400.0
+	max_rpm: 3500.0
+	volume: 0.2
+}
+
+sound_engine_data: .el0
+{
+	name: "/sound/truck/scania_3_V8/int/exhaust_idle.ogg"
+
+	looped: true
+
+	pitch_reference: 715
+	is_2d: true
+	min_rpm: 350.0
+	max_rpm: 1100.0
+	volume: 0.58
+}
+
+sound_engine_data: .el1
+{
+	name: "/sound/truck/scania_3_V8/int/1200_exhaust.ogg"
+
+	looped: true
+
+	pitch_reference: 1108
+	is_2d: true
+	min_rpm: 780.0
+	max_rpm: 1500.0
+	volume: 0.51
+}
+
+sound_engine_data: .el2
+{
+	name: "/sound/truck/scania_3_V8/int/1400_exhaust.ogg"
+
+	looped: true
+
+	pitch_reference: 1390
+	is_2d: true
+	min_rpm: 990.0
+	max_rpm: 1535.0
+	volume: 0.89
+}
+
+sound_engine_data: .el3
+{
+	name: "/sound/truck/scania_3_V8/int/1600_exhaust.ogg"
+
+	looped: true
+
+	pitch_reference: 1545
+	is_2d: true
+	min_rpm: 1415.0
+	max_rpm: 1655.0
+	volume: 0.8
+}
+
+sound_engine_data: .el4
+{
+	name: "/sound/truck/scania_3_V8/int/1700_exhaust.ogg"
+
+	looped: true
+
+	pitch_reference: 1650
+	is_2d: true
+	min_rpm: 1470.0
+	max_rpm: 2020.0
+	volume: 0.95
+}
+
+sound_engine_data: .el5
+{
+	name: "/sound/truck/scania_3_V8/int/1900_exhaust.ogg"
+
+	looped: true
+
+	pitch_reference: 1850
+	is_2d: true
+	min_rpm: 1815.0
+	max_rpm: 2950.0
+	volume: 0.78
+}
+
+sound_engine_data: .el6
+{
+	name: "/sound/truck/scania_3_V8/int/turbo_idle.ogg"
+
+	pitch_reference: 1370
+
+	min_rpm: 400.0
+	max_rpm: 3000.0
+	volume: 0.19
+}
+
+sound_engine_data: .enf0
+{
+	name: "/sound/truck/scania_3_V8/int/gear_air.ogg"
+
+	looped: true
+
+	min_rpm: 780.0
+	max_rpm: 2950.0
+
+	volume: 0.43
+}
+
+sound_engine_data: .enf1
+{
+	name: "/sound/truck/scania_3_V8/int/1000rpm-int-mono.ogg"
+
+	pitch_reference: 1100
+
+	min_rpm: 350.0
+	max_rpm: 1310.0
+	volume: 0.29
+}
+
+sound_engine_data: .enf2
+{
+	name: "/sound/truck/scania_3_V8/int/1400_int.ogg"
+
+	looped: true
+
+	pitch_reference: 1350
+
+	min_rpm: 1050.0
+	max_rpm: 1585.0
+	volume: 0.2
+}
+
+sound_engine_data: .enf3
+{
+	name: "/sound/truck/scania_3_V8/int/1600_int.ogg"
+
+	looped: true
+
+	pitch_reference: 1650
+
+	min_rpm: 1400.0
+	max_rpm: 2400.0
+	volume: 0.28
+}
+
+sound_engine_data: .enf4
+{
+	name: "/sound/truck/scania_3_V8/int/lever_le_pied.ogg"
+
+	looped: true
+
+	min_rpm: 680.0
+	max_rpm: 3200.0
+	pitch_reference:  1415
+	volume: 0.78
+}
+
+sound_engine_data: .enf5
+{
+	name: "/sound/truck/scania_3_V8/int/turbo_idle.ogg"
+
+	looped: true
+
+	pitch_reference: 1370
+
+	min_rpm: 400.0
+	max_rpm: 3500.0
+	volume: 0.19
+}
+
+sound_data: .t
+{
+	name: "/sound/truck/scania_3_V8/int/turbo_int.ogg"
+	looped: true
+	volume: 0.4
+}
+
+sound_data: .airgear0
+{
+	name: "/sound/truck/scania_3_V8/int/int_gear_air_1.ogg"
+	volume: 0.26			
+}
+
+sound_data: .airgear1
+{
+	name: "/sound/truck/scania_3_V8/int/int_gear_air_2.ogg"
+	volume: 0.26
+}
+
+sound_data: .airgear2
+{
+	name: "/sound/truck/scania_3_V8/int/int_gear_air_3.ogg"
+	volume: 0.26
+}
+
+sound_data: .airgear3
+{
+	name: "/sound/truck/scania_3_V8/int/int_gear_air_4.ogg"
+	volume: 0.26
+}
+
+sound_data: .airgear4
+{
+	name: "/sound/truck/scania_3_V8/int/int_gear_air_5.ogg"
+	volume: 0.26
+}
+
+sound_data: .airbrake0
+{
+	name: "/sound/truck/scania_3_V8/int/air_brake1.ogg"
+
+	looped: false
+}
+
+sound_data: .airbrake1
+{
+	name: "/sound/truck/scania_3_V8/int/air_brake2.ogg"
+
+	looped: false
+}
+
+sound_data: .airbrake2
+{
+	name: "/sound/truck/scania_3_V8/int/air_brake3.ogg"
+
+	looped: false
+}
+
+sound_engine_data: .eb
+{
+	name: "/sound/truck/scania_3_V8/int/engine_brake_int.ogg"
+	looped: true
+	is_2d: true
+	pitch_reference: 1560
+	min_rpm: 800.0
+	max_rpm: 3000.0
+	volume: 0.9
+}
+
+sound_data: .horn
+{
+	name: "/sound/truck/scania_3_V8/int/horn.ogg"
+	looped: true
+}
+
+sound_data: .ahorn
+{
+	name: "/sound/truck/scania_3_V8/int/air_horn.ogg"
+	looped: true
+}
+
+sound_data: .reverse
+{
+	name: "/sound/truck/scania_3_V8/int/reverse.ogg"
+	looped: true
+}
+
+sound_data: .blinker_on
+{
+	name: "/sound/truck/scania_3_V8/int/blinker_on.ogg"
+	is_2d: true
+	volume: 0.21
+}
+
+sound_data: .blinker_off
+{
+	name: "/sound/truck/scania_3_V8/int/blinker_off.ogg"
+	is_2d: true
+	volume: 0.21
+}
+
+sound_data: .wipers_up
+{
+	name: "/sound/truck/scania_3_V8/int/wiper_up.ogg"
+	is_2d: true
+	volume: 0.36
+}
+
+sound_data: .wipers_down
+{
+	name: "/sound/truck/scania_3_V8/int/wiper_down.ogg"
+	is_2d: true
+	volume: 0.36
+}
+
+@include "/def/vehicle/truck/common_sound_int_data.sui"
+
+}
+

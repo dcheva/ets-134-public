@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "ac_icon.tobj"
+	texture_name : "texture"
+}

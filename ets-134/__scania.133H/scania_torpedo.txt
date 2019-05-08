@@ -1,0 +1,28 @@
+﻿[blue]New Scania 113H Torpedo, with tuning and sounds. v1.33
+
+[white]2.1 Version
+
+[green]New version, with paintsjobs, clean defs, and no errors! 
+
+
+[green]Credits:
+[white]RJL : For interiors parts, steering wheel, and gearboxes etc. Big thanks to you! 
+[white]Scania 113 (Defs, textures, etc) [blue]sheppardpat47
+[white]Interior: [blue]Scania R RJL
+[white]Skin: [blue]YURY WERNECK
+[white]Fix: [blue]Nappa_
+
+[blue] Updates log :
+
+1.0 Version : 
+Removed all useless tuning and bugs, no errors, mod is created.
+
+1.5 Version : 
+Scania S in dealer bug is corrected, and all works perfectly. Without bugs.
+
+2.0 Version : 
+Dealer bug corrected, on 1.31...
+And added some cool mudflaps
+
+2.1 Version :
+Main screen bug fixed

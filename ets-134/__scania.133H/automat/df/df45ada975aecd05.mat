@@ -1,0 +1,9 @@
+material : "eut2.dif.spec.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/scania_113/gps/textures/txt_gps.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 0.239216 , 0.239216 , 0.239216 }
+	reflection : 0
+	shininess : 92
+	specular : { 0.0498038 , 0.0498038 , 0.0498038 }
+}

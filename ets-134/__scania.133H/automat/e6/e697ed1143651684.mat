@@ -1,0 +1,11 @@
+material : "eut2.dif.spec.add.env.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/scania_113/rastreador/textures/rastreador.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 0.294118 , 0.294118 , 0.294118 }
+	env_factor : { 0.0799999 , 0.0799999 , 0.0799999 }
+	shininess : 60
+	specular : { 0.299999 , 0.299999 , 0.299999 }
+}

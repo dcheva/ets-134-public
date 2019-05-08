@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape2.scania.113.escada
+{
+	name: "@@Ladder Chrome@@"
+	price: 110
+	unlock: 0
+	icon: "ladder_chr"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/escada/escada_02.pmd"
+	
+}
+}

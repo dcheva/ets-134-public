@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_paint_job_data : color7.scania.113.paint_job
+{
+	name: "Autumn Orange"
+	price: 320
+	unlock: 0
+	base_color : (0.3423, 0.0429, 0.0041)
+	base_color_locked: true
+	stock: true
+}
+}

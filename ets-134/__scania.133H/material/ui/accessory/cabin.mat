@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "cabin.tobj"
+	texture_name : "texture"
+}

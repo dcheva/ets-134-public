@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "stiholt_mud.tobj"
+	texture_name : "texture"
+}

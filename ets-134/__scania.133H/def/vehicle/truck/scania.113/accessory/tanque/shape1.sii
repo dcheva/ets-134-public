@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape1.scania.113.tanque
+{
+	name: "@@Chrome Square Tank + Plastic support@@"
+	price: 250
+	unlock: 0
+	icon: "tank_sp"
+	exterior_model: "/vehicle/truck/upgrade/scania_113/tanque/tanque_01.pmd"
+	
+}
+}
