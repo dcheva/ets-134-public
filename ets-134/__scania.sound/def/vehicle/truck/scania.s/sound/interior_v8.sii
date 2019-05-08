@@ -353,13 +353,13 @@ sound_engine_data: .e7
 
 	looped: true
 
-	pitch_reference: 1360
+	pitch_reference: 1280
 
 	min_rpm: 300.0
 
 	max_rpm: 3000.0
 
-	volume: 0.26
+	volume: 0.46
 }
 
 
