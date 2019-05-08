@@ -59,12 +59,12 @@ economy_data : economy.data.storage
 #
 # AI driver related configuration
 #
-	fuel_cost_per_km: (1.5, 2.0)		# for driver simulation
-	driver_max_cargo_damage: 6.0		# in %, decrease with skill
-	driver_maintenance_cost: (1.8, 3.0) 	# maintenance + insurance, base range in E/km
-	minimal_driver_salary:	350		# fixed part of driver's pay
+	fuel_cost_per_km: (0.4, 0.5)		# for driver simulation
+	driver_max_cargo_damage: 5.0		# in %, decrease with skill
+	driver_maintenance_cost: (0.4, 0.5)	# maintenance + insurance, base range in E/km
+	minimal_driver_salary:	167		# fixed part of driver's pay
 
-	driver_hire_cost: 1500		# Euro
+	driver_hire_cost: 1673		# Euro
 
 	free_driver_level_cap: 30	# don't grow offered drivers higher than this level
 	driver_offer_scrap_prob: 0.5

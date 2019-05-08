@@ -30,8 +30,8 @@ ui::text_common : _nameless._.leftmirror {
  value: close
  look_template: txt.mirrors
  text: ""
- coords_l: 410
- coords_r: 540
+ coords_l: 495
+ coords_r: 625
  coords_t: 876
  coords_b: 746
  area_l: 1

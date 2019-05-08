@@ -31,8 +31,8 @@ ui::text_common : _nameless._.rightmirror {
  value: far
  look_template: txt.mirrors
  text: ""
- coords_l: 900
- coords_r: 1030
+ coords_l: 815
+ coords_r: 945
  coords_t: 876
  coords_b: 746
  area_l: 1
