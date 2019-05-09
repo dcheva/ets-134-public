@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.1de.f48d.24a0 {
+input_config : _nameless.184.1c71.0c90 {
  version: 6
  config_lines: 341
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -164,7 +164,7 @@ input_config : _nameless.1de.f48d.24a0 {
  config_lines[158]: "mix looklranaspd `looklranaraw * c_jrspeed`"
  config_lines[159]: "mix looklrspd `looklrdigspd + looklranaspd`"
  config_lines[160]: "mix lookudspd `lookudanaraw * c_jrspeed`"
- config_lines[161]: "mix lookpos1 `keyboard.end?0 | keyboard.num5?0`"
+ config_lines[161]: "mix lookpos1 `mouse.button_middle?0 | keyboard.num5?0`"
  config_lines[162]: "mix lookpos2 `keyboard.pgdn?0 | keyboard.num9?0`"
  config_lines[163]: "mix lookpos3 `keyboard.del?0 | keyboard.num7?0`"
  config_lines[164]: "mix lookpos4 `keyboard.num6?0`"
@@ -203,7 +203,7 @@ input_config : _nameless.1de.f48d.24a0 {
  config_lines[197]: "mix msteering `-mouse.rel_position.x?0 * c_msens`"
  config_lines[198]: "mix mpedals `-mouse.rel_position.y?0 * c_msens`"
  config_lines[199]: "mix dforward `keyboard.a?0`"
- config_lines[200]: "mix dbackward `keyboard.z?0`"
+ config_lines[200]: "mix dbackward `keyboard.z?0 | mouse.button_left?0`"
  config_lines[201]: "mix aforward `normalize(sel(c_jzthrottle, sel(c_jithrottle, -j_throttle?0, j_throttle?0), sel(c_jithrottle, j_throttle?1 * -0.5 + 0.5, j_throttle?-1 * 0.5 + 0.5)), c_throt_dz)`"
  config_lines[202]: "mix abackward `normalize(sel(c_jzbrake, sel(c_jibrake, -j_brake?0, j_brake?0), sel(c_jibrake, j_brake?1 * -0.5 + 0.5, j_brake?-1 * 0.5 + 0.5)), c_brake_dz)`"
  config_lines[203]: "mix forward `dforward + aforward`"
@@ -216,7 +216,7 @@ input_config : _nameless.1de.f48d.24a0 {
  config_lines[210]: "mix attach `keyboard.t?0`"
  config_lines[211]: "mix horn `keyboard.h?0`"
  config_lines[212]: "mix airhorn `keyboard.n?0`"
- config_lines[213]: "mix lighthorn `mouse.button_left?0`"
+ config_lines[213]: "mix lighthorn `keyboard.lalt?0`"
  config_lines[214]: "mix beacon `keyboard.o?0`"
  config_lines[215]: "mix motorbrake `keyboard.lshift?0`"
  config_lines[216]: "mix engbraketog ``"
