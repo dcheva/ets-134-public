@@ -52,7 +52,7 @@ economy_data : economy.data.storage
 
 	hurry_up_timer: 60		# how long the hurry up music will play (in game minutes)
 
-	no_cargo_prob:	0.15		# 15% prob. of empty cargo slot
+	no_cargo_prob:	0 # 0.15	# 0 (was 15%) prob. of empty cargo slot
 	cargo_validity_min: 120		# 2 hours
 	cargo_validity_max: 1200	# 20 hours
 
@@ -92,8 +92,8 @@ economy_data : economy.data.storage
 	skill_distance[5]:	2500
 
 ######################################################### https://www.fairwork.gov.au/ArticleDocuments/872/road-transport-long-distance-operations-award-ma000039-pay-guide.pdf.aspx
-	fixed_revenue: 1673				# 10x: "Cents per kilometre driving method - Casual Grade 5 - $0.5003 per km, and an extra $167.30 per shift"
-	revenue_coef_per_km: 0.05			# 10x
+	fixed_revenue: 167.3				# "Cents per kilometre driving method - Casual Grade 5 - $0.5003 per km, and an extra $167.30 per shift"
+	revenue_coef_per_km: 0.05			# Calculated as 1/10
 	cargo_market_revenue_coef_per_km: 0.055		# Revenue coefficient per km used during cargo market jobs.
 #########################################################
 
