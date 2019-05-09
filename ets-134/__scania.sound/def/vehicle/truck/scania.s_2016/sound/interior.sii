@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_sound_data : int.scania.113.sound
+accessory_sound_data : int.scania.all.sound
 {
 	start: .start
 	stop: .stop

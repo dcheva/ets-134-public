@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_sound_data : ext.scania.113.sound
+accessory_sound_data : ext.scania.all.sound
 {
 	exterior_sound: true
 
