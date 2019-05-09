@@ -1010,11 +1010,11 @@ sound_data: .reverse
 
 {
 
-	name: "/sound/truck/scania_2016/v8/int/reverse.ogg"
+	name: "/sound/truck/scania_2016/v8/ext/reverse.ogg"
 
 	looped: true
 
-	volume: 0.10
+	volume: 0.20
 }
 
 
