@@ -22,9 +22,9 @@ game_data : .game.data {
 	hud_bright_att_delay:	120	// hud brightness attenuation transition takes 2 hours
 	
 	mirror_fov[]:		60.0f 	// close mirror
-	mirror_fov[]:		100.0f 	// close small mirror
+	mirror_fov[]:		120.0f 	// close small mirror
 	mirror_fov[]:		60.0f 	// far mirror
-	mirror_fov[]:		100.0f 	// far small mirror
+	mirror_fov[]:		120.0f 	// far small mirror
 	mirror_fov[]:		60.0f 	// side mirror
 	mirror_fov[]:		100.0f 	// front mirror
 

@@ -93,6 +93,54 @@ sound_noise_data: .was0
 	volume: 1.00
 }
 
+sound_noise_data: .was1
+
+{
+	name: "/sound/truck/noises/tires/asphalt_int_02.ogg"
+	looped: true
+
+  	min_speed: 0.0
+	max_speed: 180.0
+	pitch_reference: 90.0
+	volume: 1.00
+}
+
+sound_noise_data: .was2
+
+{
+	name: "/sound/truck/noises/tires/asphalt_int_03.ogg"
+	looped: true
+
+  	min_speed: 0.0
+	max_speed: 180.0
+	pitch_reference: 90.0
+	volume: 1.00
+}
+
+sound_noise_data: .was3
+
+{
+	name: "/sound/truck/noises/tires/asphalt_int_04.ogg"
+	looped: true
+
+  	min_speed: 0.0
+	max_speed: 180.0
+	pitch_reference: 90.0
+	volume: 1.00
+}
+
+sound_noise_data: .was4
+
+{
+	name: "/sound/truck/noises/tires/asphalt_int_05.ogg"
+	looped: true
+
+  	min_speed: 0.0
+	max_speed: 180.0
+	pitch_reference: 90.0
+	volume: 1.00
+}
+
 
 
 sound_noise_data: .wru
