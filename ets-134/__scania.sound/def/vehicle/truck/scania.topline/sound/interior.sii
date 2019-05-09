@@ -181,7 +181,7 @@ sound_data: .r
 
 	looped: true
 
-	volume: 0.8
+	volume: 1.0
 
 }
 
