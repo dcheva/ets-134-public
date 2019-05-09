@@ -181,7 +181,7 @@ sound_data: .r
 
 	looped: true
 
-	volume: 0.28
+	volume: 0.8
 
 }
 
@@ -1014,7 +1014,7 @@ sound_data: .reverse
 
 	looped: true
 
-	volume: 0.20
+	volume: 0.3
 }
 
 
