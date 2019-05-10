@@ -181,7 +181,7 @@ sound_data: .r
 
 	looped: true
 
-	volume: 2.0
+	volume: 1
 
 }
 
@@ -1056,7 +1056,7 @@ sound_data: .wipers_up
 
 	is_2d: true
 
-	volume: 0.45
+	volume: 1.0
 
 }
 
@@ -1070,7 +1070,7 @@ sound_data: .wipers_down
 
 	is_2d: true
 
-	volume: 0.45
+	volume: 1.0
 
 }
 
