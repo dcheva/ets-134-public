@@ -9,7 +9,7 @@ game_data : .game.data {
 
 	version: 1
 
-	refund_coef: 0.6
+	refund_coef: 1.0
 
 	interior_sound_volume:	0.20	// Interior sound attenuation value (the outside sounds will have 5% of original volume)
 	interior_sound_pitch:	0.6	// Sound pitch for outside sound group when camera is in interior

@@ -2,7 +2,7 @@ SiiNunit
 
 {
 
-accessory_sound_data : v8.scania.r_2016.esound
+accessory_sound_data : v8.scania.ext.esound
 
 
 {
@@ -887,7 +887,7 @@ is_2d: true
 
 sound_data: .ahorn
 {
-	name: "/sound/truck/scania_2016/v8/ext/whistle_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/ext/air_horn.ogg"
 
 	looped: true
 

@@ -2,7 +2,7 @@ SiiNunit
 
 {
 
-accessory_sound_data : v8.scania.r_2016.isound
+accessory_sound_data : v8.scania.int.isound
 
 {
 
@@ -98,7 +98,6 @@ accessory_sound_data : v8.scania.r_2016.isound
 
 
 
-
 	air_brake[0]: .airbrake0
 
 	air_brake[1]: .airbrake1
@@ -111,7 +110,9 @@ accessory_sound_data : v8.scania.r_2016.isound
 	horn: .horn
 
 	air_horn: .ahorn
+
 	reverse: .reverse
+
 
 
 	blinker_on: .blinker_on
@@ -896,7 +897,9 @@ sound_data: .airgear0
 
 	name: "/sound/truck/scania_2016/v8/int/int_scania_shifting-1.ogg"
 
-	volume: 1.8
+	is_2d: true
+
+	volume: 1.0
 
 }
 
@@ -908,7 +911,9 @@ sound_data: .airgear1
 
 	name: "/sound/truck/scania_2016/v8/int/int_scania_shifting-2.ogg"
 
-	volume: 1.8
+	is_2d: true
+
+	volume: 1.0
 }
 
 
@@ -918,7 +923,9 @@ sound_data: .airgear2
 
 	name: "/sound/truck/scania_2016/v8/int/int_scania_shifting-3.ogg"
 
-	volume: 1.8
+	is_2d: true
+
+	volume: 1.0
 }
 
 
@@ -929,7 +936,9 @@ sound_data: .airgear3
 
 	name: "/sound/truck/scania_2016/v8/int/int_scania_shifting-4.ogg"
 
-	volume: 1.8
+	is_2d: true
+
+	volume: 1.0
 }
 
 
@@ -939,7 +948,9 @@ sound_data: .airgear4
 
 	name: "/sound/truck/scania_2016/v8/int/int_scania_shifting-5.ogg"
 
-	volume: 1.8
+	is_2d: true
+
+	volume: 1.0
 }
 
 sound_data: .airbrake0
@@ -992,18 +1003,18 @@ sound_data: .horn
 
 	looped: true
 
-	volume: 0.3
+	volume: 1.4
 }
 
 
 
 sound_data: .ahorn
 {
-	name: "/sound/truck/scania_2016/v8/int/whistle_ext.ogg"
+	name: "/sound/truck/scania_2016/v8/int/air_horn.ogg"
 
 	looped: true
 
-	volume: 0.05
+	volume: 1.25
 }
 
 sound_data: .reverse
@@ -1014,7 +1025,7 @@ sound_data: .reverse
 
 	looped: true
 
-	volume: 0.3
+	volume: 0.9
 }
 
 

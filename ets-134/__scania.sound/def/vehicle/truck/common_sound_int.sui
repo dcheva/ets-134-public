@@ -32,15 +32,17 @@
 	wheel_asphalt[]: .was4
 
 	wheel_rumble[]: .wru
+
 	wheel_gravel[]: .wgrv0
 	wheel_gravel[]: .wgrv1
 	wheel_gravel[]: .wgrv2
 	wheel_gravel[]: .wgrv3
+
 	wheel_grass[]: .wgrs0
 	wheel_grass[]: .wgrs1
 	wheel_grass[]: .wgrs2
 
-	seat_noise_treshold: 6.5
+	seat_noise_treshold: 9.5
 	seat_noise[]: .snoise0
 	seat_noise[]: .snoise1
 	seat_noise[]: .snoise2
@@ -59,7 +61,7 @@
 	seat_noise[]: .snoise15
 	seat_noise[]: .snoise16
 		
-	suspension_noise_treshold: 3.5
+	suspension_noise_treshold: 5.5
 	suspension_noise[]: .sunoise0
 	suspension_noise[]: .sunoise1
 	suspension_noise[]: .sunoise2
