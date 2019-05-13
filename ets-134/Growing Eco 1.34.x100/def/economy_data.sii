@@ -77,8 +77,9 @@ economy_data : economy.data.storage
 
 #######	x100
 ################################################################# https://www.fairwork.gov.au/ArticleDocuments/872/road-transport-long-distance-operations-award-ma000039-pay-guide.pdf.aspx
+#	fixed_revenue: 16730					# // removed due to overdokhuya values calculated
 	driver_revenue_coef_per_km: 5#0.05			# 10x: "Cents per kilometre driving method - Casual Grade 5 - $0.5003 per km, and an extra $167.30 per shift"
-	driver_cargo_market_revenue_coef_per_km: 5.5#0.055	# Revenue coefficient used during cargo market jobs for drivers.
+	cargo_market_revenue_coef_per_km: 7.5			# Revenue coefficient per km used during cargo market jobs. // Changed to 0.75 (1.5x to normal cargo) to motivate owned trailers
 #################################################################
 
 ##
