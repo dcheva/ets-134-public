@@ -95,13 +95,11 @@ sound_noise_data: .was0
 sound_noise_data: .wru
 {
 	name: "/sound/truck/noises/rumblestripe.ogg"
- is_2d: true
 	looped: true
-
 	min_speed: 20.0
 	max_speed: 200.0
 	pitch_reference: 70.0
-	volume: 1.0
+	volume: 1.2
 }
 
 
