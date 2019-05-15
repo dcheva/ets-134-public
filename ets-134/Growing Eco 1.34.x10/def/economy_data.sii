@@ -75,10 +75,10 @@ economy_data : economy.data.storage
 
 	driver_skilled_job_prob: 0.8
 
-#######	x10
+# values x10
 ################################################################# https://www.fairwork.gov.au/ArticleDocuments/872/road-transport-long-distance-operations-award-ma000039-pay-guide.pdf.aspx
-	fixed_revenue: 1673					# // restored due to low base values in EAA
-	driver_revenue_coef_per_km: 0.5#0.05			# 10x: "Cents per kilometre driving method - Casual Grade 5 - $0.5003 per km, and an extra $167.30 per shift"
+	fixed_revenue: 1673					# Cents per kilometre driving method - Casual Grade 5 - $0.5003 per km, and an extra $167.30 per shift
+	revenue_coef_per_km: 0.5				# Calculated as 1/10
 	cargo_market_revenue_coef_per_km: 0.75			# Revenue coefficient per km used during cargo market jobs. // Changed to 0.75 (1.5x to normal cargo) to motivate owned trailers
 #################################################################
 
@@ -93,12 +93,12 @@ economy_data : economy.data.storage
 	skill_distance[4]:	1550
 	skill_distance[5]:	2500
 
-#######	x10
-######################################################### https://www.fairwork.gov.au/ArticleDocuments/872/road-transport-long-distance-operations-award-ma000039-pay-guide.pdf.aspx
-	fixed_revenue: 1673				# 10x: "Cents per kilometre driving method - Casual Grade 5 - $0.5003 per km, and an extra $167.30 per shift"
-	revenue_coef_per_km: 0.5#0.05			# 10x
-	cargo_market_revenue_coef_per_km: 0.55#0.055	# Revenue coefficient per km used during cargo market jobs.
-#########################################################
+# values x10
+################################################################# https://www.fairwork.gov.au/ArticleDocuments/872/road-transport-long-distance-operations-award-ma000039-pay-guide.pdf.aspx
+	fixed_revenue: 1673					# Cents per kilometre driving method - Casual Grade 5 - $0.5003 per km, and an extra $167.30 per shift
+	revenue_coef_per_km: 0.5				# Calculated as 1/10
+	cargo_market_revenue_coef_per_km: 0.75			# Revenue coefficient per km used during cargo market jobs. // Changed to 0.75 (1.5x to normal cargo) to motivate owned trailers
+#################################################################
 
 	max_eco_consumption_drop[0]: (0.1, 0.1)	# consumption decreased by 40% (or 60% if driving with trailer) 
 							#  for ecodriving skill maximum
@@ -141,7 +141,7 @@ economy_data : economy.data.storage
 #  Experience points
 	free_roam_report_limit: 100
 
-#######	x100
+#######	x10
 	exp_cargo_delivery: 	10#1.0		# per km of real world
 	exp_free_roam: 		7.5#0.75	# per km of real world
 	exp_road_discovery:	12.5#1.25	# per km of real world
