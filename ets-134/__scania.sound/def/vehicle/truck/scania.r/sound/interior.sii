@@ -123,6 +123,7 @@ accessory_sound_data : v8.scania.int.isound
 
 	wipers_down: .wipers_down
 
+	change_gear: .changeg
 
 
 @include "/def/vehicle/truck/common_sound_int.sui"
@@ -890,16 +891,13 @@ sound_data: .t
 }
 
 
-
 sound_data: .airgear0
 
 {
 
-	name: "/sound/truck/scania_2016/v8/int/int_scania_shifting-1.ogg"
+	name: "/sound/truck/scania_2016/v8/int/gear_air_1.ogg"
 
-	is_2d: true
-
-	volume: 1.0
+	volume: 0.80
 
 }
 
@@ -909,11 +907,9 @@ sound_data: .airgear1
 
 {
 
-	name: "/sound/truck/scania_2016/v8/int/int_scania_shifting-2.ogg"
+	name: "/sound/truck/scania_2016/v8/int/gear_air_2.ogg"
 
-	is_2d: true
-
-	volume: 1.0
+	volume: 0.60
 }
 
 
@@ -921,11 +917,9 @@ sound_data: .airgear2
 
 {
 
-	name: "/sound/truck/scania_2016/v8/int/int_scania_shifting-3.ogg"
+	name: "/sound/truck/scania_2016/v8/int/gear_air_3.ogg"
 
-	is_2d: true
-
-	volume: 1.0
+	volume: 0.60
 }
 
 
@@ -934,11 +928,9 @@ sound_data: .airgear3
 
 {
 
-	name: "/sound/truck/scania_2016/v8/int/int_scania_shifting-4.ogg"
+	name: "/sound/truck/scania_2016/v8/int/gear_air_4.ogg"
 
-	is_2d: true
-
-	volume: 1.0
+	volume: 0.60
 }
 
 
@@ -1086,6 +1078,14 @@ sound_data: .wipers_down
 }
 
 
+
+sound_data: .changeg
+
+{
+	name: "/sound/truck/scania_2016/v8/int/gear_change.ogg"
+	looped: false
+	volume: 0.85
+}
 
 @include "/def/vehicle/truck/common_sound_int_data.sui"
 

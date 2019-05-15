@@ -73,51 +73,10 @@ sound_noise_data: .was0
   is_2d: true	looped: true
 
   	min_speed: 0.0
-	max_speed: 60.0
-	volume: 0.80
+	max_speed: 200.0
+	pitch_reference: 60.0
+	volume: 0.60
 }
-
-sound_noise_data: .was1
-{
-	name: "/sound/truck/noises/tires/asphalt_ext_02.ogg"
-  is_2d: true	looped: true
-
-   	min_speed: 20.0
-	max_speed: 80.0
-	volume: 0.80
-}
-
-sound_noise_data: .was2
-{
-	name: "/sound/truck/noises/tires/asphalt_ext_03.ogg"
-  is_2d: true	looped: true
-
-   	min_speed: 30.0
-	max_speed: 60.0
-	volume: 0.80
-}
-
-sound_noise_data: .was3
-{
-	name: "/sound/truck/noises/tires/asphalt_ext_04.ogg"
-  is_2d: true	looped: true
-
-   	min_speed: 50.0
-	max_speed: 80.0
-	volume: 0.80
-}
-
-
-sound_noise_data: .was4
-{
-	name: "/sound/truck/noises/tires/asphalt_ext_05.ogg"
-  is_2d: true	looped: true
-
-   	min_speed: 70.0
-	max_speed: 100.0
-	volume: 0.80
-}
-
 
 sound_noise_data: .wru
 {
