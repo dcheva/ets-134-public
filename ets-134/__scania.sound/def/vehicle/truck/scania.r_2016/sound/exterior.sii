@@ -2,7 +2,7 @@ SiiNunit
 
 {
 
-accessory_sound_data : v8.scania.ext.esound
+accessory_sound_data : all.scania.ext.esound
 
 
 {
