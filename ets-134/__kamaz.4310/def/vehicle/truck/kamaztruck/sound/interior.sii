@@ -236,7 +236,7 @@ sound_data: .reverse
 sound_data: .changeg
 {
 	name: "/sound/truck/kamaz6460/int/gear_change.ogg"
-	volume: 1.85
+	volume: 1.0
 }
 
 sound_data: .blinker_on

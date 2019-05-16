@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_engine_data : 700hp.kamaztruck.engine
+{
+	name: "Liebherr/KamAZ 2014 700HP"
+	price: 18000
+	unlock: 0
+	info[]: "700 @@hp@@ (520@@kw@@)"
+	info[]: "4@@dg@@373 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@500 @@rpm@@"
+	icon: "daf_logo"
+	torque: 4375
+	volume:	12.12
+}
+}

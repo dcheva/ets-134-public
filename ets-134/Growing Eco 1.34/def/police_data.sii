@@ -25,7 +25,7 @@ police_data : police.data
 	offence_check_delay[0]: 0 	# car crash
 	offence_check_delay[1]: 300 	# avoid sleeping
 	offence_check_delay[2]: 15 	# wrong way
-	offence_check_delay[3]: 1 	# speeding (camera) # 0
+	offence_check_delay[3]: 3 	# speeding (camera) # 0
 	offence_check_delay[4]: 70	# no lights during night
 	offence_check_delay[5]: 3 	# red lights # 0
 	offence_check_delay[6]: 60 	# speeding
@@ -36,10 +36,10 @@ police_data : police.data
 	offence_police_check_delay[0]: 0 	# car crash
 	offence_police_check_delay[1]: 300 	# avoid sleeping
 	offence_police_check_delay[2]: 5 	# wrong way
-	offence_police_check_delay[3]: 1 	# speeding (camera)
+	offence_police_check_delay[3]: 3 	# speeding (camera)
 	offence_police_check_delay[4]: 7	# no lights during night
-	offence_police_check_delay[5]: 1 	# red lights
-	offence_police_check_delay[6]: 1 	# speeding
+	offence_police_check_delay[5]: 3 	# red lights
+	offence_police_check_delay[6]: 3 	# speeding
 	offence_police_check_delay[7]: 0 	# avoid weighing
 
 	offence_probabilty[0]: 0.7 	# car crash

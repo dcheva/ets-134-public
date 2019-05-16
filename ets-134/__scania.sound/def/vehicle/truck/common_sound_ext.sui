@@ -14,7 +14,10 @@
 
 # sound of tires - asphalt - rumblestripes - gravel - grass 
 	wheel_asphalt[]: .was0
-	wheel_rumble[]: .wru
+
+	wheel_rumble[]: .wru0
+	wheel_rumble[]: .wru1
+
 	wheel_gravel[]: .wgrv0
 	wheel_gravel[]: .wgrv1
 	wheel_gravel[]: .wgrv2

@@ -16,7 +16,7 @@
 sound_data: .lift
 {
 	name: "/sound/truck/noises/lift_axle.ogg"
- is_2d: true
+	is_2d: true
 	looped: true
 	volume: 1.0
 }
@@ -27,7 +27,8 @@ sound_noise_data: .anoise
 {
 	name: "/sound/truck/noises/road_wind_ext.ogg"
 
-  is_2d: true	looped: true
+	is_2d: true
+	looped: true
 	min_speed: 30.0
 	max_speed: 90.0
 	volume: 0.8
@@ -70,28 +71,39 @@ sound_data: .aircut2
 sound_noise_data: .was0
 {
 	name: "/sound/truck/noises/tires/asphalt_ext_01.ogg"
-  is_2d: true	looped: true
-
+	is_2d: true
+	looped: true
   	min_speed: 0.0
 	max_speed: 200.0
 	pitch_reference: 60.0
-	volume: 0.60
+	volume: 0.35
 }
 
-sound_noise_data: .wru
+sound_noise_data: .wru0
 {
 	name: "/sound/truck/noises/rumblestripe.ogg"
 	looped: true
 	min_speed: 20.0
-	max_speed: 200.0
-	pitch_reference: 70.0
-	volume: 1.2
+	max_speed: 80.0
+	pitch_reference: 40.0
+	volume: 0.8
+}
+
+sound_noise_data: .wru1
+{
+	name: "/sound/truck/noises/rumblestripe.ogg"
+	looped: true
+	min_speed: 40.0
+	max_speed: 160.0
+	pitch_reference: 80.0
+	volume: 1.0
 }
 
 
 sound_noise_data: .wgrv0
 {
 	name: "/sound/truck/noises/tires/gravel2_ext_01.ogg"
+	is_2d: true
 	looped: true
 	min_speed: 5.0
 	max_speed: 40.0
@@ -102,6 +114,7 @@ sound_noise_data: .wgrv0
 sound_noise_data: .wgrv1
 {
 	name: "/sound/truck/noises/tires/gravel2_ext_02.ogg"
+	is_2d: true
 	looped: true
 	min_speed: 23.0
 	max_speed: 65.0
@@ -112,6 +125,7 @@ sound_noise_data: .wgrv1
 sound_noise_data: .wgrv2
 {
 	name: "/sound/truck/noises/tires/gravel2_ext_03.ogg"
+	is_2d: true
 	looped: true
 	min_speed: 45.0
 	max_speed: 110.0
@@ -121,6 +135,7 @@ sound_noise_data: .wgrv2
 sound_noise_data: .wgrv3
 {
 	name: "/sound/truck/noises/tires/gravel2_ext_04.ogg"
+	is_2d: true
 	looped: true
 	min_speed: 90.0
 	max_speed: 200.0
@@ -131,6 +146,7 @@ sound_noise_data: .wgrv3
 sound_noise_data: .wgrs0
 {
 	name: "/sound/truck/noises/tires/grass1_ext_1.ogg"
+	is_2d: true
 	looped: true
 	min_speed: 5.0
 	max_speed: 45.0
@@ -142,6 +158,7 @@ sound_noise_data: .wgrs0
 sound_noise_data: .wgrs1
 {
 	name: "/sound/truck/noises/tires/grass1_ext_2.ogg"
+	is_2d: true
 	looped: true
 	min_speed: 30.0
 	max_speed: 90.0
@@ -152,6 +169,7 @@ sound_noise_data: .wgrs1
 sound_noise_data: .wgrs2
 {
 	name: "/sound/truck/noises/tires/grass1_ext_3.ogg"
+	is_2d: true
 	looped: true
 	min_speed: 65.0
 	max_speed: 200.0

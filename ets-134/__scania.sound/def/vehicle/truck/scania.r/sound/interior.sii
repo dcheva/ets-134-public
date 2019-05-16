@@ -995,7 +995,7 @@ sound_data: .horn
 
 	looped: true
 
-	volume: 1.4
+	volume: 1.0
 }
 
 
@@ -1006,7 +1006,7 @@ sound_data: .ahorn
 
 	looped: true
 
-	volume: 1.25
+	volume: 1.0
 }
 
 sound_data: .reverse

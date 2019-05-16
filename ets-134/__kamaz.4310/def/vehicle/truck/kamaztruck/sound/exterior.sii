@@ -230,7 +230,7 @@ sound_data: .reverse
 sound_data: .changeg
 {
 	name: "/sound/truck/kamaz6460/ext/gear_change.ogg"
-	volume: 1.85
+	volume: 1.0
 }
 
 @include "/def/vehicle/truck/common_sound_ext_data.sui"

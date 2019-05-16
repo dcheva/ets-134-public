@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_engine_data : 74073400.kamaztruck.engine
+{
+	name: "KamAZ 740.73 400HP"
+	price: 6900
+	unlock: 0
+	info[]: "400 @@hp@@ (294@@kw@@)"
+	info[]: "1@@dg@@900 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@400 @@rpm@@"
+	icon: "daf_logo"
+	torque: 1900
+	volume:	11.12
+
+
+}
+}

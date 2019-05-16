@@ -1,0 +1,79 @@
+SiiNunit
+{
+xp_level_data : economy.data.xp_levels
+{
+#
+#	Level names  "level_limit|level name"
+#
+	level_names[]: "0|@@lvl_name0@@|0xFFe0e0e0"
+	level_names[]: "5|@@lvl_name1@@|0xFF45c294"
+	level_names[]: "10|@@lvl_name2@@|0xFF75baea"
+	level_names[]: "15|@@lvl_name3@@|0xFF3a88f4"
+	level_names[]: "20|@@lvl_name4@@|0xFF5847f0"
+	level_names[]: "25|@@lvl_name5@@|0xFFda9356"
+	level_names[]: "30|@@lvl_name6@@|0xFFf58493"
+	level_names[]: "40|@@lvl_name7@@|0xFFc99ef2"
+	level_names[]: "50|@@lvl_name8@@|0xFFc2f9ff"
+	level_names[]: "75|@@lvl_name8@@|0xFFc2f9ff"
+	level_names[]: "100|@@lvl_name9@@|0xFFf1dea5"
+	level_names[]: "125|@@lvl_name9@@|0xFFf1dea5"
+
+	level_last: 150
+
+#
+#	experience points to the next level
+#
+	
+	level_xp[1]:	200
+	level_xp[2]:	400
+	level_xp[3]:	600
+	level_xp[4]:	800
+	level_xp[5]:	1000
+	level_xp[6]:	1200
+	level_xp[7]:	1400
+	level_xp[8]:	1640
+	level_xp[9]:	1920
+	level_xp[10]:	2248
+	level_xp[11]:	2632
+	level_xp[12]:	3082
+	level_xp[13]:	3608
+	level_xp[14]:	4224
+	level_xp[15]:	4946
+	level_xp[16]:	5791
+	level_xp[17]:	6780
+	level_xp[18]:	7938
+	level_xp[19]:	9294
+	level_xp[20]:	10882
+	level_xp[21]:	12741
+	level_xp[22]:	14917
+	level_xp[23]:	17465
+	level_xp[24]:	20448
+	level_xp[25]:	23941
+	level_xp[26]:	28031
+	level_xp[27]:	32819
+	level_xp[28]:	38426
+	level_xp[29]:	44989
+	level_xp[30]:	52675
+	level_xp[31]:	61672
+	level_xp[32]:	72207
+	level_xp[33]:	84542
+	level_xp[34]:	98983
+	level_xp[35]:	115892
+	level_xp[36]:	135688
+	level_xp[37]:	158867
+	level_xp[38]:	186005
+	level_xp[39]:	217778
+	level_xp[40]:	254979
+	level_xp[41]:	298534
+	level_xp[42]:	349530
+	level_xp[43]:	409237
+	level_xp[44]:	479143
+	level_xp[45]:	560990
+	level_xp[46]:	656819
+	level_xp[47]:	769017
+	level_xp[48]:	900381
+	level_xp[49]:	1054184
+
+	driver_xp_scale: 2.0
+}
+}
