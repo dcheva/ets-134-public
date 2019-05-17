@@ -829,7 +829,7 @@ sound_data: .airgear4
 
 	name: "/sound/truck/scania_2016/v8/ext/ext_scania_shifting-5.ogg"
 
-	volume: 0.80
+	volume: 0.60
 }
 
 

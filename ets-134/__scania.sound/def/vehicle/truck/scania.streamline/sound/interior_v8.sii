@@ -942,7 +942,7 @@ sound_data: .airgear4
 
 	is_2d: true
 
-	volume: 1.0
+	volume: 0.6
 }
 
 

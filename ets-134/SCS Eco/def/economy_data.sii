@@ -1,0 +1,274 @@
+﻿SiiNunit
+{
+economy_data : economy.data.storage
+{
+	truck_refund: 		0.35	# 35% of original price
+
+	# Base revenue per km in game native currency.
+	revenue_per_km_base: 15
+
+	price_small_garage: 180000
+	price_garage_upgrade: 100000
+
+	garage_prod_plan_tiny: 20000
+	garage_prod_plan_small: 150000
+	garage_prod_plan_large: 300000
+
+	fuel_discount_in_garage: 0.15	# 15%
+
+	truck_count_for_online:	5	# number of owned trucks to unlock buying online feature
+
+	abandoned_job_fine: 12000
+
+	cargo_damage_cost: 5.0 		# -5 Euro per 1% of damage
+	cargo_damage_cost_factor: 0.04 	# -4% total cost penalty per 1% of damage
+
+	late_delivery_max_overtime[0]: 2880	# 2 days for "easy" deliveries
+	late_delivery_max_overtime[1]: 720	# 12 hours for "normal" deliveries
+	late_delivery_max_overtime[2]: 240	# 4 hours for "urgent" deliveries
+
+	simulation_avg_speed: 62.0	# km/h
+
+	default_time_zone: 120		# +2 hours
+	default_time_zone_name: "CEST"
+
+	maximum_driving_time: 660	# how long the driver can drive (in minutes)
+	sleeping_time: 540		# length of sleep (in minutes)
+
+	delivery_window[0]: 400		# easy
+	delivery_window[1]: 250		# medium
+	delivery_window[2]: 90		# hard
+
+	delivery_window_coef[0]: 1.0	# easy 
+	delivery_window_coef[1]: 1.15	# medium  revenue coef
+	delivery_window_coef[2]: 1.4	# hard
+
+	hurry_up_timer: 114		# how long the hurry up music will play (in game minutes)
+
+	no_cargo_prob:	0.1		# 10% prob. of empty cargo slot
+	cargo_validity_min: 180		# 3 hours
+	cargo_validity_max: 1800	# 30 hours
+
+#
+# AI driver related configuration
+#
+	fuel_cost_per_km: (1.5, 2.0)		# for driver simulation
+	driver_max_cargo_damage: 6.0		# in %, decrease with skill
+	driver_maintenance_cost: (1.8, 3.0) 	# maintenance + insurance, base range in E/km
+	minimal_driver_salary:	350		# fixed part of driver's pay
+	driver_revenue_coef_per_km: 0.67		# Revenue coefficient used during quick job and drivers jobs.
+	driver_cargo_market_revenue_coef_per_km: 0.70 # Revenue coefficient used during cargo market jobs for drivers.
+
+	driver_hire_cost: 1500		# Euro
+
+	free_driver_level_cap: 30	# don't grow offered drivers higher than this level
+	driver_offer_scrap_prob: 0.5
+
+	driver_quitwarn_time: 3		# days
+	driver_quit_time: 5		# days
+	driver_no_return_job_prob: 0.1	# 10% of no return job, decrease with skill
+
+	driver_skilled_job_prob: 0.8
+
+##
+## Skill job filtering
+##  Job distance limit (in km of real world)
+##
+	skill_distance[0]:	250
+	skill_distance[1]:	350
+	skill_distance[2]:	550
+	skill_distance[3]:	850
+	skill_distance[4]:	1100
+	skill_distance[5]:	1500
+
+	fixed_revenue: 600
+	revenue_coef_per_km: 0.9 # Revenue coefficient per km used during freight market jobs.
+	cargo_market_revenue_coef_per_km: 1.0 # Revenue coefficient per km used during cargo market jobs.
+
+	max_eco_consumption_drop[0]: (0.1, 0.1)	# consumption decreased by 40% (or 60% if driving with trailer) 
+							#  for ecodriving skill maximum
+	max_eco_consumption_drop[1]: (0.15, 0.15)	
+	max_eco_consumption_drop[2]: (0.2, 0.2)	
+	max_eco_consumption_drop[3]: (0.25, 0.25)	
+	max_eco_consumption_drop[4]: (0.3, 0.3)	
+	max_eco_consumption_drop[5]: (0.35, 0.35)	# Maximum consumption drop is 0.99.
+
+	reward_bonus_long_dist[0]: 0.05
+	reward_bonus_long_dist[1]: 0.05
+	reward_bonus_long_dist[2]: 0.05
+	reward_bonus_long_dist[3]: 0.05
+	reward_bonus_long_dist[4]: 0.05
+	reward_bonus_long_dist[5]: 0.05
+
+	reward_bonus_valuable[0]: 0.05
+	reward_bonus_valuable[1]: 0.05
+	reward_bonus_valuable[2]: 0.05
+	reward_bonus_valuable[3]: 0.05
+	reward_bonus_valuable[4]: 0.05
+	reward_bonus_valuable[5]: 0.05
+
+	reward_bonus_fragile[0]: 0.05
+	reward_bonus_fragile[1]: 0.05
+	reward_bonus_fragile[2]: 0.05
+	reward_bonus_fragile[3]: 0.05
+	reward_bonus_fragile[4]: 0.05
+	reward_bonus_fragile[5]: 0.05
+
+	reward_bonus_urgent[0]: 0.05
+	reward_bonus_urgent[1]: 0.05
+	reward_bonus_urgent[2]: 0.05
+	reward_bonus_urgent[3]: 0.05
+	reward_bonus_urgent[4]: 0.05
+	reward_bonus_urgent[5]: 0.05
+
+	reward_bonus_level: 0.015
+
+
+###############################################################################
+####  Experience points PUSHING UP!!! #########################################
+###############################################################################
+	free_roam_report_limit: 10
+	exp_free_roam: 100
+###############################################################################
+###############################################################################
+###############################################################################
+
+
+	exp_cargo_delivery: 1.0		# per km of real world
+	exp_road_discovery:	0.8		# per km of real world
+
+//	exp_late_delivery: 	0.4		# -40% 	
+	exp_perfect_delivery: 	0.24		# +24% 	
+	exp_adr_bonus:		0.21		# +21%	of total cargo delivery exp. points
+	exp_important_bonus:	0.2		# +20%
+	exp_urgent_bonus:	0.3		# +30%
+	exp_fragile_bonus:	0.22		# +22%
+	exp_long_dist_bonus:	0.25		# +25%
+	exp_valuable_bonus:	0.18		# +18%
+
+	exp_park_bonus: 15			# bonus for not using the autopark feature on EASY parking spot
+	exp_park_bonus_medium: 40		# bonus for not using the autopark feature on MEDIUM parking spot
+	exp_park_bonus_hard: 90			# bonus for not using the autopark feature on HARD parking spot
+
+	exp_park_double_bonus: 20		# bonus for not using the autopark feature on EASY parking spot with double
+	exp_park_double_bonus_medium: 60	# bonus for not using the autopark feature on MEDIUM parking spot with double
+	exp_park_double_bonus_hard: 170		# bonus for not using the autopark feature on HARD parking spot with double
+
+	exp_park_load_bonus: 15		# exp bonus for manually parking trailer during loading phase of the job
+
+	exp_damaged_cargo:	5		# -5 XP per 1% of cargo damage
+	exp_damaged_cargo_factor: 0.04		# -4% of total XP per 1% of cargo damage
+
+
+	adr_info_icon[]:	"1|/material/ui/icon/adr_1.mat"
+
+	adr_info_icon[]:	"2|/material/ui/icon/adr_21.mat"
+	adr_info_icon[]:	"2|/material/ui/icon/adr_22.mat"
+	adr_info_icon[]:	"2|/material/ui/icon/adr_23.mat"
+
+	adr_info_icon[]:	"3|/material/ui/icon/adr_3.mat"
+
+	adr_info_icon[]:	"4|/material/ui/icon/adr_41.mat"
+	adr_info_icon[]:	"4|/material/ui/icon/adr_42.mat"
+	adr_info_icon[]:	"4|/material/ui/icon/adr_43.mat"
+
+	adr_info_icon[]:	"6|/material/ui/icon/adr_61.mat"
+	adr_info_icon[]:	"6|/material/ui/icon/adr_62.mat"
+
+	adr_info_icon[]:	"8|/material/ui/icon/adr_8.mat"
+
+#
+#	Delivery reward levels
+#
+	reward_medal[]:		"delivery2"
+	reward_medal[]:		"delivery1"
+	reward_medal[]:		"delivery4"
+	reward_medal[]:		"delivery3"
+	reward_medal[]:		"delivery5"
+	reward_medal[]:		"delivery0"
+	reward_medal[]:		"delivery0"
+
+	reward_title[]:		"@@excelent_t@@"
+	reward_title[]:		"@@good_work_t@@"
+	reward_title[]:		"@@jobresult_sat_t@@"
+	reward_title[]:		"@@jobresult_reas_t@@"
+	reward_title[]:		"@@jobresult_tol_t@@"
+	reward_title[]:		"@@jobresult_dam_t@@"
+	reward_title[]:		"@@jobresult_reck_t@@"
+
+	reward_damage_level[]:	0.5
+	reward_damage_level[]:	2.0
+	reward_damage_level[]:	5.0
+	reward_damage_level[]:	10.0
+	reward_damage_level[]:	20.0
+	reward_damage_level[]:	40.0
+	reward_damage_level[]:	100.0
+
+
+#
+#	currency display options
+#	default has to be first
+#	currency format: [sign1] - [sign2] 1.234,- [sign3]
+#
+
+	currency_code[]: "EUR"
+	currency_ratio[]: 1
+	currency_sign1[]: ""
+	currency_sign2[]: "€"
+	currency_sign3[]: ""
+
+	currency_code[]: "CHF"
+	currency_ratio[]: 1.142
+	currency_sign1[]: ""
+	currency_sign2[]: ""
+	currency_sign3[]: " CHF"
+
+	currency_code[]: "CZK"
+	currency_ratio[]: 25.88
+	currency_sign1[]: ""
+	currency_sign2[]: ""
+	currency_sign3[]: " Kč"
+
+	currency_code[]: "GBP"
+	currency_ratio[]: 0.875
+	currency_sign1[]: ""
+	currency_sign2[]: "£"
+	currency_sign3[]: ""
+
+	currency_code[]: "PLN"
+	currency_ratio[]: 4.317
+	currency_sign1[]: ""
+	currency_sign2[]: ""
+	currency_sign3[]: " zł"
+
+	currency_code[]: "HUF"
+	currency_ratio[]: 325.3
+	currency_sign1[]: ""
+	currency_sign2[]: ""
+	currency_sign3[]: " Ft"
+
+	currency_code[]: "DKK"
+	currency_ratio[]: 7.46
+	currency_sign1[]: ""
+	currency_sign2[]: ""
+	currency_sign3[]: " kr"
+
+	currency_code[]: "SEK"
+	currency_ratio[]: 10.52
+	currency_sign1[]: ""
+	currency_sign2[]: ""
+	currency_sign3[]: " kr"
+
+	currency_code[]: "NOK"
+	currency_ratio[]: 9.51
+	currency_sign1[]: ""
+	currency_sign2[]: ""
+	currency_sign3[]: " kr"
+
+	currency_code[]: "RUB"
+	currency_ratio[]: 77.05
+	currency_sign1[]: ""
+	currency_sign2[]: "₽"
+	currency_sign3[]: ""
+}
+}
