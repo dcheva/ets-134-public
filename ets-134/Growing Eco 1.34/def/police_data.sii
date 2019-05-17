@@ -16,7 +16,7 @@ police_data : police.data
 	fine_amounts[2]: 322 		# wrong way
 	fine_amounts[3]: 322 		# speeding (camera)
 	fine_amounts[4]: 242		# no lights during night
-	fine_amounts[5]: 403 		# red lights
+	fine_amounts[5]: 201 		# red lights // 403 but too expensive
 	fine_amounts[6]: 161 		# speeding
 
 	#
@@ -48,7 +48,7 @@ police_data : police.data
 	offence_probabilty[3]: 1.0 	# speeding (camera)
 	offence_probabilty[4]: 0.3	# no lights during night
 	offence_probabilty[5]: 0.7 	# red lights
-	offence_probabilty[6]: 0.0 	# speeding
+	offence_probabilty[6]: 0.1 	# speeding
 
 	offence_police_probabilty[0]: 1.0 	# car crash
 	offence_police_probabilty[1]: 0.5 	# avoid sleeping
