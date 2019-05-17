@@ -98,6 +98,8 @@ economy_data : economy.data.storage
 
 ###>1x>
 ################################################################# https://www.fairwork.gov.au/ArticleDocuments/872/road-transport-long-distance-operations-award-ma000039-pay-guide.pdf.aspx
+################################################################# European prices: https://della.eu/price/local/ (current mediana $0.85)
+################################################################# With this settings: Company cargo ~.~ all skills 1, up to ~.~ all skills 5, Market cargo: x3
 ###>player
 	fixed_revenue: 167					# Cents per kilometre driving method - Casual Grade 5 - $0.5003 per km, and an extra $167.30 per shift
 	revenue_coef_per_km: 0.025				# In-game calculated as 1/19 // 0.9

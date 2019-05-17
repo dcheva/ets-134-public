@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.1ed.1a60.7370 {
+input_config : _nameless.1ed.b84b.4820 {
  version: 6
  config_lines: 341
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -203,7 +203,7 @@ input_config : _nameless.1ed.1a60.7370 {
  config_lines[197]: "mix msteering `-mouse.rel_position.x?0 * c_msens`"
  config_lines[198]: "mix mpedals `-mouse.rel_position.y?0 * c_msens`"
  config_lines[199]: "mix dforward `keyboard.a?0`"
- config_lines[200]: "mix dbackward `keyboard.z?0`"
+ config_lines[200]: "mix dbackward `keyboard.z?0 | mouse.button_left?0`"
  config_lines[201]: "mix aforward `normalize(sel(c_jzthrottle, sel(c_jithrottle, -j_throttle?0, j_throttle?0), sel(c_jithrottle, j_throttle?1 * -0.5 + 0.5, j_throttle?-1 * 0.5 + 0.5)), c_throt_dz)`"
  config_lines[202]: "mix abackward `normalize(sel(c_jzbrake, sel(c_jibrake, -j_brake?0, j_brake?0), sel(c_jibrake, j_brake?1 * -0.5 + 0.5, j_brake?-1 * 0.5 + 0.5)), c_brake_dz)`"
  config_lines[203]: "mix forward `dforward + aforward`"
@@ -232,7 +232,7 @@ input_config : _nameless.1ed.1a60.7370 {
  config_lines[226]: "mix wippers `keyboard.p?0`"
  config_lines[227]: "mix cruiectrl `keyboard.c?0`"
  config_lines[228]: "mix cruiectrlinc `keyboard.numplus?0 | mouse.wheel_up?0`"
- config_lines[229]: "mix cruiectrldec `keyboard.numminus?0`"
+ config_lines[229]: "mix cruiectrldec `keyboard.numminus?0 | mouse.wheel_down?0`"
  config_lines[230]: "mix cruiectrlres `keyboard.nummultiply?0`"
  config_lines[231]: "mix light `keyboard.l?0`"
  config_lines[232]: "mix hblight `keyboard.k?0`"
