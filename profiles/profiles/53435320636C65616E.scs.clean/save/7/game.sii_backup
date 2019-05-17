@@ -1031,7 +1031,7 @@ economy : _nameless.1ed.21ce.13f0 {
  new_game: false
  total_distance: 1044
  experience_points: 2300
- adr: 0
+ adr: 4
  long_dist: 1
  heavy: 1
  fragile: 1
@@ -2073,7 +2073,7 @@ economy : _nameless.1ed.21ce.13f0 {
 }
 
 bank : _nameless.1ed.2222.0c80 {
- money_account: 100000
+ money_account: 966
  coinsurance_fixed: 1000
  coinsurance_ratio: &3dcccccd
  accident_severity: &3d6ed243
@@ -2188,7 +2188,7 @@ trailer : _nameless.1ed.19c2.bb10 {
  trailer_definition: trailer_def.scs.box.single_3.dryvan_m
  cargo_mass: &46a86dcd
  cargo_cog_offset: (0, 1, 0)
- cargo_damage: 0
+ cargo_damage: &3b5b6ed8
  virtual_rear_wheels_offset: 0
  slave_trailer: null
  is_private: false
@@ -2208,28 +2208,28 @@ trailer : _nameless.1ed.19c2.bb10 {
 }
 
 vehicle_accessory : _nameless.1ed.1a5f.cf30 {
- wear: 0
+ wear: &3c355e09
  data_path: "/def/vehicle/trailer/scs_box/moving_floor/chassis.sii"
 }
 
 vehicle_wheel_accessory : _nameless.1ed.1ab1.1280 {
  offset: 0
  paint_color: (1, 1, 1)
- wear: 0
+ wear: &3c3e1018
  data_path: "/def/vehicle/t_wheel/single_385_55_alu.sii"
 }
 
 vehicle_wheel_accessory : _nameless.1ed.1ab0.fd90 {
  offset: 2
  paint_color: (1, 1, 1)
- wear: 0
+ wear: &3c3e1018
  data_path: "/def/vehicle/t_wheel/single_385_55_alu.sii"
 }
 
 vehicle_wheel_accessory : _nameless.1ed.1ab1.1870 {
  offset: 4
  paint_color: (1, 1, 1)
- wear: 0
+ wear: &3c3e1018
  data_path: "/def/vehicle/t_wheel/single_385_55_alu.sii"
 }
 
