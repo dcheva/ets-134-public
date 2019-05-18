@@ -98,12 +98,12 @@ economy_data : economy.data.storage
 ## Skill job filtering
 ##  Job distance limit (in km of real world)
 ##
-	skill_distance[0]:	200 // 250
+	skill_distance[0]:	300 // 250
 	skill_distance[1]:	500 // 350
-	skill_distance[2]:	700 // 1100
-	skill_distance[3]:	1200 // 850
-	skill_distance[4]:	1900 // 1100
-	skill_distance[5]:	3100 // 1500 // for big maps as ProMods, EAA or RusMap
+	skill_distance[2]:	800 // 1100
+	skill_distance[3]:	1300 // 850
+	skill_distance[4]:	2100 // 1100
+	skill_distance[5]:	3400 // 1500 // for big maps as ProMods, EAA or RusMap
 
 	max_eco_consumption_drop[0]: (0.3, 0.3)	# consumption decreased by 40% (or 60% if driving with trailer) // 0.1 0.1
 							#  for ecodriving skill maximum
@@ -114,12 +114,12 @@ economy_data : economy.data.storage
 	max_eco_consumption_drop[5]: (0.4, 0.4)	# Maximum consumption drop is 0.99.
 
 ### all values was 0.05 or %5% or total +30%
-	reward_bonus_long_dist[0]: 0.25
+	reward_bonus_long_dist[0]: 0.03
 	reward_bonus_long_dist[1]: 0.05
-	reward_bonus_long_dist[2]: 0.05
-	reward_bonus_long_dist[3]: 0.05
-	reward_bonus_long_dist[4]: 0.05
-	reward_bonus_long_dist[5]: 0.05 // total + 50% 
+	reward_bonus_long_dist[2]: 0.08
+	reward_bonus_long_dist[3]: 0.13
+	reward_bonus_long_dist[4]: 0.21
+	reward_bonus_long_dist[5]: 0.34 // total + 84% 
 
 	reward_bonus_valuable[0]: 0.21
 	reward_bonus_valuable[1]: 0.13
@@ -128,12 +128,12 @@ economy_data : economy.data.storage
 	reward_bonus_valuable[4]: 0.03
 	reward_bonus_valuable[5]: 0.02 // total + +53%
 
-	reward_bonus_fragile[0]: 0.09
-	reward_bonus_fragile[1]: 0.09
-	reward_bonus_fragile[2]: 0.09
-	reward_bonus_fragile[3]: 0.09
-	reward_bonus_fragile[4]: 0.09
-	reward_bonus_fragile[5]: 0.09 // total +54%
+	reward_bonus_fragile[0]: 0.10
+	reward_bonus_fragile[1]: 0.10
+	reward_bonus_fragile[2]: 0.10
+	reward_bonus_fragile[3]: 0.10
+	reward_bonus_fragile[4]: 0.10
+	reward_bonus_fragile[5]: 0.10 // total +60%
 
 	reward_bonus_urgent[0]: 0.02
 	reward_bonus_urgent[1]: 0.03
