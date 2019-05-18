@@ -75,7 +75,7 @@ sound_noise_data: .was0
 	looped: true
   	min_speed: 0.0
 	max_speed: 200.0
-	pitch_reference: 60.0
+	pitch_reference: 30.0
 	volume: 0.35
 }
 
@@ -85,7 +85,7 @@ sound_noise_data: .wru0
 	looped: true
 	min_speed: 20.0
 	max_speed: 80.0
-	pitch_reference: 40.0
+	pitch_reference: 60.0
 	volume: 0.8
 }
 
@@ -119,7 +119,7 @@ sound_noise_data: .wgrv1
 	min_speed: 23.0
 	max_speed: 65.0
 	pitch_reference: 45.0
-	volume: 0.9
+	volume: 0.7
 }
 
 sound_noise_data: .wgrv2
@@ -130,7 +130,7 @@ sound_noise_data: .wgrv2
 	min_speed: 45.0
 	max_speed: 110.0
 	pitch_reference: 83.0
-	volume: 1.0
+	volume: 0.7
 }
 sound_noise_data: .wgrv3
 {
@@ -140,7 +140,7 @@ sound_noise_data: .wgrv3
 	min_speed: 90.0
 	max_speed: 200.0
 	pitch_reference: 130.0
-	volume: 1.0
+	volume: 0.7
 }
 
 sound_noise_data: .wgrs0
@@ -151,7 +151,7 @@ sound_noise_data: .wgrs0
 	min_speed: 5.0
 	max_speed: 45.0
 	pitch_reference: 28.0
-	volume: 0.65
+	volume: 0.7
 }
 
 
@@ -163,7 +163,7 @@ sound_noise_data: .wgrs1
 	min_speed: 30.0
 	max_speed: 90.0
 	pitch_reference: 65.0
-	volume: 0.75
+	volume: 0.7
 }
 
 sound_noise_data: .wgrs2
@@ -174,7 +174,7 @@ sound_noise_data: .wgrs2
 	min_speed: 65.0
 	max_speed: 200.0
 	pitch_reference: 120.0
-	volume: 0.85
+	volume: 0.7
 }
 
 # Suspension noise.
