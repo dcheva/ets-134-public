@@ -1,0 +1,160 @@
+SiiNunit
+{
+accessory_sound_data : 6v92ext.f700.esound
+{
+	exterior_sound: true
+	
+	start: .start
+	stop: .stop
+	start_no_fuel: .startbad
+
+	engine[]: .e0
+	engine[]: .e1
+	
+	engine_load[]: .el0
+	engine_load[]: .el1
+	engine_load[]: .el2
+
+	engine_nofuel[]: .enf0
+	engine_nofuel[]: .enf1
+
+	turbo: .t
+
+	engine_brake[]: .eb
+
+@include "/def/vehicle/truck/common_sound_ext.sui"
+
+}
+
+sound_data: .start
+{
+	name: "/sound/truck/6v92/ext/engine_on.ogg"
+	looped: false
+}
+
+sound_data: .startbad
+{
+	name: "/sound/truck/6v92/ext/engine_on_bad.ogg"
+	looped: false
+}
+
+
+sound_data: .stop
+{
+	name: "/sound/truck/6v92/ext/engine_off.ogg"
+	looped: false
+}
+
+sound_engine_data: .e0
+{
+	name: "/sound/truck/6v92/ext/500rpm.ogg"
+
+	looped: true
+
+	pitch_reference: 600
+
+	min_rpm: 200.0
+	max_rpm: 850.0
+	volume: 0.50
+}
+
+sound_engine_data: .e1
+{
+	name: "/sound/truck/6v92/ext/1000rpm.ogg"
+
+	looped: true
+
+	pitch_reference: 1410
+
+	min_rpm: 620.0
+	max_rpm: 3000.0
+	volume: 0.60
+}
+
+
+sound_engine_data: .el0
+{
+	name: "/sound/truck/6v92/ext/1000rpm_exhaust.ogg"
+
+	looped: true
+
+	pitch_reference: 1410
+
+	min_rpm: 300.0
+	max_rpm: 1280.0
+	volume: 0.60
+}
+
+sound_engine_data: .el1
+{
+	name: "/sound/truck/6v92/ext/2000rpm_exhaust.ogg"
+
+	looped: true
+
+	pitch_reference: 1630
+
+	min_rpm: 1000.0
+	max_rpm: 1950.0
+	volume: 0.70
+}
+
+sound_engine_data: .el2
+{
+	name: "/sound/truck/6v92/ext/2200rpm_exhaust.ogg"
+
+	looped: true
+
+	pitch_reference: 1740
+
+	min_rpm: 1720.0
+	max_rpm: 3000.0
+	volume: 0.70
+}
+
+sound_engine_data: .enf0
+{
+	name: "/sound/truck/6v92/ext/lever_le_pied.ogg"
+
+	looped: true
+
+	min_rpm: 580.0
+	max_rpm: 3000.0
+	pitch_reference:  1630
+	volume: 0.55
+}
+
+sound_engine_data: .enf1
+{
+	name: 			
+     "/sound/truck/6v92/ext/1000rpm.ogg"
+
+	looped: true
+
+	min_rpm: 620.0
+	max_rpm: 3000.0
+	pitch_reference: 1410
+	volume: 0.53
+
+}
+
+sound_data: .t
+{
+	name: "/sound/truck/6v92/ext/turbo_ext.ogg"
+	looped: true
+
+	volume: 0.03
+}
+
+sound_engine_data: .eb
+{
+	name: "/sound/truck/6v92/ext/engine_brake_ext.ogg"
+	looped: true
+
+	pitch_reference: 1650
+	min_rpm: 750.0
+	max_rpm: 3000.0
+}
+
+@include "/def/vehicle/truck/common_sound_ext_data.sui"
+}
+
