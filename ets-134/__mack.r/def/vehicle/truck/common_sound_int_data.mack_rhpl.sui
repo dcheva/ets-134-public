@@ -50,23 +50,6 @@ sound_data: .wipers_down
 	volume: 0.27
 }
 
-sound_data: .airgear0
-{
-	name: "/sound/truck/mack_rhpl/int/int_gear_air_1.ogg"
-	volume: 0.25
-}
-
-sound_data: .airgear1
-{
-	name: "/sound/truck/mack_rhpl/int/int_gear_air_2.ogg"
-	volume: 0.25
-}
-
-sound_data: .airgear2
-{
-	name: "/sound/truck/mack_rhpl/int/int_gear_air_3.ogg"
-	volume: 0.25
-}
 
 sound_data: .airbrake0
 {

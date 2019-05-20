@@ -44,6 +44,8 @@ accessory_sound_data : e6int.mack.rhpl.isound
 	
 	engine_brake[]: .eb
 	
+@include "/def/vehicle/truck/common_sound_int.mack_rhpl.sui"
+
 }
 
 sound_data: .start
