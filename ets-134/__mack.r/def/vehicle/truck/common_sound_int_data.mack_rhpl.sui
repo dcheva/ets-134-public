@@ -26,28 +26,28 @@ sound_data: .blinker_on
 {
 	name: "/sound/truck/mack_rhpl/int/blinker_on.ogg"
 	is_2d: true
-	volume: 0.2
+	volume: 0.5
 }
 
 sound_data: .blinker_off
 {
 	name: "/sound/truck/mack_rhpl/int/blinker_off.ogg"
 	is_2d: true
-	volume: 0.2
+	volume: 0.5
 }
 
 sound_data: .wipers_up
 {
 	name: "/sound/truck/mack_rhpl/int/wiper_up.ogg"
 	is_2d: true
-	volume: 0.27
+	volume: 0.57
 }
 
 sound_data: .wipers_down
 {
 	name: "/sound/truck/mack_rhpl/int/wiper_down.ogg"
 	is_2d: true
-	volume: 0.27
+	volume: 0.57
 }
 
 
@@ -168,7 +168,7 @@ sound_noise_data: .was0
 	min_speed: 5.0
 	max_speed: 35.0
 	pitch_reference: 20.0
-	volume: 0.32
+	volume: 0.62
 }
 
 sound_noise_data: .was1
@@ -323,7 +323,7 @@ sound_data: .lights_s
 	name: "/sound/truck/noises/sticks/light_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.2
+	volume: 0.5
 }
 
 sound_data: .hbeam_s
@@ -331,7 +331,7 @@ sound_data: .hbeam_s
 	name: "/sound/truck/noises/sticks/common_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.2
+	volume: 0.5
 }
 
 sound_data: .lhorn_s
@@ -339,7 +339,7 @@ sound_data: .lhorn_s
 	name: "/sound/truck/noises/sticks/common_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.25	
+	volume: 0.55	
 }
 
 sound_data: .blinker_s
@@ -347,7 +347,7 @@ sound_data: .blinker_s
 	name: "/sound/truck/mack_rhpl/int/mack_r_blinker_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.15	
+	volume: 0.45	
 }
 
 sound_data: .blinker2_s
@@ -355,7 +355,7 @@ sound_data: .blinker2_s
 	name: "/sound/truck/mack_rhpl/int/mack_r_blinker_off_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.2	
+	volume: 0.5	
 }
 
 sound_data: .hwarn_s
@@ -363,7 +363,7 @@ sound_data: .hwarn_s
 	name: "/sound/truck/noises/sticks/warning_triangl_button.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.25	
+	volume: 0.55	
 }
 
 sound_data: .wiper_s
@@ -371,7 +371,7 @@ sound_data: .wiper_s
 	name: "/sound/truck/noises/sticks/common_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.15
+	volume: 0.45
 }
 
 sound_data: .retarder_s
@@ -379,7 +379,7 @@ sound_data: .retarder_s
 	name: "/sound/truck/noises/sticks/common_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.25
+	volume: 0.55
 }
 
 sound_data: .pbrake_s
@@ -395,7 +395,7 @@ sound_data: .pbrake2_s
 	name: "/sound/truck/noises/sticks/brake_off_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.35
+	volume: 0.65
 }
 
 #----------------------------------
