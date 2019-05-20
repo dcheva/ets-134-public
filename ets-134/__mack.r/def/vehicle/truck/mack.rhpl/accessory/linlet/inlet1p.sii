@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_addon_data : inlet1p.mack.rhpl.linlet
+{
+	name: "Inlet Painted"
+	price: 130
+	unlock: 0
+	icon: "mack.rhpl/inlet1_painted"
+	exterior_model: "/vehicle/truck/upgrade/filters/mack.rhpl/l_inlet.pmd"
+	interior_model: "/vehicle/truck/upgrade/filters/mack.rhpl/l_inlet.pmd"
+	variant: low_paint
+	look: default
+
+	suitable_for[]: cleaner1c.mack.rhpl.lfilter
+	suitable_for[]: cleaner1p.mack.rhpl.lfilter
+}
+}

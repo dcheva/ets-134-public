@@ -1,0 +1,47 @@
+glass_pane_data : .mackrhpl.pane.front
+{
+	locator: front_glass
+	size: (2.149, 0.7487)
+	edge_angle: 20
+	wipers[]: .mackrhpl.wiper1
+	wipers[]: .mackrhpl.wiper2
+	
+	drop_size_minimum: 0.01
+	drop_size_maximum: 0.018
+}
+
+wiper_data : .mackrhpl.wiper1
+{
+	center_bone: rwipe
+	length: 0.4382
+}
+
+wiper_data : .mackrhpl.wiper2
+{
+	center_bone: lwipe 
+	length: 0.4382
+}
+
+glass_pane_data : .mackrhpl.pane.close
+{
+	locator: close_glass
+	size: (0.712, 0.5037)
+	drop_size_minimum: 0.01
+	drop_size_maximum: 0.018
+}
+
+glass_pane_data : .mackrhpl.pane.far
+{
+	locator: far_glass
+	size: (0.712, 0.5037)
+	drop_size_minimum: 0.013
+	drop_size_maximum: 0.020
+}
+
+glass_pane_data : .mackrhpl.pane.back
+{
+	locator: back_glass
+	size: (1.164, 0.4858)
+	drop_size_minimum: 0.01
+	drop_size_maximum: 0.018
+}

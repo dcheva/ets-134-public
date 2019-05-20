@@ -1,0 +1,14 @@
+material : "eut2.dif.spec.add.env.nofresnel.tsnmap.a.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/grill/mack.rhpl/mask.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	texture[2] : "/vehicle/truck/upgrade/grill/mack.rhpl/mask_nm.tobj"
+	texture_name[2] : "texture_nmap"
+	add_ambient : 0
+	diffuse : { 0.073239 , 0.073239 , 0.073239 }
+	env_factor : { 1 , 1 , 1 }
+	reflection : 0
+	shininess : 120
+	specular : { 1.1 , 1.1 , 1.1 }
+}

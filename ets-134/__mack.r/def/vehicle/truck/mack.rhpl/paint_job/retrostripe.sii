@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_paint_job_data : retrostripe.mack.rhpl.paint_job
+{
+	name: "Retro Stripes Mack R"
+	price: 8300
+	unlock: 0
+	icon: "paintjob_mackr_retrostripe"
+	base_color_locked: true
+	base_color: ( 1, 1, 1 )
+
+	airbrush: true
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/mack.rhpl/retrostripe/cabin.tobj"
+}
+}

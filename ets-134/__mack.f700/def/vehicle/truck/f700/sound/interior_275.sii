@@ -36,7 +36,7 @@ accessory_sound_data : interior_275.f700.isound
 
 	air_brake[0]: .airbrake0
 	air_brake[1]: .airbrake1
-    air_brake[2]: .airbrake2
+    	air_brake[2]: .airbrake2
 
 	engine_brake[]: .eb0
 	engine_brake[]: .eb1

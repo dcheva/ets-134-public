@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_paint_job_data : color6.mack.rhpl.paint_job
+{
+	name: "Yellow"
+	price: 2600
+	unlock: 0
+	base_color: (&3f56bb8c, &3ec87c33, &3d58846a)
+	base_color_locked: true
+	stock: false
+}
+}

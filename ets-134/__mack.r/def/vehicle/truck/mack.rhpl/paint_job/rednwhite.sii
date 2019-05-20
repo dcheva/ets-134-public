@@ -1,0 +1,20 @@
+SiiNunit
+{
+accessory_paint_job_data : rednwhite.mack.rhpl.paint_job
+{
+	name: "Red Velvet"
+	price: 8100
+	unlock: 0
+	icon: "paintjob_mackr_rednwhite"
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/mack.rhpl/rednwhite/cabin.tobj"
+	base_color_locked: true
+	base_color: ( 0.50196078431373, 0, 0 )
+	airbrush: true
+	mask_r_locked: false
+	mask_r_color: ( 1, 1, 1 )
+	mask_g_locked: false
+	mask_g_color: ( 1, 1, 1 )
+	mask_b_locked: false
+	mask_b_color: ( 1, 1, 1 )
+}
+}

@@ -1,0 +1,19 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.red.lblinkerl
+{
+	dir_type: wide
+	light_type: left_blinker
+
+	diffuse_color: (0.35, 0.01, 0.01)
+	range: 3.0
+	inner_angle: 80.0
+	outer_angle: 100.0
+	type: spot
+	forward_distance: false
+
+	model: "/model/flare/uniform_red.pmd" 
+	default_scale: 0.63
+	scale_factor: 6
+}
+}

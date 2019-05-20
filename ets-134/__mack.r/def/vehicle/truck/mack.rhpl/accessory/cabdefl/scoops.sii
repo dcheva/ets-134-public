@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : scoops.mack.rhpl.cabdefl
+{
+	name: "Dual Scoops"
+	price: 60
+	unlock: 0
+	icon: "mack.rhpl/scoops"
+	exterior_model: "/vehicle/truck/upgrade/cabdefl/mack.rhpl/fairing.pmd"
+	variant: scoops
+	look: default
+}
+}

@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : set1.mack.rhpl.set_glass
+{
+	name: "In_Line"
+	price: 1
+	unlock: 0
+	icon: "mack.rhpl/glass_set"
+   
+	interior_model: "/vehicle/truck/upgrade/interior_set/mack.rhpl/glass_slots_int.pmd"
+}
+}

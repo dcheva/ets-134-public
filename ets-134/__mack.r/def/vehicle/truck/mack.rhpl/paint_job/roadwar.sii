@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_paint_job_data : roadwar.mack.rhpl.paint_job
+{
+	name: "Road Warrior"
+	price: 8100
+	unlock: 0
+	icon: "paintjob_mackr_roadwar"
+	base_color_locked: true
+	base_color: ( 0.1, 0.1, 0.1 )
+
+	airbrush: true
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/mack.rhpl/roadwar/cabin.tobj"
+}
+}

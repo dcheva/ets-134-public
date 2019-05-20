@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "pipe_straight_right.tobj"
+	texture_name : "texture"
+}

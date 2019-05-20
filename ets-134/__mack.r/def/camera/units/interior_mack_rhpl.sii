@@ -1,0 +1,204 @@
+vehicle_interior_camera: camera.interior.mack_rhpl
+{
+	
+	# basic def START
+  	mouse_right_limit: -140
+  	mouse_left_limit: 210
+  	mouse_up_limit: 73
+  	mouse_down_limit: -65
+  
+  	camera_fov: 77
+	stereo_convergence: 0.46
+  	
+    near_plane: 0.2 
+  	far_plane:  1600
+  	
+  	mouse_sensitivity: 0.3
+  	
+  	head_offset: (0, 0, 0)
+  	
+	# basic def END
+	
+  mouse_up_down_default: -7
+
+	shake_anim_step: 0.015
+	shake_anim_scale_min: 0.0008
+	shake_anim_scale_max: 0.01
+	shake_anim[]: (-0.0581639,-0.243802,0.375891)
+	shake_anim[]: (-0.9445,-1.27531,1.32335)
+	shake_anim[]: (-0.590479,-1.22611,1.0421)
+	shake_anim[]: (-0.998866,-0.291616,-0.50758)
+	shake_anim[]: (0,0,0)
+	shake_anim[]: (2.04924,1.5059,1.24094)
+	shake_anim[]: (2.17753,2.35703,1.18031)
+	shake_anim[]: (1.38745,2.92975,0.647993)
+	shake_anim[]: (0.342338,0.696978,-0.219261)
+	shake_anim[]: (0,0,0)
+	shake_anim[]: (0.217603,-1.99907,-0.170412)
+	shake_anim[]: (-0.391712,-2.20946,-0.665008)
+	shake_anim[]: (-0.184629,-1.66025,-0.310759)
+	shake_anim[]: (-0.00937454,-0.583986,0.0791465)
+	shake_anim[]: (0,0,0)
+	shake_anim[]: (0.134371,0.429192,0.0073652)
+	shake_anim[]: (0.119819,0.528947,0.577297)
+	shake_anim[]: (0.118208,0.174448,0.567321)
+	shake_anim[]: (-0.160733,0.170815,0.358096)
+	shake_anim[]: (0,0,0)
+	shake_anim[]: (0.147667,-0.0925476,-0.176833)
+	shake_anim[]: (0.118013,0.0182714,-0.0923972)
+	shake_anim[]: (0.00812901,0.0384921,-0.0889907)
+	shake_anim[]: (-0.0130762,-0.0010251,-0.0179988)
+	shake_anim[]: (0,0,0)
+	shake_anim[]: (0.00913631,-0.000334663,-0.0130952)
+	shake_anim[]: (0.00279858,-0.00609403,-0.000160845)
+	shake_anim[]: (0.000800094,-0.00396091,-0.000741665)
+	shake_anim[]: (-9.00386e-005,-0.000731371,0.000466767)
+	shake_anim[]: (0,0,0)
+
+        
+        azimuth_overrides[]: _nameless.ultra.ar.80
+        azimuth_overrides[]: _nameless.ultra.ar.90
+        azimuth_overrides[]: _nameless.ultra.ar.115
+        azimuth_overrides[]: _nameless.ultra.ar.130
+        
+        azimuth_overrides[]: _nameless.ultra.ar.r
+#        azimuth_overrides[]: _nameless.ultra.ar.r2
+}
+
+camera_azimuth_range: _nameless.ultra.ar.r
+{
+	start_azimuth: -30
+	end_azimuth: -140
+
+        outside: false
+
+	start_up_limit: 73
+	end_up_limit: 73
+
+        start_down_limit: -65
+        end_down_limit: -65
+
+	start_up_down_default: -9.5
+	end_up_down_default: -7
+
+        start_left_right_default: 0
+        end_left_right_default: 0
+
+        start_head_offset_offset: (0.0, 0.0, 0.0)
+        end_head_offset_offset: (0.0, 0.0, -0.15)
+}
+/*
+camera_azimuth_range: _nameless.ultra.ar.r2
+{
+	start_azimuth: -120
+	end_azimuth: -180
+
+        outside: false
+
+	start_up_limit: 73
+	end_up_limit: 73
+
+        start_down_limit: -65
+        end_down_limit: -65
+
+	start_up_down_default: -7
+	end_up_down_default: -7
+
+        start_left_right_default: 0
+        end_left_right_default: 0
+
+        start_head_offset_offset: (0.0, 0.0, -0.5)
+        end_head_offset_offset: (0.2, 0.0, -0.2)
+}
+*/
+camera_azimuth_range: _nameless.ultra.ar.80
+{
+	start_azimuth: 45
+	end_azimuth: 80
+	
+	outside: false
+
+	start_up_limit: 73
+	end_up_limit: 73
+
+	start_down_limit: -65
+	end_down_limit: -58
+
+	start_up_down_default: -9.5
+	end_up_down_default: -7
+
+	start_left_right_default: 0
+	end_left_right_default: 0
+
+	start_head_offset_offset: (0.0, 0.0, 0.0)
+	end_head_offset_offset: (0.0, 0.0, -0.1)
+}
+
+camera_azimuth_range: _nameless.ultra.ar.90
+{
+	start_azimuth: 80
+	end_azimuth: 115
+
+	outside: false
+
+	start_up_limit: 73
+	end_up_limit: 73
+
+	start_down_limit: -58
+	end_down_limit: -58
+
+	start_up_down_default: -7
+	end_up_down_default: -7
+
+	start_left_right_default: 0
+	end_left_right_default: 155
+
+	start_head_offset_offset: (0.0, 0.0, -0.1)
+	end_head_offset_offset: (-0.415, -0.1, -0.15)
+}
+
+camera_azimuth_range: _nameless.ultra.ar.115
+{
+	start_azimuth: 115
+	end_azimuth: 130
+
+	outside: true
+
+	start_up_limit: 73
+	end_up_limit: 73
+
+	start_down_limit: -58
+	end_down_limit: -70
+
+	start_up_down_default: -7
+	end_up_down_default: -7
+
+	start_left_right_default: 155
+	end_left_right_default: 155
+
+	start_head_offset_offset: (-0.415, -0.1, -0.15)
+	end_head_offset_offset: (-0.65, -0.1, -0.15)
+}
+
+camera_azimuth_range: _nameless.ultra.ar.130
+{
+	start_azimuth: 130
+	end_azimuth: 210
+                      	
+	outside: true
+
+	start_up_limit: 73
+	end_up_limit: 90
+
+	start_down_limit: -70
+	end_down_limit: -90
+        	
+	start_up_down_default: -7
+	end_up_down_default: -20
+
+	start_left_right_default: 155
+	end_left_right_default: 180
+
+	start_head_offset_offset: (-0.65, -0.1, -0.15)
+	end_head_offset_offset: (-0.75, -0.1, -0.15)
+}

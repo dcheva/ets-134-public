@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape2.mack.rhpl.steering_w
+{
+	name: "Mack Modern Gray"
+	price: 165
+	unlock: 0
+	icon: "mack.rhpl/steeringw_gray"
+	interior_model: "/vehicle/truck/upgrade/steering_w/mack.rhpl/stock_sw.pmd"
+	look: "gray"
+}
+}

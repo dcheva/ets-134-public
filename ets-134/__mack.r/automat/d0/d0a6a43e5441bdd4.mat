@@ -1,0 +1,14 @@
+material : "eut2.dif.spec.add.env.nofresnel.tsnmap.rfx" {
+	texture[0] : "/vehicle/truck/mack.rhpl/textures/mack_sw.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/interior_static/interior_static.tobj"
+	texture_name[1] : "texture_reflection"
+	texture[2] : "/vehicle/truck/mack.rhpl/textures/mack_sw_n.tobj"
+	texture_name[2] : "texture_nmap"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	env_factor : { 0.0331048 , 0.0331048 , 0.0331048 }
+	reflection : 0
+	shininess : 120
+	specular : { 1 , 1 , 1 }
+}

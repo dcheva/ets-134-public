@@ -1,0 +1,20 @@
+SiiNunit
+{
+accessory_paint_job_data : valueliner.mack.rhpl.paint_job
+{
+	name: "Value-Liner"
+	price: 9600
+	unlock: 0
+	icon: "paintjob_mackr_valueliner"
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/mack.rhpl/valueliner/cabin.tobj"
+
+	base_color_locked: false
+	base_color: (&3cadd37d, &3cadd37d, &3cadd37d)
+	mask_r_locked: false
+	mask_r_color: (&3ef56976, 0, 0)
+	mask_g_locked: false
+	mask_g_color: (&3f4a9284, &3e405419, 0)
+	mask_b_locked: false
+	mask_b_color: (&3f5099cd, &3f00bd2b, 0)
+}
+}

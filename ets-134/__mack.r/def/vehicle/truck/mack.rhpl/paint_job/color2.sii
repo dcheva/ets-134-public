@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_paint_job_data : color2.mack.rhpl.paint_job
+{
+	name: "Red"
+	price: 2600
+	unlock: 0
+	base_color: (&3e6869bf, &3c54b6c7, &3c54b6c7)
+	base_color_locked: true
+	stock: false
+}
+}

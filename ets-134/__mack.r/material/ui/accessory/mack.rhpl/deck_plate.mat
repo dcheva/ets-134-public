@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "deck_plate.tobj"
+	texture_name : "texture"
+}

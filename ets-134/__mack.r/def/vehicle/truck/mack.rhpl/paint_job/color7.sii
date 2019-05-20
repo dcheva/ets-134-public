@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_paint_job_data : color7.mack.rhpl.paint_job
+{
+	name: "@@custom_color@@"
+	price: 4500
+	unlock: 0
+	icon: "color_custom_icon"
+	base_color: (&3f1c4973, &3f15862d, &3f0a1b57)
+	base_color_locked: false
+	stock: false
+}
+}

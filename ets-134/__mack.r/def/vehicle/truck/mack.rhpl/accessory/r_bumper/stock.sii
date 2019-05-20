@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : stock.mack.rhpl.r_bumper
+{
+	name: "Stock Tail Lights"
+	price: 210
+	unlock: 0
+	icon: "mack.rhpl/rear_bumper_stock"
+	exterior_model: "/vehicle/truck/upgrade/bumper/mack.rhpl/rear_bumper.pmd"
+	variant: default
+	look: default
+}
+}

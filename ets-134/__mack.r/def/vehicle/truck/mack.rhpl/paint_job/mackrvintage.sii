@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_paint_job_data : mackrvintage.mack.rhpl.paint_job
+{
+	name: "Mack R Vintage Skin"
+	price: 9100
+	unlock: 0
+	icon: "paintjob_mackr_mackrvintage"
+	base_color_locked: true
+	base_color: ( 1, 1, 1 )
+
+	airbrush: true
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/mack.rhpl/mackrvintage/cabin.tobj"
+}
+}

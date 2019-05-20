@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "tanks_square_alu.tobj"
+	texture_name : "texture"
+}

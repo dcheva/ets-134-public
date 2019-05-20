@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_addon_data : cleaner2c.mack.rhpl.rfilter
+{
+	name: "Cleaner 2 Chrome"
+	price: 430
+	unlock: 0
+	icon: "mack.rhpl/cleaner2_chr"
+	exterior_model: "/vehicle/truck/upgrade/filters/mack.rhpl/r_filter.pmd"
+	interior_model: "/vehicle/truck/upgrade/filters/mack.rhpl/r_filter.pmd"
+	variant: hi_chrome
+	look: default
+	
+	defaults[]: "/def/vehicle/truck/mack.rhpl/accessory/rbracket/bracketp.sii"
+	defaults[]: "/def/vehicle/truck/mack.rhpl/accessory/rinlet/inlet2c.sii"
+}
+}

@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : guardr.mack.rhpl.exhaust
+{
+	name: "Bent with Guard Right"
+	price: 420
+	unlock: 0
+	icon: "mack.rhpl/pipe_chrome_right"
+	exterior_model: "/vehicle/truck/upgrade/exhaust/mack.rhpl/smokestacks.pmd"
+	interior_model: "/vehicle/truck/upgrade/exhaust/mack.rhpl/smokestacks.pmd"
+	variant: r_chrome
+	look: default
+}
+}

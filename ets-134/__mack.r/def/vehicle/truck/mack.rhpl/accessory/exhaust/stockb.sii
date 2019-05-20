@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : stockb.mack.rhpl.exhaust
+{
+	name: "Both Stock"
+	price: 440
+	unlock: 0
+	icon: "mack.rhpl/pipe_stock_both"
+	exterior_model: "/vehicle/truck/upgrade/exhaust/mack.rhpl/smokestacks.pmd"
+	interior_model: "/vehicle/truck/upgrade/exhaust/mack.rhpl/smokestacks.pmd"
+	variant: b_stock
+	look: default
+}
+}

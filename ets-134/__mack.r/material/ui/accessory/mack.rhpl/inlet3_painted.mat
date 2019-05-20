@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "inlet3_painted.tobj"
+	texture_name : "texture"
+}

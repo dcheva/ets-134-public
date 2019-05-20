@@ -1,0 +1,41 @@
+SiiNunit
+{
+accessory_engine_data : endt675.mack.rhpl.engine
+{
+	name: "Mack ENDT 675 11L"
+	price: 16500
+	unlock: 0
+	info[]: "237 @@hp@@ (177@@kw@@)"
+	info[]: "906 @@lb_ft@@ (1228@@nm@@)"
+	info[]: "1@@dg@@200 @@rpm@@"
+	icon: "mack.rhpl/endt675"
+	torque: 1228
+
+	torque_curve[]: (300, 0.2)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (900, 0.88)
+	torque_curve[]: (1000, 0.93)
+	torque_curve[]: (1100, 0.977)
+	torque_curve[]: (1200, 1)
+	torque_curve[]: (1300, 0.977)
+	torque_curve[]: (1400, 0.94)
+	torque_curve[]: (1500, 0.89)
+	torque_curve[]: (2100, 0.64)
+
+	rpm_idle: 550
+	rpm_limit: 2500
+	rpm_limit_neutral: 2500
+	rpm_range_low_gear: (1100, 1500)
+	rpm_range_high_gear: (1100, 1600)
+	rpm_range_power_boost: (150, 50)
+	
+	volume: 11.0
+
+	engine_brake: 2.0
+	engine_brake_downshift: true
+	engine_brake_positions: 1
+	
+	overrides[]: "/def/vehicle/truck/mack.rhpl/sound/e6int.sii"
+	overrides[]: "/def/vehicle/truck/mack.rhpl/sound/e6ext.sii"
+}
+}

@@ -1,0 +1,23 @@
+SiiNunit
+{
+mod_package : .package_name {
+
+    # Package version can be any string with any length.
+    package_version: "1.4"
+
+   display_name: "Mack R Series"
+
+
+    # Author can be any string with any length.
+    author: "Harven & more"
+
+    # Categories is an array of strings.
+    category[]: "truck"
+    
+    # Icon is a path relative to mod root directory.
+    icon: "icon.jpg"
+
+    # Description file is a path relative to mod root directory.
+    description_file: "description.txt"
+}
+}

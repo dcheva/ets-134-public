@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "cleaner_bracket_chrome.tobj"
+	texture_name : "texture"
+}

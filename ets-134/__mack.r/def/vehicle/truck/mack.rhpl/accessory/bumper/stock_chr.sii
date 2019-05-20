@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : stock_chr.mack.rhpl.bumper
+{
+	name: "Stock Chrome"
+	price: 780
+	unlock: 0
+	icon: "mack.rhpl/bump_chr"
+	exterior_model: "/vehicle/truck/upgrade/bumper/mack.rhpl/bumper.pmd"
+	variant: chrome
+	look: default
+}
+}

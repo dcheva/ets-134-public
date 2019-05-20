@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : guardb.mack.rhpl.exhaust
+{
+	name: "Both Bent with Guard"
+	price: 840
+	unlock: 0
+	icon: "mack.rhpl/pipe_chrome_both"
+	exterior_model: "/vehicle/truck/upgrade/exhaust/mack.rhpl/smokestacks.pmd"
+	interior_model: "/vehicle/truck/upgrade/exhaust/mack.rhpl/smokestacks.pmd"
+	variant: b_chrome
+	look: default
+}
+}

@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "chrome_gauges.tobj"
+	texture_name : "texture"
+}

@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "mudflap_f_painted.tobj"
+	texture_name : "texture"
+}

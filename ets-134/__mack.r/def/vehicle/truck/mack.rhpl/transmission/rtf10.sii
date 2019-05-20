@@ -1,0 +1,29 @@
+SiiNunit
+{
+accessory_transmission_data : rtf10.mack.rhpl.transmission
+{
+	name: "Fuller RTF-12510 (10 Spd Direct)"
+	price: 11120
+	unlock: 0
+	icon: "mack.rhpl/roadranger"
+	
+	crawls: 0
+	differential_ratio: 3.87
+
+	ratios_reverse[0]: -9.71
+	ratios_reverse[1]: -2.74
+	
+	ratios_forward[0]: 9.71
+	ratios_forward[1]: 7.49
+	ratios_forward[2]: 5.83
+	ratios_forward[3]: 4.50
+	ratios_forward[4]: 3.55
+	ratios_forward[5]: 2.74
+	ratios_forward[6]: 2.11
+	ratios_forward[7]: 1.65
+	ratios_forward[8]: 1.27
+	ratios_forward[9]: 1.00
+	
+	retarder: 0
+}
+}

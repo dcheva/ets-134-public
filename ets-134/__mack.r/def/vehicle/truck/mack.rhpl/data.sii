@@ -1,0 +1,61 @@
+SiiNunit
+{
+accessory_truck_data : vehicle.mack.rhpl
+{
+	info[]: "Mack"
+	info[]: "R"
+
+	behind_camera: camera.behind.basic
+	interior_camera: camera.interior.mack_rhpl
+	bumper_camera: camera.bumper.basic
+	window_camera: camera.window.basic
+	cabin_camera: camera.cabin.basic
+	wheel_camera: camera.wheel.basic
+	top_camera: camera.top.basic
+	tv_camera: camera.tv.basic
+	debug_camera: camera.debug
+
+	fallback[]: "chassis|169st70.sii"
+	fallback[]: "cabin|r600day.sii"
+	fallback[]: "interior|r6daytan.sii"
+	fallback[]: "engine|endt675.sii"
+	fallback[]: "transmission|trl1078.sii"
+	fallback[]: "paint_job|color0.sii"
+	fallback[]: "head_light|standard.sii"
+	fallback[]: "accessory|steering_w/shape3.sii"
+	fallback[]: "accessory|lamps/single.sii"
+	fallback[]: "accessory|grill/chrome.sii"
+	fallback[]: "accessory|bumper/stock.sii"
+	fallback[]: "accessory|rfilter/cleaner1p.sii"
+	fallback[]: "accessory|lfilter/nocleaner.sii"
+	fallback[]: "accessory|tanks/squareal.sii"
+	fallback[]: "accessory|straps/squarest.sii"
+	fallback[]: "accessory|exhaust/stockr.sii"
+	fallback[]: "accessory|r_bumper/stock.sii"
+	fallback[]: "accessory|panels/wood.sii"
+	fallback[]: "accessory|gauges/plastic.sii"
+	fallback[]: "f_tire|1.sii"
+	fallback[]: "f_disc|front_disc_04.sii"
+	fallback[]: "f_hub|front_hub_01.sii"
+	fallback[]: "f_nuts|front_nuts_02_steel.sii"
+	fallback[]: "r_tire|1.sii"
+	fallback[]: "r_disc|rear_disc_04.sii"
+	fallback[]: "r_hub|rear_hub_01.sii"
+	fallback[]: "r_nuts|rear_nuts_02_steel.sii"
+
+	require[]: "steering_w"
+	require[]: "mirror"
+	require[]: "chass"
+	require[]: "lamps"
+	require[]: "grill"
+	require[]: "bumper"
+	require[]: "rfilter"
+	require[]: "lfilter"
+	require[]: "tanks"
+	require[]: "straps"
+	require[]: "exhaust"
+	require[]: "r_bumper"
+	require[]: "panels"
+	require[]: "gauges"
+}
+}

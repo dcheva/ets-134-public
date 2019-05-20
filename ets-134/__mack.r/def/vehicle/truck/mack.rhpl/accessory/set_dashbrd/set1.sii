@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : set1.mack.rhpl.set_dashbrd
+{
+	name: "Dash"
+	price: 1
+	unlock: 0
+	icon: "mack.rhpl/dashbrdset"
+   
+	interior_model: "/vehicle/truck/upgrade/dash_set/mack.rhpl/dash_toys_int.pmd"
+	exterior_model: "/vehicle/truck/upgrade/dash_set/mack.rhpl/dash_toys_ext.pmd"
+}
+}

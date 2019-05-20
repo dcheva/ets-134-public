@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : plastic.mack.rhpl.gauges
+{
+	name: "Plastic Gauges Trim"
+	price: 15
+	unlock: 0
+	icon: "mack.rhpl/plastic_gauges"
+	interior_model: "/vehicle/truck/upgrade/gauges/mack.rhpl/gauges_trim.pmd"
+	variant: default
+	look: default
+}
+}
