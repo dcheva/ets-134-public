@@ -62,9 +62,10 @@ economy_data : economy.data.storage
 
 	hurry_up_timer: 60		# how long the hurry up music will play (in game minutes) // 114
 
-	no_cargo_prob:	0.0			# prob. of empty cargo slot // 0.1
+	no_cargo_prob:	0.0		# prob. of empty cargo slot // 0.1
+
 	cargo_validity_min: 120		# 2 hours // 180
-	cargo_validity_max: 1200	# 20 hours // 1800
+	cargo_validity_max: 600		# 10 hours // 1800
 
 ################################################################# https://www.fairwork.gov.au/ArticleDocuments/872/road-transport-long-distance-operations-award-ma000039-pay-guide.pdf.aspx
 ################################################################# European prices: https://della.eu/price/local/ (current mediana $0.85)
