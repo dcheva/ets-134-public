@@ -183,7 +183,7 @@ sound_data: .r
 
 	looped: true
 
-	volume: 0.28
+	volume: 0.88
 
 }
 
@@ -382,7 +382,7 @@ sound_engine_data: .el0
 
 	max_rpm: 550.0
 
-	volume: 0.30
+	volume: 0.60
 
 }
 
@@ -405,7 +405,7 @@ sound_engine_data: .el1
 
 	max_rpm: 900.0
 
-	volume: 0.4
+	volume: 0.80
 
 }
 
@@ -426,7 +426,7 @@ sound_engine_data: .el2
 
 	max_rpm: 1100.0
 
-	volume: 0.45
+	volume: 0.90
 
 }
 
@@ -449,7 +449,7 @@ sound_engine_data: .el3
 
 	max_rpm: 1400.0
 
-	volume: 0.45
+	volume: 0.90
 
 }
 
@@ -471,7 +471,7 @@ sound_engine_data: .el4
 
 	max_rpm: 1600.0
 
-	volume: 0.40
+	volume: 0.80
 }
 
 
@@ -493,7 +493,7 @@ sound_engine_data: .el5
 
 	max_rpm: 1800.0
 
-	volume: 0.35
+	volume: 0.70
 
 }
 
@@ -515,7 +515,7 @@ sound_engine_data: .el6
 	min_rpm: 1600.0
 
 	max_rpm: 2700.0
-	volume: 0.3
+	volume: 0.60
 
 }
 
@@ -532,7 +532,7 @@ sound_engine_data: .el7
 
 	min_rpm: 300.0
 	max_rpm: 900.0
-	volume: 0.55
+	volume: 0.95
 }
 
 sound_engine_data: .el8
@@ -547,7 +547,7 @@ sound_engine_data: .el8
 
 	min_rpm: 600.0
 	max_rpm: 1200.0
-	volume: 0.59
+	volume: 0.99
 }
 
 sound_engine_data: .el9
@@ -562,7 +562,7 @@ sound_engine_data: .el9
 
 	min_rpm: 1000.0
 	max_rpm: 1600.0
-	volume: 0.63
+	volume: 0.99
 }
 
 sound_engine_data: .el10
@@ -577,7 +577,7 @@ sound_engine_data: .el10
 
 	min_rpm: 1400.0
 	max_rpm: 2000.0
-	volume: 0.60
+	volume: 0.99
 }
 
 sound_engine_data: .el11
@@ -592,7 +592,7 @@ sound_engine_data: .el11
 
 	min_rpm: 1800.0
 	max_rpm: 3000.0
-	volume: 0.44
+	volume: 0.88
 }
 
 sound_engine_data: .el12
@@ -605,7 +605,7 @@ sound_engine_data: .el12
 
 	min_rpm: 300.0
 	max_rpm: 3000.0
-	volume: 0.13
+	volume: 0.26
 }
 
 sound_engine_data: .el13
@@ -618,7 +618,7 @@ sound_engine_data: .el13
 
 	min_rpm: 300.0
 	max_rpm: 3000.0
-	volume: 0.26
+	volume: 0.52
 }
 
 
@@ -638,7 +638,7 @@ sound_engine_data: .el24
 
 	min_rpm: 900.0
 	max_rpm: 1470.0
-	volume: 0.6
+	volume: 0.99
 }
 
 
@@ -652,7 +652,7 @@ sound_engine_data: .el25
 
 	min_rpm: 1250.0
 	max_rpm: 2200.0
-	volume: 0.8
+	volume: 0.99
 }
 
 sound_engine_data: .el26
@@ -665,8 +665,9 @@ sound_engine_data: .el26
 
 	min_rpm: 1900.0
 	max_rpm: 3000.0
-	volume: 0.7
+	volume: 0.99
 }
+
 
 
 

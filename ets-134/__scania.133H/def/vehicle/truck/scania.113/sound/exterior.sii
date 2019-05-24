@@ -165,9 +165,6 @@ sound_data: .r
 
 	looped: true
 
-	
-is_2d: true
-
 	volume: 1.0
 
 }
