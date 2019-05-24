@@ -142,8 +142,8 @@ sound_noise_data: .wru0
 	looped: true
 	min_speed: 20.0
 	max_speed: 80.0
-	pitch_reference: 40.0
-	volume: 0.8
+	pitch_reference: 30.0
+	volume: 1.0
 }
 
 sound_noise_data: .wru1
@@ -152,7 +152,7 @@ sound_noise_data: .wru1
 	looped: true
 	min_speed: 40.0
 	max_speed: 160.0
-	pitch_reference: 80.0
+	pitch_reference: 90.0
 	volume: 1.0
 }
 
