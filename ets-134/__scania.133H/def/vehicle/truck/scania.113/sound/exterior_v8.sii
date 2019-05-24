@@ -89,6 +89,7 @@ accessory_sound_data : v8.scania.r_2016.esound
 
 	air_gear[4]: .airgear4
 
+	air_gear[5]: .airgear5
 
 
 
@@ -785,7 +786,7 @@ sound_data: .airgear0
 
 	name: "/sound/truck/scania_2016/v8/ext/ext_scania_shifting-1.ogg"
 
-	volume: 0.80
+	volume: 0.88
 
 }
 
@@ -797,7 +798,7 @@ sound_data: .airgear1
 
 	name: "/sound/truck/scania_2016/v8/ext/ext_scania_shifting-2.ogg"
 
-	volume: 1.00
+	volume: 0.88
 }
 
 
@@ -807,7 +808,7 @@ sound_data: .airgear2
 
 	name: "/sound/truck/scania_2016/v8/ext/ext_scania_shifting-3.ogg"
 
-	volume: 0.80
+	volume: 0.88
 }
 
 
@@ -818,7 +819,7 @@ sound_data: .airgear3
 
 	name: "/sound/truck/scania_2016/v8/ext/ext_scania_shifting-4.ogg"
 
-	volume: 0.45
+	volume: 0.88
 }
 
 
@@ -828,7 +829,16 @@ sound_data: .airgear4
 
 	name: "/sound/truck/scania_2016/v8/ext/ext_scania_shifting-5.ogg"
 
-	volume: 0.80
+	volume: 0.88
+}
+
+sound_data: .airgear5
+
+{
+
+	name: "/sound/truck/scania_2016/v8/ext/ext_scania_shifting-6.ogg"
+
+	volume: 0.88
 }
 
 
