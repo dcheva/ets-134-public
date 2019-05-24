@@ -139,20 +139,22 @@ sound_noise_data: .was4
 sound_noise_data: .wru0
 {
 	name: "/sound/truck/noises/rumblestripe.ogg"
+	is_2d: true
 	looped: true
-	min_speed: 20.0
-	max_speed: 80.0
-	pitch_reference: 30.0
+	min_speed: 15.0
+	max_speed: 95.0
+	pitch_reference: 25.0
 	volume: 1.0
 }
 
 sound_noise_data: .wru1
 {
 	name: "/sound/truck/noises/rumblestripe.ogg"
+	is_2d: true
 	looped: true
-	min_speed: 40.0
-	max_speed: 160.0
-	pitch_reference: 90.0
+	min_speed: 30.0
+	max_speed: 180.0
+	pitch_reference: 50.0
 	volume: 1.0
 }
 
