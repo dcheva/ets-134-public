@@ -1022,11 +1022,10 @@ sound_data: .reverse
 
 {
 
-	name: "/sound/truck/scania_2016/v8/ext/reverse.ogg"
+	name: "/sound/truck/scania_2016/v8/int/reverse.ogg"
 
 	looped: true
 
-	volume: 0.20
 }
 
 
@@ -1040,7 +1039,7 @@ sound_data: .blinker_on
 
 	is_2d: true
 
-	volume: 0.70
+	volume: 0.88
 
 }
 
@@ -1054,7 +1053,7 @@ sound_data: .blinker_off
 
 	is_2d: true
 
-	volume: 0.70
+	volume: 0.88
 
 }
 
@@ -1068,7 +1067,7 @@ sound_data: .wipers_up
 
 	is_2d: true
 
-	volume: 0.45
+	volume: 0.65
 
 }
 
@@ -1082,7 +1081,7 @@ sound_data: .wipers_down
 
 	is_2d: true
 
-	volume: 0.45
+	volume: 0.65
 
 }
 
