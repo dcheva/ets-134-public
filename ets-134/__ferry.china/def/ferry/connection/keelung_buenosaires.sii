@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.keelung.buenosaires {
+	price: 900
+	time: 11800
+	distance: 11507
+}
+}
+

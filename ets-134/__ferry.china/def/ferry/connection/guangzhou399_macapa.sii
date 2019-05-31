@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.guangzhou399.macapa {
+	price: 700
+	time: 10800
+	distance: 10500
+}
+}
+

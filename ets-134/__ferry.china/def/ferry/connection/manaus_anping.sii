@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.manaus.anping {
+	price: 800
+	time: 10800
+	distance: 10500
+}
+}
+

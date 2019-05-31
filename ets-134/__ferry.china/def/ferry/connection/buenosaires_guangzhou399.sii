@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.buenosaires.guangzhou399 {
+	price: 900
+	time: 11800
+	distance: 11507
+}
+}
+
