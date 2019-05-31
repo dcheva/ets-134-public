@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.macapa.guangzhou399 {
-	price: 1200
-	time: 20000
-	distance: 20000
-}
-}
-

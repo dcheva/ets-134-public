@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.anping.maceio {
-	price: 1200
-	time: 20000
-	distance: 20000
-}
-}
-
