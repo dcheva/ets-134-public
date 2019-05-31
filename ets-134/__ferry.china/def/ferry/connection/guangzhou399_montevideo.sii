@@ -1,9 +1,9 @@
 SiiNunit
 {
 ferry_connection : conn.guangzhou399.montevideo {
-	price: 900
-	time: 11800
-	distance: 11507
+	price: 1200
+	time: 20000
+	distance: 20000
 }
 }
 

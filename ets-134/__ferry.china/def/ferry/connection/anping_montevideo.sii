@@ -1,9 +1,9 @@
 SiiNunit
 {
 ferry_connection : conn.anping.montevideo {
-	price: 900
-	time: 11800
-	distance: 11500
+	price: 1200
+	time: 20000
+	distance: 20000
 }
 }
 
