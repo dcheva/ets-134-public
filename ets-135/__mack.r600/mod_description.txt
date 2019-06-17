@@ -1,0 +1,51 @@
+Mack R
+
+I'm pleased to present to you the mod I've been working on for over two years. But don't be affraid or discouraged, it doesn't take that long to make a truck mod ;). I've been working on many other projects in the meantime. To the point: It's finally here - the Mack R series truck. The model dimensions are based on specs from late 70, so are engines and transmissions, therefore don't expect high performance from this oldie. She will pull but you have to be patience and work together with her ;). At the end of the job you will feel the joy of accomplishment! (if you manage to get in time ;)).
+
+Since this is the premiere of the mod there is a moderate amount of parts to customize. I plan on adding much more with future updates but please be patience, this is not the only mod I'm working on/maintaining. The mod name is Mack R (and not R600) because in the future I will add R700 hood and parts. I will not reveal all planed features yet so that if for some reason I will be unable to add given feature you will not be disappointed ;). Instead I can list things I will not add for sure: 1000+hp engines, modern engines, modern transmissions, more than tri-axle chassis, UK cab variant, lowered chassis, "chipped" engines... you can see where it's going. I want to keep this truck true to real life original.
+
+Features:
+- Real dimensions based on Mack specs,
+- Real engines and transmissions with torque curves, ratios and other parameters,
+- Fully animated detailed interior,
+- All standard SCS truck features, like advanced coupling, trailer cables, etc.
+- Detailed models based on many reference photos (thanks to Trayscapes and Google images), with reasonable triangle count which should not kill your GPU ;),
+- Beautiful engine sounds made by Kriechbaum (6v92, Mack E6) and recorded by Trayscapes (Mack E6),
+- Original paint jobs made by Lucasi, Pauly and me (not my wife this time, she's babysitting currently ;),
+- No errors, no warnings and hopefully not conflicting with other mods (nah, there is always a poor mod that will break things ;) but not this one!),
+- Next Gen Scania paintjob system (all skinnable parts have their own templates, except air cleaners, they are on the cab template),
+- Currently only R600 hood with day cab.
+- Can I finally go drive the truck and not write this silly description? ;)
+
+About Maxitorque trnsmissions:
+I don't know of a shifter that will let you use some transmissions like they are supposed to be used (like TRTXL 1070 with 12 speed forward and 5 reverse). Please let me know if you came up with a custom shifter layout that is not very tricky to use.
+
+Some answers to common questions (sadly mostly negative it seems ;)):
+- It will currently not work in TruckersMP (unofficial multiplayer mod) but who know what are their future plans ;),
+- I will not add engines which were not used in this truck or which sound like broken washing mashine ;),
+- I'm not taking requests for mods or skins,
+- I will keep updating the mod with more features but don't expect frequent updates (apart from bug fixes)
+
+Sample skin with a template:
+https://drive.google.com/file/d/1xoD7btS8gRGDq3qXuXObFYXXyFeQLEHg/view?usp=sharing
+
+Support mods for various DLCs:
+Steering Creations Pack DLC - https://steamcommunity.com/sharedfiles/filedetails/?id=1463044376
+Dragon DLC Steering Wheel - https://steamcommunity.com/sharedfiles/filedetails/?id=1463048089
+Valentine's Day DLC Steering Wheel - https://steamcommunity.com/sharedfiles/filedetails/?id=1463052900
+
+A short story about the mod and it's origins:
+Long time ago good friend of mine, Pauly, got hit by lightning and bitten by a cobra and suffered short time blindness in result. In this state he went to a 3d model shop and bought a truck model which supposed to look like a Mack R. The shopkeeper wasn't very honest with him and Pauly believed the model was of high quality. Back at home Pauly watched the model on his Braille screen and showed it to Lucasi (another good friend of mine). But since Lucasi was unable to read Braille they both agreed that the model should be fine based on it's price. Unfortunately Pauly and Lucasi were not very good modders at that time so they didn't know what to do with the model. They called a modder for hire who would put the truck into the game. He took his payment and did the job. But what can you expect from hired modders? He packed his bags and left to Tiber to become a meditating mummified monk. Even with short time blindeness Pauly wasn't truly amazed with the result and Lucasi agreed. Since they couldn't find any modder for hire (only mummified ones), they went to a hot tub to relax and plot intrigue. They decited they should hunt a naive, susceptible to suggestions, unexperienced but promising modder with nice body and long hair. On the hunt they found a good looking FLB truck, but after poking it with thier bone spears, they discovered no one was inside, so they carved a message on a stone tablet. Next morning a modder (that would be me) came to check how his truck is doing. He found lots of messages but one peculiar drew his attention - you guess it right, the stone tablet one. Few days later the three met and discussed about the Mack R model. Pauly and Lucasi were dissapointed with the modder's appearance, he didn't have nice body nor long hair. He was no match to their beauty. But was he naive, oh he was. Pauly and Lucasi told him that the mod is basically ready just needs few adjustments and fixes. Can't blame them, Pauly suffering short time blindness and Lucasi who couldn't read Braille. The modder started his work. The more he looked at real Mack R pictures the better he understood what kind of swamp he got into. But our brave modder saw the beauty of the Mack R truck and was blessed by the almighty Bullgod... Bulldog himself. With the blessing the modder received a nice body and long hair so that he could finally stand proudly in Pauly and Lucasi presence. Cheered by Archangel Rubber Duck the modder continued his work: he used his blessed Golden Blender to remodel the truck and to create most of the parts anew. He worked even on the 7th day. Many years later came a day when the almighty Bullgod decided that the mod is ready to be released. On that day Pauly and Lucasi were finally truly amazed so they went to the hot tub to relax. Bubbles didn't stop even after the hot tub went out of power, that's how happy the two were. The End. You don't believe me? Check the screenshots of the original model here: https://www.gtaall.com/gta-san-andreas/cars/10420-mack-r-1970.html (it's the same model this one is based on). Pauly bought it - for real! Silly Pauly ;) On the other hand you can use the truck now because of his silly decision to buy this abomination.
+
+Included skins:
+- Pauly - "Rainbow Mack", "Red Velvet", "Mack Multi R"
+- Lucasi - "Retro Stripes Mack R", "Mack R Vintage Skin"
+- Harven - "Two Colors", "Road Warrior", "Three Stripes Metallic", "Value-liner"
+
+Credits:
+- Harven, Kriechbaum, Pauly, Lucasi, Trayscapes, RTA.
+
+About RTA commitment:
+The mod uses parts from RTA's Mack Superliner interior - namely: interior upholstery and interior cab body models. The rest of the interior is made from scratch, this includes: dashboard, all gauges, switches and knobs, labels, steering wheel with column and attached sticks, gear shifter, heater and seats, roof vent hatch, floor mats and pedals. All animations are also made from scratch. Not a single texture from the Superliner is used. I greatly reduced the number of triangles in the interior upholstery and interior cab body models.
+
+Please don't reupload to other sites. Modify it only for personal use. Thanks! If you see this mod on any other site than steam workshop or my google drive please don't download and report if possible.

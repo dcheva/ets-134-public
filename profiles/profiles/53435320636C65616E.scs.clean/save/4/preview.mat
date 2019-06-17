@@ -1,5 +1,5 @@
 material : "ui.rfx"
 {
-	texture : "/material/ui/generic_save.tobj"
+	texture : "preview.tobj"
 	texture_name : "texture"
 }

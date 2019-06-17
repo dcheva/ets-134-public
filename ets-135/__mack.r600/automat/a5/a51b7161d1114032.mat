@@ -1,0 +1,15 @@
+material : "eut2.dif.spec.mult.dif.spec.add.env.rfx" {
+	texture[0] : "/vehicle/truck/upgrade/fueltanks/mack.rhpl/ao_tanks_round.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/vehicle/truck/mack.rhpl/textures/chrome.tobj"
+	texture_name[1] : "texture_mult"
+	texture[2] : "/material/environment/fuzzy_reflection/fuzzy_reflection.tobj"
+	texture_name[2] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 0.30441 , 0.30441 , 0.30441 }
+	env_factor : { 1 , 1 , 1 }
+	fresnel : { 1 , 0 }
+	reflection : 0
+	shininess : 70
+	specular : { 1.1 , 1.1 , 1.1 }
+}

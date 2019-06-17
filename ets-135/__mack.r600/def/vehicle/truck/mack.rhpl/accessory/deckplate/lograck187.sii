@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_addon_data : lograck187.mack.rhpl.deckplate
+{
+	name: "Logging Headache Rack"
+	//price: 320
+	price: 0
+	unlock: 0
+	icon: "mack.rhpl/lograck"
+	exterior_model: "/vehicle/truck/upgrade/deckplate/mack.rhpl/headache_log.pmd"
+	interior_model: "/vehicle/truck/upgrade/deckplate/mack.rhpl/headache_log.pmd"
+	variant: lograck187
+	look: default
+	
+	suitable_for[]: 187st70.mack.rhpl.chassis
+	suitable_for[]: 187st130.mack.rhpl.chassis
+}
+}
