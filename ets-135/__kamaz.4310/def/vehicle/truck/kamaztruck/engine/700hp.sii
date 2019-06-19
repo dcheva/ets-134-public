@@ -6,10 +6,37 @@ accessory_engine_data : 700hp.kamaztruck.engine
 	price: 18000
 	unlock: 0
 	info[]: "700 @@hp@@ (520@@kw@@)"
-	info[]: "4@@dg@@373 @@nm@@"
-	info[]: "1@@dg@@000-1@@dg@@500 @@rpm@@"
+	info[]: "4@@dg@@375 @@nm@@"
+	info[]: "1@@dg@@300-1@@dg@@700 @@rpm@@"
 	icon: "daf_logo"
 	torque: 4375
-	volume:	12.12
+	volume:	12.26
+
+	torque_curve[]: (300, 0)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (800, 0.65)
+	torque_curve[]: (1300, 0.97)
+	torque_curve[]: (1400, 0.99)
+	torque_curve[]: (1500, 1)
+	torque_curve[]: (1600, 0.99)
+	torque_curve[]: (1700, 0.98)
+	torque_curve[]: (1800, 0.96)
+	torque_curve[]: (1900, 0.93)
+	torque_curve[]: (2000, 0.89)
+	torque_curve[]: (2100, 0.84)
+	torque_curve[]: (2200, 0.76)
+	torque_curve[]: (2400, 0)
+	
+	rpm_range_low_gear: (1200, 2200)
+	rpm_range_high_gear: (1350, 1900)	
+
+	rpm_idle: 400
+	rpm_limit: 2400
+	rpm_limit_neutral: 2400
+	rpm_range_low_gear: (1200, 1700)
+	rpm_range_high_gear: (1350, 1850)	
+
+	engine_brake: 1.6
+	engine_brake_downshift: true
 }
 }

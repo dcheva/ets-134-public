@@ -86,7 +86,7 @@ sound_noise_data: .wru0
 	min_speed: 20.0
 	max_speed: 80.0
 	pitch_reference: 40.0
-	volume: 0.8
+	volume: 2.0
 }
 
 sound_noise_data: .wru1
@@ -96,7 +96,7 @@ sound_noise_data: .wru1
 	min_speed: 40.0
 	max_speed: 160.0
 	pitch_reference: 80.0
-	volume: 1.0
+	volume: 2.8
 }
 
 

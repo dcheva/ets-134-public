@@ -106,13 +106,12 @@ economy_data : economy.data.storage
 	skill_distance[4]:	2100 // 1100
 	skill_distance[5]:	3400 // 1500 // for big maps as ProMods, EAA or RusMap
 
-	max_eco_consumption_drop[0]: (0.3, 0.3)	# consumption decreased by 40% (or 60% if driving with trailer) // 0.1 0.1
-							#  for ecodriving skill maximum
-	max_eco_consumption_drop[1]: (0.25, 0.25) // 0.15 0.15
-	max_eco_consumption_drop[2]: (0.2, 0.2)	
-	max_eco_consumption_drop[3]: (0.25, 0.25)	
-	max_eco_consumption_drop[4]: (0.3, 0.3)	
-	max_eco_consumption_drop[5]: (0.4, 0.4)	# Maximum consumption drop is 0.99.
+	max_eco_consumption_drop[0]: (0.15, 0.20) # consumption decreased by 40% (or 60% if driving with trailer) // 0.1 0.1
+	max_eco_consumption_drop[1]: (0.20, 0.25) // 0.15 0.15
+	max_eco_consumption_drop[2]: (0.25, 0.30)	
+	max_eco_consumption_drop[3]: (0.30, 0.35)	
+	max_eco_consumption_drop[4]: (0.35, 0.40)	
+	max_eco_consumption_drop[5]: (0.40, 0.45) # Maximum consumption drop is 0.99.
 
 ### all values was 0.05 or %5% or total +30%
 	reward_bonus_long_dist[0]: 0.03

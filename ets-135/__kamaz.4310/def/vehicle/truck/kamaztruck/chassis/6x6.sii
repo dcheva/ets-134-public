@@ -6,14 +6,14 @@ accessory_chassis_data : 6x6.kamaztruck.chassis
 	price: 10500
 	unlock: 0
 	info[]: "6x6"
-	info[]: "800 @@unit_l@@"
+	info[]: "1200 @@unit_l@@"
 	icon: "daf_logo"
 	detail_model: "/vehicle/truck/kamaz_5410_1985/truck.pmd"
 	collision: "/vehicle/truck/kamaz_5410_1985/truck.pmc"
 	residual_travel[]: 0.13 	# 1st axle
 	residual_travel[]: 0.16 	# 3rd axle
 	residual_travel[]: 0.16 	# 2nd axle
-	tank_size: 800
+	tank_size: 1200
 	variant: Chs_6x6_b
 	look: default
 	extended_shadow_texture: "/vehicle/kamaz_5410_1985/shadow_6x4.tobj"

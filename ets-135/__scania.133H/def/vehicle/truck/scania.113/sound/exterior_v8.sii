@@ -742,7 +742,7 @@ sound_engine_data: .eb0
 
 	looped: true
 	
-is_2d: true
+	is_2d: true
 
 	pitch_reference: 1800
 

@@ -7,12 +7,12 @@ Head-up display
 	- Mirrors on the edges of the map are convenient to use when viewing with any camera.
 	- Highlight the entire panel when overspeed.
 
-[green]Head-up дисплей[normal]
+[green]Head-up РґРёСЃРїР»РµР№[normal]
 
-[blue]Изменения:[normal]
-	- Широкая карта GPS дает вам больше видимости.
-	- Зеркала в центре удобны в использовании при обзоре любой камерой.
-	- Подсветка всей панели при превышении скорости.
+[blue]РР·РјРµРЅРµРЅРёСЏ:[normal]
+	- РЁРёСЂРѕРєР°СЏ РєР°СЂС‚Р° GPS РґР°РµС‚ РІР°Рј Р±РѕР»СЊС€Рµ РІРёРґРёРјРѕСЃС‚Рё.
+	- Р—РµСЂРєР°Р»Р° РІ С†РµРЅС‚СЂРµ СѓРґРѕР±РЅС‹ РІ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё РїСЂРё РѕР±Р·РѕСЂРµ Р»СЋР±РѕР№ РєР°РјРµСЂРѕР№.
+	- РџРѕРґСЃРІРµС‚РєР° РІСЃРµР№ РїР°РЅРµР»Рё РїСЂРё РїСЂРµРІС‹С€РµРЅРёРё СЃРєРѕСЂРѕСЃС‚Рё.
 
 github: https://github.com/dcheva
 fcbook: https://www.facebook.com/groups/FS19modsByCheva/

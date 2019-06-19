@@ -18,10 +18,11 @@ accessory_sound_data : ext.kamaztruck.sound
 	engine_load[]: .e6
 	engine_load[]: .e7
 
+	engine_brake[]: .mbrake
 
 	turbo: .t
 
-	air_gear[]: .airgear0
+#	air_gear[]: .airgear0
 	air_gear[]: .airgear1
 	air_gear[]: .airgear2
 	air_gear[]: .airgear3
@@ -29,7 +30,6 @@ accessory_sound_data : ext.kamaztruck.sound
 	air_brake[]: .airbrake0
 	air_brake[]: .airbrake1
 
-	motor_brake: .mbrake
 	horn: .horn
 	reverse: .reverse
 	change_gear: .changeg
@@ -153,13 +153,25 @@ sound_engine_data: .e7
 	name: "/sound/truck/kamaz6460/ext/ex_kamaz_high.ogg"
 
 	looped: true
-
+        is_2d: true
 	pitch_reference: 2000
 
-	min_rpm: 1400.0
+	min_rpm: 400.0
 	max_rpm: 3000.0
-	volume: 0.5
+	volume: 0.75
 }
+
+sound_engine_data: .mbrake
+{
+	name: "/sound/truck/kamaz6460/ext/engine_brake_ext.ogg"
+	looped: true
+
+	pitch_reference: 1850
+	min_rpm: 200.0
+	max_rpm: 3000.0
+	volume: 0.8
+}
+
 
 sound_data: .t
 {
@@ -172,19 +184,19 @@ sound_data: .t
 sound_data: .airgear0
 {
 	name: "/sound/truck/kamaz6460/ext/gear_air_1.ogg"
-	volume: 0.6
+	volume: 0.4
 }
 
 sound_data: .airgear1
 {
 	name: "/sound/truck/kamaz6460/ext/gear_air_2.ogg"
-	volume: 0.6
+	volume: 0.3
 }
 
 sound_data: .airgear2
 {
 	name: "/sound/truck/kamaz6460/ext/gear_air_3.ogg"
-	volume: 0.6
+	volume: 0.4
 }
 
 sound_data: .airgear3
@@ -203,16 +215,6 @@ sound_data: .airbrake1
 {
 	name: "/sound/truck/kamaz6460/ext/air_brake2.ogg"
 	looped: false
-}
-
-sound_engine_data: .mbrake
-{
-	name: "/sound/truck/kamaz6460/ext/engine_brake_ext.ogg"
-	looped: true
-
-	pitch_reference: 1850
-	min_rpm: 200.0
-	max_rpm: 3000.0
 }
 
 sound_data: .horn

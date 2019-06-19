@@ -3,7 +3,7 @@ SiiNunit
 accessory_chassis_data : bdf.kamaztruck.chassis
 {
 	name: "Шасси 6x6"
-	price: 12000
+	price: 12500
 	unlock: 0
 	info[]: "6x6"
 	info[]: "1200 @@unit_l@@"

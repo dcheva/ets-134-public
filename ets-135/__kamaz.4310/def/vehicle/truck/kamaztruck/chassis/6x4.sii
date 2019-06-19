@@ -2,10 +2,10 @@ SiiNunit
 {
 accessory_chassis_data : 6x4.kamaztruck.chassis
 {
-	name: "Шасси 6x6"
-	price: 12500
+	name: "Шасси 6x4"
+	price: 12000
 	unlock: 0
-	info[]: "6x6"
+	info[]: "6x4"
 	info[]: "800 @@unit_l@@"
 	icon: "daf_logo"
 	detail_model: "/vehicle/truck/kamaz_5410_1985/truck.pmd"
@@ -21,7 +21,7 @@ accessory_chassis_data : 6x4.kamaztruck.chassis
 	extended_shadow_fadeout_start: 10
 	extended_shadow_fadeout_length: 0
 	ui_shadow: "/vehicle/truck/kamaz_5410_1985/ui_shadow_6x4.pmd"
-	powered_axle[0]: true	# front axle
+	powered_axle[0]: false	# front axle
 	powered_axle[1]: true	# rear axle
 	powered_axle[2]: true	# rear axle
 	kerb_weight[0]:	15580.1

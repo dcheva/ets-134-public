@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.285.12cd.4ff0 {
+input_config : _nameless.204.6cfb.8de0 {
  version: 11
  config_lines: 406
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -293,8 +293,8 @@ input_config : _nameless.285.12cd.4ff0 {
  config_lines[287]: "mix wipers3 `semantical.wipers3?0`"
  config_lines[288]: "mix wipers4 `semantical.wipers4?0`"
  config_lines[289]: "mix cruiectrl `keyboard.c?0 | semantical.cruiectrl?0`"
- config_lines[290]: "mix cruiectrlinc `keyboard.numplus?0 | mouse.wheel_up?0 | semantical.cruiectrlinc?0`"
- config_lines[291]: "mix cruiectrldec `keyboard.numminus?0 | mouse.wheel_down?0 | semantical.cruiectrldec?0`"
+ config_lines[290]: "mix cruiectrlinc `keyboard.numplus?0 | keyboard.rshift?0 | semantical.cruiectrlinc?0`"
+ config_lines[291]: "mix cruiectrldec `keyboard.numminus?0 | keyboard.rctrl?0 | semantical.cruiectrldec?0`"
  config_lines[292]: "mix cruiectrlres `keyboard.nummultiply?0 | semantical.cruiectrlres?0`"
  config_lines[293]: "mix light `keyboard.l?0 | semantical.light?0`"
  config_lines[294]: "mix hblight `keyboard.k?0 | semantical.hblight?0`"
@@ -330,8 +330,8 @@ input_config : _nameless.285.12cd.4ff0 {
  config_lines[324]: "mix photorolll `keyboard.x?0 | semantical.photorolll?0`"
  config_lines[325]: "mix photorollr `keyboard.c?0 | semantical.photorollr?0`"
  config_lines[326]: "mix photosman `keyboard.m?0 | semantical.photosman?0`"
- config_lines[327]: "mix gearup `keyboard.s?0 | keyboard.rshift?0 | semantical.gearup?0`"
- config_lines[328]: "mix geardown `keyboard.x?0 | keyboard.rctrl?0 | semantical.geardown?0`"
+ config_lines[327]: "mix gearup `keyboard.s?0 | mouse.wheel_up?0 | semantical.gearup?0`"
+ config_lines[328]: "mix geardown `keyboard.x?0 | mouse.wheel_down?0 | semantical.geardown?0`"
  config_lines[329]: "mix gear0 `keyboard.d?0 | semantical.gear0?0`"
  config_lines[330]: "mix gearuphint `semantical.gearuphint?0`"
  config_lines[331]: "mix geardownhint `semantical.geardownhint?0`"

@@ -6,12 +6,33 @@ accessory_engine_data : 74073400.kamaztruck.engine
 	price: 6900
 	unlock: 0
 	info[]: "400 @@hp@@ (294@@kw@@)"
-	info[]: "1@@dg@@900 @@nm@@"
-	info[]: "1@@dg@@000-1@@dg@@400 @@rpm@@"
+	info[]: "1@@dg@@765 @@nm@@"
+	info[]: "1@@dg@@100-1@@dg@@500 @@rpm@@"
 	icon: "daf_logo"
-	torque: 1900
-	volume:	11.12
+	torque: 1765
+	volume:	11.76
 
+	torque_curve[]: (300, 0.2)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (900, 0.88)
+	torque_curve[]: (1000, 0.93)
+	torque_curve[]: (1100, 0.98)
+	torque_curve[]: (1200, 0.99)
+	torque_curve[]: (1300, 1)
+	torque_curve[]: (1400, 0.99)
+	torque_curve[]: (1500, 0.99)
+	torque_curve[]: (1600, 0.97)
+	torque_curve[]: (1800, 0.93)
+	torque_curve[]: (2100, 0.87)
+	torque_curve[]: (2340, 0)
 
+	rpm_idle: 700
+	rpm_limit: 2400
+	rpm_limit_neutral: 2400
+	rpm_range_low_gear: (1100, 1500)
+	rpm_range_high_gear: (1200, 1600)
+
+	engine_brake: 1.4
+	engine_brake_downshift: true
 }
 }
