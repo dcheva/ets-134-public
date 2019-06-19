@@ -22,7 +22,7 @@ accessory_sound_data : int.kamaztruck.sound
 
 	turbo: .t
 
-#	air_gear[]: .airgear0
+	air_gear[]: .airgear0
 	air_gear[]: .airgear1
 	air_gear[]: .airgear2
 	air_gear[]: .airgear3
@@ -189,7 +189,7 @@ sound_data: .t
 sound_data: .airgear0
 {
 	name: "/sound/truck/kamaz6460/int/gear_air_1.ogg"
-	volume: 0.4
+	volume: 0.5
 }
 
 sound_data: .airgear1

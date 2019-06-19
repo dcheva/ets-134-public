@@ -44,8 +44,8 @@ police_data : police.data
 
 	offence_probabilty[0]: 0.7 	# car crash
 	offence_probabilty[1]: 0.1 	# avoid sleeping
-	offence_probabilty[2]: 0.6 	# wrong way
-	offence_probabilty[3]: 1.0 	# speeding (camera)
+	offence_probabilty[2]: 0.7 	# wrong way
+	offence_probabilty[3]: 0.7 	# speeding (camera) # 1.0
 	offence_probabilty[4]: 0.3	# no lights during night
 	offence_probabilty[5]: 0.7 	# red lights
 	offence_probabilty[6]: 0.1 	# speeding
