@@ -120,7 +120,7 @@ sound_engine_data: .e4
 
 	looped: true
 
-	pitch_reference: 700
+	pitch_reference: 770
 
 	min_rpm: 000.0
 	max_rpm: 690.0
@@ -133,7 +133,7 @@ sound_engine_data: .e5
 
 	looped: true
 
-	pitch_reference: 1100
+	pitch_reference: 1210
 
 	min_rpm: 610.0
 	max_rpm: 1200.0
@@ -146,7 +146,7 @@ sound_engine_data: .e6
 
 	looped: true
 
-	pitch_reference: 1650
+	pitch_reference: 1815
 
 	min_rpm: 1000.0
 	max_rpm: 1600.0
@@ -159,7 +159,7 @@ sound_engine_data: .e7
 
 	looped: true
 
-	pitch_reference: 2000
+	pitch_reference: 2200
 
 	min_rpm: 1400.0
 	max_rpm: 3000.0

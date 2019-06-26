@@ -36,7 +36,7 @@ economy_data : economy.data.storage
 	late_delivery_max_overtime[1]: 480	# 8 hours for "normal" deliveries // 720
 	late_delivery_max_overtime[2]: 120	# 2 hours for "urgent" deliveries // 240
 
-	simulation_avg_speed: 60.0	# km/h // 62
+	simulation_avg_speed: 55.0	# km/h // 62 // EAA Brasil: 2000km 62km/h * 32h / 36h
 	### city limit 50, highway 90, traffic calculated
 
 	default_time_zone: 120		# +2 hours
@@ -67,21 +67,22 @@ economy_data : economy.data.storage
 	cargo_validity_min: 120		# 2 hours // 180
 	cargo_validity_max: 600		# 10 hours // 1800
 
-################################################################# https://www.fairwork.gov.au/ArticleDocuments/872/road-transport-long-distance-operations-award-ma000039-pay-guide.pdf.aspx
-################################################################# European prices: https://della.eu/price/local/ (current mediana $0.85)
-################################################################# With this settings: Company cargo ~.~ all skills 1, up to ~.~ all skills 5, Market cargo: x3
+####### https://www.fairwork.gov.au/ArticleDocuments/872/road-transport-long-distance-operations-award-ma000039-pay-guide.pdf.aspx
+####### European prices: https://della.eu/price/local/ (current mediana $0.85)
+####### With this settings: Company cargo ~.~ all skills 1, up to ~.~ all skills 5, Market cargo: x3
+####### Revenue coefficient per km used during freight market jobs. // 0.5/10 base (1/10 is simulatior coefficient), 0.85 is europe medium price PLUS fuel per km
 
 	fixed_revenue: 386 // 600/350*167 // 600
-	revenue_coef_per_km: 0.05 # Revenue coefficient per km used during freight market jobs. // 0.5/10 base, 0.85 is europe medium price // 0.9
-	cargo_market_revenue_coef_per_km: 0.07 # Revenue coefficient per km used during cargo market jobs. // 0.7/10 base // 1.0
+	revenue_coef_per_km: 0.1 // Revenue coefficient per km used during freight market jobs. // 0.9
+	cargo_market_revenue_coef_per_km: 0.14 # Revenue coefficient per km used during cargo market jobs. // 0.7/10 base // 1.0
 
 	fuel_cost_per_km: (0.4, 0.5)		# for driver simulation // 40l*1$ per 100 km // 1.5, 2.0
 	driver_max_cargo_damage: 5.0		# in %, decrease with skill // 6.0
-	driver_maintenance_cost: (0.2, 0.3)	# maintenance + insurance, base range in E/km // 1.8/10 and 3/10 // 1.8, 3.0
+	driver_maintenance_cost: (0.4, 0.6)	# maintenance + insurance, base range in E/km // 1.8/10 and 3/10 // 1.8, 3.0
 
 	minimal_driver_salary:	167			# fixed part of driver's pay // 350
-	driver_revenue_coef_per_km: 0.035  # Revenue coefficient used during quick job and drivers jobs. // // 0.67
-	driver_cargo_market_revenue_coef_per_km: 0.05 # Revenue coefficient used during cargo market jobs for drivers. // 0.70
+	driver_revenue_coef_per_km: 0.07  # Revenue coefficient used during quick job and drivers jobs. // // 0.67
+	driver_cargo_market_revenue_coef_per_km: 0.1	# Revenue coefficient used during cargo market jobs for drivers. // 0.70
 
 	driver_hire_cost: 965		# Euro // 1500
 
