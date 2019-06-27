@@ -1,0 +1,314 @@
+SiiNunit
+{
+vehicle: .tdealer.fred_1.flb
+{
+ fuel_relative: &3f000000
+ user_mirror_rot: 4
+ user_mirror_rot[0]: (1; 0, 0, 0)
+ user_mirror_rot[1]: (1; 0, 0, 0)
+ user_mirror_rot[2]: (1; 0, 0, 0)
+ user_mirror_rot[3]: (1; 0, 0, 0)
+
+ accessories[]: .flb_dealer4.data
+ accessories[]: .flb_dealer4.chassis
+ accessories[]: .flb_dealer4.cabin
+ accessories[]: .flb_dealer4.interior
+ accessories[]: .flb_dealer4.engine
+ accessories[]: .flb_dealer4.transmission
+ accessories[]: .flb_dealer4.head_light
+ accessories[]: .flb_dealer4.ftire
+ accessories[]: .flb_dealer4.fdisc
+ accessories[]: .flb_dealer4.fhub
+ accessories[]: .flb_dealer4.fnuts
+ accessories[]: .flb_dealer4.rtire1
+ accessories[]: .flb_dealer4.rdisc1
+ accessories[]: .flb_dealer4.rhub1
+ accessories[]: .flb_dealer4.rnuts1
+ accessories[]: .flb_dealer4.paint_job
+ accessories[]: .flb_dealer4.mirror
+ accessories[]: .flb_dealer4.tanks
+ accessories[]: .flb_dealer4.fenders
+ accessories[]: .flb_dealer4.b_grill
+ accessories[]: .flb_dealer4.roof
+ accessories[]: .flb_dealer4.pipe
+ accessories[]: .flb_dealer4.mudf
+ accessories[]: .flb_dealer4.smudf
+ accessories[]: .flb_dealer4.frame
+ accessories[]: .flb_dealer4.steering_w
+ accessories[]: .flb_dealer4.ffenders
+ accessories[]: .flb_dealer4.tank_straps
+ accessories[]: .flb_dealer4.panels
+ accessories[]: .flb_dealer4.sndext
+ accessories[]: .flb_dealer4.sndint
+ accessories[]: .flb_dealer4.gauges
+ accessories[]: .flb_dealer4.racks
+ accessories[]: .flb_dealer4.badge
+ accessories[]: .flb_dealer4.trlr_cables
+ 
+ odometer: 0
+
+ odometer_float_part: &395cef6a
+
+}
+
+vehicle_accessory : .flb_dealer4.data
+ {
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/data.sii"
+
+}
+
+vehicle_accessory : .flb_dealer4.chassis
+ {
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/chassis/4x2.sii"
+
+}
+
+vehicle_accessory : .flb_dealer4.cabin
+ {
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/cabin/lowcab.sii"
+}
+
+vehicle_accessory : .flb_dealer4.interior
+ {
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/interior/standard.sii"
+
+}
+
+
+vehicle_accessory : .flb_dealer4.engine
+ {
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/engine/dds60_1.sii"
+
+}
+
+vehicle_accessory : .flb_dealer4.transmission
+ {
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/transmission/10_speed_ret.sii"
+
+}
+
+vehicle_accessory : .flb_dealer4.head_light
+ {
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/head_light/standard.sii"
+
+}
+
+vehicle_wheel_accessory : .flb_dealer4.ftire
+ {
+ wear: 0
+ data_path: "/def/vehicle/f_tire/1.sii"
+
+}
+
+vehicle_wheel_accessory : .flb_dealer4.fdisc
+ {
+ wear: 0
+ data_path: "/def/vehicle/f_disc/front_disc_02_matt_gray.sii"
+
+}
+
+
+vehicle_wheel_accessory : .flb_dealer4.fhub
+ {
+ wear: 0
+ data_path: "/def/vehicle/f_hub/front_hub_01.sii"
+
+}
+
+
+vehicle_wheel_accessory : .flb_dealer4.fnuts
+ {
+ wear: 0
+ data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+
+}
+
+
+vehicle_wheel_accessory : .flb_dealer4.rtire1
+ {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_tire/1.sii"
+
+}
+
+
+vehicle_wheel_accessory : .flb_dealer4.rdisc1
+{
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+
+}
+
+
+vehicle_wheel_accessory : .flb_dealer4.rhub1
+{
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+
+vehicle_wheel_accessory : .flb_dealer4.rnuts1
+{
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_paint_job_accessory : .flb_dealer4.paint_job
+ {
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/paint_job/beige.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.mirror
+{
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/accessory/mirror/shape1.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.tanks
+{
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/accessory/tanks/shape5.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.tank_straps
+{
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/accessory/tank_straps/shape1.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.fenders
+{
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/accessory/fenders/shape7.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.b_grill
+{
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/accessory/b_grill/shape1.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.roof
+{
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/accessory/roof/shape1.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.pipe
+{
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/accessory/pipe/shape5.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.mudf
+{
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/accessory/mudf/shape1.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.smudf
+{
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/accessory/smudf/shape1.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.frame
+{
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/accessory/frame/shape1.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.steering_w
+{
+	slot_name: 0
+	slot_hookup: 0
+	wear: 0
+	data_path: "/def/vehicle/truck/freightliner.flb/accessory/steering_w/standard.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.ffenders
+{
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/accessory/ffenders/shape1.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.panels
+{
+	slot_name: 0
+	slot_hookup: 0
+	wear: 0
+	data_path: "/def/vehicle/truck/freightliner.flb/accessory/panels/shape1.sii"
+}
+
+vehicle_sound_accessory : .flb_dealer4.sndint {
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/sound/dd60int.sii"
+}
+
+vehicle_sound_accessory : .flb_dealer4.sndext {
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/sound/dd60ext.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.gauges {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/freightliner.flb/accessory/gauges/green.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.racks
+{
+	slot_name: 0
+	slot_hookup: 0
+	wear: 0
+	data_path: "/def/vehicle/truck/freightliner.flb/accessory/racks/shape1.sii"
+}
+
+vehicle_addon_accessory: .flb_dealer4.badge
+{
+	slot_name: 0
+	slot_hookup: 0
+	wear: 0
+	data_path: "/def/vehicle/truck/freightliner.flb/badge/detroit.sii"
+}
+
+vehicle_addon_accessory : .flb_dealer4.trlr_cables {
+	wear: 0
+	data_path: "/def/vehicle/truck/freightliner.flb/accessory/trlr_cables/shape1.sii"
+}
+}
