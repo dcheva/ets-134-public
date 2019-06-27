@@ -2,7 +2,7 @@ SiiNunit
 {
 accessory_addon_data : painted.mack.rhpl.grill
 {
-	name: "Painted Frame"
+	name: "@@Paint@@"
 	price: 350
 	unlock: 0
 	icon: "mack.rhpl/grill_painted"

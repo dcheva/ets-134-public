@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "pipe_chrome_right.tobj"
+	texture_name : "texture"
+}

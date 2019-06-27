@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_addon_data : cleaner2p.mack.rhpl.lfilter
+{
+	name: "Cleaner 2 Painted"
+	price: 450
+	unlock: 0
+	icon: "mack.rhpl/cleaner2_painted"
+	exterior_model: "/vehicle/truck/upgrade/filters/mack.rhpl/l_filter.pmd"
+	interior_model: "/vehicle/truck/upgrade/filters/mack.rhpl/l_filter.pmd"
+	variant: hi_paint
+	look: default
+	
+	defaults[]: "/def/vehicle/truck/mack.rhpl/accessory/lbracket/bracketc.sii"
+	defaults[]: "/def/vehicle/truck/mack.rhpl/accessory/linlet/inlet2p.sii"
+}
+}

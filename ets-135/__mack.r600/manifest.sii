@@ -5,6 +5,9 @@ mod_package : .package_name {
     # Package version can be any string with any length.
     package_version: "1.4"
 
+   display_name: "Mack R Series"
+
+
     # Author can be any string with any length.
     author: "Harven & more"
 
@@ -15,6 +18,6 @@ mod_package : .package_name {
     icon: "icon.jpg"
 
     # Description file is a path relative to mod root directory.
-    description_file: "mod_description.txt"
+    description_file: "description.txt"
 }
 }

@@ -1,0 +1,47 @@
+SiiNunit
+{
+accessory_engine_data : etaz673.mack.rhpl.engine
+{
+	name: "Mack ETAZ 673A 11L"
+	price: 15300
+	unlock: 0
+	info[]: "315 @@hp@@ (235@@kw@@)"
+	info[]: "1050 @@lb_ft@@ (1424@@nm@@)"
+	info[]: "1@@dg@@450 @@rpm@@"
+	icon: "mack.rhpl/etaz673"
+	torque: 1424
+
+	torque_curve[]: (300, 0.2)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (900, 0.6)
+	torque_curve[]: (1000, 0.647)
+	torque_curve[]: (1100, 0.776)
+	torque_curve[]: (1200, 0.886)
+	torque_curve[]: (1300, 0.952)
+	torque_curve[]: (1400, 0.986)
+	torque_curve[]: (1450, 1)
+	torque_curve[]: (1500, 0.986)
+	torque_curve[]: (1600, 0.961)
+	torque_curve[]: (1700, 0.914)
+	torque_curve[]: (1800, 0.871)
+	torque_curve[]: (1900, 0.819)
+	torque_curve[]: (2000, 0.761)
+	torque_curve[]: (2100, 0.7)
+
+	rpm_idle: 650
+	rpm_limit: 2500
+	rpm_limit_neutral: 2500
+	rpm_range_low_gear: (1100, 1900)
+	rpm_range_high_gear: (1200, 1900)
+	rpm_range_power_boost: (150, 50)
+
+	volume: 11.0
+
+	engine_brake: 2.0
+	engine_brake_downshift: true
+	engine_brake_positions: 1
+	
+	overrides[]: "/def/vehicle/truck/mack.rhpl/sound/e6int.sii"
+	overrides[]: "/def/vehicle/truck/mack.rhpl/sound/e6ext.sii"
+}
+}

@@ -1,0 +1,11 @@
+material : "eut2.dif.spec.tsnmapuv.rfx" {
+	texture[0] : "/vehicle/truck/mack.rhpl/textures/ao_charlie.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/vehicle/truck/mack.rhpl/textures/uv_charlie.tobj"
+	texture_name[1] : "texture_nmap"
+	add_ambient : 0
+	diffuse : { 0.128797 , 0.134802 , 0.154284 }
+	reflection : 0
+	shininess : 121
+	specular : { 1 , 1 , 1 }
+}

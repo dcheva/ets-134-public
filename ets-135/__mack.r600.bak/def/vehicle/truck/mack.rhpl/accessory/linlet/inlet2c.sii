@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_addon_data : inlet2c.mack.rhpl.linlet
+{
+	name: "Inlet 1 Chrome"
+	price: 125
+	unlock: 0
+	icon: "mack.rhpl/inlet2_chrome"
+	exterior_model: "/vehicle/truck/upgrade/filters/mack.rhpl/l_inlet.pmd"
+	interior_model: "/vehicle/truck/upgrade/filters/mack.rhpl/l_inlet.pmd"
+	variant: hi_1_chr
+	look: default
+
+	suitable_for[]: cleaner2p.mack.rhpl.lfilter
+	suitable_for[]: cleaner2c.mack.rhpl.lfilter
+}
+}

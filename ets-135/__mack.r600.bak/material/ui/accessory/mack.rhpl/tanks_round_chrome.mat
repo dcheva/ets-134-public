@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "tanks_round_chrome.tobj"
+	texture_name : "texture"
+}

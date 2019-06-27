@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : straightb.mack.rhpl.exhaust
+{
+	name: "Both Straight"
+	price: 1400
+	unlock: 0
+	icon: "mack.rhpl/pipe_straight_both"
+	exterior_model: "/vehicle/truck/upgrade/exhaust/mack.rhpl/smokestacks.pmd"
+	interior_model: "/vehicle/truck/upgrade/exhaust/mack.rhpl/smokestacks.pmd"
+	variant: b_straight
+	look: default
+}
+}

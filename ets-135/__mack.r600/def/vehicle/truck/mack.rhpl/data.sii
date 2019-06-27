@@ -15,7 +15,7 @@ accessory_truck_data : vehicle.mack.rhpl
 	tv_camera: camera.tv.basic
 	debug_camera: camera.debug
 
-	fallback[]: "chassis|151st70.sii"
+	fallback[]: "chassis|169st70.sii"
 	fallback[]: "cabin|r600day.sii"
 	fallback[]: "interior|r6daytan.sii"
 	fallback[]: "engine|endt675.sii"

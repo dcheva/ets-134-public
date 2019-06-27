@@ -1,7 +1,5 @@
 
-	wiper_duration_and_delay[]: (1.5, 2.5)
-	wiper_duration_and_delay[]: (1.5, 0.2)
-	wiper_duration_and_delay[]: (1.3, 0)
+	wiper_delay[]: 2
 	blinker_delay: 0.5
 
 	wiper_anim: "/vehicle/truck/mack.rhpl/interior/wiper.pma"

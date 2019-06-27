@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "glass_set.tobj"
+	texture_name : "texture"
+}

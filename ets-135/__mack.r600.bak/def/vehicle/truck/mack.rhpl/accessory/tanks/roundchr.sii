@@ -1,0 +1,19 @@
+SiiNunit
+{
+accessory_addon_data : roundchr.mack.rhpl.tanks
+{
+	name: "Round Chrome"
+	price: 550
+	unlock: 0
+	icon: "mack.rhpl/tanks_round_chrome"
+	exterior_model: "/vehicle/truck/upgrade/fueltanks/mack.rhpl/tanks_round.pmd"
+	variant: 75_round_chr
+	look: default
+	
+	suitable_for[]: 151st70.mack.rhpl.chassis
+	suitable_for[]: 169st70.mack.rhpl.chassis
+	suitable_for[]: 187st70.mack.rhpl.chassis
+	
+	defaults[]: "/def/vehicle/truck/mack.rhpl/accessory/straps/roundst.sii"
+}
+}

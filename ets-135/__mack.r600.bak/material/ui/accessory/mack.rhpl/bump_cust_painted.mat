@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "bump_cust_painted.tobj"
+	texture_name : "texture"
+}

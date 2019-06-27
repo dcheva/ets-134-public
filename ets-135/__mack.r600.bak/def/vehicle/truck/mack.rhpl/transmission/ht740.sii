@@ -1,0 +1,24 @@
+SiiNunit
+{
+accessory_transmission_data : ht740.mack.rhpl.transmission
+{
+	name: "Allison HT 740D (Automatic)"
+	price: 12450
+	unlock: 0
+	icon: "mack.rhpl/allison"
+	
+	crawls: 0
+	differential_ratio: 3.87
+
+	ratios_reverse[0]: -6.035
+	
+	ratios_forward[0]: 3.692
+	ratios_forward[1]: 2.021
+	ratios_forward[2]: 1.383
+	ratios_forward[3]: 1.00
+	
+	retarder: 0
+
+	stall_torque_ratio: 1.83
+}
+}

@@ -1,0 +1,11 @@
+material : "eut2.dif.spec.mult.dif.spec.rfx" {
+	texture[0] : "/vehicle/truck/mack.rhpl/textures/ao_dashboard.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/vehicle/truck/mack.rhpl/textures/vinyl_leather.tobj"
+	texture_name[1] : "texture_mult"
+	add_ambient : 0
+	diffuse : { 0.470663 , 0.285878 , 0.180604 }
+	reflection : 0
+	shininess : 40
+	specular : { 1 , 1 , 1 }
+}

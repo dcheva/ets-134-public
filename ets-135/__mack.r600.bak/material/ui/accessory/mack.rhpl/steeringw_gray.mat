@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "steeringw_gray.tobj"
+	texture_name : "texture"
+}

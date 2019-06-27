@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : standards.mack.rhpl.mirror
+{
+	name: "Stock with Small Round"
+	price: 290
+	unlock: 0
+	icon: "mack.rhpl/mirror_chrome_big"
+	exterior_model: "/vehicle/truck/upgrade/mirror/mack.rhpl/mirror.pmd"
+	interior_model: "/vehicle/truck/upgrade/mirror/mack.rhpl/mirror_interior.pmd"
+	variant: big_chr
+	look: default
+}
+}

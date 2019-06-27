@@ -1,0 +1,22 @@
+SiiNunit
+{
+accessory_paint_job_data : multir.mack.rhpl.paint_job
+{
+	name: "Mack Multi r"
+	price: 8500
+	unlock: 0
+	icon: "paintjob_mackr_multir"
+	
+	base_color_locked: false
+	base_color: (0, &3e3ce706, &3e52002b)
+
+	mask_r_locked: false
+	mask_r_color: (&3cfb9ac6, &3cfb9ac6, &3cfb9ac6)
+	mask_g_locked: false
+	mask_g_color: (&3f2c253f, &3f2c253f, &3f2c253f)
+	mask_b_locked: false
+	mask_b_color: (&3d887330, &3d887330, &3d887330)
+	
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/mack.rhpl/multir/cabin.tobj"
+}
+}

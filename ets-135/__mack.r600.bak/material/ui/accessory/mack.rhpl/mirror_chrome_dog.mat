@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "mirror_chrome_dog.tobj"
+	texture_name : "texture"
+}

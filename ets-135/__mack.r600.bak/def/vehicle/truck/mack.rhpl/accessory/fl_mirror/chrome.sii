@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_data : chrome.mack.rhpl.fl_mirror
+{
+	name: "Chrome"
+	price: 380
+	unlock: 0
+	icon: "mack.rhpl/mirror_front"
+	//exterior_model: "/vehicle/truck/upgrade/mirror/mack.rhpl/mirror_front.pmd"
+	//interior_model: "/vehicle/truck/upgrade/mirror/mack.rhpl/mirror_front_int.pmd"
+	exterior_model: "/vehicle/truck/upgrade/mirror/mack.rhpl/mirror_front_ets.pmd"
+	interior_model: "/vehicle/truck/upgrade/mirror/mack.rhpl/mirror_front_ets_int.pmd"
+	variant: default
+	look: default
+}
+}

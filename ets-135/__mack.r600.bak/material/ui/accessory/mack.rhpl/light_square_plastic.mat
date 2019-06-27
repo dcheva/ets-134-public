@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "light_square_plastic.tobj"
+	texture_name : "texture"
+}

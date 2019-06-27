@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_paint_job_data : color5.mack.rhpl.paint_job
+{
+	name: "Orange"
+	price: 2600
+	unlock: 0
+	base_color: (&3f3ed2d4, &3e198f11, &3c15a703)
+	base_color_locked: true
+	stock: false
+}
+}

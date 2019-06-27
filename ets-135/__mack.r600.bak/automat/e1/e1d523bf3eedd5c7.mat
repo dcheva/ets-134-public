@@ -1,0 +1,5 @@
+material : "eut2.unlit.vcol.tex.decal.over.rfx" {
+	texture[0] : "/vehicle/truck/mack.rhpl/textures/indicators_lit.tobj"
+	texture_name[0] : "texture_base"
+	diffuse : { 1 , 1 , 1 }
+}

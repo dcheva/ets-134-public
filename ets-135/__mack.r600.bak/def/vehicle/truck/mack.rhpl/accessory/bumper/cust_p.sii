@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : cust_p.mack.rhpl.bumper
+{
+	name: "Custom Painted"
+	price: 890
+	unlock: 0
+	icon: "mack.rhpl/bump_cust_painted"
+	exterior_model: "/vehicle/truck/upgrade/bumper/mack.rhpl/bumper_custom.pmd"
+	variant: painted
+	look: default
+}
+}

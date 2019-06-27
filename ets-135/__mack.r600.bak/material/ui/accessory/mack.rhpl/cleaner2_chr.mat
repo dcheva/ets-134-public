@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "cleaner2_chr.tobj"
+	texture_name : "texture"
+}

@@ -30,7 +30,7 @@ accessory_engine_data : 700hp.kamaztruck.engine
 	rpm_range_low_gear: (1200, 2200)
 	rpm_range_high_gear: (1350, 1900)	
 
-	rpm_idle: 400
+	rpm_idle: 700
 	rpm_limit: 2400
 	rpm_limit_neutral: 2400
 	rpm_range_low_gear: (1100, 1600)

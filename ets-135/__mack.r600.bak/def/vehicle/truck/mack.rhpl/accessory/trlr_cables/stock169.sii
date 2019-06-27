@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_trailer_cables_data : stock169.mack.rhpl.trlr_cables
+{
+	//exterior_model: "/vehicle/truck/upgrade/trlr_cables/trlr_cables.pmd"
+	exterior_model: "/vehicle/truck/upgrade/trlr_cables/mack.rhpl/trlr_cables_ets169.pmd"
+
+@include "/def/vehicle/truck/common_trlr_cables.sui"
+
+}
+
+@include "/def/vehicle/truck/common_trlr_cables_data.sui"
+
+}

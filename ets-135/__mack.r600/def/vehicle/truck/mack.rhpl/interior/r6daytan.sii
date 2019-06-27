@@ -23,7 +23,8 @@ accessory_interior_data: r6daytan.mack.rhpl.interior
 	
 @include "animations.sui"
 
-@include "computers.sui"
+//@include "computers.sui"
+@include "computers_ets2.sui"
 
 	air_brake_safeguard: true
 	

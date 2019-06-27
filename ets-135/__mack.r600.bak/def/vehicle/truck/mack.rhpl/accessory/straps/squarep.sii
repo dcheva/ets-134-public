@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_addon_data : squarep.mack.rhpl.straps
+{
+	name: "Painted"
+	price: 180
+	unlock: 0
+	icon: "mack.rhpl/tank_straps_painted"
+	exterior_model: "/vehicle/truck/upgrade/fueltanks/mack.rhpl/tanks_straps_square.pmd"
+	variant: painted
+	look: default
+	
+	suitable_for[]: squareal.mack.rhpl.tanks
+	suitable_for[]: squarep.mack.rhpl.tanks
+	suitable_for[]: squarechr.mack.rhpl.tanks
+}
+}

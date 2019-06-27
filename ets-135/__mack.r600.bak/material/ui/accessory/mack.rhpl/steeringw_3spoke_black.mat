@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "steeringw_3spoke_black.tobj"
+	texture_name : "texture"
+}

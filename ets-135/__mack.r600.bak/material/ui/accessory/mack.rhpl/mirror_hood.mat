@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "mirror_hood.tobj"
+	texture_name : "texture"
+}

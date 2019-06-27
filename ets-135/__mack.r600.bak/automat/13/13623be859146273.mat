@@ -1,0 +1,14 @@
+material : "eut2.glass.rfx" {
+	texture[0] : "/vehicle/share/textures/metal/chrome.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/vehicle_reflection.tobj"
+	texture_name[1] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 0.352919 , 0.352919 , 0.352919 }
+	env_factor : { 1.35326 , 0.254226 , 0.105614 }
+	fresnel : { 0.2 , 0.9 }
+	shininess : 60
+	specular : { 1 , 1 , 1 }
+	tint : { 1.19418 , 0.156516 , 0.0134319 }
+	tint_opacity : 0.1
+}

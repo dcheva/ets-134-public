@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : quarterp.mack.rhpl.mudguard
+{
+	name: "Quarter Painted"
+	price: 360
+	unlock: 0
+	icon: "mack.rhpl/fender_quarter_painted"
+	exterior_model: "/vehicle/truck/upgrade/fender/mack.rhpl/fenders.pmd"
+	variant: quarter_p
+	look: default
+}
+}

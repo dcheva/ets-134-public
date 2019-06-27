@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape01.mack.rhpl.horns
+{
+	name: "Horn Adapter"
+	price: 50
+	unlock: 0
+	icon: "horns"
+	exterior_model: "/vehicle/truck/upgrade/horns/mack.rhpl/horns.pmd"
+	interior_model: "/vehicle/truck/upgrade/horns/mack.rhpl/horns_int.pmd"
+}
+}

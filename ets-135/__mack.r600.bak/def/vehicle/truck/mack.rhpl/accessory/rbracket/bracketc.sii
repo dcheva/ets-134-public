@@ -1,0 +1,19 @@
+SiiNunit
+{
+accessory_addon_data : bracketc.mack.rhpl.rbracket
+{
+	name: "Bracket Chrome"
+	price: 25
+	unlock: 0
+	icon: "mack.rhpl/cleaner_bracket_chrome"
+	exterior_model: "/vehicle/truck/upgrade/filters/mack.rhpl/r_bracket.pmd"
+	interior_model: "/vehicle/truck/upgrade/filters/mack.rhpl/r_bracket.pmd"
+	variant: default
+	look: default
+
+	suitable_for[]: cleaner1c.mack.rhpl.rfilter
+	suitable_for[]: cleaner1p.mack.rhpl.rfilter
+	suitable_for[]: cleaner2p.mack.rhpl.rfilter
+	suitable_for[]: cleaner2c.mack.rhpl.rfilter
+}
+}

@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : heavy_chr.mack.rhpl.bumper
+{
+	name: "Heavy Chrome"
+	price: 900
+	unlock: 0
+	icon: "mack.rhpl/bump_heavy_chr"
+	exterior_model: "/vehicle/truck/upgrade/bumper/mack.rhpl/bumper_heavy.pmd"
+	variant: chrome
+	look: default
+}
+}

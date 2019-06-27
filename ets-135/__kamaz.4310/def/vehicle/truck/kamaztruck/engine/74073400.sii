@@ -26,7 +26,7 @@ accessory_engine_data : 74073400.kamaztruck.engine
 	torque_curve[]: (2100, 0.87)
 	torque_curve[]: (2340, 0)
 
-	rpm_idle: 400
+	rpm_idle: 600
 	rpm_limit: 2400
 	rpm_limit_neutral: 2400
 	rpm_range_low_gear: (1000, 1500)

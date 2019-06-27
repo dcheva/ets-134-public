@@ -81,8 +81,8 @@ economy_data : economy.data.storage
 	driver_maintenance_cost: (0.4, 0.6)	# maintenance + insurance, base range in E/km // 1.8/10 and 3/10 // 1.8, 3.0
 
 	minimal_driver_salary:	167			# fixed part of driver's pay // 350
-	driver_revenue_coef_per_km: 0.07  # Revenue coefficient used during quick job and drivers jobs. // // 0.67
-	driver_cargo_market_revenue_coef_per_km: 0.1	# Revenue coefficient used during cargo market jobs for drivers. // 0.70
+	driver_revenue_coef_per_km: 0.05  # Revenue coefficient used during quick job and drivers jobs. // // 0.67
+	driver_cargo_market_revenue_coef_per_km: 0.07	# Revenue coefficient used during cargo market jobs for drivers. // 0.70
 
 	driver_hire_cost: 965		# Euro // 1500
 

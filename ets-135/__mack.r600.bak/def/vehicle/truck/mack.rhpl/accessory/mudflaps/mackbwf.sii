@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_data : mackbwf.mack.rhpl.mudflaps
+{
+	name: "Mack Logo"
+	price: 50
+	unlock: 0
+	icon: "mack.rhpl/mudflap_f_mack_bw"
+	exterior_model: "/vehicle/truck/upgrade/mudflaps/mack.rhpl/mudflaps.pmd"
+	variant: f_mack
+	look: default
+	
+	suitable_for[]: fullchr.mack.rhpl.mudguard
+	suitable_for[]: fullp.mack.rhpl.mudguard
+}
+}

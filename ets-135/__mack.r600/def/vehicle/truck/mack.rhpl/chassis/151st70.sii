@@ -3,11 +3,11 @@ SiiNunit
 accessory_chassis_data : 151st70.mack.rhpl.chassis
 {
 	name: "6xxST 151 WB 140 @@gal@@"
-	//price: 29800
-	price: 0
+	price: 29800
 	unlock: 0
-	icon: "mack.rhpl/st151_70"	
-	
+	price: 0
+	icon: "mack.rhpl/st151_70"
+
 	info[]: "6x4 SWS 573 Camelback Bogie"
 	info[]: "70/70 @@gal@@"
 
@@ -16,7 +16,7 @@ accessory_chassis_data : 151st70.mack.rhpl.chassis
 
 	variant: ch6x4_151
 	look: default
-	
+
 	model: "/vehicle/truck/mack.rhpl/truck.pmd"
 	collision: "/vehicle/truck/mack.rhpl/truck.pmc"
 	extended_shadow_texture: "/vehicle/truck/mack.rhpl/textures/shadow_151_70.tobj"
@@ -25,11 +25,10 @@ accessory_chassis_data : 151st70.mack.rhpl.chassis
 	extended_shadow_fadeout_length: 0
 	ui_shadow: "/vehicle/truck/mack.rhpl/ui_shadow_151_70.pmd"
 
-
 	residual_travel[]: 0.12 	# 1st axle
-	residual_travel[]: 0.08 	# 2nd axle
-	residual_travel[]: 0.08 	# 3rd axle
-	
+	residual_travel[]: 0.10 	# 2nd axle
+	residual_travel[]: 0.10 	# 3rd axle
+
 	powered_axle[0]: false	# front axle
 	powered_axle[1]: true	# rear axle
 	powered_axle[2]: true	# rear axle
@@ -37,9 +36,9 @@ accessory_chassis_data : 151st70.mack.rhpl.chassis
 	kerb_weight[0]:	4222.0
 	kerb_weight[1]:	1389.0
 	kerb_weight[2]:	1389.0
-	
+
 	defaults[]: "/def/vehicle/truck/mack.rhpl/accessory/chass/6x4_151_st.sii"
 	defaults[]: "/def/vehicle/truck/mack.rhpl/accessory/tanks/squareal.sii"
-	overrides[]: "/def/vehicle/truck/mack.rhpl/accessory/trlr_cables/stock.sii"
+	defaults[]: "/def/vehicle/truck/mack.rhpl/accessory/trlr_cables/stock.sii"
 }
 }

@@ -1,0 +1,12 @@
+material : "eut2.dif.spec.add.env.nofresnel.rfx" {
+	texture[0] : "/vehicle/share/textures/generic/white_0.tobj"
+	texture_name[0] : "texture_base"
+	texture[1] : "/material/environment/interior_static/interior_static.tobj"
+	texture_name[1] : "texture_reflection"
+	add_ambient : 0
+	diffuse : { 0.309314 , 0.189914 , 0.121392 }
+	env_factor : { 0.0331048 , 0.0331048 , 0.0331048 }
+	reflection : 0
+	shininess : 120
+	specular : { 1 , 1 , 1 }
+}

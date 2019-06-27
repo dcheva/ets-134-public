@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : stockl.mack.rhpl.exhaust
+{
+	name: "Stock Left"
+	price: 270
+	unlock: 0
+	icon: "mack.rhpl/pipe_stock_left"
+	exterior_model: "/vehicle/truck/upgrade/exhaust/mack.rhpl/smokestacks.pmd"
+	interior_model: "/vehicle/truck/upgrade/exhaust/mack.rhpl/smokestacks.pmd"
+	variant: l_stock
+	look: default
+}
+}

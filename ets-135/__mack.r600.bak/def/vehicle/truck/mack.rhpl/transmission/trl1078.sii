@@ -1,0 +1,23 @@
+SiiNunit
+{
+accessory_transmission_data : trl1078.mack.rhpl.transmission
+{
+	name: "Maxitorque TRL 1078 (5 Spd)"
+	price: 10420
+	unlock: 0
+	icon: "mack.rhpl/maxitorque"
+	
+	crawls: 0
+	differential_ratio: 3.87
+
+	ratios_reverse[0]: -8.81
+	
+	ratios_forward[0]: 8.59
+	ratios_forward[1]: 4.99
+	ratios_forward[2]: 2.84
+	ratios_forward[3]: 1.66
+	ratios_forward[4]: 1
+
+	retarder: 0
+}
+}

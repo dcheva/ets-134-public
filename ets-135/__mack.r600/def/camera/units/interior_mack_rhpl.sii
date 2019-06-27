@@ -137,8 +137,7 @@ camera_azimuth_range: _nameless.ultra.ar.80
 camera_azimuth_range: _nameless.ultra.ar.90
 {
 	start_azimuth: 80
-	//end_azimuth: 115
-	end_azimuth: 140
+	end_azimuth: 115
 
 	outside: false
 
@@ -160,10 +159,8 @@ camera_azimuth_range: _nameless.ultra.ar.90
 
 camera_azimuth_range: _nameless.ultra.ar.115
 {
-	//start_azimuth: 115
-	start_azimuth: 140
-	//end_azimuth: 130
-	end_azimuth: 160
+	start_azimuth: 115
+	end_azimuth: 130
 
 	outside: true
 

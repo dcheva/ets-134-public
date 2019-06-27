@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_addon_data : deck151.mack.rhpl.deckplate
+{
+	name: "Deck Plate"
+	price: 147
+	unlock: 0
+	icon: "mack.rhpl/deck_plate"
+	exterior_model: "/vehicle/truck/upgrade/deckplate/mack.rhpl/deck_plate.pmd"
+	variant: wb_151
+	look: default
+	
+	suitable_for[]: 151st70.mack.rhpl.chassis
+}
+}
