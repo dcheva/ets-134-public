@@ -1,0 +1,161 @@
+SiiNunit
+{
+vehicle : .company.truck
+{
+ accessories[]: .renault2.data
+ accessories[]: .renault2.chassis
+ accessories[]: .renault2.cabin
+ accessories[]: .renault2.interior
+ accessories[]: .renault2.engine
+ accessories[]: .renault2.transmission
+ accessories[]: .renault2.soundint
+ accessories[]: .renault2.soundext
+ accessories[]: .renault2.head_light
+ accessories[]: .renault2.paint_job
+ accessories[]: .renault2.mirror
+ accessories[]: .renault2.ftire
+ accessories[]: .renault2.fdisc
+ accessories[]: .renault2.fhub
+ accessories[]: .renault2.fnuts
+ accessories[]: .renault2.rtire
+ accessories[]: .renault2.rdisc
+ accessories[]: .renault2.rhub
+ accessories[]: .renault2.rnuts
+ accessories[]: .renault2.rtire2
+ accessories[]: .renault2.rdisc2
+ accessories[]: .renault2.rhub2
+ accessories[]: .renault2.rnuts2
+}
+
+vehicle_accessory : .renault2.data {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/data.sii"
+}
+
+vehicle_accessory : .renault2.chassis {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/chassis/6x4.sii"
+}
+
+vehicle_accessory : .renault2.cabin {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/cabin/low.sii"
+}
+
+vehicle_accessory : .renault2.interior {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/interior/standard.sii"
+}
+
+vehicle_accessory : .renault2.engine {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/engine/74073400.sii"
+}
+vehicle_accessory : .renault2.transmission {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/transmission/10_speed.sii"
+}
+
+vehicle_sound_accessory : .renault2.soundint {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/sound/interior.sii"
+}
+
+vehicle_sound_accessory : .renault2.soundext {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/sound/exterior.sii"
+}
+
+vehicle_accessory : .renault2.head_light {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/head_light/standard.sii"
+}
+
+vehicle_paint_job_accessory : .renault2.paint_job {
+ mask_r_color: (1, 0, 0)
+ mask_g_color: (0, 1, 0)
+ mask_b_color: (0, 0, 1)
+ base_color: (&3e7bb2ff, &3c5b8bac, &3c54fdf4)
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/paint_job/color3.sii"
+}
+vehicle_addon_accessory : .renault2.mirror {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/accessory/mirror/shape2.sii"
+}
+vehicle_wheel_accessory : .renault2.ftire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_tire/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .renault2.fdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_disc/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .renault2.fhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_hub/front_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .renault2.fnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .renault2.rtire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_tire/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .renault2.rdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_disc/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .renault2.rhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .renault2.rnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .renault2.rtire2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_tire/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .renault2.rdisc2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_disc/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .renault2.rhub2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .renault2.rnuts2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+}
+
+
