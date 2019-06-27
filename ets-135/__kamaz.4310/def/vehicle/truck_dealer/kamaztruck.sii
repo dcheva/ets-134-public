@@ -1,6 +1,6 @@
 SiiNunit
 {
-vehicle : .company.truck
+vehicle: .tdealer.kamaztruck
 {
  accessories[]: .kamaztruck.data
  accessories[]: .kamaztruck.chassis
