@@ -98,7 +98,7 @@ economy_data : economy.data.storage
 #################################################################
 ##
 ## Skill job filtering
-##  Job distance limit (in km of real world)
+## Job distance limit (in km of real world)
 ##
 	skill_distance[0]:	300 // 250
 	skill_distance[1]:	500 // 350
