@@ -1,9 +1,0 @@
-material : "eut2.dif.spec.rfx" {
-	texture[0] : "/vehicle/share/textures/generic/white_0.tobj"
-	texture_name[0] : "texture_base"
-	add_ambient : 0
-	diffuse : { 0.0251969 , 0.0251969 , 0.0251969 }
-	reflection : 0
-	shininess : 60
-	specular : { 0.411585 , 0.411585 , 0.411585 }
-}

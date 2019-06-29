@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "light_rounded_chrome.tobj"
-	texture_name : "texture"
-}

@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "r600day.tobj"
-	texture_name : "texture"
-}

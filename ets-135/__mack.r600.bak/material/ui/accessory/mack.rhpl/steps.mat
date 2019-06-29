@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "steps.tobj"
-	texture_name : "texture"
-}

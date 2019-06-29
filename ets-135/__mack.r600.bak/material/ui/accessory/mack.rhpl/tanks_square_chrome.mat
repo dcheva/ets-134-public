@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "tanks_square_chrome.tobj"
-	texture_name : "texture"
-}

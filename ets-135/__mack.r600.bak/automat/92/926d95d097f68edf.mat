@@ -1,9 +1,0 @@
-material : "eut2.dif.spec.rfx" {
-	texture[0] : "/vehicle/truck/mack.rhpl/textures/ao_int_parts.tobj"
-	texture_name[0] : "texture_base"
-	add_ambient : 0
-	diffuse : { 0.0246547 , 0.0246547 , 0.0246547 }
-	reflection : 0
-	shininess : 40
-	specular : { 1 , 1 , 1 }
-}

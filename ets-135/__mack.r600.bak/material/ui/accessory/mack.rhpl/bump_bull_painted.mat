@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "bump_bull_painted.tobj"
-	texture_name : "texture"
-}

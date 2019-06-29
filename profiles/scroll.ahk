@@ -1,5 +1,8 @@
-`::LButton
-!`::RButton
+!`::LButton
+
+;`::LButton
+;!`::RButton
+
 !1::WheelUp
 !q::WheelDown
 

@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "pipe_big_left.tobj"
-	texture_name : "texture"
-}
