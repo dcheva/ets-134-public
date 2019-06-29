@@ -34,7 +34,7 @@ economy_data : economy.data.storage
 
 	late_delivery_max_overtime[0]: 960	# 16 hours for "easy" deliveries // 2880
 	late_delivery_max_overtime[1]: 480	# 8 hours for "normal" deliveries // 720
-	late_delivery_max_overtime[2]: 120	# 2 hours for "urgent" deliveries // 240
+	late_delivery_max_overtime[2]: 240	# 4 hours for "urgent" deliveries // 240
 
 	simulation_avg_speed: 60.0	# km/h // 62
 	### city limit 50, highway 90, traffic calculated
@@ -48,8 +48,8 @@ economy_data : economy.data.storage
 #
 #########################################
 	maximum_driving_time: 600	# 10h working shift duration // 660
-## (in minutes), 8 to drive and 2 to find parking
-	sleeping_time: 240			# 4h rest duration (in minutes) // 540
+	## (in minutes), 8 to drive and 2 to find parking
+	sleeping_time: 240		# 4h rest duration (in minutes) // 540
 #########################################
 
 	delivery_window[0]: 480		# easy // 400
