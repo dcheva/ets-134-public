@@ -189,13 +189,13 @@ sound_data: .t
 sound_data: .airgear0
 {
 	name: "/sound/truck/kamaz6460/int/gear_air_1.ogg"
-	volume: 0.5
+	volume: 0.6
 }
 
 sound_data: .airgear1
 {
 	name: "/sound/truck/kamaz6460/int/gear_air_2.ogg"
-	volume: 0.3
+	volume: 0.4
 }
 
 sound_data: .airgear2
@@ -207,7 +207,7 @@ sound_data: .airgear2
 sound_data: .airgear3
 {
 	name: "/sound/truck/kamaz6460/int/gear_air_4.ogg"
-	volume: 0.6
+	volume: 0.3
 }
 
 sound_data: .airbrake0
@@ -248,7 +248,7 @@ sound_data: .blinker_on
 }
 
 sound_data: .blinker_off
-{
+{              
 	name: "/sound/truck/kamaz6460/int/blinker_off.ogg"
 	is_2d: true
 	volume: 0.35
