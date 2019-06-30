@@ -7,24 +7,26 @@ accessory_engine_data : 700hp.kamaztruck.engine
 	unlock: 0
 	info[]: "700 @@hp@@ (520@@kw@@)"
 	info[]: "4@@dg@@375 @@nm@@"
-	info[]: "1@@dg@@300-1@@dg@@900 @@rpm@@"
+	info[]: "1@@dg@@300-1@@dg@@700 @@rpm@@"
 	icon: "daf_logo"
 
+	torque: 4375
+	volume:	12.26
+
 	torque_curve[]: (300, 0)
-	torque_curve[]: (400, 0.5)
-	torque_curve[]: (1000, 0.88)
-	torque_curve[]: (1100, 0.93)
-	torque_curve[]: (1200, 0.98)
-	torque_curve[]: (1300, 0.99)
-	torque_curve[]: (1400, 0.97)
-	torque_curve[]: (1500, 0.95)
-	torque_curve[]: (1600, 0.93)
-	torque_curve[]: (1700, 0.90)
-	torque_curve[]: (1800, 0.86)
-	torque_curve[]: (1900, 0.83)
-	torque_curve[]: (2000, 0.77)
-	torque_curve[]: (2100, 0.66)
-	torque_curve[]: (2500, 0)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (800, 0.65)
+	torque_curve[]: (1300, 0.97)
+	torque_curve[]: (1400, 0.99)
+	torque_curve[]: (1500, 1)
+	torque_curve[]: (1600, 0.99)
+	torque_curve[]: (1700, 0.98)
+	torque_curve[]: (1800, 0.96)
+	torque_curve[]: (1900, 0.93)
+	torque_curve[]: (2000, 0.89)
+	torque_curve[]: (2100, 0.84)
+	torque_curve[]: (2200, 0.76)
+	torque_curve[]: (2400, 0)
 	
 	rpm_idle: 600
 	rpm_limit: 2000
