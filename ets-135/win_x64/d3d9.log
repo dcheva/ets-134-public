@@ -1,261 +1,68 @@
-00:05:30:834 [05584] | INFO  | Initializing crosire's ReShade version '4.3.0.563' (64-bit) built on '2019-05-25 19:00:11' loaded from "C:\ETS\bin\win_x64\d3d9.dll" to "C:\ETS\bin\win_x64\eurotrucks2.exe" ...
-00:05:30:897 [05584] | INFO  | Registering hooks for "user32.dll" ...
-00:05:30:897 [05584] | INFO  | > Libraries loaded.
-00:05:30:898 [05584] | INFO  | > Found 13 match(es). Installing ...
-00:05:30:911 [05584] | INFO  | Registering hooks for "ws2_32.dll" ...
-00:05:30:911 [05584] | INFO  | > Libraries loaded.
-00:05:30:912 [05584] | INFO  | > Found 8 match(es). Installing ...
-00:05:30:924 [05584] | INFO  | Registering hooks for "C:\Windows\system32\d3d9.dll" ...
-00:05:30:924 [05584] | INFO  | > Delayed until first call to an exported function.
-00:05:30:924 [05584] | INFO  | Registering hooks for "C:\Windows\system32\d3d10.dll" ...
-00:05:30:925 [05584] | INFO  | > Delayed.
-00:05:30:925 [05584] | INFO  | Registering hooks for "C:\Windows\system32\d3d10_1.dll" ...
-00:05:30:925 [05584] | INFO  | > Delayed.
-00:05:30:925 [05584] | INFO  | Registering hooks for "C:\Windows\system32\d3d11.dll" ...
-00:05:30:925 [05584] | INFO  | > Libraries loaded.
-00:05:30:925 [05584] | INFO  | > Found 2 match(es). Installing ...
-00:05:30:936 [05584] | INFO  | Registering hooks for "C:\Windows\system32\d3d12.dll" ...
-00:05:30:937 [05584] | INFO  | > Delayed.
-00:05:30:937 [05584] | INFO  | Registering hooks for "C:\Windows\system32\dxgi.dll" ...
-00:05:30:937 [05584] | INFO  | > Libraries loaded.
-00:05:30:937 [05584] | INFO  | > Found 7 match(es). Installing ...
-00:05:30:948 [05584] | INFO  | Registering hooks for "C:\Windows\system32\opengl32.dll" ...
-00:05:30:948 [05584] | INFO  | > Delayed.
-00:05:30:948 [05584] | INFO  | Initialized.
-00:05:30:948 [05584] | INFO  | Redirecting Direct3DCreate9Ex(32, 00000200E50F7CD0) ...
-00:05:30:950 [05584] | INFO  | Installing export hooks for "C:\Windows\system32\d3d9.dll" ...
-00:05:30:950 [05584] | INFO  | > Found 9 match(es). Installing ...
-00:05:31:009 [05584] | INFO  | Redirecting CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 00000011602FE770) ...
-00:05:31:009 [05584] | INFO  | > Passing on to CreateDXGIFactory1:
-00:05:31:009 [05584] | INFO  | Redirecting CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 00000011602FE770) ...
-00:05:31:065 [05584] | INFO  | Redirecting IDirect3D9Ex::CreateDeviceEx(0000020093144820, 0, 1, 0000000000E40568, 0x52, 00000011602FEA50, 0000000000000000, 00000200E50F7CE0) ...
-00:05:31:065 [05584] | INFO  | > Dumping presentation parameters:
-00:05:31:065 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:05:31:065 [05584] | INFO  |   | Parameter                               | Value                                   |
-00:05:31:065 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:05:31:065 [05584] | INFO  |   | BackBufferWidth                         | 0                                       |
-00:05:31:065 [05584] | INFO  |   | BackBufferHeight                        | 0                                       |
-00:05:31:065 [05584] | INFO  |   | BackBufferFormat                        | 21                                      |
-00:05:31:065 [05584] | INFO  |   | BackBufferCount                         | 1                                       |
-00:05:31:065 [05584] | INFO  |   | MultiSampleType                         | 0                                       |
-00:05:31:065 [05584] | INFO  |   | MultiSampleQuality                      | 0                                       |
-00:05:31:065 [05584] | INFO  |   | SwapEffect                              | 1                                       |
-00:05:31:065 [05584] | INFO  |   | DeviceWindow                            | 0000000000E40568                        |
-00:05:31:065 [05584] | INFO  |   | Windowed                                | TRUE                                    |
-00:05:31:065 [05584] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
-00:05:31:066 [05584] | INFO  |   | AutoDepthStencilFormat                  | 75                                      |
-00:05:31:066 [05584] | INFO  |   | Flags                                   | 0x2                                     |
-00:05:31:066 [05584] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
-00:05:31:066 [05584] | INFO  |   | PresentationInterval                    | 0x80000000                              |
-00:05:31:066 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:05:31:540 [05584] | INFO  | Recreated runtime environment on runtime 000002009324D200.
-00:05:31:820 [07020] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\DPX.fx".
-00:05:31:821 [07000] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Colourfulness.fx".
-00:05:31:822 [05276] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\ColorMatrix.fx".
-00:05:31:823 [06136] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\FakeHDR.fx".
-00:05:31:825 [08380] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Levels.fx".
-00:05:31:828 [08496] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Clarity.fx".
-00:05:31:828 [08276] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LevelsPlus.fx".
-00:05:31:829 [03236] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LumaSharpen.fx".
-00:05:31:830 [05540] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor.fx".
-00:05:31:831 [06068] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor2.fx".
-00:05:31:833 [01848] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Tonemap.fx".
-00:05:31:835 [06220] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Vignette.fx".
-00:05:32:185 [05584] | INFO  | Loading image files for textures ...
-00:14:06:781 [05584] | INFO  | Destroyed runtime environment on runtime 000002009324D200.
-00:14:06:878 [05584] | INFO  | Redirecting IDirect3D9Ex::CreateDeviceEx(0000020093144820, 0, 1, 0000000000E50568, 0x52, 00000011602FEB00, 0000000000000000, 00000200E50F7CE0) ...
-00:14:06:878 [05584] | INFO  | > Dumping presentation parameters:
-00:14:06:878 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:14:06:878 [05584] | INFO  |   | Parameter                               | Value                                   |
-00:14:06:878 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:14:06:878 [05584] | INFO  |   | BackBufferWidth                         | 0                                       |
-00:14:06:878 [05584] | INFO  |   | BackBufferHeight                        | 0                                       |
-00:14:06:878 [05584] | INFO  |   | BackBufferFormat                        | 21                                      |
-00:14:06:878 [05584] | INFO  |   | BackBufferCount                         | 1                                       |
-00:14:06:878 [05584] | INFO  |   | MultiSampleType                         | 0                                       |
-00:14:06:878 [05584] | INFO  |   | MultiSampleQuality                      | 0                                       |
-00:14:06:878 [05584] | INFO  |   | SwapEffect                              | 1                                       |
-00:14:06:878 [05584] | INFO  |   | DeviceWindow                            | 0000000000E50568                        |
-00:14:06:878 [05584] | INFO  |   | Windowed                                | TRUE                                    |
-00:14:06:878 [05584] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
-00:14:06:878 [05584] | INFO  |   | AutoDepthStencilFormat                  | 75                                      |
-00:14:06:878 [05584] | INFO  |   | Flags                                   | 0x2                                     |
-00:14:06:878 [05584] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
-00:14:06:878 [05584] | INFO  |   | PresentationInterval                    | 0x80000000                              |
-00:14:06:878 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:14:07:350 [05584] | INFO  | Recreated runtime environment on runtime 0000020113A6BFB0.
-00:14:08:435 [08300] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\ColorMatrix.fx".
-00:14:08:436 [03480] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Colourfulness.fx".
-00:14:08:439 [07536] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\FakeHDR.fx".
-00:14:08:439 [06720] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Levels.fx".
-00:14:08:439 [10216] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\DPX.fx".
-00:14:08:442 [03852] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor2.fx".
-00:14:08:443 [04504] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Clarity.fx".
-00:14:08:443 [00980] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LumaSharpen.fx".
-00:14:08:443 [06724] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LevelsPlus.fx".
-00:14:08:446 [07596] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Tonemap.fx".
-00:14:08:448 [05856] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Vignette.fx".
-00:14:08:448 [07500] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor.fx".
-00:14:08:692 [05584] | INFO  | Loading image files for textures ...
-00:18:09:491 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 00-18-09.bmp ...
-00:24:44:157 [05584] | INFO  | Destroyed runtime environment on runtime 0000020113A6BFB0.
-00:24:44:276 [05584] | INFO  | Redirecting IDirect3D9Ex::CreateDeviceEx(0000020093144820, 0, 1, 0000000000E60568, 0x52, 00000011602FEB00, 0000000000000000, 00000200E50F7CE0) ...
-00:24:44:276 [05584] | INFO  | > Dumping presentation parameters:
-00:24:44:276 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:24:44:276 [05584] | INFO  |   | Parameter                               | Value                                   |
-00:24:44:276 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:24:44:276 [05584] | INFO  |   | BackBufferWidth                         | 0                                       |
-00:24:44:276 [05584] | INFO  |   | BackBufferHeight                        | 0                                       |
-00:24:44:276 [05584] | INFO  |   | BackBufferFormat                        | 21                                      |
-00:24:44:276 [05584] | INFO  |   | BackBufferCount                         | 1                                       |
-00:24:44:276 [05584] | INFO  |   | MultiSampleType                         | 0                                       |
-00:24:44:276 [05584] | INFO  |   | MultiSampleQuality                      | 0                                       |
-00:24:44:277 [05584] | INFO  |   | SwapEffect                              | 1                                       |
-00:24:44:277 [05584] | INFO  |   | DeviceWindow                            | 0000000000E60568                        |
-00:24:44:277 [05584] | INFO  |   | Windowed                                | TRUE                                    |
-00:24:44:277 [05584] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
-00:24:44:277 [05584] | INFO  |   | AutoDepthStencilFormat                  | 75                                      |
-00:24:44:277 [05584] | INFO  |   | Flags                                   | 0x2                                     |
-00:24:44:277 [05584] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
-00:24:44:277 [05584] | INFO  |   | PresentationInterval                    | 0x80000000                              |
-00:24:44:277 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:24:44:772 [05584] | INFO  | Recreated runtime environment on runtime 00000200A15D88F0.
-00:24:45:917 [02036] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\ColorMatrix.fx".
-00:24:45:917 [06844] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\DPX.fx".
-00:24:45:918 [09616] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Colourfulness.fx".
-00:24:45:920 [04196] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\FakeHDR.fx".
-00:24:45:921 [02244] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Levels.fx".
-00:24:45:922 [01828] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LevelsPlus.fx".
-00:24:45:923 [08024] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LumaSharpen.fx".
-00:24:45:925 [01676] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Clarity.fx".
-00:24:45:925 [02876] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor.fx".
-00:24:45:926 [04688] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor2.fx".
-00:24:45:928 [04816] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Tonemap.fx".
-00:24:45:931 [04408] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Vignette.fx".
-00:24:46:184 [05584] | INFO  | Loading image files for textures ...
-00:30:14:964 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 00-30-14.bmp ...
-00:39:54:851 [05584] | INFO  | Destroyed runtime environment on runtime 00000200A15D88F0.
-00:39:54:944 [05584] | INFO  | Redirecting IDirect3D9Ex::CreateDeviceEx(0000020093144820, 0, 1, 0000000000E70568, 0x52, 00000011602FEB00, 0000000000000000, 00000200E50F7CE0) ...
-00:39:54:944 [05584] | INFO  | > Dumping presentation parameters:
-00:39:54:944 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:39:54:944 [05584] | INFO  |   | Parameter                               | Value                                   |
-00:39:54:944 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:39:54:944 [05584] | INFO  |   | BackBufferWidth                         | 0                                       |
-00:39:54:944 [05584] | INFO  |   | BackBufferHeight                        | 0                                       |
-00:39:54:944 [05584] | INFO  |   | BackBufferFormat                        | 21                                      |
-00:39:54:944 [05584] | INFO  |   | BackBufferCount                         | 1                                       |
-00:39:54:944 [05584] | INFO  |   | MultiSampleType                         | 0                                       |
-00:39:54:944 [05584] | INFO  |   | MultiSampleQuality                      | 0                                       |
-00:39:54:944 [05584] | INFO  |   | SwapEffect                              | 1                                       |
-00:39:54:944 [05584] | INFO  |   | DeviceWindow                            | 0000000000E70568                        |
-00:39:54:944 [05584] | INFO  |   | Windowed                                | TRUE                                    |
-00:39:54:944 [05584] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
-00:39:54:944 [05584] | INFO  |   | AutoDepthStencilFormat                  | 75                                      |
-00:39:54:944 [05584] | INFO  |   | Flags                                   | 0x2                                     |
-00:39:54:944 [05584] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
-00:39:54:944 [05584] | INFO  |   | PresentationInterval                    | 0x80000000                              |
-00:39:54:944 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:39:55:490 [05584] | INFO  | Recreated runtime environment on runtime 00000200A1B83AC0.
-00:39:56:722 [07076] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\DPX.fx".
-00:39:56:722 [04124] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Colourfulness.fx".
-00:39:56:723 [03716] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\ColorMatrix.fx".
-00:39:56:724 [07140] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\FakeHDR.fx".
-00:39:56:725 [02660] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Levels.fx".
-00:39:56:727 [07612] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LevelsPlus.fx".
-00:39:56:727 [05164] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LumaSharpen.fx".
-00:39:56:728 [10008] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor.fx".
-00:39:56:729 [08604] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Clarity.fx".
-00:39:56:732 [08724] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Tonemap.fx".
-00:39:56:732 [04236] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Vignette.fx".
-00:39:56:732 [03224] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor2.fx".
-00:39:57:021 [05584] | INFO  | Loading image files for textures ...
-00:40:57:526 [05584] | INFO  | Destroyed runtime environment on runtime 00000200A1B83AC0.
-00:40:57:616 [05584] | INFO  | Redirecting IDirect3D9Ex::CreateDeviceEx(0000020093144820, 0, 1, 0000000000E80568, 0x52, 00000011602FEB00, 0000000000000000, 00000200E50F7CE0) ...
-00:40:57:616 [05584] | INFO  | > Dumping presentation parameters:
-00:40:57:617 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:40:57:617 [05584] | INFO  |   | Parameter                               | Value                                   |
-00:40:57:617 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:40:57:617 [05584] | INFO  |   | BackBufferWidth                         | 0                                       |
-00:40:57:617 [05584] | INFO  |   | BackBufferHeight                        | 0                                       |
-00:40:57:617 [05584] | INFO  |   | BackBufferFormat                        | 21                                      |
-00:40:57:617 [05584] | INFO  |   | BackBufferCount                         | 1                                       |
-00:40:57:617 [05584] | INFO  |   | MultiSampleType                         | 0                                       |
-00:40:57:617 [05584] | INFO  |   | MultiSampleQuality                      | 0                                       |
-00:40:57:617 [05584] | INFO  |   | SwapEffect                              | 1                                       |
-00:40:57:617 [05584] | INFO  |   | DeviceWindow                            | 0000000000E80568                        |
-00:40:57:617 [05584] | INFO  |   | Windowed                                | TRUE                                    |
-00:40:57:617 [05584] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
-00:40:57:617 [05584] | INFO  |   | AutoDepthStencilFormat                  | 75                                      |
-00:40:57:617 [05584] | INFO  |   | Flags                                   | 0x2                                     |
-00:40:57:617 [05584] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
-00:40:57:617 [05584] | INFO  |   | PresentationInterval                    | 0x80000000                              |
-00:40:57:617 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:40:58:075 [05584] | INFO  | Recreated runtime environment on runtime 000002009FBF5330.
-00:40:58:771 [09300] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\ColorMatrix.fx".
-00:40:58:772 [04332] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\DPX.fx".
-00:40:58:774 [06220] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\FakeHDR.fx".
-00:40:58:775 [06904] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Levels.fx".
-00:40:58:776 [07296] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Colourfulness.fx".
-00:40:58:779 [08084] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LevelsPlus.fx".
-00:40:58:779 [08184] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Clarity.fx".
-00:40:58:781 [05324] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor.fx".
-00:40:58:782 [05764] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LumaSharpen.fx".
-00:40:58:782 [09212] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor2.fx".
-00:40:58:783 [00220] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Tonemap.fx".
-00:40:58:786 [06956] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Vignette.fx".
-00:40:59:023 [05584] | INFO  | Loading image files for textures ...
-00:43:29:745 [05584] | INFO  | Destroyed runtime environment on runtime 000002009FBF5330.
-00:43:29:852 [05584] | INFO  | Redirecting IDirect3D9Ex::CreateDeviceEx(0000020093144820, 0, 1, 0000000000E90568, 0x52, 00000011602FEB00, 0000000000000000, 00000200E50F7CE0) ...
-00:43:29:852 [05584] | INFO  | > Dumping presentation parameters:
-00:43:29:852 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:43:29:852 [05584] | INFO  |   | Parameter                               | Value                                   |
-00:43:29:852 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:43:29:853 [05584] | INFO  |   | BackBufferWidth                         | 0                                       |
-00:43:29:853 [05584] | INFO  |   | BackBufferHeight                        | 0                                       |
-00:43:29:853 [05584] | INFO  |   | BackBufferFormat                        | 21                                      |
-00:43:29:853 [05584] | INFO  |   | BackBufferCount                         | 1                                       |
-00:43:29:853 [05584] | INFO  |   | MultiSampleType                         | 0                                       |
-00:43:29:853 [05584] | INFO  |   | MultiSampleQuality                      | 0                                       |
-00:43:29:853 [05584] | INFO  |   | SwapEffect                              | 1                                       |
-00:43:29:853 [05584] | INFO  |   | DeviceWindow                            | 0000000000E90568                        |
-00:43:29:853 [05584] | INFO  |   | Windowed                                | TRUE                                    |
-00:43:29:853 [05584] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
-00:43:29:853 [05584] | INFO  |   | AutoDepthStencilFormat                  | 75                                      |
-00:43:29:853 [05584] | INFO  |   | Flags                                   | 0x2                                     |
-00:43:29:853 [05584] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
-00:43:29:853 [05584] | INFO  |   | PresentationInterval                    | 0x80000000                              |
-00:43:29:853 [05584] | INFO  |   +-----------------------------------------+-----------------------------------------+
-00:43:30:589 [05584] | INFO  | Recreated runtime environment on runtime 000002010FD9A8B0.
-00:43:31:957 [01472] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\ColorMatrix.fx".
-00:43:31:958 [07700] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Levels.fx".
-00:43:31:961 [08828] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LevelsPlus.fx".
-00:43:31:962 [02332] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Colourfulness.fx".
-00:43:31:962 [01880] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\DPX.fx".
-00:43:31:963 [01616] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\FakeHDR.fx".
-00:43:31:965 [05040] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor.fx".
-00:43:31:966 [02320] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LumaSharpen.fx".
-00:43:31:968 [01604] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor2.fx".
-00:43:31:968 [05992] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Clarity.fx".
-00:43:31:969 [04436] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Tonemap.fx".
-00:43:31:972 [01980] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Vignette.fx".
-00:43:32:216 [05584] | INFO  | Loading image files for textures ...
-01:13:32:340 [05584] | INFO  | Loading image files for textures ...
-01:16:00:615 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 01-16-00.bmp ...
-01:17:33:688 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 01-17-33.bmp ...
-01:21:08:392 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 01-21-08.bmp ...
-01:31:41:438 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 01-31-41.bmp ...
-01:31:58:531 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 01-31-58.bmp ...
-01:32:34:369 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 01-32-34.bmp ...
-01:32:40:704 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 01-32-40.bmp ...
-01:34:31:177 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 01-34-31.bmp ...
-01:42:57:815 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 01-42-57.bmp ...
-01:46:48:124 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 01-46-48.bmp ...
-01:48:06:847 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 01-48-06.bmp ...
-01:50:16:779 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 01-50-16.bmp ...
-01:53:38:303 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 01-53-38.bmp ...
-02:13:57:595 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 02-13-57.bmp ...
-02:47:21:877 [05584] | INFO  | Saving screenshot to D:\Documents\Bandicam\eurotrucks2 2019-06-30 02-47-21.bmp ...
-02:59:03:256 [05584] | INFO  | Destroyed runtime environment on runtime 000002010FD9A8B0.
-02:59:04:057 [05584] | INFO  | Exiting ...
-02:59:04:057 [05584] | INFO  | Uninstalling 49 hook(s) ...
-02:59:04:072 [05584] | INFO  | Exited.
+03:38:13:298 [03868] | INFO  | Initializing crosire's ReShade version '4.3.0.563' (64-bit) built on '2019-05-25 19:00:11' loaded from "C:\ETS\bin\win_x64\d3d9.dll" to "C:\ETS\bin\win_x64\eurotrucks2.exe" ...
+03:38:13:338 [03868] | INFO  | Registering hooks for "user32.dll" ...
+03:38:13:339 [03868] | INFO  | > Libraries loaded.
+03:38:13:339 [03868] | INFO  | > Found 13 match(es). Installing ...
+03:38:13:348 [03868] | INFO  | Registering hooks for "ws2_32.dll" ...
+03:38:13:348 [03868] | INFO  | > Libraries loaded.
+03:38:13:348 [03868] | INFO  | > Found 8 match(es). Installing ...
+03:38:13:358 [03868] | INFO  | Registering hooks for "C:\Windows\system32\d3d9.dll" ...
+03:38:13:358 [03868] | INFO  | > Delayed until first call to an exported function.
+03:38:13:358 [03868] | INFO  | Registering hooks for "C:\Windows\system32\d3d10.dll" ...
+03:38:13:358 [03868] | INFO  | > Delayed.
+03:38:13:358 [03868] | INFO  | Registering hooks for "C:\Windows\system32\d3d10_1.dll" ...
+03:38:13:358 [03868] | INFO  | > Delayed.
+03:38:13:358 [03868] | INFO  | Registering hooks for "C:\Windows\system32\d3d11.dll" ...
+03:38:13:358 [03868] | INFO  | > Libraries loaded.
+03:38:13:358 [03868] | INFO  | > Found 2 match(es). Installing ...
+03:38:13:369 [03868] | INFO  | Registering hooks for "C:\Windows\system32\d3d12.dll" ...
+03:38:13:369 [03868] | INFO  | > Delayed.
+03:38:13:369 [03868] | INFO  | Registering hooks for "C:\Windows\system32\dxgi.dll" ...
+03:38:13:369 [03868] | INFO  | > Libraries loaded.
+03:38:13:369 [03868] | INFO  | > Found 7 match(es). Installing ...
+03:38:13:379 [03868] | INFO  | Registering hooks for "C:\Windows\system32\opengl32.dll" ...
+03:38:13:379 [03868] | INFO  | > Delayed.
+03:38:13:379 [03868] | INFO  | Initialized.
+03:38:13:379 [03868] | INFO  | Redirecting Direct3DCreate9Ex(32, 0000016AF9458CD0) ...
+03:38:13:382 [03868] | INFO  | Installing export hooks for "C:\Windows\system32\d3d9.dll" ...
+03:38:13:382 [03868] | INFO  | > Found 9 match(es). Installing ...
+03:38:13:417 [03868] | INFO  | Redirecting CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 00000055D72FE850) ...
+03:38:13:417 [03868] | INFO  | > Passing on to CreateDXGIFactory1:
+03:38:13:417 [03868] | INFO  | Redirecting CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 00000055D72FE850) ...
+03:38:13:456 [03868] | INFO  | Redirecting IDirect3D9Ex::CreateDeviceEx(0000016AD94263C0, 0, 1, 0000000000D30430, 0x52, 00000055D72FEB30, 0000000000000000, 0000016AF9458CE0) ...
+03:38:13:456 [03868] | INFO  | > Dumping presentation parameters:
+03:38:13:456 [03868] | INFO  |   +-----------------------------------------+-----------------------------------------+
+03:38:13:457 [03868] | INFO  |   | Parameter                               | Value                                   |
+03:38:13:457 [03868] | INFO  |   +-----------------------------------------+-----------------------------------------+
+03:38:13:457 [03868] | INFO  |   | BackBufferWidth                         | 0                                       |
+03:38:13:457 [03868] | INFO  |   | BackBufferHeight                        | 0                                       |
+03:38:13:457 [03868] | INFO  |   | BackBufferFormat                        | 21                                      |
+03:38:13:457 [03868] | INFO  |   | BackBufferCount                         | 1                                       |
+03:38:13:457 [03868] | INFO  |   | MultiSampleType                         | 0                                       |
+03:38:13:457 [03868] | INFO  |   | MultiSampleQuality                      | 0                                       |
+03:38:13:457 [03868] | INFO  |   | SwapEffect                              | 1                                       |
+03:38:13:457 [03868] | INFO  |   | DeviceWindow                            | 0000000000D30430                        |
+03:38:13:457 [03868] | INFO  |   | Windowed                                | TRUE                                    |
+03:38:13:457 [03868] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
+03:38:13:457 [03868] | INFO  |   | AutoDepthStencilFormat                  | 75                                      |
+03:38:13:457 [03868] | INFO  |   | Flags                                   | 0x2                                     |
+03:38:13:457 [03868] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
+03:38:13:457 [03868] | INFO  |   | PresentationInterval                    | 0x80000000                              |
+03:38:13:457 [03868] | INFO  |   +-----------------------------------------+-----------------------------------------+
+03:38:13:956 [03868] | INFO  | Recreated runtime environment on runtime 0000016AD9512490.
+03:38:14:243 [07212] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\ColorMatrix.fx".
+03:38:14:244 [09504] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\DPX.fx".
+03:38:14:244 [09012] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\FakeHDR.fx".
+03:38:14:247 [09628] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Levels.fx".
+03:38:14:250 [04440] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LevelsPlus.fx".
+03:38:14:252 [08868] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Clarity.fx".
+03:38:14:253 [08160] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Colourfulness.fx".
+03:38:14:254 [05364] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor.fx".
+03:38:14:255 [08356] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Technicolor2.fx".
+03:38:14:256 [02232] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\LumaSharpen.fx".
+03:38:14:257 [03256] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Tonemap.fx".
+03:38:14:259 [04868] | INFO  | Successfully loaded "C:\ETS\bin\win_x64\reshade-shaders\Shaders\Vignette.fx".
+03:38:14:646 [03868] | INFO  | Loading image files for textures ...
+03:41:55:014 [03868] | INFO  | Destroyed runtime environment on runtime 0000016AD9512490.
+03:41:55:711 [03868] | INFO  | Exiting ...
+03:41:55:711 [03868] | INFO  | Uninstalling 49 hook(s) ...
+03:41:55:725 [03868] | INFO  | Exited.
