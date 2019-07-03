@@ -269,7 +269,7 @@ sound_data: .lhorn_s
 
 sound_data: .blinker_s
 {
-	name: "/sound/truck/noises/sticks/blinker_stick.ogg"
+	name: "/sound/truck/noises/sticks/warning_triangl_button.ogg"
 	is_2d: true
 	looped: false
 	volume: 1.0	
@@ -277,7 +277,7 @@ sound_data: .blinker_s
 
 sound_data: .blinker2_s
 {
-	name: "/sound/truck/noises/sticks/blinker_off_stick.ogg"
+	name: "/sound/truck/noises/sticks/warning_triangl_button.ogg"
 	is_2d: true
 	looped: false
 	volume: 1.0	
