@@ -38,9 +38,9 @@ sound_noise_data: .anoise
 	looped: true
 	is_2d: true
 
-	min_speed: 45.0
-	max_speed: 140.0
-	volume: 0.7
+	min_speed: 65.0
+	max_speed: 300.0
+	volume: 1.2
 }
 
 # Gear grinding.
@@ -267,7 +267,7 @@ sound_data: .lhorn_s
 
 sound_data: .blinker_s
 {
-	name: "/sound/truck/noises/sticks/blinker_stick.ogg"
+	name: "/sound/truck/noises/sticks/warning_triangl_button.ogg"
 	is_2d: true
 	looped: false
 	volume: 1.0	
@@ -275,7 +275,7 @@ sound_data: .blinker_s
 
 sound_data: .blinker2_s
 {
-	name: "/sound/truck/noises/sticks/blinker_off_stick.ogg"
+	name: "/sound/truck/noises/sticks/warning_triangl_button.ogg"
 	is_2d: true
 	looped: false
 	volume: 1.0	
