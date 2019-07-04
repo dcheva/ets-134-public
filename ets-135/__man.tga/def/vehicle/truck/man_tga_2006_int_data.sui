@@ -33,55 +33,7 @@ sound_noise_data: .anoise
 
 	looped: true
 	is_2d: true
-	min_speed: 65.0
-	max_speed: 300.0
-	volume: 0.65
-}
 
-# Gear grinding.
-
-sound_data: .ggloop
-{
-	name: "/sound/truck/noises/gear_loop_int.ogg"
-	looped: true
-	is_2d: true
-	volume: 1.0
-}
-
-# Air pressurize cut off
-
-sound_data: .aircut0
-{
-	name: "/sound/truck/noises/air_cutoff1_int.ogg"
-	is_2d: true
-	looped: false
-	volume: 1.75
-}
-
-sound_data: .aircut1
-{
-	name: "/sound/truck/noises/air_cutoff2_int.ogg"
-	is_2d: true
-	looped: false
-	volume: 1.75
-}
-
-sound_data: .aircut2
-{
-	name: "/sound/truck/noises/air_cutoff3_int.ogg"
-	is_2d: true
-	looped: false
-	volume: 1.75
-}
-
-# Air noise.
-
-sound_noise_data: .anoise
-{
-	name: "/sound/truck/noises/wind_inside_int_1.ogg"
-
-	looped: true
-	is_2d: true
 	min_speed: 65.0
 	max_speed: 300.0
 	volume: 0.65
@@ -139,7 +91,7 @@ sound_noise_data: .was1
 {
 	name: "/sound/truck/noises/tires/asph_10_km.ogg"
 	looped: true
-    	min_speed: 5.0
+    min_speed: 5.0
 	max_speed: 15.0
 	pitch_reference: 13.0
 	volume: 0.17
@@ -148,7 +100,7 @@ sound_noise_data: .was2
 {
 	name: "/sound/truck/noises/tires/asph_15_km.ogg"
 	looped: true
-    	min_speed: 10.0
+    min_speed: 10.0
 	max_speed: 20.0
 	pitch_reference: 17.0
 	volume: 0.19
@@ -157,7 +109,7 @@ sound_noise_data: .was3
 {
 	name: "/sound/truck/noises/tires/asph_20_km.ogg"
 	looped: true
-    	min_speed: 15.0
+    min_speed: 15.0
 	max_speed: 25.0
 	pitch_reference: 23.0
 	volume: 0.21
@@ -166,7 +118,7 @@ sound_noise_data: .was4
 {
 	name: "/sound/truck/noises/tires/asph_25_km.ogg"
 	looped: true
-    	min_speed: 20.0
+	min_speed: 20.0
 	max_speed: 30.0
 	pitch_reference: 27.0
 	volume: 0.23

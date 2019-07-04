@@ -40,7 +40,8 @@ accessory_sound_data : int.man.tgx_euro6.sound{
 
 	engine_brake[]: .eb
 	horn: .horn
-	air_horn: .ahorn  reverse: .reverse
+	air_horn: .ahorn  
+	reverse: .reverse
 	change_gear: .changeg
 
 	blinker_on: .blinker_on
