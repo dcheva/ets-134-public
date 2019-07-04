@@ -55,7 +55,7 @@ sound_data: .aircut0
 	name: "/sound/truck/noises/air_cutoff1_int.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.75
+	volume: 1.75
 }
 
 sound_data: .aircut1
@@ -63,7 +63,7 @@ sound_data: .aircut1
 	name: "/sound/truck/noises/air_cutoff2_int.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.75
+	volume: 1.75
 }
 
 sound_data: .aircut2
@@ -71,7 +71,7 @@ sound_data: .aircut2
 	name: "/sound/truck/noises/air_cutoff3_int.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.75
+	volume: 1.75
 }
 
 # Air noise.
@@ -574,56 +574,56 @@ sound_data: .sunoise0
 {
 	name: "/sound/truck/noises/small_obstacle/int/suspension_int_01.ogg"
 	looped: false
-	volume: 0.6	
+	volume: 1.1	
 }
 
 sound_data: .sunoise1
 {
 	name: "/sound/truck/noises/small_obstacle/int/suspension_int_02.ogg"
 	looped: false
-	volume: 0.6
+	volume: 1.1
 }
 
 sound_data: .sunoise2
 {
 	name: "/sound/truck/noises/small_obstacle/int/suspension_int_03.ogg"
 	looped: false
-	volume: 0.6
+	volume: 1.1
 }
 
 sound_data: .sunoise3
 {
 	name: "/sound/truck/noises/small_obstacle/int/suspension_int_04.ogg"
 	looped: false
-	volume: 0.6
+	volume: 1.1
 }
 
 sound_data: .sunoise4
 {
 	name: "/sound/truck/noises/small_obstacle/int/suspension_int_05.ogg"
 	looped: false
-	volume: 0.6
+	volume: 1.1
 }
 
 sound_data: .sunoise5
 {
 	name: "/sound/truck/noises/small_obstacle/int/suspension_int_06.ogg"
 	looped: false
-	volume: 0.6
+	volume: 1.1
 }
 
 sound_data: .sunoise6
 {
 	name: "/sound/truck/noises/small_obstacle/int/suspension_int_07.ogg"
 	looped: false
-	volume: 0.6
+	volume: 1.1
 }
 
 sound_data: .sunoise7
 {
 	name: "/sound/truck/noises/small_obstacle/int/suspension_int_08.ogg"
 	looped: false
-	volume: 0.6
+	volume: 1.1
 }
 
 
