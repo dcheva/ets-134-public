@@ -1,0 +1,32 @@
+SiiNunit
+{
+accessory_engine_data : d2676_353.man.tgx_euro6.engine
+{
+	name: "D2676 LF25T 353 Euro 6"
+	price: 15360
+	unlock: 12
+	info[]: "480 @@hp@@ (353@@kw@@)"
+	info[]: "2@@dg@@300 @@nm@@"
+	info[]: "930-1@@dg@@400 @@rpm@@"
+	icon: "engine/man_d2676"
+
+	torque: 2300
+	volume: 12.4
+
+	torque_curve[]: (300, 0)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (930, 1)
+	torque_curve[]: (1400, 1)
+	torque_curve[]: (1800, 0.81)
+	torque_curve[]: (2100, 0.75)
+	torque_curve[]: (2300, 0.66)
+	torque_curve[]: (2400, 0)
+	rpm_limit: 2500
+
+	no_adblue_power_limit: 0.5
+
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/badge_b/badge_xx480.sii"
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/sound/interior.sii"
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/sound/exterior.sii"
+}
+}

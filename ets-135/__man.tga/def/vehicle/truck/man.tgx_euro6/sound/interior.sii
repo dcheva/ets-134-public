@@ -24,6 +24,8 @@ accessory_sound_data : int.man.tgx_euro6.sound{
 	engine_load[]: .el5
 	engine_load[]: .el6
 	engine_load[]: .el7
+	engine_load[]: .el8
+	engine_load[]: .el9
 
 	turbo: .t
 
@@ -176,8 +178,6 @@ sound_engine_data: .el0
 
 	looped: true
 
-	pitch_reference: 500
-
 	min_rpm: 300.0
 	max_rpm: 690.0
 	volume: 0.6
@@ -185,11 +185,11 @@ sound_engine_data: .el0
 
 sound_engine_data: .el1
 {
-	name: "/sound/truck/volvo/int/volvo_int_exhaust_0700.ogg"
+	name: "/sound/truck/volvo/int/volvo_int_exhaust_0800.ogg"
 
 	looped: true
 
-	pitch_reference: 1500
+	pitch_reference: 0800
 
 	min_rpm: 610.0
 	max_rpm: 900.0
@@ -202,7 +202,7 @@ sound_engine_data: .el2
 
 	looped: true
 
-	pitch_reference: 1800
+	pitch_reference: 1000
 
 	min_rpm: 720.0
 	max_rpm: 1050.0
@@ -215,7 +215,7 @@ sound_engine_data: .el3
 
 	looped: true
 
-	pitch_reference: 2200
+	pitch_reference: 1200
 
 	min_rpm: 920.0
 	max_rpm: 1300.0
@@ -228,7 +228,7 @@ sound_engine_data: .el4
 
 	looped: true
 
-	pitch_reference: 2600
+	pitch_reference: 1400
 
 	min_rpm: 1150.0
 	max_rpm: 1500.0
@@ -274,6 +274,32 @@ sound_engine_data: .el7
 	volume: 0.95
 }
 
+sound_engine_data: .el8
+{
+	name: "/sound/truck/man/int/loaded_2.ogg"
+
+	looped: true
+
+	pitch_reference: 1040
+
+	min_rpm: 1960.0
+	max_rpm: 3000.0
+	volume: 0.48
+}
+
+sound_engine_data: .el9
+{
+	name: "/sound/truck/man/int/loaded_4.ogg"
+
+	looped: true
+
+	pitch_reference: 1460
+
+	min_rpm: 2160.0
+	max_rpm: 3000.0
+	volume: 0.54
+}
+
 sound_data: .t
 {
 	name: "/sound/truck/man/int/turbo.ogg"
@@ -285,32 +311,33 @@ sound_data: .t
 sound_data: .airgear0
 {
 	name: "/sound/truck/man/int/gear1.ogg"
-	volume: 0.16
+	volume: 0.36
 }
 
 sound_data: .airgear1
 {
 	name: "/sound/truck/man/int/gear2.ogg"
-	volume: 0.16
+	volume: 0.36
 }
 
 sound_data: .airgear2
 {
 	name: "/sound/truck/man/int/gear3.ogg"
-	volume: 0.16
+	volume: 0.36
 }                 
 
 sound_data: .airbrake0
 {
 	name: "/sound/truck/man/int/brake1.ogg"
-	looped: false volume: 0.1
+	looped: false 
+	volume: 0.3
 }
 
 sound_data: .airbrake1
 {
 	name: "/sound/truck/man/int/brake2.ogg"
 	looped: false
-  volume: 0.2
+	volume: 0.3
 }
 
 sound_engine_data: .eb
@@ -350,14 +377,14 @@ sound_data: .blinker_on
 {
 	name: "/sound/truck/volvo/int/blinker_on.ogg"
 	is_2d: true
-	volume: 0.22
+	volume: 0.42
 }
 
 sound_data: .blinker_off
 {
 	name: "/sound/truck/volvo/int/blinker_off.ogg"
 	is_2d: true
-	volume: 0.22
+	volume: 0.42
 }
 
 sound_data: .wipers_up

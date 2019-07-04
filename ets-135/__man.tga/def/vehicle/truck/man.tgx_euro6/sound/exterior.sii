@@ -24,6 +24,8 @@ accessory_sound_data : ext.man.tgx_euro6.sound{
 	engine_load[]: .el5
 	engine_load[]: .el6
 	engine_load[]: .el7
+	engine_load[]: .el8
+	engine_load[]: .el9
 
 	turbo: .t
 
@@ -178,15 +180,15 @@ sound_engine_data: .el0
 
 sound_engine_data: .el1
 {
-	name: "/sound/truck/volvo/ext/volvo_ext_exhaust_0700.ogg"
+	name: "/sound/truck/volvo/ext/volvo_ext_exhaust_0800.ogg"
 
 	looped: true
 
-	pitch_reference: 750
+	pitch_reference: 800
 
 	min_rpm: 610.0
 	max_rpm: 900.0
-	volume: 0.0
+	volume: 0.6
 }
 
 sound_engine_data: .el2
@@ -195,11 +197,11 @@ sound_engine_data: .el2
 
 	looped: true
 
-	pitch_reference: 900
+	pitch_reference: 1000
 
 	min_rpm: 720.0
 	max_rpm: 1050.0
-	volume: 0.0
+	volume: 0.6
 }
 
 sound_engine_data: .el3
@@ -208,11 +210,11 @@ sound_engine_data: .el3
 
 	looped: true
 
-	pitch_reference: 1100
+	pitch_reference: 1200
 
 	min_rpm: 920.0
 	max_rpm: 1300.0
-	volume: 0.0
+	volume: 0.6
 }
 
 sound_engine_data: .el4
@@ -221,24 +223,24 @@ sound_engine_data: .el4
 
 	looped: true
 
-	pitch_reference: 1300
+	pitch_reference: 1400
 
 	min_rpm: 1150.0
 	max_rpm: 1500.0
-	volume: 0.0
+	volume: 0.6
 }
 
 sound_engine_data: .el5
 {
-	name: "/sound/truck/man/ext/1500.ogg"
+	name: "/sound/truck/volvo/ext/volvo_ext_exhaust_1600.ogg"
 
 	looped: true
 
-	pitch_reference: 1500
+	pitch_reference: 800
 
 	min_rpm: 300.0
 	max_rpm: 3000.0
-	volume: 1.2
+	volume: 0.65
 }
 
 sound_engine_data: .el6
@@ -247,11 +249,11 @@ sound_engine_data: .el6
 
 	looped: true
 
-	pitch_reference: 1800
+	pitch_reference: 900
 
 	min_rpm: 1550.0
 	max_rpm: 2000.0
-	volume: 0.0
+	volume: 0.85
 }
 
 sound_engine_data: .el7
@@ -260,11 +262,38 @@ sound_engine_data: .el7
 
 	looped: true
 
-	pitch_reference: 2000
+	pitch_reference: 1000
 
-	min_rpm: 1760.0
+	min_rpm: 1660.0
 	max_rpm: 3000.0
-	volume: 0.0
+	volume: 0.95
+}
+
+
+sound_engine_data: .el8
+{
+	name: "/sound/truck/man/ext/loaded_2.ogg"
+
+	looped: true
+
+	pitch_reference: 1040
+
+	min_rpm: 1960.0
+	max_rpm: 3000.0
+	volume: 0.48
+}
+
+sound_engine_data: .el9
+{
+	name: "/sound/truck/man/ext/loaded_4.ogg"
+
+	looped: true
+
+	pitch_reference: 1460
+
+	min_rpm: 2160.0
+	max_rpm: 3000.0
+	volume: 0.54
 }
 
 sound_data: .t
@@ -272,7 +301,7 @@ sound_data: .t
 	name: "/sound/truck/man/ext/turbo.ogg"
 	looped: true
 
-	volume: 0.11
+	volume: 0.8
 }
 
 sound_data: .airgear0

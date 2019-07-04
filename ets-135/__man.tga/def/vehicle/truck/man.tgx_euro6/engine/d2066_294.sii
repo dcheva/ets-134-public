@@ -1,0 +1,31 @@
+SiiNunit
+{
+accessory_engine_data : d2066_294.man.tgx_euro6.engine
+{
+	name: "D2066 LF61T 294 Euro 6"
+	price: 9840
+	unlock: 6
+	info[]: "400 @@hp@@ (294@@kw@@)"
+	info[]: "1@@dg@@900 @@nm@@"
+	info[]: "930-1@@dg@@400 @@rpm@@"
+	icon: "engine/man_d2066"
+
+	torque: 1900
+	torque_curve[]: (300, 0)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (930, 1)
+	torque_curve[]: (1400, 1)
+	torque_curve[]: (1800, 0.81)
+	torque_curve[]: (1900, 0.75)
+	torque_curve[]: (2200, 0.66)
+	torque_curve[]: (2300, 0)
+
+	volume: 10.5
+	rpm_limit: 2500
+	no_adblue_power_limit: 0.5
+
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/badge_b/badge_xx400.sii"
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/sound/interior.sii"
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/sound/exterior.sii"
+}
+}

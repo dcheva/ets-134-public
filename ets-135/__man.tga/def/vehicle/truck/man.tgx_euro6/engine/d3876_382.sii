@@ -1,0 +1,30 @@
+SiiNunit
+{
+accessory_engine_data : d3876_382.man.tgx_euro6.engine
+{
+	name: "D3876 LF02T 382 Euro 6"
+	price: 17160
+	unlock: 16
+	info[]: "520 @@hp@@ (382@@kw@@)"
+	info[]: "2@@dg@@500 @@nm@@"
+	info[]: "930-1@@dg@@400 @@rpm@@"
+	icon: "engine/man_d3876"
+
+	torque: 2500
+	torque_curve[]: (300, 0)
+	torque_curve[]: (550, 0.5)
+	torque_curve[]: (930, 1)
+	torque_curve[]: (1400, 1)
+	torque_curve[]: (2200, 0.77)
+	torque_curve[]: (2350, 0.66)
+	torque_curve[]: (2450, 0)
+
+	volume: 15.3
+	rpm_limit: 2500
+	no_adblue_power_limit: 0.5
+
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/badge_b/badge_xx520.sii"
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/sound/interior_d38.sii"
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/sound/exterior_d38.sii"
+}
+}
