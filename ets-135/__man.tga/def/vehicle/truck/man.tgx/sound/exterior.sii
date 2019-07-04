@@ -32,11 +32,12 @@ accessory_sound_data : std.man.tgx.esound
 	turbo: .t
 
   air_horn: .ahorn	air_gear[0]: .airgear0
-	air_gear[1]: .airgear1
-	air_gear[2]: .airgear2
+	air_gear[]: .airgear1
+	air_gear[]: .airgear2
 
-	air_brake[0]: .airbrake0
-	air_brake[1]: .airbrake1
+	air_brake[]: .airbrake0
+	air_brake[]: .airbrake1
+	air_brake[]: .airbrake2
 
 	engine_brake[]: .eb
 	horn: .horn
@@ -337,17 +338,28 @@ sound_data: .airgear2
 	volume: 0.6
 }
 
+
 sound_data: .airbrake0
 {
-	name: "/sound/truck/man/ext/brake1.ogg"
+	name: "/sound/truck/volvo/int/air_brake1.ogg"
 	looped: false
+	volume: 0.7
 }
 
 sound_data: .airbrake1
 {
-	name: "/sound/truck/man/ext/brake2.ogg"
+	name: "/sound/truck/volvo/int/air_brake2.ogg"
 	looped: false
+	volume: 0.7
 }
+
+sound_data: .airbrake2
+{
+	name: "/sound/truck/volvo/int/air_brake3.ogg"
+	looped: false
+	volume: 0.7
+}
+
 
 sound_engine_data: .eb
 {
@@ -368,12 +380,14 @@ sound_data: .horn
 {
 	name: "/sound/truck/volvo/ext/horn.ogg"
 	looped: true
-  volume: 0.7}
+	volume: 0.7
+}
 
 sound_data: .reverse
 {
 	name: "/sound/truck/volvo/ext/reverse.ogg"
 	looped: true
+	volume: 1.7
 }
 
 

@@ -361,7 +361,7 @@ sound_data: .blinker_s
 	name: "/sound/truck/noises/sticks/switch5_blinker_on.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.28	
+	volume: 0.33	
 }
 
 sound_data: .blinker2_s
@@ -369,7 +369,7 @@ sound_data: .blinker2_s
 	name: "/sound/truck/noises/sticks/switch5_blinker_off.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.28	
+	volume: 0.33	
 }
 
 sound_data: .hwarn_s
