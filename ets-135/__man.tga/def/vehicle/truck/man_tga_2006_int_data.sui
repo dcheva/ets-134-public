@@ -4,12 +4,12 @@
 
 # Retarder.
 
-# sound_data: .r
-# {
-#	name: "/sound/truck/man/int/retarder.ogg"
-#	looped: true
-#	volume: 2.5
-# }
+sound_data: .r
+{
+	name: "/sound/truck/man/int/retarder.ogg"
+	looped: true
+	volume: 0.75
+}
 
 # Lifting axle sound.
 
