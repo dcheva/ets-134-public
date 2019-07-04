@@ -1,15 +1,12 @@
-
-# Common truck sounds data.
-# Units have to be defined with same names as in "common_sound_int.sui".
-
 # Retarder.
 
- sound_data: .r
- {
+sound_data: .r
+{
 	name: "/sound/truck/noises/retarder.ogg"
 	looped: true
-	volume: 0.75
- }
+	volume: 0.95
+}
+
 
 # Lifting axle sound.
 
