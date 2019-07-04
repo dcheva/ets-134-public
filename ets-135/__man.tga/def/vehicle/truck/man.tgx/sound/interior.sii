@@ -141,7 +141,7 @@ sound_engine_data: .e5
 
 	min_rpm: 1800.0
 	max_rpm: 3000.0
-	volume: 0.85
+	volume: 2.25
 }
 
 sound_engine_data: .e6
@@ -154,7 +154,7 @@ sound_engine_data: .e6
 
 	min_rpm: 620.0
 	max_rpm: 3000.0
-	volume: 0.4
+	volume: 0.6
 }
 
 sound_engine_data: .e7
@@ -165,10 +165,11 @@ sound_engine_data: .e7
 
 	pitch_reference: 2000
 
-	min_rpm: 1760.0
+	min_rpm: 1660.0
 	max_rpm: 3000.0
-	volume: 0.6
+	volume: 1.25
 }
+
 sound_engine_data: .el0
 {
 	name: "/sound/truck/volvo/int/volvo_int_exhaust_idle.ogg"
@@ -205,7 +206,7 @@ sound_engine_data: .el2
 
 	min_rpm: 720.0
 	max_rpm: 1050.0
-	volume: 0.7
+	volume: 0.6
 }
 
 sound_engine_data: .el3
@@ -218,7 +219,7 @@ sound_engine_data: .el3
 
 	min_rpm: 920.0
 	max_rpm: 1300.0
-	volume: 0.7
+	volume: 0.6
 }
 
 sound_engine_data: .el4
@@ -231,7 +232,7 @@ sound_engine_data: .el4
 
 	min_rpm: 1150.0
 	max_rpm: 1500.0
-	volume: 0.8
+	volume: 0.6
 }
 
 sound_engine_data: .el5
@@ -244,7 +245,7 @@ sound_engine_data: .el5
 
 	min_rpm: 1200.0
 	max_rpm: 1900.0
-	volume: 0.9
+	volume: 0.6
 }
 
 sound_engine_data: .el6
@@ -257,16 +258,16 @@ sound_engine_data: .el6
 
 	min_rpm: 1550.0
 	max_rpm: 2000.0
-	volume: 0.8
+	volume: 0.6
 }
 
 sound_engine_data: .el7
 {
-	name: "/sound/truck/volvo/int/volvo_int_exhaust_2000.ogg"
+	name: "/sound/truck/man/int/1500.ogg"
 
 	looped: true
 
-	pitch_reference: 2000
+	pitch_reference: 1500
 
 	min_rpm: 1760.0
 	max_rpm: 3000.0
