@@ -150,11 +150,11 @@ sound_engine_data: .e6
 
 	looped: true
 
-	pitch_reference: 1400
+	pitch_reference: 2800
 
 	min_rpm: 620.0
 	max_rpm: 3000.0
-	volume: 0.6
+	volume: 0.4
 }
 
 sound_engine_data: .e7
@@ -189,7 +189,7 @@ sound_engine_data: .el1
 
 	looped: true
 
-	pitch_reference: 750
+	pitch_reference: 1500
 
 	min_rpm: 610.0
 	max_rpm: 900.0
@@ -202,7 +202,7 @@ sound_engine_data: .el2
 
 	looped: true
 
-	pitch_reference: 900
+	pitch_reference: 1800
 
 	min_rpm: 720.0
 	max_rpm: 1050.0
@@ -215,7 +215,7 @@ sound_engine_data: .el3
 
 	looped: true
 
-	pitch_reference: 1100
+	pitch_reference: 2200
 
 	min_rpm: 920.0
 	max_rpm: 1300.0
@@ -228,7 +228,7 @@ sound_engine_data: .el4
 
 	looped: true
 
-	pitch_reference: 1300
+	pitch_reference: 2600
 
 	min_rpm: 1150.0
 	max_rpm: 1500.0
@@ -241,11 +241,11 @@ sound_engine_data: .el5
 
 	looped: true
 
-	pitch_reference: 1500
+	pitch_reference: 800
 
 	min_rpm: 1200.0
 	max_rpm: 1900.0
-	volume: 0.6
+	volume: 0.65
 }
 
 sound_engine_data: .el6
@@ -254,11 +254,11 @@ sound_engine_data: .el6
 
 	looped: true
 
-	pitch_reference: 1800
+	pitch_reference: 900
 
 	min_rpm: 1550.0
 	max_rpm: 2000.0
-	volume: 0.6
+	volume: 0.85
 }
 
 sound_engine_data: .el7
@@ -267,11 +267,11 @@ sound_engine_data: .el7
 
 	looped: true
 
-	pitch_reference: 1500
+	pitch_reference: 750
 
 	min_rpm: 1760.0
 	max_rpm: 3000.0
-	volume: 0.8
+	volume: 0.95
 }
 
 sound_data: .t
