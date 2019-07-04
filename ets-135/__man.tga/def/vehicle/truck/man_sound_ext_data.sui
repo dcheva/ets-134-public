@@ -23,8 +23,8 @@ sound_noise_data: .anoise
 	name: "/sound/truck/noises/wind_inside_ext_1.ogg"
 
 	looped: true
-	min_speed: 30.0
-	max_speed: 90.0
+	min_speed: 65.0
+	max_speed: 300.0
 	volume: 1.0
 }
 
