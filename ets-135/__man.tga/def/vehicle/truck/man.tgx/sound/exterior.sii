@@ -27,6 +27,7 @@ accessory_sound_data : std.man.tgx.esound
 	engine_load[]: .el7
 	engine_load[]: .el8
 	engine_load[]: .el9
+	engine_load[]: .el10
 
 	turbo: .t
 
@@ -270,6 +271,7 @@ sound_engine_data: .el7
 	volume: 0.95
 }
 
+
 sound_engine_data: .el8
 {
 	name: "/sound/truck/man/ext/loaded_2.ogg"
@@ -280,7 +282,7 @@ sound_engine_data: .el8
 
 	min_rpm: 1660.0
 	max_rpm: 2060.0
-	volume: 0.73
+	volume: 0.43
 }
 
 sound_engine_data: .el9
@@ -291,9 +293,22 @@ sound_engine_data: .el9
 
 	pitch_reference: 1500
 
+	min_rpm: 1760.0
+	max_rpm: 3000.0
+	volume: 0.55
+}
+
+sound_engine_data: .el10
+{
+	name: "/sound/truck/man/ext/loaded_5.ogg"
+
+	looped: true
+
+	pitch_reference: 1750
+
 	min_rpm: 1860.0
 	max_rpm: 3000.0
-	volume: 0.85
+	volume: 0.67
 }
 
 sound_data: .t

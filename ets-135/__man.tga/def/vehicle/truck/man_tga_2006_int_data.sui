@@ -39,7 +39,7 @@ sound_noise_data: .anoise
 
 	min_speed: 65.0
 	max_speed: 300.0
-	volume: 0.35
+	volume: 0.65
 }
 
 # Gear grinding.
@@ -249,7 +249,7 @@ sound_noise_data: .wru
 	min_speed: 20.0
 	max_speed: 200.0
 	pitch_reference: 70.0
-	volume: 1.10
+	volume: 0.80
 }
 
 

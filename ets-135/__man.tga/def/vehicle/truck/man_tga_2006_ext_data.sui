@@ -236,7 +236,7 @@ sound_noise_data: .wru
 	min_speed: 20.0
 	max_speed: 200.0
 	pitch_reference: 70.0
-	volume: 0.3
+	volume: 0.6
 }
 
 

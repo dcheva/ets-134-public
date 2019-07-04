@@ -26,6 +26,7 @@ accessory_sound_data : std.man.tgx.isound{
 	engine_load[]: .el7
 	engine_load[]: .el8
 	engine_load[]: .el9
+	engine_load[]: .el10
 
 	turbo: .t
 
@@ -276,6 +277,7 @@ sound_engine_data: .el7
 	volume: 0.85
 }
 
+
 sound_engine_data: .el8
 {
 	name: "/sound/truck/man/int/loaded_2.ogg"
@@ -286,7 +288,7 @@ sound_engine_data: .el8
 
 	min_rpm: 1660.0
 	max_rpm: 2060.0
-	volume: 0.73
+	volume: 0.43
 }
 
 sound_engine_data: .el9
@@ -297,9 +299,22 @@ sound_engine_data: .el9
 
 	pitch_reference: 1500
 
+	min_rpm: 1760.0
+	max_rpm: 3000.0
+	volume: 0.55
+}
+
+sound_engine_data: .el10
+{
+	name: "/sound/truck/man/int/loaded_5.ogg"
+
+	looped: true
+
+	pitch_reference: 1750
+
 	min_rpm: 1860.0
 	max_rpm: 3000.0
-	volume: 0.85
+	volume: 0.67
 }
 
 sound_data: .t
@@ -393,14 +408,14 @@ sound_data: .wipers_up
 {
 	name: "/sound/truck/volvo/int/wiper_up.ogg"
 	is_2d: true
-	volume: 0.85
+	volume: 0.55
 }
 
 sound_data: .wipers_down
 {
 	name: "/sound/truck/volvo/int/wiper_down.ogg"
 	is_2d: true
-	volume: 0.85
+	volume: 0.65
 }
 
 @include "/def/vehicle/truck/man_tga_2006_int_data.sui"
