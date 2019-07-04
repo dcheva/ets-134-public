@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_engine_data : d2066_294.man.tgx_euro6.engine
+accessory_engine_data : d2066_294.man.tgx.engine
 {
 	name: "D2066 LF61T 294 Euro 6"
 	price: 9840

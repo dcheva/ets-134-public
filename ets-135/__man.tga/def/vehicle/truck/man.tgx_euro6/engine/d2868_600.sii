@@ -1,9 +1,9 @@
 SiiNunit
 {
-accessory_engine_data : d2868_600.man.tgx.engine
+accessory_engine_data : d2868_600.man.tgx_euro6.engine
 {
 	name: "D2868 LFTC 600"
-	price: 19980
+	price: 22980
 	unlock: 10
 	info[]: "748 @@hp@@ (600@@kw@@)"
 	info[]: "3@@dg@@300 @@nm@@"

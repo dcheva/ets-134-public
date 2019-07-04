@@ -7,7 +7,6 @@ sound_data: .r
 	volume: 0.95
 }
 
-
 # Lifting axle sound.
 
 sound_data: .lift
@@ -244,7 +243,7 @@ sound_noise_data: .wgrv0
 	min_speed: 5.0
 	max_speed: 40.0
 	pitch_reference: 25.0
-	volume: 0.7
+	volume: 2.7
 }
 
 sound_noise_data: .wgrv1
@@ -254,7 +253,7 @@ sound_noise_data: .wgrv1
 	min_speed: 23.0
 	max_speed: 65.0
 	pitch_reference: 45.0
-	volume: 0.9
+	volume: 2.9
 }
 
 sound_noise_data: .wgrv2
@@ -264,7 +263,7 @@ sound_noise_data: .wgrv2
 	min_speed: 45.0
 	max_speed: 110.0
 	pitch_reference: 83.0
-	volume: 1.0
+	volume: 3.0
 }
 sound_noise_data: .wgrv3
 {
@@ -273,7 +272,7 @@ sound_noise_data: .wgrv3
 	min_speed: 90.0
 	max_speed: 200.0
 	pitch_reference: 130.0
-	volume: 1.0
+	volume: 3.3
 }
 
 sound_noise_data: .wgrs0
@@ -283,7 +282,7 @@ sound_noise_data: .wgrs0
 	min_speed: 5.0
 	max_speed: 45.0
 	pitch_reference: 28.0
-	volume: 0.65
+	volume: 2.65
 }
 
 
@@ -294,7 +293,7 @@ sound_noise_data: .wgrs1
 	min_speed: 30.0
 	max_speed: 90.0
 	pitch_reference: 65.0
-	volume: 0.75
+	volume: 2.75
 }
 
 sound_noise_data: .wgrs2
@@ -304,7 +303,7 @@ sound_noise_data: .wgrs2
 	min_speed: 65.0
 	max_speed: 200.0
 	pitch_reference: 120.0
-	volume: 0.85
+	volume: 2.85
 }
 
 # Suspension noise.

@@ -90,7 +90,7 @@ sound_noise_data: .was1
 {
 	name: "/sound/truck/noises/tires/asph_10_km.ogg"
 	looped: true
-    	min_speed: 5.0
+    min_speed: 5.0
 	max_speed: 15.0
 	pitch_reference: 13.0
 	volume: 0.17
@@ -99,7 +99,7 @@ sound_noise_data: .was2
 {
 	name: "/sound/truck/noises/tires/asph_15_km.ogg"
 	looped: true
-    	min_speed: 10.0
+    min_speed: 10.0
 	max_speed: 20.0
 	pitch_reference: 17.0
 	volume: 0.19
@@ -108,7 +108,7 @@ sound_noise_data: .was3
 {
 	name: "/sound/truck/noises/tires/asph_20_km.ogg"
 	looped: true
-    	min_speed: 15.0
+    min_speed: 15.0
 	max_speed: 25.0
 	pitch_reference: 23.0
 	volume: 0.21
@@ -117,7 +117,7 @@ sound_noise_data: .was4
 {
 	name: "/sound/truck/noises/tires/asph_25_km.ogg"
 	looped: true
-    	min_speed: 20.0
+	min_speed: 20.0
 	max_speed: 30.0
 	pitch_reference: 27.0
 	volume: 0.23
@@ -251,7 +251,6 @@ sound_noise_data: .wru
 	volume: 0.50
 }
 
-
 sound_noise_data: .wgrv0
 {
 	name: "/sound/truck/noises/tires/gravel2_int_01.ogg"
@@ -259,7 +258,7 @@ sound_noise_data: .wgrv0
 	min_speed: 5.0
 	max_speed: 40.0
 	pitch_reference: 25.0
-	volume: 1.1
+	volume: 2.1
 }
 
 sound_noise_data: .wgrv1
@@ -269,7 +268,7 @@ sound_noise_data: .wgrv1
 	min_speed: 23.0
 	max_speed: 65.0
 	pitch_reference: 45.0
-	volume: 1.2
+	volume: 2.2
 }                 
 
 sound_noise_data: .wgrv2
@@ -279,7 +278,7 @@ sound_noise_data: .wgrv2
 	min_speed: 45.0
 	max_speed: 110.0
 	pitch_reference: 83.0
-	volume: 1.3
+	volume: 2.3
 }
 sound_noise_data: .wgrv3
 {
@@ -288,7 +287,7 @@ sound_noise_data: .wgrv3
 	min_speed: 90.0
 	max_speed: 200.0
 	pitch_reference: 130.0
-	volume: 1.4
+	volume: 2.4
 }
 
 
@@ -300,7 +299,7 @@ sound_noise_data: .wgrs0
 	min_speed: 5.0
 	max_speed: 45.0
 	pitch_reference: 28.0
-	volume: 1.1
+	volume: 2.1
 }
 
 
@@ -311,7 +310,7 @@ sound_noise_data: .wgrs1
 	min_speed: 30.0
 	max_speed: 90.0
 	pitch_reference: 65.0
-	volume: 1.2
+	volume: 2.2
 }
 
 sound_noise_data: .wgrs2
@@ -321,14 +320,8 @@ sound_noise_data: .wgrs2
 	min_speed: 65.0
 	max_speed: 200.0
 	pitch_reference: 120.0
-	volume: 1.3
+	volume: 2.3
 }
-
-
-
-
-
-
 
 
 #------------STICKS--------------

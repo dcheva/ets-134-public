@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_engine_data : d2676_324.man.tgx_euro6.engine
+accessory_engine_data : d2676_324.man.tgx.engine
 {
 	name: "D2676 LF26T 324 Euro 6"
 	price: 12600
