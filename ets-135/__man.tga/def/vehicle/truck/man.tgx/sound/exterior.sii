@@ -31,7 +31,8 @@ accessory_sound_data : std.man.tgx.esound
 
 	turbo: .t
 
-  air_horn: .ahorn	air_gear[0]: .airgear0
+	air_horn: .ahorn	
+	air_gear[]: .airgear0
 	air_gear[]: .airgear1
 	air_gear[]: .airgear2
 
@@ -213,7 +214,7 @@ sound_engine_data: .el3
 
 	looped: true
 
-	pitch_reference: 1600
+	pitch_reference: 1200
 
 	min_rpm: 920.0
 	max_rpm: 1300.0
