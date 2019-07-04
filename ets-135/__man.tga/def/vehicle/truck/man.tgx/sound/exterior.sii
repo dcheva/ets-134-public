@@ -270,18 +270,17 @@ sound_engine_data: .el7
 	volume: 0.95
 }
 
-
 sound_engine_data: .el8
 {
 	name: "/sound/truck/man/ext/loaded_2.ogg"
 
 	looped: true
 
-	pitch_reference: 1040
+	pitch_reference: 2000
 
-	min_rpm: 1960.0
-	max_rpm: 3000.0
-	volume: 0.48
+	min_rpm: 1660.0
+	max_rpm: 2060.0
+	volume: 1.23
 }
 
 sound_engine_data: .el9
@@ -290,11 +289,11 @@ sound_engine_data: .el9
 
 	looped: true
 
-	pitch_reference: 1460
+	pitch_reference: 3000
 
-	min_rpm: 2160.0
+	min_rpm: 1860.0
 	max_rpm: 3000.0
-	volume: 0.54
+	volume: 1.45
 }
 
 sound_data: .t

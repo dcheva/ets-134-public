@@ -280,11 +280,11 @@ sound_engine_data: .el8
 
 	looped: true
 
-	pitch_reference: 1040
+	pitch_reference: 2000
 
-	min_rpm: 1960.0
-	max_rpm: 3000.0
-	volume: 0.48
+	min_rpm: 1660.0
+	max_rpm: 2060.0
+	volume: 1.23
 }
 
 sound_engine_data: .el9
@@ -293,11 +293,11 @@ sound_engine_data: .el9
 
 	looped: true
 
-	pitch_reference: 1460
+	pitch_reference: 3000
 
-	min_rpm: 2160.0
+	min_rpm: 1860.0
 	max_rpm: 3000.0
-	volume: 0.54
+	volume: 1.45
 }
 
 sound_data: .t
@@ -377,14 +377,14 @@ sound_data: .blinker_on
 {
 	name: "/sound/truck/volvo/int/blinker_on.ogg"
 	is_2d: true
-	volume: 0.42
+	volume: 0.32
 }
 
 sound_data: .blinker_off
 {
 	name: "/sound/truck/volvo/int/blinker_off.ogg"
 	is_2d: true
-	volume: 0.42
+	volume: 0.32
 }
 
 sound_data: .wipers_up
