@@ -337,7 +337,7 @@ sound_data: .lights_s
 	name: "/sound/truck/noises/sticks/light5_botton.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.3
+	volume: 0.4
 }
 
 sound_data: .hbeam_s
@@ -345,7 +345,7 @@ sound_data: .hbeam_s
 	name: "/sound/truck/noises/sticks/hbeam5_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.3
+	volume: 0.4
 }
 
 sound_data: .lhorn_s
@@ -353,7 +353,7 @@ sound_data: .lhorn_s
 	name: "/sound/truck/noises/sticks/common5_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.35	
+	volume: 0.45	
 }
 
 sound_data: .blinker_s
@@ -361,7 +361,7 @@ sound_data: .blinker_s
 	name: "/sound/truck/noises/sticks/switch5_blinker_on.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.18	
+	volume: 0.28	
 }
 
 sound_data: .blinker2_s
@@ -369,7 +369,7 @@ sound_data: .blinker2_s
 	name: "/sound/truck/noises/sticks/switch5_blinker_off.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.18	
+	volume: 0.28	
 }
 
 sound_data: .hwarn_s
@@ -393,7 +393,7 @@ sound_data: .retarder_s
 	name: "/sound/truck/noises/sticks/switch5_retarder.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.45
+	volume: 0.55
 }
 
 sound_data: .pbrake_s
@@ -401,7 +401,7 @@ sound_data: .pbrake_s
 	name: "/sound/truck/noises/sticks/brake5_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.35
+	volume: 0.45
 }
 
 sound_data: .pbrake2_s
@@ -409,7 +409,7 @@ sound_data: .pbrake2_s
 	name: "/sound/truck/noises/sticks/brake5_off_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.30
+	volume: 0.40
 }
 
 #----------------------------------

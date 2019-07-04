@@ -260,7 +260,7 @@ sound_engine_data: .el6
 
 	min_rpm: 1550.0
 	max_rpm: 2000.0
-	volume: 0.85
+	volume: 0.75
 }
 
 sound_engine_data: .el7
@@ -273,7 +273,7 @@ sound_engine_data: .el7
 
 	min_rpm: 1760.0
 	max_rpm: 3000.0
-	volume: 0.95
+	volume: 0.85
 }
 
 sound_engine_data: .el8
@@ -282,11 +282,11 @@ sound_engine_data: .el8
 
 	looped: true
 
-	pitch_reference: 2000
+	pitch_reference: 1000
 
 	min_rpm: 1660.0
 	max_rpm: 2060.0
-	volume: 1.23
+	volume: 0.73
 }
 
 sound_engine_data: .el9
@@ -295,11 +295,11 @@ sound_engine_data: .el9
 
 	looped: true
 
-	pitch_reference: 3000
+	pitch_reference: 1500
 
 	min_rpm: 1860.0
 	max_rpm: 3000.0
-	volume: 1.45
+	volume: 0.85
 }
 
 sound_data: .t
@@ -313,33 +313,33 @@ sound_data: .t
 sound_data: .airgear0
 {
 	name: "/sound/truck/man/int/gear1.ogg"
-	volume: 0.36
+	volume: 0.56
 }
 
 sound_data: .airgear1
 {
 	name: "/sound/truck/man/int/gear2.ogg"
-	volume: 0.36
+	volume: 0.56
 }
 
 sound_data: .airgear2
 {
 	name: "/sound/truck/man/int/gear3.ogg"
-	volume: 0.36
+	volume: 0.56
 }                 
 
 sound_data: .airbrake0
 {
 	name: "/sound/truck/man/int/brake1.ogg"
 	looped: false 
-	volume: 0.3
+	volume: 0.5
 }
 
 sound_data: .airbrake1
 {
 	name: "/sound/truck/man/int/brake2.ogg"
 	looped: false
-	volume: 0.3
+	volume: 0.5
 }
 
 sound_engine_data: .eb

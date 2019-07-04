@@ -276,11 +276,11 @@ sound_engine_data: .el8
 
 	looped: true
 
-	pitch_reference: 2000
+	pitch_reference: 1000
 
 	min_rpm: 1660.0
 	max_rpm: 2060.0
-	volume: 1.23
+	volume: 0.73
 }
 
 sound_engine_data: .el9
@@ -289,11 +289,11 @@ sound_engine_data: .el9
 
 	looped: true
 
-	pitch_reference: 3000
+	pitch_reference: 1500
 
 	min_rpm: 1860.0
 	max_rpm: 3000.0
-	volume: 1.45
+	volume: 0.85
 }
 
 sound_data: .t
