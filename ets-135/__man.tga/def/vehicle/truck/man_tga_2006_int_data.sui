@@ -56,21 +56,23 @@ sound_data: .aircut0
 	name: "/sound/truck/noises/air_cutoff1_int.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.2}
+	volume: 0.75
+}
 
 sound_data: .aircut1
 {
 	name: "/sound/truck/noises/air_cutoff2_int.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.2}
+	volume: 0.75
+}
 
 sound_data: .aircut2
 {
 	name: "/sound/truck/noises/air_cutoff3_int.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.2
+	volume: 0.75
 }
 
 # Tire noises.
@@ -79,163 +81,163 @@ sound_noise_data: .was0
 {
 	name: "/sound/truck/noises/tires/asph_05_km.ogg"
 	looped: true
-    min_speed: 3.0
+    	min_speed: 3.0
 	max_speed: 10.0
 	pitch_reference: 7.0
-	volume: 0.05
+	volume: 0.15
 }
 sound_noise_data: .was1
 {
 	name: "/sound/truck/noises/tires/asph_10_km.ogg"
 	looped: true
-    min_speed: 5.0
+    	min_speed: 5.0
 	max_speed: 15.0
 	pitch_reference: 13.0
-	volume: 0.07
+	volume: 0.17
 }
 sound_noise_data: .was2
 {
 	name: "/sound/truck/noises/tires/asph_15_km.ogg"
 	looped: true
-    min_speed: 10.0
+    	min_speed: 10.0
 	max_speed: 20.0
 	pitch_reference: 17.0
-	volume: 0.09
+	volume: 0.19
 }
 sound_noise_data: .was3
 {
 	name: "/sound/truck/noises/tires/asph_20_km.ogg"
 	looped: true
-    min_speed: 15.0
+    	min_speed: 15.0
 	max_speed: 25.0
 	pitch_reference: 23.0
-	volume: 0.11
+	volume: 0.21
 }
 sound_noise_data: .was4
 {
 	name: "/sound/truck/noises/tires/asph_25_km.ogg"
 	looped: true
-    min_speed: 20.0
+    	min_speed: 20.0
 	max_speed: 30.0
 	pitch_reference: 27.0
-	volume: 0.13
+	volume: 0.23
 }
 sound_noise_data: .was5
 {
 	name: "/sound/truck/noises/tires/asph_30_km.ogg"
 	looped: true
-    min_speed: 25.0
+    	min_speed: 25.0
 	max_speed: 35.0
 	pitch_reference: 32.0
-	volume: 0.15
+	volume: 0.25
 }
 sound_noise_data: .was6
 {
 	name: "/sound/truck/noises/tires/asph_35_km.ogg"
 	looped: true
-    min_speed: 30.0
+    	min_speed: 30.0
 	max_speed: 40.0
 	pitch_reference: 37.0
-	volume: 0.16
+	volume: 0.26
 }
 sound_noise_data: .was7
 {
 	name: "/sound/truck/noises/tires/asph_40_km.ogg"
 	looped: true
-    min_speed: 35.0
+    	min_speed: 35.0
 	max_speed: 45.0
 	pitch_reference: 43.0
-	volume: 0.18
+	volume: 0.28
 }
 sound_noise_data: .was8
 {
 	name: "/sound/truck/noises/tires/asph_45_km.ogg"
 	looped: true
-    min_speed: 40.0
+	min_speed: 40.0
 	max_speed: 50.0
 	pitch_reference: 47.0
-	volume: 0.20
+	volume: 0.30
 }
 sound_noise_data: .was9
 {
 	name: "/sound/truck/noises/tires/asph_50_km.ogg"
 	looped: true
-    min_speed: 45.0
+    	min_speed: 45.0
 	max_speed: 55.0
 	pitch_reference: 53.0
-	volume: 0.22
+	volume: 0.32
 }
 sound_noise_data: .was10
 {
 	name: "/sound/truck/noises/tires/asph_55_km.ogg"
 	looped: true
-    min_speed: 50.0
+    	min_speed: 50.0
 	max_speed: 60.0
 	pitch_reference: 57.0
-	volume: 0.24
+	volume: 0.34
 }
 sound_noise_data: .was11
 {
 	name: "/sound/truck/noises/tires/asph_60_km.ogg"
 	looped: true
-    min_speed: 55.0
+    	min_speed: 55.0
 	max_speed: 65.0
 	pitch_reference: 63.0
-	volume: 0.27
+	volume: 0.37
 }
 sound_noise_data: .was12
 {
 	name: "/sound/truck/noises/tires/asph_65_km.ogg"
 	looped: true
-    min_speed: 60.0
+    	min_speed: 60.0
 	max_speed: 70.0
 	pitch_reference: 67.0
-	volume: 0.32
+	volume: 0.42
 }
 sound_noise_data: .was13
 {
 	name: "/sound/truck/noises/tires/asph_70_km.ogg"
 	looped: true
-    min_speed: 65.0
+    	min_speed: 65.0
 	max_speed: 75.0
 	pitch_reference: 73.0
-	volume: 0.40
+	volume: 0.50
 }
 sound_noise_data: .was14
 {
 	name: "/sound/truck/noises/tires/asph_75_km.ogg"
 	looped: true
-    min_speed: 70.0
+    	min_speed: 70.0
 	max_speed: 80.0
 	pitch_reference: 77.0
-	volume: 0.44
+	volume: 0.54
 }
 sound_noise_data: .was15
 {
 	name: "/sound/truck/noises/tires/asph_80_km.ogg"
 	looped: true
-    min_speed: 75.0
+    	min_speed: 75.0
 	max_speed: 85.0
 	pitch_reference: 83.0
-	volume: 0.50
+	volume: 0.60
 }
 sound_noise_data: .was16
 {
 	name: "/sound/truck/noises/tires/asph_85_km.ogg"
 	looped: true
-    min_speed: 80.0
+    	min_speed: 80.0
 	max_speed: 90.0
 	pitch_reference: 87.0
-	volume: 0.54
+	volume: 0.64
 }
 sound_noise_data: .was17
 {
 	name: "/sound/truck/noises/tires/asph_90_km.ogg"
 	looped: true
-    min_speed: 85.0
+    	min_speed: 85.0
 	max_speed: 130.0
 	pitch_reference: 100.0
-	volume: 0.56
+	volume: 0.66
 }
 
 sound_noise_data: .wru
@@ -246,7 +248,7 @@ sound_noise_data: .wru
 	min_speed: 20.0
 	max_speed: 200.0
 	pitch_reference: 70.0
-	volume: 0.80
+	volume: 0.50
 }
 
 
@@ -334,7 +336,7 @@ sound_data: .lights_s
 	name: "/sound/truck/noises/sticks/light5_botton.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.3
+	volume: 0.4
 }
 
 sound_data: .hbeam_s
@@ -342,7 +344,7 @@ sound_data: .hbeam_s
 	name: "/sound/truck/noises/sticks/hbeam5_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.3
+	volume: 0.4
 }
 
 sound_data: .lhorn_s
@@ -350,7 +352,7 @@ sound_data: .lhorn_s
 	name: "/sound/truck/noises/sticks/common5_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.35	
+	volume: 0.45	
 }
 
 sound_data: .blinker_s
@@ -358,7 +360,7 @@ sound_data: .blinker_s
 	name: "/sound/truck/noises/sticks/switch5_blinker_on.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.33	
+	volume: 0.48	
 }
 
 sound_data: .blinker2_s
@@ -366,7 +368,7 @@ sound_data: .blinker2_s
 	name: "/sound/truck/noises/sticks/switch5_blinker_off.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.33	
+	volume: 0.43	
 }
 
 sound_data: .hwarn_s
@@ -390,7 +392,7 @@ sound_data: .retarder_s
 	name: "/sound/truck/noises/sticks/switch5_retarder.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.45
+	volume: 0.55
 }
 
 sound_data: .pbrake_s
@@ -398,7 +400,7 @@ sound_data: .pbrake_s
 	name: "/sound/truck/noises/sticks/brake5_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.35
+	volume: 0.45
 }
 
 sound_data: .pbrake2_s
@@ -406,7 +408,7 @@ sound_data: .pbrake2_s
 	name: "/sound/truck/noises/sticks/brake5_off_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.30
+	volume: 0.40
 }
 
 #----------------------------------
@@ -416,102 +418,102 @@ sound_data: .pbrake2_s
 sound_data: .snoise0
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_02.ogg"
-	volume: 0.6
+	volume: 0.86
 }
 
 sound_data: .snoise1
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_06.ogg"
-	volume: 0.6
+	volume: 0.86
 }
 
 sound_data: .snoise2
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_07.ogg"
-	volume: 0.6
+	volume: 0.86
 }
 
 sound_data: .snoise3
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_09.ogg"
-	volume: 0.6
+	volume: 0.86
 }
 
 sound_data: .snoise4
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_13.ogg"
-	volume: 0.6
+	volume: 0.86
 }
 
 sound_data: .snoise5
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_17.ogg"
-	volume: 0.6
+	volume: 0.86
 }
 sound_data: .snoise6
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_18.ogg"
-	volume: 0.6
+	volume: 0.84
 }
 
 sound_data: .snoise7
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_21.ogg"
-	volume: 0.6
+	volume: 0.84
 }
 
 sound_data: .snoise8
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_30.ogg"
-	volume: 0.6
+	volume: 0.84
 }
 
 sound_data: .snoise9
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_31.ogg"
-	volume: 0.6
+	volume: 0.84
 }
 
 sound_data: .snoise10
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_32.ogg"
-	volume: 0.6
+	volume: 0.84
 }
 
 sound_data: .snoise11
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_33.ogg"
-	volume: 0.6
+	volume: 0.84
 }
 
 sound_data: .snoise12
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_34.ogg"
-	volume: 0.6
+	volume: 0.84
 }
 
 sound_data: .snoise13
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_38.ogg"
-	volume: 0.6
+	volume: 0.84
 }
 
 sound_data: .snoise14
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_39.ogg"
-	volume: 0.6
+	volume: 0.84
 }
 
 sound_data: .snoise15
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_42.ogg"
-	volume: 0.6
+	volume: 0.84
 }
 
 sound_data: .snoise16
 {
 	name: "/sound/truck/noises/inside_noises/inside_noise_43.ogg"
-	volume: 0.6
+	volume: 0.86
 }
 
 # Suspension noise.
