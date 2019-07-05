@@ -14,7 +14,6 @@
 PgUp::WheelUp
 PgDn::WheelDown
 
-
 ^!r::Reload
 ^!p::Pause
 ^!s::
@@ -27,3 +26,4 @@ PgDn::WheelDown
    {   Suspend Off
    }
    Return
+   
