@@ -1,0 +1,74 @@
+city_data: city.frederikshv
+{
+	city_name: "Frederikshavn"
+	city_name_localized: "@@frederikshavn@@"
+	country: denmark
+	## City pin and name scale factor sets size of city pin and name text on UI map.
+	## Valid values: (0;2> default value 1.0. Default pin size on UI map 24px X 24px.
+	#city_pin_scale_factor[]: 1.0f
+	#city_pin_scale_factor[]: 1.0f
+	#city_pin_scale_factor[]: 1.0f
+	#city_pin_scale_factor[]: 1.0f
+	#city_pin_scale_factor[]: 1.0f
+	#city_pin_scale_factor[]: 0.9f
+	#city_pin_scale_factor[]: 0.85f
+	#city_pin_scale_factor[]: 0.75f
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.8  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.6  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -54
+	map_x_offsets[]: -44
+	map_x_offsets[]: -39
+	map_x_offsets[]: -45
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 70
+	map_y_offsets[]: 17
+	map_y_offsets[]: 7
+	map_y_offsets[]: 2
+
+	truck_lp_template[]:"FA 02 111"
+	truck_lp_template[]:"FA 34 111"
+
+	truck_lp_def0[]:"7"
+
+	truck_lp_def1[]:"0"
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+	truck_lp_def3[]:"8"
+
+	truck_lp_def4[]:"0"
+	truck_lp_def4[]:"1"
+	truck_lp_def4[]:"2"
+	truck_lp_def4[]:"3"
+	truck_lp_def4[]:"4"
+	truck_lp_def4[]:"5"
+	truck_lp_def4[]:"6"
+	truck_lp_def4[]:"7"
+}

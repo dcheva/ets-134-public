@@ -1,0 +1,28 @@
+SiiNunit
+{
+overlay_def : .overlay {
+
+	city_names[]: "md_balti"
+	city_names[]: "md_chisinau"
+	city_names[]: "md_galati"
+	city_names[]: "md_iasi"
+
+	road_names[]: "md_e58"
+	road_names[]: "md_e577"
+	road_names[]: "md_e581"
+	road_names[]: "md_e583"
+	road_names[]: "md_e584"
+
+	road_names[]: "md_m1"
+	road_names[]: "md_m2"
+	road_names[]: "md_m3"
+	road_names[]: "md_m14"
+
+	road_names[]: "md_r1"
+	road_names[]: "md_r2"
+	road_names[]: "md_r3"
+	road_names[]: "md_r6"
+	road_names[]: "md_r7"
+}
+
+}

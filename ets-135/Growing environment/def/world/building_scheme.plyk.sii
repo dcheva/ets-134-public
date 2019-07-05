@@ -1,0 +1,136 @@
+SiiNunit
+{
+
+// ---- Powerlines ----------------------------------------
+
+building_scheme : bld_scheme.plyk020rw {
+	name: "railway powerline, one_sided, se high"
+	models[]: bld_model.plyk020
+	category: "railway"
+}
+
+building_scheme : bld_scheme.plyk021rw {
+	name: "railway powerline, one_sided, se low"
+	models[]: bld_model.plyk021
+	category: "railway"
+}
+
+building_scheme : bld_scheme.plyk022rw {
+	name: "railway powerline, one_sided, de old"
+	models[]: bld_model.plyk022
+	category: "railway"
+}	
+	
+// ----- Additional looks for rail object: Concrete ------------------------------------------------------
+	
+
+building_scheme : bld_scheme.rail001  {
+	name: "rail, concrete"
+	models[]: bld_model.rail001
+	category: "rail"
+}
+
+building_scheme : bld_scheme.rail002  {
+	name: "rail_02, concrete"
+	models[]: bld_model.rail002
+	category: "rail"
+}
+
+building_scheme : bld_scheme.rail003  {
+	name: "rail_03, concrete"
+	models[]: bld_model.rail003
+	category: "rail"
+}
+
+building_scheme : bld_scheme.rail005  {
+	name: "rail_2x, concrete"
+	models[]: bld_model.rail005
+	category: "rail"
+}
+
+building_scheme : bld_scheme.rail006  {
+	name: "rail_2x_02, concrete"
+	models[]: bld_model.rail006
+	category: "rail"
+}
+
+building_scheme : bld_scheme.rail007  {
+	name: "rail_2x_03, concrete"
+	models[]: bld_model.rail007
+	category: "rail"
+}
+
+building_scheme : bld_scheme.rail008  {
+	name: "rail 2x small, concrete"
+	models[]: bld_model.rail008
+	category: "rail"
+}
+
+// ----- Additional looks for rail object: Timber ------------------------------------------------------
+
+
+building_scheme : bld_scheme.rail011  {
+	name: "rail, timber"
+	models[]: bld_model.rail011
+	category: "rail"
+}
+
+building_scheme : bld_scheme.rail012  {
+	name: "rail_02, timber"
+	models[]: bld_model.rail012
+	category: "rail"
+}
+
+building_scheme : bld_scheme.rail013 {
+	name: "rail_03, timber"
+	models[]: bld_model.rail013
+	category: "rail"
+}
+
+building_scheme : bld_scheme.rail015  {
+	name: "rail_2x, timber"
+	models[]: bld_model.rail015
+	category: "rail"
+}
+
+building_scheme : bld_scheme.rail016  {
+	name: "rail_2x_02, timber"
+	models[]: bld_model.rail016
+	category: "rail"
+}
+
+building_scheme : bld_scheme.rail017  {
+	name: "rail_2x_03, timber"
+	models[]: bld_model.rail017
+	category: "rail"
+}
+
+building_scheme : bld_scheme.rail018  {
+	name: "rail 2x small, timber"
+	models[]: bld_model.rail018
+	category: "rail"
+}
+
+// ----- Anti noise walls ------------------------------------------------------
+
+building_scheme : bld_scheme.anw019 {
+	name: "anti_noise - corrugated steel and wood (AT)"
+	models[]: bld_model.anw019
+	category: "anti noise"	
+}
+
+building_scheme : bld_scheme.anw020 {
+	name: "anti_noise AT low"
+	models[]: bld_model.anw020
+	category: "anti noise"	
+}
+
+building_scheme : bld_scheme.anw021 {
+	name: "anti_noise_at_low_lod"
+	models[]: bld_model.anw021
+	category: "anti noise"	
+}
+
+
+	
+}

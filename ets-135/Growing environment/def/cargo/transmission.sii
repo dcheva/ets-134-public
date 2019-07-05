@@ -1,0 +1,10 @@
+cargo_data: cargo.transmission
+{
+	name: "@@cargo_transmissions@@"
+	fragility: 0.6
+	price_coef: 1.676
+	group[]: machinery
+	body_types[]: _transmis_01
+	body_types[]: _transmis_02
+	body_types[]: _transmis_03
+}

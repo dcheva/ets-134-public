@@ -1,0 +1,106 @@
+city_data: city.rijeka
+{
+	city_name: "Rijeka"
+	city_name_localized: "@@rijeka@@"
+	country: croatia
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"renault"
+
+	truck_lp_template[]:"01333-22"
+
+	truck_lp_def0[]:"RI"
+
+	truck_lp_def1[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/croatia/hr.mat color=FFFFFFFF><offset hshift=4 vshift=4>"
+
+	truck_lp_def2[]:"A"
+	truck_lp_def2[]:"B"
+	truck_lp_def2[]:"C"
+	truck_lp_def2[]:"D"
+	truck_lp_def2[]:"E"
+	truck_lp_def2[]:"F"
+	truck_lp_def2[]:"G"
+	truck_lp_def2[]:"H"
+	truck_lp_def2[]:"J"
+	truck_lp_def2[]:"K"
+	truck_lp_def2[]:"L"
+	truck_lp_def2[]:"M"
+	truck_lp_def2[]:"N"
+	truck_lp_def2[]:"P"
+	truck_lp_def2[]:"Q"
+	truck_lp_def2[]:"R"
+	truck_lp_def2[]:"S"
+	truck_lp_def2[]:"T"
+	truck_lp_def2[]:"U"
+	truck_lp_def2[]:"V"
+	truck_lp_def2[]:"X"
+	truck_lp_def2[]:"Y"
+
+	truck_lp_def3[]:"1"
+	truck_lp_def3[]:"2"
+	truck_lp_def3[]:"3"
+	truck_lp_def3[]:"4"
+	truck_lp_def3[]:"5"
+	truck_lp_def3[]:"6"
+	truck_lp_def3[]:"7"
+	truck_lp_def3[]:"8"
+	truck_lp_def3[]:"9"
+	truck_lp_def3[]:"0"
+
+	ai_lp_template[]:"01333-22"
+
+	ai_lp_def0[]:"RI"
+
+	ai_lp_def1[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/croatia/hr.mat color=FFFFFFFF><offset hshift=4 vshift=4>"
+
+	ai_lp_def2[]:"A"
+	ai_lp_def2[]:"B"
+	ai_lp_def2[]:"C"
+	ai_lp_def2[]:"D"
+	ai_lp_def2[]:"E"
+	ai_lp_def2[]:"F"
+	ai_lp_def2[]:"G"
+	ai_lp_def2[]:"H"
+	ai_lp_def2[]:"J"
+	ai_lp_def2[]:"K"
+	ai_lp_def2[]:"L"
+	ai_lp_def2[]:"M"
+	ai_lp_def2[]:"N"
+	ai_lp_def2[]:"P"
+	ai_lp_def2[]:"Q"
+	ai_lp_def2[]:"R"
+	ai_lp_def2[]:"S"
+	ai_lp_def2[]:"T"
+	ai_lp_def2[]:"U"
+	ai_lp_def2[]:"V"
+	ai_lp_def2[]:"X"
+	ai_lp_def2[]:"Y"
+
+	ai_lp_def3[]:"1"
+	ai_lp_def3[]:"2"
+	ai_lp_def3[]:"3"
+	ai_lp_def3[]:"4"
+	ai_lp_def3[]:"5"
+	ai_lp_def3[]:"6"
+	ai_lp_def3[]:"7"
+	ai_lp_def3[]:"8"
+	ai_lp_def3[]:"9"
+	ai_lp_def3[]:"0"
+}

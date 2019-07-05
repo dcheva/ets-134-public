@@ -1,0 +1,287 @@
+# base: traffic.trailer.generic.coolliner
+
+traffic_trailer : .traffic.trailer.generic.coolliner.bondi {
+	accessories[]: .generic.coolliner.tchassis.bondi
+	accessories[]: .generic.coolliner.trwheel0.bondi
+	accessories[]: .generic.coolliner.trwheel1.bondi
+	accessories[]: .generic.coolliner.trwheel2.bondi
+	accessories[]: .generic.coolliner.paintjob.bondi
+	cargo_mass: 20000
+	base: traffic.trailer.generic.coolliner
+}
+vehicle_accessory: .generic.coolliner.tchassis.bondi {
+	data_path: "/def/vehicle/trailer/krone/coolliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel0.bondi {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel1.bondi {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel2.bondi {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .generic.coolliner.paintjob.bondi {
+    	data_path: "/def/vehicle/trailer/krone/coolliner/company_paint_job/bondi.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.coolliner.deret {
+	accessories[]: .generic.coolliner.tchassis.deret
+	accessories[]: .generic.coolliner.trwheel0.deret
+	accessories[]: .generic.coolliner.trwheel1.deret
+	accessories[]: .generic.coolliner.trwheel2.deret
+	accessories[]: .generic.coolliner.paintjob.deret
+	cargo_mass: 20000
+	base: traffic.trailer.generic.coolliner
+}
+vehicle_accessory: .generic.coolliner.tchassis.deret {
+	data_path: "/def/vehicle/trailer/krone/coolliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel0.deret {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel1.deret {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel2.deret {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .generic.coolliner.paintjob.deret {
+    	data_path: "/def/vehicle/trailer/krone/coolliner/company_paint_job/deret.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.coolliner.eimskip {
+	accessories[]: .generic.coolliner.tchassis.eimskip
+	accessories[]: .generic.coolliner.trwheel0.eimskip
+	accessories[]: .generic.coolliner.trwheel1.eimskip
+	accessories[]: .generic.coolliner.trwheel2.eimskip
+	accessories[]: .generic.coolliner.paintjob.eimskip
+	cargo_mass: 20000
+	base: traffic.trailer.generic.coolliner
+}
+vehicle_accessory: .generic.coolliner.tchassis.eimskip {
+	data_path: "/def/vehicle/trailer/krone/coolliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel0.eimskip {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel1.eimskip {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel2.eimskip {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .generic.coolliner.paintjob.eimskip {
+    	data_path: "/def/vehicle/trailer/krone/coolliner/company_paint_job/eimskip.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.coolliner.hb_grandi {
+	accessories[]: .generic.coolliner.tchassis.hb_grandi
+	accessories[]: .generic.coolliner.trwheel0.hb_grandi
+	accessories[]: .generic.coolliner.trwheel1.hb_grandi
+	accessories[]: .generic.coolliner.trwheel2.hb_grandi
+	accessories[]: .generic.coolliner.paintjob.hb_grandi
+	cargo_mass: 20000
+	base: traffic.trailer.generic.coolliner
+}
+vehicle_accessory: .generic.coolliner.tchassis.hb_grandi {
+	data_path: "/def/vehicle/trailer/krone/coolliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel0.hb_grandi {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel1.hb_grandi {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel2.hb_grandi {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .generic.coolliner.paintjob.hb_grandi {
+    	data_path: "/def/vehicle/trailer/krone/coolliner/company_paint_job/hb_grandi.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.coolliner.icelandair {
+	accessories[]: .generic.coolliner.tchassis.icelandair
+	accessories[]: .generic.coolliner.trwheel0.icelandair
+	accessories[]: .generic.coolliner.trwheel1.icelandair
+	accessories[]: .generic.coolliner.trwheel2.icelandair
+	accessories[]: .generic.coolliner.paintjob.icelandair
+	cargo_mass: 20000
+	base: traffic.trailer.generic.coolliner
+}
+vehicle_accessory: .generic.coolliner.tchassis.icelandair {
+	data_path: "/def/vehicle/trailer/krone/coolliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel0.icelandair {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel1.icelandair {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel2.icelandair {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .generic.coolliner.paintjob.icelandair {
+    	data_path: "/def/vehicle/trailer/krone/coolliner/company_paint_job/icelandair.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.coolliner.nd {
+	accessories[]: .generic.coolliner.tchassis.nd
+	accessories[]: .generic.coolliner.trwheel0.nd
+	accessories[]: .generic.coolliner.trwheel1.nd
+	accessories[]: .generic.coolliner.trwheel2.nd
+	accessories[]: .generic.coolliner.paintjob.nd
+	cargo_mass: 20000
+	base: traffic.trailer.generic.coolliner
+}
+vehicle_accessory: .generic.coolliner.tchassis.nd {
+	data_path: "/def/vehicle/trailer/krone/coolliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel0.nd {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel1.nd {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel2.nd {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .generic.coolliner.paintjob.nd {
+    	data_path: "/def/vehicle/trailer/krone/coolliner/company_paint_job/nd.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.coolliner.samskip {
+	accessories[]: .generic.coolliner.tchassis.samskip
+	accessories[]: .generic.coolliner.trwheel0.samskip
+	accessories[]: .generic.coolliner.trwheel1.samskip
+	accessories[]: .generic.coolliner.trwheel2.samskip
+	accessories[]: .generic.coolliner.paintjob.samskip
+	cargo_mass: 20000
+	base: traffic.trailer.generic.coolliner
+}
+vehicle_accessory: .generic.coolliner.tchassis.samskip {
+	data_path: "/def/vehicle/trailer/krone/coolliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel0.samskip {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel1.samskip {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel2.samskip {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .generic.coolliner.paintjob.samskip {
+    	data_path: "/def/vehicle/trailer/krone/coolliner/company_paint_job/samskip.sii"
+}
+
+traffic_trailer : .traffic.trailer.generic.coolliner.smyril {
+	accessories[]: .generic.coolliner.tchassis.smyril
+	accessories[]: .generic.coolliner.trwheel0.smyril
+	accessories[]: .generic.coolliner.trwheel1.smyril
+	accessories[]: .generic.coolliner.trwheel2.smyril
+	accessories[]: .generic.coolliner.paintjob.smyril
+	cargo_mass: 20000
+	base: traffic.trailer.generic.coolliner
+}
+vehicle_accessory: .generic.coolliner.tchassis.smyril {
+	data_path: "/def/vehicle/trailer/krone/coolliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel0.smyril {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel1.smyril {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel2.smyril {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .generic.coolliner.paintjob.smyril {
+    	data_path: "/def/vehicle/trailer/krone/coolliner/company_paint_job/smyril.sii"
+}
+
+traffic_trailer : .traffic.trailer.generic.coolliner.lidl {
+	accessories[]: .generic.coolliner.tchassis.lidl
+	accessories[]: .generic.coolliner.trwheel0.lidl
+	accessories[]: .generic.coolliner.trwheel1.lidl
+	accessories[]: .generic.coolliner.trwheel2.lidl
+	accessories[]: .generic.coolliner.paintjob.lidl
+	cargo_mass: 20000
+	base: traffic.trailer.generic.coolliner
+}
+vehicle_accessory: .generic.coolliner.tchassis.lidl {
+	data_path: "/def/vehicle/trailer/krone/coolliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel0.lidl {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel1.lidl {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel2.lidl {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .generic.coolliner.paintjob.lidl {
+    	data_path: "/def/vehicle/trailer/krone/coolliner/company_paint_job/lidl.sii"
+}
+
+traffic_trailer : .traffic.trailer.generic.coolliner.gallia_ferry {
+	accessories[]: .generic.coolliner.tchassis.gallia_ferry
+	accessories[]: .generic.coolliner.trwheel0.gallia_ferry
+	accessories[]: .generic.coolliner.trwheel1.gallia_ferry
+	accessories[]: .generic.coolliner.trwheel2.gallia_ferry
+	accessories[]: .generic.coolliner.paintjob.gallia_ferry
+	cargo_mass: 20000
+	base: traffic.trailer.generic.coolliner
+}
+vehicle_accessory: .generic.coolliner.tchassis.gallia_ferry {
+	data_path: "/def/vehicle/trailer/krone/coolliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel0.gallia_ferry {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel1.gallia_ferry {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .generic.coolliner.trwheel2.gallia_ferry {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .generic.coolliner.paintjob.gallia_ferry {
+    	data_path: "/def/vehicle/trailer/krone/coolliner/company_paint_job/gallia_ferry.sii"
+}

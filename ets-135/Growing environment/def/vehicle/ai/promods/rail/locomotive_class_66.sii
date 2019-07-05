@@ -1,0 +1,50 @@
+traffic_vehicle : traffic.loc_cl66
+{
+	accessories[]: .loc_cl66.chassis
+	accessories[]: .loc_cl66.fwheel
+	accessories[]: .loc_cl66.rwheel
+	accessories[]: .loc_cl66.rwheel2
+	accessories[]: .loc_cl66.rwheel3
+
+	max_speed: 120
+
+	vehicle_mass: 190000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 35000
+
+	trailer_chains[]: "train_car_c 6-10"
+
+	spawn_ratio: 0	
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .loc_cl66.chassis
+{
+	data_path: "/def/vehicle/ai/promods/rail/locomotive_class_66/chassis_class_66.sii"
+}
+
+vehicle_wheel_accessory: .loc_cl66.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .loc_cl66.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .loc_cl66.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .loc_cl66.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

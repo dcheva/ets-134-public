@@ -1,0 +1,24 @@
+
+country_data: country.data.germany
+{
+	country_id: 5
+	name: "Deutschland"
+	name_localized: "@@germany@@"
+	country_code: "D"
+
+	pos:(-2770, 0, -370)
+
+	fuel_price: 1.23
+
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}
+

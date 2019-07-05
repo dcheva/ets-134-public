@@ -1,0 +1,20 @@
+country_data: country.data.iceland
+{
+	name: "Ísland"
+	name_localized: "@@iceland@@"
+	country_code: "IS"
+	pos:(-82000, 0, -97500)
+	fuel_price: 1.59
+	country_id: 26
+	lights_mandatory: true
+	driving_tired_offence: true
+	
+	time_zone:	0		# +0 hours in minutes
+	time_zone_name: "WET"
+	
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000	# 44t for 40ft containers :(
+}
+

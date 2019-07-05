@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.sthelier.cherbourg{
+	price: 99
+	time: 90
+	distance: 84
+}
+}
+

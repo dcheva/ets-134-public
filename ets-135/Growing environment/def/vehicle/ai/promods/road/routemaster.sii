@@ -1,0 +1,54 @@
+traffic_vehicle : traffic.routemaster
+{
+	accessories[]: .routemaster.chassis
+	accessories[]: .routemaster.fwheel
+	accessories[]: .routemaster.rwheel
+
+	allow_parked: false
+
+	max_speed: 80
+
+	lod_dist[]: 80
+	lod_dist[]: 120
+
+	vehicle_mass: 12000
+
+	headlights_diffuse : (0.9418, 0.9291, 0.6661)
+	headlights_offset : -0.8
+	headlights_pitch: -7
+	headlights_range: 20.0
+	headlights_angle: 95.0
+	headlights_aspect: 2
+	headlights_mask: "/material/custom/trucklight_mask_norm.tobj"
+	headlights_attenuation: "/material/custom/trucklight_attn.tobj"
+	headlights_intensity_min: 0.7
+	headlights_intensity_max: 2.5
+	
+	
+	spawn_condition[]: .traffic.routemaster.london.condition.city
+@include "/def/vehicle/ai/drivers_generic.sui"	
+}
+
+vehicle_accessory: .routemaster.chassis
+{
+	data_path: "/def/vehicle/ai/promods/road/routemaster/chassis.sii"
+}
+
+vehicle_wheel_accessory: .routemaster.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/superjeep_f.sii"
+}
+
+vehicle_wheel_accessory: .routemaster.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/superjeep_r.sii"
+}
+
+traffic_spawn_condition: .traffic.routemaster.london.condition.city
+{
+	# spawn only near city with specified name
+	type: city
+	str_param[]: "london"
+}

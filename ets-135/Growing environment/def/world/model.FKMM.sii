@@ -1,0 +1,248 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+model_def : model.FKMM01 {
+	model_desc: "/model/pillar/ptnorma.pmd"
+}
+
+model_def : model.FKMM02 {
+	model_desc: "/model/port/ferryboat02.pmd"
+}
+
+model_def : model.FKMM03 {
+	model_desc: "/model/ship/boat01.pmd"
+}
+
+model_def : model.FKMM04 {
+	model_desc: "/model/crane/cherbo_crane_1.pmd"
+}
+
+model_def : model.FKMM05 {
+	model_desc: "/model/crane/cherbo_crane_2.pmd"
+}
+
+model_def : model.FKMM06 {
+	model_desc: "/model/crane/cherbo_crane_3.pmd"
+}
+
+model_def : model.FKMM07 {
+	model_desc: "/model/france/village_far/fr_single_house_1.pmd"
+}
+
+model_def : model.FKMM08 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_b_slate_03.pmd"
+}
+
+model_def : model.FKMM09 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_b_slate_06.pmd"
+}
+
+model_def : model.FKMM10 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_b_slate_07.pmd"
+}
+
+model_def : model.FKMM11 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_b_slate_08.pmd"
+}
+
+model_def : model.FKMM12 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_b_slate_09.pmd"
+}
+
+model_def : model.FKMM13 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_b_slate_010.pmd"
+}
+
+model_def : model.FKMM14 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_b_slate_011.pmd"
+}
+
+model_def : model.FKMM15 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_b_slate_012.pmd"
+}
+
+model_def : model.FKMM16 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_b_slate_013.pmd"
+}
+
+model_def : model.FKMM17 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_014.pmd"
+}
+
+model_def : model.FKMM18 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_016.pmd"
+}
+
+model_def : model.FKMM19 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_019.pmd"
+}
+
+model_def : model.FKMM20 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_023.pmd"
+}
+
+model_def : model.FKMM21 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_027.pmd"
+}
+
+model_def : model.FKMM22 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_028.pmd"
+}
+
+model_def : model.FKMM23 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_029.pmd"
+}
+
+model_def : model.FKMM24 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_030.pmd"
+}
+
+model_def : model.FKMM25 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_031.pmd"
+}
+
+model_def : model.FKMM26 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_032.pmd"
+}
+
+model_def : model.FKMM27 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_034.pmd"
+}
+
+model_def : model.FKMM28 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_036.pmd"
+}
+
+model_def : model.FKMM29 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_039.pmd"
+}
+
+model_def : model.FKMM30 {
+	model_desc: "/model/building/mid_city_buildings/mid_city_bu_slate_035.pmd"
+}
+
+model_def : model.FKMM31 {
+	model_desc: "/model/france/village_far/village_fr_4.pmd"
+}
+
+model_def : model.FKMM32 {
+	model_desc: "/model/france/village_far/village_fr_7.pmd"
+}
+
+model_def : model.FKMM33 {
+	model_desc: "/prefab/ikea/ikea_warehouse1.pmd"
+}
+
+model_def : model.FKMM34 {
+	model_desc: "/model/france/castle/castle_01.pmd"
+}
+
+model_def : model.FKMM35 {
+	model_desc: "/model/france/village_far/village_fr_01.pmd"
+}
+
+model_def : model.FKMM36 {
+	model_desc: "/model/france/village_far/village_fr_02.pmd"
+}
+
+model_def : model.FKMM37 {
+	model_desc: "/model/france/village_far/village_fr_03.pmd"
+}
+
+model_def : model.FKMM38 {
+	model_desc: "/model/france/village_far/village_fr_04.pmd"
+}
+
+model_def : model.FKMM39 {
+	model_desc: "/model/france/village_far/house_fr_01.pmd"
+}
+
+model_def : model.FKMM40 {
+	model_desc: "/model/france/village_far/house_fr_02.pmd"
+}
+
+model_def : model.FKMM41 {
+	model_desc: "/model/france/village_far/house_fr_03.pmd"
+}
+
+model_def : model.FKMM42 {
+	model_desc: "/model/france/village_far/house_fr_04.pmd"
+}
+
+model_def : model.FKMM43 {
+	model_desc: "/model/france/village_far/house_fr_05.pmd"
+}
+
+model_def : model.FKMM44 {
+	model_desc: "/model/france/village_far/church_fr_01.pmd"
+}
+
+model_def : model.FKMM45 {
+	model_desc: "/model/france/village_far/church_fr_02.pmd"
+}
+
+
+model_def : model.FKMM46 {
+	model_desc: "/model/france/village_far/house_fr_06.pmd"
+}
+
+model_def : model.FKMM47 {
+	model_desc: "/model/france/village_far/house_fr_07.pmd"
+}
+
+model_def : model.FKMM48 {
+	model_desc: "/model/france/village_far/house_fr_08.pmd"
+}
+
+model_def : model.FKMM49 {
+	model_desc: "/model/france/advert/Adv_LeMans.pmd"
+}
+
+model_def : model.FKMM50 {
+	model_desc: "/model/france/advert/panneau.pmd"
+	distance_type: 1
+}
+
+model_def : model.FKMM51 {
+	model_desc: "/model/france/sign_details/aire_service.pmd"
+	distance_type: 1
+}
+
+model_def : model.FKMM52 {
+	model_desc: "/model/warehouse/entrepot_009.pmd"
+	distance_type: 1
+}
+
+model_def : model.FKMM53 {
+	model_desc: "/model/rothschild/roths_gate.pmd"
+	distance_type: 1
+}
+
+model_def : model.FKMM54 {
+	model_desc: "/model/panorama/france/3.pmd"
+	distance_type: 3
+}
+
+model_def : model.FKMM55 {
+	model_desc: "/model/animals/sheep.pmd"
+	distance_type: 3
+}
+
+model_def : model.FKMM56 {
+	model_desc: "/model/france/panorama/tour_nante.pmd"
+	distance_type: 3
+}
+
+model_def : model.FKMM57 {
+	model_desc: "/model/france/panorama/chevalier_cathares.pmd"
+	distance_type: 3
+}
+
+}

@@ -1,0 +1,112 @@
+traffic_vehicle : traffic.re460
+{
+	accessories[]: .re460.chassis
+	accessories[]: .re460.fwheel
+	accessories[]: .re460.rwheel
+	accessories[]: .re460.rwheel2
+	accessories[]: .re460.rwheel3
+
+	max_speed: 160
+
+	vehicle_mass: 190000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 35000
+
+	trailer_chains[]: "train_car.sc_psgr_car.sc 4-6"
+	trailer_chains[]: "train_car_c 6-10"
+	
+	trailer_count[]: 4
+	trailer_count[]: 5
+	trailer_count[]: 6
+
+	displacement_limit: 0.0
+	
+	spawn_ratio: 0
+}
+
+vehicle_accessory: .re460.chassis
+{
+	data_path: "/def/vehicle/ai/promods/rail/re460/chassis_re460.sii"
+}
+
+vehicle_wheel_accessory: .re460.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .re460.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .re460.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .re460.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+traffic_vehicle : traffic.re460.sbb
+{
+	accessories[]: .re460.sbb.chassis
+	accessories[]: .re460.sbb.fwheel
+	accessories[]: .re460.sbb.rwheel
+	accessories[]: .re460.sbb.rwheel2
+	accessories[]: .re460.sbb.rwheel3
+
+	max_speed: 160
+	
+	trailer_count[]: 4
+	trailer_count[]: 5
+	trailer_count[]: 6
+
+	vehicle_mass: 190000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 35000
+
+	trailer_chains[]: "train_car.sc_psgr_car.sbb 4-6"
+	trailer_chains[]: "train_car_c 6-10"
+	
+	spawn_ratio: 0	
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .re460.sbb.chassis
+{
+	data_path: "/def/vehicle/ai/promods/rail/re460/chassis_re460_ch.sii"
+}
+
+vehicle_wheel_accessory: .re460.sbb.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .re460.sbb.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .re460.sbb.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .re460.sbb.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

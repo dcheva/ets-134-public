@@ -1,0 +1,1044 @@
+SiiNunit 
+
+## PREFAB SPECIAL
+{
+
+prefab_model : prefab.special01 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/01_common/common.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+        category: "Revise - company Stacja Paliw"
+}
+prefab_model : prefab.special02 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/01_common/common1.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+        category: "Revise - company Budowa"
+}
+prefab_model : prefab.special03 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/01_common/common2.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+        category: "Revise - company Zlecenie"
+}
+prefab_model : prefab.special04 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/01_common/common3.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+        category: "Revise - company Gospodarstwo"
+}
+prefab_model : prefab.special05 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/01_common/common4.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+        category: "Revise - company road works"
+}
+
+
+// 02 - Construction
+
+#prefab_model : prefab.special08 {
+#	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+#	prefab_desc: "/prefab/_specjalne/02_construction/construction.ppd"
+#	use_perlin: false
+#	tweak_detail_vegetation: true
+#}
+prefab_model : prefab.special09 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/02_construction/construction1.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+#prefab_model : prefab.special10 {
+#	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+#	prefab_desc: "/prefab/_specjalne/02_construction/construction2.ppd"
+#	use_perlin: false
+#	tweak_detail_vegetation: true
+#}
+#prefab_model : prefab.special11 {
+#	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+#	prefab_desc: "/prefab/_specjalne/02_construction/construction3.ppd"
+#	use_perlin: false
+#	tweak_detail_vegetation: true
+#}
+#prefab_model : prefab.special12 {
+#	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+#	prefab_desc: "/prefab/_specjalne/02_construction/construction4.ppd"
+#	use_perlin: false
+#	tweak_detail_vegetation: true
+#}
+#prefab_model : prefab.special13 {
+#	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+#	prefab_desc: "/prefab/_specjalne/02_construction/construction5.ppd"
+#	use_perlin: false
+#	tweak_detail_vegetation: true
+#}
+#prefab_model : prefab.special14 {
+#	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+#	prefab_desc: "/prefab/_specjalne/02_construction/construction6.ppd"
+#	use_perlin: false
+#	tweak_detail_vegetation: true
+#}
+
+
+// 03 - Port
+
+prefab_model : prefab.special15 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/03_port/port.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special16 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/03_port/port1.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special17 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/03_port/port2.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special18 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/03_port/port3.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special19 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/03_port/port4.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special20 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/03_port/port5.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special21 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/03_port/port6.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+
+
+// 04 - auto
+
+prefab_model : prefab.special22 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/04_auto/auto.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special23 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/04_auto/auto1.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special24 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/04_auto/auto2.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special25 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/04_auto/auto3.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special26 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/04_auto/auto4.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special27 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/04_auto/auto5.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special28 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/04_auto/auto6.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+
+
+// 05 - Equipment
+
+prefab_model : prefab.special30 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/05_equipment/equipment.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special31 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/05_equipment/equipment1.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special32 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/05_equipment/equipment2.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special33 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/05_equipment/equipment3.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special34 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/05_equipment/equipment4.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special35 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/05_equipment/equipment5.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special36 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/05_equipment/equipment6.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+
+
+// 06 - Farming
+
+prefab_model : prefab.special37 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/06_farming/farming.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special38 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/06_farming/farming1.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special39 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/06_farming/farming2.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special40 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/06_farming/farming3.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special41 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/06_farming/farming4.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special42 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/06_farming/farming5.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special43 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/06_farming/farming6.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+
+
+// 07 - Logs
+
+prefab_model : prefab.special44 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/07_logs/logs.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+        category: "Revise - company Transwood"
+}
+prefab_model : prefab.special45 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/07_logs/logs1.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special46 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/07_logs/logs2.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special47 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/07_logs/logs3.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model :  prefab.special48 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/07_logs/logs4.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special49 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/07_logs/logs5.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.special50 {
+	model_desc: "/prefab/_specjalne/poland_rebuilding.pmd"
+	prefab_desc: "/prefab/_specjalne/07_logs/logs6.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+
+#prefab_model : prefab.dom01pr {
+       # name: "Firmy/DOM 1"
+	#model_desc: "/model/road/kanal1.pmd"
+	#prefab_desc: "/prefab/dom_firma/dom01.ppd"
+        #category: "Revise - companies"
+#}
+
+#prefab_model : prefab.dom02pr {
+        #name: "Firmy/DOM 2"
+	#model_desc: "/model/road/kanal1.pmd"
+	#prefab_desc: "/prefab/dom_firma/dom02.ppd"
+        #category: "Revise - companies"
+#}
+
+#prefab_model : prefab.dom03pr {
+        #name: "Firmy/DOM 3"
+	#model_desc: "/model/road/kanal1.pmd"
+	#prefab_desc: "/prefab/dom_firma/dom03.ppd"
+        #category: "Revise - companies"
+#}
+
+#prefab_model : prefab.dom04pr {
+        #name: "Firmy/DOM 4"
+	#model_desc: "/model/road/kanal1.pmd"
+	#prefab_desc: "/prefab/dom_firma/dom04.ppd"
+        #category: "Revise - companies"
+#}
+## PREFAB FIRM
+prefab_model: prefab.firm01pr {
+        name: "Firmy/SUPERMARKET Biedronka"
+	model_desc: "/m0d3l/new_buildings/supermarket_2.pmd"
+	prefab_desc: "/prefab/_firmy/biedronka.ppd"
+	allowed_trailer_length: 20
+        category: "Revise - companies"
+}
+
+prefab_model : prefab.firm02pr {
+        name: "Firmy/SUPERMARKET Lidl"
+	model_desc: "/m0d3l/new_buildings/supermarket_2.pmd"
+	prefab_desc: "/prefab/_firmy/lidl.ppd"
+        category: "Revise - companies"
+}
+
+prefab_model : prefab.firm03pr {
+        name: "Firmy/BAZA Raben"
+	model_desc: "/m0d3l/new_buildings/nowa_baza_2.pmd"
+	prefab_desc: "/prefab/_firmy/raben.ppd"
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm04pr {
+       name: "Firmy/BAZA Schenker"
+	model_desc: "/m0d3l/new_buildings/nowa_baza_2.pmd"
+	prefab_desc: "/prefab/_firmy/schenker.ppd"
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm05pr {
+        name: "Firmy/SUPERMARKET E-Leclerc"
+	model_desc: "/m0d3l/new_buildings/supermarket_1.pmd"
+	prefab_desc: "/prefab/_firmy/e__leclerc.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm06pr {
+        name: "Firmy/PHS"
+	model_desc: "/model/road/kanal1.pmd"
+	prefab_desc: "/prefab/_firmy/phs.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm07pr {
+        name: "Firmy/Koszalin"
+	model_desc: "/model/road/kanal1.pmd"
+	prefab_desc: "/prefab/_firmy/koszalin.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm08pr {
+        name: "Firmy/DHL 1"
+	model_desc: "/prefab/_firmy/dhl_1/dhl_1.pmd"
+	prefab_desc: "/prefab/_firmy/dhl_1/dhl_1.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm09pr {
+        name: "Firmy/OBI"
+	model_desc: "/prefab/_obi/_obi_hipermarket.pmd"
+	prefab_desc: "/prefab/_obi/_obi_hipermarket.ppd"
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm10pr {
+        name: "Firmy/DHL 2"
+	model_desc: "/prefab/_firmy/dhl_2/dhl_2.pmd"
+	prefab_desc: "/prefab/_firmy/dhl_2/dhl_2.ppd"
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm11pr {
+      name: "Firmy/BAZA Waberers"
+	model_desc: "/m0d3l/new_buildings/nowa_baza_2.pmd"
+	prefab_desc: "/prefab/_firmy/waberers.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm12pr {
+      name: "Firmy/BAZA LKW Walter"
+	model_desc: "/m0d3l/new_buildings/nowa_baza_2.pmd"
+	prefab_desc: "/prefab/_firmy/lkw_walter.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm13pr {
+      name: "Firmy/SUPERMARKET Kaufland"
+	model_desc: "/m0d3l/new_buildings/supermarket_1.pmd"
+	prefab_desc: "/prefab/_firmy/kaufland.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm14pr {
+      name: "Firmy/BAZA PeKaEs"
+	model_desc: "/m0d3l/new_buildings/nowa_baza_2.pmd"
+	prefab_desc: "/prefab/_firmy/pekaes.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm15pr {
+      name: "Firmy/BAZA Van Cargo"
+	model_desc: "/m0d3l/new_buildings/nowa_baza_2.pmd"
+	prefab_desc: "/prefab/_firmy/van_cargo.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm16pr {
+       name: "Firmy/RAFINERIA GDAŃSK"
+	model_desc: "/prefab/_firmy/rafineria_gdansk.pmd"
+	prefab_desc: "/prefab/_firmy/rafineria_gdansk.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm17pr {
+       name: "Firmy/PL 1"
+	model_desc: "/prefab/_firma_pl/firma_pl.pmd"
+	prefab_desc: "/prefab/_firma_pl/firma_pl.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm18pr {
+       name: "Firmy/TRANSWOOD"
+	model_desc: "/prefab/_trans_wood/_trans_wood.pmd"
+	prefab_desc: "/prefab/_trans_wood/_trans_wood.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm19pr {
+       name: "Firmy/PL 2"
+	model_desc: "/prefab/_firma_pl2/firma_pl2.pmd"
+	prefab_desc: "/prefab/_firma_pl2/firma_pl2.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm20pr {
+       name: "Firmy/IKEA"
+	model_desc: "/prefab/_ikea/_ikea_hipermarket.pmd"
+	prefab_desc: "/prefab/_ikea/_ikea_hipermarket.ppd"
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm21pr {
+       name: "Firmy/TERMINAL"
+	model_desc: "/prefab/_firmy/terminal/_terminal_kontenerowy.pmd"
+	prefab_desc: "/prefab/_firmy/terminal/_terminal_kontenerowy.ppd"
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm22pr {
+       name: "Firmy/PL 3"
+	model_desc: "/prefab/_firma_pl3/firma_pl3.pmd"
+	prefab_desc: "/prefab/_firma_pl3/firma_pl3.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm23pr {
+        name: "Firmy/NETTO"
+	model_desc: "/prefab/_netto/_netto_market.pmd"
+	prefab_desc: "/prefab/_netto/_netto_market.ppd"
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm24pr {
+        name: "Firmy/PKN ORLEN"
+	model_desc: "/prefab/_firmy/pknorlen/pkn_orlen.pmd"
+	prefab_desc: "/prefab/_firmy/pknorlen/pkn_orlen.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm25pr {
+        name: "Firmy/McDONALD"
+	model_desc: "/prefab/_mcdonalds/mcdonalds.pmd"
+	prefab_desc: "/prefab/_mcdonalds/mcdonalds.ppd"
+	category: "Revise - companies"
+	allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm26pr {
+        name: "Firmy/TARTAK"
+	model_desc: "/prefab/_firmy/tartak/tartak_pr.pmd"
+	prefab_desc: "/prefab/_firmy/tartak/tartak_pr.ppd"
+	use_perlin: false
+	category: "Revise - companies"
+	allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm27pr {
+        name: "Firmy/AUCHAN"
+	model_desc: "/prefab/_auchan/_auchan_market.pmd"
+	prefab_desc: "/prefab/_auchan/_auchan_market.ppd"
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+
+}
+
+prefab_model : prefab.firm28pr {
+        name: "Firmy/BCT GDYNIA"
+	model_desc: "/prefab/_firmy/bct_gdynia/bct_gdynia.pmd"
+	prefab_desc: "/prefab/_firmy/bct_gdynia/bct_gdynia.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm29pr {
+        name: "Firmy/CASTORAMA"
+	model_desc: "/prefab/_castorama/_castorama_hipermarket.pmd"
+	prefab_desc: "/prefab/_castorama/_castorama_hipermarket.ppd"
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm30pr {
+        name: "Firmy/M1"
+	model_desc: "/prefab/_firmy/M1/_M1_market.pmd"
+	prefab_desc: "/prefab/_firmy/M1/_M1_market.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm31pr {
+        name: "Firmy/SKLEPIK BIEDRONKA"
+	model_desc: "/m0d3l/new_buildings/sklep_biedronka3.pmd"
+	prefab_desc: "/prefab/_firmy/sklepik_biedronka.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm32pr {
+        name: "Firmy/SKLEPIK LIDL"
+	model_desc: "/m0d3l/new_buildings/sklepik_lidl.pmd"
+	prefab_desc: "/prefab/_firmy/sklepik_lidl.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+	allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm33pr {
+        name: "Firmy/SKUP ŻYWCA"
+	model_desc: "/m0d3l/new_buildings/town/skup/skup.pmd"
+	prefab_desc: "/prefab/_firmy/skup.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm34pr {
+        name: "Firmy/RAFINERIA"
+	model_desc: "/prefab/_firmy/rafineria/rafineria.pmd"
+	prefab_desc: "/prefab/_firmy/rafineria/rafineria.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm35pr {
+        name: "Firmy/MINIMARKET Groszek"
+	model_desc: "/prefab/_firmy/minimarket/minimarket.pmd"
+	prefab_desc: "/prefab/_firmy/minimarket/minimarket1.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm36pr {
+        name: "Firmy/MINIMARKET Piotr i Paweł"
+	model_desc: "/prefab/_firmy/minimarket/minimarket.pmd"
+	prefab_desc: "/prefab/_firmy/minimarket/minimarket2.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm37pr {
+        name: "Firmy/MINIMARKET PoloMarket"
+	model_desc: "/prefab/_firmy/minimarket/minimarket.pmd"
+	prefab_desc: "/prefab/_firmy/minimarket/minimarket3.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm38pr {
+        name: "Firmy/HIPERMARKET"
+	model_desc: "/prefab/_firmy/minimarket/hipermarket.pmd"
+	prefab_desc: "/prefab/_firmy/minimarket/hipermarket.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm39pr {
+        name: "Firmy/MINIMARKET Stokrotka"
+	model_desc: "/prefab/_firmy/minimarket/minimarket.pmd"
+	prefab_desc: "/prefab/_firmy/minimarket/minimarket4.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm40pr {
+        name: "Firmy/MINIMARKET Netto"
+	model_desc: "/prefab/_firmy/minimarket/minimarket.pmd"
+	prefab_desc: "/prefab/_firmy/minimarket/minimarket5.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm41pr {
+        name: "Firmy/MINIMARKET Mila"
+	model_desc: "/prefab/_firmy/minimarket/minimarket.pmd"
+	prefab_desc: "/prefab/_firmy/minimarket/minimarket6.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+prefab_model : prefab.firm42pr {
+        name: "Firmy/MINIMARKET Freshmarket"
+	model_desc: "/prefab/_firmy/minimarket/minimarket.pmd"
+	prefab_desc: "/prefab/_firmy/minimarket/minimarket7.ppd"
+	use_perlin: false
+        category: "Revise - companies"
+		allowed_trailer_length: 20
+}
+
+
+## PREFABY
+
+prefab_model : prefab.15pr {
+	model_desc: "/prefab/marina01/marina01.pmd"
+	prefab_desc: "/prefab/marina01/marina01.ppd"
+        tweak_detail_vegetation: true
+        category: "Revise - misc"
+}
+
+prefab_model : prefab.16pr {
+	model_desc: "/prefab/cross/special_t_freedrive.pmd"
+	prefab_desc: "/prefab/cross/special_t_freedrive.ppd"
+        category: "Revise - cross"
+}
+
+#prefab_model : prefab.17pr {
+#	model_desc: "/prefab/cross/road1_x_road1_t.pmd"
+#	prefab_desc: "/prefab/cross/special_t_freedrive.ppd"
+#        tweak_detail_vegetation: true
+#        category: "Revise - cross"
+#
+#}
+
+prefab_model : prefab.20pr {
+	model_desc: "/prefab/mosty/most_1.pmd"
+	prefab_desc: "/prefab/bridge/highway_bridge.ppd"
+        category: "Revise - bridges"
+}
+
+prefab_model : prefab.21pr {
+	model_desc: "/prefab/mosty/most_2_kratowinicowy.pmd"
+	prefab_desc: "/prefab/bridge/bern_bridges/bridge_kornhouse.ppd"
+        category: "Revise - bridges"
+}
+
+prefab_model : prefab.22pr {
+	model_desc: "/model/roadworks/zdarty_asfalt_1.pmd"
+	prefab_desc: "/prefab/bridge/bridge_short.ppd"
+        category: "Revise - road damage"
+}
+
+#prefab_model : prefab.24pr {
+#	model_desc: "/prefab/cross/road1_x_road1_t_sidewalk_all_4m.pmd"
+#	prefab_desc: "/prefab/cross/special_t_freedrive.ppd"
+#        category: "Revise - cross"
+#}
+prefab_model : prefab.25pr {
+	model_desc: "/prefab/mosty/bridge_waski.pmd"
+	prefab_desc: "/prefab/bridge/bridge_small_uk.ppd"
+	use_perlin: false
+	slow_time: true
+        category: "Revise - road damage"
+
+}
+#prefab_model : prefab.26pr {
+#	model_desc: "/prefab/cross/road2_x_road1_t_sidewalk.pmd"
+#	prefab_desc: "/prefab/cross/road2_entrance_kerb.ppd"
+#	use_perlin: false
+#	slow_time: true
+#        category: "Revise - cross"
+#
+#}
+#prefab_model : prefab.27pr {
+#	model_desc: "/prefab/cross/road2_x_road1_t_lights.pmd"
+#	prefab_desc: "/prefab/cross/road2_entrance_kerb.ppd"
+#	use_perlin: false
+#	slow_time: true
+#        category: "Revise - cross"
+#
+#}
+
+#prefab_model : prefab.32pr {
+#	model_desc: "/prefab/roadwork/road_1_roadwork.pmd"
+#	prefab_desc: "/prefab/roadwork/road_1_roadwork.ppd"
+#        category: "Revise - road works"
+#}
+
+prefab_model : prefab.34pr {
+	model_desc: "/prefab/wysepka/wysepka.pmd"
+	prefab_desc: "/prefab/wysepka/wysepka.ppd"
+        tweak_detail_vegetation: true
+	use_perlin: false
+        category: "Revise - misc"
+}
+
+#prefab_model : prefab.36pr {
+#	model_desc: "/prefab/cross/road1_x_road1_t_angle.pmd"
+#	prefab_desc: "/prefab/_cross/road1_x_road1_t_angle_nt.ppd"
+#	use_perlin: false
+#        category: "Revise - cross"
+#
+#}
+
+prefab_model : prefab.37pr {
+	model_desc: "/prefab/bridge/bern_bridges/dziury_1.pmd"
+	prefab_desc: "/prefab/roadwork/wahadlo_1.ppd"
+        category: "Revise - road works"
+}
+
+prefab_model : prefab.38pr {
+	model_desc: "/prefab/bridge/bern_bridges/dziury_1_2.pmd"
+	prefab_desc: "/prefab/roadwork/wahadlo_2.ppd"
+        category: "Revise - road works"
+}
+
+
+prefab_model : prefab.39pr {
+	model_desc: "/prefab/_stacje_benz/gas_icon.pmd"
+	prefab_desc: "/prefab/_stacje_benz/gas_icon.ppd"
+        category: "Revise - misc"
+}
+
+prefab_model : prefab.42pr {
+      name: "Port/GDYNIA"
+	model_desc: "/prefab/_nowe_porty/port_gdynia/port_gdynia.pmd"
+	prefab_desc: "/prefab/_nowe_porty/port_gdynia/port_gdynia.ppd"
+        category: "Revise - port"
+}
+
+prefab_model : prefab.43pr {
+	model_desc: "/prefab/_stacje_benz/miasto/stacja_paliw_miasto.pmd"
+	prefab_desc: "/prefab/_stacje_benz/miasto/stacja_paliw_miasto.ppd"
+        category: "Revise - stations"
+}
+
+prefab_model : prefab.44pr {
+	model_desc: "/prefab/_stacje_benz/miasto/stacja_paliw_cennik.pmd"
+	prefab_desc: "/prefab/_stacje_benz/miasto/stacja_paliw_cennik.ppd"
+        category: "Revise - stations"
+}
+
+prefab_model : prefab.45pr {
+	model_desc: "/prefab/parked_physics/car.pmd"
+	prefab_desc: "/prefab/parked_physics/car.ppd"
+        category: "Revise - car parks"
+}
+
+prefab_model : prefab.46pr {
+	model_desc: "/prefab/parked_physics/car_always.pmd"
+	prefab_desc: "/prefab/parked_physics/car_always.ppd"
+        category: "Revise - car parks"
+}
+
+prefab_model : prefab.47pr {
+	model_desc: "/prefab/parked_physics/truck.pmd"
+	prefab_desc: "/prefab/parked_physics/truck.ppd"
+        category: "Revise - car parks"
+}
+
+prefab_model : prefab.48pr {
+	model_desc: "/prefab/parked_physics/truck_only.pmd"
+	prefab_desc: "/prefab/parked_physics/truck_only.ppd"
+        category: "Revise - car parks"
+}
+
+prefab_model : prefab.49pr {
+	model_desc: "/prefab/cross/dk_nt.pmd"
+	prefab_desc: "/prefab/cross/dk_nt.ppd"
+        category: "Revise - cross"
+}
+
+prefab_model : prefab.50pr {
+	model_desc: "/prefab/fork/road_1_joint_pl.pmd"
+	prefab_desc: "/prefab/fork/road_1_joint_pl.ppd"
+        tweak_detail_vegetation: true
+        category: "Revise - cross"
+}
+
+prefab_model : prefab.51pr {
+	model_desc: "/prefab/cross/dk_road1_x_road1.pmd"
+	prefab_desc: "/prefab/cross/dk_road1_x_road1.ppd"
+        category: "Revise - cross"
+}
+
+prefab_model : prefab.52pr {
+	model_desc: "/prefab/cross/dk_road1_x_road1_t.pmd"
+	prefab_desc: "/prefab/cross/dk_road1_x_road1_t.ppd"
+        category: "Revise - cross"
+}
+
+prefab_model : prefab.53pr {
+	model_desc: "/prefab/cross/dk_road1_x_road1_t_angle.pmd"
+	prefab_desc: "/prefab/cross/dk_road1_x_road1_t_angle.ppd"
+        category: "Revise - cross"
+}
+
+prefab_model : prefab.54pr {
+	model_desc: "/prefab/fork/road_1_joint_dk_t.pmd"
+	prefab_desc: "/prefab/fork/road_1_joint_dk_t.ppd"
+        tweak_detail_vegetation: true
+        category: "Revise - cross"
+}
+
+prefab_model : prefab.55pr {
+	model_desc: "/prefab/parking/parking_ulica.pmd"
+	prefab_desc: "/prefab/parking/parking_ulica.ppd"
+        category: "Revise - car parks"
+}
+
+prefab_model : prefab.56pr {
+	model_desc: "/prefab/parked_physics/truck_always.pmd"
+	prefab_desc: "/prefab/parked_physics/truck_always.ppd"
+        category: "Revise - car parks"
+}
+
+prefab_model : prefab.57pr {
+	model_desc: "/prefab/service/service_icon.pmd"
+	prefab_desc: "/prefab/service/service_icon.ppd"
+        category: "Revise - misc"
+}
+
+prefab_model : prefab.63pr {
+	model_desc: "/prefab/level_crossing/level_cross_pl_side.pmd"
+	prefab_desc: "/prefab/level_crossing/level_cross_pl_side.ppd"
+        tweak_detail_vegetation: true
+        category: "Revise - railways"
+}
+
+#prefab_model : prefab.64pr {
+#	model_desc: "/m0d3l/new_buildings/stacja_benzynowa_1.pmd"
+#	prefab_desc: "/prefab/_stacje_benz/stacja_1.ppd"
+#	use_perlin: false
+#        tweak_detail_vegetation: true
+#        category: "Revise - stations"
+#}
+
+#prefab_model : prefab.66pr {
+#	model_desc: "/m0d3l/new_buildings/stacja_benzynowa_2.pmd"
+#	prefab_desc: "/prefab/_stacje_benz/stacja_2.ppd"
+#	use_perlin: false
+#        tweak_detail_vegetation: true
+#        category: "Revise - stations"
+#}
+
+#prefab_model : prefab.68pr {
+#	model_desc: "/prefab/cross/road1_xroad1_t_sidewalk_angle.pmd"
+#	prefab_desc: "/prefab/_cross/road1_xroad1_t_nt_sidewalk_angle.ppd"
+#	use_perlin: false
+#        category: "Revise - cross"
+#}
+
+#prefab_model : prefab.69pr {
+#	model_desc: "/prefab/cross/road1_xroad1_t_sidewalk_angle.pmd"
+#	prefab_desc: "/prefab/_cross/road1_xroad1_t_turn1_sidewalk_angle.ppd"
+#	use_perlin: false
+#        category: "Revise - cross"
+#}
+
+#prefab_model : prefab.70pr {
+#	model_desc: "/prefab/cross/road1_x_road1_t.pmd"
+#	prefab_desc: "/prefab/_cross/road1_x_road1_t_turn1.ppd"
+#	use_perlin: false
+#        category: "Revise - cross"
+#}
+
+#prefab_model : prefab.71pr {
+#	model_desc: "/prefab/cross/road1_x_road1_t.pmd"
+#	prefab_desc: "/prefab/_cross/road1_x_road1_t_turn2.ppd"
+#	use_perlin: false
+#        category: "Revise - cross"
+#}
+
+
+
+#prefab_model : prefab.73pr {
+#	model_desc: "/prefab/cross/road1_x_road1_sidewalk_all_4m.pmd"
+#	prefab_desc: "/prefab/_cross/road1_x_road1_t_turn2.ppd"
+#	use_perlin: false
+#        category: "Revise - cross"
+#}
+
+prefab_model : prefab.74pr {
+	model_desc: "/prefab/parking/truck_parking/truck_parking.pmd"
+	prefab_desc: "/prefab/parking/truck_parking/truck_parking.ppd"
+        category: "Revise - car parks"
+}
+
+prefab_model : prefab.75pr {
+	model_desc: "/prefab/_stacje_benz/gas_new2/gas_new2.pmd"
+	prefab_desc: "/prefab/_stacje_benz/gas_new2/gas_new2.ppd"
+        tweak_detail_vegetation: true
+        slow_time: true
+        category: "Revise - stations"
+}
+
+prefab_model : prefab.77pr {
+	model_desc: "/prefab/mosty/most_swietokrzyski.pmd"
+	prefab_desc: "/prefab/mosty/most_swietokrzyski.ppd"
+        category: "Revise - bridges"
+}
+
+prefab_model : prefab.78pr {
+	model_desc: "/prefab/_stacje_benz/autostrada/stacja_duza.pmd"
+	prefab_desc: "/prefab/_stacje_benz/autostrada/stacja_duza.ppd"
+        slow_time: true
+        category: "Revise - stations"
+}
+
+prefab_model : prefab.79pr {
+	model_desc: "/prefab/_stacje_benz/autostrada/stacja_duza_3pasmowa.pmd"
+	prefab_desc: "/prefab/_stacje_benz/autostrada/stacja_duza_3pasmowa.ppd"
+        slow_time: true
+        category: "Revise - stations"
+}
+prefab_model : prefab.80pr {
+	model_desc: "/prefab/_agencja_pracy/agencja_pracy_01.pmd"
+	prefab_desc: "/prefab/_agencja_pracy/agencja_pracy_01.ppd"
+	use_perlin: false
+        category: "Revise - employment agency"
+}
+
+prefab_model : prefab.81pr {
+	model_desc: "/prefab/_stacje_benz/stacja_krajowa/stacja_krajowa.pmd"
+	prefab_desc: "/prefab/_stacje_benz/stacja_krajowa/stacja_krajowa.ppd"
+        slow_time: true
+        tweak_detail_vegetation: true
+        category: "Revise - stations"
+}
+
+prefab_model : prefab.82pr {
+	model_desc: "/prefab/mosty/most_siekierkowski.pmd"
+	prefab_desc: "/prefab/mosty/most_siekierkowski.ppd"
+        category: "Revise - bridges"
+}
+
+prefab_model : prefab.83pr {
+	model_desc: "/prefab/mosty/most_zgody.pmd"
+	prefab_desc: "/prefab/mosty/most_zgody.ppd"
+        category: "Revise - bridges"
+}
+}

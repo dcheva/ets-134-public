@@ -1,0 +1,185 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+
+# terrain_edge : ter_edge.tedge1 {
+#	name: 		"Name of terrain edge"
+#	model:		"path_to_model_data.pmd"
+# }
+
+
+terrain_edge : ter_edge.pro00 {
+	name: 		"def_shoulder"
+	model:		"/model/terrain_edge/def_shoulder.pmd"           
+}
+
+terrain_edge : ter_edge.pro01 {
+	name: 		"fr_shoulder"
+	model:		"/model/terrain_edge/fr_shoulder.pmd"           
+}
+
+terrain_edge : ter_edge.pro02 {
+	name: 		"fr_curb"
+	model:		"/model/terrain_edge/fr_curb.pmd"           
+}
+
+terrain_edge : ter_edge.pro03 {
+	name: 		"fr_sidewalk_a"
+	model:		"/model/terrain_edge/fr_sidewalk_a.pmd"           
+}
+
+terrain_edge : ter_edge.pro04 {
+	name: 		"fr_sidewalk_b"
+	model:		"/model/terrain_edge/fr_sidewalk_b.pmd"           
+}
+
+terrain_edge : ter_edge.pro05 {
+	name: 		"fr_sidewalk_c"
+	model:		"/model/terrain_edge/fr_sidewalk_c.pmd"           
+}
+terrain_edge : ter_edge.pro11 {
+	name: 		"it_shoulder"
+	model:		"/model/terrain_edge/it_shoulder.pmd"           
+}
+
+terrain_edge : ter_edge.pro12 {
+	name: 		"it_curb"
+	model:		"/model/terrain_edge/it_curb.pmd"           
+}
+
+terrain_edge : ter_edge.pro13 {
+	name: 		"it_sidewalk_a"
+	model:		"/model/terrain_edge/it_sidewalk_a.pmd"           
+}
+
+terrain_edge : ter_edge.pro14 {
+	name: 		"it_sidewalk_b"
+	model:		"/model/terrain_edge/it_sidewalk_b.pmd"           
+}
+
+terrain_edge : ter_edge.pro15 {
+	name: 		"it_sidewalk_c"
+	model:		"/model/terrain_edge/it_sidewalk_c.pmd"           
+}
+
+terrain_edge : ter_edge.pro16 {
+	name: 		"it_sidewalk_c1"
+	model:		"/model/terrain_edge/it_sidewalk_c1.pmd"           
+}
+
+terrain_edge : ter_edge.pro17 {
+	name: 		"it_sidewalk_d"
+	model:		"/model/terrain_edge/it_sidewalk_d.pmd"           
+}
+terrain_edge : ter_edge.pro21 {
+	name: 		"ger_shoulder"
+	model:		"/model/terrain_edge/ger_shoulder.pmd"           
+}
+
+terrain_edge : ter_edge.pro22 {
+	name: 		"ger_curb"
+	model:		"/model/terrain_edge/ger_curb.pmd"           
+}
+
+terrain_edge : ter_edge.pro23 {
+	name: 		"ger_sidewalk_a"
+	model:		"/model/terrain_edge/ger_sidewalk_a.pmd"           
+}
+
+terrain_edge : ter_edge.pro24 {
+	name: 		"ger_sidewalk_b"
+	model:		"/model/terrain_edge/ger_sidewalk_b.pmd"           
+}
+
+terrain_edge : ter_edge.pro25 {
+	name: 		"ger_sidewalk_c"
+	model:		"/model/terrain_edge/ger_sidewalk_c.pmd"           
+}
+
+terrain_edge : ter_edge.pro26 {
+	name: 		"ger_sidewalk_c1"
+	model:		"/model/terrain_edge/ger_sidewalk_c1.pmd"           
+}
+
+terrain_edge : ter_edge.pro27 {
+	name: 		"ger_sidewalk_d"
+	model:		"/model/terrain_edge/ger_sidewalk_d.pmd"           
+}
+
+terrain_edge : ter_edge.pro31 {
+	name: 		"balt_shoulder"
+	model:		"/model/terrain_edge/balt_shoulder.pmd"           
+}
+
+terrain_edge : ter_edge.pro32 {
+	name: 		"balt_curb"
+	model:		"/model/terrain_edge/balt_curb.pmd"           
+}
+
+terrain_edge : ter_edge.pro33 {
+	name: 		"balt_sidewalk_a"
+	model:		"/model/terrain_edge/balt_sidewalk_a.pmd"           
+}
+
+terrain_edge : ter_edge.pro34 {
+	name: 		"balt_sidewalk_b"
+	model:		"/model/terrain_edge/balt_sidewalk_b.pmd"           
+}
+
+terrain_edge : ter_edge.pro35 {
+	name: 		"balt_sidewalk_c"
+	model:		"/model/terrain_edge/balt_sidewalk_c.pmd"           
+}
+
+terrain_edge : ter_edge.pro36 {
+	name: 		"balt_sidewalk_c1"
+	model:		"/model/terrain_edge/balt_sidewalk_c1.pmd"           
+}
+
+terrain_edge : ter_edge.pro37 {
+	name: 		"balt_sidewalk_d"
+	model:		"/model/terrain_edge/balt_sidewalk_d.pmd"           
+}
+
+terrain_edge : ter_edge.pro41 {
+	name: 		"uk_shoulder"
+	model:		"/model/terrain_edge/uk_shoulder.pmd"           
+}
+
+terrain_edge : ter_edge.pro42 {
+	name: 		"uk_curb"
+	model:		"/model/terrain_edge/uk_curb.pmd"           
+}
+
+terrain_edge : ter_edge.pro43 {
+	name: 		"uk_sidewalk_a"
+	model:		"/model/terrain_edge/uk_sidewalk_a.pmd"           
+}
+
+terrain_edge : ter_edge.pro44 {
+	name: 		"uk_sidewalk_b"
+	model:		"/model/terrain_edge/uk_sidewalk_b.pmd"           
+}
+
+terrain_edge : ter_edge.pro45 {
+	name: 		"uk_sidewalk_c"
+	model:		"/model/terrain_edge/uk_sidewalk_c.pmd"           
+}
+
+terrain_edge : ter_edge.pro46 {
+	name: 		"uk_sidewalk_c1"
+	model:		"/model/terrain_edge/uk_sidewalk_c1.pmd"           
+}
+
+terrain_edge : ter_edge.pro47 {
+	name: 		"uk_sidewalk_d"
+	model:		"/model/terrain_edge/uk_sidewalk_d.pmd"           
+}
+}

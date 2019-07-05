@@ -1,0 +1,158 @@
+SiiNunit
+{
+
+### Rail crossings 2 tracks
+
+prefab_model : prefab.indi101 { # 2 tracks (mover)
+	model_desc: "/prefab/level_crossing/level_cross_hu.pmd"
+	prefab_desc: "/prefab/level_crossing/level_cross_hu.ppd"
+	tweak_detail_vegetation: true
+	category: "promods"
+	
+	semaphore_profile[]: "lvl_cr_v00"
+	semaphore_profile[]: "lvl_cr_v01"
+	semaphore_profile[]: "lvl_cr_v02"
+	semaphore_profile[]: "lvl_cr_v03"
+}
+
+prefab_model : prefab.indi101ai { # 2 tracks (AI)
+	model_desc: "/prefab/level_crossing/level_cross_hu_ai.pmd"
+	prefab_desc: "/prefab/level_crossing/level_cross_hu_ai.ppd"
+	tweak_detail_vegetation: true
+	category: "promods"
+	
+	semaphore_profile[]: "lvl_cr_v00"
+	semaphore_profile[]: "lvl_cr_v01"
+	semaphore_profile[]: "lvl_cr_v02"
+	semaphore_profile[]: "lvl_cr_v03"
+}
+ 
+prefab_model : prefab.indi104 { # 2 tracks 30 degrees left (mover)
+	model_desc: "/prefab/level_crossing/level_cross_hu30l.pmd"
+	prefab_desc: "/prefab/level_crossing/level_cross_hu30l.ppd"
+	tweak_detail_vegetation: true
+	category: "promods"
+	
+	semaphore_profile[]: "lvl_cr_v00"
+	semaphore_profile[]: "lvl_cr_v01"
+	semaphore_profile[]: "lvl_cr_v02"
+	semaphore_profile[]: "lvl_cr_v03"
+}
+  
+prefab_model : prefab.indi104ai { # 2 tracks 30 degrees left (AI)
+	model_desc: "/prefab/level_crossing/level_cross_hu30l_ai.pmd"
+	prefab_desc: "/prefab/level_crossing/level_cross_hu30l_ai.ppd"
+	tweak_detail_vegetation: true
+	category: "promods"
+	
+	semaphore_profile[]: "lvl_cr_v00"
+	semaphore_profile[]: "lvl_cr_v01"
+	semaphore_profile[]: "lvl_cr_v02"
+	semaphore_profile[]: "lvl_cr_v03"
+}
+
+prefab_model : prefab.indi106 { # 2 tracks 30 degrees right (mover)
+	model_desc: "/prefab/level_crossing/level_cross_hu30r.pmd"
+	prefab_desc: "/prefab/level_crossing/level_cross_hu30r.ppd"
+	tweak_detail_vegetation: true
+	category: "promods"
+	
+	semaphore_profile[]: "lvl_cr_v00"
+	semaphore_profile[]: "lvl_cr_v01"
+	semaphore_profile[]: "lvl_cr_v02"
+	semaphore_profile[]: "lvl_cr_v03"
+}
+ 
+prefab_model : prefab.indi106ai { # 2 tracks 30 degrees left (AI)
+	model_desc: "/prefab/level_crossing/level_cross_hu30r_ai.pmd"
+	prefab_desc: "/prefab/level_crossing/level_cross_hu30r_ai.ppd"
+	tweak_detail_vegetation: true
+	category: "promods"
+	
+	semaphore_profile[]: "lvl_cr_v00"
+	semaphore_profile[]: "lvl_cr_v01"
+	semaphore_profile[]: "lvl_cr_v02"
+	semaphore_profile[]: "lvl_cr_v03"
+}
+
+### Rail crossings 1 tracks
+
+prefab_model : prefab.indi102 { # 1 track (mover)
+	model_desc: "/prefab/level_crossing/level_cross_hu_1rail.pmd"
+	prefab_desc: "/prefab/level_crossing/level_cross_hu_1rail.ppd"
+	tweak_detail_vegetation: true
+	category: "promods"
+	
+	semaphore_profile[]: "lvl_cr_v04"
+	semaphore_profile[]: "lvl_cr_v05"
+	semaphore_profile[]: "lvl_cr_v06"
+	semaphore_profile[]: "lvl_cr_v07"
+}
+
+prefab_model : prefab.indi102ai { # 1 track (AI)
+	model_desc: "/prefab/level_crossing/level_cross_hu_1rail_ai.pmd"
+	prefab_desc: "/prefab/level_crossing/level_cross_hu_1rail_ai.ppd"
+	tweak_detail_vegetation: true
+	category: "promods"
+	
+	semaphore_profile[]: "lvl_cr_v04"
+	semaphore_profile[]: "lvl_cr_v05"
+	semaphore_profile[]: "lvl_cr_v06"
+	semaphore_profile[]: "lvl_cr_v07"
+}
+ 
+prefab_model : prefab.indi105 { # 1 track 30 degrees left (mover)
+	model_desc: "/prefab/level_crossing/level_cross_hu30l_1rail.pmd"
+	prefab_desc: "/prefab/level_crossing/level_cross_hu30l_1rail.ppd"
+	tweak_detail_vegetation: true
+	category: "promods"
+	
+	semaphore_profile[]: "lvl_cr_v04"
+	semaphore_profile[]: "lvl_cr_v05"
+	semaphore_profile[]: "lvl_cr_v06"
+	semaphore_profile[]: "lvl_cr_v07"
+}
+ 
+prefab_model : prefab.indi105ai { # 1 track 30 degrees left (AI)
+	model_desc: "/prefab/level_crossing/level_cross_hu30l_1rail_ai.pmd"
+	prefab_desc: "/prefab/level_crossing/level_cross_hu30l_1rail_ai.ppd"
+	tweak_detail_vegetation: true
+	category: "promods"
+	
+	semaphore_profile[]: "lvl_cr_v04"
+	semaphore_profile[]: "lvl_cr_v05"
+	semaphore_profile[]: "lvl_cr_v06"
+	semaphore_profile[]: "lvl_cr_v07"
+}
+
+prefab_model : prefab.indi107 { # 1 track 30 degrees right (mover)
+	model_desc: "/prefab/level_crossing/level_cross_hu30r_1rail.pmd"
+	prefab_desc: "/prefab/level_crossing/level_cross_hu30r_1rail.ppd"
+	tweak_detail_vegetation: true
+	category: "promods"
+	
+	semaphore_profile[]: "lvl_cr_v04"
+	semaphore_profile[]: "lvl_cr_v05"
+	semaphore_profile[]: "lvl_cr_v06"
+	semaphore_profile[]: "lvl_cr_v07"
+}
+ 
+prefab_model : prefab.indi107ai { # 1 track 30 degrees right (AI)
+	model_desc: "/prefab/level_crossing/level_cross_hu30r_1rail_ai.pmd"
+	prefab_desc: "/prefab/level_crossing/level_cross_hu30r_1rail_ai.ppd"
+	tweak_detail_vegetation: true
+	category: "promods"
+	
+	semaphore_profile[]: "lvl_cr_v04"
+	semaphore_profile[]: "lvl_cr_v05"
+	semaphore_profile[]: "lvl_cr_v06"
+	semaphore_profile[]: "lvl_cr_v07"
+}
+prefab_model : prefab.indi500 {
+	model_desc: "/prefab/bridge/warsaw/siekierkowski_bridge.pmd"
+	prefab_desc: "/prefab/bridge/warsaw/siekierkowski_bridge.ppd"
+	use_perlin: false
+	category: "promods"
+	
+} 
+}

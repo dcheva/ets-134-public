@@ -1,0 +1,17 @@
+SiiNunit
+{
+ferry_connection : conn.ronne.ystadf{
+	price: 102
+	time: 80
+	distance: 66
+	
+	# NODE POSITIONS ########   x*256  , 0,  z*256
+	connection_positions[0]: (3889571, 0, -6228459)
+	connection_positions[1]: (3266992, 0, -6673415)
+	
+	# NODE ROTATIONS ########  -sin(jaw), 0.0, -cos(jaw)
+	connection_directions[0]: (-1.00, 0.00, 0.00)
+	connection_directions[1]: (0.00, 0.00, -1.00)
+}
+}
+

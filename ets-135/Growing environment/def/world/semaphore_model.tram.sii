@@ -1,0 +1,47 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+tr_semaphore_model : tr_sem_mdl.tram_str{
+
+	name: "tram_straight"
+
+	model_desc: "/model/traffic_light/single_tram_str.pmd"
+	model_coll: "/model/traffic_light/single_tram_str.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.tram_left{
+
+	name: "tram_left"
+
+	model_desc: "/model/traffic_light/single_tram_left.pmd"
+	model_coll: "/model/traffic_light/single_tram_left.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.tram_right{
+
+	name: "tram_right"
+
+	model_desc: "/model/traffic_light/single_tram_right.pmd"
+	model_coll: "/model/traffic_light/single_tram_right.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.tram_all{
+
+	name: "tram_all"
+
+	model_desc: "/model/traffic_light/single_tram_all.pmd"
+	model_coll: "/model/traffic_light/single_tram_all.pmc"
+
+
+}
+}

@@ -1,0 +1,678 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is uisikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+#############
+###DEFAULT###
+#############
+
+tr_semaphore_model : tr_sem_mdl.straighth {
+
+	name: "straight.h"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/straight_high_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/straight_high_de.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.straightl {
+
+	name: "straight.l"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/straight_low_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/straight_low_de.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.lefth {
+
+	name: "left.h"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/left_high_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/left_high_de.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.leftl {
+
+	name: "left.l"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/left_low_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/left_low_de.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.righth {
+
+	name: "right.h"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/right_high_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/right_high_de.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.rightl {
+
+	name: "right.l"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/right_low_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/right_low_de.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.thruh {
+
+	name: "thru.h"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/thru_high_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/thru_high_de.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.thrul {
+
+	name: "thru.l"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/thru_low_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/thru_low_de.pmc"
+
+
+}
+
+#############
+###GERMANY###
+#############
+tr_semaphore_model : tr_sem_mdl.straighth.d {
+
+	name: "straight.h-d"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/straight_high_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/straight_high_de.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.straightl.d {
+
+	name: "straight.l-d"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/straight_low_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/straight_low_de.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.lefth.d {
+
+	name: "left.h-d"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/left_high_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/left_high_de.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.leftl.d {
+
+	name: "left.l-d"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/left_low_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/left_low_de.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.righth.d {
+
+	name: "right.h-d"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/right_high_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/right_high_de.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.rightl.d {
+
+	name: "right.l-d"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/right_low_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/right_low_de.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.thruh.d {
+
+	name: "thru.h-d"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/thru_high_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/thru_high_de.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.thrul.d {
+
+	name: "thru.l-d"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/thru_low_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/thru_low_de.pmc"
+
+
+}
+
+#################
+###NETHERLANDS###
+#################
+
+tr_semaphore_model : tr_sem_mdl.straighth.nl {
+
+	name: "straight.h-nl"
+	
+	model_desc: "/model/traffic_light/big_junctions/nl/straight_high_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/straight_high_nl.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.straightl.nl {
+
+	name: "straight.l-nl"
+	
+	model_desc: "/model/traffic_light/big_junctions/nl/straight_low_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/straight_low_nl.pmc"
+
+
+}
+ 
+tr_semaphore_model : tr_sem_mdl.lefth.nl {
+
+	name: "left.h-nl"
+	
+	model_desc: "/model/traffic_light/big_junctions/nl/left_high_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/left_high_nl.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.leftl.nl {
+
+	name: "left.l-nl"
+	
+	model_desc: "/model/traffic_light/big_junctions/nl/left_low_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/left_low_nl.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.righth.nl {
+
+	name: "right.h-nl"
+	
+	model_desc: "/model/traffic_light/big_junctions/nl/right_high_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/right_high_nl.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.rightl.nl {
+
+	name: "right.l-nl"
+	
+	model_desc: "/model/traffic_light/big_junctions/nl/right_low_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/right_low_nl.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.thruh.nl { 
+
+	name: "thru.h-nl"
+	
+	model_desc: "/model/traffic_light/big_junctions/nl/thru_high_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/thru_high_nl.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.thrul.nl {
+
+	name: "thru.l-nl"
+	
+	model_desc: "/model/traffic_light/big_junctions/nl/thru_low_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/thru_low_nl.pmc"
+
+
+}
+#################
+#####ICELAND#####
+#################
+
+tr_semaphore_model : tr_sem_mdl.straighth.is {
+
+	name: "straight.h-is"
+	
+	model_desc: "/model/traffic_light/big_junctions/is/straight_high_is.pmd"
+	model_coll: "/model/traffic_light/big_junctions/is/straight_high_is.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.straightl.is {
+
+	name: "straight.l-is"
+	
+	model_desc: "/model/traffic_light/big_junctions/is/straight_low_is.pmd"
+	model_coll: "/model/traffic_light/big_junctions/is/straight_low_is.pmc"
+
+
+}
+ 
+tr_semaphore_model : tr_sem_mdl.lefth.is {
+
+	name: "left.h-is"
+	
+	model_desc: "/model/traffic_light/big_junctions/is/left_high_is.pmd"
+	model_coll: "/model/traffic_light/big_junctions/is/left_high_is.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.leftl.is {
+
+	name: "left.l-is"
+	
+	model_desc: "/model/traffic_light/big_junctions/is/left_low_is.pmd"
+	model_coll: "/model/traffic_light/big_junctions/is/left_low_is.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.righth.is {
+
+	name: "right.h-is"
+	
+	model_desc: "/model/traffic_light/big_junctions/is/right_high_is.pmd"
+	model_coll: "/model/traffic_light/big_junctions/is/right_high_is.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.rightl.is {
+
+	name: "right.l-is"
+	
+	model_desc: "/model/traffic_light/big_junctions/is/right_low_is.pmd"
+	model_coll: "/model/traffic_light/big_junctions/is/right_low_is.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.thruh.is { 
+
+	name: "thru.h-is"
+	
+	model_desc: "/model/traffic_light/big_junctions/is/thru_high_is.pmd"
+	model_coll: "/model/traffic_light/big_junctions/is/thru_high_is.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.thrul.is {
+
+	name: "thru.l-is"
+	
+	model_desc: "/model/traffic_light/big_junctions/is/thru_low_is.pmd"
+	model_coll: "/model/traffic_light/big_junctions/is/thru_low_is.pmc"
+
+
+}
+
+
+#################
+#####SWEDEN######
+#################
+
+tr_semaphore_model : tr_sem_mdl.left_small.s {
+
+	name: "left_small-s"
+	
+	model_desc: "/model/traffic_light/big_junctions/se/bj_left_small_se.pmd"
+	model_coll: "/model/traffic_light/big_junctions/se/bj_left_small_se.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.right_small.s {
+
+	name: "right_small-s"
+	
+	model_desc: "/model/traffic_light/big_junctions/se/bj_right_small_se.pmd"
+	model_coll: "/model/traffic_light/big_junctions/se/bj_right_small_se.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.thru_small.s {
+
+	name: "thru_small-s"
+	
+	model_desc: "/model/traffic_light/big_junctions/se/bj_str_small_se.pmd"
+	model_coll: "/model/traffic_light/big_junctions/se/bj_str_small_se.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.left_big.s {
+
+	name: "left_big-s"
+	
+	model_desc: "/model/traffic_light/big_junctions/se/bj_left_big_se.pmd"
+	model_coll: "/model/traffic_light/big_junctions/se/bj_left_big_se.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.thru_big.s {
+
+	name: "thru_big-s"
+	
+	model_desc: "/model/traffic_light/big_junctions/se/bj_str_big_se.pmd"
+	model_coll: "/model/traffic_light/big_junctions/se/bj_str_big_se.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.left_duo.s {
+
+	name: "left_big-s"
+	
+	model_desc: "/model/traffic_light/big_junctions/se/bj_left_duo_se.pmd"
+	model_coll: "/model/traffic_light/big_junctions/se/bj_left_duo_se.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.thru_duo.s {
+
+	name: "thru_big-s"
+	
+	model_desc: "/model/traffic_light/big_junctions/se/bj_str_duo_se.pmd"
+	model_coll: "/model/traffic_light/big_junctions/se/bj_str_duo_se.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.merge_big.s {
+
+	name: "merge_se"
+	
+	model_desc: "/model/traffic_light/big_junctions/se/bj_str_big_se_hw.pmd"
+	model_coll: "/model/traffic_light/big_junctions/se/bj_str_big_se_hw.pmc"
+
+
+}
+
+#################
+#####DENMARK#####
+#################
+
+tr_semaphore_model : tr_sem_mdl.left_small.dk {
+
+	name: "left_small-dk"
+	
+	model_desc: "/model/traffic_light/big_junctions/dk/bj_left_small_dk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/dk/bj_left_small_dk.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.right_small.dk {
+
+	name: "right_small-dk"
+	
+	model_desc: "/model/traffic_light/big_junctions/dk/bj_right_small_dk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/dk/bj_right_small_dk.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.thru_small.dk {
+
+	name: "thru_small-dk"
+	
+	model_desc: "/model/traffic_light/big_junctions/dk/bj_str_small_dk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/dk/bj_str_small_dk.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.left_big.dk {
+
+	name: "left_big-dk"
+	
+	model_desc: "/model/traffic_light/big_junctions/dk/bj_left_big_dk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/dk/bj_left_big_dk.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.thru_big.dk {
+
+	name: "thru_big-dk"
+	
+	model_desc: "/model/traffic_light/big_junctions/dk/bj_str_big_dk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/dk/bj_str_big_dk.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.right_big.dk {
+
+	name: "right_big-dk"
+	
+	model_desc: "/model/traffic_light/big_junctions/dk/bj_right_big_dk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/dk/bj_right_big_dk.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.left_bigd.dk {
+
+	name: "left_big_duo-dk"
+	
+	model_desc: "/model/traffic_light/big_junctions/dk/bj_left_big_duo_dk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/dk/bj_left_big_duo_dk.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.thru_bigd.dk {
+
+	name: "thru_big_duo-dk"
+	
+	model_desc: "/model/traffic_light/big_junctions/dk/bj_str_big_duo_dk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/dk/bj_str_big_duo_dk.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.left_duo.dk {
+
+	name: "left_duo-dk"
+	
+	model_desc: "/model/traffic_light/big_junctions/dk/bj_left_duo_dk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/dk/bj_left_duo_dk.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.thru_duo.dk {
+
+	name: "thru_duo-dk"
+	
+	model_desc: "/model/traffic_light/big_junctions/dk/bj_str_duo_dk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/dk/bj_str_duo_dk.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.right_duo.dk {
+
+	name: "right_duo-dk"
+	
+	model_desc: "/model/traffic_light/big_junctions/dk/bj_right_duo_dk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/dk/bj_right_duo_dk.pmc"
+
+
+}
+
+#################
+#####FINLAND#####
+#################
+
+tr_semaphore_model : tr_sem_mdl.left_small.fin {
+
+	name: "left_small-fin"
+	
+	model_desc: "/model/traffic_light/single_left_fi2.pmd"
+	model_coll: "/model/traffic_light/single_left_fi2.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.right_small.fin {
+
+	name: "right_small-fin"
+	
+	model_desc: "/model/traffic_light/single_right_fi2.pmd"
+	model_coll: "/model/traffic_light/single_right_fi2.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.thru_small.fin {
+
+	name: "thru_small-fin"
+	
+	model_desc: "/model/traffic_light/single_fi2.pmd"
+	model_coll: "/model/traffic_light/single_fi2.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.left_duo.fin {
+
+	name: "left_duo-fin"
+	
+	model_desc: "/model/traffic_light/duo_left_fi2.pmd"
+	model_coll: "/model/traffic_light/duo_left_fi2.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.thru_duo.fin {
+
+	name: "thru_duo-fin"
+	
+	model_desc: "/model/traffic_light/duo_str_fi2.pmd"
+	model_coll: "/model/traffic_light/duo_str_fi2.pmc"
+
+
+}
+#################
+#####NORWAY######
+#################
+
+tr_semaphore_model : tr_sem_mdl.left_small.n {
+
+	name: "left_small-n"
+	
+	model_desc: "/model/traffic_light/big_junctions/no/bj_left_small_no.pmd"
+	model_coll: "/model/traffic_light/big_junctions/no/bj_left_small_no.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.right_small.n {
+
+	name: "right_small-n"
+	
+	model_desc: "/model/traffic_light/big_junctions/no/bj_right_small_no.pmd"
+	model_coll: "/model/traffic_light/big_junctions/no/bj_right_small_no.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.thru_small.n {
+
+	name: "thru_small-n"
+	
+	model_desc: "/model/traffic_light/big_junctions/no/bj_str_small_no.pmd"
+	model_coll: "/model/traffic_light/big_junctions/no/bj_str_small_no.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.left_duo.n {
+
+	name: "left_duo-n"
+	
+	model_desc: "/model/traffic_light/big_junctions/no/bj_left_duo_no.pmd"
+	model_coll: "/model/traffic_light/big_junctions/no/bj_left_duo_no.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.thru_duo.n {
+
+	name: "thru_duo-n"
+	
+	model_desc: "/model/traffic_light/big_junctions/no/bj_str_duo_no.pmd"
+	model_coll: "/model/traffic_light/big_junctions/no/bj_str_duo_no.pmc"
+
+
+}
+
+################
+###### UK #######
+#################
+
+tr_semaphore_model  : tr_sem_mdl.thru_com.gb {
+
+	name: "thru_com-gb"
+
+	model_desc: "/model/traffic_light/big_junctions/uk/bj_full_combi_uk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/uk/bj_full_combi_uk.pmc"
+
+
+}
+tr_semaphore_model  : tr_sem_mdl.thruleft_com.gb {
+
+	name: "thruleft_com-gb"
+
+	model_desc: "/model/traffic_light/big_junctions/uk/bj_str_left_combi_uk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/uk/bj_str_left_combi_uk.pmc"
+
+
+}
+tr_semaphore_model  : tr_sem_mdl.right_com.gb {
+
+	name: "right_com-gb"
+
+	model_desc: "/model/traffic_light/big_junctions/uk/bj_right_combi_uk.pmd"
+	model_coll: "/model/traffic_light/big_junctions/uk/bj_right_combi_uk.pmc"
+
+
+}
+
+#
+# EOF
+#
+
+}

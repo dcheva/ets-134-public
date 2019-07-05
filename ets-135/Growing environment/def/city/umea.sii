@@ -1,0 +1,63 @@
+﻿city_data: city.umea
+{
+	city_name: "Umeå"
+	city_name_localized: "@@umea@@"
+	country: sweden
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20 // close zoom for minimap
+	map_x_offsets[]: -20 // far zoom for monimap
+	map_x_offsets[]: -20 // city zoom for world map
+	map_x_offsets[]: -20 // closest zoom for world map
+	map_x_offsets[]: -20 // middle zoom for world map
+	map_x_offsets[]: -5 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -15
+	map_y_offsets[]: 25
+	map_y_offsets[]: 25
+	map_y_offsets[]: -5
+	map_y_offsets[]: -5
+
+	vehicle_brands[]:"scania"
+
+	truck_lp_template[]:"000 111"
+
+	truck_lp_def0[]:"A"
+	truck_lp_def0[]:"B"
+	truck_lp_def0[]:"C"
+	truck_lp_def0[]:"D"
+	truck_lp_def0[]:"E"
+	truck_lp_def0[]:"F"
+	truck_lp_def0[]:"G"
+	truck_lp_def0[]:"H"
+	truck_lp_def0[]:"J"
+	truck_lp_def0[]:"K"
+	truck_lp_def0[]:"L"
+	truck_lp_def0[]:"M"
+	truck_lp_def0[]:"N"
+	truck_lp_def0[]:"O"
+	truck_lp_def0[]:"P"
+	truck_lp_def0[]:"R"
+	truck_lp_def0[]:"S"
+	truck_lp_def0[]:"T"
+	truck_lp_def0[]:"U"
+	truck_lp_def0[]:"W"
+	truck_lp_def0[]:"X"
+	truck_lp_def0[]:"Y"
+	truck_lp_def0[]:"Z"
+
+	truck_lp_def1[]:"0"
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+}

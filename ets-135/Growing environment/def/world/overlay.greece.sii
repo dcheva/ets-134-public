@@ -1,0 +1,14 @@
+SiiNunit
+{
+overlay_def : .overlay {
+
+	road_names[]: "gr_a1"
+	road_names[]: "gr_a2"
+	road_names[]: "gr_a25"
+	road_names[]: "gr_e65"
+	road_names[]: "gr_e75"
+	road_names[]: "gr_e79"
+	road_names[]: "gr_e90"
+}
+
+}

@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis.toyota_prius.police.ua
+{
+	model: "/vehicle/ai/promods/road/toyota_prius/ai_police.pmd"
+	lods[]: "/vehicle/ai/promods/road/toyota_prius/lod_police.pmd"	
+	lods[]: "/vehicle/ai/promods/road/toyota_prius/lod2_police.pmd"	
+	collision: "/vehicle/ai/promods/road/toyota_prius/ai_police.pmc"
+
+	shadow_texture: "/vehicle/ai/share/shadow_occlusion.tobj"
+	shadow_intensity: 1.4
+
+	variant: ua
+	look: default
+}
+}

@@ -1,0 +1,119 @@
+city_data: city.galway
+{
+	city_name: "Galway"
+	city_name_localized: "@@galway@@"
+	country: ireland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	vehicle_brands[]:"iveco"
+
+	truck_lp_template[]:"0-G-1"
+	truck_lp_template[]:"0-G-12"
+	truck_lp_template[]:"0-G-122"
+	truck_lp_template[]:"0-G-1222"
+	truck_lp_template[]:"0-G-12222"
+
+	truck_lp_def0[]:"172"
+
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"0"
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+	ai_lp_template[]:"0-G-1"
+	ai_lp_template[]:"0-G-12"
+	ai_lp_template[]:"0-G-122"
+	ai_lp_template[]:"0-G-1222"
+	ai_lp_template[]:"0-G-12222"
+	ai_lp_template[]:"0-G-122222"
+
+	ai_lp_def0[]:"98"
+	ai_lp_def0[]:"99"
+	ai_lp_def0[]:"00"
+	ai_lp_def0[]:"01"
+	ai_lp_def0[]:"02"
+	ai_lp_def0[]:"03"
+	ai_lp_def0[]:"04"
+	ai_lp_def0[]:"05"
+	ai_lp_def0[]:"06"
+	ai_lp_def0[]:"07"
+	ai_lp_def0[]:"08"
+	ai_lp_def0[]:"09"
+	ai_lp_def0[]:"10"
+	ai_lp_def0[]:"11"
+	ai_lp_def0[]:"12"
+	ai_lp_def0[]:"131"
+	ai_lp_def0[]:"132"
+	ai_lp_def0[]:"141"
+	ai_lp_def0[]:"142"
+	ai_lp_def0[]:"151"
+	ai_lp_def0[]:"152"
+	ai_lp_def0[]:"161"
+	ai_lp_def0[]:"162"
+	ai_lp_def0[]:"171"
+	ai_lp_def0[]:"172"
+
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+
+	ai_lp_def2[]:"0"
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+}

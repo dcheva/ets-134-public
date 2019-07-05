@@ -1,0 +1,89 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+@include "cargo/aljoinery.sii"
+@include "cargo/aquariums.sii"
+@include "cargo/beer.sii"
+@include "cargo/canned_fish.sii"
+@include "cargo/carengines.sii"
+@include "cargo/cement_dry.sii"
+@include "cargo/daf_tr.sii"
+@include "cargo/fl_furniture.sii"
+@include "cargo/hardware.sii"
+@include "cargo/ikea_pl_emtp.sii"
+#@include "cargo/ikea_pl_emtt.sii"
+@include "cargo/ikea_pl_furn.sii"
+@include "cargo/ikea_pl_hmwr.sii"
+@include "cargo/ikea_pl_papr.sii"
+@include "cargo/ikea_pl_plst.sii"
+@include "cargo/man_tr.sii"
+@include "cargo/reindeer.sii"
+@include "cargo/seafood.sii"
+@include "cargo/soap.sii"
+
+
+
+# #@include "cargo/junk.sii" # DEPRECATED
+# @include "cargo/transmission.sii" # REPLACED WITH DLC SC CARGO
+# @include "cargo/truckengines.sii"
+# #@include "cargo/fresh_fish.sii" # REPLACED WITH DLC SC CARGO
+
+# # POLAND
+# @include "cargo/empty_logs.sii" #DEPRECATED
+# #@include "cargo/benzyna.sii" #DEPRECATED
+# #@include "cargo/olej.sii" #DEPRECATED
+
+# # Salag
+# @include "cargo/ext_crn_pr.sii"
+# @include "cargo/rubber.sii"
+# @include "cargo/plastic.sii"
+# @include "cargo/trans_pr.sii"
+# @include "cargo/skir_bo.sii"
+# @include "cargo/skir_tr.sii"
+# @include "cargo/ext_fil.sii"
+# # Plastimet
+# @include "cargo/windows.sii"
+# @include "cargo/gates.sii"
+
+
+# # BULGARIA
+# @include "cargo/machineparts.sii"
+
+
+# # SERBIA
+# @include "cargo/malt.sii"
+# @include "cargo/grain.sii"
+# @include "cargo/emptybottles.sii"
+# @include "cargo/empty_pallet.sii"
+# @include "cargo/water.sii"
+
+# #UNILEVER
+# @include "cargo/cleaners.sii"
+@include "cargo/dairy.sii"
+
+
+# FOLLOWING CARGOES CAN WAIT UNTIL 2.40
+
+# #IKEA
+# #Ikea Distribution
+# @include "cargo/ikea_aqua.sii"
+# @include "cargo/ikea_emtp.sii"
+# @include "cargo/ikea_expr.sii"
+# @include "cargo/ikea_furn.sii"
+# @include "cargo/ikea_papr.sii"
+# @include "cargo/ikea_plst.sii"
+# @include "cargo/ikea_skbo.sii"
+# @include "cargo/ikea_sktr.sii"
+# @include "cargo/ikea_tbwr.sii"
+# @include "cargo/ikea_toys.sii"
+#Ikea Poland
+# @include "cargo/ikea_pl_emtt.sii" # BROKEN, CAN WAIT
+
+}

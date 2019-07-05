@@ -1,0 +1,86 @@
+city_data: city.stpeterport
+{
+	city_name: "Saint Peter Port"
+	short_city_name: "St Peter Port"
+	city_name_localized: "@@stpeterport@@"
+	short_city_name_localized: "@@stpeterport_short@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	vehicle_brands[]:"daf"
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -40
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	truck_lp_template[]:"000"
+	truck_lp_template[]:"0000"
+	truck_lp_template[]:"00000"
+
+	truck_lp_def0[]:"0"
+	truck_lp_def0[]:"1"
+	truck_lp_def0[]:"2"
+	truck_lp_def0[]:"3"
+	truck_lp_def0[]:"4"
+	truck_lp_def0[]:"5"
+	truck_lp_def0[]:"6"
+	truck_lp_def0[]:"7"
+	truck_lp_def0[]:"8"
+	truck_lp_def0[]:"9"
+
+	ai_lp_template[]:"000"
+	ai_lp_template[]:"0000"
+	ai_lp_template[]:"00000"
+
+	ai_lp_def0[]:"0"
+	ai_lp_def0[]:"1"
+	ai_lp_def0[]:"2"
+	ai_lp_def0[]:"3"
+	ai_lp_def0[]:"4"
+	ai_lp_def0[]:"5"
+	ai_lp_def0[]:"6"
+	ai_lp_def0[]:"7"
+	ai_lp_def0[]:"8"
+	ai_lp_def0[]:"9"
+}

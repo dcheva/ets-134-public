@@ -1,0 +1,102 @@
+city_data: city.trondheim
+{
+	city_name: "Trondheim"
+	city_name_localized: "@@trondheim@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -21
+	map_x_offsets[]: -20
+	map_x_offsets[]: -19
+	map_x_offsets[]: -20
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -66
+	map_y_offsets[]: -52
+	map_y_offsets[]: -29
+	map_y_offsets[]: -28
+
+	vehicle_brands[]:"daf"
+
+	truck_lp_template[]:"0 12222"
+
+	truck_lp_def0[]:"VD"
+	truck_lp_def0[]:"VE"
+	truck_lp_def0[]:"VF"
+	truck_lp_def0[]:"VH"
+	truck_lp_def0[]:"VJ"
+	truck_lp_def0[]:"VK"
+	truck_lp_def0[]:"VL"
+	truck_lp_def0[]:"VN"
+	truck_lp_def0[]:"VP"
+	truck_lp_def0[]:"VR"
+	truck_lp_def0[]:"VS"
+	truck_lp_def0[]:"VU"
+	truck_lp_def0[]:"VV"
+	truck_lp_def0[]:"FP"
+
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"0"
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+	ai_lp_template[]:"0 12222"
+
+	ai_lp_def0[]:"VD"
+	ai_lp_def0[]:"VE"
+	ai_lp_def0[]:"VF"
+	ai_lp_def0[]:"VH"
+	ai_lp_def0[]:"VJ"
+	ai_lp_def0[]:"VK"
+	ai_lp_def0[]:"VL"
+	ai_lp_def0[]:"VN"
+	ai_lp_def0[]:"VP"
+	ai_lp_def0[]:"VR"
+	ai_lp_def0[]:"VS"
+	ai_lp_def0[]:"VU"
+	ai_lp_def0[]:"VV"
+	ai_lp_def0[]:"FP"
+
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+
+	ai_lp_def2[]:"0"
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+}

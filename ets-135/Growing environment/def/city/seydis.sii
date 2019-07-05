@@ -1,0 +1,80 @@
+﻿city_data: city.seydis
+{
+	city_name: "Seyðisfjörður"
+	city_name_localized: "@@seydis@@"
+	country: iceland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.6  // middle zoom for world map
+	city_pin_scale_factor[]: 0.4  // whole world map zoom
+
+	truck_lp_template[]:"0113222"
+
+	truck_lp_def0[]:"<color value=FF983A17>"
+
+	truck_lp_def1[]:"A"
+	truck_lp_def1[]:"B"
+	truck_lp_def1[]:"C"
+	truck_lp_def1[]:"D"
+	truck_lp_def1[]:"E"
+	truck_lp_def1[]:"F"
+	truck_lp_def1[]:"H"
+	truck_lp_def1[]:"J"
+	truck_lp_def1[]:"K"
+	truck_lp_def1[]:"L"
+	truck_lp_def1[]:"N"
+	truck_lp_def1[]:"P"
+	truck_lp_def1[]:"R"
+	truck_lp_def1[]:"S"
+	truck_lp_def1[]:"T"
+	truck_lp_def1[]:"U"
+	truck_lp_def1[]:"V"
+	truck_lp_def1[]:"X"
+	truck_lp_def1[]:"Y"
+	truck_lp_def1[]:"Z"
+
+	truck_lp_def2[]:"0"
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+	truck_lp_def3[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/iceland/08.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+	truck_lp_def3[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/iceland/09.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+	truck_lp_def3[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/iceland/10.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+	truck_lp_def3[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/iceland/11.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+	truck_lp_def3[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/iceland/12.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+	truck_lp_def3[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/iceland/13.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+	truck_lp_def3[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/iceland/15.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+	truck_lp_def3[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/iceland/16.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+	truck_lp_def3[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/iceland/17.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+}

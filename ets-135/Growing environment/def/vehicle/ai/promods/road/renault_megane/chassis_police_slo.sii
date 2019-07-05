@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis.megane.police.slo
+{
+	model: "/vehicle/ai/promods/road/renault_megane_grand_tour/ai_police.pmd"
+	lods[]: "/vehicle/ai/promods/road/renault_megane_grand_tour/lod_police.pmd"	
+	lods[]: "/vehicle/ai/promods/road/renault_megane_grand_tour/lod2_police.pmd"	
+	collision: "/vehicle/ai/promods/road/renault_megane_grand_tour/ai_police.pmc"
+
+	shadow_texture: "/vehicle/ai/share/shadow_occlusion.tobj"
+	shadow_intensity: 1.2
+
+	variant: slo
+	look: slo
+}
+}

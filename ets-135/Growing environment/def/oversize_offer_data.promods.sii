@@ -1,0 +1,436 @@
+SiiNunit
+{
+
+### TRUCKS
+### mercedes_8x4 , scania_8x4 , volvo_8x4 , daf_xf_euro6_6x4_c , man_6x4_b , mercedes_6x4_a , mercedes_actros_2014_6x4_b , renault_magnum_6x4_a , renault_premium_6x4_a , scania_6x4_a , scania_streamline_6x4_a , 
+### volvo_6x4_c , volvo_2012_6x4_c
+### TRUCKS FOR UK
+### daf_xf_euro6_6x4_c_uk , man_6x4_b_uk , mercedes_8x4_uk , scania_8x4_uk , volvo_8x4_uk , volvo_2012_6x4_c_uk
+
+
+### FROM SHEFFIELD ITCC TO BIRMINGHAM SAN BUILDERS 2
+oversize_offer_data : spec_offer.ovesize_17a {
+		route : route_data.shef_bir1
+		cargo : cargo.mystery_cyl                  
+		low_time_limit  : 120
+		high_time_limit : 820
+		cargo_dimension : (6.0, 1.3, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_mysc
+		cutscenes_intro_night[]: cutscene.ovs_i_myscni
+}
+### FROM SHEFFIELD ITCC TO BIRMINGHAM SAN BUILDERS 3
+oversize_offer_data : spec_offer.ovesize_17b {
+		route : route_data.shef_bir1
+		cargo : cargo.ex_bucket                  
+		low_time_limit  : 120
+		high_time_limit : 820
+		cargo_dimension : (4.9, 2.9, 3.5)
+		
+		cutscenes_intro[]: cutscene.ovs_i_ex2
+		cutscenes_intro_night[]: cutscene.ovs_i_ex2n
+}
+### FROM SHEFFIELD ITCC TO BIRMINGHAM SAN BUILDERS 4
+oversize_offer_data : spec_offer.ovesize_17c {
+		route : route_data.shef_bir1
+		cargo : cargo.m_59_80_r63                  
+		low_time_limit  : 120
+		high_time_limit : 820
+		cargo_dimension : (4.0, 3.2, 12.1)
+		
+		cutscenes_intro[]: cutscene.ovs_i_tir2
+		cutscenes_intro_night[]: cutscene.ovs_i_tir2n
+}
+### FROM SHEFFIELD ITCC TO BIRMINGHAM SAN BUILDERS 5
+oversize_offer_data : spec_offer.ovesize_17D {
+		route : route_data.shef_bir1
+		cargo : cargo.mystery_box                 
+		low_time_limit  : 120
+		high_time_limit : 820
+		cargo_dimension : (6.0, 5.0, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_mysb2
+		cutscenes_intro_night[]: cutscene.ovs_i_mysb2n
+}
+### FROM STAVENGER MINE TO MINE NEAR OSLO 1
+oversize_offer_data : spec_offer.ovesize_22 {
+		route : route_data.stav_osl1
+		cargo : cargo.ex_bucket
+		low_time_limit  : 120
+		high_time_limit : 1000
+		cargo_dimension : (4.9, 2.9, 3.5)
+		
+		cutscenes_intro[]: cutscene.ovs_i_ex4
+		cutscenes_intro_night[]: cutscene.ovs_i_ex4n
+}
+### FROM STAVENGER MINE TO MINE NEAR OSLO 2
+oversize_offer_data : spec_offer.ovesize_23 {
+		route : route_data.stav_osl1
+		cargo : cargo.cat_785c
+		low_time_limit  : 120
+		high_time_limit : 1000
+		cargo_dimension : (6.0, 4.1, 8.3)
+		
+		cutscenes_intro[]: cutscene.ovs_i_catms
+		cutscenes_intro_night[]: cutscene.ovs_i_catmsn
+}
+### FROM STAVENGER MINE TO MINE NEAR OSLO 3
+oversize_offer_data : spec_offer.ovesize_24 {
+		route : route_data.stav_osl1
+		cargo : cargo.m_59_80_r63
+		low_time_limit  : 120
+		high_time_limit : 1000
+		cargo_dimension : (4.0, 3.2, 12.1)
+		
+		cutscenes_intro[]: cutscene.ovs_i_tir5
+		cutscenes_intro_night[]: cutscene.ovs_i_tir5n
+}
+### FROM NANTES WILNET TRANSPORT TO NUCLEAR PLANT AT CIVAUX 1
+oversize_offer_data : spec_offer.ovesize_25a {
+		route : route_data.nan_civ1
+		cargo : cargo.mystery_box
+		low_time_limit  : 120
+		high_time_limit : 1100
+		cargo_dimension : (6.0, 5.0, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_mysb
+		cutscenes_intro_night[]: cutscene.ovs_i_mysbn
+}
+### FROM NANTES WILNET TRANSPORT TO NUCLEAR PLANT AT CIVAUX 2
+oversize_offer_data : spec_offer.ovesize_25b {
+		route : route_data.nan_civ1
+		cargo : cargo.mystery_cyl
+		low_time_limit  : 120
+		high_time_limit : 1100
+		cargo_dimension : (6.0, 1.3, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_mysc
+		cutscenes_intro_night[]: cutscene.ovs_i_myscni
+}
+### FROM NANTES WILNET TRANSPORT TO NUCLEAR PLANT AT CIVAUX 3
+oversize_offer_data : spec_offer.ovesize_25c {
+		route : route_data.nan_civ1
+		cargo : cargo.heat_exch
+		low_time_limit  : 120
+		high_time_limit : 1100
+		cargo_dimension : (4.8, 5.0, 18.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_heat
+		cutscenes_intro_night[]: cutscene.ovs_i_heatn
+		
+}
+### FROM NANTES WILNET TRANSPORT TO NUCLEAR PLANT AT CIVAUX 4
+oversize_offer_data : spec_offer.ovesize_25d {
+		route : route_data.nan_civ1
+		cargo : cargo.condensator
+		low_time_limit  : 120
+		high_time_limit : 1100
+		cargo_dimension : (5.4, 4.7, 12.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_con
+		cutscenes_intro_night[]: cutscene.ovs_i_conn
+}
+### FROM REIMS STEIN BRUCH TO STRASBOURG STEIN BRUCH 1
+oversize_offer_data : spec_offer.ovesize_26 {
+		route : route_data.reim_stra1
+		cargo : cargo.mystery_cyl
+		low_time_limit  : 120
+		high_time_limit : 960
+		cargo_dimension : (6.0, 1.3, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_mysc3
+		cutscenes_intro_night[]: cutscene.ovs_i_mysc3n
+}
+### FROM REIMS STEIN BRUCH TO STRASBOURG STEIN BRUCH 2
+oversize_offer_data : spec_offer.ovesize_26a {
+		route : route_data.reim_stra1
+		cargo : cargo.mystery_box
+		low_time_limit  : 120
+		high_time_limit : 960
+		cargo_dimension : (6.0, 5.0, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_mysb3
+		cutscenes_intro_night[]: cutscene.ovs_i_mysb3n
+}
+### FROM REIMS STEIN BRUCH TO STRASBOURG STEIN BRUCH 3
+oversize_offer_data : spec_offer.ovesize_26b {
+		route : route_data.reim_stra1
+		cargo : cargo.cat_785c
+		low_time_limit  : 120
+		high_time_limit : 960
+		cargo_dimension : (6.0, 4.1, 8.3)
+		
+		cutscenes_intro[]: cutscene.ovs_i_catm
+		cutscenes_intro_night[]: cutscene.ovs_i_catmn
+}
+### FROM REIMS STEIN BRUCH TO STRASBOURG STEIN BRUCH 4
+oversize_offer_data : spec_offer.ovesize_26c {
+		route : route_data.reim_stra1
+		cargo : cargo.m_59_80_r63
+		low_time_limit  : 120
+		high_time_limit : 960
+		cargo_dimension : (4.0, 3.2, 12.1)
+		
+		cutscenes_intro[]: cutscene.ovs_i_tir3
+		cutscenes_intro_night[]: cutscene.ovs_i_tir3n
+}
+### FROM REIMS STEIN BRUCH TO STRASBOURG STEIN BRUCH 5
+oversize_offer_data : spec_offer.ovesize_26d {
+		route : route_data.reim_stra1
+		cargo : cargo.ex_bucket
+		low_time_limit  : 120
+		high_time_limit : 960
+		cargo_dimension : (4.9, 2.9, 3.5)
+		
+		cutscenes_intro[]: cutscene.ovs_i_ex3
+		cutscenes_intro_night[]: cutscene.ovs_i_ex3n
+}
+### FROM REIMS STEIN BRUCH TO STRASBOURG STEIN BRUCH 6
+oversize_offer_data : spec_offer.ovesize_26e {
+		route : route_data.reim_stra1
+		cargo : cargo.lattice
+		low_time_limit  : 120
+		high_time_limit : 960
+		cargo_dimension : (5.6, 4.7, 20.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_lat2
+		cutscenes_intro_night[]: cutscene.ovs_i_lat2n
+}
+##################################### FIRST ADDITIONAL ROUTES FOR ETS2###########################################
+
+### FROM PALERMO HARBOR TO CATANIA FUI FARM 1
+oversize_offer_data : spec_offer.ovesize_29 {
+		route : route_data.pal_cat1
+		cargo : cargo.condensator                  
+		low_time_limit  : 120
+		high_time_limit : 1000
+		cargo_dimension : (5.4, 4.7, 12.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_con
+		cutscenes_intro_night[]: cutscene.ovs_i_conn
+}
+### FROM PALERMO HARBOR TO CATANIA FUI FARM 2
+oversize_offer_data : spec_offer.ovesize_29a {
+		route : route_data.pal_cat1
+		cargo : cargo.mystery_box                  
+		low_time_limit  : 120
+		high_time_limit : 1000
+		cargo_dimension : (6.0, 5.0, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_mysb
+		cutscenes_intro_night[]: cutscene.ovs_i_mysbn
+}
+### FROM PALERMO HARBOR TO CATANIA FUI FARM 3
+oversize_offer_data : spec_offer.ovesize_29b {
+		route : route_data.pal_cat1
+		cargo : cargo.mystery_cyl                 
+		low_time_limit  : 120
+		high_time_limit : 1000
+		cargo_dimension : (6.0, 1.3, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_myscn
+		cutscenes_intro_night[]: cutscene.ovs_i_myscnn
+}
+### FROM PALERMO HARBOR TO CATANIA FUI FARM 4
+oversize_offer_data : spec_offer.ovesize_29c {
+		route : route_data.pal_cat1
+		cargo : cargo.boiler_parts                 
+		low_time_limit  : 120
+		high_time_limit : 1000
+		cargo_dimension : (6.0, 4.9, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_boi
+		cutscenes_intro_night[]: cutscene.ovs_i_boin
+}
+### FROM PALERMO HARBOR TO CATANIA FUI FARM 5
+oversize_offer_data : spec_offer.ovesize_29d {
+		route : route_data.pal_cat1
+		cargo : cargo.silo                 
+		low_time_limit  : 120
+		high_time_limit : 1000
+		cargo_dimension : (4.6, 4.6, 20.1)
+		
+		cutscenes_intro[]: cutscene.ovs_i_sil
+		cutscenes_intro_night[]: cutscene.ovs_i_siln
+}
+
+### FROM NAPOLI HARBOR TO TERNI FACTORY 1
+oversize_offer_data : spec_offer.ovesize_32 {
+		route : route_data.nap_ter1
+		cargo : cargo.condensator                  
+		low_time_limit  : 120
+		high_time_limit : 2000
+		cargo_dimension : (5.4, 4.7, 12.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_con2
+		cutscenes_intro_night[]: cutscene.ovs_i_conn2
+}
+
+### FROM NAPOLI HARBOR TO TERNI FACTORY 2
+oversize_offer_data : spec_offer.ovesize_32a {
+		route : route_data.nap_ter1
+		cargo : cargo.mystery_box                  
+		low_time_limit  : 120
+		high_time_limit : 2000
+		cargo_dimension : (6.0, 5.0, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_mysb2
+		cutscenes_intro_night[]: cutscene.ovs_i_mysb2n
+}
+
+### FROM NAPOLI HARBOR TO TERNI FACTORY 3
+oversize_offer_data : spec_offer.ovesize_32b {
+		route : route_data.nap_ter1
+		cargo : cargo.mystery_cyl                  
+		low_time_limit  : 120
+		high_time_limit : 2000
+		cargo_dimension : (6.0, 1.3, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_myscn
+		cutscenes_intro_night[]: cutscene.ovs_i_myscnn
+}
+
+### FROM NAPOLI HARBOR TO TERNI FACTORY 4
+oversize_offer_data : spec_offer.ovesize_32c {
+		route : route_data.nap_ter1
+		cargo : cargo.boiler_parts                  
+		low_time_limit  : 120
+		high_time_limit : 2000
+		cargo_dimension : (6.0, 4.9, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_boi2
+		cutscenes_intro_night[]: cutscene.ovs_i_boi2n
+}
+
+### FROM NAPOLI HARBOR TO TERNI FACTORY 5
+oversize_offer_data : spec_offer.ovesize_32d {
+		route : route_data.nap_ter1
+		cargo : cargo.heat_exch                  
+		low_time_limit  : 120
+		high_time_limit : 2000
+		cargo_dimension : (4.8, 5.0, 18.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_heat2
+		cutscenes_intro_night[]: cutscene.ovs_i_heatn2
+}
+
+### FROM NICE CENTER TO MINES NEAR NICE 2
+oversize_offer_data : spec_offer.ovesize_34a {
+		route : route_data.nic_nic1
+		cargo : cargo.mystery_box                  
+		low_time_limit  : 120
+		high_time_limit : 700
+		cargo_dimension : (6.0, 5.0, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_mysb2
+		cutscenes_intro_night[]: cutscene.ovs_i_mysb2n
+}
+
+### FROM NICE CENTER TO MINES NEAR NICE 3
+oversize_offer_data : spec_offer.ovesize_34b {
+		route : route_data.nic_nic1
+		cargo : cargo.ex_bucket                  
+		low_time_limit  : 120
+		high_time_limit : 700
+		cargo_dimension : (4.9, 2.9, 3.5)
+		
+		cutscenes_intro[]: cutscene.ovs_i_ex2
+		cutscenes_intro_night[]: cutscene.ovs_i_ex2n
+}
+
+### FROM NICE CENTER TO MINES NEAR NICE 4
+oversize_offer_data : spec_offer.ovesize_34c {
+		route : route_data.nic_nic1
+		cargo : cargo.m_59_80_r63                  
+		low_time_limit  : 120
+		high_time_limit : 700
+		cargo_dimension : (4.0, 3.2, 12.1)
+		
+		cutscenes_intro[]: cutscene.ovs_i_tir2
+		cutscenes_intro_night[]: cutscene.ovs_i_tir2n
+}
+
+### FROM NICE CENTER TO MINES NEAR NICE 5
+oversize_offer_data : spec_offer.ovesize_34d {
+		route : route_data.nic_nic1
+		cargo : cargo.mystery_cyl                  
+		low_time_limit  : 120
+		high_time_limit : 700
+		cargo_dimension : (6.0, 1.3, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_myscn
+		cutscenes_intro_night[]: cutscene.ovs_i_myscnn
+}
+
+
+###############
+### PROMODS ###
+###############
+
+### FROM HIORTHHAMN MS STEIN TO GRUMANTBYEN MS STEIN 1
+oversize_offer_data : spec_offer.ovesize_100 {
+		route : route_data.hior_grum1
+		cargo : cargo.mystery_cyl
+		low_time_limit  : 30
+		high_time_limit : 960
+		cargo_dimension : (6.0, 1.3, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_mysc3
+		cutscenes_intro_night[]: cutscene.ovs_i_mysc3n
+}
+### FROM HIORTHHAMN MS STEIN TO GRUMANTBYEN MS STEIN 2
+oversize_offer_data : spec_offer.ovesize_100a {
+		route : route_data.hior_grum1
+		cargo : cargo.mystery_box
+		low_time_limit  : 30
+		high_time_limit : 960
+		cargo_dimension : (6.0, 5.0, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_mysb3
+		cutscenes_intro_night[]: cutscene.ovs_i_mysb3n
+}
+### FROM HIORTHHAMN MS STEIN TO GRUMANTBYEN MS STEIN 3
+oversize_offer_data : spec_offer.ovesize_100b {
+		route : route_data.hior_grum1
+		cargo : cargo.cat_785c
+		low_time_limit  : 30
+		high_time_limit : 960
+		cargo_dimension : (6.0, 4.1, 8.3)
+		
+		cutscenes_intro[]: cutscene.ovs_i_catm
+		cutscenes_intro_night[]: cutscene.ovs_i_catmn
+}
+### FROM HIORTHHAMN MS STEIN TO GRUMANTBYEN MS STEIN 4
+oversize_offer_data : spec_offer.ovesize_100c {
+		route : route_data.hior_grum1
+		cargo : cargo.m_59_80_r63
+		low_time_limit  : 30
+		high_time_limit : 960
+		cargo_dimension : (4.0, 3.2, 12.1)
+		
+		cutscenes_intro[]: cutscene.ovs_i_tir3
+		cutscenes_intro_night[]: cutscene.ovs_i_tir3n
+}
+### FROM HIORTHHAMN MS STEIN TO GRUMANTBYEN MS STEIN 5
+oversize_offer_data : spec_offer.ovesize_100d {
+		route : route_data.hior_grum1
+		cargo : cargo.ex_bucket
+		low_time_limit  : 30
+		high_time_limit : 960
+		cargo_dimension : (4.9, 2.9, 3.5)
+		
+		cutscenes_intro[]: cutscene.ovs_i_ex3
+		cutscenes_intro_night[]: cutscene.ovs_i_ex3n
+}
+### FROM HIORTHHAMN MS STEIN TO GRUMANTBYEN MS STEIN 6
+oversize_offer_data : spec_offer.ovesize_100e {
+		route : route_data.hior_grum1
+		cargo : cargo.lattice
+		low_time_limit  : 30
+		high_time_limit : 960
+		cargo_dimension : (5.6, 4.7, 20.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_lat2
+		cutscenes_intro_night[]: cutscene.ovs_i_lat2n
+}
+}

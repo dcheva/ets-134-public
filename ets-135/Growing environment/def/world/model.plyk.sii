@@ -1,0 +1,187 @@
+SiiNunit
+{
+
+model_def : model.plyk_441 {
+	model_desc: "/model/landmark/linkoping_planes_viggen.pmd"
+	distance_type: 1
+	category: "dlc_north"
+}	
+model_def : model.plyk02dvw {
+	model_desc: "/model/building/denmark/vejle_wave.pmd"
+	distance_type: 3
+	category: "denmark/vejle"
+}
+
+# -- Billboards
+
+
+model_def : model.plyk02blt {
+	model_desc: "/model/billboard/lt/billboard_1.pmd"
+	distance_type: 3
+	category: "billboards/lt"
+}
+
+# -- Company logos
+
+model_def : model.plyk03sdk	 {
+
+	model_desc: "/model/sign/company_logos/daugbjerg/entrance_sign.pmd"
+	distance_type: 1
+	category: "company logos"
+}
+
+
+model_def : model.plyk06prm {
+	model_desc: "/model/sign/company_logos/prisma/building_sign.pmd"
+	distance_type: 3
+	category: "company logos/prisma"
+}
+
+# -- WIP
+#model_def : model.plyk07prm {
+#	model_desc: "/model/sign/company_logos/prisma/universal_entrance_sign.pmd"
+#	distance_type: 3
+#	category: "company logos/prisma"
+#}
+
+model_def : model.plyk08wls {
+	model_desc: "/model/sign/company_logos/willys/building_sign.pmd"
+	distance_type: 1
+	category: "company logos/willys"
+}
+
+model_def : model.plyk09bt {
+	model_desc: "/prefab/biltema/biltema_pole.pmd"
+	distance_type: 3
+	category: "company logos/biltema"
+}
+
+model_def : model.ass15bl {
+	model_desc: "/model/sign/company_logos/bilka/bilka_3d_logo.pmd"
+	distance_type: 3
+	category: "company logos/bilka"
+}
+
+model_def : model.ass16bl {
+	model_desc: "/model/sign/company_logos/bilka/entrance_sign.pmd"
+	distance_type: 3
+	category: "company logos/bilka"
+}
+
+model_def : model.plyk13li {
+	model_desc: "/model/sign/company_logos/lidl/entrance_sign.pmd"
+	distance_type: 3
+	category: "company logos/lidl"
+}
+
+# -- Andorra
+
+model_def : model.plyk05ta	 {
+
+	model_desc: "/model/border/and_e_1/customs_and_es_border_booth.pmd"
+	distance_type: 1
+	category: "promods/border/andorra"
+}
+
+model_def : model.plyk06ta	 {
+
+	model_desc: "/model/border/and_e_1/customs_and_es_border_roof.pmd"
+	distance_type: 1
+	category: "promods/border/andorra"
+}
+
+model_def : model.plyk07vm	 {
+
+	model_desc: "/model/finland/vaasa/marketplace.pmd"
+	distance_type: 1
+	category: "finland/vaasa"
+}
+
+model_def : model.plyk08kd	 {
+
+	model_desc: "/model/denmark/karup/draken.pmd"
+	distance_type: 1
+	category: "denmark/karup"
+}
+
+# Hermann Castle
+
+model_def : model.plyk10hc	 {
+	model_desc: "/model/estonia/narva/hc_yard.pmd"
+	distance_type: 3
+	category: "estonia/narva"
+}
+
+model_def : model.plyk11hc	 {
+	model_desc: "/model/estonia/narva/hc_west_wall.pmd"
+	distance_type: 3
+	category: "estonia/narva"
+}
+
+model_def : model.plyk12hc	 {
+	model_desc: "/model/estonia/narva/hc_south_wall.pmd"
+	distance_type: 3
+	category: "estonia/narva"
+}
+
+model_def : model.plyk13hc	 {
+	model_desc: "/model/estonia/narva/hc_north_wall.pmd"
+	distance_type: 3
+	category: "estonia/narva"
+}
+
+model_def : model.plyk14hc	 {
+	model_desc: "/model/estonia/narva/hc_main_castle.pmd"
+	distance_type: 3
+	category: "estonia/narva"
+}
+
+model_def : model.toft00	 {
+
+	model_desc: "/model/sign/company_logos/biltema/entrance_sign.pmd"
+	distance_type: 1
+	category: "company logos/biltema"
+}
+
+model_def : model.toft01	 {
+
+	model_desc: "/model/road/yield_rumble_marking.pmd"
+	distance_type: 1
+	category: "roadprint"
+}
+
+model_def : model.toft02	 {
+
+	model_desc: "/model/gas_station/gas_sc.pmd"
+	distance_type: 1
+	category: "gas station"
+}
+
+model_def : model.toft03	 {
+
+	model_desc: "/model/sign/company_logos/ok/ok1.pmd"
+	distance_type: 1
+	category: "company logos"
+}
+
+model_def : model.toft04	 {
+
+	model_desc: "/model2/building/shop/shop_facade.pmd"
+	distance_type: 1
+	category: "shop"
+}
+
+model_def : model.plyk20bes {
+	model_desc: "/model/billboard/es/billboard_hw_01.pmd"
+	distance_type: 3
+	category: "billboards/es"
+}
+
+model_def : model.plyk21rb {
+	model_desc: "/model/barrier/concrete/roadblock2.pmd"
+	distance_type: 2
+	category: "road/block/es"	
+}
+
+
+}

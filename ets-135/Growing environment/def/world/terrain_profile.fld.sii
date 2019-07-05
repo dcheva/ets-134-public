@@ -1,0 +1,1133 @@
+SiiNunit
+{
+# by FLD / TZ express map
+terrain_profile : terrain.profile0fld {
+	name: "d down 1"
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	-0.2
+	step[]: 	1
+
+	height[]: 	-0.5
+	step[]: 	1
+
+	height[]: 	-0.8
+	step[]: 	3
+
+	height[]: 	-1.8
+	step[]: 	6
+
+	height[]: 	-4.3
+	step[]: 	6
+
+	height[]: 	-7
+	step[]: 	10
+
+	height[]: 	-12
+	step[]: 	10
+
+	height[]: 	-17
+	step[]: 	10
+
+	height[]: 	-23
+	step[]: 	20
+
+	height[]: 	-27
+	step[]: 	40
+
+	height[]: 	-30
+	step[]: 	50
+
+	height[]: 	-35
+	step[]: 	50
+
+	height[]: 	-40
+	step[]: 	50
+
+	height[]: 	-45
+	step[]: 	100
+
+	height[]: 	-50
+	step[]: 	100
+}
+
+terrain_profile : terrain.profile1fld {
+	name: "u up 3 scarp"
+
+	height[]: 	-0.3
+	step[]: 	1
+
+	height[]: 	-2
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	0.7
+	step[]: 	3
+
+	height[]: 	2
+	step[]: 	6
+
+	height[]: 	6
+	step[]: 	6
+
+	height[]: 	10
+	step[]: 	10
+
+	height[]: 	15
+	step[]: 	10
+
+	height[]: 	20
+	step[]: 	10
+
+	height[]: 	25
+	step[]: 	20
+
+	height[]: 	30
+	step[]: 	40
+
+	height[]: 	40
+	step[]: 	50
+
+	height[]: 	50
+	step[]: 	50
+
+	height[]: 	60
+	step[]: 	50
+
+	height[]: 	70
+	step[]: 	100
+
+	height[]: 	80
+	step[]: 	100
+}
+
+terrain_profile : terrain.profile2fld {
+	name: "p plain scarp"
+
+	height[]: 	-0.3
+	step[]: 	1
+
+	height[]: 	-2
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	3
+
+	height[]: 	0
+	step[]: 	6
+
+	height[]: 	0
+	step[]: 	6
+
+	height[]: 	0
+	step[]: 	10
+
+	height[]: 	0
+	step[]: 	10
+
+	height[]: 	0
+	step[]: 	10
+
+	height[]: 	0
+	step[]: 	20
+
+	height[]: 	0
+	step[]: 	40
+
+	height[]: 	0
+	step[]: 	50
+
+	height[]: 	0
+	step[]: 	50
+
+	height[]: 	0
+	step[]: 	50
+
+	height[]: 	0
+	step[]: 	100
+
+	height[]: 	0
+	step[]: 	100
+}
+
+terrain_profile : terrain.profile3fld {
+	name: "u up 1 scarp"
+
+	height[]: 	-0.3
+	step[]: 	1
+
+	height[]: 	-2
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	3
+	step[]: 	3
+
+	height[]: 	5.5
+	step[]: 	6
+
+	height[]: 	10
+	step[]: 	6
+
+	height[]: 	14
+	step[]: 	10
+
+	height[]: 	20
+	step[]: 	10
+
+	height[]: 	25
+	step[]: 	10
+
+	height[]: 	30
+	step[]: 	20
+
+	height[]: 	35
+	step[]: 	40
+
+	height[]: 	45
+	step[]: 	50
+
+	height[]: 	60
+	step[]: 	50
+
+	height[]: 	70
+	step[]: 	50
+
+	height[]: 	80
+	step[]: 	100
+
+	height[]: 	90
+	step[]: 	100
+}
+
+terrain_profile : terrain.profile4fld {
+	name: "u up 1"
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	0.3
+	step[]: 	1
+
+	height[]: 	1
+	step[]: 	1
+
+	height[]: 	3
+	step[]: 	3
+
+	height[]: 	5.5
+	step[]: 	6
+
+	height[]: 	10
+	step[]: 	6
+
+	height[]: 	14
+	step[]: 	10
+
+	height[]: 	20
+	step[]: 	10
+
+	height[]: 	25
+	step[]: 	10
+
+	height[]: 	30
+	step[]: 	20
+
+	height[]: 	35
+	step[]: 	40
+
+	height[]: 	45
+	step[]: 	50
+
+	height[]: 	60
+	step[]: 	50
+
+	height[]: 	70
+	step[]: 	50
+
+	height[]: 	80
+	step[]: 	100
+
+	height[]: 	90
+	step[]: 	100
+}
+
+terrain_profile : terrain.profile5fld {
+	name: "d down up 1 scarp"
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	-0.2
+	step[]: 	1
+
+	height[]: 	-0.5
+	step[]: 	1
+
+	height[]: 	-0.7
+	step[]: 	3
+
+	height[]: 	-0.6
+	step[]: 	6
+
+	height[]: 	0
+	step[]: 	6
+
+	height[]: 	2
+	step[]: 	10
+
+	height[]: 	8
+	step[]: 	10
+
+	height[]: 	14
+	step[]: 	10
+
+	height[]: 	13
+	step[]: 	20
+
+	height[]: 	20
+	step[]: 	40
+
+	height[]: 	35
+	step[]: 	50
+
+	height[]: 	32
+	step[]: 	50
+
+	height[]: 	40
+	step[]: 	50
+
+	height[]: 	48
+	step[]: 	100
+
+	height[]: 	45
+	step[]: 	100
+}
+
+terrain_profile : terrain.profile6fld {
+	name: "u up 2"
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	1
+	step[]: 	1
+
+	height[]: 	3
+	step[]: 	3
+
+	height[]: 	4.2
+	step[]: 	6
+
+	height[]: 	8
+	step[]: 	6
+
+	height[]: 	8
+	step[]: 	10
+
+	height[]: 	8
+	step[]: 	10
+
+	height[]: 	8
+	step[]: 	10
+
+	height[]: 	8
+	step[]: 	20
+
+	height[]: 	8
+	step[]: 	40
+
+	height[]: 	8
+	step[]: 	50
+
+	height[]: 	8
+	step[]: 	50
+
+	height[]: 	8
+	step[]: 	50
+
+	height[]: 	8
+	step[]: 	100
+
+	height[]: 	8
+	step[]: 	100
+}
+terrain_profile : terrain.profile7fld {
+	name: "u up 3"
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	0.2
+	step[]: 	1
+
+	height[]: 	0.7
+	step[]: 	3
+
+	height[]: 	2
+	step[]: 	6
+
+	height[]: 	6
+	step[]: 	6
+
+	height[]: 	10
+	step[]: 	10
+
+	height[]: 	15
+	step[]: 	10
+
+	height[]: 	20
+	step[]: 	10
+
+	height[]: 	25
+	step[]: 	20
+
+	height[]: 	30
+	step[]: 	40
+
+	height[]: 	40
+	step[]: 	50
+
+	height[]: 	50
+	step[]: 	50
+
+	height[]: 	60
+	step[]: 	50
+
+	height[]: 	70
+	step[]: 	100
+
+	height[]: 	80
+	step[]: 	100
+}
+
+terrain_profile : terrain.profile8fld {
+	name: "d down 1 scarp"
+
+	height[]: 	-0.3
+	step[]: 	1
+
+	height[]: 	-2
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	-0.8
+	step[]: 	3
+
+	height[]: 	-1.8
+	step[]: 	6
+
+	height[]: 	-4.3
+	step[]: 	6
+
+	height[]: 	-7
+	step[]: 	10
+
+	height[]: 	-12
+	step[]: 	10
+
+	height[]: 	-17
+	step[]: 	10
+
+	height[]: 	-23
+	step[]: 	20
+
+	height[]: 	-27
+	step[]: 	40
+
+	height[]: 	-30
+	step[]: 	50
+
+	height[]: 	-35
+	step[]: 	50
+
+	height[]: 	-40
+	step[]: 	50
+
+	height[]: 	-45
+	step[]: 	100
+
+	height[]: 	-50
+	step[]: 	100
+}
+terrain_profile : terrain.profile9fld {
+	name: "d down 4"
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	-0.2
+	step[]: 	1
+
+	height[]: 	-0.5
+	step[]: 	3
+
+	height[]: 	-0.7
+	step[]: 	6
+
+	height[]: 	-1
+	step[]: 	6
+
+	height[]: 	-2
+	step[]: 	10
+
+	height[]: 	-5
+	step[]: 	10
+
+	height[]: 	-10
+	step[]: 	10
+
+	height[]: 	-12
+	step[]: 	20
+
+	height[]: 	-13
+	step[]: 	40
+
+	height[]: 	-8
+	step[]: 	50
+
+	height[]: 	2
+	step[]: 	50
+
+	height[]: 	8
+	step[]: 	50
+
+	height[]: 	15
+	step[]: 	100
+
+	height[]: 	20
+	step[]: 	100
+}
+terrain_profile : terrain.profile10fld {
+	name: "d down 2 scarp"
+
+	height[]: 	-0.3
+	step[]: 	1
+
+	height[]: 	-2
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	-1
+	step[]: 	3
+
+	height[]: 	-2
+	step[]: 	6
+
+	height[]: 	-2.5
+	step[]: 	6
+
+	height[]: 	-4
+	step[]: 	10
+
+	height[]: 	-6
+	step[]: 	10
+
+	height[]: 	-10
+	step[]: 	10
+
+	height[]: 	-15
+	step[]: 	20
+
+	height[]: 	-20
+	step[]: 	40
+
+	height[]: 	-28
+	step[]: 	50
+
+	height[]: 	-38
+	step[]: 	50
+
+	height[]: 	-50
+	step[]: 	50
+
+	height[]: 	-70
+	step[]: 	100
+
+	height[]: 	-100
+	step[]: 	100
+}
+terrain_profile : terrain.profile11fld {
+	name: "d down 2"
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	-0.1
+	step[]: 	1
+
+	height[]: 	-0.3
+	step[]: 	1
+
+	height[]: 	-1
+	step[]: 	3
+
+	height[]: 	-2
+	step[]: 	6
+
+	height[]: 	-2.5
+	step[]: 	6
+
+	height[]: 	-4
+	step[]: 	10
+
+	height[]: 	-6
+	step[]: 	10
+
+	height[]: 	-10
+	step[]: 	10
+
+	height[]: 	-15
+	step[]: 	20
+
+	height[]: 	-20
+	step[]: 	40
+
+	height[]: 	-28
+	step[]: 	50
+
+	height[]: 	-38
+	step[]: 	50
+
+	height[]: 	-50
+	step[]: 	50
+
+	height[]: 	-70
+	step[]: 	100
+
+	height[]: 	-100
+	step[]: 	100
+}
+terrain_profile : terrain.profile12fld {
+	name: "d down up 1"
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	-0.1
+	step[]: 	1
+
+	height[]: 	-0.7
+	step[]: 	3
+
+	height[]: 	-1.4
+	step[]: 	6
+
+	height[]: 	-2.3
+	step[]: 	6
+
+	height[]: 	-1.6
+	step[]: 	10
+
+	height[]: 	1.1
+	step[]: 	10
+
+	height[]: 	7
+	step[]: 	10
+
+	height[]: 	9.5
+	step[]: 	20
+
+	height[]: 	10
+	step[]: 	40
+
+	height[]: 	17
+	step[]: 	50
+
+	height[]: 	38
+	step[]: 	50
+
+	height[]: 	48
+	step[]: 	50
+
+	height[]: 	46
+	step[]: 	100
+
+	height[]: 	32
+	step[]: 	100
+}
+terrain_profile : terrain.profile13fld {
+	name: "d down 3 scarp"
+
+	height[]: 	-0.3
+	step[]: 	1
+
+	height[]: 	-2
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	-0.3
+	step[]: 	3
+
+	height[]: 	0
+	step[]: 	6
+
+	height[]: 	0
+	step[]: 	6
+
+	height[]: 	-0.3
+	step[]: 	10
+
+	height[]: 	0
+	step[]: 	10
+
+	height[]: 	0
+	step[]: 	10
+
+	height[]: 	-2
+	step[]: 	20
+
+	height[]: 	-7
+	step[]: 	40
+
+	height[]: 	-20
+	step[]: 	50
+
+	height[]: 	-35
+	step[]: 	50
+
+	height[]: 	-52
+	step[]: 	50
+
+	height[]: 	-60
+	step[]: 	100
+
+	height[]: 	-68
+	step[]: 	100
+}
+terrain_profile : terrain.profile14fld {
+	name: "u up 2 scarp"
+
+	height[]: 	-0.3
+	step[]: 	1
+
+	height[]: 	-2
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	3
+	step[]: 	3
+
+	height[]: 	4.2
+	step[]: 	6
+
+	height[]: 	8
+	step[]: 	6
+
+	height[]: 	8
+	step[]: 	10
+
+	height[]: 	8
+	step[]: 	10
+
+	height[]: 	8
+	step[]: 	10
+
+	height[]: 	8
+	step[]: 	20
+
+	height[]: 	8
+	step[]: 	40
+
+	height[]: 	8
+	step[]: 	50
+
+	height[]: 	8
+	step[]: 	50
+
+	height[]: 	8
+	step[]: 	50
+
+	height[]: 	8
+	step[]: 	100
+
+	height[]: 	8
+	step[]: 	100
+}
+terrain_profile : terrain.profile15fld {
+	name: "d down 3"
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	-0.3
+	step[]: 	1
+
+	height[]: 	-0.3
+	step[]: 	3
+
+	height[]: 	0
+	step[]: 	6
+
+	height[]: 	0
+	step[]: 	6
+
+	height[]: 	-0.3
+	step[]: 	10
+
+	height[]: 	0
+	step[]: 	10
+
+	height[]: 	0
+	step[]: 	10
+
+	height[]: 	-2
+	step[]: 	20
+
+	height[]: 	-7
+	step[]: 	40
+
+	height[]: 	-20
+	step[]: 	50
+
+	height[]: 	-35
+	step[]: 	50
+
+	height[]: 	-52
+	step[]: 	50
+
+	height[]: 	-60
+	step[]: 	100
+
+	height[]: 	-68
+	step[]: 	100
+}
+terrain_profile : terrain.profile16fld {
+	name: "d down 4 scarp"
+
+	height[]: 	-0.3
+	step[]: 	1
+
+	height[]: 	-2
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	-0.5
+	step[]: 	3
+
+	height[]: 	-0.7
+	step[]: 	6
+
+	height[]: 	-1
+	step[]: 	6
+
+	height[]: 	-2
+	step[]: 	10
+
+	height[]: 	-5
+	step[]: 	10
+
+	height[]: 	-10
+	step[]: 	10
+
+	height[]: 	-12
+	step[]: 	20
+
+	height[]: 	-13
+	step[]: 	40
+
+	height[]: 	-8
+	step[]: 	50
+
+	height[]: 	2
+	step[]: 	50
+
+	height[]: 	8
+	step[]: 	50
+
+	height[]: 	15
+	step[]: 	100
+
+	height[]: 	20
+	step[]: 	100
+}
+terrain_profile : terrain.profile17fld {
+	name: "x hill high"
+
+	height[]: 	0
+	step[]: 	12
+
+	height[]: 	14
+	step[]: 	12
+
+	height[]: 	25
+	step[]: 	12
+
+	height[]: 	30
+	step[]: 	12
+
+	height[]: 	35
+	step[]: 	12
+
+	height[]: 	36
+	step[]: 	12
+
+	height[]: 	35
+	step[]: 	12
+
+	height[]: 	30
+	step[]: 	12
+
+	height[]: 	25
+	step[]: 	12
+
+	height[]: 	14
+	step[]: 	12
+
+	height[]: 	0
+	step[]: 	12
+
+	height[]: 	0
+	step[]: 	12
+
+	height[]: 	0
+	step[]: 	12
+
+	height[]: 	0
+	step[]: 	12
+
+	height[]: 	0
+	step[]: 	12
+
+	height[]: 	0
+	step[]: 	12
+}
+terrain_profile : terrain.profile18fld {
+	name: "x hill medium"
+
+	height[]: 	0
+	step[]: 	7
+
+	height[]: 	7
+	step[]: 	7
+
+	height[]: 	12
+	step[]: 	7
+
+	height[]: 	15
+	step[]: 	7
+
+	height[]: 	17
+	step[]: 	7
+
+	height[]: 	18
+	step[]: 	7
+
+	height[]: 	17
+	step[]: 	7
+
+	height[]: 	15
+	step[]: 	7
+
+	height[]: 	12
+	step[]: 	7
+
+	height[]: 	7
+	step[]: 	7
+
+	height[]: 	0
+	step[]: 	7
+
+	height[]: 	0
+	step[]: 	7
+
+	height[]: 	0
+	step[]: 	7
+
+	height[]: 	0
+	step[]: 	7
+
+	height[]: 	0
+	step[]: 	7
+
+	height[]: 	0
+	step[]: 	7
+}
+terrain_profile : terrain.profile19fld {
+	name: "x hill small"
+
+	height[]: 	0
+	step[]: 	4
+
+	height[]: 	4
+	step[]: 	4
+
+	height[]: 	9
+	step[]: 	4
+
+	height[]: 	12
+	step[]: 	4
+
+	height[]: 	14
+	step[]: 	4
+
+	height[]: 	15
+	step[]: 	4
+
+	height[]: 	14
+	step[]: 	4
+
+	height[]: 	12
+	step[]: 	4
+
+	height[]: 	9
+	step[]: 	4
+
+	height[]: 	5
+	step[]: 	4
+
+	height[]: 	0
+	step[]: 	4
+
+	height[]: 	0
+	step[]: 	4
+
+	height[]: 	0
+	step[]: 	4
+
+	height[]: 	0
+	step[]: 	4
+
+	height[]: 	0
+	step[]: 	4
+
+	height[]: 	0
+	step[]: 	4
+}
+terrain_profile : terrain.profile20fld {
+	name: "x hill bridge"
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	1
+	step[]: 	1
+
+	height[]: 	0
+	step[]: 	1
+
+	height[]: 	-1
+	step[]: 	3
+
+	height[]: 	-4
+	step[]: 	6
+
+	height[]: 	-9
+	step[]: 	6
+
+	height[]: 	-12
+	step[]: 	10
+
+	height[]: 	-15
+	step[]: 	10
+
+	height[]: 	-18
+	step[]: 	10
+
+	height[]: 	-21
+	step[]: 	20
+
+	height[]: 	-24
+	step[]: 	40
+
+	height[]: 	0
+	step[]: 	50
+
+	height[]: 	0
+	step[]: 	50
+
+	height[]: 	0
+	step[]: 	50
+
+	height[]: 	0
+	step[]: 	100
+
+	height[]: 	0
+	step[]: 	100
+}
+terrain_profile : terrain.profile21fld {
+	name: "x hill mini"
+
+	height[]: 	0
+	step[]: 	2
+
+	height[]: 	2
+	step[]: 	2
+
+	height[]: 	4
+	step[]: 	2
+
+	height[]: 	6
+	step[]: 	2
+
+	height[]: 	7
+	step[]: 	2
+
+	height[]: 	8
+	step[]: 	2
+
+	height[]: 	7
+	step[]: 	2
+
+	height[]: 	6
+	step[]: 	2
+
+	height[]: 	4
+	step[]: 	2
+
+	height[]: 	2
+	step[]: 	2
+
+	height[]: 	0
+	step[]: 	2
+
+	height[]: 	0
+	step[]: 	2
+
+	height[]: 	0
+	step[]: 	2
+
+	height[]: 	0
+	step[]: 	2
+
+	height[]: 	0
+	step[]: 	2
+
+	height[]: 	0
+	step[]: 	2
+}
+}

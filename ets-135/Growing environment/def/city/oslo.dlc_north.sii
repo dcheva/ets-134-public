@@ -1,0 +1,144 @@
+city_data: city.oslo
+{
+	city_name: "Oslo"
+	city_name_localized: "@@oslo@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -21
+	map_x_offsets[]: -20
+	map_x_offsets[]: -19
+	map_x_offsets[]: -20
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -66
+	map_y_offsets[]: -52
+	map_y_offsets[]: -29
+	map_y_offsets[]: -28
+
+	vehicle_brands[]:"renault"
+
+	ai_lp_template[]:"0 12222"
+
+	ai_lp_def0[]:"DA"
+	ai_lp_def0[]:"DB"
+	ai_lp_def0[]:"DC"
+	ai_lp_def0[]:"DD"
+	ai_lp_def0[]:"DE"
+	ai_lp_def0[]:"DF"
+	ai_lp_def0[]:"DH"
+	ai_lp_def0[]:"DJ"
+	ai_lp_def0[]:"DK"
+	ai_lp_def0[]:"DL"
+	ai_lp_def0[]:"DN"
+	ai_lp_def0[]:"DP"
+	ai_lp_def0[]:"DR"
+	ai_lp_def0[]:"DS"
+	ai_lp_def0[]:"DT"
+	ai_lp_def0[]:"DU"
+	ai_lp_def0[]:"DV"
+	ai_lp_def0[]:"DX"
+	ai_lp_def0[]:"DY"
+	ai_lp_def0[]:"DZ"
+	ai_lp_def0[]:"EA"
+	ai_lp_def0[]:"EB"
+	ai_lp_def0[]:"EC"
+	ai_lp_def0[]:"ED"
+	ai_lp_def0[]:"EE"
+	ai_lp_def0[]:"EF"
+	ai_lp_def0[]:"EH"
+	ai_lp_def0[]:"EJ"
+	ai_lp_def0[]:"EK"
+	ai_lp_def0[]:"EN"
+	ai_lp_def0[]:"EP"
+	ai_lp_def0[]:"ER"
+	ai_lp_def0[]:"ES"
+	ai_lp_def0[]:"ET"
+	ai_lp_def0[]:"EU"
+
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+
+	ai_lp_def2[]:"0"
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+
+	truck_lp_template[]:"0 12222"
+
+	truck_lp_def0[]:"DA"
+	truck_lp_def0[]:"DB"
+	truck_lp_def0[]:"DC"
+	truck_lp_def0[]:"DD"
+	truck_lp_def0[]:"DE"
+	truck_lp_def0[]:"DF"
+	truck_lp_def0[]:"DH"
+	truck_lp_def0[]:"DJ"
+	truck_lp_def0[]:"DK"
+	truck_lp_def0[]:"DL"
+	truck_lp_def0[]:"DN"
+	truck_lp_def0[]:"DP"
+	truck_lp_def0[]:"DR"
+	truck_lp_def0[]:"DS"
+	truck_lp_def0[]:"DT"
+	truck_lp_def0[]:"DU"
+	truck_lp_def0[]:"DV"
+	truck_lp_def0[]:"DX"
+	truck_lp_def0[]:"DY"
+	truck_lp_def0[]:"DZ"
+	truck_lp_def0[]:"EA"
+	truck_lp_def0[]:"EB"
+	truck_lp_def0[]:"EC"
+	truck_lp_def0[]:"ED"
+	truck_lp_def0[]:"EE"
+	truck_lp_def0[]:"EF"
+	truck_lp_def0[]:"EH"
+	truck_lp_def0[]:"EJ"
+	truck_lp_def0[]:"EK"
+	truck_lp_def0[]:"EN"
+	truck_lp_def0[]:"EP"
+	truck_lp_def0[]:"ER"
+	truck_lp_def0[]:"ES"
+	truck_lp_def0[]:"ET"
+	truck_lp_def0[]:"EU"
+
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"0"
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+}

@@ -1,0 +1,102 @@
+SiiNunit
+{
+
+########################
+######## FRANCE ########
+########################
+
+prefab_model : prefab.1cpaz_01 {
+	model_desc: "/prefab/tollgate/fr_toll_hw1_oneway.pmd"
+	prefab_desc: "/prefab/tollgate/fr_toll_hw1_oneway.ppd"
+}
+
+########################
+########## UK ##########
+########################
+
+prefab_model : prefab.ldpaz_01 {
+	model_desc:  "/prefab/uk/r1_x_r1_n_round_uk.pmd"
+	prefab_desc: "/prefab/uk/r1_x_r1_n_round_uk.ppd"
+	category: "ProMods UK"
+}
+
+prefab_model : prefab.ldpaz_02 {
+	model_desc:  "/prefab/uk/r1_x_r1_n_round_narrow_uk.pmd"
+	prefab_desc: "/prefab/uk/r1_x_r1_n_round_narrow_uk.ppd"
+	category: "ProMods UK"
+}
+
+prefab_model : prefab.ldpaz_03 {
+	model_desc:  "/prefab/uk/r1_x_r1_r2_n_round_narrow_uk.pmd"
+	prefab_desc: "/prefab/uk/r1_x_r1_r2_n_round_narrow_uk.ppd"
+	category: "ProMods UK"
+}
+
+prefab_model : prefab.ldpaz_04 {
+	model_desc: "/prefab/roundabout/3_2y_oneway.pmd"
+	prefab_desc: "/prefab/roundabout_uk/3_2y_oneway.ppd"
+	category: "roundabout_uk TZ map"
+}
+
+prefab_model : prefab.ldpaz_05 {
+	model_desc: "/prefab/roundabout_uk/3_2y_oneway_mirror.pmd"
+	prefab_desc: "/prefab/roundabout_uk/3_2y_oneway_mirror.ppd"
+	category: "roundabout_uk TZ map"
+}
+
+prefab_model : prefab.ldpaz_06 {
+	model_desc: "/prefab/uk/r1_x_r1_t_n_round_narrow_uk.pmd"
+	prefab_desc: "/prefab/uk/r1_x_r1_t_n_round_narrow_uk.ppd"
+	category: "ProMods UK"
+}
+
+prefab_model : prefab.ldpaz_07 {
+	model_desc: "/prefab/uk/r1_x_r1_t_round_uk.pmd"
+	prefab_desc: "/prefab/uk/r1_x_r1_t_round_uk.ppd"
+	category: "ProMods UK"
+}
+
+prefab_model : prefab.ldpaz_08 {
+	model_desc: "/prefab/uk/r1_x_r1_y_n_round_narrow_uk.pmd"
+	prefab_desc: "/prefab/uk/r1_x_r1_y_n_round_narrow_uk.ppd"
+	category: "ProMods UK"
+}
+
+prefab_model : prefab.ldpaz_09 {
+	model_desc:  "/prefab/roundabout/4_1y_oneway.pmd"
+	prefab_desc: "/prefab/roundabout_uk/4_1y_oneway.ppd"
+	category: "roundabout_uk TZ Map"
+}
+
+prefab_model : prefab.ldpaz_10 {
+	model_desc:  "/prefab/roundabout/4_1y_oneway_mirror.pmd"
+	prefab_desc: "/prefab/roundabout_uk/4_1y_oneway_mirror.ppd"
+	category: "roundabout_uk TZ Map"
+}
+
+prefab_model : prefab.ldpaz_11 {
+	model_desc:  "/prefab/cross/r1xr1_lt_uk.pmd"
+	prefab_desc: "/prefab/cross/r1xr1_lt_uk.ppd"
+	category: "ProMods UK"
+}
+
+prefab_model : prefab.ldpaz_12 {
+	model_desc:  "/prefab/cross/tran_2x_rl2-2p1.pmd"
+	prefab_desc: "/prefab/cross/tran_2x_rl2-2p1.ppd"
+	category: "ProMods UK"
+}
+
+prefab_model : prefab.ldpaz_13 {
+	model_desc:  "/prefab/cross/r2rxr1_uk.pmd"
+	prefab_desc: "/prefab/cross/r2rxr1_uk.ppd"
+	category: "ProMods UK"
+}
+
+prefab_model : prefab.ldpaz_14 {
+	model_desc:  "/prefab/cross/tran_r2_r2r_uk.pmd"
+	prefab_desc: "/prefab/cross/tran_r2_r2r_uk.ppd"
+	category: "ProMods UK"
+}
+
+
+}

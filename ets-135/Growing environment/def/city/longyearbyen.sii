@@ -1,0 +1,94 @@
+city_data: city.longyearbyen
+{
+	city_name: "Longyearbyen"
+	city_name_localized: "@@longyearbyen@@"
+	country: svalbard
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"daf"
+
+	ai_lp_template[]:"01 23333"
+
+	ai_lp_def0[]:"<color value=FF28B4E6>"
+
+	ai_lp_def1[]:"ZC"
+	ai_lp_def1[]:"ZE"
+	ai_lp_def1[]:"ZH"
+	ai_lp_def1[]:"ZK"
+	ai_lp_def1[]:"ZL"
+	ai_lp_def1[]:"ZN"
+	ai_lp_def1[]:"FL"
+	ai_lp_def1[]:"FC"
+
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+
+	ai_lp_def3[]:"0"
+	ai_lp_def3[]:"1"
+	ai_lp_def3[]:"2"
+	ai_lp_def3[]:"3"
+	ai_lp_def3[]:"4"
+	ai_lp_def3[]:"5"
+	ai_lp_def3[]:"6"
+	ai_lp_def3[]:"7"
+	ai_lp_def3[]:"8"
+	ai_lp_def3[]:"9"
+
+	truck_lp_template[]:"01 23333"
+
+	truck_lp_def0[]:"<color value=FF28B4E6>"
+
+	truck_lp_def1[]:"ZC"
+	truck_lp_def1[]:"ZE"
+	truck_lp_def1[]:"ZH"
+	truck_lp_def1[]:"ZK"
+	truck_lp_def1[]:"ZL"
+	truck_lp_def1[]:"ZN"
+	truck_lp_def1[]:"FL"
+	truck_lp_def1[]:"FC"
+
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+	truck_lp_def3[]:"0"
+	truck_lp_def3[]:"1"
+	truck_lp_def3[]:"2"
+	truck_lp_def3[]:"3"
+	truck_lp_def3[]:"4"
+	truck_lp_def3[]:"5"
+	truck_lp_def3[]:"6"
+	truck_lp_def3[]:"7"
+	truck_lp_def3[]:"8"
+	truck_lp_def3[]:"9"
+}

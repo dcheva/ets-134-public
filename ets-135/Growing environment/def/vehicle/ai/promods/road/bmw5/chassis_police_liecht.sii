@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis.bmw5.police.liecht
+{
+	model: "/vehicle/ai/promods/road/bmw5/ai_police.pmd"
+	lods[]: "/vehicle/ai/promods/road/bmw5/lod_police.pmd"	
+	lods[]: "/vehicle/ai/promods/road/bmw5/lod2_police.pmd"	
+	collision: "/vehicle/ai/promods/road/bmw5/ai_police.pmc"
+
+	shadow_texture: "/vehicle/ai/share/shadow_occlusion.tobj"
+	shadow_intensity: 1.2
+
+	variant: liecht
+	
+	look: liecht
+}
+}

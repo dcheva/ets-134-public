@@ -1,0 +1,1944 @@
+SiiNunit
+{
+sign_model : sign.company001a {
+
+	sign_name: "logo Ahorra Mas universal"
+
+	model_desc: "/model2/sign/company_logos/ahorramas/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ahorramas/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company001b {
+
+	sign_name: "logo Ahorra Mas entrance"
+
+	model_desc: "/model2/sign/company_logos/ahorramas/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ahorramas/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company001c {
+
+	sign_name: "logo Ahorra Mas entrance universal"
+
+	model_desc: "/model2/sign/company_logos/ahorramas/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ahorramas/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company001d {
+
+	sign_name: "logo Ahorra Mas building sign"
+
+	model_desc: "/model2/sign/company_logos/ahorramas/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ahorramas/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company001e {
+
+	sign_name: "logo Ahorra Mas arrow left"
+
+	model_desc: "/model2/sign/company_logos/ahorramas/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ahorramas/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company001f {
+
+	sign_name: "logo Ahorra Mas arrow right"
+
+	model_desc: "/model2/sign/company_logos/ahorramas/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ahorramas/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company001g {
+
+	sign_name: "logo Ahorra Mas arrow up"
+
+	model_desc: "/model2/sign/company_logos/ahorramas/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ahorramas/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.company002a {
+
+	sign_name: "logo Boliden universal"
+
+	model_desc: "/model2/sign/company_logos/boliden/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/boliden/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company002b {
+
+	sign_name: "logo Boliden entrance"
+
+	model_desc: "/model2/sign/company_logos/boliden/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/boliden/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company002c {
+
+	sign_name: "logo Boliden entrance universal"
+
+	model_desc: "/model2/sign/company_logos/boliden/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/boliden/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company002d {
+
+	sign_name: "logo Boliden building sign"
+
+	model_desc: "/model2/sign/company_logos/boliden/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/boliden/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company002e {
+
+	sign_name: "logo Boliden arrow left"
+
+	model_desc: "/model2/sign/company_logos/boliden/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/boliden/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company002f {
+
+	sign_name: "logo Boliden arrow right"
+
+	model_desc: "/model2/sign/company_logos/boliden/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/boliden/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company002g {
+
+	sign_name: "logo Boliden arrow up"
+
+	model_desc: "/model2/sign/company_logos/boliden/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/boliden/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.company003a {
+
+	sign_name: "logo Cemex universal"
+
+	model_desc: "/model2/sign/company_logos/cemex/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/cemex/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company003b {
+
+	sign_name: "logo Cemex entrance"
+
+	model_desc: "/model2/sign/company_logos/cemex/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/cemex/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company003c {
+
+	sign_name: "logo Cemex entrance universal"
+
+	model_desc: "/model2/sign/company_logos/cemex/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/cemex/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company003d {
+
+	sign_name: "logo Cemex building sign"
+
+	model_desc: "/model2/sign/company_logos/cemex/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/cemex/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company003e {
+
+	sign_name: "logo Cemex arrow left"
+
+	model_desc: "/model2/sign/company_logos/cemex/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/cemex/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company003f {
+
+	sign_name: "logo Cemex arrow right"
+
+	model_desc: "/model2/sign/company_logos/cemex/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/cemex/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company003g {
+
+	sign_name: "logo Cemex arrow up"
+
+	model_desc: "/model2/sign/company_logos/cemex/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/cemex/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.company004a {
+
+	sign_name: "logo Dia universal"
+
+	model_desc: "/model2/sign/company_logos/dia/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/dia/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company004b {
+
+	sign_name: "logo Dia entrance"
+
+	model_desc: "/model2/sign/company_logos/dia/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/dia/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company004c {
+
+	sign_name: "logo Dia entrance universal"
+
+	model_desc: "/model2/sign/company_logos/dia/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/dia/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company004d {
+
+	sign_name: "logo Dia building sign"
+
+	model_desc: "/model2/sign/company_logos/dia/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/dia/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company004e {
+
+	sign_name: "logo Dia arrow left"
+
+	model_desc: "/model2/sign/company_logos/dia/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/dia/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company004f {
+
+	sign_name: "logo Dia arrow right"
+
+	model_desc: "/model2/sign/company_logos/dia/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/dia/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company004g {
+
+	sign_name: "logo Dia arrow up"
+
+	model_desc: "/model2/sign/company_logos/dia/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/dia/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.company005a {
+
+	sign_name: "logo Eroski universal"
+
+	model_desc: "/model2/sign/company_logos/eroski/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/eroski/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company005b {
+
+	sign_name: "logo Eroski entrance"
+
+	model_desc: "/model2/sign/company_logos/eroski/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/eroski/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company005c {
+
+	sign_name: "logo Eroski entrance universal"
+
+	model_desc: "/model2/sign/company_logos/eroski/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/eroski/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company005d {
+
+	sign_name: "logo Eroski building sign"
+
+	model_desc: "/model2/sign/company_logos/eroski/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/eroski/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company005e {
+
+	sign_name: "logo Eroski arrow left"
+
+	model_desc: "/model2/sign/company_logos/eroski/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/eroski/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company005f {
+
+	sign_name: "logo Eroski arrow right"
+
+	model_desc: "/model2/sign/company_logos/eroski/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/eroski/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company005g {
+
+	sign_name: "logo Eroski arrow up"
+
+	model_desc: "/model2/sign/company_logos/eroski/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/eroski/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.company006a {
+
+	sign_name: "logo FCC universal"
+
+	model_desc: "/model2/sign/company_logos/fcc/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/fcc/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company006b {
+
+	sign_name: "logo FCC entrance"
+
+	model_desc: "/model2/sign/company_logos/fcc/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/fcc/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company006c {
+
+	sign_name: "logo FCC entrance universal"
+
+	model_desc: "/model2/sign/company_logos/fcc/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/fcc/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company006d {
+
+	sign_name: "logo FCC building sign"
+
+	model_desc: "/model2/sign/company_logos/fcc/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/fcc/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company006e {
+
+	sign_name: "logo FCC arrow left"
+
+	model_desc: "/model2/sign/company_logos/fcc/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/fcc/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company006f {
+
+	sign_name: "logo FCC arrow right"
+
+	model_desc: "/model2/sign/company_logos/fcc/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/fcc/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company006g {
+
+	sign_name: "logo FCC arrow up"
+
+	model_desc: "/model2/sign/company_logos/fcc/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/fcc/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company007a {
+
+	sign_name: "logo Mercadona universal"
+
+	model_desc: "/model2/sign/company_logos/mercadona/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/mercadona/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company007b {
+
+	sign_name: "logo Mercadona entrance"
+
+	model_desc: "/model2/sign/company_logos/mercadona/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/mercadona/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company007c {
+
+	sign_name: "logo Mercadona entrance universal"
+
+	model_desc: "/model2/sign/company_logos/mercadona/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/mercadona/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company007d {
+
+	sign_name: "logo Mercadona building sign"
+
+	model_desc: "/model2/sign/company_logos/mercadona/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/mercadona/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company007e {
+
+	sign_name: "logo Mercadona arrow left"
+
+	model_desc: "/model2/sign/company_logos/mercadona/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/mercadona/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company007f {
+
+	sign_name: "logo Mercadona arrow right"
+
+	model_desc: "/model2/sign/company_logos/mercadona/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/mercadona/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company007g {
+
+	sign_name: "logo Mercadona arrow up"
+
+	model_desc: "/model2/sign/company_logos/mercadona/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/mercadona/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company008a {
+
+	sign_name: "logo Billa universal"
+
+	model_desc: "/model2/sign/company_logos/billa/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/billa/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company008b {
+
+	sign_name: "logo Billa entrance"
+
+	model_desc: "/model2/sign/company_logos/billa/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/billa/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company008c {
+
+	sign_name: "logo Billa entrance universal"
+
+	model_desc: "/model2/sign/company_logos/billa/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/billa/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company008d {
+
+	sign_name: "logo Billa building sign"
+
+	model_desc: "/model2/sign/company_logos/billa/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/billa/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company008e {
+
+	sign_name: "logo Billa arrow left"
+
+	model_desc: "/model2/sign/company_logos/billa/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/billa/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company008f {
+
+	sign_name: "logo Billa arrow right"
+
+	model_desc: "/model2/sign/company_logos/billa/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/billa/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company008g {
+
+	sign_name: "logo Billa arrow up"
+
+	model_desc: "/model2/sign/company_logos/billa/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/billa/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company009a {
+
+	sign_name: "logo Rimi universal"
+
+	model_desc: "/model2/sign/company_logos/rimi/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/rimi/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company009b {
+
+	sign_name: "logo Rimi entrance"
+
+	model_desc: "/model2/sign/company_logos/rimi/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/rimi/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company009c {
+
+	sign_name: "logo Rimi entrance universal"
+
+	model_desc: "/model2/sign/company_logos/rimi/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/rimi/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company009d {
+
+	sign_name: "logo Rimi building sign"
+
+	model_desc: "/model2/sign/company_logos/rimi/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/rimi/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company009e {
+
+	sign_name: "logo Rimi arrow left"
+
+	model_desc: "/model2/sign/company_logos/rimi/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/rimi/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company009f {
+
+	sign_name: "logo Rimi arrow right"
+
+	model_desc: "/model2/sign/company_logos/rimi/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/rimi/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company009g {
+
+	sign_name: "logo Rimi arrow up"
+
+	model_desc: "/model2/sign/company_logos/rimi/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/rimi/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company010a {
+
+	sign_name: "logo Maxima universal"
+
+	model_desc: "/model2/sign/company_logos/maxima/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/maxima/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company010b {
+
+	sign_name: "logo Maxima entrance"
+
+	model_desc: "/model2/sign/company_logos/maxima/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/maxima/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company010c {
+
+	sign_name: "logo Maxima entrance universal"
+
+	model_desc: "/model2/sign/company_logos/maxima/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/maxima/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company010d {
+
+	sign_name: "logo Maxima building sign"
+
+	model_desc: "/model2/sign/company_logos/maxima/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/maxima/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company010e {
+
+	sign_name: "logo Maxima arrow left"
+
+	model_desc: "/model2/sign/company_logos/maxima/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/maxima/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company010f {
+
+	sign_name: "logo Maxima arrow right"
+
+	model_desc: "/model2/sign/company_logos/maxima/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/maxima/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company010g {
+
+	sign_name: "logo Maxima arrow up"
+
+	model_desc: "/model2/sign/company_logos/maxima/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/maxima/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company011a {
+
+	sign_name: "logo Supernetto universal"
+
+	model_desc: "/model2/sign/company_logos/supernetto/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/supernetto/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company011b {
+
+	sign_name: "logo Supernetto entrance"
+
+	model_desc: "/model2/sign/company_logos/supernetto/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/supernetto/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company011c {
+
+	sign_name: "logo Supernetto entrance universal"
+
+	model_desc: "/model2/sign/company_logos/supernetto/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/supernetto/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company011d {
+
+	sign_name: "logo Supernetto building sign"
+
+	model_desc: "/model2/sign/company_logos/supernetto/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/supernetto/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company011e {
+
+	sign_name: "logo Supernetto arrow left"
+
+	model_desc: "/model2/sign/company_logos/supernetto/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/supernetto/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company011f {
+
+	sign_name: "logo Supernetto arrow right"
+
+	model_desc: "/model2/sign/company_logos/supernetto/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/supernetto/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company011g {
+
+	sign_name: "logo Supernetto arrow up"
+
+	model_desc: "/model2/sign/company_logos/supernetto/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/supernetto/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company012a {
+
+	sign_name: "logo Jadranska Trgovina universal"
+
+	model_desc: "/model2/sign/company_logos/jadranska/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/jadranska/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company012b {
+
+	sign_name: "logo Jadranska Trgovina entrance"
+
+	model_desc: "/model2/sign/company_logos/jadranska/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/jadranska/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company012c {
+
+	sign_name: "logo Jadranska Trgovina entrance universal"
+
+	model_desc: "/model2/sign/company_logos/jadranska/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/jadranska/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company012d {
+
+	sign_name: "logo Jadranska Trgovina building sign"
+
+	model_desc: "/model2/sign/company_logos/jadranska/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/jadranska/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company012e {
+
+	sign_name: "logo Jadranska Trgovina arrow left"
+
+	model_desc: "/model2/sign/company_logos/jadranska/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/jadranska/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company012f {
+
+	sign_name: "logo Jadranska Trgovina arrow right"
+
+	model_desc: "/model2/sign/company_logos/jadranska/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/jadranska/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company012g {
+
+	sign_name: "logo Jadranska Trgovina arrow up"
+
+	model_desc: "/model2/sign/company_logos/jadranska/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/jadranska/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.company013a {
+
+	sign_name: "logo Konzum universal"
+
+	model_desc: "/model2/sign/company_logos/konzum/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/konzum/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company013b {
+
+	sign_name: "logo Konzum entrance"
+
+	model_desc: "/model2/sign/company_logos/konzum/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/konzum/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company013c {
+
+	sign_name: "logo Konzum entrance universal"
+
+	model_desc: "/model2/sign/company_logos/konzum/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/konzum/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company013d {
+
+	sign_name: "logo Konzum building sign"
+
+	model_desc: "/model2/sign/company_logos/konzum/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/konzum/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company013e {
+
+	sign_name: "logo Konzum arrow left"
+
+	model_desc: "/model2/sign/company_logos/konzum/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/konzum/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company013f {
+
+	sign_name: "logo Konzum arrow right"
+
+	model_desc: "/model2/sign/company_logos/konzum/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/konzum/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company013g {
+
+	sign_name: "logo Konzum arrow up"
+
+	model_desc: "/model2/sign/company_logos/konzum/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/konzum/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.company014a {
+
+	sign_name: "logo Air Lacquide universal"
+
+	model_desc: "/model2/sign/company_logos/lacquide/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/lacquide/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company014b {
+
+	sign_name: "logo Air Lacquide entrance"
+
+	model_desc: "/model2/sign/company_logos/lacquide/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/lacquide/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company014c {
+
+	sign_name: "logo Air Lacquide entrance universal"
+
+	model_desc: "/model2/sign/company_logos/lacquide/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/lacquide/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company014d {
+
+	sign_name: "logo Air Lacquide building sign"
+
+	model_desc: "/model2/sign/company_logos/lacquide/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/lacquide/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company014e {
+
+	sign_name: "logo Air Lacquide arrow left"
+
+	model_desc: "/model2/sign/company_logos/lacquide/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/lacquide/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company014f {
+
+	sign_name: "logo Air Lacquide arrow right"
+
+	model_desc: "/model2/sign/company_logos/lacquide/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/lacquide/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company014g {
+
+	sign_name: "logo Air Lacquide arrow up"
+
+	model_desc: "/model2/sign/company_logos/lacquide/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/lacquide/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company015a {
+
+	sign_name: "logo Kuehne Nagel universal"
+
+	model_desc: "/model2/sign/company_logos/kuehne_nagel/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/kuehne_nagel/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company015b {
+
+	sign_name: "logo Kuehne Nagel entrance"
+
+	model_desc: "/model2/sign/company_logos/kuehne_nagel/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/kuehne_nagel/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company015c {
+
+	sign_name: "logo Kuehne Nagel entrance universal"
+
+	model_desc: "/model2/sign/company_logos/kuehne_nagel/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/kuehne_nagel/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company015d {
+
+	sign_name: "logo Kuehne Nagel building sign"
+
+	model_desc: "/model2/sign/company_logos/kuehne_nagel/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/kuehne_nagel/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company015e {
+
+	sign_name: "logo Kuehne Nagel arrow left"
+
+	model_desc: "/model2/sign/company_logos/kuehne_nagel/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/kuehne_nagel/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company015f {
+
+	sign_name: "logo Kuehne Nagel arrow right"
+
+	model_desc: "/model2/sign/company_logos/kuehne_nagel/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/kuehne_nagel/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company015g {
+
+	sign_name: "logo Kuehne Nagel arrow up"
+
+	model_desc: "/model2/sign/company_logos/kuehne_nagel/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/kuehne_nagel/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company016a {
+
+	sign_name: "logo SNB universal"
+
+	model_desc: "/model2/sign/company_logos/snb/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/snb/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company016b {
+
+	sign_name: "logo SNB entrance"
+
+	model_desc: "/model2/sign/company_logos/snb/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/snb/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company016c {
+
+	sign_name: "logo SNB entrance universal"
+
+	model_desc: "/model2/sign/company_logos/snb/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/snb/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company016d {
+
+	sign_name: "logo SNB building sign"
+
+	model_desc: "/model2/sign/company_logos/snb/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/snb/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company016e {
+
+	sign_name: "logo SNB arrow left"
+
+	model_desc: "/model2/sign/company_logos/snb/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/snb/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company016f {
+
+	sign_name: "logo SNB arrow right"
+
+	model_desc: "/model2/sign/company_logos/snb/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/snb/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company016g {
+
+	sign_name: "logo SNB arrow up"
+
+	model_desc: "/model2/sign/company_logos/snb/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/snb/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company017a {
+
+	sign_name: "logo Shell universal"
+
+	model_desc: "/model2/sign/company_logos/shell/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/shell/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company017b {
+
+	sign_name: "logo Shell entrance"
+
+	model_desc: "/model2/sign/company_logos/shell/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/shell/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company017c {
+
+	sign_name: "logo Shell entrance universal"
+
+	model_desc: "/model2/sign/company_logos/shell/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/shell/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company017d {
+
+	sign_name: "logo Shell building sign"
+
+	model_desc: "/model2/sign/company_logos/shell/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/shell/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company017e {
+
+	sign_name: "logo Shell arrow left"
+
+	model_desc: "/model2/sign/company_logos/shell/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/shell/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company017f {
+
+	sign_name: "logo Shell arrow right"
+
+	model_desc: "/model2/sign/company_logos/shell/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/shell/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company017g {
+
+	sign_name: "logo Shell arrow up"
+
+	model_desc: "/model2/sign/company_logos/shell/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/shell/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.company018a {
+
+	sign_name: "logo INA universal"
+
+	model_desc: "/model2/sign/company_logos/ina/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ina/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company018b {
+
+	sign_name: "logo INA entrance"
+
+	model_desc: "/model2/sign/company_logos/ina/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ina/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company018c {
+
+	sign_name: "logo INA entrance universal"
+
+	model_desc: "/model2/sign/company_logos/ina/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ina/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company018d {
+
+	sign_name: "logo INA building sign"
+
+	model_desc: "/model2/sign/company_logos/ina/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ina/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company018e {
+
+	sign_name: "logo INA arrow left"
+
+	model_desc: "/model2/sign/company_logos/ina/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ina/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company018f {
+
+	sign_name: "logo INA arrow right"
+
+	model_desc: "/model2/sign/company_logos/ina/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ina/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company018g {
+
+	sign_name: "logo INA arrow up"
+
+	model_desc: "/model2/sign/company_logos/ina/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/ina/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.company018h {
+
+	sign_name: "logo INA pole"
+
+	model_desc: "/model2/sign/company_logos/ina/pole.pmd"
+	model_coll: "/model2/sign/company_logos/ina/pole.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company019a {
+
+	sign_name: "logo MOL gas logo"
+
+	model_desc: "/model2/sign/company_logos/mol/gas_logo_small_cz.pmd"
+	model_coll: "/model2/sign/company_logos/mol/gas_logo_small_cz.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company019b {
+
+	sign_name: "logo MOL entrance"
+
+	model_desc: "/model2/sign/company_logos/mol/entrance_sign_cz.pmd"
+	model_coll: "/model2/sign/company_logos/mol/entrance_sign_cz.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company019c {
+
+	sign_name: "logo MOL gas price cz"
+
+	model_desc: "/model2/sign/company_logos/mol/gas_big_price_01_cz.pmd"
+	model_coll: "/model2/sign/company_logos/mol/gas_big_price_01_cz.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company019d {
+
+	sign_name: "logo MOL building sign"
+
+	model_desc: "/model2/sign/company_logos/mol/building_sign_cz.pmd"
+	model_coll: "/model2/sign/company_logos/mol/building_sign_cz.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company020a {
+
+	sign_name: "logo Flex universal"
+
+	model_desc: "/model2/sign/company_logos/flex/universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/flex/universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company020b {
+
+	sign_name: "logo Flex entrance"
+
+	model_desc: "/model2/sign/company_logos/flex/entrance_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/flex/entrance_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company020c {
+
+	sign_name: "logo Flex entrance universal"
+
+	model_desc: "/model2/sign/company_logos/flex/entrance_universal_sc.pmd"
+	model_coll: "/model2/sign/company_logos/flex/entrance_universal_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company020d {
+
+	sign_name: "logo Flex building sign"
+
+	model_desc: "/model2/sign/company_logos/flex/building_sign_sc.pmd"
+	model_coll: "/model2/sign/company_logos/flex/building_sign_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company020e {
+
+	sign_name: "logo Flex arrow left"
+
+	model_desc: "/model2/sign/company_logos/flex/arrow_left_sc.pmd"
+	model_coll: "/model2/sign/company_logos/flex/arrow_left_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company020f {
+
+	sign_name: "logo Flex arrow right"
+
+	model_desc: "/model2/sign/company_logos/flex/arrow_right_sc.pmd"
+	model_coll: "/model2/sign/company_logos/flex/arrow_right_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.company020g {
+
+	sign_name: "logo Flex arrow up"
+
+	model_desc: "/model2/sign/company_logos/flex/arrow_up_sc.pmd"
+	model_coll: "/model2/sign/company_logos/flex/arrow_up_sc.pmc"
+	look_name: default
+	category: "company logos"
+	mass: 100
+
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+}

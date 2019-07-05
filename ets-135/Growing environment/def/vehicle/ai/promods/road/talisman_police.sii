@@ -1,0 +1,40 @@
+traffic_vehicle : traffic.talisman.police
+{
+	accessories[]: .talisman.police.chassis
+	accessories[]: .talisman.police.fwheel
+	accessories[]: .talisman.police.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	spawn_ratio: 0
+	
+	color[]: (0.0908, 0.0003, 0.0003)
+	color[]: (0.0578, 0.0578, 0.0595)
+	color[]: (0.0047, 0.0137, 0.0648)
+	color[]: (0.0409, 0.0318, 0.0221)
+	color[]: (0.4232, 0.4232, 0.4232)
+	color[]: (0.2746, 0.2746, 0.2788)
+
+	vehicle_mass: 2000
+@include "/def/vehicle/ai/drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .talisman.police.chassis
+{
+	data_path: "/def/vehicle/ai/promods/road/talisman/chassis_police.sii"
+}
+
+vehicle_wheel_accessory: .talisman.police.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_l.sii"
+}
+
+vehicle_wheel_accessory: .talisman.police.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_l.sii"
+}

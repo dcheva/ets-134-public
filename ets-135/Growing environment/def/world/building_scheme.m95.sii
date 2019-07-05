@@ -1,0 +1,44 @@
+SiiNunit
+{
+building_scheme : bld_scheme.it1 {
+	name: "IT crash barrier 3l"
+	models[]: bld_model.it1
+	category: "IT crash barriers"
+}
+building_scheme : bld_scheme.it2 {
+	name: "IT crash barrier A22 new"
+	models[]: bld_model.it2
+	category: "IT crash barriers"
+}
+building_scheme : bld_scheme.it3 {
+	name: "IT crash barrier 3l high"
+	models[]: bld_model.it3
+	category: "IT crash barriers"
+}
+building_scheme : bld_scheme.de1 {
+	name: "DE New crash barrier Germany"
+	models[]: bld_model.de1
+	category: "DE crash barriers"
+}
+building_scheme : bld_scheme.de2 {
+	name: "DE - Crash barrier high extention"
+	models[]: bld_model.de2
+	category: "DE crash barriers"
+}
+building_scheme : bld_scheme.nl1 {
+	name: "Dam Oosterschelde var1"
+	models[]: bld_model.nl1
+	category: "NL - Oosterscheldedam"
+}
+
+building_scheme : bld_scheme.nl2{
+	name: "Dam Oosterschelde var2"
+	models[]: bld_model.nl2
+	category: "NL - Oosterscheldedam"
+}
+building_scheme : bld_scheme.nl3{
+	name: "Rail catenary Betuwelijn"
+	models[]: bld_model.nl3
+	category: "rail"
+}
+}

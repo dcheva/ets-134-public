@@ -1,0 +1,323 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+road_look : road.tppm_ct2a5t {
+	name: 			"DE city2 - 5m median TRAM"
+	template_left:		"/road_template/pro/city/city2_pro_tram_de.pmd"
+	template_right:		"/road_template/pro/city/city2_pro_tram_de.pmd"
+
+	road_offset: 1.18
+	
+	lane_offsets_left[]:   (-0.99, 0.0)
+	lane_offsets_left[]:   (-0.69, 0.0)
+	lane_offsets_left[]:   (-0.69, 0.0)
+	lane_offsets_right[]:  (-0.99, 0.0)
+	lane_offsets_right[]:   (-0.69, 0.0)
+	lane_offsets_right[]:   (-0.69, 0.0)
+	
+
+	lanes_left[]:       traffic_lane.rail.tram
+	lanes_left[]:		traffic_lane.road.local
+	lanes_left[]:		traffic_lane.road.local
+
+	lanes_right[]:      traffic_lane.rail.tram
+	lanes_right[]:		traffic_lane.road.local
+	lanes_right[]:		traffic_lane.road.local
+	
+	compatible_edges_left[]: shldr_1m
+	compatible_edges_left[]: retro4m_00
+	compatible_edges_left[]: retro4m_01
+	compatible_edges_left[]: retro4m_02
+	compatible_edges_left[]: retro4m_03
+	compatible_edges_left[]: retro4m_04
+	compatible_edges_left[]: retro4m_05
+	compatible_edges_left[]: retro4m_06
+	compatible_edges_left[]: retro4m_07
+	compatible_edges_left[]: retro4m_08
+	compatible_edges_left[]: retro4m_09
+	compatible_edges_left[]: retro4m_10
+	compatible_edges_left[]: retro4m_11
+	compatible_edges_left[]: retro4m_12
+	compatible_edges_left[]: retro4m_13
+	compatible_edges_left[]: retro4m_14
+	compatible_edges_left[]: retro4m_15
+	compatible_edges_left[]: retro4m_16
+	compatible_edges_left[]: retro4m_17
+	compatible_edges_left[]: retro4m_18
+	compatible_edges_left[]: retro4m_19
+	compatible_edges_left[]: retro4m_20
+	compatible_edges_left[]: retro4m_21
+	compatible_edges_left[]: retro4m_22
+	compatible_edges_left[]: retro4m_23
+	compatible_edges_left[]: retro4m_24
+	compatible_edges_left[]: retro4m_25
+	compatible_edges_left[]: retro4m_26
+	compatible_edges_left[]: retro4m_27
+	compatible_edges_left[]: retro4m_28
+	compatible_edges_left[]: retro8m_00
+	compatible_edges_left[]: retro8m_01
+	compatible_edges_left[]: retro8m_02
+	compatible_edges_left[]: retro8m_03
+	compatible_edges_left[]: retro8m_04
+	compatible_edges_left[]: retro8m_05
+	compatible_edges_left[]: retro8m_06
+	compatible_edges_left[]: retro8m_07
+	compatible_edges_left[]: retro8m_08
+	compatible_edges_left[]: retro8m_09
+	compatible_edges_left[]: retro8m_10
+	compatible_edges_left[]: retro8m_11
+	compatible_edges_left[]: retro8m_12
+	compatible_edges_left[]: retro8m_13
+	compatible_edges_left[]: retro8m_14
+	compatible_edges_left[]: retro8m_15
+	compatible_edges_left[]: retro8m_16
+	compatible_edges_left[]: retro8m_17
+	compatible_edges_left[]: retro8m_18
+	compatible_edges_left[]: retro8m_19
+	compatible_edges_left[]: retro8m_20
+	compatible_edges_left[]: retro8m_21
+	compatible_edges_left[]: retro8m_22
+	compatible_edges_left[]: retro8m_23
+	compatible_edges_left[]: retro8m_24
+	compatible_edges_left[]: retro8m_25
+	compatible_edges_left[]: retro8m_26
+	compatible_edges_left[]: retro8m_27
+	compatible_edges_left[]: retro8m_28	
+	compatible_edges_left[]: fr_tram_sh
+	compatible_edges_right[]: fr_tram_sh
+	compatible_edges_right[]: shldr_1m
+	compatible_edges_right[]: retro4m_00
+	compatible_edges_right[]: retro4m_01
+	compatible_edges_right[]: retro4m_02
+	compatible_edges_right[]: retro4m_03
+	compatible_edges_right[]: retro4m_04
+	compatible_edges_right[]: retro4m_05
+	compatible_edges_right[]: retro4m_06
+	compatible_edges_right[]: retro4m_07
+	compatible_edges_right[]: retro4m_08
+	compatible_edges_right[]: retro4m_09
+	compatible_edges_right[]: retro4m_10
+	compatible_edges_right[]: retro4m_11
+	compatible_edges_right[]: retro4m_12
+	compatible_edges_right[]: retro4m_13
+	compatible_edges_right[]: retro4m_14
+	compatible_edges_right[]: retro4m_15
+	compatible_edges_right[]: retro4m_16
+	compatible_edges_right[]: retro4m_17
+	compatible_edges_right[]: retro4m_18
+	compatible_edges_right[]: retro4m_19
+	compatible_edges_right[]: retro4m_20
+	compatible_edges_right[]: retro4m_21
+	compatible_edges_right[]: retro4m_22
+	compatible_edges_right[]: retro4m_23
+	compatible_edges_right[]: retro4m_24
+	compatible_edges_right[]: retro4m_25
+	compatible_edges_right[]: retro4m_26
+	compatible_edges_right[]: retro4m_27
+	compatible_edges_right[]: retro4m_28
+	compatible_edges_right[]: retro8m_00
+	compatible_edges_right[]: retro8m_01
+	compatible_edges_right[]: retro8m_02
+	compatible_edges_right[]: retro8m_03
+	compatible_edges_right[]: retro8m_04
+	compatible_edges_right[]: retro8m_05
+	compatible_edges_right[]: retro8m_06
+	compatible_edges_right[]: retro8m_07
+	compatible_edges_right[]: retro8m_08
+	compatible_edges_right[]: retro8m_09
+	compatible_edges_right[]: retro8m_10
+	compatible_edges_right[]: retro8m_11
+	compatible_edges_right[]: retro8m_12
+	compatible_edges_right[]: retro8m_13
+	compatible_edges_right[]: retro8m_14
+	compatible_edges_right[]: retro8m_15
+	compatible_edges_right[]: retro8m_16
+	compatible_edges_right[]: retro8m_17
+	compatible_edges_right[]: retro8m_18
+	compatible_edges_right[]: retro8m_19
+	compatible_edges_right[]: retro8m_20
+	compatible_edges_right[]: retro8m_21
+	compatible_edges_right[]: retro8m_22
+	compatible_edges_right[]: retro8m_23
+	compatible_edges_right[]: retro8m_24
+	compatible_edges_right[]: retro8m_25
+	compatible_edges_right[]: retro8m_26
+	compatible_edges_right[]: retro8m_27
+	compatible_edges_right[]: retro8m_28
+}
+
+road_look : road.tppm_tr1m {
+	name: 			"TRAM 1m median"
+	template_left:		"/road_template/pro/tram/tram_tracks.pmd"
+	template_right:		"/road_template/pro/tram/tram_tracks.pmd"
+
+	road_offset: 1.18
+	
+	lane_offsets_left[]:   (-0.99, 0.0)
+	lane_offsets_right[]:  (-0.99, 0.0)
+
+
+	lanes_left[]:       traffic_lane.rail.tram
+
+
+	lanes_right[]:      traffic_lane.rail.tram
+
+	
+	
+	compatible_edges_left[]: fr_tram_sh
+	compatible_edges_right[]: fr_tram_sh
+
+}
+
+road_look : road.tppm_tr2m {
+	name: 			"TRAM one way"
+	template_right:		"/road_template/pro/tram/tram_tracks_ow.pmd"
+
+	lanes_right[]:      traffic_lane.rail.tram
+
+	compatible_edges_right[]: fr_tram_sh
+	
+	lane_offsets_right[]:  (2.25, 0.0)
+
+}
+
+road_look : road.tppm_ct2a1t {
+	name: 			"DE city2 - 1m median TRAM"
+	template_left:		"/road_template/pro/hw/hw2a_pro_de_tram_incl.pmd"
+	template_right:		"/road_template/pro/hw/hw2a_pro_de_tram_incl.pmd"
+
+	road_offset: 1
+
+	lanes_left[]:       traffic_lane.road.rail.tram
+	lanes_left[]:		traffic_lane.road.local
+
+	lanes_right[]:		traffic_lane.road.rail.tram
+	lanes_right[]:		traffic_lane.road.local
+	
+	compatible_edges_left[]: shldr_1m
+	compatible_edges_left[]: retro4m_00
+	compatible_edges_left[]: retro4m_01
+	compatible_edges_left[]: retro4m_02
+	compatible_edges_left[]: retro4m_03
+	compatible_edges_left[]: retro4m_04
+	compatible_edges_left[]: retro4m_05
+	compatible_edges_left[]: retro4m_06
+	compatible_edges_left[]: retro4m_07
+	compatible_edges_left[]: retro4m_08
+	compatible_edges_left[]: retro4m_09
+	compatible_edges_left[]: retro4m_10
+	compatible_edges_left[]: retro4m_11
+	compatible_edges_left[]: retro4m_12
+	compatible_edges_left[]: retro4m_13
+	compatible_edges_left[]: retro4m_14
+	compatible_edges_left[]: retro4m_15
+	compatible_edges_left[]: retro4m_16
+	compatible_edges_left[]: retro4m_17
+	compatible_edges_left[]: retro4m_18
+	compatible_edges_left[]: retro4m_19
+	compatible_edges_left[]: retro4m_20
+	compatible_edges_left[]: retro4m_21
+	compatible_edges_left[]: retro4m_22
+	compatible_edges_left[]: retro4m_23
+	compatible_edges_left[]: retro4m_24
+	compatible_edges_left[]: retro4m_25
+	compatible_edges_left[]: retro4m_26
+	compatible_edges_left[]: retro4m_27
+	compatible_edges_left[]: retro4m_28
+	compatible_edges_left[]: retro8m_00
+	compatible_edges_left[]: retro8m_01
+	compatible_edges_left[]: retro8m_02
+	compatible_edges_left[]: retro8m_03
+	compatible_edges_left[]: retro8m_04
+	compatible_edges_left[]: retro8m_05
+	compatible_edges_left[]: retro8m_06
+	compatible_edges_left[]: retro8m_07
+	compatible_edges_left[]: retro8m_08
+	compatible_edges_left[]: retro8m_09
+	compatible_edges_left[]: retro8m_10
+	compatible_edges_left[]: retro8m_11
+	compatible_edges_left[]: retro8m_12
+	compatible_edges_left[]: retro8m_13
+	compatible_edges_left[]: retro8m_14
+	compatible_edges_left[]: retro8m_15
+	compatible_edges_left[]: retro8m_16
+	compatible_edges_left[]: retro8m_17
+	compatible_edges_left[]: retro8m_18
+	compatible_edges_left[]: retro8m_19
+	compatible_edges_left[]: retro8m_20
+	compatible_edges_left[]: retro8m_21
+	compatible_edges_left[]: retro8m_22
+	compatible_edges_left[]: retro8m_23
+	compatible_edges_left[]: retro8m_24
+	compatible_edges_left[]: retro8m_25
+	compatible_edges_left[]: retro8m_26
+	compatible_edges_left[]: retro8m_27
+	compatible_edges_left[]: retro8m_28	
+	compatible_edges_right[]: shldr_1m
+	compatible_edges_right[]: retro4m_00
+	compatible_edges_right[]: retro4m_01
+	compatible_edges_right[]: retro4m_02
+	compatible_edges_right[]: retro4m_03
+	compatible_edges_right[]: retro4m_04
+	compatible_edges_right[]: retro4m_05
+	compatible_edges_right[]: retro4m_06
+	compatible_edges_right[]: retro4m_07
+	compatible_edges_right[]: retro4m_08
+	compatible_edges_right[]: retro4m_09
+	compatible_edges_right[]: retro4m_10
+	compatible_edges_right[]: retro4m_11
+	compatible_edges_right[]: retro4m_12
+	compatible_edges_right[]: retro4m_13
+	compatible_edges_right[]: retro4m_14
+	compatible_edges_right[]: retro4m_15
+	compatible_edges_right[]: retro4m_16
+	compatible_edges_right[]: retro4m_17
+	compatible_edges_right[]: retro4m_18
+	compatible_edges_right[]: retro4m_19
+	compatible_edges_right[]: retro4m_20
+	compatible_edges_right[]: retro4m_21
+	compatible_edges_right[]: retro4m_22
+	compatible_edges_right[]: retro4m_23
+	compatible_edges_right[]: retro4m_24
+	compatible_edges_right[]: retro4m_25
+	compatible_edges_right[]: retro4m_26
+	compatible_edges_right[]: retro4m_27
+	compatible_edges_right[]: retro4m_28
+	compatible_edges_right[]: retro8m_00
+	compatible_edges_right[]: retro8m_01
+	compatible_edges_right[]: retro8m_02
+	compatible_edges_right[]: retro8m_03
+	compatible_edges_right[]: retro8m_04
+	compatible_edges_right[]: retro8m_05
+	compatible_edges_right[]: retro8m_06
+	compatible_edges_right[]: retro8m_07
+	compatible_edges_right[]: retro8m_08
+	compatible_edges_right[]: retro8m_09
+	compatible_edges_right[]: retro8m_10
+	compatible_edges_right[]: retro8m_11
+	compatible_edges_right[]: retro8m_12
+	compatible_edges_right[]: retro8m_13
+	compatible_edges_right[]: retro8m_14
+	compatible_edges_right[]: retro8m_15
+	compatible_edges_right[]: retro8m_16
+	compatible_edges_right[]: retro8m_17
+	compatible_edges_right[]: retro8m_18
+	compatible_edges_right[]: retro8m_19
+	compatible_edges_right[]: retro8m_20
+	compatible_edges_right[]: retro8m_21
+	compatible_edges_right[]: retro8m_22
+	compatible_edges_right[]: retro8m_23
+	compatible_edges_right[]: retro8m_24
+	compatible_edges_right[]: retro8m_25
+	compatible_edges_right[]: retro8m_26
+	compatible_edges_right[]: retro8m_27
+	compatible_edges_right[]: retro8m_28
+}
+}

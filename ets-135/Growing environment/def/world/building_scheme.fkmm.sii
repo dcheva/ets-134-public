@@ -1,0 +1,37 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+
+building_scheme : bld_scheme.fkmm001 {
+	name: "railway_bridge_redstone"
+	models[]: bld_model.fkmm001
+}
+
+building_scheme : bld_scheme.fkmm002{
+	name: "black_white barrier"
+	models[]: bld_model.fkmm002
+}
+
+building_scheme : bld_scheme.fkmm003{
+	name: "green_white barrier"
+	models[]: bld_model.fkmm003
+}
+
+building_scheme : bld_scheme.fkmm004{
+	name: "concrete barrier bw"
+	models[]: bld_model.fkmm004
+}
+
+building_scheme : bld_scheme.fkmm005{
+	name: "concrete barrier gw"
+	models[]: bld_model.fkmm005
+}
+
+}

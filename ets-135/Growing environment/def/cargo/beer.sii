@@ -1,0 +1,12 @@
+cargo_data: cargo.beer
+{
+	name: "@@cargo_beer@@"
+	fragility: 0.6
+	group[]: containers
+	volume: 2.6
+	mass: 671.4
+	unit_reward_per_km: 0.624
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

@@ -1,0 +1,22 @@
+
+country_data: country.data.svalbard
+{
+	name: "Svalbard"
+	name_localized: "@@svalbard@@"
+	country_code: "N"
+	pos:(19400, 0, -181000)
+	fuel_price: 1.69
+	country_id: 254
+	lights_mandatory: true
+	driving_tired_offence: true
+		
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+
+	mass_limit_per_axle_count[]: 19000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 39000
+	mass_limit_per_axle_count[]: 47000	# 46t if 3+2 :(
+	mass_limit_per_axle_count[]: 50000	
+}
+

@@ -1,0 +1,106 @@
+﻿city_data: city.novisad
+{
+	city_name: "Нови Сад"
+	city_name_localized: "@@novisad@@"
+	country: serbia
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"man"
+
+	truck_lp_template[]:"01 222-33"
+
+	truck_lp_def0[]:"NS"
+
+	truck_lp_def1[]:"<offset hshift=1 vshift=-5><img src=/material/ui/lp/serbia/icon.mat color=FFFFFFFF><offset hshift=-18 vshift=5>"
+
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+	truck_lp_def2[]:"0"
+
+	truck_lp_def3[]:"A"
+	truck_lp_def3[]:"B"
+	truck_lp_def3[]:"C"
+	truck_lp_def3[]:"D"
+	truck_lp_def3[]:"E"
+	truck_lp_def3[]:"F"
+	truck_lp_def3[]:"G"
+	truck_lp_def3[]:"H"
+	truck_lp_def3[]:"J"
+	truck_lp_def3[]:"K"
+	truck_lp_def3[]:"L"
+	truck_lp_def3[]:"M"
+	truck_lp_def3[]:"N"
+	truck_lp_def3[]:"P"
+	truck_lp_def3[]:"Q"
+	truck_lp_def3[]:"R"
+	truck_lp_def3[]:"S"
+	truck_lp_def3[]:"T"
+	truck_lp_def3[]:"U"
+	truck_lp_def3[]:"V"
+	truck_lp_def3[]:"X"
+	truck_lp_def3[]:"Y"
+
+	ai_lp_template[]:"01 222-33"
+
+	ai_lp_def0[]:"NS"
+
+	ai_lp_def1[]:"<offset hshift=1 vshift=-5><img src=/material/ui/lp/serbia/icon.mat color=FFFFFFFF><offset hshift=-18 vshift=5>"
+
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+	ai_lp_def2[]:"0"
+
+	ai_lp_def3[]:"A"
+	ai_lp_def3[]:"B"
+	ai_lp_def3[]:"C"
+	ai_lp_def3[]:"D"
+	ai_lp_def3[]:"E"
+	ai_lp_def3[]:"F"
+	ai_lp_def3[]:"G"
+	ai_lp_def3[]:"H"
+	ai_lp_def3[]:"J"
+	ai_lp_def3[]:"K"
+	ai_lp_def3[]:"L"
+	ai_lp_def3[]:"M"
+	ai_lp_def3[]:"N"
+	ai_lp_def3[]:"P"
+	ai_lp_def3[]:"Q"
+	ai_lp_def3[]:"R"
+	ai_lp_def3[]:"S"
+	ai_lp_def3[]:"T"
+	ai_lp_def3[]:"U"
+	ai_lp_def3[]:"V"
+	ai_lp_def3[]:"X"
+	ai_lp_def3[]:"Y"
+}

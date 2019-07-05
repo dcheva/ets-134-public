@@ -1,0 +1,87 @@
+city_data: city.belfast
+{
+	city_name: "Belfast"
+	city_name_localized: "@@belfast@@"
+	country: nireland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"iveco"
+
+	truck_lp_template[]:"01 2333"
+
+	truck_lp_def0[]:"A"
+	truck_lp_def0[]:"B"
+	truck_lp_def0[]:"C"
+	truck_lp_def0[]:"D"
+	truck_lp_def0[]:"E"
+	truck_lp_def0[]:"F"
+	truck_lp_def0[]:"G"
+	truck_lp_def0[]:"H"
+	truck_lp_def0[]:"J"
+	truck_lp_def0[]:"K"
+	truck_lp_def0[]:"L"
+	truck_lp_def0[]:"M"
+	truck_lp_def0[]:"N"
+	truck_lp_def0[]:"O"
+	truck_lp_def0[]:"P"
+	truck_lp_def0[]:"R"
+	truck_lp_def0[]:"S"
+	truck_lp_def0[]:"T"
+	truck_lp_def0[]:"U"
+	truck_lp_def0[]:"V"
+	truck_lp_def0[]:"W"
+	truck_lp_def0[]:"X"
+	truck_lp_def0[]:"Y"
+
+	truck_lp_def1[]:"AZ"
+	truck_lp_def1[]:"CZ"
+	truck_lp_def1[]:"EZ"
+	truck_lp_def1[]:"FZ"
+	truck_lp_def1[]:"GZ"
+	truck_lp_def1[]:"MZ"
+	truck_lp_def1[]:"OI"
+	truck_lp_def1[]:"OZ"
+	truck_lp_def1[]:"PZ"
+	truck_lp_def1[]:"TZ"
+	truck_lp_def1[]:"UZ"
+	truck_lp_def1[]:"WZ"
+	truck_lp_def1[]:"XI"
+
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+	truck_lp_def3[]:"0"
+	truck_lp_def3[]:"1"
+	truck_lp_def3[]:"2"
+	truck_lp_def3[]:"3"
+	truck_lp_def3[]:"4"
+	truck_lp_def3[]:"5"
+	truck_lp_def3[]:"6"
+	truck_lp_def3[]:"7"
+	truck_lp_def3[]:"8"
+	truck_lp_def3[]:"9"
+}

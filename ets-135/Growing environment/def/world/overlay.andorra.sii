@@ -1,0 +1,18 @@
+SiiNunit
+{
+overlay_def : .overlay {
+
+	city_names[]: "ad_andbig1"
+	city_names[]: "ad_andbig2"
+	city_names[]: "ad_andorra"
+	city_names[]: "ad_centre_l"
+	city_names[]: "ad_centre_r"
+	city_names[]: "ad_escenc"
+	city_names[]: "ad_espanya_l"
+	city_names[]: "ad_espanya_r"
+	city_names[]: "ad_franca_l"
+	city_names[]: "ad_franca_r"
+	city_names[]: "ad_santa"
+}
+
+}

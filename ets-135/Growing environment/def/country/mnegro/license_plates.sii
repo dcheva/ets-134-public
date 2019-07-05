@@ -1,0 +1,82 @@
+﻿SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	templates[]:"0412333"
+
+	def0[]:"AN"
+	def0[]:"BA"
+	def0[]:"BD"
+	def0[]:"BP"
+	def0[]:"BR"
+	def0[]:"CT"
+	def0[]:"DG"
+	def0[]:"GS"
+	def0[]:"HN"
+	def0[]:"KL"
+	def0[]:"KO"
+	def0[]:"MK"
+	def0[]:"NK"
+	def0[]:"PG"
+	def0[]:"PL"
+	def0[]:"PT"
+	def0[]:"PZ"
+	def0[]:"PV"
+	def0[]:"RO"
+	def0[]:"SN"
+	def0[]:"TV"
+	def0[]:"UL"
+	def0[]:"ZB"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"Z"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+	def3[]:"0"
+
+	def4[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/mnegro/mne.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+
+}
+
+}

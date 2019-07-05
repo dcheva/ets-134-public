@@ -1,0 +1,175 @@
+﻿city_data: city.Gdynia
+{
+	city_name: "Gdynia"
+	city_name_localized: "@@gdynia@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	vehicle_brands[]:"volvo"
+
+	ai_lp_template[]:"GA 22221"
+	ai_lp_template[]:"GA 22233"
+	ai_lp_template[]:"GA 23222"
+	ai_lp_template[]:"GSP 3122"
+	ai_lp_template[]:"GSP 2232"
+	ai_lp_template[]:"GSP 0322"
+	ai_lp_template[]:"GSP 2230"
+	ai_lp_template[]:"GSP 0330"
+	ai_lp_template[]:"GSP 22221"
+	ai_lp_template[]:"GSP 22233"
+
+	ai_lp_def0[]:"1"
+	ai_lp_def0[]:"2"
+	ai_lp_def0[]:"3"
+	ai_lp_def0[]:"4"
+	ai_lp_def0[]:"5"
+	ai_lp_def0[]:"6"
+	ai_lp_def0[]:"7"
+	ai_lp_def0[]:"8"
+	ai_lp_def0[]:"9"
+
+	ai_lp_def1[]:"0"
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+	ai_lp_def1[]:"A"
+	ai_lp_def1[]:"C"
+	ai_lp_def1[]:"E"
+	ai_lp_def1[]:"F"
+	ai_lp_def1[]:"G"
+	ai_lp_def1[]:"H"
+	ai_lp_def1[]:"J"
+	ai_lp_def1[]:"K"
+	ai_lp_def1[]:"L"
+	ai_lp_def1[]:"M"
+	ai_lp_def1[]:"N"
+	ai_lp_def1[]:"P"
+	ai_lp_def1[]:"R"
+	ai_lp_def1[]:"S"
+	ai_lp_def1[]:"T"
+	ai_lp_def1[]:"U"
+	ai_lp_def1[]:"V"
+
+	ai_lp_def2[]:"0"
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+
+	ai_lp_def3[]:"A"
+	ai_lp_def3[]:"C"
+	ai_lp_def3[]:"E"
+	ai_lp_def3[]:"F"
+	ai_lp_def3[]:"G"
+	ai_lp_def3[]:"H"
+	ai_lp_def3[]:"J"
+	ai_lp_def3[]:"K"
+	ai_lp_def3[]:"L"
+	ai_lp_def3[]:"M"
+	ai_lp_def3[]:"N"
+	ai_lp_def3[]:"P"
+	ai_lp_def3[]:"R"
+	ai_lp_def3[]:"S"
+	ai_lp_def3[]:"T"
+	ai_lp_def3[]:"U"
+	ai_lp_def3[]:"V"
+
+	truck_lp_template[]:"GA 11110"
+	truck_lp_template[]:"GA 11122"
+	truck_lp_template[]:"GA 12111"
+
+	truck_lp_def0[]:"0"
+	truck_lp_def0[]:"1"
+	truck_lp_def0[]:"2"
+	truck_lp_def0[]:"3"
+	truck_lp_def0[]:"4"
+	truck_lp_def0[]:"5"
+	truck_lp_def0[]:"6"
+	truck_lp_def0[]:"7"
+	truck_lp_def0[]:"8"
+	truck_lp_def0[]:"9"
+	truck_lp_def0[]:"A"
+	truck_lp_def0[]:"C"
+	truck_lp_def0[]:"E"
+	truck_lp_def0[]:"F"
+	truck_lp_def0[]:"G"
+	truck_lp_def0[]:"H"
+	truck_lp_def0[]:"J"
+	truck_lp_def0[]:"K"
+	truck_lp_def0[]:"L"
+	truck_lp_def0[]:"M"
+	truck_lp_def0[]:"N"
+	truck_lp_def0[]:"P"
+	truck_lp_def0[]:"R"
+	truck_lp_def0[]:"S"
+	truck_lp_def0[]:"T"
+	truck_lp_def0[]:"U"
+	truck_lp_def0[]:"V"
+
+	truck_lp_def1[]:"0"
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"A"
+	truck_lp_def2[]:"C"
+	truck_lp_def2[]:"E"
+	truck_lp_def2[]:"F"
+	truck_lp_def2[]:"G"
+	truck_lp_def2[]:"H"
+	truck_lp_def2[]:"J"
+	truck_lp_def2[]:"K"
+	truck_lp_def2[]:"L"
+	truck_lp_def2[]:"M"
+	truck_lp_def2[]:"N"
+	truck_lp_def2[]:"P"
+	truck_lp_def2[]:"R"
+	truck_lp_def2[]:"S"
+	truck_lp_def2[]:"T"
+	truck_lp_def2[]:"U"
+	truck_lp_def2[]:"V"
+}

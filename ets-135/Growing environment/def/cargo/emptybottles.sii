@@ -1,0 +1,13 @@
+cargo_data: cargo.emptybottles
+{
+	name: "@@cargo_emptybottles@@"
+	fragility: 0.8
+	#price_coef: 1.220
+	group[]: containers
+	#volume: 2.6
+	#mass: 668.9
+	#unit_reward_per_km: 0.523
+	#unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

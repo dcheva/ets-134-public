@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis.loc_cl66
+{ 
+	model: "/vehicle/ai/promods/rail/locomotive_class_66/locomotive_class_66.pmd"
+
+	collision: "/vehicle/ai/promods/rail/locomotive_class_66/locomotive_class_66.pmc"
+
+	extended_shadow_texture: "/vehicle/ai/tgv/locomotive/tgv_locomotive_shadow_fr.tobj"
+	extended_shadow_intensity: 1.05
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+
+	variant: default
+	variant_uk: default
+	look: default
+}
+}

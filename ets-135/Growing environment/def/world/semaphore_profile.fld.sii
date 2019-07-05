@@ -1,0 +1,199 @@
+SiiNunit
+{
+# by FLD / TZ express map
+tr_semaphore_profile : tr_sem_prof.cr_fld_2 {
+
+	name: "cross fld 2"
+
+	model[]: "city"
+
+	type: 2
+	type[0]: traffic_light_major
+	type[1]: traffic_light_major
+
+	interval[]: (15.0, 2.0, 23.0, 2.0)
+
+	cycle: 2
+	cycle[0]: 0.0
+	cycle[1]: 21.0
+}
+tr_semaphore_profile : tr_sem_prof.cr_fld_2.nl {
+
+	name: "cross fld 2 nl"
+
+	inherited: tr_sem_prof.cr_fld_2
+
+	interval[]: (15.0, 2.0, 21.0, 0.0)
+
+	cycle: 2
+	cycle[0]: 0.0
+	cycle[1]: 19.0
+}
+tr_semaphore_profile : tr_sem_prof.cr_fld_2.d {
+
+	name: "cross fld 2 d"
+
+	inherited: tr_sem_prof.cr_fld_2
+
+	interval[]: (15.0, 2.0, 22.0, 1.0)
+
+	cycle: 2
+	cycle[0]: 0.0
+	cycle[1]: 20.0
+}
+tr_semaphore_profile : tr_sem_prof.cr_fld_2.b {
+
+	name: "cross fld 2 b"
+
+	inherited: tr_sem_prof.cr_fld_2.nl
+}
+tr_semaphore_profile : tr_sem_prof.cr_fld_2.i {
+
+	name: "cross fld 2 i"
+
+	inherited: tr_sem_prof.cr_fld_2.nl
+}
+tr_semaphore_profile : tr_sem_prof.cr_fld_2.l {
+
+	name: "cross fld 2 l"
+
+	inherited: tr_sem_prof.cr_fld_2.nl
+}
+tr_semaphore_profile : tr_sem_prof.cr_fld_2.f {
+
+	name: "cross fld 2 f"
+
+	inherited: tr_sem_prof.cr_fld_2.nl
+}
+tr_semaphore_profile : tr_sem_prof.cr_fld_2.pl {
+
+	name: "cross fld 2 pl"
+
+	inherited: tr_sem_prof.cr_fld_2.d
+}
+tr_semaphore_profile : tr_sem_prof.cr_fld_1x2 {
+
+	name: "cross fld 1x2"
+
+	model[]: "city"
+	model[]: "single"
+	model[]: "city"
+	model[]: "single"
+	model[]: ""
+
+	type[0]: traffic_light_minor
+	type[1]: traffic_light_major
+	type[2]: traffic_light_major
+	type[3]: traffic_light_minor
+	type[4]: model_only
+
+	interval[]: (15.0, 2.0, 23.0, 2.0)
+
+	cycle: 4
+	cycle[0]: 0.0
+	cycle[1]: 21.0
+	cycle[2]: 21.0
+	cycle[3]: 0.0
+
+	sleep_time_start: 1410 # 23:30
+	sleep_time_end: 180 # 03:00
+}
+tr_semaphore_profile : tr_sem_prof.cr_fld_1x2_2 {
+
+	name: "cross fld 1x2 2"
+
+	model[]: "single"
+	model[]: "single"
+	model[]: "city"
+	model[]: "single"
+	model[]: ""
+
+	type[0]: traffic_light_minor
+	type[1]: traffic_light_major
+	type[2]: traffic_light_major
+	type[3]: traffic_light_minor
+	type[4]: model_only
+
+	interval[]: (15.0, 2.0, 23.0, 2.0)
+
+	cycle: 4
+	cycle[0]: 0.0
+	cycle[1]: 21.0
+	cycle[2]: 21.0
+	cycle[3]: 0.0
+
+	sleep_time_start: 1410 # 23:30
+	sleep_time_end: 180 # 03:00
+}
+tr_semaphore_profile : tr_sem_prof.city_one_fld {
+
+	name: "city one fld"
+
+	model[]: "cityonefld"
+	model[]: "cityonefld"
+	model[]: "cityonefld"
+	model[]: "cityonefld"
+	model[]: ""
+
+	type[0]: traffic_light
+	type[1]: traffic_light
+	type[2]: traffic_light	
+	type[3]: traffic_light	
+	type[4]: model_only
+	
+	interval[]: (15.0, 2.0, 23.0, 2.0)
+
+	cycle: 4
+	cycle[0]: 0.0
+	cycle[1]: 21.0
+	cycle[2]: 0.0
+	cycle[3]: 21.0
+}
+tr_semaphore_profile : tr_sem_prof.cr_fld_r {
+
+	name: "cross fld r"
+
+	model[]: "single"
+	model[]: "single_l"
+	model[]: "city"
+	model[]: ""
+
+	type[0]: traffic_light_minor
+	type[1]: traffic_light_major
+	type[2]: traffic_light_major
+	type[3]: model_only
+
+	interval[]: (15.0, 2.0, 23.0, 2.0)
+
+	cycle[0]: 0.0
+	cycle[1]: 21.0
+	cycle[2]: 21.0
+
+	sleep_time_start: 1410 # 23:30
+	sleep_time_end: 180 # 03:00
+}
+tr_semaphore_profile : tr_sem_prof.cr_fld_r2 {
+
+	name: "cross fld r2"
+
+	model[]: "city"
+	model[]: "single_l"
+	model[]: "city"
+	model[]: "single_l"
+
+	type[0]: traffic_light_minor
+	type[1]: traffic_light_minor
+	type[2]: traffic_light_major
+	type[3]: traffic_light_major
+
+	interval[]: (15.0, 2.0, 23.0, 2.0)
+
+	cycle[0]: 0.0
+	cycle[1]: 0.0
+	cycle[2]: 21.0
+	cycle[3]: 21.0
+
+	sleep_time_start: 1410 # 23:30
+	sleep_time_end: 180 # 03:00
+}
+}

@@ -1,0 +1,124 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+#
+# NOTE: To override a traffic info in your mod, just create a new definition
+# in your definition file (see above) with the same value for 'object' attribute as the one being overridden
+# For each 'object' the LAST LOADED traffic info is used
+#
+
+country_traffic_info : .country.info.traffic.vw_touran.police.ned {
+	object: traffic.vw_touran.police.ned
+	spawn_frequency: 0.00
+}
+country_traffic_info : .country.info.traffic.skoda_yeti.police.mk {
+	object: traffic.skoda_yeti.police.mk
+	spawn_frequency: 0.00
+}
+country_traffic_info : .country.info.traffic.mits_pajero.police.cy {
+	object: traffic.mits_pajero.police.cy
+	spawn_frequency: 0.00
+}
+country_traffic_info : .country.info.traffic.megane.police.slo {
+	object: traffic.megane.police.slo
+	spawn_frequency: 0.00
+}
+country_traffic_info : .country.info.traffic.xc90.police.is {
+	object: traffic.xc90.police.is
+	spawn_frequency: 0.00	
+}
+country_traffic_info : .country.info.traffic.punto.police.srb {
+	object: traffic.punto.police.srb
+	spawn_frequency: 0.00	
+}
+ country_traffic_info : .country.info.traffic.octavia_iii.police.srb {
+	object: traffic.octavia_iii.police.srb
+	spawn_frequency: 0.00		
+}
+country_traffic_info : .country.info.traffic.peugeot_407.police.es {
+	object: traffic.peugeot_407.police.es
+	spawn_frequency: 0.00
+}
+country_traffic_info : .country.info.traffic.octavia_2009.police.est {
+	object: traffic.octavia_2009.police.est
+	spawn_frequency: 1.00	
+}
+country_traffic_info : .country.info.traffic.octavia_2009.police.hr {
+	object: traffic.octavia_2009.police.hr
+	spawn_frequency: 0.00	
+}
+country_traffic_info : .country.info.traffic.octavia_2009.police.gr {
+	object: traffic.octavia_2009.police.gr
+	spawn_frequency: 0.00	
+}
+country_traffic_info : .country.info.traffic.mondeo_2009.police.ru {
+	object: traffic.mondeo_2009.police.ru
+	spawn_frequency: 0.00	
+}
+country_traffic_info : .country.info.traffic.mondeo_2009.police.fin {
+	object: traffic.mondeo_2009.police.fin
+	spawn_frequency: 0.00	
+} 	
+country_traffic_info : .country.info.traffic.mondeo_2009.police.irl {
+	object: traffic.mondeo_2009.police.irl
+	spawn_frequency: 0.00
+} 	
+country_traffic_info : .country.info.traffic.mondeo_2009.police.ala {
+	object: traffic.mondeo_2009.police.ala
+	spawn_frequency: 0.00		
+}
+country_traffic_info : .country.info.traffic.bmw5.police.liecht {
+	object: traffic.bmw5.police.liecht
+	spawn_frequency: 0.00
+}
+country_traffic_info : .country.info.traffic.bmw5.police.deb {
+	object: traffic.bmw5.police.deb
+	spawn_frequency: 0.00	
+}
+country_traffic_info : .country.info.traffic.bmw5.police.deg {
+	object: traffic.bmw5.police.deg
+	spawn_frequency: 0.00			
+}
+country_traffic_info : .country.info.traffic.dacia_logan.police.ro {
+	object: traffic.dacia_logan.police.ro
+	spawn_frequency: 0.00	
+}
+country_traffic_info : .country.info.traffic.astra.police.bg {
+	object: traffic.astra.police.bg
+	spawn_frequency: 0.00	
+}
+country_traffic_info : .country.info.traffic.octavia_iii.police.lt	 {
+	object: traffic.octavia_iii.police.lt
+	spawn_frequency: 0.00	
+}
+country_traffic_info : .country.info.traffic.octavia_iii.police.md	 {
+	object: traffic.octavia_iii.police.md
+	spawn_frequency: 0.00		
+}
+country_traffic_info : .country.info.traffic.opel_insigni.police.lv	 {
+	object: traffic.opel_insigni.police.lv
+	spawn_frequency: 0.00
+}
+country_traffic_info : .country.info.traffic.seat_leon_03.police.an	 {
+	object: traffic.seat_leon_03.police.an
+	spawn_frequency: 0.00	
+}
+country_traffic_info : .country.info.traffic.toyota_prius.police.ua	 {
+	object: traffic.toyota_prius.police.ua	
+	spawn_frequency: 0.00	
+}
+country_traffic_info : .country.info.traffic.superjeep {
+	object: traffic.superjeep
+	spawn_frequency: 0.00
+}
+country_traffic_info : .country.info.traffic.talisman.police {
+	object: traffic.talisman.police
+	spawn_frequency: 0.10
+}
+}

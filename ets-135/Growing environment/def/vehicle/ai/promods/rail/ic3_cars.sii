@@ -1,0 +1,61 @@
+#
+#	CENTER CAR
+#
+
+traffic_trailer : train_car.ic3.car
+{
+	accessories[]: .ic3.car.tchassis
+	accessories[]: .ic3.car.trwheel0
+	accessories[]: .ic3.car.trwheel1
+
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .ic3.car.tchassis
+{
+    	data_path: "/def/vehicle/ai/promods/rail/ic3/chassis_car.sii"
+}
+
+vehicle_wheel_accessory: .ic3.car.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ic3.car.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+#
+#	TRAILER CAR
+#
+
+traffic_trailer : train_car.ic3.rear
+{
+	accessories[]: .ic3.rear.tchassis
+	accessories[]: .ic3.rear.trwheel0
+	accessories[]: .ic3.rear.trwheel1
+    
+    trailer_count_min: 0
+	
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .ic3.rear.tchassis
+{
+    	data_path: "/def/vehicle/ai/promods/rail/ic3/chassis_rear.sii"
+}
+
+vehicle_wheel_accessory: .ic3.rear.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .ic3.rear.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

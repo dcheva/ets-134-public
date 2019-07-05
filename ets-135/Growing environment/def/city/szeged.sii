@@ -1,0 +1,44 @@
+city_data: city.szeged
+{
+	city_name: "Szeged"
+	city_name_localized: "@@szeged@@"
+	country: hungary
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -35
+	map_x_offsets[]: -41
+	map_x_offsets[]: -38
+	map_x_offsets[]: -31
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -33
+	map_y_offsets[]: -50
+	map_y_offsets[]: -26
+	map_y_offsets[]: -29
+
+	vehicle_brands[]:"renault"
+
+	truck_lp_template[]:"P02111"
+
+	truck_lp_def0[]:"IZ"
+	truck_lp_def0[]:"JA"
+
+	truck_lp_def1[]:"0"
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"<offset vshift=-8><img src=/material/ui/lp/hungary/$SIDE$b.mat width=20 height=40 color=FFFFFFFF><offset vshift=8>"
+}

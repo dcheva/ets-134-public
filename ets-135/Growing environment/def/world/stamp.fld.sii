@@ -1,0 +1,36 @@
+SiiNunit
+{
+# by FLD / TZ express map
+stamp_data : stamp.1fld {
+	stamp_name: "1x6 with trans."
+        stamp_path: "/def/stamp/1x6.btf"
+}
+stamp_data : stamp.2fld {
+	stamp_name: "4x10 with trans."
+        stamp_path: "/def/stamp/4x10.btf"
+}
+stamp_data : stamp.3fld {
+	stamp_name: "4x15 with trans."
+        stamp_path: "/def/stamp/4x15.btf"
+}
+stamp_data : stamp.4fld {
+	stamp_name: "6x1 with trans."
+        stamp_path: "/def/stamp/6x1.btf"
+}
+stamp_data : stamp.5fld {
+	stamp_name: "6x4 with trans."
+        stamp_path: "/def/stamp/6x4.btf"
+}
+stamp_data : stamp.6fld {
+	stamp_name: "6x22 with trans."
+        stamp_path: "/def/stamp/6x22.btf"
+}
+stamp_data : stamp.7fld {
+	stamp_name: "1x1 with trans."
+        stamp_path: "/def/stamp/1x1.btf"
+}
+stamp_data : stamp.8fld {
+	stamp_name: "1x1a with trans."
+        stamp_path: "/def/stamp/1x1a.btf"
+}
+}

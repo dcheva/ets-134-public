@@ -1,0 +1,291 @@
+SiiNunit {
+
+mover_model : mover.flagi_firm {
+	mover_name: "_pl_flag_company"
+	model_desc: "/model/mover/flagi/flagi_firm.pmd"
+	model_anim: "/model/mover/flagi/flag.pma"
+	model_coll: "/model/mover/flagi/flagi_firm.pmc"
+
+}
+
+mover_model : mover.flagi_pion {
+	mover_name: "_pl_flag_vertical"
+	model_desc: "/model/mover/flagi/flagi_pionowe.pmd"
+	model_anim: "/model/mover/flagi/flagi_pionowe.pma"
+	model_coll: "/model/mover/flagi/flagi_pionowe.pmc"
+
+}
+
+mover_model : mover.wood_01 {
+	mover_name: "_pl_wood_water"
+	model_desc: "/model/mover/parts_on_water/wood_01.pmd"
+	model_anim: "/model/mover/parts_on_water/wood_01.pma"
+
+}
+
+mover_model : mover.dirt_01 {
+	mover_name: "_pl_garbage_water"
+	model_desc: "/model/dirt/dirt_decal_01_anim.pmd"
+	model_anim: "/model/dirt/dirt_01.pma"
+
+}
+
+mover_model : mover.medi {
+	mover_name: "_pl_rescue_helicopter"
+	model_desc: "/model/mover/medikopter.pmd"
+	model_anim: "/model/mover/bell.pma"
+	sound_path[]: "/sound/mover/heli_middle.ogg"
+	sound_max_dist: 100
+
+}
+
+mover_model : mover.ind_train05 {
+	mover_name: "_pl_train_1"
+	model_desc: "/model/mover/pociag/pociag_1.pmd"
+	sound_path[]: "/sound/mover/train1.ogg"
+	sound_path[]: "/sound/mover/train2.ogg"
+	sound_min_dist: 20
+	sound_max_dist: 200
+
+}
+
+mover_model : mover.tgv_train02 {
+	mover_name: "_pl_train_2"
+	model_desc: "/model/mover/pociag_2/pociag_2.pmd"
+	sound_path[]: "/sound/mover/tgv_loop_3.ogg"
+	sound_min_dist: 20
+	sound_max_dist: 200
+
+}
+
+mover_model : mover.kombajn {
+	mover_name: "_pl_harvester"
+	model_desc: "/model/mover/maszyny/kombajn.pmd"
+	model_anim: "/model/mover/maszyny/wheels.pma"
+	sound_min_dist: 5
+	sound_max_dist: 60
+	sound_path[]: "/sound/ai/ai0.ogg"
+
+}
+
+mover_model : mover.tramwaj {
+	mover_name: "_pl_tram"
+	model_desc: "/model/mover/tramwaj/konstal.pmd"
+	sound_path[]: "/sound/mover/tramwaj.ogg"
+	sound_min_dist: 5
+	sound_max_dist: 20
+}
+
+mover_model : mover.flag3 {
+	mover_name: "_pl_flag_gas_station"
+	model_desc: "/model/mover/flagi/flagi_stacji_paliw.pmd"
+	model_anim: "/model/mover/flagi/flag.pma"
+	model_coll: "/model/mover/flagi/flagi_stacji_paliw.pmc"
+
+}
+
+mover_model : mover.ind_train06 {
+	mover_name: "_pl_loco"
+	model_desc: "/model/mover/lokomotywy/industrial_train_loco.pmd"
+	sound_path[]: "/sound/mover/train1.ogg"
+	sound_path[]: "/sound/mover/train2.ogg"
+	sound_min_dist: 20
+	sound_max_dist: 200
+
+}
+
+#mover_model : mover.dzwig {
+#	mover_name: "_pl_crane"
+#	model_desc: "/model/mover/maszyny/dzwig.pmd"
+#
+#}
+
+mover_model : mover.flag4 {
+	mover_name: "_pl_flag_others"
+	model_desc: "/model/mover/flagi/flagi_dodatkowe.pmd"
+	model_anim: "/model/mover/flagi/flag.pma"
+	model_coll: "/model/mover/flagi/flagi_dodatkowe.pmc"
+
+}
+
+mover_model : mover.walec {
+	mover_name: "_pl_road_roller"
+	model_desc: "/model/mover/maszyny/walec.pmd"
+	model_anim: "/model/mover/maszyny/walec.pma"
+
+}
+
+mover_model : mover.koparka {
+	mover_name: "_pl_excavator"
+	model_desc: "/model/mover/maszyny/cat422_anim.pmd"
+	model_anim: "/model/mover/maszyny/cat422_anim.pma"
+
+}
+
+mover_model : mover.01_ship {
+	mover_name: "_pl_01 ship_sail_lights"
+	model_desc: "/model/mover/statki/ani01_ship_lampki_zagiel.pmd"
+
+}
+
+mover_model : mover.02_ship {
+	mover_name: "_pl_02 ship_sail_lights"
+	model_desc: "/model/mover/statki/ani02_ship_lampki_zagiel.pmd"
+
+}
+
+mover_model : mover.03_ship {
+	mover_name: "_pl_03 ship_sail_lights"
+	model_desc: "/model/mover/statki/ani03_ship_lampki_zagiel.pmd"
+
+}
+
+mover_model : mover.04_ship {
+	mover_name: "_pl_04 ship_sail_lights"
+	model_desc: "/model/mover/statki/ani04_ship_lampki_zagiel.pmd"
+
+}
+
+mover_model : mover.05_ship {
+	mover_name: "_pl_05 ship"
+	model_desc: "/model/mover/statki/ani01_ship.pmd"
+
+}
+
+mover_model : mover.06_ship {
+	mover_name: "_pl_06 ship_sail"
+	model_desc: "/model/mover/statki/ani01_ship_zagiel_only.pmd"
+
+}
+
+mover_model : mover.07_ship {
+	mover_name: "_pl_07 container ship_1"
+	model_desc: "/model/ship/kontenerowiec_1.pmd"
+
+}
+
+mover_model : mover.08_ship {
+	mover_name: "_pl_08 container ship_1_pusty"
+	model_desc: "/model/ship/kontenerowiec_1_pusty.pmd"
+
+}
+
+mover_model : mover.09_ship {
+	mover_name: "_pl_09 container ship_2"
+	model_desc: "/model/ship/kontenerowiec_2.pmd"
+
+}
+
+mover_model : mover.10_ship {
+	mover_name: "_pl_10 container ship_2_pusty"
+	model_desc: "/model/ship/kontenerowiec_2_pusty.pmd"
+
+}
+
+mover_model : mover.protest_01 {
+	mover_name: "_pl_protest_man_01"
+	model_desc: "/model/mover/protest/demonstrant_01.pmd"
+	model_anim: "/model/mover/crowd/demonstr.pma"	
+}
+
+mover_model : mover.protest_02 {
+	mover_name: "_pl_protest_man_02"
+	model_desc: "/model/mover/protest/demonstrant_02.pmd"
+	model_anim: "/model/mover/crowd/demonstr.pma"	
+}
+
+mover_model : mover.protest_03 {
+	mover_name: "_pl_protest_man_03"
+	model_desc: "/model/mover/protest/demonstrant_03.pmd"
+	model_anim: "/model/mover/crowd/demonstr.pma"	
+}
+
+mover_model : mover.protest_04 {
+	mover_name: "_pl_protest_man_04"
+	model_desc: "/model/mover/protest/demonstrant_04.pmd"
+	model_anim: "/model/mover/crowd/demonstr.pma"	
+}
+
+mover_model : mover.protest_05 {
+	mover_name: "_pl_protest_man_05"
+	model_desc: "/model/mover/protest/demonstrant_05.pmd"
+	model_anim: "/model/mover/crowd/demonstr.pma"	
+}
+
+mover_model : mover.ind_train07 {
+	mover_name: "_pl_train_3_long"
+	model_desc: "/model/mover/pociag_3/pociag_3.pmd"
+	sound_path[]: "/sound/mover/train1.ogg"
+	sound_path[]: "/sound/mover/train2.ogg"
+	sound_min_dist: 20
+	sound_max_dist: 200
+}
+
+mover_model : mover.ind_train08 {
+	mover_name: "_pl_train_4_local"
+	model_desc: "/model/mover/pociag_4/pociag_4_osobowy.pmd"
+	sound_path[]: "/sound/mover/pociag_osobowy1.ogg"
+	sound_min_dist: 20
+	sound_max_dist: 200
+}
+
+mover_model : mover.ind_train09 {
+	mover_name: "_pl_train_5_local"
+	model_desc: "/model/mover/pociag_5/pociag_5_osobowy.pmd"
+	sound_path[]: "/sound/mover/pociag_osobowy2.ogg"
+	sound_min_dist: 20
+	sound_max_dist: 200
+}
+
+mover_model : mover.ind_train10 {
+	mover_name: "_pl_train_6_local"
+	model_desc: "/model/mover/pociag_6/pociag_6_osobowy.pmd"
+	sound_path[]: "/sound/mover/pociag_osobowy3.ogg"
+	sound_min_dist: 20
+	sound_max_dist: 200
+}
+
+mover_model : mover.ind_en57 {
+	mover_name: "_pl_train EN57 color1"
+	model_desc: "/model/mover/en57/en57.pmd"
+	sound_path[]: "/sound/mover/en57.ogg"
+	sound_min_dist: 30
+	sound_max_dist: 200
+}
+
+mover_model : mover.ind_en57a {
+	mover_name: "_pl_train EN57 color2"
+	model_desc: "/model/mover/en57/en57a.pmd"
+	sound_path[]: "/sound/mover/en57.ogg"
+	sound_min_dist: 30
+	sound_max_dist: 200
+}
+
+mover_model : mover.intercity_pl {
+	mover_name: "_pl_train INTERCITY"
+	model_desc: "/model/mover/ep05_intercity/ep05_intercity.pmd"
+	sound_path[]: "/sound/mover/ep05_intercity.ogg"
+	sound_min_dist: 25
+	sound_max_dist: 200
+}
+
+mover_model : mover.paralot1 {
+	mover_name: "paraglider1"
+	model_desc: "/model/mover/paralotniarz1.pmd"
+}
+
+mover_model : mover.paralot2 {
+	mover_name: "paraglider 2"
+	model_desc: "/model/mover/paralotniarz2.pmd"
+}
+
+mover_model : mover.paralot3 {
+	mover_name: "paraglider 3"
+	model_desc: "/model/mover/paralotniarz3.pmd"
+}
+
+mover_model : mover.paralot4 {
+	mover_name: "paraglider 4"
+	model_desc: "/model/mover/paralotniarz4.pmd"
+}
+}

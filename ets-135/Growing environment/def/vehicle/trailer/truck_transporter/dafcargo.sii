@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_cargo_data : .daf_tr
+{
+	detail_model: "/vehicle/trailer_eu/transporter/cargo_daf.pmd"
+	model: "/vehicle/trailer_eu/transporter/cargo_daf.pmd" # traffic
+	
+	collision: "/vehicle/trailer_eu/transporter/cargo_daf.pmc"
+ 
+	variant: default
+	look: default
+}
+}
+

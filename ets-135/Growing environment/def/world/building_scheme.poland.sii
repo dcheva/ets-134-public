@@ -1,0 +1,248 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+building_scheme : bld_scheme.eurebuild01 {
+	name: "_linia_jezdnia_01"
+	models[]: bld_model.eurebuild01
+	category: "Revise - road lines"
+}
+building_scheme : bld_scheme.eurebuild02 {
+	name: "_linia_jezdnia_02"
+	models[]: bld_model.eurebuild02
+	category: "Revise - road lines"
+}
+building_scheme : bld_scheme.eurebuild03 {
+	name: "_linia_jezdnia_03"
+	models[]: bld_model.eurebuild03
+	category: "Revise - road lines"
+}
+building_scheme : bld_scheme.eurebuild04 {
+	name: "_linia_jezdnia_04"
+	models[]: bld_model.eurebuild04
+	category: "Revise - road lines"
+}
+building_scheme : bld_scheme.eurebuild05 {
+	name: "_linia_jezdnia_05"
+	models[]: bld_model.eurebuild05
+	category: "Revise - road lines"
+}
+building_scheme : bld_scheme.polrebuild06 {
+	name: "_ekran_dźwiękowy 01"
+	models[]: bld_model.polrebuild06
+	category: "Revise - anti_noise wall"
+
+}
+building_scheme : bld_scheme.polrebuild07 {
+	name: "_ekran_dźwiękowy 02"
+	models[]: bld_model.polrebuild07
+	category: "Revise - anti_noise wall"
+}
+building_scheme : bld_scheme.polrebuild08 {
+	name: "_ekran_dźwiękowy 03"
+	models[]: bld_model.polrebuild08
+	category: "Revise - anti_noise wall"
+}
+building_scheme : bld_scheme.polrebuild09 {
+	name: "_ekran_dźwiękowy 04"
+	models[]: bld_model.polrebuild09
+	category: "Revise - anti_noise wall"
+}
+building_scheme : bld_scheme.polrebuild10 {
+	name: "_ekran_dźwiękowy 05"
+	models[]: bld_model.polrebuild10
+	category: "Revise - anti_noise wall"
+}
+building_scheme : bld_scheme.polrebuild11 {
+	name: "_ekran_dźwiękowy 06"
+	models[]: bld_model.polrebuild11
+	category: "Revise - anti_noise wall"
+}
+building_scheme : bld_scheme.polrebuild12 {
+	name: "_ekran_dźwiękowy 07"
+	models[]: bld_model.polrebuild12
+	category: "Revise - anti_noise wall"
+}
+building_scheme : bld_scheme.polrebuild13 {
+	name: "_ekran_dźwiękowy 08"
+	models[]: bld_model.polrebuild13
+	category: "Revise - anti_noise wall"
+}
+building_scheme : bld_scheme.polrebuild14 {
+	name: "_ekran_dźwiękowy 09"
+	models[]: bld_model.polrebuild14
+	category: "Revise - anti_noise wall"
+}
+building_scheme : bld_scheme.polrebuild15 {
+	name: "_ekran_dźwiękowy 10"
+	models[]: bld_model.polrebuild15
+	category: "Revise - anti_noise wall"
+}
+building_scheme : bld_scheme.polrebuild16 {
+	name: "_ekran_dźwiękowy 11"
+	models[]: bld_model.polrebuild16
+	category: "Revise - anti_noise wall"
+}
+building_scheme : bld_scheme.polrebuild17 {
+	name: "_barierka_PL_biało-czerwona"
+	models[]: bld_model.polrebuild17
+	category: "Revise - barriers"
+}
+building_scheme : bld_scheme.polrebuild18 {
+	name: "_barierka_PL_słupki"
+	models[]: bld_model.polrebuild18
+	category: "Revise - barriers"
+}
+building_scheme : bld_scheme.polrebuild19 {
+	name: "_barierka_PL_czerwona"
+	models[]: bld_model.polrebuild19
+	category: "Revise - barriers"
+}
+building_scheme : bld_scheme.polrebuild20 {
+	name: "_barierka_PL_biała"
+	models[]: bld_model.polrebuild20
+	category: "Revise - barriers"
+}
+building_scheme : bld_scheme.polrebuild21 {
+	name: "_barierka PL 01"
+	models[]: bld_model.polrebuild21
+	category: "Revise - barriers"
+}
+building_scheme : bld_scheme.polrebuild22 {
+	name: "_barierka PL 02"
+	models[]: bld_model.polrebuild22
+	category: "Revise - barriers"
+}
+building_scheme : bld_scheme.polrebuild23 {
+	name: "_barierka PL 03"
+	models[]: bld_model.polrebuild23
+	category: "Revise - barriers"
+}
+building_scheme : bld_scheme.polrebuild24 {
+	name: "_barierka PL 04"
+	models[]: bld_model.polrebuild24
+	category: "Revise - barriers"
+}
+building_scheme : bld_scheme.polrebuild25 {
+	name: "_barierka PL 05"
+	models[]: bld_model.polrebuild25
+	category: "Revise - barriers"
+}
+building_scheme : bld_scheme.plrebuild26 {
+	name: "_barierka PL 06"
+	models[]: bld_model.polrebuild26
+	category: "Revise - barriers"
+}
+building_scheme : bld_scheme.plrebuild27 {
+	name: "_barierka PL 07"
+	models[]: bld_model.polrebuild27
+	category: "Revise - barriers"
+}
+building_scheme : bld_scheme.plrebuild28 {
+	name: "_barierka PL 08"
+	models[]: bld_model.polrebuild28
+	category: "Revise - barriers"
+}
+
+building_scheme : bld_scheme.polrebuild29 {
+	name: "_taśma na znak"
+	models[]: bld_model.polrebuild29
+	category: "Revise - others"
+}
+
+building_scheme : bld_scheme.polrebuild30 {
+	name: "_mur betonowy 01"
+	models[]: bld_model.polrebuild30
+	category: "Revise - concrete wall"
+}
+
+building_scheme : bld_scheme.polrebuild31 {
+	name: "_mur betonowy 02"
+	models[]: bld_model.polrebuild31
+	category: "Revise - concrete wall"
+}
+
+building_scheme : bld_scheme.polrebuild32 {
+	name: "_mur betonowy 03"
+	models[]: bld_model.polrebuild32
+	category: "Revise - concrete wall"
+}
+
+building_scheme : bld_scheme.polrebuild33 {
+	name: "_mur betonowy 04"
+	models[]: bld_model.polrebuild33
+	category: "Revise - concrete wall"
+}
+
+building_scheme : bld_scheme.polrebuild34 {
+	name: "_mur betonowy 05"
+	models[]: bld_model.polrebuild34
+	category: "Revise - concrete wall"
+}
+
+building_scheme : bld_scheme.polrebuild35 {
+	name: "_mur betonowy 06"
+	models[]: bld_model.polrebuild35
+	category: "Revise - concrete wall"
+}
+
+building_scheme : bld_scheme.polrebuild36 {
+	name: "_mur betonowy 07"
+	models[]: bld_model.polrebuild36
+	category: "Revise - concrete wall"
+}
+
+building_scheme : bld_scheme.polrebuild37 {
+	name: "_mur betonowy 08"
+	models[]: bld_model.polrebuild37
+	category: "Revise - concrete wall"
+}
+
+building_scheme : bld_scheme.polrebuild38 {
+	name: "_mur betonowy 09"
+	models[]: bld_model.polrebuild38
+	category: "Revise - concrete wall"
+}
+
+building_scheme : bld_scheme.polrebuild39 {
+	name: "_mur betonowy 10"
+	models[]: bld_model.polrebuild39
+	category: "Revise - concrete wall"
+}
+
+building_scheme : bld_scheme.polrebuild40 {
+	name: "_mur betonowy 11"
+	models[]: bld_model.polrebuild40
+	category: "Revise - concrete wall"
+}
+
+building_scheme : bld_scheme.polrebuild41 {
+	name: "_mur betonowy 12"
+	models[]: bld_model.polrebuild41
+	category: "Revise - concrete wall"
+}
+
+building_scheme : bld_scheme.polrebuild42 {
+	name: "_płot siatka 01"
+	models[]: bld_model.polrebuild42
+	category: "Revise - fence"
+}
+
+building_scheme : bld_scheme.polrebuild43 {
+	name: "_płot siatka 02"
+	models[]: bld_model.polrebuild43
+	category: "Revise - fence"
+}
+
+building_scheme : bld_scheme.polrebuild44 {
+	name: "_płot siatka 03"
+	models[]: bld_model.polrebuild44
+	category: "Revise - fence"
+}
+}

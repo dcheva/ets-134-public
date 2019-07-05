@@ -1,0 +1,33 @@
+traffic_vehicle : traffic.megane.police.slo
+{
+	accessories[]: .megane.police.slo.chassis
+	accessories[]: .megane.police.slo.fwheel
+	accessories[]: .megane.police.slo.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 1800
+@include "/def/vehicle/ai/drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .megane.police.slo.chassis
+{
+	data_path: "/def/vehicle/ai/promods/road/renault_megane/chassis_police_slo.sii"
+}
+
+vehicle_wheel_accessory: .megane.police.slo.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_2.sii"
+}
+
+vehicle_wheel_accessory: .megane.police.slo.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_2.sii"
+}

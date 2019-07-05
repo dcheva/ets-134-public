@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.s6ru.triigi{
+	price: 47
+	time: 60
+	distance: 17
+}
+}
+

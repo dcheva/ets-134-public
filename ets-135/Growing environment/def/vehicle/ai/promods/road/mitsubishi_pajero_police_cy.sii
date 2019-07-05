@@ -1,0 +1,33 @@
+traffic_vehicle : traffic.mits_pajero.police.cy
+{
+	accessories[]: .mits_pajero.police.cy.chassis
+	accessories[]: .mits_pajero.police.cy.fwheel
+	accessories[]: .mits_pajero.police.cy.rwheel
+
+    allow_parked: true
+	max_speed: 138
+	engine_torque: 271
+	vehicle_mass: 2871
+	lod_dist[]: 70
+	
+	spawn_ratio: 0
+	
+@include "/def/vehicle/ai/drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .mits_pajero.police.cy.chassis
+{
+    	data_path: "/def/vehicle/ai/promods/road/mitsubishi_pajero/chassis_police_cy.sii"
+}
+
+vehicle_wheel_accessory: .mits_pajero.police.cy.fwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/front_20in.sii"
+}
+
+vehicle_wheel_accessory: .mits_pajero.police.cy.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/rear_20in.sii"
+}

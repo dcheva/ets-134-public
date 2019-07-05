@@ -1,0 +1,34 @@
+SiiNunit
+{
+overlay_def : .overlay {
+
+	road_names[]: "ua_e40"
+	road_names[]: "ua_e50"
+	road_names[]: "ua_e58"
+	road_names[]: "ua_e81"
+	road_names[]: "ua_e372"
+	road_names[]: "ua_e373"
+	road_names[]: "ua_e471"
+	road_names[]: "ua_e573"
+	road_names[]: "ua_h09"
+	road_names[]: "ua_h13"
+	road_names[]: "ua_h17"
+	road_names[]: "ua_h22"
+	road_names[]: "ua_m06"
+	road_names[]: "ua_m07"
+	road_names[]: "ua_m08"
+	road_names[]: "ua_m09"
+	road_names[]: "ua_m10"
+	road_names[]: "ua_m19"
+	road_names[]: "ua_m23"
+	road_names[]: "ua_m24"
+	road_names[]: "ua_m25"
+	road_names[]: "ua_m26"
+	road_names[]: "ua_p14"
+	road_names[]: "ua_p15"
+	road_names[]: "ua_p55"
+	road_names[]: "ua_t0305"
+	road_names[]: "ua_t1027"
+}
+
+}

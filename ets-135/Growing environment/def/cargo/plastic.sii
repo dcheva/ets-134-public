@@ -1,0 +1,10 @@
+cargo_data: cargo.plastic
+{
+	name: "@@cargo_plastic@@"
+	fragility: 0.7
+	price_coef: 1.001
+	group[]: containers
+	body_types[]: _plastic_01
+	body_types[]: _plastic_02
+	body_types[]: _plastic_03
+	}

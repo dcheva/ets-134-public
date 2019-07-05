@@ -1,0 +1,10 @@
+cargo_data: cargo.ikea_plst
+{
+	name: "@@cn_plastic_film_rolls@@"
+	fragility: 0.1
+	price_coef: 1.145
+	group[]: containers
+	body_types[]: _ikeaplst_01
+	body_types[]: _ikeaplst_02
+	body_types[]: _ikeaplst_03
+}

@@ -1,0 +1,15 @@
+SiiNunit
+{
+overlay_def : .overlay {
+
+	city_names[]: "ch_basel_w"
+	city_names[]: "ch_basel_wl"
+	city_names[]: "ch_innsb_ws"
+	city_names[]: "ch_munch_ws"
+	city_names[]: "ch_stutt_ws"
+	city_names[]: "ch_zurich_ws"
+	city_names[]: "ch_vaduz_ws"
+	city_names[]: "ch_state_fl"
+}
+
+}

@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis.ic3_car
+{ 
+	model: "/vehicle/ai/promods/rail/ic3/ic3_car.pmd"
+
+	collision: "/vehicle/ai/promods/rail/ic3/ic3_car.pmc"
+
+	extended_shadow_texture: "/vehicle/ai/tgv/locomotive/tgv_locomotive_shadow_fr.tobj"
+	extended_shadow_intensity: 1.05
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+
+	variant: default
+	variant_uk: default
+	look: default
+}
+}

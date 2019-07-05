@@ -1,0 +1,46 @@
+SiiNunit
+{
+overlay_def : .overlay {
+
+	city_names[]: "nl_di_n300m"
+	city_names[]: "nl_di_n600m"
+	city_names[]: "nl_di_o300m"
+	city_names[]: "nl_di_o600m"
+
+	city_names[]: "nl_antwer_w"
+	city_names[]: "nl_antwer_wl"
+	city_names[]: "nl_antwer_wr"
+	city_names[]: "nl_breda_w"
+	city_names[]: "nl_breda_wl"
+	city_names[]: "nl_breda_wr"
+	city_names[]: "nl_goes_w"
+	city_names[]: "nl_goes_wl"
+	city_names[]: "nl_goes_wr"
+	city_names[]: "nl_eindho_w"
+	city_names[]: "nl_eindho_wl"
+	city_names[]: "nl_eindho_wr"
+	city_names[]: "nl_utr_w"
+	city_names[]: "nl_utr_wl"
+	city_names[]: "nl_utr_wr"
+	city_names[]: "nl_vlissi_w"
+	city_names[]: "nl_vlissi_wl"
+	city_names[]: "nl_vlissi_wr"
+
+	road_names[]: "nl_a2"
+	road_names[]: "nl_a8"
+	road_names[]: "nl_a12"
+	road_names[]: "nl_a17"
+	road_names[]: "nl_a18"
+	road_names[]: "nl_a28"
+	road_names[]: "nl_a58"
+	road_names[]: "nl_a67"
+	road_names[]: "nl_a74"
+	road_names[]: "nl_a76"
+	road_names[]: "nl_n2"
+	road_names[]: "nl_n7"
+	road_names[]: "nl_n57"
+	road_names[]: "nl_n322"
+	road_names[]: "nl_n323"
+}
+
+}

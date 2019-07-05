@@ -1,0 +1,60 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+
+model_def : model.paul_colos {
+	model_desc: "/model/panorama/rome/colosseum.pmd"
+	distance_type: 3
+}
+model_def : model.paul_uk1 {
+	model_desc: "/model/houses/uk/uk_residence_1.pmd"
+	distance_type: 2
+}
+model_def : model.paul_uk2 {
+	model_desc: "/model/houses/uk/uk_residence_2.pmd"
+	distance_type: 2
+}
+model_def : model.paul_uk3 {
+	model_desc: "/model/houses/uk/uk_residence_3.pmd"
+	distance_type: 2
+}
+model_def : model.paul_uk4 {
+	model_desc: "/model/houses/uk/uk_residence_4.pmd"
+	distance_type: 2
+}
+model_def : model.paul_uk5 {
+	model_desc: "/model/houses/uk/uk_residence_5.pmd"
+	distance_type: 2
+}
+model_def : model.balvi_lv {
+	model_desc: "/model/latvia/entry/balvi.pmd"
+	distance_type: 3
+}
+model_def : model.eutunnel {
+	model_desc: "/model/border/eurotunnel_uk/eurotunnel_check_roof.pmd"
+	distance_type: 3
+}
+model_def : model.ukmerge {
+	model_desc: "/model/lithuania/entry/ukmerge.pmd"
+	distance_type: 3
+}
+model_def : model.tallinn_i {
+	model_desc: "/model/estonia/entry/tallinn_in.pmd"
+	distance_type: 3
+}
+model_def : model.tallinn_o {
+	model_desc: "/model/estonia/entry/tallinn_out.pmd"
+	distance_type: 3
+}
+model_def : model.ubahn_hhpl {
+	model_desc: "/model/austria/sign/u-bahn/vienna/u-bahn_sign.pmd"
+	distance_type: 3
+}
+}

@@ -1,0 +1,39 @@
+SiiNunit
+{
+
+prefab_model : prefab.a1 {
+	model_desc: "/prefab/gas_town_nico/gas_town_1.pmd"
+	prefab_desc: "/prefab/gas_town_nico/gas_town_1.ppd"
+	slow_time: true	
+}
+
+prefab_model : prefab.a2 {
+	model_desc: "/prefab/gas_town_nico/gas_price_stand.pmd"
+	prefab_desc: "/prefab/gas_town_nico/gas_price_stand.ppd"
+	slow_time: true
+}
+
+#prefab_model : prefab.a3 {
+#	model_desc: "/prefab/gas_service/gas_icon.pmd"
+#	prefab_desc: "/prefab/gas_service/gas_service.ppd"
+#	slow_time: true
+#}
+#
+#prefab_model : prefab.a4 {
+#	model_desc: "/prefab/gas_service/gas_icon.pmd"
+#	prefab_desc: "/prefab/neupotrebljiv/gas_service.ppd"
+#	slow_time: true
+#}
+
+
+ prefab_model : prefab.a5 {
+ model_desc: "/prefab/europe/europe.pmd"
+ prefab_desc: "/prefab/europe/europe.ppd"
+}
+
+
+
+
+
+}
+

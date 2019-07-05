@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.rohukula.heltermaa{
+	price: 59
+	time: 75
+	distance: 22
+}
+}
+

@@ -1,0 +1,73 @@
+SiiNunit
+{
+# by FLD / TZ express map
+material_def : sidewalk.0fld {
+	path:"/material/road/sidewalk_00.mat"
+}
+material_def : sidewalk.1fld {
+	path:"/material/road/sidewalk_01.mat"
+}
+material_def : sidewalk.2fld {
+	path:"/material/road/sidewalk_02.mat"
+}
+material_def : sidewalk.3fld {
+	path:"/material/road/sidewalk_03.mat"
+}
+material_def : sidewalk.4fld {
+	path:"/material/road/sidewalk_04.mat"
+}
+material_def : sidewalk.5fld {
+	path:"/material/road/sidewalk_05.mat"
+}
+material_def : sidewalk.6fld {
+	path:"/material/road/sidewalk_06.mat"
+}
+material_def : sidewalk.7fld {
+	path:"/material/road/sidewalk_07.mat"
+}
+material_def : sidewalk.8fld {
+	path:"/material/road/sidewalk_08.mat"
+}
+material_def : sidewalk.9fld {
+	path:"/material/road/sidewalk_09.mat"
+}
+material_def : sidewalk.10fld {
+	path:"/material/road/sidewalk_10.mat"
+}
+material_def : sidewalk.11fld {
+	path:"/material/road/sidewalk_11.mat"
+}
+material_def : sidewalk.12fld {
+	path:"/material/road/sidewalk_12.mat"
+}
+material_def : sidewalk.13fld {
+	path:"/material/terrain/grass_ger_main.mat"
+}
+material_def : sidewalk.14fld {
+	path:"/material/terrain/asphalt_00.mat"
+}
+material_def : sidewalk.15fld {
+	path:"/material/terrain/asphalt_01.mat"
+}
+material_def : sidewalk.16fld {
+	path:"/material/road/reddish_pavement.mat"
+}
+material_def : sidewalk.17fld {
+	path:"/material/road/sidewalk_grassy.mat"
+}
+material_def : sidewalk.18fld {
+	path:"/material/road/sidewalk_13.mat"
+}
+material_def : sidewalk.19fld {
+	path:"/material/road/sidewalk_14.mat"
+}
+material_def : sidewalk.20fld {
+	path:"/material/road/old_city.mat"
+}
+material_def : sidewalk.21fld {
+	path:"/material/road/old_city_2.mat"
+}
+material_def : sidewalk.22fld {
+	path:"/material/terrain/snow.mat"
+}
+}

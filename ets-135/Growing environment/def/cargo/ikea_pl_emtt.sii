@@ -1,0 +1,12 @@
+cargo_data: cargo.ikea_pl_emtt
+{
+	name: "@@cargo_emptytrailer@@"
+	fragility: 0.0
+	group[]: containers
+	volume: 1
+	mass: 0.001
+	unit_reward_per_km: 2.5
+	unit_load_time: 0
+	body_types[]: _
+	overweight: true
+}
