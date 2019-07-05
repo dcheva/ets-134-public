@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.virtsu.kuivastu{
-	price: 29
-	time: 30
-	distance: 7
-}
-}
-

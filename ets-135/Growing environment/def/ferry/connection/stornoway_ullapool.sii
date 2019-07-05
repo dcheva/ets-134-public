@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.stornoway.ullapool{
-	price: 150
-	time: 100
-	distance: 30
-}
-}
-

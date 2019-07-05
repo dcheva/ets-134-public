@@ -1,6 +1,0 @@
-SiiNunit
-{
-railing_model : railing.woj_01 {
-	model_desc: "/model/railing/bridge/bridge_bottom_hw_exit_fr.pmd"
-}
-}

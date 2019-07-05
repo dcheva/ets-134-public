@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.thurso.torshavn2{
-	price: 1700
-	time: 580
-	distance: 420
-}
-}
-
