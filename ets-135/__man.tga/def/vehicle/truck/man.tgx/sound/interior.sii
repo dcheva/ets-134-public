@@ -1,6 +1,7 @@
 SiiNunit
 {
-accessory_sound_data : std.man.tgx.isound{
+accessory_sound_data : std.man.tgx.isound
+{
 	exterior_sound: false
 
 	start: .start
@@ -50,7 +51,6 @@ accessory_sound_data : std.man.tgx.isound{
 	wipers_down: .wipers_down
 
 @include "/def/vehicle/truck/man_sound_int.sui"
-
 
 }
 
@@ -377,23 +377,27 @@ sound_engine_data: .eb
   volume: 0.95
 }
 
+
 sound_data: .horn
 {
 	name: "/sound/truck/man/int/horn.ogg"
-	looped: true  volume: 0.5
-}sound_data: .ahorn
+	looped: true  volume: 4.0
+}
+
+sound_data: .ahorn
 {
 	name: "/sound/truck/man/int/air_horn.ogg"
 	looped: true
-        volume: 0.98
+        volume: 3.6
 }
 
 sound_data: .reverse
 {
 	name: "/sound/truck/volvo/int/reverse.ogg"
 	looped: true  
-	volume: 0.7
+	volume: 3.8
 }
+
 
 sound_data: .changeg
 {
@@ -404,14 +408,14 @@ sound_data: .blinker_on
 {
 	name: "/sound/truck/volvo/int/blinker_on.ogg"
 	is_2d: true
-	volume: 0.32
+	volume: 0.42
 }
 
 sound_data: .blinker_off
 {
 	name: "/sound/truck/volvo/int/blinker_off.ogg"
 	is_2d: true
-	volume: 0.32
+	volume: 0.42
 }
 
 sound_data: .wipers_up
@@ -428,6 +432,6 @@ sound_data: .wipers_down
 	volume: 0.65
 }
 
-@include "/def/vehicle/truck/man_tga_2006_int_data.sui"
+@include "/def/vehicle/truck/man_sound_int_data.sui"
 
 }

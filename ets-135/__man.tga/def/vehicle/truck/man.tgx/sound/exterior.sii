@@ -369,27 +369,29 @@ sound_engine_data: .eb
 	pitch_reference: 1850
 	min_rpm: 200.0
 	max_rpm: 3000.0
-}sound_data: .ahorn
+}
+
+
+sound_data: .ahorn
 {
 	name: "/sound/truck/man/ext/air_horn.ogg"
 	looped: true
-        volume: 1.08
+        volume: 4.0
 }
 
 sound_data: .horn
 {
 	name: "/sound/truck/volvo/ext/horn.ogg"
 	looped: true
-	volume: 0.7
+	volume: 3.6
 }
 
 sound_data: .reverse
 {
 	name: "/sound/truck/volvo/ext/reverse.ogg"
 	looped: true
-	volume: 1.7
+	volume: 3.8
 }
-
 
 @include "/def/vehicle/truck/man_sound_ext_data.sui"
 

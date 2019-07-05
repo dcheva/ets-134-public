@@ -1,6 +1,7 @@
 SiiNunit
 {
-accessory_sound_data : ext.man.tgx_euro6.sound{
+accessory_sound_data : ext.man.tgx_euro6.sound
+{
 	exterior_sound: true
 
 	start: .start
@@ -323,40 +324,40 @@ sound_data: .t
 sound_data: .airgear0
 {
 	name: "/sound/truck/man/ext/gear1.ogg"
-	volume: 0.6
+	volume: 1.0
 }
 
 sound_data: .airgear1
 {
 	name: "/sound/truck/man/ext/gear2.ogg"
-	volume: 0.6
+	volume: 1.0
 }
 
 sound_data: .airgear2
 {
 	name: "/sound/truck/man/ext/gear3.ogg"
-	volume: 0.6
+	volume: 1.0
 }
 
 sound_data: .airbrake0
 {
 	name: "/sound/truck/volvo/int/air_brake1.ogg"
 	looped: false
-	volume: 0.7
+	volume: 0.9
 }
 
 sound_data: .airbrake1
 {
 	name: "/sound/truck/volvo/int/air_brake2.ogg"
 	looped: false
-	volume: 0.7
+	volume: 0.9
 }
 
 sound_data: .airbrake2
 {
 	name: "/sound/truck/volvo/int/air_brake3.ogg"
 	looped: false
-	volume: 0.7
+	volume: 0.9
 }
 
 sound_engine_data: .eb
@@ -367,27 +368,29 @@ sound_engine_data: .eb
 	pitch_reference: 1850
 	min_rpm: 200.0
 	max_rpm: 3000.0
-}sound_data: .ahorn
+}
+
+
+sound_data: .ahorn
 {
 	name: "/sound/truck/man/ext/air_horn.ogg"
 	looped: true
-        volume: 1.08
+        volume: 4.0
 }
 
 sound_data: .horn
 {
 	name: "/sound/truck/volvo/ext/horn.ogg"
 	looped: true
-	volume: 0.7
+	volume: 3.6
 }
 
 sound_data: .reverse
 {
 	name: "/sound/truck/volvo/ext/reverse.ogg"
 	looped: true
-	volume: 1.7
+	volume: 3.8
 }
-
 
 @include "/def/vehicle/truck/man_tga_2006_ext_data.sui"
 

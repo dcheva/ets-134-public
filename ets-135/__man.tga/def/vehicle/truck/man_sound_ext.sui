@@ -1,4 +1,3 @@
-
 # Common truck sound list.
 # Units have to be defined with same names as in "common_sound_ext_data.sui".
 
@@ -31,7 +30,9 @@
 	wheel_asphalt[]: .was15
 	wheel_asphalt[]: .was16
 	wheel_asphalt[]: .was17
+
 	wheel_rumble[]: .wru
+
 	wheel_gravel[]: .wgrv0
 	wheel_gravel[]: .wgrv1
 	wheel_gravel[]: .wgrv2

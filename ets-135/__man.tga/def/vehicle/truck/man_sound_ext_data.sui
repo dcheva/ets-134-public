@@ -243,7 +243,7 @@ sound_noise_data: .wgrv0
 	min_speed: 5.0
 	max_speed: 40.0
 	pitch_reference: 25.0
-	volume: 2.7
+	volume: 4.0
 }
 
 sound_noise_data: .wgrv1
@@ -253,7 +253,7 @@ sound_noise_data: .wgrv1
 	min_speed: 23.0
 	max_speed: 65.0
 	pitch_reference: 45.0
-	volume: 2.9
+	volume: 4.0
 }
 
 sound_noise_data: .wgrv2
@@ -263,7 +263,7 @@ sound_noise_data: .wgrv2
 	min_speed: 45.0
 	max_speed: 110.0
 	pitch_reference: 83.0
-	volume: 3.0
+	volume: 4.0
 }
 sound_noise_data: .wgrv3
 {
@@ -272,7 +272,7 @@ sound_noise_data: .wgrv3
 	min_speed: 90.0
 	max_speed: 200.0
 	pitch_reference: 130.0
-	volume: 3.3
+	volume: 4.0
 }
 
 sound_noise_data: .wgrs0
@@ -282,7 +282,7 @@ sound_noise_data: .wgrs0
 	min_speed: 5.0
 	max_speed: 45.0
 	pitch_reference: 28.0
-	volume: 2.65
+	volume: 4.0
 }
 
 
@@ -293,7 +293,7 @@ sound_noise_data: .wgrs1
 	min_speed: 30.0
 	max_speed: 90.0
 	pitch_reference: 65.0
-	volume: 2.75
+	volume: 4.0
 }
 
 sound_noise_data: .wgrs2
@@ -303,7 +303,7 @@ sound_noise_data: .wgrs2
 	min_speed: 65.0
 	max_speed: 200.0
 	pitch_reference: 120.0
-	volume: 2.85
+	volume: 4.0
 }
 
 # Suspension noise.
@@ -312,56 +312,56 @@ sound_data: .sunoise0
 {
 	name: "/sound/truck/noises/small_obstacle/ext/suspension_ext_01.ogg"
 	looped: false
-	volume: 0.7	
+	volume: 4.0	
 }
 
 sound_data: .sunoise1
 {
 	name: "/sound/truck/noises/small_obstacle/ext/suspension_ext_02.ogg"
 	looped: false
-	volume: 0.7
+	volume: 4.0
 }
 
 sound_data: .sunoise2
 {
 	name: "/sound/truck/noises/small_obstacle/ext/suspension_ext_03.ogg"
 	looped: false
-	volume: 0.7
+	volume: 4.0
 }
 
 sound_data: .sunoise3
 {
 	name: "/sound/truck/noises/small_obstacle/ext/suspension_ext_04.ogg"
 	looped: false
-	volume: 0.7
+	volume: 4.0
 }
 
 sound_data: .sunoise4
 {
 	name: "/sound/truck/noises/small_obstacle/ext/suspension_ext_05.ogg"
 	looped: false
-	volume: 0.7
+	volume: 4.0
 }
 
 sound_data: .sunoise5
 {
 	name: "/sound/truck/noises/small_obstacle/ext/suspension_ext_06.ogg"
 	looped: false
-	volume: 0.7
+	volume: 4.0
 }
 
 sound_data: .sunoise6
 {
 	name: "/sound/truck/noises/small_obstacle/ext/suspension_ext_07.ogg"
 	looped: false
-	volume: 0.7
+	volume: 4.0
 }
 
 sound_data: .sunoise7
 {
 	name: "/sound/truck/noises/small_obstacle/ext/suspension_ext_08.ogg"
 	looped: false
-	volume: 0.7
+	volume: 4.0
 }
 
 # Crach sounds: metal, hard, soft, scratch (loop)

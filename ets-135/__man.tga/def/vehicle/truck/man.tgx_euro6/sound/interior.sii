@@ -1,6 +1,7 @@
 SiiNunit
 {
-accessory_sound_data : int.man.tgx_euro6.sound{
+accessory_sound_data : int.man.tgx_euro6.sound
+{
 	exterior_sound: false
 
 	start: .start
@@ -374,23 +375,28 @@ sound_engine_data: .eb
   volume: 0.95
 }
 
-sound_data: .horn
-{
-	name: "/sound/truck/man/int/horn.ogg"
-	looped: true  volume: 0.5
-}sound_data: .ahorn
+
+sound_data: .ahorn
 {
 	name: "/sound/truck/man/int/air_horn.ogg"
 	looped: true
-        volume: 0.98
+        volume: 4.0
+}
+
+sound_data: .horn
+{
+	name: "/sound/truck/volvo/int/horn.ogg"
+	looped: true
+	volume: 3.6
 }
 
 sound_data: .reverse
 {
 	name: "/sound/truck/volvo/int/reverse.ogg"
-	looped: true  
-	volume: 0.7
+	looped: true
+	volume: 3.8
 }
+
 
 sound_data: .changeg
 {
