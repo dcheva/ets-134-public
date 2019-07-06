@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.204.6cfb.8de0 {
+input_config : _nameless.251.cbd6.b590 {
  version: 11
  config_lines: 406
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -178,7 +178,7 @@ input_config : _nameless.204.6cfb.8de0 {
  config_lines[172]: "mix camrotate `mouse.button_right?0 | semantical.camrotate?0`"
  config_lines[173]: "mix camzoomin `mouse.wheel_up?0 | semantical.camzoomin?0`"
  config_lines[174]: "mix camzoomout `mouse.wheel_down?0 | semantical.camzoomout?0`"
- config_lines[175]: "mix camzoom `keyboard.backspace?0 | keyboard.num8?0 | semantical.camzoom?0`"
+ config_lines[175]: "mix camzoom `keyboard.backspace?0 | keyboard.uarrow?0 | semantical.camzoom?0`"
  config_lines[176]: "mix camfwd `keyboard.num8?0 | semantical.camfwd?0`"
  config_lines[177]: "mix camback `keyboard.num5?0 | semantical.camback?0`"
  config_lines[178]: "mix camleft `keyboard.num4?0 | semantical.camleft?0`"
@@ -198,7 +198,7 @@ input_config : _nameless.204.6cfb.8de0 {
  config_lines[192]: "mix looklranaspd `looklranaraw * c_jrspeed`"
  config_lines[193]: "mix looklrspd `looklrdigspd + looklranaspd`"
  config_lines[194]: "mix lookudspd `lookudanaraw * c_jrspeed`"
- config_lines[195]: "mix lookpos1 `keyboard.num5?0 | keyboard.uarrow?0 | semantical.lookpos1?0`"
+ config_lines[195]: "mix lookpos1 `keyboard.num5?0 | mouse.button_left?0 | semantical.lookpos1?0`"
  config_lines[196]: "mix lookpos2 `keyboard.num9?0 | semantical.lookpos2?0`"
  config_lines[197]: "mix lookpos3 `keyboard.num7?0 | semantical.lookpos3?0`"
  config_lines[198]: "mix lookpos4 `keyboard.num6?0 | semantical.lookpos4?0`"
@@ -249,7 +249,7 @@ input_config : _nameless.204.6cfb.8de0 {
  config_lines[243]: "mix msteering `-mouse.rel_position.x?0 * c_msens`"
  config_lines[244]: "mix mpedals `-mouse.rel_position.y?0 * c_msens`"
  config_lines[245]: "mix dforward `keyboard.a?0`"
- config_lines[246]: "mix dbackward `keyboard.z?0 | mouse.button_left?0`"
+ config_lines[246]: "mix dbackward `keyboard.z?0`"
  config_lines[247]: "mix aforward `normalize(sel(c_jzthrottle, sel(c_jithrottle, -j_throttle?0, j_throttle?0), sel(c_jithrottle, j_throttle?1 * -0.5 + 0.5, j_throttle?-1 * 0.5 + 0.5)), c_throt_dz) + semantical.aforward?0`"
  config_lines[248]: "mix abackward `normalize(sel(c_jzbrake, sel(c_jibrake, -j_brake?0, j_brake?0), sel(c_jibrake, j_brake?1 * -0.5 + 0.5, j_brake?-1 * 0.5 + 0.5)), c_brake_dz) + semantical.abackward?0`"
  config_lines[249]: "mix forward `dforward + aforward`"
