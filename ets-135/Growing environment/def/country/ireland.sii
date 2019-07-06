@@ -1,0 +1,23 @@
+
+country_data: country.data.ireland
+{
+	name: "Ireland"
+	name_localized: "@@ireland@@"
+	country_code: "IRL"
+	pos:(-69000, 0, -33000)
+	fuel_price: 1.35
+	country_id: 27
+	lights_mandatory: false
+	imperial_units: false
+	leftside_traffic: true
+	driving_tired_offence: true
+	
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "WEST"
+	
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 44000	# 44t for 40ft containers :(
+}
+

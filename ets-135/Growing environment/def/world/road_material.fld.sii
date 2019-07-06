@@ -1,0 +1,200 @@
+SiiNunit
+{
+# by FLD / TZ express map
+road_material_def : road_mat.0fld {
+	path: "/material/road/asphalt_x_00.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.1fld {
+	path: "/material/road/asphalt_00.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.2fld {
+	path: "/material/road/asphalt_01.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.3fld {
+	path: "/material/road/asphalt_02.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.4fld {
+	path: "/material/road/asphalt_03.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.5fld {
+	path: "/material/road/asphalt_04.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.6fld {
+	path: "/material/road/asphalt_05.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.7fld {
+	path: "/material/road/asphalt_06.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.8fld {
+	path: "/material/road/asphalt_x_01.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.9fld {
+	path: "/material/road/asphalt_x_02.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.10fld {
+	path: "/material/road/asphalt_x_03.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.11fld {
+	path: "/material/road/asphalt_x_04.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.12fld {
+	path: "/material/road/asphalt_x_05.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.13fld {
+	path: "/material/road/asphalt_x_06.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.14fld {
+	path: "/material/road/asphalt_x_07.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.15fld {
+	path: "/material/road/asphalt_x_08.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.16fld {
+	path: "/material/road/asphalt_x_09.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.17fld {
+	path: "/material/road/asphalt_off0.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.18fld {
+	path: "/material/road/asphalt_off1.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.19fld {
+	path: "/material/road/asphalt_x_10.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.20fld {
+	path: "/material/road/asphalt_x_11.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.21fld {
+	path: "/material/road/asphalt_x_12.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.22fld {
+	path: "/material/road/asphalt_x_13.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.23fld {
+	path: "/material/road/asphalt_x_14.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.24fld {
+	path: "/material/road/asphalt_x_15.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.25fld {
+	path: "/material/road/asphalt_x_16.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.26fld {
+	path: "/material/road/asphalt_x_17.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.27fld {
+	path: "/material/road/asphalt_x_18.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.28fld {
+	path: "/material/road/asphalt_x_19.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.29fld {
+	path: "/material/road/asphalt_x_20.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.30fld {
+	path: "/material/road/asphalt_x_21.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.31fld {
+	path: "/material/road/asphalt_x_22.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.32fld {
+	path: "/material/road/asphalt_x_23.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.33fld {
+	path: "/material/road/asphalt_x_24.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.34fld {
+	path: "/material/road/asphalt_x_25.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.35fld {
+	path: "/material/road/asphalt_x_26.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.36fld {
+	path: "/material/road/asphalt_x_27.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.37fld {
+	path: "/material/road/asphalt_x_28.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.38fld {
+	path: "/material/road/asphalt_x_29.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.39fld {
+	path: "/material/road/old_city_road_2.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.40fld {
+	path: "/material/road/asphalt_x_30.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.41fld {
+	path: "/material/road/alphalt_snow.mat"
+	kerb: "/material/road/kerb_snow.mat"
+}
+road_material_def : road_mat.42fld {
+	path: "/material/road/asphalt_x_31.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.43fld {
+	path: "/material/road/asphalt_x_32.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.44fld {
+	path: "/material/road/asphalt_x_33.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.45fld {
+	path: "/material/road/asphalt_x_34.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.46fld {
+	path: "/material/road/asphalt_x_35.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.47fld {
+	path: "/material/road/asphalt_x_36.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.48fld {
+	path: "/material/road/asphalt_x_37.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+}

@@ -1,0 +1,22 @@
+SiiNunit
+{
+
+prefab_model : prefab.aj1 {
+	model_desc: "/prefab/norway/gas_depot_no1.pmd"
+	prefab_desc: "/prefab/norway/gas_depot_no1.ppd"
+	slow_time: true	
+}
+
+prefab_model : prefab.aj2 {
+	model_desc: "/prefab/norway/gas_depot_no2.pmd"
+	prefab_desc: "/prefab/norway/gas_depot_no2.ppd"
+	slow_time: true	
+}
+
+prefab_model : prefab.aj3 {
+	model_desc: "/prefab/norway/gas_depot_no3.pmd"
+	prefab_desc: "/prefab/norway/gas_depot_no3.ppd"
+	slow_time: true	
+}
+}
+

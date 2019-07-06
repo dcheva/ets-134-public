@@ -1,0 +1,24 @@
+
+country_data: country.data.iom
+{
+	name: "Isle of Man"
+	name_localized: "@@isleofman@@"
+	country_code: "GBM"
+	pos:(-53980, 0, -36245)
+	fuel_price: 1.29
+	country_id: 203
+	lights_mandatory: false
+	imperial_units: true
+	leftside_traffic: true
+	driving_tired_offence: true
+	trailer_standalone: true
+	
+	time_zone: 60		# +1 hours in minutes
+	time_zone_name: "BST"
+	
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 38000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 44000
+}

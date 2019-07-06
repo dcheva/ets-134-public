@@ -1,0 +1,135 @@
+SiiNunit
+{
+model_def : model.igf14 {
+	model_desc: "/model/bridge/puente_piedra.pmd"
+	category: "bridge"
+}	
+model_def : model.igf14_01 {
+	model_desc: "/model/igf14/es_rocks/es_rock_wall03.pmd"
+	category: "es_rocks"
+}	
+model_def : model.igf14_02 {
+	model_desc: "/model/igf14/es_rocks/es_rock_wall03a.pmd"
+	category: "es_rocks"
+}
+model_def : model.igf14_03 {
+	model_desc: "/model/igf14/cross/cross_y.pmd"
+}
+model_def : model.igf14_04 {
+	model_desc: "/model/igf14/osborne/osborne_left.pmd"
+}	
+model_def : model.igf14_05 {
+	model_desc: "/model/igf14/osborne/osborne_right.pmd"
+}
+model_def : model.igf14_06 {
+	model_desc: "/model/igf14/balise/balise.pmd"
+}	
+model_def : model.igf14_07 {
+	model_desc: "/model/igf14/logistic/spain_logistic1.pmd"
+}
+model_def : model.igf14_08 {
+	model_desc: "/model/igf14/easter_egg/easter_egg.pmd"
+}
+model_def : model.igf14_09 {
+	model_desc: "/model/igf14/panorama/base_panorama.pmd"
+}
+model_def : model.igf14_10 {
+	model_desc: "/model/igf14/panorama/huesca/huesca_plaza.pmd"
+}
+model_def : model.igf14_11 {
+	model_desc: "/model/igf14/madrid/madrid_moreras.pmd"
+}
+model_def : model.igf14_12 {
+	model_desc: "/model/igf14/automic_comunities.pmd"
+}
+#model_def : model.igf14_13 {
+#	model_desc: "/model/rock/ca_rock/ca_far_hills01a.pmd"
+#	category: "es_rocks"
+#}
+model_def : model.igf14_14 {
+	model_desc: "/model/rock/hills/az_hill_01.pmd"
+	category: "es_rocks"
+}
+#model_def : model.igf14_15 {
+#	model_desc: "/model/rock/hills/az_hill_01_nrm.pmd"
+#	category: "es_rocks"
+#}
+model_def : model.igf14_16 {
+	model_desc: "/model/rock/hills/az_hill_02.pmd"
+	category: "es_rocks"
+}	
+model_def : model.igf14_17 {
+	model_desc: "/model/rock/hills/az_hill_03.pmd"
+	category: "es_rocks"
+}
+model_def : model.igf14_18 {
+	model_desc: "/model/panorama/az_rock/az_cliff_eroded01.pmd"
+	category: "es_rocks"
+}
+model_def : model.igf14_19 {
+	model_desc: "/model/panorama/az_rock/az_cliff_top.pmd"
+	category: "es_rocks"
+}
+model_def : model.igf14_20 {
+	model_desc: "/model/panorama/az_rock/az_cliff_top2.pmd"
+	category: "es_rocks"
+}	
+model_def : model.igf14_21 {
+	model_desc: "/model/panorama/az_rock/az_cliff_top3.pmd"
+	category: "es_rocks"
+}		
+model_def : model.igf14_22 {
+	model_desc: "/model/panorama/az_rock/az_cliff_top4.pmd"
+	category: "es_rocks"
+}
+model_def : model.igf14_23 {
+	model_desc: "/model/panorama/az_rock/az_cliff1.pmd"
+	category: "es_rocks"
+}
+model_def : model.igf14_24 {
+	model_desc: "/model/panorama/az_rock/az_cliff1a.pmd"
+	category: "es_rocks"
+}	
+
+model_def : model.igf14_24b {
+	model_desc: "/model/panorama/az_rock/az_cliff_full.pmd"
+	category: "es_rocks"
+}	
+
+model_def : model.igf14_25 {
+	model_desc: "/model/panorama/az_rock/az_cliff2.pmd"
+	category: "es_rocks"
+}	
+#model_def : model.igf14_26 {
+#	model_desc: "/model/panorama/az_rock/az_grandcanyon.pmd"
+#	category: "es_rocks"
+#}
+#model_def : model.igf14_27 {
+#	model_desc: "/model/panorama/az_rock/az_grandcanyon_small.pmd"
+#	category: "es_rocks"
+#}		
+#model_def : model.igf14_28 {
+#	model_desc: "/model/panorama/az_rock/az_rock.pmd"
+#	category: "es_rocks"
+#}		
+model_def : model.igf14_29 {
+	model_desc: "/model/panorama/az_rock/rock_table_1.pmd"
+	category: "es_rocks"
+}	
+model_def : model.igf14_30 {
+	model_desc: "/model/panorama/az_rock/rock_table_2.pmd"
+	category: "es_rocks"
+}	
+model_def : model.igf14_31 {
+	model_desc: "/model/panorama/az_rock/rock_table_3.pmd"
+	category: "es_rocks"
+}	
+model_def : model.igf14_32 {
+	model_desc: "/model/panorama/az_rock/rock_table_4.pmd"
+	category: "es_rocks"
+}
+model_def : model.igf14_33 {
+	model_desc: "/model/panorama/arch.pmd"
+	category: "promods"
+}										
+}

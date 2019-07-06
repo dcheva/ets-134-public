@@ -1,0 +1,316 @@
+SiiNunit
+{
+road_material_def : road_mat.22prm {
+	path: "/material/road/asphalt_demo_road01.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.23prm {
+	path: "/material/road/asphalt_dk.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.24prm {
+	path: "/material/road/asphalt_no_br.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.25prm {
+	path: "/material/road/asphalt_se.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.33prm {
+	path: "/material/road/asphalt_x0.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.34prm {
+	path: "/material/road/asphalt_00.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.35prm {
+	path: "/material/road/asphalt_01.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.36prm {
+	path: "/material/road/asphalt_02.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.37prm {
+	path: "/material/road/asphalt_03.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.38prm {
+	path: "/material/road/asphalt_04.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.39prm {
+	path: "/material/road/asphalt_05.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.40prm {
+	path: "/material/road/asphalt_06.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.41prm {
+	path: "/material/road/asphalt_x1.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.42prm {
+	path: "/material/road/asphalt_x2.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.43prm {
+	path: "/material/road/asphalt_x3.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.44prm {
+	path: "/material/road/asphalt_x4.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.45prm {
+	path: "/material/road/asphalt_x5.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.46prm {
+	path: "/material/road/asphalt_x6.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.47prm {
+	path: "/material/road/asphalt_x7.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.48prm {
+	path: "/material/road/asphalt_x8.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.49prm {
+	path: "/material/road/asphalt_x9.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.50prm {
+	path: "/material/road/asphalt_off0.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.51prm {
+	path: "/material/road/asphalt_off1.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.52prm {
+	path: "/material/road/asphalt_no_li.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.53prm {
+	path: "/material/road/asphalt_ire.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.54prm {
+	path: "/material/road/asphalt_ire2.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.55prm {
+	path: "/material/road/asphalt_old_ire.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.56prm {
+	path: "/material/road/asphalt_fresh.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.57prm {
+	path: "/material/road/hw_new_dk1.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.58prm {
+	path: "/material/road/hw_new_dk2.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.59prm {
+	path: "/material/road/hw_new_dk3.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.60prm {
+	path: "/material/road/hw_old_sl1.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.61prm {
+	path: "/material/road/hw_old_sl2.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.62prm {
+	path: "/material/road/hw_old_sl3.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.63prm {
+	path: "/material/road/hw_def_dk1.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.64prm {
+	path: "/material/road/hw_def_dk2.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.65prm {
+	path: "/material/road/hw_def_dk3.mat"
+	kerb: "/material/road/kerb_tile.mat"
+	
+}	
+road_material_def : road_mat.66prm {
+	path: "/material/road/hw_def_de1.mat"
+	kerb: "/material/road/kerb_tile.mat"
+	
+}	
+road_material_def : road_mat.67prm {
+	path: "/material/road/hw_def_de2.mat"
+	kerb: "/material/road/kerb_tile.mat"
+	
+}
+road_material_def : road_mat.68prm {
+	path: "/material/road/invisible.mat"
+	kerb: "/material/road/invisible.mat"
+}
+road_material_def : road_mat.69prm {
+	path: "/material/road/hw_plate01.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.70prm {
+	path: "/material/road/hw_def_nl1.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.71prm {
+	path: "/material/road/hw_def_nl2.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.72prm {
+	path: "/material/road/hw_def_nl3.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.73prm {
+	path: "/material/road/hw_def_nie.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.74prm {
+	path: "/material/road/hw_def_gb.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.75prm {
+	path: "/material/road/asphalt_dirt_ru.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.76prm {
+	path: "/material/road/hw_def_it1.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.77prm {
+	path: "/material/road/hw_def_it2.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.78prm {
+	path: "/material/road/hw_def_it3.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.79prm {
+	path: "/material/road/hw_def_it4.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.80prm {
+	path: "/material/road/hw_def_it5.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.81prm {
+		path: "/material/road/_pl_005.mat"
+		kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.82prm {
+	path: "/material/road/y_ground_path6.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.83prm {
+	path: "/material/road/ground_demo_path01.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.84prm {
+	path: "/material/road/road_works.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.85prm {
+	path: "/material/road/asphalt3_plates.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+
+road_material_def : road_mat.86prm {
+	path: "/material/road/asphalt_bus.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.87prm {
+	path: "/material/road/hw_uk_1.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.88prm {
+	path: "/material/road/hw_uk_2.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.89prm {
+	path: "/material/road/hw_uk_3.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.90prm {
+	path: "/material/road/hw_def_it6.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.91prm {
+	path: "/material/road/hw_def_fr1.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.92prm {
+	path: "/material/road/hw_def_fr2.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.93prm {
+	path: "/material/road/hw_def_fr3.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.94prm {
+	path: "/material/road/hw_def_fr4.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+road_material_def : road_mat.95prm {
+	path: "/material/road/hw_def_fr5.mat"
+	kerb: "/material/road/kerb_tile.mat"
+}
+}

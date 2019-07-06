@@ -1,0 +1,347 @@
+# base[]: traffic.trailer.fridge
+
+traffic_trailer : traffic.trailer.fridge.bondi {
+	accessories[]: .traffic.fridge.tchassis.bondi
+	accessories[]: .traffic.fridge.trwheel0.bondi
+	accessories[]: .traffic.fridge.trwheel1.bondi
+	accessories[]: .traffic.fridge.trwheel2.bondi
+	accessories[]: .traffic.fridge.paintjob.bondi
+	cargo_mass: 19000
+	base: traffic.trailer.fridge
+}
+vehicle_accessory: .traffic.fridge.tchassis.bondi {
+	data_path: "/def/vehicle/trailer/krone/fridge/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel0.bondi {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel1.bondi {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel2.bondi {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .traffic.fridge.paintjob.bondi {
+    	data_path: "/def/vehicle/trailer/krone/fridge/company_paint_job/bondi.sii"
+}
+
+
+traffic_trailer : traffic.trailer.fridge.deret {
+	accessories[]: .traffic.fridge.tchassis.deret
+	accessories[]: .traffic.fridge.trwheel0.deret
+	accessories[]: .traffic.fridge.trwheel1.deret
+	accessories[]: .traffic.fridge.trwheel2.deret
+	accessories[]: .traffic.fridge.paintjob.deret
+	cargo_mass: 19000
+	base: traffic.trailer.fridge
+}
+vehicle_accessory: .traffic.fridge.tchassis.deret {
+	data_path: "/def/vehicle/trailer/krone/fridge/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel0.deret {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel1.deret {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel2.deret {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .traffic.fridge.paintjob.deret {
+    	data_path: "/def/vehicle/trailer/krone/fridge/company_paint_job/deret.sii"
+}
+
+
+traffic_trailer : traffic.trailer.fridge.eimskip {
+	accessories[]: .traffic.fridge.tchassis.eimskip
+	accessories[]: .traffic.fridge.trwheel0.eimskip
+	accessories[]: .traffic.fridge.trwheel1.eimskip
+	accessories[]: .traffic.fridge.trwheel2.eimskip
+	accessories[]: .traffic.fridge.paintjob.eimskip
+	cargo_mass: 19000
+	base: traffic.trailer.fridge
+}
+vehicle_accessory: .traffic.fridge.tchassis.eimskip {
+	data_path: "/def/vehicle/trailer/krone/fridge/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel0.eimskip {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel1.eimskip {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel2.eimskip {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .traffic.fridge.paintjob.eimskip {
+    data_path: "/def/vehicle/trailer/krone/fridge/company_paint_job/eimskip.sii"
+}
+
+
+traffic_trailer : traffic.trailer.fridge.hb_grandi {
+	accessories[]: .traffic.fridge.tchassis.hb_grandi
+	accessories[]: .traffic.fridge.trwheel0.hb_grandi
+	accessories[]: .traffic.fridge.trwheel1.hb_grandi
+	accessories[]: .traffic.fridge.trwheel2.hb_grandi
+	accessories[]: .traffic.fridge.paintjob.hb_grandi
+	cargo_mass: 19000
+	base: traffic.trailer.fridge
+}
+vehicle_accessory: .traffic.fridge.tchassis.hb_grandi {
+	data_path: "/def/vehicle/trailer/krone/fridge/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel0.hb_grandi {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel1.hb_grandi {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel2.hb_grandi {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .traffic.fridge.paintjob.hb_grandi {
+    	data_path: "/def/vehicle/trailer/krone/fridge/company_paint_job/hb_grandi.sii"
+}
+
+
+traffic_trailer : traffic.trailer.fridge.icelandair {
+	accessories[]: .traffic.fridge.tchassis.icelandair
+	accessories[]: .traffic.fridge.trwheel0.icelandair
+	accessories[]: .traffic.fridge.trwheel1.icelandair
+	accessories[]: .traffic.fridge.trwheel2.icelandair
+	accessories[]: .traffic.fridge.paintjob.icelandair
+	cargo_mass: 19000
+	base: traffic.trailer.fridge
+}
+vehicle_accessory: .traffic.fridge.tchassis.icelandair {
+	data_path: "/def/vehicle/trailer/krone/fridge/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel0.icelandair {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel1.icelandair {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel2.icelandair {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .traffic.fridge.paintjob.icelandair {
+    	data_path: "/def/vehicle/trailer/krone/fridge/company_paint_job/icelandair.sii"
+}
+
+
+traffic_trailer : traffic.trailer.fridge.mazet {
+	accessories[]: .traffic.fridge.tchassis.mazet
+	accessories[]: .traffic.fridge.trwheel0.mazet
+	accessories[]: .traffic.fridge.trwheel1.mazet
+	accessories[]: .traffic.fridge.trwheel2.mazet
+	accessories[]: .traffic.fridge.paintjob.mazet
+	cargo_mass: 19000
+	base: traffic.trailer.fridge
+}
+vehicle_accessory: .traffic.fridge.tchassis.mazet {
+	data_path: "/def/vehicle/trailer/krone/fridge/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel0.mazet {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel1.mazet {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel2.mazet {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .traffic.fridge.paintjob.mazet {
+    	data_path: "/def/vehicle/trailer/krone/fridge/company_paint_job/mazet.sii"
+}
+
+
+traffic_trailer : traffic.trailer.fridge.metro {
+	accessories[]: .traffic.fridge.tchassis.metro
+	accessories[]: .traffic.fridge.trwheel0.metro
+	accessories[]: .traffic.fridge.trwheel1.metro
+	accessories[]: .traffic.fridge.trwheel2.metro
+	accessories[]: .traffic.fridge.paintjob.metro
+	cargo_mass: 19000
+	base: traffic.trailer.fridge
+}
+vehicle_accessory: .traffic.fridge.tchassis.metro {
+	data_path: "/def/vehicle/trailer/krone/fridge/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel0.metro {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel1.metro {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel2.metro {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .traffic.fridge.paintjob.metro {
+    	data_path: "/def/vehicle/trailer/krone/fridge/company_paint_job/metro.sii"
+}
+
+
+traffic_trailer : traffic.trailer.fridge.nd {
+	accessories[]: .traffic.fridge.tchassis.nd
+	accessories[]: .traffic.fridge.trwheel0.nd
+	accessories[]: .traffic.fridge.trwheel1.nd
+	accessories[]: .traffic.fridge.trwheel2.nd
+	accessories[]: .traffic.fridge.paintjob.nd
+	cargo_mass: 19000
+	base: traffic.trailer.fridge
+}
+vehicle_accessory: .traffic.fridge.tchassis.nd {
+	data_path: "/def/vehicle/trailer/krone/fridge/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel0.nd {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel1.nd {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel2.nd {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .traffic.fridge.paintjob.nd {
+    	data_path: "/def/vehicle/trailer/krone/fridge/company_paint_job/nd.sii"
+}
+
+
+traffic_trailer : traffic.trailer.fridge.samskip {
+	accessories[]: .traffic.fridge.tchassis.samskip
+	accessories[]: .traffic.fridge.trwheel0.samskip
+	accessories[]: .traffic.fridge.trwheel1.samskip
+	accessories[]: .traffic.fridge.trwheel2.samskip
+	accessories[]: .traffic.fridge.paintjob.samskip
+	cargo_mass: 19000
+	base: traffic.trailer.fridge
+}
+vehicle_accessory: .traffic.fridge.tchassis.samskip {
+	data_path: "/def/vehicle/trailer/krone/fridge/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel0.samskip {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel1.samskip {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel2.samskip {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .traffic.fridge.paintjob.samskip {
+    	data_path: "/def/vehicle/trailer/krone/fridge/company_paint_job/samskip.sii"
+}
+
+
+traffic_trailer : traffic.trailer.fridge.smyril {
+	accessories[]: .traffic.fridge.tchassis.smyril
+	accessories[]: .traffic.fridge.trwheel0.smyril
+	accessories[]: .traffic.fridge.trwheel1.smyril
+	accessories[]: .traffic.fridge.trwheel2.smyril
+	accessories[]: .traffic.fridge.paintjob.smyril
+	cargo_mass: 19000
+	base: traffic.trailer.fridge
+}
+vehicle_accessory: .traffic.fridge.tchassis.smyril {
+	data_path: "/def/vehicle/trailer/krone/fridge/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel0.smyril { 
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel1.smyril {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel2.smyril {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .traffic.fridge.paintjob.smyril {
+    	data_path: "/def/vehicle/trailer/krone/fridge/company_paint_job/smyril.sii"
+}
+
+
+traffic_trailer : traffic.trailer.fridge.xxxlutz {
+	accessories[]: .traffic.fridge.tchassis.xxxlutz
+	accessories[]: .traffic.fridge.trwheel0.xxxlutz
+	accessories[]: .traffic.fridge.trwheel1.xxxlutz
+	accessories[]: .traffic.fridge.trwheel2.xxxlutz
+	accessories[]: .traffic.fridge.paintjob.xxxlutz
+	cargo_mass: 19000
+	base: traffic.trailer.fridge
+}
+vehicle_accessory: .traffic.fridge.tchassis.xxxlutz {
+	data_path: "/def/vehicle/trailer/krone/fridge/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel0.xxxlutz {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel1.xxxlutz {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel2.xxxlutz {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .traffic.fridge.paintjob.xxxlutz {
+    	data_path: "/def/vehicle/trailer/krone/fridge/company_paint_job/xxxlutz.sii"
+}
+
+traffic_trailer : traffic.trailer.fridge.lidl {
+	accessories[]: .traffic.fridge.tchassis.lidl
+	accessories[]: .traffic.fridge.trwheel0.lidl
+	accessories[]: .traffic.fridge.trwheel1.lidl
+	accessories[]: .traffic.fridge.trwheel2.lidl
+	accessories[]: .traffic.fridge.paintjob.lidl
+	cargo_mass: 19000
+	base: traffic.trailer.fridge
+}
+vehicle_accessory: .traffic.fridge.tchassis.lidl {
+	data_path: "/def/vehicle/trailer/krone/fridge/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel0.lidl {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel1.lidl {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .traffic.fridge.trwheel2.lidl {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .traffic.fridge.paintjob.lidl {
+    	data_path: "/def/vehicle/trailer/krone/fridge/company_paint_job/lidl.sii"
+}

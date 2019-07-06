@@ -1,0 +1,17 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+building_model : bld_model.tram01 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/tram/tram_track.pmd"
+	look_name: default
+}
+}

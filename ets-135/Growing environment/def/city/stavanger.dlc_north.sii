@@ -1,0 +1,104 @@
+city_data: city.stavanger
+{
+	city_name: "Stavanger"
+	city_name_localized: "@@stavanger@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -54
+	map_x_offsets[]: -49
+	map_x_offsets[]: -44
+	map_x_offsets[]: -44
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -73
+	map_y_offsets[]: -41
+	map_y_offsets[]: -17
+	map_y_offsets[]: -27
+
+	ai_lp_template[]:"R0 12222"
+
+	ai_lp_def0[]:"E"
+	ai_lp_def0[]:"F"
+	ai_lp_def0[]:"H"
+	ai_lp_def0[]:"J"
+	ai_lp_def0[]:"K"
+	ai_lp_def0[]:"L"
+	ai_lp_def0[]:"N"
+	ai_lp_def0[]:"P"
+	ai_lp_def0[]:"R"
+	ai_lp_def0[]:"S"
+	ai_lp_def0[]:"T"
+	ai_lp_def0[]:"U"
+	ai_lp_def0[]:"V"
+	ai_lp_def0[]:"X"
+	ai_lp_def0[]:"Y"
+	ai_lp_def0[]:"W"
+
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+
+	ai_lp_def2[]:"0"
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+
+	truck_lp_template[]:"R0 12222"
+
+	truck_lp_def0[]:"E"
+	truck_lp_def0[]:"F"
+	truck_lp_def0[]:"H"
+	truck_lp_def0[]:"J"
+	truck_lp_def0[]:"K"
+	truck_lp_def0[]:"L"
+	truck_lp_def0[]:"N"
+	truck_lp_def0[]:"P"
+	truck_lp_def0[]:"R"
+	truck_lp_def0[]:"S"
+	truck_lp_def0[]:"T"
+	truck_lp_def0[]:"U"
+	truck_lp_def0[]:"V"
+	truck_lp_def0[]:"X"
+	truck_lp_def0[]:"Y"
+	truck_lp_def0[]:"W"
+
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"0"
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+}

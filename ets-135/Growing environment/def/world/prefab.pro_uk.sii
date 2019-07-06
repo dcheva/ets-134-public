@@ -1,0 +1,1432 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+prefab_model : prefab.ukp_1 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl.ppd"
+	category: "promods_uk/cross/"
+
+	corner0[]: ukp45
+	corner0[]: ukp46
+	corner0[]: ukp47
+	corner0[]: ukp48
+	corner0[]: ukp49
+	corner0[]: ukp50
+	corner0[]: ukp51
+	corner0[]: ukp52
+	
+	corner1[]: ukp38
+	corner1[]: ukp39
+	corner1[]: ukp40
+	corner1[]: ukp41
+	corner1[]: ukp42
+	corner1[]: ukp43
+	corner1[]: ukp44
+
+	corner2[]: ukp45
+	corner2[]: ukp46
+	corner2[]: ukp47
+	corner2[]: ukp48
+	corner2[]: ukp49
+	corner2[]: ukp50
+	corner2[]: ukp51
+	corner2[]: ukp52
+	
+}
+
+prefab_model : prefab.ukp_2 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_exit_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_exit_tmpl.ppd"
+	category: "promods_uk/cross/"
+}
+
+prefab_model : prefab.ukp_3 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_exit_t_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_exit_t_tmpl.ppd"
+	category: "promods_uk/cross/"
+	
+	corner1[]: ukp45
+	corner1[]: ukp46
+	corner1[]: ukp47
+	corner1[]: ukp48
+	corner1[]: ukp49
+	corner1[]: ukp50
+	corner1[]: ukp51
+	corner1[]: ukp52
+
+	
+	corner2[]: ukp38
+	corner2[]: ukp39
+	corner2[]: ukp40
+	corner2[]: ukp41
+	corner2[]: ukp42
+	corner2[]: ukp43
+	corner2[]: ukp44
+
+	corner0[]: ukp45
+	corner0[]: ukp46
+	corner0[]: ukp47
+	corner0[]: ukp48
+	corner0[]: ukp49
+	corner0[]: ukp50
+	corner0[]: ukp51
+	corner0[]: ukp52
+}
+
+prefab_model : prefab.ukp_4 {
+	model_desc: "/prefab2/fork_temp/uk/uk_city_sw_end_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_city_sw_end_tmpl.ppd"
+	category: "promods_uk/fork/"
+	
+	corner0[]: ukp223
+	corner0[]: ukp225
+	corner0[]: ukp227 
+	corner0[]: ukp229 
+	corner0[]: ukp230 
+	corner0[]: ukp232
+	corner0[]: ukp233 
+	corner0[]: ukp235
+	corner0[]: ukp236 
+	corner0[]: ukp238
+	corner0[]: ukp239 
+	corner0[]: ukp241
+	
+	corner1[]: ukp224
+	corner1[]: ukp226
+	corner1[]: ukp228
+	corner1[]: ukp229
+	corner1[]: ukp231
+	corner1[]: ukp232
+	corner1[]: ukp234
+	corner1[]: ukp235
+	corner1[]: ukp237
+	corner1[]: ukp238
+	corner1[]: ukp240
+	corner1[]: ukp241
+
+
+}
+
+prefab_model : prefab.ukp_5 {
+	model_desc: "/prefab2/fork_temp/uk/uk_city_x_2lane_highway.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_city_x_2lane_highway.ppd"
+	category: "promods_uk/fork/"
+}
+
+#prefab_model : prefab.ukp_6 {
+#	model_desc: "/prefab2/fork_temp/uk/uk_exit_road_joint_mirrored_tmpl.pmd"
+#	prefab_desc: "/prefab2/fork_temp/uk/uk_exit_road_joint_mirrored_tmpl.ppd"
+#	category: "promods_uk/fork/"
+#}
+#
+#
+#prefab_model : prefab.ukp_7 {
+#	model_desc: "/prefab2/fork_temp/uk/uk_exit_road_joint_tmpl.pmd"
+#	prefab_desc: "/prefab2/fork_temp/uk/uk_exit_road_joint_tmpl.ppd"
+#	category: "promods_uk/fork/"
+#}
+
+prefab_model : prefab.ukp_8 {
+	model_desc: "/prefab2/fork_temp/uk/uk_fork_r2_x_r1_short_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_fork_r2_x_r1_short_tmpl.ppd"
+	category: "promods_uk/fork/"
+}
+
+prefab_model : prefab.ukp_9 {
+	model_desc: "/prefab2/fork_temp/uk/uk_gas1_fork_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_gas1_fork_mirrored_tmpl.ppd"
+	category: "promods_uk/fork/"
+}
+
+prefab_model : prefab.ukp_10 {
+	model_desc: "/prefab2/fork_temp/uk/uk_gas1_fork_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_gas1_fork_tmpl.ppd"
+	category: "promods_uk/fork/"
+}
+
+prefab_model : prefab.ukp_11 {
+	model_desc: "/prefab2/fork_temp/uk/uk_gas1_joint_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_gas1_joint_tmpl.ppd"
+	category: "promods_uk/fork/"
+}
+
+prefab_model : prefab.ukp_12 {
+	model_desc: "/prefab2/fork_temp/uk/uk_gas1_joint_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_gas1_joint_mirrored_tmpl.ppd"
+	category: "promods_uk/fork/"
+}
+
+prefab_model : prefab.ukp_13 {
+	model_desc: "/prefab2/fork_temp/uk/uk_gas1_joint2_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_gas1_joint2_mirrored_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+
+prefab_model : prefab.ukp_14 {
+	model_desc: "/prefab2/fork_temp/uk/uk_gas1_joint2_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_gas1_joint2_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_15 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2_exit_double.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2_exit_double.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_16 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2_exit_double_mirrored.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2_exit_double_mirrored.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_17 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2_exit_joint_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2_exit_joint_mirrored_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_18 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2_exit_joint_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2_exit_joint_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_19 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2_fork_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2_fork_narrow_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_20 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2_fork_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2_fork_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_21 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2_one_way_joint_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2_one_way_joint_mirrored_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+
+prefab_model : prefab.ukp_22 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2_one_way_joint_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2_one_way_joint_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_23 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2_sr_fork_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2_sr_fork_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_24 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2-hw1_joint_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2-hw1_joint_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_25 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2-hw1_merge.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2-hw1_merge.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_26 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2-hw1_merge_mirrored.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2-hw1_merge_mirrored.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_27 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2-hw2_exit_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2-hw2_exit_mirrored_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_28 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw2-hw2_exit_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw2-hw2_exit_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_29 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw3_exit_double.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw3_exit_double.ppd"
+	category: "promods_uk/fork/" 
+}
+
+
+prefab_model : prefab.ukp_30 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw3_exit_double_mirrored.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw3_exit_double_mirrored.ppd"
+	category: "promods_uk/fork/" 
+}
+
+
+prefab_model : prefab.ukp_31 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw3_exit_joint_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw3_exit_joint_mirrored_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+
+prefab_model : prefab.ukp_32 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw3_exit_joint_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw3_exit_joint_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_33 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw3_fork_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw3_fork_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_34 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw3_fork_tmpl_5m_offset.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw3_fork_tmpl_5m_offset.ppd"
+	category: "promods_uk/fork/" 
+}
+
+
+prefab_model : prefab.ukp_35 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw3_hw2_fork_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw3_hw2_fork_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+
+prefab_model : prefab.ukp_36 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw3_split_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw3_split_mirrored_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+
+prefab_model : prefab.ukp_37 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw3_split_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw3_split_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+
+prefab_model : prefab.ukp_38 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw3-hw3_exit_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw3-hw3_exit_mirrored_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+
+prefab_model : prefab.ukp_39 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw3-hw3_exit_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw3-hw3_exit_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_40 {
+	model_desc: "/prefab2/fork_temp/uk/uk_narrow_hw2_one_way_fork_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_narrow_hw2_one_way_fork_mirrored_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_41 {
+	model_desc: "/prefab2/fork_temp/uk/uk_narrow_hw2_one_way_fork_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_narrow_hw2_one_way_fork_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_42 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_minim_x_r1_t_minim_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_minim_x_r1_t_minim_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner0[]: ukp1
+	corner0[]: ukp4
+	corner0[]: ukp7
+	corner0[]: ukp10
+	corner0[]: ukp13
+	corner0[]: ukp16
+	corner0[]: ukp19
+	
+	corner1[]: ukp2
+	corner1[]: ukp5
+	corner1[]: ukp8
+	corner1[]: ukp11
+	corner1[]: ukp14
+	corner1[]: ukp17
+	corner1[]: ukp20
+
+	corner2[]: ukp3
+	corner2[]: ukp6
+	corner2[]: ukp9 
+	corner2[]: ukp12
+	corner2[]: ukp15
+	corner2[]: ukp18
+	corner2[]: ukp21
+}
+
+prefab_model : prefab.ukp_43 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_minim_x_r1_t_minim_village_1_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_minim_x_r1_t_minim_village_1_tmpl.ppd"
+	category: "promods_uk/cross/" 
+}
+
+prefab_model : prefab.ukp_44 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_enter_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_enter_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner0[]: ukp22
+	corner0[]: ukp24
+	corner0[]: ukp26
+	corner0[]: ukp28
+	corner0[]: ukp30
+	corner0[]: ukp32
+	corner0[]: ukp34
+	corner0[]: ukp36
+	
+	
+	corner1[]: ukp23
+	corner1[]: ukp25
+	corner1[]: ukp27
+	corner1[]: ukp29
+	corner1[]: ukp31
+	corner1[]: ukp33
+	corner1[]: ukp35
+	corner1[]: ukp37
+	
+	corner2[]: ukp22
+	corner2[]: ukp24
+	corner2[]: ukp26
+	corner2[]: ukp28
+	corner2[]: ukp30
+	corner2[]: ukp32
+	corner2[]: ukp34
+	corner2[]: ukp36
+	
+	
+	corner3[]: ukp23
+	corner3[]: ukp25
+	corner3[]: ukp27
+	corner3[]: ukp29
+	corner3[]: ukp31
+	corner3[]: ukp33
+	corner3[]: ukp35
+	corner3[]: ukp37
+	
+	
+}
+
+prefab_model : prefab.ukp_45 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_minim_t_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_minim_t_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner0[]: ukp53
+	corner0[]: ukp56
+	corner0[]: ukp59
+	corner0[]: ukp62
+	corner0[]: ukp65
+	corner0[]: ukp68
+	corner0[]: ukp71
+	corner0[]: ukp74
+	
+	corner1[]: ukp54
+	corner1[]: ukp57
+	corner1[]: ukp60
+	corner1[]: ukp63
+	corner1[]: ukp66
+	corner1[]: ukp69
+	corner1[]: ukp72
+	corner1[]: ukp75
+
+	corner2[]: ukp55
+	corner2[]: ukp58
+	corner2[]: ukp61
+	corner2[]: ukp64
+	corner2[]: ukp67
+	corner2[]: ukp70
+	corner2[]: ukp73
+	corner2[]: ukp76
+}
+
+prefab_model : prefab.ukp_46 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_minim_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_minim_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner0[]: ukp77
+
+	corner0[]: ukp81
+	corner0[]: ukp83
+	corner0[]: ukp85
+	corner0[]: ukp87
+	corner0[]: ukp89
+	corner0[]: ukp91
+	
+	corner1[]: ukp78
+
+	corner1[]: ukp82
+	corner1[]: ukp84
+	corner1[]: ukp86
+	corner1[]: ukp88
+	corner1[]: ukp90
+	corner1[]: ukp92
+	
+	corner2[]: ukp77
+
+	corner2[]: ukp81
+	corner2[]: ukp83
+	corner2[]: ukp85
+	corner2[]: ukp87
+	corner2[]: ukp89
+	corner2[]: ukp91
+	
+	corner3[]: ukp78
+
+	corner3[]: ukp82
+	corner3[]: ukp84
+	corner3[]: ukp86
+	corner3[]: ukp88
+	corner3[]: ukp90
+	corner3[]: ukp92
+	
+}
+
+prefab_model : prefab.ukp_47 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_t_enter_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_narrow_x_r1_t_enter_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner2[]: ukp93
+	corner2[]: ukp95
+	corner2[]: ukp97
+	corner2[]: ukp99
+	corner2[]: ukp101
+	corner2[]: ukp103
+	corner2[]: ukp105
+	corner2[]: ukp107
+	
+	corner0[]: ukp53
+	corner0[]: ukp56
+	corner0[]: ukp59
+	corner0[]: ukp62
+	corner0[]: ukp65
+	corner0[]: ukp68
+	corner0[]: ukp71
+	corner0[]: ukp74
+	
+	corner1[]: ukp94
+	corner1[]: ukp96
+	corner1[]: ukp98
+	corner1[]: ukp100
+	corner1[]: ukp102
+	corner1[]: ukp104
+	corner1[]: ukp106
+	corner1[]: ukp108
+	
+}
+
+prefab_model : prefab.ukp_48 {
+	model_desc: "/prefab2/fork_temp/uk/uk_r1-r1_1m_joint_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_r1-r1_1m_joint_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_49 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_narrow_tmpl.ppd"
+	category: "promods_uk/cross/"
+
+	corner0[]: ukp45
+	corner0[]: ukp46
+	corner0[]: ukp47
+	corner0[]: ukp48
+	corner0[]: ukp49
+	corner0[]: ukp50
+	corner0[]: ukp51
+	corner0[]: ukp52
+	
+	corner1[]: ukp45
+	corner1[]: ukp46
+	corner1[]: ukp47
+	corner1[]: ukp48
+	corner1[]: ukp49
+	corner1[]: ukp50
+	corner1[]: ukp51
+	corner1[]: ukp52
+	
+	corner2[]: ukp45
+	corner2[]: ukp46
+	corner2[]: ukp47
+	corner2[]: ukp48
+	corner2[]: ukp49
+	corner2[]: ukp50
+	corner2[]: ukp51
+	corner2[]: ukp52
+	
+	corner3[]: ukp45
+	corner3[]: ukp46
+	corner3[]: ukp47
+	corner3[]: ukp48
+	corner3[]: ukp49
+	corner3[]: ukp50
+	corner3[]: ukp51
+	corner3[]: ukp52
+}
+
+prefab_model : prefab.ukp_50 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_sw_round_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_sw_round_narrow_tmpl.ppd"
+	category: "promods_uk/cross/"
+	
+	corner0[]: ukp249
+	corner0[]: ukp250
+	corner0[]: ukp251
+	corner0[]: ukp252
+	corner0[]: ukp253
+	corner0[]: ukp254
+	corner0[]: ukp255
+	
+	corner1[]: ukp256
+	corner1[]: ukp257
+	corner1[]: ukp258
+	corner1[]: ukp259
+	corner1[]: ukp260
+	corner1[]: ukp261
+	corner1[]: ukp262
+	
+	corner2[]: ukp249
+	corner2[]: ukp250
+	corner2[]: ukp251
+	corner2[]: ukp252
+	corner2[]: ukp253
+	corner2[]: ukp254
+	corner2[]: ukp255
+	
+	corner3[]: ukp256
+	corner3[]: ukp257
+	corner3[]: ukp258
+	corner3[]: ukp259
+	corner3[]: ukp260
+	corner3[]: ukp261
+	corner3[]: ukp262
+}
+
+
+prefab_model : prefab.ukp_51 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_t_sw_round_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_t_sw_round_narrow_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner0[]: ukp263
+	corner0[]: ukp264
+	corner0[]: ukp265
+	corner0[]: ukp266
+	corner0[]: ukp267
+	corner0[]: ukp268
+	corner0[]: ukp269
+	
+	corner1[]: ukp249
+	corner1[]: ukp250
+	corner1[]: ukp251
+	corner1[]: ukp252
+	corner1[]: ukp253
+	corner1[]: ukp254
+	corner1[]: ukp255
+	
+	corner2[]: ukp256
+	corner2[]: ukp257
+	corner2[]: ukp258
+	corner2[]: ukp259
+	corner2[]: ukp260
+	corner2[]: ukp261
+	corner2[]: ukp262
+}
+
+prefab_model : prefab.ukp_52 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_y_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_y_narrow_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner1[]: ukp148
+	corner1[]: ukp153
+	corner1[]: ukp158
+	corner1[]: ukp163
+	corner1[]: ukp168
+	corner1[]: ukp173
+	corner1[]: ukp178
+
+		
+	corner2[]: ukp150
+	corner2[]: ukp155
+	corner2[]: ukp160
+	corner2[]: ukp165
+	corner2[]: ukp170
+	corner2[]: ukp175
+	corner2[]: ukp180
+
+	
+	corner0[]: ukp151
+	corner0[]: ukp156
+	corner0[]: ukp161
+	corner0[]: ukp166
+	corner0[]: ukp171
+	corner0[]: ukp176
+	corner0[]: ukp181
+	
+}
+
+prefab_model : prefab.ukp_53 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r2_x_r2_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r2_x_r2_narrow_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner0[]: ukp45
+	corner0[]: ukp46
+	corner0[]: ukp47
+	corner0[]: ukp48
+	corner0[]: ukp49
+	corner0[]: ukp50
+	corner0[]: ukp51
+	corner0[]: ukp52
+	
+	corner1[]: ukp45
+	corner1[]: ukp46
+	corner1[]: ukp47
+	corner1[]: ukp48
+	corner1[]: ukp49
+	corner1[]: ukp50
+	corner1[]: ukp51
+	corner1[]: ukp52
+
+	corner2[]: ukp45
+	corner2[]: ukp46
+	corner2[]: ukp47
+	corner2[]: ukp48
+	corner2[]: ukp49
+	corner2[]: ukp50
+	corner2[]: ukp51
+	corner2[]: ukp52
+	
+	corner3[]: ukp45
+	corner3[]: ukp46
+	corner3[]: ukp47
+	corner3[]: ukp48
+	corner3[]: ukp49
+	corner3[]: ukp50
+	corner3[]: ukp51
+	corner3[]: ukp52
+}
+
+prefab_model : prefab.ukp_54 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r2_x_r2_sw_round_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r2_x_r2_sw_round_narrow_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner0[]: ukp270
+	corner0[]: ukp271
+	corner0[]: ukp272
+	corner0[]: ukp273
+	corner0[]: ukp274
+	corner0[]: ukp275
+	corner0[]: ukp276
+
+	corner1[]: ukp270
+	corner1[]: ukp271
+	corner1[]: ukp272
+	corner1[]: ukp273
+	corner1[]: ukp274
+	corner1[]: ukp275
+	corner1[]: ukp276
+
+	corner2[]: ukp270
+	corner2[]: ukp271
+	corner2[]: ukp272
+	corner2[]: ukp273
+	corner2[]: ukp274
+	corner2[]: ukp275
+	corner2[]: ukp276
+
+	corner3[]: ukp270
+	corner3[]: ukp271
+	corner3[]: ukp272
+	corner3[]: ukp273
+	corner3[]: ukp274
+	corner3[]: ukp275
+	corner3[]: ukp276	
+}
+
+prefab_model : prefab.ukp_55 {
+	model_desc: "/prefab2/fork_temp/uk/uk_road_1_minim_x_road_1_village_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_road_1_minim_x_road_1_village_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_56 {
+	model_desc: "/prefab2/fork_temp/uk/uk_road1_end_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_road1_end_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_57 {
+	model_desc: "/prefab2/fork_temp/uk/uk_road1_hw_uk_hw_2_merge_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_road1_hw_uk_hw_2_merge_narrow_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_58 {
+	model_desc: "/prefab2/fork_temp/uk/uk_road1_hw_uk_hw_2_merge_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_road1_hw_uk_hw_2_merge_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_59 {
+	model_desc: "/prefab2/fork_temp/uk/uk_road1_hw_split_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_road1_hw_split_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_60 {
+	model_desc: "/prefab2/fork_temp/uk/uk_road1_split_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_road1_split_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_61 {
+	model_desc: "/prefab2/fork_temp/uk/uk_road1_sw_end_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_road1_sw_end_tmpl.ppd"
+	category: "promods_uk/fork/" 
+	
+	corner0[]: ukp223
+	corner0[]: ukp225
+	corner0[]: ukp227 
+	corner0[]: ukp229 
+	corner0[]: ukp230 
+	corner0[]: ukp232
+	corner0[]: ukp233 
+	corner0[]: ukp235
+	corner0[]: ukp236 
+	corner0[]: ukp238
+	corner0[]: ukp239 
+	corner0[]: ukp241
+	
+	corner1[]: ukp224
+	corner1[]: ukp226
+	corner1[]: ukp228
+	corner1[]: ukp229
+	corner1[]: ukp231
+	corner1[]: ukp232
+	corner1[]: ukp234
+	corner1[]: ukp235
+	corner1[]: ukp237
+	corner1[]: ukp238
+	corner1[]: ukp240
+	corner1[]: ukp241
+	
+}
+
+prefab_model : prefab.ukp_62 {
+	model_desc: "/prefab2/cross_temp/uk/uk_round_center.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_round_center.ppd"
+	category: "promods_uk/cross/" 
+}
+
+prefab_model : prefab.ukp_63 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_narrow_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner0[]: ukp45
+	corner0[]: ukp46
+	corner0[]: ukp47
+	corner0[]: ukp48
+	corner0[]: ukp49
+	corner0[]: ukp50
+	corner0[]: ukp51
+	corner0[]: ukp52
+	
+	corner1[]: ukp45
+	corner1[]: ukp46
+	corner1[]: ukp47
+	corner1[]: ukp48
+	corner1[]: ukp49
+	corner1[]: ukp50
+	corner1[]: ukp51
+	corner1[]: ukp52
+
+	corner2[]: ukp45
+	corner2[]: ukp46
+	corner2[]: ukp47
+	corner2[]: ukp48
+	corner2[]: ukp49
+	corner2[]: ukp50
+	corner2[]: ukp51
+	corner2[]: ukp52
+	
+	corner3[]: ukp45
+	corner3[]: ukp46
+	corner3[]: ukp47
+	corner3[]: ukp48
+	corner3[]: ukp49
+	corner3[]: ukp50
+	corner3[]: ukp51
+	corner3[]: ukp52
+	
+}
+
+#prefab_model : prefab.ukp_64 {
+#	model_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_r2_sw_round_narrow_tmpl.pmd"
+#	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_r2_sw_round_narrow_tmpl.ppd"
+#	category: "promods_uk/cross/" 
+#}
+
+prefab_model : prefab.ukp_65 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_sw_round_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_sw_round_narrow_tmpl.ppd"
+	category: "promods_uk/cross/"
+	
+	corner0[]: ukp186
+	corner0[]: ukp187
+	corner0[]: ukp188
+	corner0[]: ukp189
+	corner0[]: ukp190
+	corner0[]: ukp191
+	corner0[]: ukp192
+	corner0[]: ukp193
+	
+	corner1[]: ukp186
+	corner1[]: ukp187
+	corner1[]: ukp188
+	corner1[]: ukp189
+	corner1[]: ukp190
+	corner1[]: ukp191
+	corner1[]: ukp192
+	corner1[]: ukp193
+	
+	corner2[]: ukp186
+	corner2[]: ukp187
+	corner2[]: ukp188
+	corner2[]: ukp189
+	corner2[]: ukp190
+	corner2[]: ukp191
+	corner2[]: ukp192
+	corner2[]: ukp193
+	
+	corner3[]: ukp186
+	corner3[]: ukp187
+	corner3[]: ukp188
+	corner3[]: ukp189
+	corner3[]: ukp190
+	corner3[]: ukp191
+	corner3[]: ukp192
+	corner3[]: ukp193
+	 
+	
+}
+
+prefab_model : prefab.ukp_66 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_t_minim_field_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_t_minim_field_tmpl.ppd"
+	category: "promods_uk/cross/" 
+}
+
+prefab_model : prefab.ukp_67 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_t_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_t_narrow_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+    corner0[]: ukp45
+	corner0[]: ukp46
+	corner0[]: ukp47
+	corner0[]: ukp48
+	corner0[]: ukp49
+	corner0[]: ukp50
+	corner0[]: ukp51
+	corner0[]: ukp52
+	
+	corner1[]: ukp45
+	corner1[]: ukp46
+	corner1[]: ukp47
+	corner1[]: ukp48
+	corner1[]: ukp49
+	corner1[]: ukp50
+	corner1[]: ukp51
+	corner1[]: ukp52
+	
+	corner2[]: ukp133
+	corner2[]: ukp134
+	corner2[]: ukp135
+	corner2[]: ukp136
+	corner2[]: ukp137
+	corner2[]: ukp138
+	corner2[]: ukp139
+	corner2[]: ukp140
+}
+
+prefab_model : prefab.ukp_68 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_tshape_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_tshape_tmpl.ppd"
+	category: "promods_uk/cross/" 
+}
+
+prefab_model : prefab.ukp_69 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_y_narrow_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_y_narrow_mirrored_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner0[]: ukp149
+	corner0[]: ukp154
+	corner0[]: ukp159
+	corner0[]: ukp164
+	corner0[]: ukp169
+	corner0[]: ukp174
+	corner0[]: ukp179
+	
+	corner2[]: ukp150
+	corner2[]: ukp155
+	corner2[]: ukp160
+	corner2[]: ukp165
+	corner2[]: ukp170
+	corner2[]: ukp175
+	corner2[]: ukp180
+
+	corner1[]: ukp152
+	corner1[]: ukp157
+	corner1[]: ukp162
+	corner1[]: ukp167
+	corner1[]: ukp172
+	corner1[]: ukp177
+	corner1[]: ukp182
+	
+}
+
+prefab_model : prefab.ukp_70 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_y_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_y_narrow_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	
+	corner1[]: ukp148
+	corner1[]: ukp153
+	corner1[]: ukp158
+	corner1[]: ukp163
+	corner1[]: ukp168
+	corner1[]: ukp173
+	corner1[]: ukp178
+		
+	corner2[]: ukp150
+	corner2[]: ukp155
+	corner2[]: ukp160
+	corner2[]: ukp165
+	corner2[]: ukp170
+	corner2[]: ukp175
+	corner2[]: ukp180
+
+	corner0[]: ukp151
+	corner0[]: ukp156
+	corner0[]: ukp161
+	corner0[]: ukp166
+	corner0[]: ukp171
+	corner0[]: ukp176
+	corner0[]: ukp181
+
+	
+}
+
+prefab_model : prefab.ukp_71 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_y_sw_round_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_y_sw_round_narrow_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner0[]: ukp194
+	corner0[]: ukp195
+	corner0[]: ukp196
+	corner0[]: ukp197
+	corner0[]: ukp198
+	corner0[]: ukp199
+	corner0[]: ukp200
+
+	corner2[]: ukp194
+	corner2[]: ukp195
+	corner2[]: ukp196
+	corner2[]: ukp197
+	corner2[]: ukp198
+	corner2[]: ukp199
+	corner2[]: ukp200
+	
+	corner1[]: ukp186
+	corner1[]: ukp187
+	corner1[]: ukp188
+	corner1[]: ukp189
+	corner1[]: ukp190
+	corner1[]: ukp191
+	corner1[]: ukp192
+	corner1[]: ukp193
+	
+}
+
+prefab_model : prefab.ukp_72 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_x_r2_t_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_x_r2_t_narrow_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner2[]: ukp45
+	corner2[]: ukp46
+	corner2[]: ukp47
+	corner2[]: ukp48
+	corner2[]: ukp49
+	corner2[]: ukp50
+	corner2[]: ukp51
+	corner2[]: ukp52
+	
+	corner1[]: ukp45
+	corner1[]: ukp46
+	corner1[]: ukp47
+	corner1[]: ukp48
+	corner1[]: ukp49
+	corner1[]: ukp50
+	corner1[]: ukp51
+	corner1[]: ukp52
+	
+	corner0[]: ukp141
+	corner0[]: ukp142
+	corner0[]: ukp143
+	corner0[]: ukp144
+	corner0[]: ukp145
+	corner0[]: ukp146
+	corner0[]: ukp147
+	
+}
+
+#prefab_model : prefab.ukp_73 {
+#	model_desc: "/prefab2/cross_temp/uk/uk_r1_x_r2_t_sw_round_narrow_tmpl.pmd"
+#	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_x_r2_t_sw_round_narrow_tmpl.ppd"
+#	category: "promods_uk/cross/" 
+#}
+
+prefab_model : prefab.ukp_74 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_t_enter_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_t_enter_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner1[]: ukp109
+	corner1[]: ukp115
+	corner1[]: ukp118
+	corner1[]: ukp121
+	corner1[]: ukp124
+	corner1[]: ukp127
+    corner1[]: ukp130
+
+	corner2[]: ukp110
+	corner2[]: ukp116
+	corner2[]: ukp119
+	corner2[]: ukp122
+	corner2[]: ukp125
+	corner2[]: ukp128
+	corner2[]: ukp131
+	
+	corner0[]: ukp111
+	corner0[]: ukp117
+	corner0[]: ukp120
+	corner0[]: ukp123
+	corner0[]: ukp126
+	corner0[]: ukp129
+	corner0[]: ukp132
+	
+}
+
+prefab_model : prefab.ukp_75 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_t_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_t_narrow_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner2[]: ukp45
+	corner2[]: ukp46
+	corner2[]: ukp47
+	corner2[]: ukp48
+	corner2[]: ukp49
+	corner2[]: ukp50
+	corner2[]: ukp51
+	corner2[]: ukp52
+	
+	corner1[]: ukp45
+	corner1[]: ukp46
+	corner1[]: ukp47
+	corner1[]: ukp48
+	corner1[]: ukp49
+	corner1[]: ukp50
+	corner1[]: ukp51
+	corner1[]: ukp52
+	
+	corner0[]: ukp133
+	corner0[]: ukp134
+	corner0[]: ukp135
+	corner0[]: ukp136
+	corner0[]: ukp137
+	corner0[]: ukp138
+	corner0[]: ukp139
+	corner0[]: ukp140
+}
+
+prefab_model : prefab.ukp_76 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_y_narrow_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r2_x_r1_y_narrow_mirrored_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner0[]: ukp149
+	corner0[]: ukp154
+	corner0[]: ukp159
+	corner0[]: ukp164
+	corner0[]: ukp169
+	corner0[]: ukp174
+	corner0[]: ukp179
+	
+	corner2[]: ukp150
+	corner2[]: ukp155
+	corner2[]: ukp160
+	corner2[]: ukp165
+	corner2[]: ukp170
+	corner2[]: ukp175
+	corner2[]: ukp180
+
+	corner1[]: ukp152
+	corner1[]: ukp157
+	corner1[]: ukp162
+	corner1[]: ukp167
+	corner1[]: ukp172
+	corner1[]: ukp177
+	corner1[]: ukp182
+	
+}
+
+prefab_model : prefab.ukp_77 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r2_x_r2_t_sw_round_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r2_x_r2_t_sw_round_narrow_tmpl.ppd"
+	category: "promods_uk/cross/"
+	
+	corner0[]: ukp263
+	corner0[]: ukp264
+	corner0[]: ukp265
+	corner0[]: ukp266
+	corner0[]: ukp267
+	corner0[]: ukp268
+	corner0[]: ukp269
+
+	corner1[]: ukp270
+	corner1[]: ukp271
+	corner1[]: ukp272
+	corner1[]: ukp273
+	corner1[]: ukp274
+	corner1[]: ukp275
+	corner1[]: ukp276
+
+	corner2[]: ukp270
+	corner2[]: ukp271
+	corner2[]: ukp272
+	corner2[]: ukp273
+	corner2[]: ukp274
+	corner2[]: ukp275
+	corner2[]: ukp276
+}
+
+#prefab_model : prefab.ukp_78 {
+#	model_desc: "/prefab2/bus_station/uk/uk_bus_station_small_tmpl.pmd"
+#	prefab_desc: "/prefab2/bus_station/uk/uk_bus_station_small_tmpl.ppd"
+#	category: "promods_uk/bus_station/" 
+#	
+#	
+#	corner0[]: ukp201
+#	corner0[]: ukp203
+#	corner0[]: ukp205
+#	corner0[]: ukp207
+#	corner0[]: ukp209
+#	corner0[]: ukp211
+#	corner0[]: ukp213
+#
+#	corner1[]: ukp206
+#	corner1[]: ukp208
+#	corner1[]: ukp210
+#	corner1[]: ukp212
+#	corner1[]: ukp214
+#}
+
+prefab_model : prefab.ukp_79 {
+	model_desc: "/prefab2/fork_temp/uk/uk_1lane_road_joint_short_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_1lane_road_joint_short_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_80 {
+	model_desc: "/prefab2/fork_temp/uk/uk_1lane_road_joint_short_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_1lane_road_joint_short_mirrored_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_81 {
+	model_desc: "/prefab2/fork_temp/uk/uk_2lane_road_joint_short_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_2lane_road_joint_short_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_82 {
+	model_desc: "/prefab2/fork_temp/uk/uk_2lane_road_joint_short_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_2lane_road_joint_short_mirrored_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_83 {
+	model_desc: "/prefab2/fork_temp/uk/uk_exit_road_joint_short_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_exit_road_joint_short_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_84 {
+	model_desc: "/prefab2/fork_temp/uk/uk_exit_road_joint_short_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_exit_road_joint_short_mirrored_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+#prefab_model : prefab.ukp_86 {
+#	model_desc: "/prefab2/gas_parking/gas_parking_big_01_mirrored_ger.pmd"
+#	prefab_desc: "/prefab2/gas_parking/gas_parking_big_01_mirrored_ger.ppd"
+#	category: "promods_uk/gas_parking/" 
+#}
+#
+
+#prefab_model : prefab.ukp_87 {
+#	model_desc: "/prefab2/bus_station/uk/uk_bus_station_03b1_big_tmpl.pmd"
+#	prefab_desc: "/prefab2/bus_station/uk/uk_bus_station_03b1_big_tmpl.ppd"
+#	category: "promods_uk/bus_station/" 	
+#}
+
+prefab_model : prefab.ukp_88 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r2_x_r2_t_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r2_x_r2_t_narrow_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner0[]: ukp141
+	corner0[]: ukp142
+	corner0[]: ukp143
+	corner0[]: ukp144
+	corner0[]: ukp145
+	corner0[]: ukp146
+	corner0[]: ukp147
+
+   
+	corner1[]: ukp45
+	corner1[]: ukp46
+	corner1[]: ukp47
+	corner1[]: ukp48
+	corner1[]: ukp49
+	corner1[]: ukp50
+	corner1[]: ukp51
+	corner1[]: ukp52
+
+      
+	corner2[]: ukp45
+	corner2[]: ukp46
+	corner2[]: ukp47
+	corner2[]: ukp48
+	corner2[]: ukp49
+	corner2[]: ukp50
+	corner2[]: ukp51
+	corner2[]: ukp52
+	
+	
+}
+
+prefab_model : prefab.ukp_89 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_enter_x_r1_t_enter_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_enter_x_r1_t_enter_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	
+	corner2[]: ukp215
+	corner2[]: ukp216
+	corner2[]: ukp217
+	corner2[]: ukp218
+	corner2[]: ukp219
+	corner2[]: ukp220
+	corner2[]: ukp221
+	corner2[]: ukp222
+   
+	corner0[]: ukp45
+	corner0[]: ukp46
+	corner0[]: ukp47
+	corner0[]: ukp48
+	corner0[]: ukp49
+	corner0[]: ukp50
+	corner0[]: ukp51
+	corner0[]: ukp52
+
+      
+	corner1[]: ukp45
+	corner1[]: ukp46
+	corner1[]: ukp47
+	corner1[]: ukp48
+	corner1[]: ukp49
+	corner1[]: ukp50
+	corner1[]: ukp51
+	corner1[]: ukp52
+
+}
+
+prefab_model : prefab.ukp_90 {
+	model_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_t_sw_round_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/uk/uk_r1_x_r1_t_sw_round_narrow_tmpl.ppd"
+	category: "promods_uk/cross/" 
+	
+	corner0[]: ukp242
+	corner0[]: ukp243
+	corner0[]: ukp244
+	corner0[]: ukp245
+	corner0[]: ukp246
+	corner0[]: ukp247
+	corner0[]: ukp248
+	
+	corner1[]: ukp186
+	corner1[]: ukp187
+	corner1[]: ukp188
+	corner1[]: ukp189
+	corner1[]: ukp190
+	corner1[]: ukp191
+	corner1[]: ukp192
+	corner1[]: ukp193
+	
+	corner2[]: ukp186
+	corner2[]: ukp187
+	corner2[]: ukp188
+	corner2[]: ukp189
+	corner2[]: ukp190
+	corner2[]: ukp191
+	corner2[]: ukp192
+	corner2[]: ukp193
+	
+	
+}
+prefab_model : prefab.ukp_91 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw4-hw4_exit_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw4-hw4_exit_tmpl.ppd"
+	category: "promods_uk/fork/" 
+}
+
+prefab_model : prefab.ukp_92 {
+	model_desc: "/prefab2/fork_temp/uk/uk_hw4_exit_double_mirrored.pmd"
+	prefab_desc: "/prefab2/fork_temp/uk/uk_hw4_exit_double_mirrored.ppd"
+	category: "promods_uk/fork/" 
+}
+### EOF ###
+}

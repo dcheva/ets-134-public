@@ -1,0 +1,74 @@
+﻿city_data: city.marijampole
+{
+	city_name: "Marijampolė"
+	city_name_localized: "@@marijampole@@"
+	country: lithuania
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -25
+	map_x_offsets[]: -4
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -12
+	map_y_offsets[]: 0
+	map_y_offsets[]: -3
+	map_y_offsets[]: -12
+	map_y_offsets[]: -9
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	truck_lp_template[]:"J112000"
+
+	truck_lp_def0[]:"0"
+	truck_lp_def0[]:"1"
+	truck_lp_def0[]:"2"
+	truck_lp_def0[]:"3"
+	truck_lp_def0[]:"4"
+	truck_lp_def0[]:"5"
+	truck_lp_def0[]:"6"
+	truck_lp_def0[]:"7"
+	truck_lp_def0[]:"8"
+	truck_lp_def0[]:"9"
+
+	truck_lp_def1[]:"A"
+	truck_lp_def1[]:"B"
+	truck_lp_def1[]:"C"
+	truck_lp_def1[]:"D"
+	truck_lp_def1[]:"E"
+	truck_lp_def1[]:"F"
+	truck_lp_def1[]:"G"
+	truck_lp_def1[]:"H"
+	truck_lp_def1[]:"J"
+	truck_lp_def1[]:"K"
+	truck_lp_def1[]:"L"
+	truck_lp_def1[]:"M"
+	truck_lp_def1[]:"N"
+	truck_lp_def1[]:"O"
+	truck_lp_def1[]:"P"
+	truck_lp_def1[]:"R"
+	truck_lp_def1[]:"S"
+	truck_lp_def1[]:"T"
+	truck_lp_def1[]:"U"
+	truck_lp_def1[]:"V"
+	truck_lp_def1[]:"Y"
+	truck_lp_def1[]:"Z"
+
+	truck_lp_def2[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/lithuania/b.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+	truck_lp_def2[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/lithuania/b_1.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+	truck_lp_def2[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/lithuania/b_2.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+}

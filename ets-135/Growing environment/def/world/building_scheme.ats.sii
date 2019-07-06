@@ -1,0 +1,126 @@
+SiiNunit
+{
+building_scheme : bld_scheme.scheme1060{
+	name: "stone wall 2"
+	models[]: bld_model.1060
+}
+
+building_scheme : bld_scheme.scheme1106{
+	name: "stone wall 1"
+	models[]: bld_model.1106
+}
+
+building_scheme : bld_scheme.scheme1137 {
+	name: "barrier_pebblestone_02"
+	models[]: bld_model.1137
+	
+}
+
+building_scheme : bld_scheme.scheme1049{
+	name: "barrier_concrete9"
+	models[]: bld_model.1049
+}
+
+building_scheme : bld_scheme.scheme1050{
+	name: "barrier_concrete9-sidewalk"
+	models[]: bld_model.1050
+}
+
+building_scheme : bld_scheme.scheme1078 {
+	name: "wall_concrete_brown1"
+	models[]: bld_model.1078
+}
+
+building_scheme : bld_scheme.scheme1079 {
+	name: "wall_concrete_stone2"
+	models[]: bld_model.1079
+}
+
+building_scheme : bld_scheme.scheme1061{
+	name: "wall_brick1"
+	models[]: bld_model.1061
+}
+
+building_scheme : bld_scheme.scheme1142 {
+	name: "tree walls 2"
+	models[]: bld_model.1142
+}
+
+building_scheme : bld_scheme.scheme1118 {
+	name: "bush wall"
+	models[]: bld_model.1118
+}
+
+# -----------------------------
+#	Arizona rock walls
+# -----------------------------
+
+building_scheme : bld_scheme.az_1 {
+	name: "cliff 6m_simple_01"
+	models[]: bld_model.az_1
+}
+
+building_scheme : bld_scheme.az_2 {
+	name: "cliff 6m_various_01"
+	models[]: bld_model.az_2
+}
+
+building_scheme : bld_scheme.az_5 {
+	name: "cliff 6m_various_02"
+	models[]: bld_model.az_5
+}
+
+building_scheme : bld_scheme.az_6 {
+	name: "cliff 15m_various_02"
+	models[]: bld_model.az_6
+}
+
+building_scheme : bld_scheme.az_7 {
+	name: "cliff 30m_various_02"
+	models[]: bld_model.az_7
+}
+
+building_scheme : bld_scheme.az_8 {
+	name: "cliff 15m_various_01"
+	models[]: bld_model.az_8
+}
+
+building_scheme : bld_scheme.az_9 {
+	name: "cliff 30m_various_01"
+	models[]: bld_model.az_9
+}
+
+building_scheme : bld_scheme.az_10 {
+	name: "cliff 15m_simple_01"
+	models[]: bld_model.az_10  
+}
+
+building_scheme : bld_scheme.az_11 {
+	name: "cliff 30m_simple_01"
+	models[]: bld_model.az_11  
+}
+
+building_scheme : bld_scheme.az_12 {
+	name: "cliff 30m_simple_02"
+	models[]: bld_model.az_12  
+}
+
+building_scheme : bld_scheme.az_13 {
+	name: "cliff 6m_simple_02"
+	models[]: bld_model.az_13
+}
+
+building_scheme : bld_scheme.az_14 {
+	name: "cliff 15m_simple_02"
+	models[]: bld_model.az_14
+}
+
+building_scheme : bld_scheme.az_15 {
+	name: "cliff small"
+	models[]: bld_model.az_15
+}
+
+
+#EOF
+
+}

@@ -1,0 +1,64 @@
+SiiNunit
+{
+overlay_def : .overlay {
+
+	city_names[]: "hu_barcs"
+	city_names[]: "hu_balaton"
+	city_names[]: "hu_dravasz"
+	city_names[]: "hu_eszek"
+	city_names[]: "hu_harkany"
+	city_names[]: "hu_letenye"
+	city_names[]: "hu_nagyata"
+	city_names[]: "hu_veroece"
+	city_names[]: "hu_veroce1"
+	city_names[]: "hu_virov"
+
+	city_names[]: "hu_arad_wl"
+	city_names[]: "hu_graz_w"
+	city_names[]: "hu_graz_wl"
+	city_names[]: "hu_graz_wr"
+	city_names[]: "hu_hortob_w"
+	city_names[]: "hu_kiskun_wl"
+	city_names[]: "hu_ljublj_w"
+	city_names[]: "hu_ljublj_wl"
+	city_names[]: "hu_maribo_w"
+	city_names[]: "hu_maribo_wl"
+	city_names[]: "hu_oradea_w"
+	city_names[]: "hu_oradea_wl"
+	city_names[]: "hu_puspok_w"
+	city_names[]: "hu_suboti_wl"
+	city_names[]: "hu_szeksz_w"
+	city_names[]: "hu_szeksz_wl"
+	city_names[]: "hu_uzhorod_w"
+	city_names[]: "hu_zagreb_w"
+	city_names[]: "hu_zagreb_wl"
+
+	city_names[]: "hu_state_hr"
+	city_names[]: "hu_state_si"
+
+	road_names[]: "hu_1"
+	road_names[]: "hu_2"
+	road_names[]: "hu_4"
+	road_names[]: "hu_6"
+	road_names[]: "hu_33"
+	road_names[]: "hu_35"
+	road_names[]: "hu_41"
+	road_names[]: "hu_42"
+	road_names[]: "hu_58"
+	road_names[]: "hu_68"
+	road_names[]: "hu_71"
+	road_names[]: "hu_83"
+	road_names[]: "hu_84"
+	road_names[]: "hu_86"
+	road_names[]: "hu_87"
+	road_names[]: "hu_471"
+	road_names[]: "hu_834"
+
+	road_names[]: "hu_m19"
+	road_names[]: "hu_m43"
+	road_names[]: "hu_m70"
+	road_names[]: "hu_m86"
+
+}
+
+}

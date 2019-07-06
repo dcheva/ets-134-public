@@ -1,0 +1,22 @@
+SiiNunit
+{
+building_model : bld_model.hixo01 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/hixopl/tram_powerline_01_pl.pmd"
+	look_name: default
+}
+building_model : bld_model.hixo02 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/hixopl/tram_powerline_02_pl.pmd"
+	look_name: default
+}
+#building_model : bld_model.hixo03 {
+#	railing_model: true
+#	follow_curve_dir: true
+#	model_desc: "/model/hixopl/test.pmd"
+#	look_name: default
+#}
+
+}

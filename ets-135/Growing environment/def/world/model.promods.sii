@@ -1,0 +1,2750 @@
+SiiNunit
+{
+
+model_def : model.hboxpm00 {
+	model_desc: "/model2/height_box_pm.pmd"
+	distance_type: 3
+}
+
+model_def : model.scanx01 {
+	model_desc: "/model/bridge/storebelt.pmd"
+	distance_type: 3
+}
+
+model_def : model.scanx02 {
+	model_desc: "/model/finland/helsinki/helsinki_cathedral/helsinki_cathedral.pmd"
+	distance_type: 3
+}
+
+model_def : model.2000 {
+	model_desc: "/model/general/caution/caution.pmd"
+	distance_type: 1
+}
+
+model_def : model.2001 {
+	model_desc: "/model/denmark/turitsskilte/turitsskilte.pmd"
+	distance_type: 1
+}
+
+model_def : model.2002 {
+	model_desc: "/model/germany/lba/lba3.pmd"
+	distance_type: 1
+}
+
+model_def : model.2003 {
+	model_desc: "/model/germany/maut/maut.pmd"
+	distance_type: 1
+}
+
+model_def : model.2004 {
+	model_desc: "/model/germany/stop/stop.pmd"
+	distance_type: 1
+}
+
+model_def : model.2005 {
+	model_desc: "/model/denmark/rasteplads/rasteplads.pmd"
+	distance_type: 1
+}
+
+model_def : model.2007 {
+	model_desc: "/model/panorama/denmark/kobenhavn.pmd"
+	distance_type: 3
+}
+
+model_def : model.2008 {
+	model_desc: "/model/general/boats/ferry01.pmd"
+	distance_type: 3
+}
+
+model_def : model.2009 {
+	model_desc: "/model/germany/lba/lba2.pmd"
+	distance_type: 1
+}
+
+model_def : model.2010 {
+	model_desc: "/model/germany/lba/lba1.pmd"
+	distance_type: 1
+}
+
+model_def : model.2011 {
+	model_desc: "/model/germany/bundesland/bundes.pmd"
+	distance_type: 1
+}
+
+model_def : model.2012 {
+	model_desc: "/model/germany/bundesland/bundesbig.pmd"
+	distance_type: 1
+}
+
+model_def : model.2013 {
+	model_desc: "/model/germany/maut/mautportal3.pmd"
+	distance_type: 1
+}
+
+model_def : model.2014 {
+	model_desc: "/model/germany/maut/mautportal2.pmd"
+	distance_type: 1
+}
+
+model_def : model.2016 {
+	model_desc: "/model/general/roadworks/traffic_barrier.pmd"
+	distance_type: 1
+}
+
+model_def : model.2017 {
+	model_desc: "/model/denmark/oresund/oresund.pmd"
+	distance_type: 3
+}
+
+model_def : model.2018 {
+	model_desc: "/model/denmark/oresund/oresund.pmd"
+	distance_type: 3
+}
+
+model_def : model.2019 {
+	model_desc: "/model/norway/oslo/tunel/oslo_entrance.pmd"
+	distance_type: 1
+}
+
+model_def : model.2021 {
+	model_desc: "/model/germany/rostock/hafen.pmd"
+	distance_type: 1
+}
+
+
+model_def : model.scan0022 {
+	model_desc: "/model/general/trucks/scania/scania.pmd"
+	distance_type: 1
+}
+
+
+model_def : model.scan0023 {
+	model_desc: "/model/general/trucks/scania/scania3.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0026 {
+	model_desc: "/model/mcdonalds/mcdonalds.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0027 {
+	model_desc: "/model/mcdonalds/mcdonalds_pole.pmd"
+	distance_type: 3
+}
+
+
+#model_def : model.scan0028 {
+#	model_desc: "/model/burgerking/burgerpole.pmd"
+#	distance_type: 3
+#}
+
+model_def : model.scan0030 {
+	model_desc: "/model/houses/cabin_small.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0031 {
+	model_desc: "/model/houses/cabin_medium.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0032 {
+	model_desc: "/model/houses/cabin_large.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0033 {
+	model_desc: "/model/houses/caravan.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0034 {
+	model_desc: "/model/houses/fire_depot.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0035 {
+	model_desc: "/model/houses/office.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0036 {
+	model_desc: "/model/warehouse/new/market.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0037 {
+	model_desc: "/model/warehouse/new/warehouse_new_1.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0041 {
+	model_desc: "/model/general/brokencar/broken_car1.pmd"
+	distance_type: 1
+}
+
+
+model_def : model.scan0042 {
+	model_desc: "/model/general/airport/light.pmd"
+	distance_type: 1
+}
+
+
+model_def : model.scan0043 {
+	model_desc: "/model/norway/bridge/stordabrua.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0044 {
+	model_desc: "/model/france/balise/balise.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0045 {
+	model_desc: "/model/sweden/volvo/volvo_logo.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0046 {
+	model_desc: "/model/bridge/storebelt_nocoll.pmd"
+}
+
+model_def : model.scan0050 {
+	model_desc: "/model/sweden/brahehus/brahehus.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0051 {
+	model_desc: "/model/sweden/motala/motala.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0052 {
+	model_desc: "/model/denmark/esbjerg/vandtaarn.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0053 {
+	model_desc: "/model/denmark/lego/lego.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan055 {
+	model_desc: "/model/norway/barrier_1/barrier_1.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan056 {
+	model_desc: "/model/norway/barrier_1/barrier_2.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan058 {
+	model_desc: "/model/gate/forest_gate_closed_se.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan059 {
+	model_desc: "/model/gate/forest_gate_open_se.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0060 {
+	model_desc: "/model/sweden/torso/torso.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0061 {
+	model_desc: "/model/denmark/budolfi/budolfi.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0062 {
+	model_desc: "/model/sweden/stena/stena.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0063 {
+	model_desc: "/model/bridge/bridge_over_suir.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0064 {
+	model_desc: "/model/bridge/small/small_bridge1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0065 {
+	model_desc: "/model/bridge/small/small_bridge2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0066 {
+	model_desc: "/model/bridge/small/small_bridge3.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0067 {
+	model_desc: "/model/bridge/small/small_bridge3a.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0068 {
+	model_desc: "/model/general/house/far/house_far1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0069 {
+	model_desc: "/model/general/house/far/house_far2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0070 {
+	model_desc: "/model/general/house/far/house_far3.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0071 {
+	model_desc: "/model/general/house/far/house_far4.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0072 {
+	model_desc: "/model/general/house/far/house_far5.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0073 {
+	model_desc: "/model/general/house/far/house_far6.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0074 {
+	model_desc: "/model/general/house/far/house_far7.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0075 {
+	model_desc: "/model/general/house/far/house_far8.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0076 {
+	model_desc: "/model/general/house/far/house_far9.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0077 {
+	model_desc: "/model/bridge/small/small_bridge4.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0078 {
+	model_desc: "/model/bridge/construction/cons_bridge.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0079 {
+	model_desc: "/model/bridge/construction/cons_bridge_low.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0080 {
+	model_desc: "/model/bridge/pillar/pillar1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0081 {
+	model_desc: "/model/bridge/pillar/pillar2.pmd"
+	distance_type: 3
+}
+
+
+model_def : model.scan0082 {
+	model_desc: "/model/plaza/asphalt_ground_train.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0084 {
+	model_desc: "/model/east/military/radar1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0085 {
+	model_desc: "/model/east/military/radar2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0086 {
+	model_desc: "/model/warehouse/services/service1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0087 {
+	model_desc: "/model/bridge/big/b_bridge1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0088 {
+	model_desc: "/model/east/village/houses_1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0089 {
+	model_desc: "/model/east/village/houses_2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0090 {
+	model_desc: "/model/east/village/houses_3.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0091 {
+	model_desc: "/model/east/village/market.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0092 {
+	model_desc: "/model/east/quarry/quarry1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0093 {
+	model_desc: "/model/snow/dock/weather_station.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0094 {
+	model_desc: "/model/factory/big/factory_big01.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0095 {
+	model_desc: "/model/factory/big/factory_big02.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0096 {
+	model_desc: "/model/general/house/church/church1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0097 {
+	model_desc: "/model/general/tent/tent.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0098 {
+	model_desc: "/model/snow/dock/dock01.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0099 {
+	model_desc: "/model/snow/dock/dock02.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0100 {
+	model_desc: "/model/snow/dock/dock03.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0101 {
+	model_desc: "/model/snow/dock/dock04.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0102 {
+	model_desc: "/model/snow/dock/dock05.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0103 {
+	model_desc: "/model/snow/dock/dock06.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0104 {
+	model_desc: "/model/snow/dock/dock07.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0105 {
+	model_desc: "/model/snow/dock/radio.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0106 {
+	model_desc: "/model/snow/gas/gas01.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0107 {
+	model_desc: "/model/snow/house/house01.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0108 {
+	model_desc: "/model/snow/house/house02.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0109 {
+	model_desc: "/model/snow/house/house03.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0110 {
+	model_desc: "/model/snow/house/house04.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0111 {
+	model_desc: "/model/snow/house/house05.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0112 {
+	model_desc: "/model/snow/house/house06.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0113 {
+	model_desc: "/model/snow/house/house07.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0114 {
+	model_desc: "/model/snow/house/house08.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0115 {
+	model_desc: "/model/snow/house/church.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0116 {
+	model_desc: "/model/snow/house/church2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0117 {
+	model_desc: "/model/snow/research/research_centre.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0118 {
+	model_desc: "/model/snow/research/research_centre2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0119 {
+	model_desc: "/model/snow/research/harbour.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0120 {
+	model_desc: "/model/snow/shop/shop01.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0121 {
+	model_desc: "/model/snow/shop/shop02.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0122 {
+	model_desc: "/model/snow/shop/shop03.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0123 {
+	model_desc: "/model/snow/shop/shop04.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0124 {
+	model_desc: "/model/snow/shop/shop05.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0125 {
+	model_desc: "/model/bridge/pillar/pillar3.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0126 {
+	model_desc: "/model/general/bus/bus_station1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0127 {
+	model_desc: "/model/general/bus/bus_station2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0128 {
+	model_desc: "/model/general/bus/bus_station3.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0129 {
+	model_desc: "/model/city_details/bikes.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0130 {
+	model_desc: "/model/city_details/electro.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0131 {
+	model_desc: "/model/city_details/hotel.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0132 {
+	model_desc: "/model/city_details/office1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0133 {
+	model_desc: "/model/city_details/office2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0134 {
+	model_desc: "/model/city_details/office3.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0135 {
+	model_desc: "/model/city_details/phone.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0136 {
+	model_desc: "/model/city_details/toilet.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0137 {
+	model_desc: "/model/city_details/advert.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0138 {
+	model_desc: "/model/general/bus/bus_station4.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0139 {
+	model_desc: "/model/general/bus/bus_station5.pmd"
+	distance_type: 3
+}
+
+
+model_def : model.scan0140 {
+	model_desc: "/model/general/bus/bus_station6.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0141 {
+	model_desc: "/model/gas/gas_price_poor.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0142 {
+	model_desc: "/model/general/graveyard/grave1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0143 {
+	model_desc: "/model/general/graveyard/grave2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0144 {
+	model_desc: "/model/general/graveyard/grave3.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0145 {
+	model_desc: "/model/general/graveyard/grave4.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0146 {
+	model_desc: "/model/general/house/small/small_build.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0147 {
+	model_desc: "/model/general/house/small/small_build2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0148 {
+	model_desc: "/model/general/house/normal/build.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0149 {
+	model_desc: "/model/general/house/normal/build2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0150 {
+	model_desc: "/model/general/house/normal/build3.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0151 {
+	model_desc: "/model/general/house/normal/build4.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0152 {
+	model_desc: "/model/general/house/normal/build5.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0153 {
+	model_desc: "/model/general/house/normal/build6.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0154 {
+	model_desc: "/model/general/house/normal/build7.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0155 {
+	model_desc: "/model/general/rail/stacktrack1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0156 {
+	model_desc: "/model/general/rail/stacktrack2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0157 {
+	model_desc: "/model/general/garage/garage1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0158 {
+	model_desc: "/model/general/garage/garage2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0159 {
+	model_desc: "/model/general/food/food1.pmd"
+	distance_type: 3
+}
+
+#model_def : model.scan0160 {
+#	model_desc: "/model/germany/autohof/autohof_pole.pmd"
+#	distance_type: 3
+#}
+
+
+#model_def : model.scan0161 {
+#	model_desc: "/model/germany/autohof/autohof.pmd"
+#	distance_type: 3
+#}
+
+model_def : model.scan0162 {
+	model_desc: "/model/general/hotel/hotel.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0163 {
+	model_desc: "/model/landmark/cite_de_espace/ariane5.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0164 {
+	model_desc: "/model/road/road_lines_2dia.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0165 {
+	model_desc: "/model/road/road_lines_4dia.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0166 {
+	model_desc: "/model/estonia/rail_cross/rail_cross.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0167 {
+	model_desc: "/model/general/boats/speedboat.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0168 {
+	model_desc: "/model/general/theatre/theatre.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0169 {
+	model_desc: "/model/general/theatre/theatre1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0170 {
+	model_desc: "/model/general/mall/shopping_mall.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0171 {
+	model_desc: "/model/general/mall/shopping_mall_small.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0172 {
+	model_desc: "/model/general/castle/castle01.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0173 {
+	model_desc: "/model/general/hospital/hospital.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0174 {
+	model_desc: "/model/general/factory/factory1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0175 {
+	model_desc: "/model/general/office/office01.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0176 {
+	model_desc: "/model/general/office/office02.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0177 {
+	model_desc: "/model/general/police/police.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0178 {
+	model_desc: "/model/general/police/fire.pmd"
+	distance_type: 3
+}
+
+
+model_def : model.scan0179 {
+	model_desc: "/model/east/apartement/apartement01.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0180 {
+	model_desc: "/model/east/apartement/apartement02.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0181 {
+	model_desc: "/model/east/apartement/apartement03.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0182 {
+	model_desc: "/model/east/apartement/apartement04.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0183 {
+	model_desc: "/model/east/big_house/house01.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0184 {
+	model_desc: "/model/east/big_house/house02.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0185 {
+	model_desc: "/model/east/big_house/house03.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0186 {
+	model_desc: "/model/east/big_house/house04.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0187 {
+	model_desc: "/model/east/big_house/house05.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0188 {
+	model_desc: "/model/east/big_house/house06.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0189 {
+	model_desc: "/model/east/big_house/house07.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0190 {
+	model_desc: "/model/east/big_house/house08.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0191 {
+	model_desc: "/model/east/big_house/house09.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0192 {
+	model_desc: "/model/estonia/rail_cross/rail_cross_light.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0193 {
+	model_desc: "/model/east/big_house/house10.pmd"
+	distance_type: 2
+}
+
+
+model_def : model.scan0194 {
+	model_desc: "/model/east/big_house/house11.pmd"
+	distance_type: 2
+}
+
+
+model_def : model.scan0195 {
+	model_desc: "/model/east/big_house/house12.pmd"
+	distance_type: 2
+}
+
+
+model_def : model.scan0196 {
+	model_desc: "/model/east/big_house/house13.pmd"
+	distance_type: 2
+}
+
+
+model_def : model.scan0197 {
+	model_desc: "/model/east/big_house/house14.pmd"
+	distance_type: 2
+}
+
+
+model_def : model.scan0198 {
+	model_desc: "/model/east/big_house/house15.pmd"
+	distance_type: 2
+}
+
+
+model_def : model.scan0199 {
+	model_desc: "/model/east/big_house/house16.pmd"
+	distance_type: 2
+}
+
+
+model_def : model.scan0200 {
+	model_desc: "/model/east/big_house/house17.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0201 {
+	model_desc: "/model/east/big_house/house18.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0202 {
+	model_desc: "/model/east/small_house/house01.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0203 {
+	model_desc: "/model/east/small_house/house02.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0204 {
+	model_desc: "/model/east/small_house/house03.pmd"
+	distance_type: 2
+}
+
+model_def : model.scan0205 {
+	model_desc: "/prefab/ikea/ikea_pole.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0206 {
+	model_desc: "/prefab/ikea/ikea_parking.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0207 {
+	model_desc: "/prefab/bauhaus/bauhaus_pole.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0208 {
+	model_desc: "/model/denmark/esbjerg_airport/hangar1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0209 {
+	model_desc: "/model/denmark/esbjerg_airport/hangar2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0210 {
+	model_desc: "/model/denmark/esbjerg_airport/hangar3.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0211 {
+	model_desc: "/model/vehicle/lifter.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0212 {
+	model_desc: "/model/skoda_factory/fabric_hall.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0213 {
+	model_desc: "/model/sweden/saab/saab01.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0214 {
+	model_desc: "/model/landmark/saab_planes/saab_plane.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0215 {
+	model_desc: "/model/landmark/saab_planes/saab_planev2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0216 {
+	model_desc: "/model/airport/parking/parking.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0217 {
+	model_desc: "/model/landmark/stockholm/globen.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0218 {
+	model_desc: "/model/landmark/stockholm/globe_hotel.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0219 {
+	model_desc: "/model/harbour/harbour_pas_entrance.pmd"
+	distance_type: 3
+}
+model_def : model.scan0220 {
+	model_desc: "/model/landmark/stockholm/stockholm_city_hall.pmd"
+	distance_type: 3
+}
+
+
+model_def : model.scan0221 {
+	model_desc: "/model/mcdonalds/mcdonalds_pole_dk.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0222 {
+	model_desc: "/model/uk/portsmouth/spinnaker/spinnaker.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0223 {
+	model_desc: "/model/norway/stave_church/stave_church.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0224 {
+	model_desc: "/model/norway/bryggen/bryggen.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0225 {
+	model_desc: "/model/denmark/viborg/kraftvarmeverk/kraftvarmeverk.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0226 {
+	model_desc: "/model/general/train/cont01.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0227 {
+	model_desc: "/model/general/train/cont02.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0228 {
+	model_desc: "/model/general/train/cont03.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0229 {
+	model_desc: "/model/general/train/cont04.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0230 {
+	model_desc: "/model/general/train/cont05.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0231 {
+	model_desc: "/model/general/train/lok.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0232 {
+	model_desc: "/model/ship/container_ship.pmd"
+	distance_type: 1
+}
+
+model_def : model.scan0233 {
+	model_desc: "/model/mcdonalds/drive_in_1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0234 {
+	model_desc: "/model/mcdonalds/drive_in_2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0235 {
+	model_desc: "/model/estonia/tartu/bridge_tartu_01.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0236 {
+	model_desc: "/model/estonia/tartu/bridge_tartu_02.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0237 {
+	model_desc: "/model/germany/lba/lba4.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0238 {
+	model_desc: "/model/germany/lba/lba4_noshoulder.pmd"
+	distance_type: 3
+}
+model_def : model.scan0239 {
+	model_desc: "/model/latvia/trolley/trolley_poles_static.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0240 {
+	model_desc: "/model/latvia/trolley/trolley_poles_static_hang.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0241 {
+	model_desc: "/model/latvia/trolley/trolley_poles_static_long.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0242 {
+	model_desc: "/model/latvia/trolley/trolley_poles_static_extralong.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0243 {
+	model_desc: "/model/germany/ice/ice_wagon.pmd"
+	distance_type: 3
+}
+model_def : model.scan0244 {
+	model_desc: "/model/germany/ice/ice_power_car.pmd"
+	distance_type: 3
+}
+model_def : model.scan0245 {
+	model_desc: "/model/germany/ice/ice_power_car_reverse.pmd"
+	distance_type: 3
+}
+model_def : model.scan0246 {
+	model_desc: "/model/germany/ice/ice_train_6.pmd"
+	distance_type: 3
+}
+model_def : model.scan0247 {
+	model_desc: "/model/germany/ice/ice_train_4.pmd"
+	distance_type: 3
+}
+model_def : model.scan0248 {
+	model_desc: "/model/germany/ice/ice_train_double_4.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0249 {
+	model_desc: "/model/germany/db_cargo/br_189.pmd"
+	distance_type: 3
+}
+model_def : model.scan0250 {
+	model_desc: "/model/germany/db_cargo/db_car_train_01.pmd"
+	distance_type: 3
+}
+model_def : model.scan0251 {
+	model_desc: "/model/germany/lubeck/schwartaupole.pmd"
+	distance_type: 3
+}
+model_def : model.scan0252 {
+	model_desc: "/model/estonia/valga/valga_border.pmd"
+	distance_type: 3
+}
+model_def : model.scan0253 {
+	model_desc: "/model/parked_veh/parked_car.pmd"
+	category: "parked vehicles"
+	distance_type: 3
+}
+model_def : model.scan0254 {
+	model_desc: "/model/parked_veh/parked_truck.pmd"
+	category: "parked vehicles"
+	distance_type: 3
+}
+model_def : model.scan0255 {
+	model_desc: "/model/estonia/crossing/cross_ee.pmd"
+	distance_type: 3
+}
+model_def : model.scan0256 {
+	model_desc: "/model/railing/tunnel/karawanken/karawanken_building_austria_01.pmd"
+	distance_type: 3
+}
+model_def : model.scan0257 {
+	model_desc: "/model/germany/frankfurt/squaire/squaire.pmd"
+	distance_type: 3
+}
+model_def : model.scan0258 {
+	model_desc: "/model/germany/frankfurt/squaire/squaire_overpass.pmd"
+	distance_type: 3
+}
+model_def : model.scan0259 {
+	model_desc: "/model/germany/frankfurt/terminal2/terminal2.pmd"
+	distance_type: 3
+}
+model_def : model.scan0260 {
+	model_desc: "/model/germany/frankfurt/terminal1/terminal1.pmd"
+	distance_type: 3
+}
+model_def : model.scan0261 {
+	model_desc: "/model/aircraft/a_a380/airbus_a380.pmd"
+	distance_type: 3
+}
+model_def : model.scan0262 {
+	model_desc: "/model/germany/frankfurt/sheraton/sheraton_hotel.pmd"
+	distance_type: 3
+}
+model_def : model.scan0263 {
+	model_desc: "/model/germany/frankfurt/sheraton/sheraton_logo.pmd"
+	distance_type: 3
+}
+model_def : model.scan0264 {
+	model_desc: "/model/germany/frankfurt/sheraton/sheraton_text.pmd"
+	distance_type: 3
+}
+model_def : model.scan0265 {
+	model_desc: "/model/aircraft/b737/b737_cargo.pmd"
+	distance_type: 3
+}
+model_def : model.scan0266 {
+	model_desc: "/model/germany/frankfurt/lufthansa/lufth_technik_01.pmd"
+	distance_type: 3
+}
+model_def : model.scan0267 {
+	model_desc: "/model/germany/frankfurt/lufthansa/lufth_technik_02.pmd"
+	distance_type: 3
+}
+model_def : model.scan0268 {
+	model_desc: "/model/germany/frankfurt/advert_pole_01.pmd"
+	distance_type: 3
+}
+model_def : model.scan0269 {
+	model_desc: "/model/germany/frankfurt/advert_pole_02.pmd"
+	distance_type: 3
+}
+model_def : model.scan0270 {
+	model_desc: "/model/latvia/crossing/cross_lv.pmd"
+	distance_type: 3
+}
+model_def : model.scan0271 {
+	model_desc: "/model/latvia/molo/molo_lv.pmd"
+	distance_type: 3
+}
+model_def : model.scan0272 {
+	model_desc: "/model/lithuania/entry/kaunas.pmd"
+	distance_type: 3
+}
+model_def : model.scan0273 {
+	model_desc: "/model/lithuania/entry/klaipeda.pmd"
+	distance_type: 3
+}
+model_def : model.scan0274 {
+	model_desc: "/model/lithuania/entry/panevezys.pmd"
+	distance_type: 3
+}
+model_def : model.scan0275 {
+	model_desc: "/model/lithuania/entry/siauliai.pmd"
+	distance_type: 3
+}
+model_def : model.scan0276 {
+	model_desc: "/model/lithuania/entry/vilnius.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0277 {
+	model_desc: "/model/germany/munchen/allianz_arena/allianz_arena.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0278 {
+	model_desc: "/model/particle/particle_smoke1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0279 {
+	model_desc: "/model/particle/particle_steam1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0280 {
+	model_desc: "/model/particle/particle_steam2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0281 {
+	model_desc: "/model/romania/parliament/palace.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0282 {
+	model_desc: "/model/spain/barcelona/diagonal00.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0283 {
+	model_desc: "/model/romania/bridge/saligny_bridge_long.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0284 {
+	model_desc: "/model/romania/bridge/saligny_bridge_part.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0285 {
+	model_desc: "/model/romania/bridge/saligny_bridge_small.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0286 {
+	model_desc: "/model/romania/bridge/cernavoda_bridge.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0287 {
+	model_desc: "/model/romania/bridge/cernavoda_bridge_part.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0288 {
+	model_desc: "/model/romania/billboards/billboard.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0289 {
+	model_desc: "/model/general/solar/solar_panel.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0290 {
+	model_desc: "/model/general/solar/solar_panel_poles.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0291 {
+	model_desc: "/model/general/solar/solar_panel_poles_lod.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0292 {
+	model_desc: "/model/romania/rail_cross/rail_cross_ro.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0293 {
+	model_desc: "/model/latvia/rail_cross/rail_cross.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0294 {
+	model_desc: "/model/germany/frankfurt/airport_signs/sign.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0295 {
+ 	model_desc: "/model/latvia/riga/riga_tower.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0296 {
+ 	model_desc: "/model/latvia/riga/riga_arena.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0297 {
+ 	model_desc: "/model/germany/tourist/tourist_info.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0298 {
+ 	model_desc: "/model/germany/bonn/lange_eugen.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0299 {
+ 	model_desc: "/model/germany/bonn/post_tower.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0300 {
+ 	model_desc: "/model/russia/border/building.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0301 {
+ 	model_desc: "/model/russia/border/building_roof.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0302 {
+ 	model_desc: "/model/russia/border/border_post.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0303 {
+ 	model_desc: "/model/bridge/bridge_bottom_ramp_hw2_med_hw1-1.pmd"
+	category: "bridge bottom"
+	distance_type: 3
+}
+
+model_def : model.scan0304 {
+ 	model_desc: "/model/bridge/bridge_bottom_ramp_hw2_med_hw2-1.pmd"
+    category: "bridge bottom"
+	distance_type: 3
+}
+
+model_def : model.scan0305 {
+ 	model_desc: "/model/bridge/bridge_head.pmd"
+    category: "bridge head"
+	distance_type: 3
+}
+
+model_def : model.scan0306 {
+ 	model_desc: "/model/bus_station/bus_station_01_nobench.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0307 {
+ 	model_desc: "/model/germany/city_details/public_transport_sign.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0308 {
+ 	model_desc: "/model/germany/city_details/pedestrian_crossing_light.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0309 {
+ 	model_desc: "/model/germany/nurnberg/haltestelle_sign.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0310 {
+ 	model_desc: "/model/germany/nurnberg/siemens_logo.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0311 {
+ 	model_desc: "/model/germany/nurnberg/baa/baa.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0312 {
+ 	model_desc: "/prefab/xxxl/xxxl_chair.pmd"
+	distance_type: 3
+	category: "XXXLutz chair"
+}
+
+model_def : model.scan0313 {
+ 	model_desc: "/prefab/man/man_logo.pmd"
+	distance_type: 3
+	category: "MAN logo"
+}
+
+model_def : model.scan0314 {
+ 	model_desc: "/model/houses/east/rural_houses/house_A.pmd"
+	distance_type: 3
+	category: "Pauliaxz houses"
+}
+
+model_def : model.scan0315 {
+ 	model_desc: "/model/houses/east/rural_houses/house_B.pmd"
+	distance_type: 3
+	category: "Pauliaxz houses"
+}
+
+model_def : model.scan0316 {
+ 	model_desc: "/model/houses/east/rural_houses/house_C.pmd"
+	distance_type: 3
+	category: "Pauliaxz houses"
+}
+
+model_def : model.scan0317 {
+ 	model_desc: "/model/houses/east/rural_houses/shed_A.pmd"
+	distance_type: 3
+	category: "Pauliaxz houses"
+}
+
+model_def : model.scan0318 {
+ 	model_desc: "/model/netherlands/arnhem/ecoduct_woeste_hoeve.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0319 {
+ 	model_desc: "/model/netherlands/tourist/tourist_info.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0320 {
+ 	model_desc: "/prefab/supermarket/supermarket.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0321 {
+ 	model_desc: "/model/bridge/john_frost_bridge.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0322 {
+ 	model_desc: "/model/germany/nurnberg/quelle_turm.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0323 {
+ 	model_desc: "/model/houses/south/south_house_a1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0324 {
+ 	model_desc: "/model/houses/south/south_house_a2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0325 {
+ 	model_desc: "/model/houses/south/south_house_b.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0326 {
+ 	model_desc: "/model/houses/south/south_house_a1_far.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0327 {
+ 	model_desc: "/model/houses/south/south_house_a2_far.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0328 {
+ 	model_desc: "/model/houses/south/south_house_b_far.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0329 {
+ 	model_desc: "/model/germany/tourist/tourist_info_nurnberg.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0330 {
+ 	model_desc: "/model/germany/nurnberg/kongres/kongres.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0331 {
+ 	model_desc: "/model/netherlands/bridge/tacitusbrug_pillar1.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0332 {
+ 	model_desc: "/model/netherlands/bridge/tacitusbrug_pillar2.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0333 {
+ 	model_desc: "/model/parking/parking_garage_01.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0334 {
+ 	model_desc: "/model/sign/traffic/hr/tourist_hr.pmd"
+	distance_type: 3
+}
+
+model_def : model.scan0335 {
+	model_desc: "/model/parked_veh/police_parked_always_driver.pmd"
+	category: "parked vehicles"
+	category: "ProMods - Emergency vehicles"
+	distance_type: 3
+}
+
+
+model_def : model.scan0336 {
+	model_desc: "/model/parked_veh/police_parked_always.pmd"
+	category: "parked vehicles"
+	category: "ProMods - Emergency vehicles"
+	distance_type: 3
+}
+
+model_def : model.scan0337 {
+	model_desc: "/model/parked_veh/police_parked.pmd"
+	category: "parked vehicles"
+	category: "ProMods - Emergency vehicles"
+	distance_type: 3
+}
+
+model_def : model.scan0338 {
+	model_desc: "/model/road/traffic_light/traffic_light_general.pmd"
+	category: "ProMods - Static Traffic Lights"
+	distance_type: 3
+}
+
+model_def : model.scan0339 {
+	model_desc: "/model/road/traffic_light/traffic_light_hr.pmd"
+	category: "ProMods - Static Traffic Lights"
+	distance_type: 3
+}
+
+model_def : model.scan0340 {
+	model_desc: "/model/road/traffic_light/traffic_light_gr.pmd"
+	category: "ProMods - Static Traffic Lights"
+	distance_type: 3
+}
+
+model_def : model.scan0341 {
+	model_desc: "/model/bridge/fehmarnsund.pmd"
+	distance_type: 3
+}
+
+model_def : model.peter01 {
+	model_desc: "/model/denmark/padborg/volvo_logo_high.pmd"
+
+}
+
+model_def : model.martin02 {
+	model_desc: "/model/scania_competition/demo_centre/demo_building02.pmd"
+	distance_type: 1
+}
+
+model_def : model.martin04 {
+	model_desc: "/model/scania_competition/demo_centre/demo_building04.pmd"
+	distance_type: 1
+}
+
+model_def : model.martin05 {
+	model_desc: "/model/scania_competition/demo_centre/demo_building05.pmd"
+	distance_type: 1
+}
+
+model_def : model.martin06 {
+	model_desc: "/model/scania_competition/demo_centre/demo_building06.pmd"
+	distance_type: 1
+}
+
+model_def : model.martin08 {
+	model_desc: "/model/scania_competition/demo_centre/demo_gate02.pmd"
+	distance_type: 1
+}
+
+model_def : model.martin09 {
+	model_desc: "/model/scania_competition/demo_centre/demo_lavka01.pmd"
+	distance_type: 1
+}
+
+model_def : model.martin10 {
+	model_desc: "/model/scania_competition/demo_centre/demo_wall01.pmd"
+	distance_type: 1
+}
+
+model_def : model.martin11 {
+	model_desc: "/model/scania_competition/demo_centre/demo_wall02.pmd"
+	distance_type: 1
+}
+
+model_def : model.martin12 {
+	model_desc: "/model/scania_competition/demo_centre/rock_demo01.pmd"
+	distance_type: 1
+}
+
+model_def : model.martin13 {
+	model_desc: "/model/scania_competition/demo_centre/rock_demo02.pmd"
+	distance_type: 1
+}
+
+model_def : model.martin14 {
+	model_desc: "/model/rock/grassy_top_demo_01.pmd"
+}
+
+model_def : model.martin15 {
+	model_desc: "/model/rock/grassy_top_demo_02.pmd"
+}
+
+model_def : model.martin16 {
+	model_desc: "/model/scania_competition/scania_factory/factory_building01.pmd"
+}
+
+model_def : model.martin17 {
+	model_desc: "/model/scania_competition/scania_factory/factory_building02.pmd"
+}
+
+model_def : model.martin18 {
+	model_desc: "/model/scania_competition/scania_factory/factory_building03.pmd"
+}
+
+model_def : model.martin19 {
+	model_desc: "/model/scania_competition/scania_factory/factory_building04.pmd"
+}
+
+model_def : model.martin20 {
+	model_desc: "/model/scania_competition/scania_factory/factory_building05.pmd"
+}
+
+model_def : model.martin21 {
+	model_desc: "/model/scania_competition/scania_factory/building01.pmd"
+}
+
+model_def : model.martin22 {
+	model_desc: "/model/scania_competition/scania_factory/building02.pmd"
+}
+
+model_def : model.martin23 {
+	model_desc: "/model/scania_competition/scania_factory/building03.pmd"
+}
+
+model_def : model.martin24 {
+	model_desc: "/model/scania_competition/scania_factory/building04.pmd"
+}
+
+model_def : model.martin25 {
+	model_desc: "/model/scania_competition/scania_factory/building05.pmd"
+
+}
+
+model_def : model.martin26 {
+	model_desc: "/model/scania_competition/demo_centre/demo_building01.pmd"
+}
+
+model_def : model.martin27 {
+	model_desc: "/model/scania_competition/demo_centre/demo_pole01.pmd"
+
+}
+
+model_def : model.martin30 {
+	model_desc: "/model/scania_competition/scania_factory/factory_lamp01.pmd"
+}
+
+model_def : model.martin34 {
+	model_desc: "/model/scania_competition/scania_factory/factory_sign01.pmd"
+}
+
+model_def : model.martin36 {
+	model_desc: "/model/scania_competition/scania_factory/factory_lamp02.pmd"
+}
+
+model_def : model.martin37 {
+	model_desc: "/model/scania_competition/scania_factory/bridge01.pmd"
+}
+
+model_def : model.martin38 {
+	model_desc: "/model/scania_competition/scania_board01.pmd"
+}
+
+model_def : model.martin39 {
+	model_desc: "/model/billboard/city_adv02a.pmd"
+}
+
+model_def : model.martin40 {
+	model_desc: "/model/billboard/city_adv03.pmd"
+}
+
+model_def : model.martin41 {
+	model_desc: "/model/billboard/city_adv04.pmd"
+}
+
+model_def : model.martin42 {
+	model_desc: "/model/billboard/city_adv04a.pmd"
+}
+
+model_def : model.martin43 {
+	model_desc: "/model/billboard/city_adv05.pmd"
+}
+
+model_def : model.martin44 {
+	model_desc: "/model/billboard/city_adv05a.pmd"
+}
+
+model_def : model.martin45 {
+	model_desc: "/model/billboard/city_adv06.pmd"
+}
+
+model_def : model.martin46 {
+	model_desc: "/model/billboard/city_adv07.pmd"
+}
+
+model_def : model.martin47 {
+	model_desc: "/model/billboard/city_adv08.pmd"
+}
+
+model_def : model.martin48 {
+	model_desc: "/model/billboard/city_adv08a.pmd"
+}
+
+model_def : model.martin49 {
+	model_desc: "/model/billboard/city_adv08b.pmd"
+}
+
+model_def : model.martin50 {
+	model_desc: "/model/billboard/city_adv09.pmd"
+}
+
+model_def : model.martin51 {
+	model_desc: "/model/billboard/city_adv09a.pmd"
+}
+
+model_def : model.martin52 {
+	model_desc: "/model/billboard/city_adv10.pmd"
+}
+
+model_def : model.martin53 {
+	model_desc: "/model/billboard/city_adv11.pmd"
+}
+
+
+model_def : model.martin001  {
+	model_desc: "/model/billboard/city_adv02.pmd"
+}
+
+model_def : model.martin002 {
+	model_desc: "/model/billboard/city_adv01.pmd"
+}
+
+model_def : model.martin003 {
+	model_desc: "/model/billboard/city_adv01a.pmd"
+}
+model_def : model.easter001 {
+	model_desc: "/model/city_details/egg/advert_egg.pmd"
+}
+
+model_def : model.ms001 {
+	model_desc: "/model/sign/panorama/board_b_vlaanderen.pmd"
+	distance_type: 1
+}
+model_def : model.ms002 {
+	model_desc: "/model/sign/panorama/board_b_wallonie.pmd"
+	distance_type: 1
+}
+model_def : model.ms003 {
+	model_desc: "/model/sign/panorama/board_b_brussels.pmd"
+	distance_type: 1
+}
+model_def : model.ms004 {
+	model_desc: "/model/sign/panorama/board_se_lan.pmd"
+	distance_type: 1
+}
+model_def : model.ms005 {
+	model_desc: "/model/bridge/kohlbrandbrucke.pmd"
+	distance_type: 2
+}
+model_def : model.ms006 {
+	model_desc: "/model/bridge/loire_bridge.pmd"
+	distance_type: 2
+}
+model_def : model.ms007 {
+	model_desc: "/model/bridge/selfoss_bridge.pmd"
+	distance_type: 2
+}
+model_def : model.ms008 {
+	model_desc: "/model/railing/tunnel/pm_stockholm_tunnel_ramp_3x2_med.pmd"
+	distance_type: 2
+}
+model_def : model.ms009 {
+	model_desc: "/model/railing/tunnel/pm_stockholm_tunnel_ramp_3x2_med_mirror.pmd"
+	distance_type: 2
+}
+model_def : model.ms010 {
+	model_desc: "/model/props/street/arrow_de.promods.pmd"
+	distance_type: 2
+}
+model_def : model.ms010a {
+	model_desc: "/model/props/street/arrow_hu.promods.pmd"
+	distance_type: 2
+}
+model_def : model.ms011 {
+	model_desc: "/model/props/street/arrow_at.promods.pmd"
+	distance_type: 2
+}
+model_def : model.ms011a {
+	model_desc: "/model/props/street/arrow_es.promods.pmd"
+	distance_type: 2
+}
+model_def : model.ms011b {
+	model_desc: "/model/props/street/arrow_ch.promods.pmd"
+	distance_type: 2
+}
+model_def : model.ms011c {
+	model_desc: "/model/props/street/paint_circle_uk.pmd"
+	distance_type: 2
+}
+model_def : model.ms012 {
+	model_desc: "/model/props/street/arrow_de.promods_roadworks.pmd"
+	distance_type: 2
+}
+model_def : model.ms013 {
+	model_desc: "/model/bridge/martinus_nijhoff_bridge.pmd"
+	distance_type: 2
+}
+model_def : model.ms014  {
+	model_desc: "/model/washbox/washbox_01b.pmd"
+	category: "washbox TZ map"
+}
+model_def : model.ms015  {
+	model_desc: "/model/tunnel/ecoduct_loose_hw2.pmd"
+	category: "promods"
+}
+model_def : model.ms016  {
+	model_desc: "/model2/building/shop/fastfood_restaurant.pmd"
+	category: "promods"
+}
+
+model_def : model.ms017  {
+	model_desc: "/model/norway/nordkapp_globe.pmd"
+	category: "promods"
+}
+
+model_def : model.ms018  {
+	model_desc: "/model/norway/nordkapp_building.pmd"
+	category: "promods"
+}
+
+model_def : model.ms019  {
+	model_desc: "/model/spain/landmark/zaragoza_torre_del_agua.pmd"
+	category: "promods"
+}
+model_def : model.ms020  {
+	model_desc: "/model/lamp/lamp_ch_bern_catenary.pmd"
+	category: "promods"
+}
+
+model_def : model.ms021  {
+	model_desc: "/model/sign/navigation/modularnavigationsigns_base_gantry.pmd"
+	category: "promods"
+}
+
+model_def : model.ms022  {
+	model_desc: "/model/bridge/tahtiniemi_bridge.pmd"
+	category: "promods"
+}
+
+model_def : model.ms023  {
+	model_desc: "/model2/building/logistic/logistic_company_01_fr.pmd"
+	category: "promods"
+	
+	static_lod_name[]: "LOD from 50m"
+	static_lod_path[]: "/model2/building/logistic/logistic_company_01_fr_lod1.pmd"
+}
+model_def : model.ms024  {
+	model_desc: "/model2/building/logistic/logistic_company_01_balt.pmd"
+	category: "promods"
+	
+	static_lod_name[]: "LOD from 50m"
+	static_lod_path[]: "/model2/building/logistic/logistic_company_01_balt_lod1.pmd"
+}
+model_def : model.ms025  {
+	model_desc: "/model2/building/logistic/logistic_company_02_balt.pmd"
+	category: "promods"
+	
+	static_lod_name[]: "LOD from 50m"
+	static_lod_path[]: "/model2/building/logistic/logistic_company_02_balt_lod1.pmd"
+}
+model_def : model.ms026  {
+	model_desc: "/model2/building/logistic/logistic_company_03_balt.pmd"
+	category: "promods"
+	
+	static_lod_name[]: "LOD from 50m"
+	static_lod_path[]: "/model2/building/logistic/logistic_company_03_balt_lod1.pmd"
+}
+
+model_def : model.pillar01 {
+	model_desc: "/model/pillar/t_shaped.pmd"
+	distance_type: 2
+}
+model_def : model.pillar02 {
+	model_desc: "/model/pillar/slim_cylinder.pmd"
+	distance_type: 2
+}
+model_def : model.pillar03 {
+	model_desc: "/model/pillar/h_shaped.pmd"
+	distance_type: 2
+}
+model_def : model.pillar04 {
+	model_desc: "/model/pillar/square_concave.pmd"
+	distance_type: 2
+}
+model_def : model.pillar05 {
+	model_desc: "/model/pillar/t_cylinder.pmd"
+	distance_type: 2
+}
+model_def : model.pillar06 {
+	model_desc: "/model/pillar/t_long.pmd"
+	distance_type: 2
+}
+model_def : model.pillar07 {
+	model_desc: "/model/pillar/a96pillar.pmd"
+	distance_type: 2
+}
+#model_def : model.pillar08 {
+#	model_desc: "/model/pillar/cardiff_pillar.pmd"
+#	distance_type: 2
+#}
+#model_def : model.pillar09 {
+#	model_desc: "/model/pillar/m90_end_pillar.pmd"
+#	distance_type: 2
+#}
+model_def : model.pillar10 {
+	model_desc: "/model/pillar/square_concave_2.pmd"
+	distance_type: 2
+}
+model_def : model.nic01 {
+	model_desc: "/model/speed_bumps2.pmd"
+	distance_type: 1
+}
+model_def : model.nic02 {
+	model_desc: "/model/road/road_crack1.pmd"
+	distance_type: 0
+}
+model_def : model.nic03 {
+	model_desc: "/model/road/road_crack2.pmd"
+	distance_type: 0
+}
+model_def : model.nic04 {
+	model_desc: "/model/city_details/ljmodel.pmd"
+	distance_type: 3
+}
+model_def : model.ger001 {
+	model_desc: "/model/panorama/germany/allianz_arena.pmd"
+	distance_type: 1
+}
+
+model_def : model.billboardde1 {
+	model_desc: "/model/_bilbordy_de/PL/billboard_1.pmd"
+	distance_type: 3
+		category: "German billboards"
+}
+
+model_def : model.billboardnl1 {
+	model_desc: "/model/billboard/nl/billboard_1.pmd"
+	distance_type: 3
+		category: "NL billboards"
+}
+
+model_def : model.ru01 {
+	model_desc: "/m0d3l/administration/administration_02.pmd"
+	distance_type: 1
+}
+
+model_def : model.ru03 {
+	model_desc: "/m0d3l/dwelling_house/dwelling_house_02.pmd"
+	distance_type: 1
+}
+
+model_def : model.ru04 {
+	model_desc: "/m0d3l/uninhabited_house/uninhabited_house_01.pmd"
+	distance_type: 1
+}
+
+model_def : model.ru05 {
+	model_desc: "/m0d3l/shop/hozjajushka.pmd"
+	distance_type: 1
+}
+
+model_def : model.ru06 {
+	model_desc: "/m0d3l/shop/shop_ru_01.pmd"
+	distance_type: 1
+}
+
+model_def : model.ru07 {
+	model_desc: "/m0d3l/shop/shop_ru_02.pmd"
+	distance_type: 1
+}
+
+model_def : model.ru08 {
+	model_desc: "/m0d3l/shop/shop_ru_03.pmd"
+	distance_type: 1
+}
+
+model_def : model.ru09 {
+	model_desc: "/m0d3l/shop/shop_ru_04.pmd"
+	distance_type: 1
+}
+
+model_def : model.gr01 {
+	model_desc: "/model/greece/athens/parthenon/parthenon.pmd"
+	distance_type: 3
+}
+
+model_def : model.abra001 {
+	model_desc: "/model/iceland/gas_pumps.pmd"
+	distance_type: 1
+}
+
+model_def : model.abra002 {
+	model_desc: "/model/iceland/board_17x12.pmd"
+	distance_type: 1
+}
+
+model_def : model.abra003 {
+	model_desc: "/model/iceland/board_14x12.pmd"
+	distance_type: 1
+}
+
+
+model_def : model.abra004 {
+	model_desc: "/model/iceland/rest_stop_table.pmd"
+	distance_type: 1
+}
+
+
+model_def : model.abra005 {
+	model_desc: "/model/snow/house/house_public.pmd"
+	distance_type: 1
+}
+
+
+model_def : model.abra006 {
+	model_desc: "/model/iceland/gas_02.pmd"
+	distance_type: 3
+}
+
+
+model_def : model.abra008 {
+	model_desc: "/model/iceland/is_mark_left.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra009 {
+	model_desc: "/model/iceland/is_mark_right.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra010 {
+	model_desc: "/model/particle/blowing_snow.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra011 {
+	model_desc: "/model/snow/decals/snow_flat.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra012 {
+	model_desc: "/model/iceland/gas_pump.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra013 {
+	model_desc: "/model/iceland/gas_station_roofed.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra014 {
+	model_desc: "/model/iceland/generic_logo_board_2x1.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra015 {
+	model_desc: "/model/iceland/generic_logo_board_3x1.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra016 {
+	model_desc: "/model/iceland/service_02.pmd"
+	distance_type: 2
+}
+model_def : model.abra017 {
+	model_desc: "/model/snow/shop/shop05_upgrade.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra18 {
+	model_desc: "/model/parked_veh/parked_car_always_nolines.pmd"
+	category: "parked vehicles"
+	distance_type: 3
+}
+
+model_def : model.abra19 {
+	model_desc: "/model/parked_veh/parked_car_nolines.pmd"
+	category: "parked vehicles"
+	distance_type: 3
+}
+
+model_def : model.abra20 {
+	model_desc: "/model/parked_veh/parked_truck_always_nolines.pmd"
+	category: "parked vehicles"
+	distance_type: 3
+}
+
+model_def : model.abra21 {
+	model_desc: "/model/parked_veh/parked_truck_nolines.pmd"
+	category: "parked vehicles"
+	distance_type: 3
+}
+
+model_def : model.abra23 {
+	model_desc: "/model/parked_veh/parked_truck_only_nolines.pmd"
+	category: "parked vehicles"
+	distance_type: 3
+}
+
+model_def : model.abra024 {
+	model_desc: "/model/iceland/bonus_logo_round.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra025 {
+	model_desc: "/model/iceland/bonus_logo_horiz.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra027 {
+	model_desc: "/model/city_details/ad_board.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra028 {
+	model_desc: "/model/road/road_print_speed_50.pmd"
+	distance_type: 2
+}
+model_def : model.abra029 {
+	model_desc: "/model/animals/reindeer.pmd"
+	distance_type: 2
+}
+model_def : model.abra030 {
+	model_desc: "/model/rocks/rocks_far_snow.pmd"
+	distance_type: 3
+ 	category: "dlc_north/rocks"
+}
+model_def : model.abra031 {
+	model_desc: "/model/rocks/rock_1.snow.pmd"
+	distance_type: 3
+ 	category: "dlc_north/rocks"
+}
+model_def : model.abra032 {
+	model_desc: "/model/rocks/rock_1_half.snow.pmd"
+	distance_type: 3
+ 	category: "dlc_north/rocks"
+}
+model_def : model.abra033 {
+	model_desc: "/model/rocks/rock_1_half_low.snow.pmd"
+	distance_type: 3
+ 	category: "dlc_north/rocks"
+}
+model_def : model.abra034 {
+	model_desc: "/model/rocks/rock_2_half.snow.pmd"
+	distance_type: 3
+ 	category: "dlc_north/rocks"
+}
+model_def : model.abra035 {
+	model_desc: "/model/rocks/rock_2_half_low.snow.pmd"
+	distance_type: 3
+ 	category: "dlc_north/rocks"
+}
+model_def : model.abra036 {
+	model_desc: "/model/police_cars/is/volvo_xc90.pmd"
+	distance_type: 2
+ 	category: "ProMods - Emergency vehicles"
+}
+model_def : model.abra037 {
+	model_desc: "/model/iceland/gas_02_building.pmd"
+	distance_type: 3
+}
+model_def : model.abra038 {
+	model_desc: "/model/iceland/gas_station_roofed_2.pmd"
+	distance_type: 3
+}
+model_def : model.abra039 {
+	model_desc: "/model/iceland/krafla_toilet.pmd"
+	distance_type: 2
+}
+model_def : model.abra040 {
+	model_desc: "/model/iceland/krafla_shower.pmd"
+	distance_type: 2
+}
+model_def : model.abra041 {
+	model_desc: "/model/particle/particle_shower.pmd"
+	distance_type: 2
+}
+model_def : model.abra042 {
+	model_desc: "/model/rocks/rock_top.iceland.pmd"
+	distance_type: 2
+}
+model_def : model.abra043 {
+	model_desc: "/model/rocks/rock_3.iceland.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra044 {
+	model_desc: "/model/particle/particle_hverir_tube.pmd"
+	distance_type: 3
+}
+
+model_def : model.abra045 {
+	model_desc: "/model/particle/particle_hverir_big.pmd"
+	distance_type: 3
+}
+
+model_def : model.abra046 {
+	model_desc: "/model/iceland/krafla_sign.pmd"
+	distance_type: 3
+}
+model_def : model.abra047 {
+	model_desc: "/model/iceland/krafla_tower/krafla_towers.pmd"
+	distance_type: 3
+}
+model_def : model.abra048 {
+	model_desc: "/model/iceland/krafla_building_m/krafla_building_m.pmd"
+	distance_type: 3
+}
+model_def : model.abra049 {
+	model_desc: "/model/iceland/krafla_garage/krafla_garage.pmd"
+	distance_type: 3
+}
+model_def : model.abra050 {
+	model_desc: "/model/iceland/krafla_building_m/krafla_hangar.pmd"
+	distance_type: 3
+}
+model_def : model.abra051 {
+	model_desc: "/model/particle/particle_krafla_tower.pmd"
+	distance_type: 3
+}
+model_def : model.abra052 {
+	model_desc: "/model/particle/particle_krafla_chimney.pmd"
+	distance_type: 3
+}
+model_def : model.abra053 {
+	model_desc: "/model/particle/particle_krafla_mini.pmd"
+	distance_type: 3
+}
+model_def : model.abra054 {
+	model_desc: "/model/iceland/ice_gla_stand/ice_gla_stand.pmd"
+	distance_type: 2
+}
+model_def : model.abra055 {
+	model_desc: "/model/mover/characters/worker_standing.pmd"
+	category: "characters"
+}
+model_def : model.abra056 {
+	model_desc: "/model/mover/characters/worker_noter.pmd"
+	category: "characters"
+}
+model_def : model.abra057 {
+	model_desc: "/model/mover/characters/worker_leaning.pmd"
+	category: "characters"
+}
+model_def : model.abra058 {
+	model_desc: "/model/mover/characters/worker_sponge.pmd"
+	category: "characters"
+}
+model_def : model.abra059 {
+	model_desc: "/model/mover/characters/worker_sitting.pmd"
+	category: "characters"
+}
+model_def : model.abra060 {
+	model_desc: "/model/mover/characters/security_standing.pmd"
+	category: "characters"
+}
+model_def : model.abra061 {
+	model_desc: "/model/mover/characters/security_leaning.pmd"
+	category: "characters"
+}
+model_def : model.abra062 {
+	model_desc: "/model/mover/characters/security_sitting.pmd"
+	category: "characters"
+}
+model_def : model.abra063 {
+	model_desc: "/model/mover/characters/service_standing.pmd"
+	category: "characters"
+}
+model_def : model.abra064 {
+	model_desc: "/model/mover/characters/service_noter.pmd"
+	category: "characters"
+}
+model_def : model.abra065 {
+	model_desc: "/model/mover/characters/service_leaning.pmd"
+	category: "characters"
+}
+model_def : model.abra066 {
+	model_desc: "/model/mover/characters/service_sponge.pmd"
+	category: "characters"
+}
+model_def : model.abra067 {
+	model_desc: "/model/mover/characters/service_sitting.pmd"
+	category: "characters"
+}
+model_def : model.abra068 {
+	model_desc: "/model/mover/characters/service_i.pmd"
+	category: "characters"
+}
+model_def : model.abra069 {
+	model_desc: "/model/iceland/is_mark_clearance.pmd"
+	category: "iceland"
+}
+model_def : model.abra073 {
+	model_desc: "/model/iceland/floe/floe.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+
+model_def : model.abra074 {
+	model_desc: "/model/mover/towing_ship.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra075 {
+	model_desc: "/model/iceland/generic_logo_board_1x1.pmd"
+	distance_type: 2
+}
+
+model_def : model.abra076 {
+	model_desc: "/model/aircraft/pilatus/pilatus_drive.pmd"
+	distance_type: 2
+}
+
+
+model_def : model.abra077 {
+	model_desc: "/model/particle/hot_pool_steam.pmd"
+	distance_type: 2
+}
+model_def : model.abra078 {
+	model_desc: "/model/iceland/houses_sc/house_03_sc.pmd"
+	distance_type: 1
+	category: "iceland"
+        static_lod_name[]: "LOD from 100m"
+	static_lod_path[]: "/model/iceland/houses_sc/house_03_lod1_sc.pmd"
+        static_lod_name[]: "LOD from 200m"
+	static_lod_path[]: "/model/iceland/houses_sc/house_03_lod2_sc.pmd"
+}
+model_def : model.abra079 {
+	model_desc: "/model/iceland/houses_sc/house_01_sc.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra080 {
+	model_desc: "/model/iceland/houses_sc/house_02_sc.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra081 {
+	model_desc: "/model/iceland/houses_sc/house_04_sc.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra082 {
+	model_desc: "/model/iceland/houses_sc/block_of_flats_02_sc.pmd"
+	distance_type: 1
+	category: "iceland"
+        static_lod_name[]: "LOD from 100m"
+	static_lod_path[]: "/model/iceland/houses_sc/block_of_flats_02_lod1_sc.pmd"
+        static_lod_name[]: "LOD from 200m"
+	static_lod_path[]: "/model/iceland/houses_sc/block_of_flats_02_lod2_sc.pmd"
+}
+model_def : model.abra083 {
+	model_desc: "/model/iceland/houses_sc/block_of_flats_02_double_sc.pmd"
+	distance_type: 1
+	category: "iceland"
+        static_lod_name[]: "LOD from 100m"
+	static_lod_path[]: "/model/iceland/houses_sc/block_of_flats_02_double_lod1_sc.pmd"
+        static_lod_name[]: "LOD from 200m"
+	static_lod_path[]: "/model/iceland/houses_sc/block_of_flats_02_double_lod2_sc.pmd"
+}
+model_def : model.abra084 {
+	model_desc: "/model/iceland/houses_sc/house_05_sc.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra085 {
+	model_desc: "/model/iceland/board_4x1/board_4x1.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra086 {
+	model_desc: "/model/sign/traffic/is/corner_arrow_double_is.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra087 {
+	model_desc: "/model/iceland/board_4x1/board_4x1_nopoles.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra088{
+	model_desc: "/model/rocks/rock_2_half.snow2.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra089{
+	model_desc: "/prefab/iceland/gas_station/gas_snow_small.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra090 {
+	model_desc: "/model/port/trawler.pmd"
+	distance_type: 3
+}
+model_def : model.abra091 {
+	model_desc: "/model/iceland/tunnels/semaphore.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra092 {
+	model_desc: "/model/iceland/tunnels/stop_light_board_is.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra093 {
+	model_desc: "/model/iceland/tunnels/tunnel_sign_is.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra094 {
+	model_desc: "/model/iceland/board_14x12_big.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra095 {
+	model_desc: "/model/iceland/tunnels/isa_tunnel_light.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra096 {
+	model_desc: "/model/iceland/tunnels/rock_2_half_low_sc.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra097 {
+	model_desc: "/model/iceland/tunnels/rock_2_half_sc.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra098 {
+	model_desc: "/model/iceland/tunnels/rock_top_sc.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra099 {
+	model_desc: "/model/iceland/tunnels/isa_tunnel_end.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra100 {
+	model_desc: "/model/particle/particle_seljalands_big.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra101 {
+	model_desc: "/model/particle/particle_seljalands_narrow.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra102 {
+	model_desc: "/model/particle/particle_seljalands_second.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra103 {
+	model_desc: "/model/particle/particle_seljalands_gljufra.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra104 {
+	model_desc: "/model/particle/particle_seljalands_farm.pmd"
+	distance_type: 2
+	category: "iceland"
+}
+model_def : model.abra105 {
+	model_desc: "/model2/props/construction/far/heap_01_block_pro.pmd"
+	distance_type: 1
+	category: "cargo"
+}
+model_def : model.abra106 {
+	model_desc: "/model2/props/construction/far/heap_01_single_pro.pmd"
+	distance_type: 1
+	category: "cargo"
+}
+model_def : model.abra107 {
+	model_desc: "/model2/props/construction/close/heap_01_block_pro.pmd"
+	distance_type: 1
+	category: "cargo"
+}
+model_def : model.abra108 {
+	model_desc: "/model2/props/construction/close/heap_01_single_pro.pmd"
+	distance_type: 1
+	category: "cargo"
+}
+model_def : model.abra109 {
+	model_desc: "/model/iceland/vestmann_church.pmd"
+	distance_type: 1
+	category: "iceland"
+}
+model_def : model.abra110 {
+	model_desc: "/model2/gates_anim/an_gate_slide_1.pmd"
+	distance_type: 1
+	category: "animated gates"
+}
+model_def : model.abra111 {
+	model_desc: "/model2/gates_anim/an_gate_swing_8m_1.pmd"
+	distance_type: 1
+	category: "animated gates"
+}
+model_def : model.abra112 {
+	model_desc: "/model2/gates_anim/an_gate_swing_8m_2.pmd"
+	distance_type: 1
+	category: "animated gates"
+}
+model_def : model.abra113 {
+	model_desc: "/model2/gates_anim/an_gate_farm_1.pmd"
+	distance_type: 1
+	category: "animated gates"
+}
+model_def : model.abra114 {
+	model_desc: "/model2/gates_anim/an_gate_swing_6m_1.pmd"
+	distance_type: 1
+	category: "animated gates"
+}
+model_def : model.abra115 {
+	model_desc: "/model2/gates_anim/an_gate_swing_6m_2.pmd"
+	distance_type: 1
+	category: "animated gates"
+}
+model_def : model.abra116 {
+	model_desc: "/model2/gates_anim/an_gate_slide_big_1.pmd"
+	distance_type: 1
+	category: "animated gates"
+}
+model_def : model.abra117 {
+	model_desc: "/model2/gates_anim/an_gate_slide_big_2.pmd"
+	distance_type: 1
+	category: "animated gates"
+}
+model_def : model.abra118 {
+	model_desc: "/model2/gates_anim/an_gate_rised_1.pmd"
+	distance_type: 1
+	category: "animated gates"
+}
+model_def : model.abra121 {
+	model_desc: "/model2/gates_anim/an_gate_rised_double.pmd"
+	distance_type: 1
+	category: "animated gates"
+}
+model_def : model.abra122 {
+	model_desc: "/model/iceland/overlay_logo_board_4x1.pmd"
+	distance_type: 2
+}
+
+model_def : model.001fh {
+	model_desc: "/m0d3l/other/transit_de.pmd"
+        category: "Germany - roadworks"
+        distance_type: 1
+}
+
+model_def : model.plykbb01 {
+ 	model_desc: "/model/bridge/bridge_bottom_ramp_hw4_med_hw2-2_v1.pmd"
+        category: "bridge bottom"
+	distance_type: 3
+}
+
+model_def : model.plykbb02 {
+ 	model_desc: "/model/bridge/bridge_bottom_tran_1x_hw3-4_long_bm2.pmd"
+        category: "bridge bottom"
+		distance_type: 3
+}
+
+model_def : model.plykbh03 {
+	model_desc: "/prefab/bauhaus/bauhaus1.pmd"
+	category: "promods"
+	distance_type: 3
+}
+
+model_def : model.cd01  {
+	model_desc: "/model/gas_station/gas_01a_small.pmd"
+	category: "gas station TZ map"
+}
+
+model_def : model.cd02  {
+	model_desc: "/model2/panorama/norway/station_building_01_sc.pmd"
+	category: "dlc_north/close_city"
+}
+
+model_def : model.cd03  {
+	model_desc: "/model2/props/pillar/bridge_span_01_sc.pmd"
+	category: "dlc_north"
+}
+
+model_def : model.cd04  {
+	model_desc: "/model2/props/pillar/bridge_span_01_pillar_sc.pmd"
+	category: "dlc_north"
+}
+
+model_def : model.cd05  {
+	model_desc: "/model2/building/flats/tenement_house_01b_sc.pmd"
+	category: "dlc_north/close_city"
+}
+
+model_def : model.cd06  {
+	model_desc: "/model2/building/flats/tenement_house_02b_sc.pmd"
+	category: "dlc_north/close_city"
+}
+
+model_def : model.cd07  {
+	model_desc: "/model2/panorama/norway/gjemnessund_bridge_sc.pmd"
+	category: "dlc_north"
+}
+
+model_def : model.hu01  {
+	model_desc: "/model2/props/street/advert/advert_tall_01_hu.pmd"
+	category: "hungary"
+}
+
+#
+#EOF
+#
+
+}
+

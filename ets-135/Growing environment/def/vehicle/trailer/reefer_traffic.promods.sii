@@ -1,0 +1,85 @@
+
+traffic_trailer : .traffic.trailer.reefer.nd {
+	accessories[]: .reefer.tchassis.nd
+	accessories[]: .reefer.trwheel0.nd
+	accessories[]: .reefer.trwheel1.nd
+	accessories[]: .reefer.trwheel2.nd
+	accessories[]: .reefer.paintjob.nd
+	cargo_mass: 20000
+	base: traffic.trailer.reefer
+}
+vehicle_accessory: .reefer.tchassis.nd {
+	data_path: "/def/vehicle/trailer/reefer/chassis.sii"
+}
+vehicle_wheel_accessory: .reefer.trwheel0.nd {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .reefer.trwheel1.nd {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .reefer.trwheel2.nd {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .reefer.paintjob.nd {
+    	data_path: "/def/vehicle/trailer/reefer/company_paint_job/nd.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.reefer.deret {
+	accessories[]: .reefer.tchassis.deret
+	accessories[]: .reefer.trwheel0.deret
+	accessories[]: .reefer.trwheel1.deret
+	accessories[]: .reefer.trwheel2.deret
+	accessories[]: .reefer.paintjob.deret
+	cargo_mass: 20000
+	base: traffic.trailer.reefer
+}
+vehicle_accessory: .reefer.tchassis.deret {
+	data_path: "/def/vehicle/trailer/reefer/chassis.sii"
+}
+vehicle_wheel_accessory: .reefer.trwheel0.deret {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .reefer.trwheel1.deret {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .reefer.trwheel2.deret {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .reefer.paintjob.deret {
+    	data_path: "/def/vehicle/trailer/reefer/company_paint_job/deret.sii"
+}
+
+traffic_trailer : .traffic.trailer.reefer.gallia_ferry {
+	accessories[]: .reefer.tchassis.gallia_ferry
+	accessories[]: .reefer.trwheel0.gallia_ferry
+	accessories[]: .reefer.trwheel1.gallia_ferry
+	accessories[]: .reefer.trwheel2.gallia_ferry
+	accessories[]: .reefer.paintjob.gallia_ferry
+	cargo_mass: 20000
+	base: traffic.trailer.reefer
+}
+vehicle_accessory: .reefer.tchassis.gallia_ferry {
+	data_path: "/def/vehicle/trailer/reefer/chassis.sii"
+}
+vehicle_wheel_accessory: .reefer.trwheel0.gallia_ferry {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .reefer.trwheel1.gallia_ferry {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .reefer.trwheel2.gallia_ferry {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .reefer.paintjob.gallia_ferry {
+    	data_path: "/def/vehicle/trailer/reefer/company_paint_job/gallia_ferry.sii"
+}

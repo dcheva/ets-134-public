@@ -1,0 +1,33 @@
+traffic_vehicle : traffic.astra.police.bg
+{
+	accessories[]: .astra.police.bg.chassis
+	accessories[]: .astra.police.bg.fwheel
+	accessories[]: .astra.police.bg.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 1500
+@include "/def/vehicle/ai/drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .astra.police.bg.chassis
+{
+	data_path: "/def/vehicle/ai/promods/road/astra/chassis_police_bg.sii"
+}
+
+vehicle_wheel_accessory: .astra.police.bg.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_15in.sii"
+}
+
+vehicle_wheel_accessory: .astra.police.bg.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_15in.sii"
+}

@@ -1,0 +1,51 @@
+SiiNunit
+{
+overlay_def : .overlay {
+
+	city_names[]: "no_bergen_b"
+	city_names[]: "no_bergen_w"
+	city_names[]: "no_gborg_b"
+	city_names[]: "no_gborg_w"
+	city_names[]: "no_geilo_b"
+	city_names[]: "no_geilo_w"
+	city_names[]: "no_hnfss_b"
+	city_names[]: "no_hnfss_w"
+	city_names[]: "no_ksand_b"
+	city_names[]: "no_ksand_w"
+	city_names[]: "no_kstad_b"
+	city_names[]: "no_kstad_w"
+	city_names[]: "no_oslo_b"
+	city_names[]: "no_oslo_w"
+	city_names[]: "no_sentr_b"
+	city_names[]: "no_sentr_w"
+	city_names[]: "no_stav_b"
+	city_names[]: "no_stav_w"
+	city_names[]: "no_stockh_b"
+	city_names[]: "no_stockh_w"
+	city_names[]: "no_garde_b"
+	city_names[]: "no_garde_w"
+	city_names[]: "no_terminal"
+
+	city_names[]: "no_dmark_b"
+	city_names[]: "no_odda_b"
+	city_names[]: "no_odda_w"
+
+	road_names[]: "no_e8"
+	road_names[]: "no_e10"
+	road_names[]: "no_e12"
+	road_names[]: "no_e14"
+	road_names[]: "no_e69"
+	road_names[]: "no_e75"
+	road_names[]: "no_e105"
+	road_names[]: "no_e136"
+	road_names[]: "no_fv63"
+	road_names[]: "no_fv64"
+	road_names[]: "no_ring3"
+	road_names[]: "no_rv7"
+	road_names[]: "no_rv13"
+	road_names[]: "no_rv70"
+	road_names[]: "no_rv93"
+	road_names[]: "no_rv94"
+}
+
+}

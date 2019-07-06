@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_wheel_data : tram.rwheel
+{
+	model: "/vehicle/wheel/tram/tram_wheel.pmd"
+}
+}

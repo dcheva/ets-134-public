@@ -1,0 +1,67 @@
+SiiNunit
+{
+material_def : sidewalk.0prm {
+	path: "/material/road/sidewalk_00.mat"
+}
+
+material_def : sidewalk.1prm {
+	path: "/material/road/sidewalk_04.mat"
+}
+
+material_def : sidewalk.2prm {
+	path: "/material/road/sidewalk_06.mat"
+}
+
+material_def : sidewalk.3prm {
+	path: "/material/road/sidewalk_07.mat"
+}
+
+material_def : sidewalk.4prm {
+	path: "/material/road/sidewalk_01.mat"
+}
+
+material_def : sidewalk.5prm {
+	path: "/material/road/sidewalk_08.mat"
+}
+
+material_def : sidewalk.9prm {
+	path: "/material/road/sidewalk_02.mat"
+}
+
+material_def : sidewalk.10prm {
+	path: "/material/road/sidewalk_03.mat"
+}
+
+material_def : sidewalk.11prm {
+	path: "/material/road/sidewalk_05.mat"
+}
+
+material_def : sidewalk.12prm {
+	path: "/material/terrain/grass_ger_main.mat"
+}
+
+material_def : sidewalk.13prm {
+	path: "/material/road/sidewalk_09.mat"
+}
+
+material_def : sidewalk.14prm {
+	path: "/material/terrain/asphalt_00.mat"
+}
+
+material_def : sidewalk.15prm {
+	path: "/material/terrain/asphalt_01.mat"
+}
+
+material_def : sidewalk.16prm {
+	path: "/material/road/sidewalk_10.mat"
+}
+
+material_def : sidewalk.17prm {
+	path: "/material/road/sidewalk_11.mat"
+}
+
+material_def : sidewalk.18prm {
+	path: "/material/road/sidewalk_12.mat"
+}
+
+}

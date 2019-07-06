@@ -1,0 +1,105 @@
+﻿city_data: city.thessaloniki
+{
+	city_name: "Θεσσαλονίκη"
+	city_name_localized: "@@thessaloniki@@"
+	country: greece
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"mercedes"
+
+	truck_lp_template[]:"0-2111 "
+
+	truck_lp_def0[]:"NKE"
+
+	truck_lp_def1[]:"0"
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+	ai_lp_template[]:"0-2111 "
+
+	ai_lp_def0[]:"NZX"
+	ai_lp_def0[]:"NHA"
+	ai_lp_def0[]:"NHB"
+	ai_lp_def0[]:"NHE"
+	ai_lp_def0[]:"NHZ"
+	ai_lp_def0[]:"NHH"
+	ai_lp_def0[]:"NHI"
+	ai_lp_def0[]:"NHK"
+	ai_lp_def0[]:"NHM"
+	ai_lp_def0[]:"NHN"
+	ai_lp_def0[]:"NHO"
+	ai_lp_def0[]:"NHP"
+	ai_lp_def0[]:"NHT"
+	ai_lp_def0[]:"NHY"
+	ai_lp_def0[]:"NHX"
+	ai_lp_def0[]:"NIA"
+	ai_lp_def0[]:"NIB"
+	ai_lp_def0[]:"NIH"
+	ai_lp_def0[]:"NII"
+	ai_lp_def0[]:"NIK"
+	ai_lp_def0[]:"NIM"
+	ai_lp_def0[]:"NIN"
+	ai_lp_def0[]:"NIO"
+	ai_lp_def0[]:"NIP"
+	ai_lp_def0[]:"NIT"
+	ai_lp_def0[]:"NIY"
+	ai_lp_def0[]:"NIX"
+	ai_lp_def0[]:"NKA"
+	ai_lp_def0[]:"NKB"
+	ai_lp_def0[]:"NKE"
+
+	ai_lp_def1[]:"0"
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+}

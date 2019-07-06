@@ -1,0 +1,104 @@
+﻿city_data: city.ioannina
+{
+	city_name: "Ιωάννινα"
+	city_name_localized: "@@ioannina@@"
+	country: greece
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	vehicle_brands[]:"mercedes"
+
+	truck_lp_template[]:"0-2111 "
+
+	truck_lp_def0[]:"INN"
+
+	truck_lp_def1[]:"0"
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+	ai_lp_template[]:"0-2111 "
+
+	ai_lp_def0[]:"INP"
+	ai_lp_def0[]:"INT"
+	ai_lp_def0[]:"INX"
+	ai_lp_def0[]:"INN"
+
+	ai_lp_def1[]:"A"
+	ai_lp_def1[]:"B"
+	ai_lp_def1[]:"E"
+	ai_lp_def1[]:"Z"
+	ai_lp_def1[]:"H"
+	ai_lp_def1[]:"I"
+	ai_lp_def1[]:"K"
+	ai_lp_def1[]:"M"
+	ai_lp_def1[]:"N"
+	ai_lp_def1[]:"O"
+	ai_lp_def1[]:"P"
+	ai_lp_def1[]:"T"
+	ai_lp_def1[]:"Y"
+	ai_lp_def1[]:"X"
+
+	ai_lp_def1[]:"0"
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+}

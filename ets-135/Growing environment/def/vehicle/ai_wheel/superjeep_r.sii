@@ -1,0 +1,10 @@
+SiiNunit
+{
+accessory_wheel_data : superjeep.rwheel
+{
+	model: "/vehicle/wheel/40in/superjeep.pmd"
+
+}
+}
+
+

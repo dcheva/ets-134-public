@@ -1,0 +1,1848 @@
+SiiNunit
+{
+# Country-specific prefabs for templated roads
+
+########################
+##### GERMANY/BASE #####
+########################
+
+prefab_model : prefab.hwde000a {
+	model_desc:  "/prefab/hw/de/tran_1x_hw1-2_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw1-2_long_bm1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde000b {
+	model_desc:  "/prefab/hw/de/tran_1x_hw1-2_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw1-2_long_bm1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde000c {
+	model_desc:  "/prefab/hw/de/tran_1x_hw1-2_long_left_def.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw1-2_long_left_def.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde000d {
+	model_desc:  "/prefab/hw/de/tran_1x_hw1-2_long_left_def_m.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw1-2_long_left_def_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde001a {
+	model_desc:  "/prefab/hw/de/tran_1x_hw2-3_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw2-3_long_bm1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde001b {
+	model_desc:  "/prefab/hw/de/tran_1x_hw2-3_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw2-3_long_bm1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde001c {
+	model_desc:  "/prefab/hw/de/tran_1x_hw2-3_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw2-3_long_bm2.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde002a {
+	model_desc:  "/prefab/hw/de/tran_1x_hw3-4_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw3-4_long_bm1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde002b {
+	model_desc:  "/prefab/hw/de/tran_1x_hw3-4_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw3-4_long_bm1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde002c {
+	model_desc:  "/prefab/hw/de/tran_1x_hw3-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw3-4_long_bm2.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde002d {
+	model_desc:  "/prefab/hw/de/tran_1x_hw3-4_long_bm2_m.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw3-4_long_bm2_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde003a {
+	model_desc:  "/prefab/hw/de/tran_1x_hw4-5_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw4-5_long_bm1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde003b {
+	model_desc:  "/prefab/hw/de/tran_1x_hw4-5_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw4-5_long_bm1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde003c {
+	model_desc:  "/prefab/hw/de/tran_1x_hw4-5_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw4-5_long_bm2.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde003d {
+	model_desc:  "/prefab/hw/de/tran_1x_hw4-5_long_bm2_m.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw4-5_long_bm2_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde002x {
+	model_desc:  "/prefab/hw/de/tran_1x_hw2-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw2-4_long_bm2.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde003x {
+	model_desc:  "/prefab/hw/de/tran_1x_hw3-5_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw3-5_long_bm2.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde111_v1c {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw1_med_hw1-1_v2.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw1_med_hw1-1_v2.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde111_v1d {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw1_med_hw1-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw1_med_hw1-1_v2_m.ppd"
+	category: "ProMods DE"
+}
+
+prefab_model : prefab.hwde211_v1a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw2_med_hw1-1_v1.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw2_med_hw1-1_v1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde211_v1b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw2_med_hw1-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw2_med_hw1-1_v1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde211_v2a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw2_med_hw1-1_v2.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw2_med_hw1-1_v2.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde211_v2b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw2_med_hw1-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw2_med_hw1-1_v2_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde221_v1a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw2_med_hw2-1_v1.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw2_med_hw2-1_v1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde221_v1b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw2_med_hw2-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw2_med_hw2-1_v1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde221_v1c {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw2_med_hw2-1_v2.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw2_med_hw2-1_v2.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde221_v1d {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw2_med_hw2-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw2_med_hw2-1_v2_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde321_v1a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw3_med_hw2-1_v1.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw3_med_hw2-1_v1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde321_v1b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw3_med_hw2-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw3_med_hw2-1_v1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde321_v2a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw3_med_hw2-1_v2.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw3_med_hw2-1_v2.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde321_v2b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw3_med_hw2-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw3_med_hw2-1_v2_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde322_v1a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw3_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw3_med_hw2-2_v1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde322_v1b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw3_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw3_med_hw2-2_v1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde322_v3a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw3_med_hw2-2_v3.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw3_med_hw2-2_v3.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde322_v3b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw3_med_hw2-2_v3_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw3_med_hw2-2_v3_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde322_v3c {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw3_med_hw2-2_v3_bm1.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw3_med_hw2-2_v3_bm1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde322_v3d {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw3_med_hw2-2_v3_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw3_med_hw2-2_v3_bm1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde331_v1a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw3_med_hw3-1_v1.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw3_med_hw3-1_v1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde331_v1b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw3_med_hw3-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw3_med_hw3-1_v1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde422_v1a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw2-2_v1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde422_v1b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw2-2_v1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde422_v2a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw2-2_v2.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw2-2_v2.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde422_v2b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw2-2_v2_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw2-2_v2_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde431_v1a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw3-1_v1.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw3-1_v1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde431_v1b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw3-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw3-1_v1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde431_v2a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw3-1_v2.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw3-1_v2.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde431_v2b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw3-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw3-1_v2_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde432_v1a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw3-2_v1.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw3-2_v1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde432_v1b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw3-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw3-2_v1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde432_v3a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw3-2_v3.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw3-2_v3.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde432_v3b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw3-2_v3_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw3-2_v3_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde432_v3c {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw3-2_v3_bm1.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw3-2_v3_bm1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde432_v3d {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw4_med_hw3-2_v3_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw4_med_hw3-2_v3_bm1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde532_v1a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw5_med_hw3-2_v1.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw5_med_hw3-2_v1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde532_v1b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw5_med_hw3-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw5_med_hw3-2_v1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde541_v1a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw5_med_hw4-1_v1.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw5_med_hw4-1_v1.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde541_v1b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw5_med_hw4-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw5_med_hw4-1_v1_m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde541_v2a {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw5_med_hw4-1_v2.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw5_med_hw4-1_v2.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwde541_v2b {
+	model_desc:  "/prefab/hw/de/ramp_1x_hw5_med_hw4-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/de/ramp_1x_hw5_med_hw4-1_v2_m.ppd"
+	category: "ProMods DE"
+}
+
+prefab_model : prefab.hwdef01a {
+	model_desc:  "/prefab/hw/de/fork_hw2_2m.pmd"
+	prefab_desc: "/prefab/hw/de/fork_hw2_2m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwdef01b {
+	model_desc:  "/prefab/hw/de/fork_hw2_5m.pmd"
+	prefab_desc: "/prefab/hw/de/fork_hw2_5m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwdef01c {
+	model_desc:  "/prefab/hw/de/fork_hw2_1m.pmd"
+	prefab_desc: "/prefab/hw/de/fork_hw2_1m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwdef02a {
+	model_desc:  "/prefab/hw/de/fork_hw3_2m.pmd"
+	prefab_desc: "/prefab/hw/de/fork_hw3_2m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwdef02b {
+	model_desc:  "/prefab/hw/de/fork_hw3_5m.pmd"
+	prefab_desc: "/prefab/hw/de/fork_hw3_5m.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwdef03a {
+	model_desc:  "/prefab/hw/de/fork_hw4_2m.pmd"
+	prefab_desc: "/prefab/hw/de/fork_hw4_2m.ppd"
+	category: "ProMods DE"
+}
+#prefab_model : prefab.hwdef03b {
+#	model_desc:  "/prefab/hw/de/fork_hw4_5m.pmd"
+#	prefab_desc: "/prefab/hw/de/fork_hw4_5m.ppd"
+#	category: "ProMods DE"
+#}
+prefab_model : prefab.hwdef04b {
+	model_desc:  "/prefab/hw/de/fork_hw5_2m.pmd"
+	prefab_desc: "/prefab/hw/de/fork_hw5_2m.ppd"
+	category: "ProMods DE"
+}
+#prefab_model : prefab.hwdef04b {
+#	model_desc:  "/prefab/hw/de/fork_hw5_5m.pmd"
+#	prefab_desc: "/prefab/hw/de/fork_hw5_5m.ppd"
+#	category: "ProMods DE"
+#}
+
+prefab_model : prefab.hwdef10a {
+	model_desc:  "/prefab/hw/de/tran_2x_hw2b-2a_med_def.pmd"
+	prefab_desc: "/prefab/hw/de/tran_2x_hw2b-2a_med_def.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwdef32l {
+	model_desc:  "/prefab/hw/de/tran_2x_hw3b-2b_long_left.pmd"
+	prefab_desc: "/prefab/hw/de/tran_2x_hw3b-2b_long_left.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hwdef43l {
+	model_desc:  "/prefab/hw/de/tran_2x_hw4b-3b_long_left.pmd"
+	prefab_desc: "/prefab/hw/de/tran_2x_hw4b-3b_long_left.ppd"
+	category: "ProMods DE"
+}
+
+#prefab_model : prefab.hwdet00a {
+#	model_desc:  "/prefab/hw/de/tran_1x_hw1-2_long_def_temp.pmd"
+#	prefab_desc: "/prefab/hw/de/tran_1x_hw1-2_long_def_temp.ppd"
+#	category: "ProMods DE roadwork"
+#}
+#prefab_model : prefab.hwdet00b {
+#	model_desc:  "/prefab/hw/de/tran_1x_hw1-2_long_def_temp_m.pmd"
+#	prefab_desc: "/prefab/hw/de/tran_1x_hw1-2_long_def_temp_m.ppd"
+#	category: "ProMods DE roadwork"
+#}
+prefab_model : prefab.hwdet00c {
+	model_desc:  "/prefab/hw/de/tran_1x_hw1-2_long_left_temp.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw1-2_long_left_temp.ppd"
+	category: "ProMods DE roadwork"
+}
+prefab_model : prefab.hwdet00d {
+	model_desc:  "/prefab/hw/de/tran_1x_hw1-2_long_left_temp_m.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw1-2_long_left_temp_m.ppd"
+	category: "ProMods DE roadwork"
+}
+
+prefab_model : prefab.hwdet00e {
+	model_desc:  "/prefab/hw/de/tran_1x_hw1-2_long_right_temp.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw1-2_long_right_temp.ppd"
+	category: "ProMods DE roadwork"
+}
+prefab_model : prefab.hwdet00f {
+	model_desc:  "/prefab/hw/de/tran_1x_hw1-2_long_right_temp_m.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw1-2_long_right_temp_m.ppd"
+	category: "ProMods DE roadwork"
+}
+prefab_model : prefab.hwdet01a {
+	model_desc:  "/prefab/hw/de/tran_1x_hw2-3_long_def_temp.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw2-3_long_def_temp.ppd"
+	category: "ProMods DE roadwork"
+}
+prefab_model : prefab.hwdet01b {
+	model_desc:  "/prefab/hw/de/tran_1x_hw2-3_long_def_temp_m.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw2-3_long_def_temp_m.ppd"
+	category: "ProMods DE roadwork"
+}
+prefab_model : prefab.hwdet01c {
+	model_desc:  "/prefab/hw/de/tran_1x_hw2-3_long_left_temp.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw2-3_long_left_temp.ppd"
+	category: "ProMods DE roadwork"
+}
+prefab_model : prefab.hwdet01d {
+	model_desc:  "/prefab/hw/de/tran_1x_hw2-3_long_left_temp_m.pmd"
+	prefab_desc: "/prefab/hw/de/tran_1x_hw2-3_long_left_temp_m.ppd"
+	category: "ProMods DE roadwork"
+}
+
+
+########################
+######## AUSTRIA #######
+########################
+prefab_model : prefab.hwat001a {
+	model_desc:  "/prefab/hw/at/tran_1x_hw2-3_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/at/tran_1x_hw2-3_long_bm1.ppd"
+	category: "ProMods AT"
+}
+prefab_model : prefab.hwat001b {
+	model_desc:  "/prefab/hw/at/tran_1x_hw2-3_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/at/tran_1x_hw2-3_long_bm1_m.ppd"
+	category: "ProMods AT"
+}
+prefab_model : prefab.hwat002a {
+	model_desc:  "/prefab/hw/at/tran_1x_hw3-4_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/at/tran_1x_hw3-4_long_bm1.ppd"
+	category: "ProMods AT"
+}
+prefab_model : prefab.hwat002b {
+	model_desc:  "/prefab/hw/at/tran_1x_hw3-4_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/at/tran_1x_hw3-4_long_bm1_m.ppd"
+	category: "ProMods AT"
+}
+prefab_model : prefab.hwat002c {
+	model_desc:  "/prefab/hw/at/tran_1x_hw3-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/at/tran_1x_hw3-4_long_bm2.ppd"
+	category: "ProMods AT"
+}
+prefab_model : prefab.hwat002d {
+	model_desc:  "/prefab/hw/at/tran_1x_hw3-4_long_bm2_m.pmd"
+	prefab_desc: "/prefab/hw/at/tran_1x_hw3-4_long_bm2_m.ppd"
+	category: "ProMods AT"
+}
+
+prefab_model : prefab.hwat221_v1a {
+	model_desc:  "/prefab/hw/at/ramp_1x_hw2_med_hw2-1_v1.pmd"
+	prefab_desc: "/prefab/hw/at/ramp_1x_hw2_med_hw2-1_v1.ppd"
+	category: "ProMods AT"
+}
+prefab_model : prefab.hwat221_v1b {
+	model_desc:  "/prefab/hw/at/ramp_1x_hw2_med_hw2-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/at/ramp_1x_hw2_med_hw2-1_v1_m.ppd"
+	category: "ProMods AT"
+}
+prefab_model : prefab.hwat322_v1a {
+	model_desc:  "/prefab/hw/at/ramp_1x_hw3_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/at/ramp_1x_hw3_med_hw2-2_v1.ppd"
+	category: "ProMods AT"
+}
+prefab_model : prefab.hwat322_v1b {
+	model_desc:  "/prefab/hw/at/ramp_1x_hw3_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/at/ramp_1x_hw3_med_hw2-2_v1_m.ppd"
+	category: "ProMods AT"
+}
+prefab_model : prefab.hwat331_v1a {
+	model_desc:  "/prefab/hw/at/ramp_1x_hw3_med_hw3-1_v1.pmd"
+	prefab_desc: "/prefab/hw/at/ramp_1x_hw3_med_hw3-1_v1.ppd"
+	category: "ProMods AT"
+}
+prefab_model : prefab.hwat331_v1b {
+	model_desc:  "/prefab/hw/at/ramp_1x_hw3_med_hw3-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/at/ramp_1x_hw3_med_hw3-1_v1_m.ppd"
+	category: "ProMods AT"
+}
+
+########################
+######## BELGIUM #######
+########################
+
+prefab_model : prefab.hwbe001a {
+	model_desc:  "/prefab/hw/be/tran_1x_hw2-3_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/be/tran_1x_hw2-3_long_bm1.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe001b {
+	model_desc:  "/prefab/hw/be/tran_1x_hw2-3_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/be/tran_1x_hw2-3_long_bm1_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe002a {
+	model_desc:  "/prefab/hw/be/tran_1x_hw3-4_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/be/tran_1x_hw3-4_long_bm1.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe002b {
+	model_desc:  "/prefab/hw/be/tran_1x_hw3-4_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/be/tran_1x_hw3-4_long_bm1_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe002c {
+	model_desc:  "/prefab/hw/be/tran_1x_hw3-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/be/tran_1x_hw3-4_long_bm2.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe002e {
+	model_desc:  "/prefab/hw/be/tran_1x_hw3-4_long_def.pmd"
+	prefab_desc: "/prefab/hw/be/tran_1x_hw3-4_long_def.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe003a {
+	model_desc:  "/prefab/hw/be/tran_1x_hw4-5_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/be/tran_1x_hw4-5_long_bm1.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe003b {
+	model_desc:  "/prefab/hw/be/tran_1x_hw4-5_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/be/tran_1x_hw4-5_long_bm1_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe003e {
+	model_desc:  "/prefab/hw/be/tran_1x_hw4-5_long_def.pmd"
+	prefab_desc: "/prefab/hw/be/tran_1x_hw4-5_long_def.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe211_v1a {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw2_med_hw1-1_v1.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw2_med_hw1-1_v1.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwdeb11_v1b {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw2_med_hw1-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw2_med_hw1-1_v1_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe222_v3a {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw2_med_hw2-2_v3.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw2_med_hw2-2_v3.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe222_v3b {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw2_med_hw2-2_v3_m.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw2_med_hw2-2_v3_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe312_v2a {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw3_med_hw1-2_v2.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw3_med_hw1-2_v2.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe312_v2b {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw3_med_hw1-2_v2_m.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw3_med_hw1-2_v2_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe321_v1a {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw3_med_hw2-1_v1.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw3_med_hw2-1_v1.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe321_v1b {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw3_med_hw2-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw3_med_hw2-1_v1_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe321_v2a {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw3_med_hw2-1_v2.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw3_med_hw2-1_v2.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe321_v2b {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw3_med_hw2-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw3_med_hw2-1_v2_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe322_v1a {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw3_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw3_med_hw2-2_v1.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe322_v1b {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw3_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw3_med_hw2-2_v1_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe322_v3a {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw3_med_hw2-2_v3.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw3_med_hw2-2_v3.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe322_v3b {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw3_med_hw2-2_v3_m.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw3_med_hw2-2_v3_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe322_v3c {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw3_med_hw2-2_v3_bm1.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw3_med_hw2-2_v3_bm1.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe413_v2a {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw4_med_hw1-3_v2.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw4_med_hw1-3_v2.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe413_v2b {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw4_med_hw1-3_v2_m.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw4_med_hw1-3_v2_m.ppd"
+	category: "ProMods BE"
+}
+#prefab_model : prefab.hwbe431_v1a {
+#	model_desc:  "/prefab/hw/be/ramp_1x_hw4_med_hw3-1_v1.pmd"
+#	prefab_desc: "/prefab/hw/be/ramp_1x_hw4_med_hw3-1_v1.ppd"
+#	category: "ProMods BE"
+#}
+prefab_model : prefab.hwbe431_v1b {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw4_med_hw3-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw4_med_hw3-1_v1_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe431_v2a {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw4_med_hw3-1_v2.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw4_med_hw3-1_v2.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe431_v2b {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw4_med_hw3-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw4_med_hw3-1_v2_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe422_v1a {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw4_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw4_med_hw2-2_v1.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe422_v1b {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw4_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw4_med_hw2-2_v1_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe432_v3b {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw4_med_hw3-2_v3_m.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw4_med_hw3-2_v3_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe432_v3c {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw4_med_hw3-2_v3_bm1.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw4_med_hw3-2_v3_bm1.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe523_v2a {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw5_med_hw2-3_v2.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw5_med_hw2-3_v2.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbe523_v2b {
+	model_desc:  "/prefab/hw/be/ramp_1x_hw5_med_hw2-3_v2_m.pmd"
+	prefab_desc: "/prefab/hw/be/ramp_1x_hw5_med_hw2-3_v2_m.ppd"
+	category: "ProMods BE"
+}
+prefab_model : prefab.hwbef32l {
+	model_desc:  "/prefab/hw/be/tran_2x_hw3b-2b_long_left.pmd"
+	prefab_desc: "/prefab/hw/be/tran_2x_hw3b-2b_long_left.ppd"
+	category: "ProMods BE"
+}
+
+########################
+#### CZECH REPUBLIC ####
+########################
+
+prefab_model : prefab.hwcz000a {
+	model_desc:  "/prefab/hw/cz/tran_1x_hw1-2_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/cz/tran_1x_hw1-2_long_bm1.ppd"
+	category: "ProMods CZ"
+}
+prefab_model : prefab.hwcz000b {
+	model_desc:  "/prefab/hw/cz/tran_1x_hw1-2_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/cz/tran_1x_hw1-2_long_bm1_m.ppd"
+	category: "ProMods CZ"
+}
+prefab_model : prefab.hwcz001a {
+	model_desc:  "/prefab/hw/cz/tran_1x_hw2-3_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/cz/tran_1x_hw2-3_long_bm1.ppd"
+	category: "ProMods CZ"
+}
+prefab_model : prefab.hwcz001b {
+	model_desc:  "/prefab/hw/cz/tran_1x_hw2-3_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/cz/tran_1x_hw2-3_long_bm1_m.ppd"
+	category: "ProMods CZ"
+}
+prefab_model : prefab.hwcz002a {
+	model_desc:  "/prefab/hw/cz/tran_1x_hw3-4_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/cz/tran_1x_hw3-4_long_bm1.ppd"
+	category: "ProMods CZ"
+}
+prefab_model : prefab.hwcz002b {
+	model_desc:  "/prefab/hw/cz/tran_1x_hw3-4_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/cz/tran_1x_hw3-4_long_bm1_m.ppd"
+	category: "ProMods CZ"
+}
+prefab_model : prefab.hwcz002c {
+	model_desc:  "/prefab/hw/cz/tran_1x_hw3-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/cz/tran_1x_hw3-4_long_bm2.ppd"
+	category: "ProMods CZ"
+}
+
+########################
+######## DENMARK #######
+########################
+
+prefab_model : prefab.hwdk000a {
+	model_desc:  "/prefab/hw/dk/tran_1x_hw1-2_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/dk/tran_1x_hw1-2_long_bm1.ppd"
+	category: "ProMods DK"
+}
+prefab_model : prefab.hwdk000b {
+	model_desc:  "/prefab/hw/dk/tran_1x_hw1-2_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/dk/tran_1x_hw1-2_long_bm1_m.ppd"
+	category: "ProMods DK"
+}
+prefab_model : prefab.hwdk001a {
+	model_desc:  "/prefab/hw/dk/tran_1x_hw2-3_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/dk/tran_1x_hw2-3_long_bm1.ppd"
+	category: "ProMods DK"
+}
+prefab_model : prefab.hwdk001b {
+	model_desc:  "/prefab/hw/dk/tran_1x_hw2-3_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/dk/tran_1x_hw2-3_long_bm1_m.ppd"
+	category: "ProMods DK"
+}
+prefab_model : prefab.hwdk001e {
+	model_desc:  "/prefab/hw/dk/tran_1x_hw2-3_long_def.pmd"
+	prefab_desc: "/prefab/hw/dk/tran_1x_hw2-3_long_def.ppd"
+	category: "ProMods DK"
+}
+prefab_model : prefab.hwdk001f {
+	model_desc:  "/prefab/hw/dk/tran_1x_hw2-3_long_def_m.pmd"
+	prefab_desc: "/prefab/hw/dk/tran_1x_hw2-3_long_def_m.ppd"
+	category: "ProMods DK"
+}
+
+prefab_model : prefab.hwdk002c {
+	model_desc:  "/prefab/hw/dk/tran_1x_hw3-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/dk/tran_1x_hw3-4_long_bm2.ppd"
+	category: "ProMods DK"
+}
+prefab_model : prefab.hwdk002d {
+	model_desc:  "/prefab/hw/dk/tran_1x_hw3-4_long_bm2_m.pmd"
+	prefab_desc: "/prefab/hw/dk/tran_1x_hw3-4_long_bm2_m.ppd"
+	category: "ProMods DK"
+}
+
+########################
+######## FRANCE ########
+########################
+
+prefab_model : prefab.hwfrt01b {
+	model_desc:  "/prefab/hw/fr/tran_2x_hw3b-2b_long_left.pmd"
+	prefab_desc: "/prefab/hw/fr/tran_2x_hw3b-2b_long_left.ppd"
+	category: "ProMods FR"
+}
+########################
+######### ITALY ########
+########################
+
+prefab_model : prefab.hwit000a {
+	model_desc:  "/prefab/hw/it/tran_1x_hw1-2_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/it/tran_1x_hw1-2_long_bm1.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit000b {
+	model_desc:  "/prefab/hw/it/tran_1x_hw1-2_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/it/tran_1x_hw1-2_long_bm1_m.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit001a {
+	model_desc:  "/prefab/hw/it/tran_1x_hw2-3_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/it/tran_1x_hw2-3_long_bm1.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit001b {
+	model_desc:  "/prefab/hw/it/tran_1x_hw2-3_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/it/tran_1x_hw2-3_long_bm1_m.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit002a {
+	model_desc:  "/prefab/hw/it/tran_1x_hw3-4_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/it/tran_1x_hw3-4_long_bm1.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit002b {
+	model_desc:  "/prefab/hw/it/tran_1x_hw3-4_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/it/tran_1x_hw3-4_long_bm1_m.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit002x {
+	model_desc:  "/prefab/hw/it/tran_1x_hw2-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/it/tran_1x_hw2-4_long_bm2.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit002c {
+	model_desc:  "/prefab/hw/it/tran_1x_hw3-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/it/tran_1x_hw3-4_long_bm2.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit002d {
+	model_desc:  "/prefab/hw/it/tran_1x_hw3-4_long_bm2_m.pmd"
+	prefab_desc: "/prefab/hw/it/tran_1x_hw3-4_long_bm2_m.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit211_v3a {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw2_med_hw1-1_v3.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw2_med_hw1-1_v3.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit211_v3b {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw2_med_hw1-1_v3_m.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw2_med_hw1-1_v3_m.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit211_v3c {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw2_med_hw1-1_v3_left.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw2_med_hw1-1_v3_left.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit211_v3d {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw2_med_hw1-1_v3_left_m.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw2_med_hw1-1_v3_left_m.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit221_v1a {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw2_med_hw2-1_v1.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw2_med_hw2-1_v1.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit221_v1b {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw2_med_hw2-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw2_med_hw2-1_v1_m.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit221_v1c {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw2_med_hw2-1_v2.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw2_med_hw2-1_v2.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit221_v1d {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw2_med_hw2-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw2_med_hw2-1_v2_m.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit321_v1a {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw3_med_hw2-1_v1.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw3_med_hw2-1_v1.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit321_v1b {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw3_med_hw2-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw3_med_hw2-1_v1_m.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit321_v2a {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw3_med_hw2-1_v2.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw3_med_hw2-1_v2.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit321_v2b {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw3_med_hw2-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw3_med_hw2-1_v2_m.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit322_v1a {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw3_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw3_med_hw2-2_v1.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit322_v1b {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw3_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw3_med_hw2-2_v1_m.ppd"
+	category: "ProMods IT"
+}
+#prefab_model : prefab.hwit322_v3a {
+#	model_desc:  "/prefab/hw/it/ramp_1x_hw3_med_hw2-2_v3.pmd"
+#	prefab_desc: "/prefab/hw/it/ramp_1x_hw3_med_hw2-2_v3.ppd"
+#	category: "ProMods IT"
+#}
+#prefab_model : prefab.hwit322_v3b {
+#	model_desc:  "/prefab/hw/it/ramp_1x_hw3_med_hw2-2_v3_m.pmd"
+#	prefab_desc: "/prefab/hw/it/ramp_1x_hw3_med_hw2-2_v3_m.ppd"
+#	category: "ProMods IT"
+#}
+#prefab_model : prefab.hwit322_v3c {
+#	model_desc:  "/prefab/hw/it/ramp_1x_hw3_med_hw2-2_v3_bm1.pmd"
+#	prefab_desc: "/prefab/hw/it/ramp_1x_hw3_med_hw2-2_v3_bm1.ppd"
+#	category: "ProMods IT"
+#}
+#prefab_model : prefab.hwit322_v3d {
+#	model_desc:  "/prefab/hw/it/ramp_1x_hw3_med_hw2-2_v3_bm1_m.pmd"
+#	prefab_desc: "/prefab/hw/it/ramp_1x_hw3_med_hw2-2_v3_bm1_m.ppd"
+#	category: "ProMods IT"
+#}
+#prefab_model : prefab.hwit331_v1a {
+#	model_desc:  "/prefab/hw/it/ramp_1x_hw3_med_hw3-1_v1.pmd"
+#	prefab_desc: "/prefab/hw/it/ramp_1x_hw3_med_hw3-1_v1.ppd"
+#	category: "ProMods IT"
+#}
+#prefab_model : prefab.hwit331_v1b {
+#	model_desc:  "/prefab/hw/it/ramp_1x_hw3_med_hw3-1_v1_m.pmd"
+#	prefab_desc: "/prefab/hw/it/ramp_1x_hw3_med_hw3-1_v1_m.ppd"
+#	category: "ProMods IT"
+#}
+prefab_model : prefab.hwit422_v1a {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw4_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw4_med_hw2-2_v1.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit422_v1b {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw4_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw4_med_hw2-2_v1_m.ppd"
+	category: "ProMods IT"
+}
+#prefab_model : prefab.hwit431_v1a {
+#	model_desc:  "/prefab/hw/it/ramp_1x_hw4_med_hw3-1_v1.pmd"
+#	prefab_desc: "/prefab/hw/it/ramp_1x_hw4_med_hw3-1_v1.ppd"
+#	category: "ProMods IT"
+#}
+#prefab_model : prefab.hwit431_v1b {
+#	model_desc:  "/prefab/hw/it/ramp_1x_hw4_med_hw3-1_v1_m.pmd"
+#	prefab_desc: "/prefab/hw/it/ramp_1x_hw4_med_hw3-1_v1_m.ppd"
+#	category: "ProMods IT"
+#}
+prefab_model : prefab.hwit431_v2a {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw4_med_hw3-1_v2.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw4_med_hw3-1_v2.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit431_v2b {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw4_med_hw3-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw4_med_hw3-1_v2_m.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit432_v1a {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw4_med_hw3-2_v1.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw4_med_hw3-2_v1.ppd"
+	category: "ProMods IT"
+}
+prefab_model : prefab.hwit432_v1b {
+	model_desc:  "/prefab/hw/it/ramp_1x_hw4_med_hw3-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/it/ramp_1x_hw4_med_hw3-2_v1_m.ppd"
+	category: "ProMods IT"
+}
+
+########################
+#### THE NETHERLANDS ###
+########################
+prefab_model : prefab.hwnl000a {
+	model_desc:  "/prefab/hw/nl/tran_1x_hw1-2_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/nl/tran_1x_hw1-2_long_bm1.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl000b {
+	model_desc:  "/prefab/hw/nl/tran_1x_hw1-2_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/nl/tran_1x_hw1-2_long_bm1_m.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl001a {
+	model_desc:  "/prefab/hw/nl/tran_1x_hw2-3_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/nl/tran_1x_hw2-3_long_bm1.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl001b {
+	model_desc:  "/prefab/hw/nl/tran_1x_hw2-3_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/nl/tran_1x_hw2-3_long_bm1_m.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl001c {
+	model_desc:  "/prefab/hw/nl/tran_1x_hw2-3_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/nl/tran_1x_hw2-3_long_bm2.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl002a {
+	model_desc:  "/prefab/hw/nl/tran_1x_hw3-4_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/nl/tran_1x_hw3-4_long_bm1.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl002b {
+	model_desc:  "/prefab/hw/nl/tran_1x_hw3-4_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/nl/tran_1x_hw3-4_long_bm1_m.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl002c {
+	model_desc:  "/prefab/hw/nl/tran_1x_hw3-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/nl/tran_1x_hw3-4_long_bm2.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl003a {
+	model_desc:  "/prefab/hw/nl/tran_1x_hw4-5_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/nl/tran_1x_hw4-5_long_bm1.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl003b {
+	model_desc:  "/prefab/hw/nl/tran_1x_hw4-5_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/nl/tran_1x_hw4-5_long_bm1_m.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl003c {
+	model_desc:  "/prefab/hw/nl/tran_1x_hw4-5_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/nl/tran_1x_hw4-5_long_bm2.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl211_v1a {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw2_med_hw1-1_v1.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw2_med_hw1-1_v1.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl211_v1b {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw2_med_hw1-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw2_med_hw1-1_v1_m.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl211_v2a {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw2_med_hw1-1_v2.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw2_med_hw1-1_v2.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl211_v2b {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw2_med_hw1-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw2_med_hw1-1_v2_m.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl321_v1a {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw3_med_hw2-1_v1.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw3_med_hw2-1_v1.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl321_v1b {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw3_med_hw2-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw3_med_hw2-1_v1_m.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl321_v2a {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw3_med_hw2-1_v2.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw3_med_hw2-1_v2.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl321_v2b {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw3_med_hw2-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw3_med_hw2-1_v2_m.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl322_v1a {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw3_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw3_med_hw2-2_v1.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl322_v1b {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw3_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw3_med_hw2-2_v1_m.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl422_v1a {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw4_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw4_med_hw2-2_v1.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl422_v1b {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw4_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw4_med_hw2-2_v1_m.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl431_v2a {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw4_med_hw3-1_v2.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw4_med_hw3-1_v2.ppd"
+	category: "ProMods NL"
+}
+prefab_model : prefab.hwnl431_v2b {
+	model_desc:  "/prefab/hw/nl/ramp_1x_hw4_med_hw3-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/nl/ramp_1x_hw4_med_hw3-1_v2_m.ppd"
+	category: "ProMods NL"
+}
+
+########################
+######## POLAND ########
+########################
+
+prefab_model : prefab.hwpl000a {
+	model_desc:  "/prefab/hw/pl/tran_1x_hw1-2_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_1x_hw1-2_long_bm1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl000a1 {
+	model_desc:  "/prefab/hw/pl/tran_1x_hw1-2_long_dash1.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_1x_hw1-2_long_dash1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl000b {
+	model_desc:  "/prefab/hw/pl/tran_1x_hw1-2_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_1x_hw1-2_long_bm1_m.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl001a {
+	model_desc:  "/prefab/hw/pl/tran_1x_hw2-3_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_1x_hw2-3_long_bm1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl001b {
+	model_desc:  "/prefab/hw/pl/tran_1x_hw2-3_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_1x_hw2-3_long_bm1_m.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl001c {
+	model_desc:  "/prefab/hw/pl/tran_1x_hw2-3_long_bm1_m_lane.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_1x_hw2-3_long_bm1_m_lane.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl002a {
+	model_desc:  "/prefab/hw/pl/tran_1x_hw3-4_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_1x_hw3-4_long_bm1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl002b {
+	model_desc:  "/prefab/hw/pl/tran_1x_hw3-4_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_1x_hw3-4_long_bm1_m.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl002c {
+	model_desc:  "/prefab/hw/pl/tran_1x_hw3-4_long_bm1_m_left.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_1x_hw3-4_long_bm1_m_left.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl002d {
+	model_desc:  "/prefab/hw/pl/tran_1x_hw3-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_1x_hw3-4_long_bm2.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl002x {
+	model_desc:  "/prefab/hw/pl/tran_1x_hw2-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_1x_hw2-4_long_bm2.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl211_v1a {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw2_med_hw1-1_v1.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw2_med_hw1-1_v1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl211_v1b {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw2_med_hw1-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw2_med_hw1-1_v1_m.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl211_v2a {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw2_med_hw1-1_v2.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw2_med_hw1-1_v2.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl211_v2b {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw2_med_hw1-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw2_med_hw1-1_v2_m.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl321_v1a {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw3_med_hw2-1_v1.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw3_med_hw2-1_v1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl321_v1b {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw3_med_hw2-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw3_med_hw2-1_v1_m.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl321_v2a {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw3_med_hw2-1_v2.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw3_med_hw2-1_v2.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl321_v2b {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw3_med_hw2-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw3_med_hw2-1_v2_m.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl322_v1a {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw3_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw3_med_hw2-2_v1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl322_v1b {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw3_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw3_med_hw2-2_v1_m.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl422_v1a {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw4_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw4_med_hw2-2_v1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl422_v1b {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw4_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw4_med_hw2-2_v1_m.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl423_v1b {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw4_med_hw2-2_v2_m.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw4_med_hw2-2_v2_m.ppd"
+	category: "ProMods PL"
+}
+
+#prefab_model : prefab.hwplf21a {
+#	model_desc:  "/prefab/hw/pl/tran_2x_hw2-rl_long_def.pmd"
+#	prefab_desc: "/prefab/hw/pl/tran_2x_hw2-rl_long_def.ppd"
+#	category: "ProMods PL"
+#}
+prefab_model : prefab.hwplf21b {
+	model_desc:  "/prefab/hw/pl/tran_2x_hw2-rl_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_2x_hw2-rl_long_bm1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwplf21c {
+	model_desc:  "/prefab/hw/pl/tran_2x_hw2-rl_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_2x_hw2-rl_long_bm2.ppd"
+	category: "ProMods PL"
+}
+#prefab_model : prefab.hwplf21d {
+#	model_desc:  "/prefab/hw/pl/tran_2x_hw2-rl_long_def_0m.pmd"
+#	prefab_desc: "/prefab/hw/pl/tran_2x_hw2-rl_long_def_0m.ppd"
+#	category: "ProMods PL"
+#}
+prefab_model : prefab.hwplf21e {
+	model_desc:  "/prefab/hw/pl/tran_2x_hw2-rl_long_bm1_0m.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_2x_hw2-rl_long_bm1_0m.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwplf21f {
+	model_desc:  "/prefab/hw/pl/tran_2x_hw2-rl_long_bm2_0m.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_2x_hw2-rl_long_bm2_0m.ppd"
+	category: "ProMods PL"
+}
+
+prefab_model : prefab.2ewpl221a {
+	model_desc:  "/prefab/hw/pl/ramp_2x_ew2_0m_med_rl2-hw1_v1.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_2x_ew2_0m_med_rl2-hw1_v1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.2ewpl221b {
+	model_desc:  "/prefab/hw/pl/ramp_2x_ew2_0m_med_rl2-hw1_v2.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_2x_ew2_0m_med_rl2-hw1_v2.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl522_v1a {
+	model_desc:  "/prefab/hw/pl/ramp_1x_hw3_med_hw1-2_v1.pmd"
+	prefab_desc: "/prefab/hw/pl/ramp_1x_hw3_med_hw1-2_v1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl622_v1a {
+	model_desc:  "/prefab/hw/pl/fork_hw2_hw1-1_v1.pmd"
+	prefab_desc: "/prefab/hw/pl/fork_hw2_hw1-1_v1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwpl622_v1b {
+	model_desc:  "/prefab/hw/pl/fork_hw2_hw1-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/pl/fork_hw2_hw1-1_v1_m.ppd"
+	category: "ProMods PL"
+}
+
+prefab_model : prefab.hwplcr0000 {
+	model_desc:  "/prefab/hw/pl/cross_hw2_ltl_x_rl2_x_v1.pmd"
+	prefab_desc: "/prefab/hw/pl/cross_hw2_ltl_x_rl2_x_v1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwplcr0001 {
+	model_desc:  "/prefab/hw/pl/tran_2x_hw2-hw2_ltl_long_v1.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_2x_hw2-hw2_ltl_long_v1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwplcr0002 {
+	model_desc:  "/prefab/hw/pl/cross_hw2_ltl_x_rl2_x_v2.pmd"
+	prefab_desc: "/prefab/hw/pl/cross_hw2_ltl_x_rl2_x_v2.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hwplcr0003 {
+	model_desc:  "/prefab/hw/pl/tran_2x_hw2-hw2_ltl_long_v2.pmd"
+	prefab_desc: "/prefab/hw/pl/tran_2x_hw2-hw2_ltl_long_v2.ppd"
+	category: "ProMods PL"
+}
+
+########################
+######### SPAIN ########
+########################
+
+prefab_model : prefab.hwes000a {
+	model_desc:  "/prefab/hw/es/tran_1x_hw1-2_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/es/tran_1x_hw1-2_long_bm1.ppd"
+	category: "ProMods ES"
+}
+prefab_model : prefab.hwes000b {
+	model_desc:  "/prefab/hw/es/tran_1x_hw1-2_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/es/tran_1x_hw1-2_long_bm1_m.ppd"
+	category: "ProMods ES"
+}
+prefab_model : prefab.hwes001a {
+	model_desc:  "/prefab/hw/es/tran_1x_hw2-3_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/es/tran_1x_hw2-3_long_bm1.ppd"
+	category: "ProMods ES"
+}
+prefab_model : prefab.hwes001b {
+	model_desc:  "/prefab/hw/es/tran_1x_hw2-3_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/es/tran_1x_hw2-3_long_bm1_m.ppd"
+	category: "ProMods ES"
+}
+prefab_model : prefab.hwes002a {
+	model_desc:  "/prefab/hw/es/tran_1x_hw3-4_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/es/tran_1x_hw3-4_long_bm1.ppd"
+	category: "ProMods ES"
+}
+prefab_model : prefab.hwes002b {
+	model_desc:  "/prefab/hw/es/tran_1x_hw3-4_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/es/tran_1x_hw3-4_long_bm1_m.ppd"
+	category: "ProMods ES"
+}
+prefab_model : prefab.hwes002c {
+	model_desc:  "/prefab/hw/es/tran_1x_hw3-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/es/tran_1x_hw3-4_long_bm2.ppd"
+	category: "ProMods ES"
+}
+prefab_model : prefab.hwes002d {
+	model_desc:  "/prefab/hw/es/tran_1x_hw3-4_long_bm2_m.pmd"
+	prefab_desc: "/prefab/hw/es/tran_1x_hw3-4_long_bm2_m.ppd"
+	category: "ProMods ES"
+}
+prefab_model : prefab.hwes003a {
+	model_desc:  "/prefab/hw/es/tran_1x_hw4-5_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/es/tran_1x_hw4-5_long_bm1.ppd"
+	category: "ProMods ES"
+}
+prefab_model : prefab.hwes003b {
+	model_desc:  "/prefab/hw/es/tran_1x_hw4-5_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/es/tran_1x_hw4-5_long_bm1_m.ppd"
+	category: "ProMods ES"
+}
+prefab_model : prefab.hwes003c {
+	model_desc:  "/prefab/hw/es/tran_1x_hw4-5_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/es/tran_1x_hw4-5_long_bm2.ppd"
+	category: "ProMods ES"
+}
+prefab_model : prefab.hwesx001 {
+	model_desc:  "/prefab/hw/es/spec_1x_hw5-2_long.pmd"
+	prefab_desc: "/prefab/hw/es/spec_1x_hw5-2_long.ppd"
+	category: "ProMods ES"
+}
+prefab_model : prefab.hwes004a {
+	model_desc:  "/prefab/hw/es/ramp_1x_hw4_med_hw1-3_v1.pmd"
+	prefab_desc: "/prefab/hw/es/ramp_1x_hw4_med_hw1-3_v1.ppd"
+	category: "ProMods ES"
+}
+
+########################
+####### SLOVENIA #######
+########################
+
+prefab_model : prefab.hwsi000a {
+	model_desc:  "/prefab/hw/si/tran_1x_hw1-2_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/si/tran_1x_hw1-2_long_bm1.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi000b {
+	model_desc:  "/prefab/hw/si/tran_1x_hw1-2_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/si/tran_1x_hw1-2_long_bm1_m.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi001a {
+	model_desc:  "/prefab/hw/si/tran_1x_hw2-3_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/si/tran_1x_hw2-3_long_bm1.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi001b {
+	model_desc:  "/prefab/hw/si/tran_1x_hw2-3_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/si/tran_1x_hw2-3_long_bm1_m.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi002a {
+	model_desc:  "/prefab/hw/si/tran_1x_hw3-4_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/si/tran_1x_hw3-4_long_bm1.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi002b {
+	model_desc:  "/prefab/hw/si/tran_1x_hw3-4_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/si/tran_1x_hw3-4_long_bm1_m.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi002c {
+	model_desc:  "/prefab/hw/si/tran_1x_hw3-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/si/tran_1x_hw3-4_long_bm2.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi221_v1a {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw2_med_hw2-1_v1.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw2_med_hw2-1_v1.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi221_v1b {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw2_med_hw2-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw2_med_hw2-1_v1_m.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi221_v1c {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw2_med_hw2-1_v2.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw2_med_hw2-1_v2.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi221_v1d {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw2_med_hw2-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw2_med_hw2-1_v2_m.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi321_v1a {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw3_med_hw2-1_v1.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw3_med_hw2-1_v1.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi321_v1b {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw3_med_hw2-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw3_med_hw2-1_v1_m.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi321_v2a {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw3_med_hw2-1_v2.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw3_med_hw2-1_v2.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi321_v2b {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw3_med_hw2-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw3_med_hw2-1_v2_m.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi322_v1a {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw3_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw3_med_hw2-2_v1.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi322_v1b {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw3_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw3_med_hw2-2_v1_m.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi322_v3a {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw3_med_hw2-2_v3.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw3_med_hw2-2_v3.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi322_v3b {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw3_med_hw2-2_v3_m.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw3_med_hw2-2_v3_m.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi322_v3c {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw3_med_hw2-2_v3_bm1.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw3_med_hw2-2_v3_bm1.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi322_v3d {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw3_med_hw2-2_v3_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw3_med_hw2-2_v3_bm1_m.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi422_v1a {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw4_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw4_med_hw2-2_v1.ppd"
+	category: "ProMods SI"
+}
+prefab_model : prefab.hwsi422_v1b {
+	model_desc:  "/prefab/hw/si/ramp_1x_hw4_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/si/ramp_1x_hw4_med_hw2-2_v1_m.ppd"
+	category: "ProMods SI"
+}
+
+########################
+######## SWEDEN ########
+########################
+
+prefab_model : prefab.hwse001a {
+	model_desc:  "/prefab/hw/se/tran_1x_hw2-3_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/se/tran_1x_hw2-3_long_bm1.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse001b {
+	model_desc:  "/prefab/hw/se/tran_1x_hw2-3_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/se/tran_1x_hw2-3_long_bm1_m.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse002a {
+	model_desc:  "/prefab/hw/se/tran_1x_hw3-4_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/se/tran_1x_hw3-4_long_bm1.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse002b {
+	model_desc:  "/prefab/hw/se/tran_1x_hw3-4_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/se/tran_1x_hw3-4_long_bm1_m.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse221_v1a {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw2_med_hw2-1_v1.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw2_med_hw2-1_v1.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse221_v1b {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw2_med_hw2-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw2_med_hw2-1_v1_m.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse221_v1c {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw2_med_hw2-1_v2.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw2_med_hw2-1_v2.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse221_v1d {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw2_med_hw2-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw2_med_hw2-1_v2_m.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse321_v1a {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw3_med_hw2-1_v1.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw3_med_hw2-1_v1.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse321_v1b {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw3_med_hw2-1_v1_m.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw3_med_hw2-1_v1_m.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse321_v2a {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw3_med_hw2-1_v2.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw3_med_hw2-1_v2.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse321_v2b {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw3_med_hw2-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw3_med_hw2-1_v2_m.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse322_v3a {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw3_med_hw2-2_v3.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw3_med_hw2-2_v3.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse322_v3b {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw3_med_hw2-2_v3_m.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw3_med_hw2-2_v3_m.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse422_v1a {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw4_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw4_med_hw2-2_v1.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse422_v1b {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw4_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw4_med_hw2-2_v1_m.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse431_v2a {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw4_med_hw3-1_v2.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw4_med_hw3-1_v2.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse431_v2b {
+	model_desc:  "/prefab/hw/se/ramp_1x_hw4_med_hw3-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/se/ramp_1x_hw4_med_hw3-1_v2_m.ppd"
+	category: "ProMods SE"
+}
+prefab_model : prefab.hwse432 {
+	model_desc:  "/prefab/ew/2x2_med_oneway_2a_v1_b_mirror.pmd"
+	prefab_desc: "/prefab/ew/2x2_med_oneway_2a_v1_b_mirror.ppd"
+	category: "ProMods SE"
+}
+
+########################
+##### SWITZERLAND ######
+########################
+
+prefab_model : prefab.hwch000a {
+	model_desc:  "/prefab/hw/ch/tran_1x_hw1-2_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/ch/tran_1x_hw1-2_long_bm1.ppd"
+	category: "ProMods CH"
+}
+prefab_model : prefab.hwch000b {
+	model_desc:  "/prefab/hw/ch/tran_1x_hw1-2_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/ch/tran_1x_hw1-2_long_bm1_m.ppd"
+	category: "ProMods CH"
+}
+prefab_model : prefab.hwch001a {
+	model_desc:  "/prefab/hw/ch/tran_1x_hw2-3_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/ch/tran_1x_hw2-3_long_bm1.ppd"
+	category: "ProMods CH"
+}
+prefab_model : prefab.hwch001b {
+	model_desc:  "/prefab/hw/ch/tran_1x_hw2-3_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/ch/tran_1x_hw2-3_long_bm1_m.ppd"
+	category: "ProMods CH"
+}
+prefab_model : prefab.hwch002a {
+	model_desc:  "/prefab/hw/ch/tran_1x_hw3-4_long_bm1.pmd"
+	prefab_desc: "/prefab/hw/ch/tran_1x_hw3-4_long_bm1.ppd"
+	category: "ProMods CH"
+}
+prefab_model : prefab.hwch002b {
+	model_desc:  "/prefab/hw/ch/tran_1x_hw3-4_long_bm1_m.pmd"
+	prefab_desc: "/prefab/hw/ch/tran_1x_hw3-4_long_bm1_m.ppd"
+	category: "ProMods CH"
+}
+prefab_model : prefab.hwch002c {
+	model_desc:  "/prefab/hw/ch/tran_1x_hw3-4_long_bm2.pmd"
+	prefab_desc: "/prefab/hw/ch/tran_1x_hw3-4_long_bm2.ppd"
+	category: "ProMods CH"
+}
+
+########################
+#### UNITED KINGDOM ####
+########################
+
+prefab_model : prefab.hwuk001a {
+	model_desc:  "/prefab/hw/uk/tran_1x_hw2-3_long.pmd"
+	prefab_desc: "/prefab/hw/uk/tran_1x_hw2-3_long.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk001b {
+	model_desc:  "/prefab/hw/uk/tran_1x_hw2-3_long_m.pmd"
+	prefab_desc: "/prefab/hw/uk/tran_1x_hw2-3_long_m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk002a {
+	model_desc:  "/prefab/hw/uk/tran_1x_hw3-4_long.pmd"
+	prefab_desc: "/prefab/hw/uk/tran_1x_hw3-4_long.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk002b {
+	model_desc:  "/prefab/hw/uk/tran_1x_hw3-4_long_m.pmd"
+	prefab_desc: "/prefab/hw/uk/tran_1x_hw3-4_long_m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk211_v2a {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw2_med_hw1-1_v2.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw2_med_hw1-1_v2.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk211_v2b {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw2_med_hw1-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw2_med_hw1-1_v2_m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk221_v2a {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw2_med_hw2-1_v2.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw2_med_hw2-1_v2.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk221_v2b {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw2_med_hw2-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw2_med_hw2-1_v2_m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk221_v2c {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw2_med_hw2-1_v2_m_roadwork.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw2_med_hw2-1_v2_m_roadwork.ppd"
+	category: "ProMods UK"
+}
+
+prefab_model : prefab.hwuk222_v1a {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw2_long_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw2_long_hw2-2_v1.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk222_v1b {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw2_long_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw2_long_hw2-2_v1_m.ppd"
+	category: "ProMods UK"
+}
+
+prefab_model : prefab.hwuk321_v2a {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw3_med_hw2-1_v2.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw3_med_hw2-1_v2.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk321_v2b {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw3_med_hw2-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw3_med_hw2-1_v2_m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk331_v2a {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw3_med_hw3-1_v2.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw3_med_hw3-1_v2.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk331_v2b {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw3_med_hw3-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw3_med_hw3-1_v2_m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk332_v1a {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw3_long_hw3-2_v1.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw3_long_hw3-2_v1.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk332_v1b {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw3_long_hw3-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw3_long_hw3-2_v1_m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk322_v1a {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw3_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw3_med_hw2-2_v1.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk322_v1b {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw3_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw3_med_hw2-2_v1_m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk422_v1a {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw4_med_hw2-2_v1.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw4_med_hw2-2_v1.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk422_v1b {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw4_med_hw2-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw4_med_hw2-2_v1_m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk431_v2a {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw4_med_hw3-1_v2.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw4_med_hw3-1_v2.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk431_v2b {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw4_med_hw3-1_v2_m.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw4_med_hw3-1_v2_m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk432_v1a {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw4_med_hw3-2_v1.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw4_med_hw3-2_v1.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwuk432_v1b {
+	model_desc:  "/prefab/hw/uk/ramp_1x_hw4_med_hw3-2_v1_m.pmd"
+	prefab_desc: "/prefab/hw/uk/ramp_1x_hw4_med_hw3-2_v1_m.ppd"
+	category: "ProMods UK"
+}
+
+prefab_model : prefab.hwukf01a {
+	model_desc:  "/prefab/hw/uk/fork_hw2_2m.pmd"
+	prefab_desc: "/prefab/hw/uk/fork_hw2_2m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwukf01b {
+	model_desc:  "/prefab/hw/uk/fork_hw2_5m.pmd"
+	prefab_desc: "/prefab/hw/uk/fork_hw2_5m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwukf01c {
+	model_desc:  "/prefab/hw/uk/fork_hw2_1m.pmd"
+	prefab_desc: "/prefab/hw/uk/fork_hw2_1m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwukf02a {
+	model_desc:  "/prefab/hw/uk/fork_hw3_2m.pmd"
+	prefab_desc: "/prefab/hw/uk/fork_hw3_2m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwukf02b {
+	model_desc:  "/prefab/hw/uk/fork_hw3_5m.pmd"
+	prefab_desc: "/prefab/hw/uk/fork_hw3_5m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwukf03a {
+	model_desc:  "/prefab/hw/uk/fork_hw4_2m.pmd"
+	prefab_desc: "/prefab/hw/uk/fork_hw4_2m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwukf04a {
+	model_desc:  "/prefab/hw/uk/fork_hw5_2m.pmd"
+	prefab_desc: "/prefab/hw/uk/fork_hw5_2m.ppd"
+	category: "ProMods UK"
+}
+prefab_model : prefab.hwukf21a {
+	model_desc:  "/prefab/hw/uk/tran_2x_hw2-rl_long_def.pmd"
+	prefab_desc: "/prefab/hw/uk/tran_2x_hw2-rl_long_def.ppd"
+	category: "ProMods UK"
+}
+
+##########################
+##### SERBIA/CUSTOM #####
+##########################
+prefab_model : prefab.hwrsbel_01 {
+	model_desc:  "/prefab/hw/rs/cross_belgrade_01.pmd"
+	prefab_desc: "/prefab/hw/rs/cross_belgrade_01.ppd"
+	category: "ProMods RS"
+}
+prefab_model : prefab.hwrsbel_02 {
+	model_desc:  "/prefab/hw/rs/cross_belgrade_02.pmd"
+	prefab_desc: "/prefab/hw/rs/cross_belgrade_02.ppd"
+	category: "ProMods RS"
+}
+prefab_model : prefab.hwrsbel_03 {
+	model_desc:  "/prefab/hw/rs/cross_belgrade_03.pmd"
+	prefab_desc: "/prefab/hw/rs/cross_belgrade_03.ppd"
+	category: "ProMods RS"
+}
+prefab_model : prefab.hwrsbel_04 {
+	model_desc:  "/prefab/hw/rs/cross_belgrade_04.pmd"
+	prefab_desc: "/prefab/hw/rs/cross_belgrade_04.ppd"
+	category: "ProMods RS"
+}
+prefab_model : prefab.hwrsbel_05 {
+	model_desc:  "/prefab/hw/rs/cross_belgrade_05.pmd"
+	prefab_desc: "/prefab/hw/rs/cross_belgrade_05.ppd"
+	category: "ProMods RS"
+}
+prefab_model : prefab.hwrsbel_06 {
+	model_desc:  "/prefab/hw/rs/cross_belgrade_06.pmd"
+	prefab_desc: "/prefab/hw/rs/cross_belgrade_06.ppd"
+	category: "ProMods RS"
+}
+
+
+##########################
+##### IRELAND/CUSTOM #####
+##########################
+
+prefab_model : prefab.hwie221_30 {
+	model_desc:  "/prefab/hw/ie/prefab_lim_30kmh.pmd"
+	prefab_desc: "/prefab/hw/ie/prefab_lim_30kmh.ppd"
+	category: "ProMods IE"
+}
+prefab_model : prefab.hwie221_30m {
+	model_desc:  "/prefab/hw/ie/prefab_lim_30kmh_m.pmd"
+	prefab_desc: "/prefab/hw/ie/prefab_lim_30kmh_m.ppd"
+	category: "ProMods IE"
+}
+
+
+
+}

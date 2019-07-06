@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis.tram_kon_c
+{ 
+	model: "/vehicle/ai/promods/rail/tram/konstal/coupler.pmd"
+	lods[]: "/vehicle/ai/promods/rail/tram/konstal/coupler.pmd"
+	lods[]: "/vehicle/ai/promods/rail/tram/konstal/coupler.pmd"
+
+	collision: "/vehicle/ai/promods/rail/tram/konstal/coupler.pmc"
+
+	variant: default
+	variant_uk: default
+}
+}

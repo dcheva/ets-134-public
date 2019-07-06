@@ -1,0 +1,1728 @@
+SiiNunit
+{
+
+### 2 POLES ###
+
+sign_stand_model : sign_stand.sbnav011pl {
+
+	stand_name: "PL 1 Height Stand 2 poles"
+        category: "PL"
+
+        stand_class: pl1height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_2poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_2poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav012pl {
+
+	stand_name: "PL 2 Height Stand 2 poles"
+        category: "PL"
+
+        stand_class: pl2height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_2poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_2poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav013pl {
+
+	stand_name: "PL 3 Height Stand 2 poles"
+        category: "PL"
+
+        stand_class: pl3height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_2poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_2poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav014pl {
+
+	stand_name: "PL 4 Height Stand 2 poles"
+        category: "PL"
+
+        stand_class: pl4height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_2poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_2poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav015pl {
+
+	stand_name: "PL 5 Height Stand 2 poles"
+        category: "PL"
+
+        stand_class: pl5height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_2poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_2poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav016pl {
+
+	stand_name: "PL 6 Height Stand 2 poles"
+        category: "PL"
+
+        stand_class: pl6height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_2poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_2poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav017pl {
+
+	stand_name: "PL 7 Height Stand 2 poles"
+        category: "PL"
+
+        stand_class: pl6height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_2poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_2poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+
+### 4 POLES ###
+
+sign_stand_model : sign_stand.sbnav021pl {
+
+	stand_name: "PL 1 Height Stand 4 poles"
+        category: "PL"
+
+        stand_class: pl1height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_4poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_4poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav022pl {
+
+	stand_name: "PL 2 Height Stand 4 poles"
+        category: "PL"
+
+        stand_class: pl2height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_4poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_4poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav023pl {
+
+	stand_name: "PL 3 Height Stand 4 poles"
+        category: "PL"
+
+        stand_class: pl3height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_4poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_4poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav024pl {
+
+	stand_name: "PL 4 Height Stand 4 poles"
+        category: "PL"
+
+        stand_class: pl4height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_4poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_4poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav025pl {
+
+	stand_name: "PL 5 Height Stand 4 poles"
+        category: "PL"
+
+        stand_class: pl5height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_4poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_4poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav026pl {
+
+	stand_name: "PL 6 Height Stand 4 poles"
+        category: "PL"
+
+        stand_class: pl6height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_4poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_4poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav027pl {
+
+	stand_name: "PL 7 Height Stand 4 poles"
+        category: "PL"
+
+        stand_class: pl7height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_4poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_4poles.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+
+### 2 POLES V2 ###
+
+sign_stand_model : sign_stand.sbnav031pl {
+
+	stand_name: "PL 1 Height Stand 2 poles v2"
+        category: "PL"
+
+        stand_class: pl1height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_2poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_2poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav032pl {
+
+	stand_name: "PL 2 Height Stand 2 poles v2"
+        category: "PL"
+
+        stand_class: pl2height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_2poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_2poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav033pl {
+
+	stand_name: "PL 3 Height Stand 2 poles v2"
+        category: "PL"
+
+        stand_class: pl3height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_2poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_2poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav034pl {
+
+	stand_name: "PL 4 Height Stand 2 poles v2"
+        category: "PL"
+
+        stand_class: pl4height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_2poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_2poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav035pl {
+
+	stand_name: "PL 5 Height Stand 2 poles v2"
+        category: "PL"
+
+        stand_class: pl5height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_2poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_2poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav036pl {
+
+	stand_name: "PL 6 Height Stand 2 poles v2"
+        category: "PL"
+
+        stand_class: pl6height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_2poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_2poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav037pl {
+
+	stand_name: "PL 7 Height Stand 2 poles v2"
+        category: "PL"
+
+        stand_class: pl7height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_2poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_2poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+
+### 3 POLES V2 ###
+
+sign_stand_model : sign_stand.sbnav041pl {
+
+	stand_name: "PL 1 Height Stand 3 poles v2"
+        category: "PL"
+
+        stand_class: pl1height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_3poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_3poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav042pl {
+
+	stand_name: "PL 2 Height Stand 3 poles v2"
+        category: "PL"
+
+        stand_class: pl2height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_3poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_3poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav043pl {
+
+	stand_name: "PL 3 Height Stand 3 poles v2"
+        category: "PL"
+
+        stand_class: pl3height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_3poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_3poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav044pl {
+
+	stand_name: "PL 4 Height Stand 3 poles v2"
+        category: "PL"
+
+        stand_class: pl4height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_3poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_3poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav045pl {
+
+	stand_name: "PL 5 Height Stand 3 poles v2"
+        category: "PL"
+
+        stand_class: pl5height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_3poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_3poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav046pl {
+
+	stand_name: "PL 6 Height Stand 3 poles v2"
+        category: "PL"
+
+        stand_class: pl6height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_3poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_3poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav047pl {
+
+	stand_name: "PL 7 Height Stand 3 poles v2"
+        category: "PL"
+
+        stand_class: pl7height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_3poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_3poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+
+### 4 POLES V2 ###
+
+sign_stand_model : sign_stand.sbnav051pl {
+
+	stand_name: "PL 1 Height Stand 4 poles v2"
+        category: "PL"
+
+        stand_class: pl1height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_4poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_4poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav052pl {
+
+	stand_name: "PL 2 Height Stand 4 poles v2"
+        category: "PL"
+
+        stand_class: pl2height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_4poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_4poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav053pl {
+
+	stand_name: "PL 3 Height Stand 4 poles v2"
+        category: "PL"
+
+        stand_class: pl3height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_4poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_4poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav054pl {
+
+	stand_name: "PL 4 Height Stand 4 poles v2"
+        category: "PL"
+
+        stand_class: pl4height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_4poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_4poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav055pl {
+
+	stand_name: "PL 5 Height Stand 4 poles v2"
+        category: "PL"
+
+        stand_class: pl5height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_4poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_4poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav056pl {
+
+	stand_name: "PL 6 Height Stand 4 poles v2"
+        category: "PL"
+
+        stand_class: pl6height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_4poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_4poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav057pl {
+
+	stand_name: "PL 7 Height Stand 4 poles v2"
+        category: "PL"
+
+        stand_class: pl7height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_4poles_v2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_4poles_v2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+
+### SWEDISH POLE ###
+
+sign_stand_model : sign_stand.sbnav061pl {
+
+	stand_name: "PL 1 Height Stand Swedish Pole"
+        category: "PL"
+
+        stand_class: pl1height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_swedishpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_swedishpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav062pl {
+
+	stand_name: "PL 2 Height Stand Swedish Pole"
+        category: "PL"
+
+        stand_class: pl2height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_swedishpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_swedishpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav063pl {
+
+	stand_name: "PL 3 Height Stand Swedish Pole"
+        category: "PL"
+
+        stand_class: pl3height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_swedishpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_swedishpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav064pl {
+
+	stand_name: "PL 4 Height Stand Swedish Pole"
+        category: "PL"
+
+        stand_class: pl4height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_swedishpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_swedishpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav065pl {
+
+	stand_name: "PL 5 Height Stand Swedish Pole"
+        category: "PL"
+
+        stand_class: pl5height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_swedishpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_swedishpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav066pl {
+
+	stand_name: "PL 6 Height Stand Swedish Pole"
+        category: "PL"
+
+        stand_class: pl6height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_swedishpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_swedishpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav067pl {
+
+	stand_name: "PL 7 Height Stand Swedish Pole"
+        category: "PL"
+
+        stand_class: pl7height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_swedishpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_swedishpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+
+### THICK METAL POLE ###
+
+sign_stand_model : sign_stand.sbnav071pl {
+
+	stand_name: "PL 1 Height Stand Thick Metal Pole"
+        category: "PL"
+
+        stand_class: pl1height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_thickmetalpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_thickmetalpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav072pl {
+
+	stand_name: "PL 2 Height Stand Thick Metal Pole"
+        category: "PL"
+
+        stand_class: pl2height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_thickmetalpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_thickmetalpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav073pl {
+
+	stand_name: "PL 3 Height Stand Thick Metal Pole"
+        category: "PL"
+
+        stand_class: pl3height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_thickmetalpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_thickmetalpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav074pl {
+
+	stand_name: "PL 4 Height Stand Thick Metal Pole"
+        category: "PL"
+
+        stand_class: pl4height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_thickmetalpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_thickmetalpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav075pl {
+
+	stand_name: "PL 5 Height Stand Thick Metal Pole"
+        category: "PL"
+
+        stand_class: pl5height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_thickmetalpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_thickmetalpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav076pl {
+
+	stand_name: "PL 6 Height Stand Thick Metal Pole"
+        category: "PL"
+
+        stand_class: pl6height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_thickmetalpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_thickmetalpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav077pl {
+
+	stand_name: "PL 7 Height Stand Thick Metal Pole"
+        category: "PL"
+
+        stand_class: pl7height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_thickmetalpole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_thickmetalpole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav078pl {
+
+	stand_name: "PL MOP 2x2"
+        category: "PL"
+
+        stand_class: plmop2x2
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_mop_2x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_mop_2x2.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav079pl {
+
+	stand_name: "PL MOP 1x3"
+        category: "PL"
+
+        stand_class: plmop1x3
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_mop_1x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_mop_1x3.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav080pl {
+
+	stand_name: "PL MOP 2x3"
+        category: "PL"
+
+        stand_class: plmop2x3
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_mop_2x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_mop_2x3.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+
+### 2 POLES WIDE ###
+
+sign_stand_model : sign_stand.sbnav081pl {
+
+	stand_name: "PL 1 Height Stand 2 poles wide"
+        category: "PL"
+
+        stand_class: pl1height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_2poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_2poles_wide.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav082pl {
+
+	stand_name: "PL 2 Height Stand 2 poles wide"
+        category: "PL"
+
+        stand_class: pl2height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_2poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_2poles_wide.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav083pl {
+
+	stand_name: "PL 3 Height Stand 2 poles wide"
+        category: "PL"
+
+        stand_class: pl3height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_2poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_2poles_wide.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav084pl {
+
+	stand_name: "PL 4 Height Stand 2 poles wide"
+        category: "PL"
+
+        stand_class: pl4height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_2poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_2poles_wide.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav085pl {
+
+	stand_name: "PL 5 Height Stand 2 poles wide"
+        category: "PL"
+
+        stand_class: pl5height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_2poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_2poles_wide.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav086pl {
+
+	stand_name: "PL 6 Height Stand 2 poles wide"
+        category: "PL"
+
+        stand_class: pl6height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_2poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_2poles_wide.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav087pl {
+
+	stand_name: "PL 7 Height Stand 2 poles wide"
+        category: "PL"
+
+        stand_class: pl6height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_2poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_2poles_wide.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+
+### 1 POLE ###
+
+sign_stand_model : sign_stand.sbnav088pl {
+
+	stand_name: "PL 1 Height Stand 1 pole"
+        category: "PL"
+
+        stand_class: pl1height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_1pole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_1pole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav089pl {
+
+	stand_name: "PL 2 Height Stand 1 pole"
+        category: "PL"
+
+        stand_class: pl2height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_1pole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_1pole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav090pl {
+
+	stand_name: "PL 3 Height Stand 1 pole"
+        category: "PL"
+
+        stand_class: pl3height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_1pole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_1pole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav091pl {
+
+	stand_name: "PL 4 Height Stand 1 pole"
+        category: "PL"
+
+        stand_class: pl4height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_1pole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_1pole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav092pl {
+
+	stand_name: "PL 5 Height Stand 1 pole"
+        category: "PL"
+
+        stand_class: pl5height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_1pole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_1pole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav093pl {
+
+	stand_name: "PL 6 Height Stand 1 pole"
+        category: "PL"
+
+        stand_class: pl6height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_1pole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_1pole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav094pl {
+
+	stand_name: "PL 7 Height Stand 1 pole"
+        category: "PL"
+
+        stand_class: pl6height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_1pole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_1pole.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+
+### 2 POLES MID ###
+
+sign_stand_model : sign_stand.sbnav095pl {
+
+	stand_name: "PL 1 Height Stand 2 poles mid"
+        category: "PL"
+
+        stand_class: pl1height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_2poles_mid.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_1height_2poles_mid.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav096pl {
+
+	stand_name: "PL 2 Height Stand 2 poles mid"
+        category: "PL"
+
+        stand_class: pl2height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_2poles_mid.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_2height_2poles_mid.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav097pl {
+
+	stand_name: "PL 3 Height Stand 2 poles mid"
+        category: "PL"
+
+        stand_class: pl3height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_2poles_mid.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_3height_2poles_mid.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav098pl {
+
+	stand_name: "PL 4 Height Stand 2 poles mid"
+        category: "PL"
+
+        stand_class: pl4height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_2poles_mid.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_4height_2poles_mid.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav099pl {
+
+	stand_name: "PL 5 Height Stand 2 poles mid"
+        category: "PL"
+
+        stand_class: pl5height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_2poles_mid.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_5height_2poles_mid.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav100pl {
+
+	stand_name: "PL 6 Height Stand 2 poles mid"
+        category: "PL"
+
+        stand_class: pl6height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_2poles_mid.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_6height_2poles_mid.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+sign_stand_model : sign_stand.sbnav101pl {
+
+	stand_name: "PL 7 Height Stand 2 poles mid"
+        category: "PL"
+
+        stand_class: pl7height
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_2poles_mid.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_7height_2poles_mid.pmc"
+	
+	dynamic: false
+	mass: 300.0
+}
+
+### 1 POLE ###
+
+sign_stand_model : sign_stand.sbnav102pl {
+
+	stand_name: "PL standard pole w/ clamp"
+        category: "PL"
+
+        stand_class: plstd
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_standard_1pole_c.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_standard_1pole_c.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav102plb {
+
+	stand_name: "PL standard pole"
+        category: "PL"
+
+        stand_class: plstd
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_standard_1pole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_standard_1pole.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav102plc {
+
+	stand_name: "PL standard pole clamp"
+        category: "PL"
+
+        stand_class: plstd
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_standard_clamp.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_standard_clamp.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+### CITY LIMIT POLES ###
+
+sign_stand_model : sign_stand.sbnav103pl {
+
+	stand_name: "PL 1000 / 1200 poles"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_1200_pl_poles.pmd"
+	model_coll: "/model/sign/city_limits/pl/city_name_1200_pl_poles.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav104pl {
+
+	stand_name: "PL 1000 / 1200 clamps"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_1200_pl_clamp.pmd"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav105pl {
+
+	stand_name: "PL 1400 poles"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_1400_pl_poles.pmd"
+	model_coll: "/model/sign/city_limits/pl/city_name_1400_pl_poles.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav106pl {
+
+	stand_name: "PL 1400 clamps"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_1400_pl_clamp.pmd"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav107pl {
+
+	stand_name: "PL 1600 poles"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_1600_pl_poles.pmd"
+	model_coll: "/model/sign/city_limits/pl/city_name_1600_pl_poles.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav108pl {
+
+	stand_name: "PL 1600 clamps"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_1600_pl_clamp.pmd"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav109pl {
+
+	stand_name: "PL 1800 poles"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_1800_pl_poles.pmd"
+	model_coll: "/model/sign/city_limits/pl/city_name_1800_pl_poles.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav110pl {
+
+	stand_name: "PL 1800 clamps"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_1800_pl_clamp.pmd"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav111pl {
+
+	stand_name: "PL 2000 poles"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_2000_pl_poles.pmd"
+	model_coll: "/model/sign/city_limits/pl/city_name_2000_pl_poles.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav112pl {
+
+	stand_name: "PL 2000 clamps"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_2000_pl_clamp.pmd"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav113pl {
+
+	stand_name: "PL 2200 poles"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_2200_pl_poles.pmd"
+	model_coll: "/model/sign/city_limits/pl/city_name_2200_pl_poles.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav114pl {
+
+	stand_name: "PL 2200 clamps"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_2200_pl_clamp.pmd"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav115pl {
+
+	stand_name: "PL 2400 poles"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_2400_pl_poles.pmd"
+	model_coll: "/model/sign/city_limits/pl/city_name_2400_pl_poles.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav116pl {
+
+	stand_name: "PL 2400 clamps"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_2400_pl_clamp.pmd"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav117pl {
+
+	stand_name: "PL single pole"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_pl_single.pmd"
+	model_coll: "/model/sign/city_limits/pl/city_name_pl_single.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+sign_stand_model : sign_stand.sbnav118pl {
+
+	stand_name: "PL single clamp"
+        category: "PL"
+
+        stand_class: plcity
+
+	model_desc: "/model/sign/city_limits/pl/city_name_pl_single_clamp.pmd"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+
+### CHEVRONS ###
+
+sign_stand_model : sign_stand.sbnav1033pl {
+
+	stand_name: "PL Chvrn 1 height 1 pole"
+        category: "PL"
+
+        stand_class: plchvrn1
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_1pole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_1pole.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1044pl {
+
+	stand_name: "PL Chvrn 2 height 1 pole"
+        category: "PL"
+
+        stand_class: plchvrn2
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_1pole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_1pole.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1055pl {
+
+	stand_name: "PL Chvrn 3 height 1 pole"
+        category: "PL"
+
+        stand_class: plchvrn3
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_1pole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_1pole.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1066pl {
+
+	stand_name: "PL Chvrn 4 height 1 pole"
+        category: "PL"
+
+        stand_class: plchvrn4
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_1pole.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_1pole.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1077pl {
+
+	stand_name: "PL Chvrn 1 height 2 poles narrow"
+        category: "PL"
+
+        stand_class: plchvrn1
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_2poles_narrow.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_2poles_narrow.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1088pl {
+
+	stand_name: "PL Chvrn 2 height 2 poles narrow"
+        category: "PL"
+
+        stand_class: plchvrn2
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_2poles_narrow.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_2poles_narrow.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1099pl {
+
+	stand_name: "PL Chvrn 3 height 2 poles narrow"
+        category: "PL"
+
+        stand_class: plchvrn3
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_2poles_narrow.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_2poles_narrow.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1100pl {
+
+	stand_name: "PL Chvrn 4 height 2 poles narrow"
+        category: "PL"
+
+        stand_class: plchvrn4
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_2poles_narrow.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_2poles_narrow.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1111pl {
+
+	stand_name: "PL Chvrn 1 height 2 poles mid"
+        category: "PL"
+
+        stand_class: plchvrn1
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_2poles_mid.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_2poles_mid.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1122pl {
+
+	stand_name: "PL Chvrn 2 height 2 poles mid"
+        category: "PL"
+
+        stand_class: plchvrn2
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_2poles_mid.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_2poles_mid.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1133pl {
+
+	stand_name: "PL Chvrn 3 height 2 poles mid"
+        category: "PL"
+
+        stand_class: plchvrn3
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_2poles_mid.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_2poles_mid.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1144pl {
+
+	stand_name: "PL Chvrn 4 height 2 poles mid"
+        category: "PL"
+
+        stand_class: plchvrn4
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_2poles_mid.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_2poles_mid.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav114pl2 {
+
+	stand_name: "PL Chvrn 1 height 2 poles wide"
+        category: "PL"
+
+        stand_class: plchvrn1
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_2poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_2poles_wide.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1155pl {
+
+	stand_name: "PL Chvrn 2 height 2 poles wide"
+        category: "PL"
+
+        stand_class: plchvrn2
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_2poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_2poles_wide.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1166pl {
+
+	stand_name: "PL Chvrn 3 height 2 poles wide"
+        category: "PL"
+
+        stand_class: plchvrn3
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_2poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_2poles_wide.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1177pl {
+
+	stand_name: "PL Chvrn 4 height 2 poles wide"
+        category: "PL"
+
+        stand_class: plchvrn4
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_2poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_2poles_wide.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav1188pl {
+
+	stand_name: "PL Chvrn 1 height 2 poles very wide"
+        category: "PL"
+
+        stand_class: plchvrn1
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_2poles_verywide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_2poles_verywide.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav119pl {
+
+	stand_name: "PL Chvrn 2 height 2 poles very wide"
+        category: "PL"
+
+        stand_class: plchvrn2
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_2poles_verywide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_2poles_verywide.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav120pl {
+
+	stand_name: "PL Chvrn 3 height 2 poles very wide"
+        category: "PL"
+
+        stand_class: plchvrn3
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_2poles_verywide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_2poles_verywide.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav121pl {
+
+	stand_name: "PL Chvrn 4 height 2 poles very wide"
+        category: "PL"
+
+        stand_class: plchvrn4
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_2poles_verywide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_2poles_verywide.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav122pl {
+
+	stand_name: "PL Chvrn 1 height 3 poles"
+        category: "PL"
+
+        stand_class: plchvrn1
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_3poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_3poles.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav123pl {
+
+	stand_name: "PL Chvrn 2 height 3 poles"
+        category: "PL"
+
+        stand_class: plchvrn2
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_3poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_3poles.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav124pl {
+
+	stand_name: "PL Chvrn 3 height 3 poles"
+        category: "PL"
+
+        stand_class: plchvrn3
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_3poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_3poles.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav125pl {
+
+	stand_name: "PL Chvrn 4 height 3 poles"
+        category: "PL"
+
+        stand_class: plchvrn4
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_3poles.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_3poles.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav126pl {
+
+	stand_name: "PL Chvrn 1 height 3 poles wide"
+        category: "PL"
+
+        stand_class: plchvrn1
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_3poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_1h_3poles_wide.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav127pl {
+
+	stand_name: "PL Chvrn 2 height 3 poles wide"
+        category: "PL"
+
+        stand_class: plchvrn2
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_3poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_2h_3poles_wide.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav128pl {
+
+	stand_name: "PL Chvrn 3 height 3 poles wide"
+        category: "PL"
+
+        stand_class: plchvrn3
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_3poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_3h_3poles_wide.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav129pl {
+
+	stand_name: "PL Chvrn 4 height 3 poles wide"
+        category: "PL"
+
+        stand_class: plchvrn4
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_3poles_wide.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavstands_pl_chvrn_4h_3poles_wide.pmc"
+	
+	dynamic: false
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav130pl {
+
+	stand_name: "PL Admin single"
+        category: "PL"
+
+        stand_class: pladmin1
+
+	model_desc: "/model/sign/navigation/sbnav/stand_admin_a_1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/stand_admin_a_1.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav131pl {
+
+	stand_name: "PL Admin double"
+        category: "PL"
+
+        stand_class: pladmin1
+
+	model_desc: "/model/sign/navigation/sbnav/stand_admin_a_2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/stand_admin_a_2.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav132pl {
+
+	stand_name: "PL Admin single"
+        category: "PL"
+
+        stand_class: pladmin2
+
+	model_desc: "/model/sign/navigation/sbnav/stand_admin_b_1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/stand_admin_b_1.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav133pl {
+
+	stand_name: "PL Admin double"
+        category: "PL"
+
+        stand_class: pladmin2
+
+	model_desc: "/model/sign/navigation/sbnav/stand_admin_b_2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/stand_admin_b_2.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav134pl {
+
+	stand_name: "PL Admin double"
+        category: "PL"
+
+        stand_class: pladmin3
+
+	model_desc: "/model/sign/navigation/sbnav/stand_admin_c_1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/stand_admin_c_1.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav135pl {
+
+	stand_name: "PL Admin double 2"
+        category: "PL"
+
+        stand_class: pladmin3
+
+	model_desc: "/model/sign/navigation/sbnav/stand_admin_c_2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/stand_admin_c_2.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+sign_stand_model : sign_stand.sbnav136pl {
+
+	stand_name: "PL Admin double 2"
+        category: "PL"
+
+        stand_class: pladmin2
+
+	model_desc: "/model/sign/navigation/sbnav/stand_admin_d_1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/stand_admin_d_1.pmc"
+	look_name: default
+	
+	dynamic: true
+	mass: 50.0
+}
+}

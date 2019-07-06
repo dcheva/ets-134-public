@@ -1,0 +1,33 @@
+SiiNunit
+{
+overlay_def : .overlay {
+
+	road_names[]: "sk_d1"
+	road_names[]: "sk_d2"
+	road_names[]: "sk_d4"
+
+	road_names[]: "sk_e50"
+	road_names[]: "sk_e58"
+	road_names[]: "sk_e65"
+	road_names[]: "sk_e71"
+	road_names[]: "sk_e75"
+	road_names[]: "sk_e77"
+	road_names[]: "sk_e371"
+	road_names[]: "sk_e442"
+
+	road_names[]: "sk_i2"
+	road_names[]: "sk_i10"
+	road_names[]: "sk_i16"
+	road_names[]: "sk_i17"
+	road_names[]: "sk_i18"
+	road_names[]: "sk_i19"
+	road_names[]: "sk_i21"
+	road_names[]: "sk_i51"
+	road_names[]: "sk_i59"
+	road_names[]: "sk_i66"
+
+	road_names[]: "sk_r2"
+	road_names[]: "sk_r3"
+}
+
+}

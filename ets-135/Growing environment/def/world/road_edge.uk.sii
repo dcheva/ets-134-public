@@ -1,0 +1,91 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+#UK
+
+road_edge : road_edge.ukp_curb_15 {
+	name: 		"uk_curb_15"
+	model:		"/road_template/uk/uk_curb_15.pmd"
+	variant_5: curb_5m
+	variant_15: curb_15m
+}
+
+road_edge : road_edge.ukp_sh_15 {
+	name: 		"uk_shoulder_15"
+	model:		"/road_template/uk/uk_shoulder_15.pmd"
+	variant_5: sh_15_5m
+	variant_15: sh_15_15m
+}
+
+
+road_edge : road_edge.ukp_sw_3m_a {
+	name: 		"uk_sidewalk_3m_a"
+	model:		"/road_template/uk/uk_sidewalk_15.pmd"
+	variant_5: ge_sw_a_5m
+	variant_15: ge_sw_a_15m
+}
+
+road_edge : road_edge.ukp_sw_3m_b {
+	name: 		"uk_sidewalk_3m_b"
+	model:		"/road_template/uk/uk_sidewalk_15.pmd"
+	variant_5: ge_sw_b_5m
+	variant_15: ge_sw_b_15m
+}
+
+road_edge : road_edge.ukp_sw_3m_c {
+	name: 		"uk_sidewalk_3m_c"
+	model:		"/road_template/uk/uk_sidewalk_15.pmd"
+	variant_5: ge_sw_c_5m
+	variant_15: ge_sw_c_15m
+}
+
+road_edge : road_edge.ukp_sw_3m_c1 {
+	name: 		"uk_sidewalk_3m_c1"
+	model:		"/road_template/uk/uk_sidewalk_15.pmd"
+	variant_5: ge_sw_c1_5m
+	variant_15: ge_sw_c1_15m
+}
+
+road_edge : road_edge.ukp_sw_3m_d {
+	name: 		"uk_sidewalk_3m_d"
+	model:		"/road_template/uk/uk_sidewalk_15.pmd"
+	variant_5: ge_sw_d_5m
+	variant_15: ge_sw_d_15m
+}
+
+road_edge : road_edge.ukp_drain_15 {
+	name: 		"uk_drain_15"
+	model:		"/road_template/uk/uk_drain_15.pmd"
+	variant_5: sh_15_5m
+	variant_15: sh_15_15m
+}
+
+road_edge : road_edge.ukp_sh_as_15 {
+	name: 		"uk_sh_asp_15"
+	model:		"/road_template/uk/uk_sh_asphalt_15.pmd"
+	variant_5: sh_15_5m
+	variant_15: sh_15_15m
+}
+
+#road_edge : road_edge.ukp_sh_vill {
+#	name: 		"uk_sh_vill"
+#	model:		"/road_template/uk/uk_sh_village_1.pmd"
+#	variant_5: sh_15_5m
+#	variant_15: sh_15_15m
+#}
+
+road_edge : road_edge.ukp_shr_rail {
+	name: 		"uk_shr_rail"
+	model:		"/road_template/uk/uk_rail_shoulder1.pmd"
+	variant_5: sh_a_5m
+	variant_15: sh_a_15m
+}
+
+}

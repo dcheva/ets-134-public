@@ -1,0 +1,315 @@
+traffic_vehicle : traffic.incentro
+{
+	accessories[]: .incentro.chassis
+	accessories[]: .incentro.fwheel
+	accessories[]: .incentro.rwheel
+
+	max_speed: 50
+
+	vehicle_mass: 100000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 20000
+
+	spawn_ratio: 0	
+
+	trailer_chains[]: "train_car.incentro.first | train_car.incentro.second"
+
+	displacement_limit: 0.0
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	prefer_variant: true
+	variant[]: traffic.incentro.brest
+	variant[]: traffic.incentro.clermont
+	variant[]: traffic.incentro.nantes
+	variant[]: traffic.incentro.toulouse
+	variant[]: traffic.incentro.orleans
+	variant[]: traffic.incentro.poznan
+}
+vehicle_accessory: .incentro.chassis
+{
+	data_path: "/def/vehicle/ai/incentro/chassis_locomotive.sii"
+}
+vehicle_wheel_accessory: .incentro.fwheel
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_front.sii"
+}
+vehicle_wheel_accessory: .incentro.rwheel
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_rear.sii"
+}
+
+
+
+traffic_vehicle : traffic.incentro.brest
+{
+	accessories[]: .incentro.chassis.brest
+	accessories[]: .incentro.fwheel.brest
+	accessories[]: .incentro.rwheel.brest
+
+	max_speed: 50
+
+	vehicle_mass: 100000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 20000
+
+	trailer_chains[]: "train_car.incentro.first | train_car.incentro.second"
+
+	displacement_limit: 0.0
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_condition[]: .traffic.incentro.brest.condition.city
+}
+vehicle_accessory: .incentro.chassis.brest
+{
+	data_path: "/def/vehicle/ai/incentro/chassis_locomotive_brest.sii"
+}
+vehicle_wheel_accessory: .incentro.fwheel.brest
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_front.sii"
+}
+vehicle_wheel_accessory: .incentro.rwheel.brest
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_rear.sii"
+}
+traffic_spawn_condition: .traffic.incentro.brest.condition.city
+{
+	# spawn only near city with specified name
+	type: city
+	str_param[]: "brest"
+}
+
+
+traffic_vehicle : traffic.incentro.clermont
+{
+	accessories[]: .incentro.chassis.clermont
+	accessories[]: .incentro.fwheel.clermont
+	accessories[]: .incentro.rwheel.clermont
+
+	max_speed: 50
+
+	vehicle_mass: 100000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 20000
+
+	trailer_chains[]: "train_car.incentro.first | train_car.incentro.second"
+
+	displacement_limit: 0.0
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_condition[]: .traffic.incentro.clermont.condition.city
+}
+vehicle_accessory: .incentro.chassis.clermont
+{
+	data_path: "/def/vehicle/incentro/chassis_locomotive_clermont.sii"
+}
+vehicle_wheel_accessory: .incentro.fwheel.clermont
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_front.sii"
+}
+vehicle_wheel_accessory: .incentro.rwheel.clermont
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_rear.sii"
+}
+traffic_spawn_condition: .traffic.incentro.clermont.condition.city
+{
+	# spawn only near city with specified name
+	type: city
+	str_param[]: "clermont"
+}
+
+
+traffic_vehicle : traffic.incentro.nantes
+{
+	accessories[]: .incentro.chassis.nantes
+	accessories[]: .incentro.fwheel.nantes
+	accessories[]: .incentro.rwheel.nantes
+
+	max_speed: 50
+
+	vehicle_mass: 100000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 20000
+
+	trailer_chains[]: "train_car.incentro.first | train_car.incentro.second"
+
+	displacement_limit: 0.0
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_condition[]: .traffic.incentro.nantes.condition.city
+}
+vehicle_accessory: .incentro.chassis.nantes
+{
+	data_path: "/def/vehicle/incentro/chassis_locomotive_nantes.sii"
+}
+vehicle_wheel_accessory: .incentro.fwheel.nantes
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_front.sii"
+}
+vehicle_wheel_accessory: .incentro.rwheel.nantes
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_rear.sii"
+}
+traffic_spawn_condition: .traffic.incentro.nantes.condition.city
+{
+	# spawn only near city with specified name
+	type: city
+	str_param[]: "nantes"
+}
+
+
+traffic_vehicle : traffic.incentro.toulouse
+{
+	accessories[]: .incentro.chassis.toulouse
+	accessories[]: .incentro.fwheel.toulouse
+	accessories[]: .incentro.rwheel.toulouse
+
+	max_speed: 50
+
+	vehicle_mass: 100000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 20000
+
+	trailer_chains[]: "train_car.incentro.first | train_car.incentro.second"
+
+	displacement_limit: 0.0
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_condition[]: .traffic.incentro.toulouse.condition.city
+}
+vehicle_accessory: .incentro.chassis.toulouse
+{
+	data_path: "/def/vehicle/ai/incentro/chassis_locomotive_toulouse.sii"
+}
+vehicle_wheel_accessory: .incentro.fwheel.toulouse
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_front.sii"
+}
+vehicle_wheel_accessory: .incentro.rwheel.toulouse
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_rear.sii"
+}
+traffic_spawn_condition: .traffic.incentro.toulouse.condition.city
+{
+	# spawn only near city with specified name
+	type: city
+	str_param[]: "toulouse"
+}
+
+
+traffic_vehicle : traffic.incentro.orleans
+{
+	accessories[]: .incentro.chassis.orleans
+	accessories[]: .incentro.fwheel.orleans
+	accessories[]: .incentro.rwheel.orleans
+
+	max_speed: 50
+
+	vehicle_mass: 100000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 20000
+
+	trailer_chains[]: "train_car.incentro.first | train_car.incentro.second"
+
+	displacement_limit: 0.0
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_condition[]: .traffic.incentro.orleans.condition.city
+}
+vehicle_accessory: .incentro.chassis.orleans
+{
+	data_path: "/def/vehicle/ai/incentro/chassis_locomotive_orleans.sii"
+}
+vehicle_wheel_accessory: .incentro.fwheel.orleans
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_front.sii"
+}
+vehicle_wheel_accessory: .incentro.rwheel.orleans
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_rear.sii"
+}
+traffic_spawn_condition: .traffic.incentro.orleans.condition.city
+{
+	# spawn only near city with specified name
+	type: city
+	str_param[]: "orleans"
+}
+
+traffic_vehicle : traffic.incentro.poznan
+{
+	accessories[]: .incentro.chassis.poznan
+	accessories[]: .incentro.fwheel.poznan
+	accessories[]: .incentro.rwheel.poznan
+
+	max_speed: 50
+
+	vehicle_mass: 100000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 20000
+
+	trailer_chains[]: "train_car.incentro.first | train_car.incentro.second"
+
+	displacement_limit: 0.0
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_condition[]: .traffic.incentro.poznan.condition.city
+}
+vehicle_accessory: .incentro.chassis.poznan
+{
+	data_path: "/def/vehicle/ai/promods/rail/incentro/chassis_locomotive_poznan.sii"
+}
+vehicle_wheel_accessory: .incentro.fwheel.poznan
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_front.sii"
+}
+vehicle_wheel_accessory: .incentro.rwheel.poznan
+{
+	data_path: "/def/vehicle/ai_wheel/incentro_rear.sii"
+}
+traffic_spawn_condition: .traffic.incentro.poznan.condition.city
+{
+	# spawn only near city with specified name
+	type: city
+	str_param[]: "poznań"
+}

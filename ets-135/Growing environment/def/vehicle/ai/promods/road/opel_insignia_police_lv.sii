@@ -1,0 +1,54 @@
+traffic_vehicle : traffic.opel_insigni.police.lv
+{
+	accessories[]: .opel_insigni.police.lv.chassis
+	accessories[]: .opel_insigni.police.lv.fwheel
+	accessories[]: .opel_insigni.police.lv.rwheel
+
+	max_speed: 160
+	gearbox[]: (0.0, 1.0)
+	gearbox[]: (7.369 , 0.2590)
+	gearbox[]: (11.988 , 0.2749)
+	gearbox[]: (21.189 , 0.8388)
+	gearbox[]: (28.341 , 0.6635)
+	gearbox[]: (32.667 , 1.0000)
+	gearbox[]: (39.740 , 0.8308)
+	gearbox[]: (49.332 , 0.9010)
+	gearbox[]: (55.053 , 0.4701)
+	gearbox[]: (59.987 , 0.6266)
+	gearbox[]: (66.423 , 0.2488)
+	gearbox[]: (73.542 , 0.6209)
+	gearbox[]: (81.185 , 0.3759)
+	gearbox[]: (87.346 , 0.4193)
+	gearbox[]: (95.121 , 0.1910)
+	gearbox[]: (101.525 , 0.3792)
+	gearbox[]: (109.209 , 0.2912)
+	gearbox[]: (119.148 , 0.2361)
+	gearbox[]: (120.763 , 0.2361)
+	gearbox[]: (130.936 , 0.1088)
+	engine_torque: 317
+	vehicle_mass: 1673
+
+	lod_dist[]: 80
+	lod_dist[]: 120
+	
+	spawn_ratio: 0
+
+@include "/def/vehicle/ai/drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .opel_insigni.police.lv.chassis
+{
+    	data_path: "/def/vehicle/ai/promods/road/opel_insignia/chassis_police_lv.sii"
+}
+
+vehicle_wheel_accessory: .opel_insigni.police.lv.fwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/opel_insignia_f.sii"
+}
+
+vehicle_wheel_accessory: .opel_insigni.police.lv.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/opel_insignia_r.sii"
+}

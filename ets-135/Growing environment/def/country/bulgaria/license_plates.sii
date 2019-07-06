@@ -1,0 +1,131 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	templates[]:"0 1111 22"
+
+	def0[]:"A"
+	def0[]:"B"
+	def0[]:"BH"
+	def0[]:"BP"
+	def0[]:"BT"
+	def0[]:"E"
+	def0[]:"EB"
+	def0[]:"EH"
+	def0[]:"K"
+	def0[]:"KH"
+	def0[]:"M"
+	def0[]:"H"
+	def0[]:"OB"
+	def0[]:"P"
+	def0[]:"PA"
+	def0[]:"PB"
+	def0[]:"PK"
+	def0[]:"PP"
+	def0[]:"C"
+	def0[]:"CA"
+	def0[]:"CB"
+	def0[]:"CH"
+	def0[]:"CM"
+	def0[]:"CO"
+	def0[]:"CC"
+	def0[]:"CT"
+	def0[]:"T"
+	def0[]:"TX"
+	def0[]:"Y"
+	def0[]:"X"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3" 
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"K"
+	def2[]:"M"
+	def2[]:"H"
+	def2[]:"P"
+	def2[]:"C"
+	def2[]:"T"
+	def2[]:"X"
+
+}
+license_plate_data : .lp.trailer
+{
+	type: trailer
+
+	templates[]:"0 1111 E2"
+
+	def0[]:"A"
+	def0[]:"B"
+	def0[]:"BH"
+	def0[]:"BP"
+	def0[]:"BT"
+	def0[]:"E"
+	def0[]:"EB"
+	def0[]:"EH"
+	def0[]:"K"
+	def0[]:"KH"
+	def0[]:"M"
+	def0[]:"H"
+	def0[]:"OB"
+	def0[]:"P"
+	def0[]:"PA"
+	def0[]:"PB"
+	def0[]:"PK"
+	def0[]:"PP"
+	def0[]:"C"
+	def0[]:"CA"
+	def0[]:"CB"
+	def0[]:"CH"
+	def0[]:"CM"
+	def0[]:"CO"
+	def0[]:"CC"
+	def0[]:"CT"
+	def0[]:"T"
+	def0[]:"TX"
+	def0[]:"Y"
+	def0[]:"X"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3" 
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"E"
+	def2[]:"K"
+	def2[]:"M"
+	def2[]:"H"
+	def2[]:"P"
+	def2[]:"C"
+	def2[]:"T"
+	def2[]:"X"
+
+}
+
+}

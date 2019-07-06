@@ -1,0 +1,474 @@
+SiiNunit
+{
+sign_model : sign.hixopl_01
+	{
+		sign_name: "IE Arm gantry"
+
+		model_desc: "/model/sign/navigation/hixopl/arm_portal_ie.pmd"
+		model_coll: "/model/sign/navigation/hixopl/arm_portal_ie.pmc"
+
+		look_name: default
+		category: "signs/ie-navigation"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.hixopl_02
+	{
+		sign_name: "IE Arm gantry ladder"
+
+		model_desc: "/model/sign/navigation/hixopl/arm_portal_ie.pmd"
+		model_coll: "/model/sign/navigation/hixopl/arm_portal_ie.pmc"
+
+		look_name: default
+		category: "signs/ie-navigation"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: ladder
+		editable: false
+	}
+
+#
+#	POLISH LANE DIRECTION SIGNS
+#
+	
+sign_model : sign.hixopl_03 {
+
+	sign_name: "PL 2 Lanes, Left | Straight/Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmc"
+	look_name: default
+	variant_name: l_sr
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_04 {
+
+	sign_name: "PL 2 Lanes, Left | Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmc"
+	look_name: default
+	variant_name: l_r
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_05 {
+
+	sign_name: "PL 2 Lanes, Left/Straight | Straight/Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmc"
+	look_name: default
+	variant_name: ls_sr
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_06 {
+
+	sign_name: "PL 2 Lanes, Left/Straight | Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmc"
+	look_name: default
+	variant_name: ls_r
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_07 {
+
+	sign_name: "PL 3 Lanes, Straight | Straight | Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmc"
+	look_name: default
+	variant_name: s_s_r
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_08 {
+
+	sign_name: "PL 3 Lanes, Straight | Right | Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmc"
+	look_name: default
+	variant_name: s_r_r
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_09 {
+
+	sign_name: "PL 3 Lanes, Left | Straight | Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmc"
+	look_name: default
+	variant_name: l_s_r
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_10 {
+
+	sign_name: "PL 3 Lanes, Left | Straight | Straight"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmc"
+	look_name: default
+	variant_name: l_s_s
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_11 {
+
+	sign_name: "PL 3 Lanes, Straight | Straight | Straight/Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmc"
+	look_name: default
+	variant_name: s_s_sr
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_12 {
+
+	sign_name: "PL 3 Lanes, Straight/Left | Straight | Straight"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmc"
+	look_name: default
+	variant_name: sl_s_s
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_13 {
+
+	sign_name: "PL 3 Lanes, Left | Straight | Straight/Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmc"
+	look_name: default
+	variant_name: l_s_sr
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_14 {
+
+	sign_name: "PL 3 Lanes, Straight/Left | Straight | Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmc"
+	look_name: default
+	variant_name: sl_s_r
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_15 {
+
+	sign_name: "PL 2 Lanes, Straight | Straight"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmc"
+	look_name: default
+	variant_name: s_s
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_16 {
+
+	sign_name: "PL 2 Lanes, Straight | Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmc"
+	look_name: default
+	variant_name: s_r
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_17 {
+
+	sign_name: "PL 2 Lanes, Straight | Straight/Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmc"
+	look_name: default
+	variant_name: s_sr
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_18 {
+
+	sign_name: "PL 2 Lanes, Straight/Left | Straight"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmc"
+	look_name: default
+	variant_name: ls_s
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_19 {
+
+	sign_name: "PL 2 Lanes, Left | Straight"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmc"
+	look_name: default
+	variant_name: l_s
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_20 {
+
+	sign_name: "PL 4 Lanes, Straight | Straight | Right | Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmc"
+	look_name: default
+	variant_name: s_s_r_r
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_21 {
+
+	sign_name: "PL 4 Lanes, Opposite | Opposite | Straight | Straight"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmc"
+	look_name: default
+	variant_name: o_o_s_s
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_22 {
+
+	sign_name: "PL 4 Lanes, Left | Left | Straight | Straight"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmc"
+	look_name: default
+	variant_name: l_l_s_s
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_23 {
+
+	sign_name: "PL 4 Lanes, Left | Straight | Right | Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmc"
+	look_name: default
+	variant_name: l_s_r_r
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_24 {
+
+	sign_name: "PL 4 Lanes, Left | Straight | Straight | Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmc"
+	look_name: default
+	variant_name: l_s_s_r
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_25 {
+
+	sign_name: "PL 4 Lanes, Left | Left | Right | Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmc"
+	look_name: default
+	variant_name: l_l_r_r
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_26 {
+
+	sign_name: "PL 3 Lanes, Opposite | Straight | Straight"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmc"
+	look_name: default
+	variant_name: o_s_s
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_27 {
+
+	sign_name: "PL 3 Lanes, Opposite | Opposite | Straight"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmc"
+	look_name: default
+	variant_name: o_o_s
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_28 {
+
+	sign_name: "PL 4 Lanes, Left | Left | Right | Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_4lanes_dir.pmc"
+	look_name: default
+	variant_name: l_l_r_r
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_29 {
+
+	sign_name: "PL 3 Lanes, Left | Left/Straight | Straight/Right"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_3lanes_dir.pmc"
+	look_name: default
+	variant_name: l_ls_sr
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_30 {
+
+	sign_name: "PL 2 Lanes, Merge | Straight"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmc"
+	look_name: default
+	variant_name: l_merge
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.hixopl_31 {
+
+	sign_name: "PL 2 Lanes, Straight | Merge"
+
+	model_desc: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmd"
+	model_coll: "/model/sign/traffic/pl/tmpl/tmpl_2lanes_dir.pmc"
+	look_name: default
+	variant_name: r_merge
+	category: "signs/pl-lane_directions"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+
+}

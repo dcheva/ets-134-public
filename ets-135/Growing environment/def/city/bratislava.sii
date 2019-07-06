@@ -1,0 +1,156 @@
+city_data: city.bratislava
+{
+	city_name: "Bratislava"
+	city_name_localized: "@@bratislava@@"
+	country: slovakia
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -47
+	map_x_offsets[]: -43
+	map_x_offsets[]: -42
+	map_x_offsets[]: -40
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 39
+	map_y_offsets[]: 9
+	map_y_offsets[]: -1
+	map_y_offsets[]: 5
+
+	vehicle_brands[]:"mercedes"
+
+	ai_lp_template[]:"0  11123"
+
+	ai_lp_def0[]:"BA"
+	ai_lp_def0[]:"BL"
+
+	ai_lp_def1[]:"0"
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+
+	ai_lp_def2[]:"A"
+	ai_lp_def2[]:"B"
+	ai_lp_def2[]:"C"
+	ai_lp_def2[]:"D"
+	ai_lp_def2[]:"E"
+	ai_lp_def2[]:"F"
+	ai_lp_def2[]:"G"
+	ai_lp_def2[]:"H"
+	ai_lp_def2[]:"I"
+	ai_lp_def2[]:"J"
+	ai_lp_def2[]:"K"
+	ai_lp_def2[]:"L"
+	ai_lp_def2[]:"M"
+	ai_lp_def2[]:"N"
+	ai_lp_def2[]:"O"
+	ai_lp_def2[]:"P"
+	ai_lp_def2[]:"R"
+	ai_lp_def2[]:"S"
+	ai_lp_def2[]:"T"
+	ai_lp_def2[]:"U"
+	ai_lp_def2[]:"V"
+	ai_lp_def2[]:"X"
+	ai_lp_def2[]:"Z"
+
+	ai_lp_def3[]:"A"
+	ai_lp_def3[]:"B"
+	ai_lp_def3[]:"C"
+	ai_lp_def3[]:"D"
+	ai_lp_def3[]:"E"
+	ai_lp_def3[]:"F"
+	ai_lp_def3[]:"G"
+	ai_lp_def3[]:"H"
+	ai_lp_def3[]:"I"
+	ai_lp_def3[]:"J"
+	ai_lp_def3[]:"K"
+	ai_lp_def3[]:"L"
+	ai_lp_def3[]:"M"
+	ai_lp_def3[]:"N"
+	ai_lp_def3[]:"O"
+	ai_lp_def3[]:"P"
+	ai_lp_def3[]:"R"
+	ai_lp_def3[]:"S"
+	ai_lp_def3[]:"T"
+	ai_lp_def3[]:"U"
+	ai_lp_def3[]:"V"
+	ai_lp_def3[]:"X"
+	ai_lp_def3[]:"Y"
+	ai_lp_def3[]:"Z"
+
+	truck_lp_template[]:"0  11123"
+
+	truck_lp_def0[]:"BA"
+	truck_lp_def0[]:"BL"
+
+	truck_lp_def1[]:"0"
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"A"
+	truck_lp_def2[]:"B"
+	truck_lp_def2[]:"C"
+	truck_lp_def2[]:"D"
+	truck_lp_def2[]:"E"
+	truck_lp_def2[]:"F"
+	truck_lp_def2[]:"G"
+	truck_lp_def2[]:"H"
+	truck_lp_def2[]:"I"
+	truck_lp_def2[]:"J"
+	truck_lp_def2[]:"K"
+	truck_lp_def2[]:"L"
+	truck_lp_def2[]:"M"
+	truck_lp_def2[]:"N"
+	truck_lp_def2[]:"O"
+	truck_lp_def2[]:"P"
+	truck_lp_def2[]:"R"
+	truck_lp_def2[]:"S"
+	truck_lp_def2[]:"T"
+	truck_lp_def2[]:"U"
+	truck_lp_def2[]:"V"
+	truck_lp_def2[]:"X"
+	truck_lp_def2[]:"Z"
+
+	truck_lp_def3[]:"A"
+	truck_lp_def3[]:"B"
+	truck_lp_def3[]:"C"
+	truck_lp_def3[]:"D"
+	truck_lp_def3[]:"E"
+	truck_lp_def3[]:"F"
+	truck_lp_def3[]:"G"
+	truck_lp_def3[]:"H"
+	truck_lp_def3[]:"I"
+	truck_lp_def3[]:"J"
+	truck_lp_def3[]:"K"
+	truck_lp_def3[]:"L"
+	truck_lp_def3[]:"M"
+	truck_lp_def3[]:"N"
+	truck_lp_def3[]:"O"
+	truck_lp_def3[]:"P"
+	truck_lp_def3[]:"R"
+	truck_lp_def3[]:"S"
+	truck_lp_def3[]:"T"
+	truck_lp_def3[]:"U"
+	truck_lp_def3[]:"V"
+	truck_lp_def3[]:"X"
+	truck_lp_def3[]:"Y"
+	truck_lp_def3[]:"Z"
+}

@@ -1,0 +1,23 @@
+
+country_data: country.data.belarus
+{
+	country_id: 16
+	name: "Беларусь"
+	name_localized: "@@belarus@@"
+	country_code: "BY"
+
+	pos:(59073, 0, -15130)
+
+	fuel_price: 0.72
+
+	lights_mandatory: true
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "MSK"
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 25000
+	mass_limit_per_axle_count[]: 38000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 42000
+}

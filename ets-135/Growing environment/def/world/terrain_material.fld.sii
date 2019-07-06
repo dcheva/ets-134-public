@@ -1,0 +1,160 @@
+SiiNunit
+{
+# by FLD / TZ express map
+material_def : terrain_mat.0fld {
+	path: "/material/road/sidewalk_00.mat"
+}
+material_def : terrain_mat.1fld {
+	path: "/material/road/sidewalk_01.mat"
+}
+material_def : terrain_mat.2fld {
+	path: "/material/road/sidewalk_02.mat"
+}
+material_def : terrain_mat.3fld {
+	path: "/material/road/sidewalk_03.mat"
+}
+material_def : terrain_mat.4fld {
+	path: "/material/road/sidewalk_04.mat"
+}
+material_def : terrain_mat.5fld {
+	path: "/material/road/sidewalk_05.mat"
+}
+material_def : terrain_mat.6fld {
+	path: "/material/road/sidewalk_06.mat"
+}
+material_def : terrain_mat.7fld {
+	path: "/material/road/sidewalk_07.mat"
+}
+material_def : terrain_mat.8fld {
+	path: "/material/road/sidewalk_08.mat"
+}
+material_def : terrain_mat.9fld {
+	path: "/material/terrain/asphalt_01.mat"
+}
+material_def : terrain_mat.10fld {
+	path: "/material/road/sidewalk_09.mat"
+}
+material_def : terrain_mat.11fld {
+	path: "/material/terrain/grass_00.mat"
+}
+material_def : terrain_mat.12fld {
+	path: "/material/terrain/grass_00_512.mat"
+}
+material_def : terrain_mat.13fld {
+	path: "/material/road/sidewalk_10.mat"
+}
+material_def : terrain_mat.14fld {
+	path: "/material/road/sidewalk_11.mat"
+}
+material_def : terrain_mat.15fld {
+	path: "/material/terrain/map_far_00.mat"
+}
+material_def : terrain_mat.16fld {
+	path: "/material/terrain/map_far_01.mat"
+}
+material_def : terrain_mat.17fld {
+	path: "/material/terrain/map_far_02.mat"
+}
+material_def : terrain_mat.18fld {
+	path: "/material/terrain/map_far_03.mat"
+}
+material_def : terrain_mat.19fld {
+	path: "/material/terrain/map_far_04.mat"
+}
+material_def : terrain_mat.20fld {
+	path: "/material/terrain/map_far_05.mat"
+}
+material_def : terrain_mat.21fld {
+	path: "/material/terrain/grass_01.mat"
+}
+material_def : terrain_mat.22fld {
+	path: "/material/terrain/grass_02.mat"
+}
+material_def : terrain_mat.23fld {
+	path: "/material/terrain/grass_03.mat"
+}
+material_def : terrain_mat.24fld {
+	path: "/material/terrain/field_00.mat"
+}
+material_def : terrain_mat.25fld {
+	path: "/material/terrain/field_00a.mat"
+}
+material_def : terrain_mat.26fld {
+	path: "/material/terrain/field_01.mat"
+}
+material_def : terrain_mat.27fld {
+	path: "/material/terrain/field_02.mat"
+}
+material_def : terrain_mat.28fld {
+	path: "/material/terrain/field_03.mat"
+}
+material_def : terrain_mat.29fld {
+	path: "/material/terrain/field_04.mat"
+}
+material_def : terrain_mat.30fld {
+	path: "/material/terrain/field_05.mat"
+}
+material_def : terrain_mat.31fld {
+	path: "/material/terrain/field_06.mat"
+}
+material_def : terrain_mat.32fld {
+	path: "/material/terrain/field_07.mat"
+}
+material_def : terrain_mat.33fld {
+	path: "/material/terrain/field_08.mat"
+}
+material_def : terrain_mat.34fld {
+	path: "/material/terrain/field_09.mat"
+}
+material_def : terrain_mat.35fld {
+	path: "/material/road/sidewalk_12.mat"
+}
+material_def : terrain_mat.36fld {
+	path: "/material/road/sidewalk.mat"
+}
+material_def : terrain_mat.37fld {
+	path:"/material/road/hexagonal_pavement.mat"
+}
+material_def : terrain_mat.38fld {
+	path:"/material/road/small_block_pavement.mat"
+}
+material_def : terrain_mat.39fld {
+	path:"/material/road/small_starblock_pavement.mat"
+}
+material_def : terrain_mat.40fld {
+	path:"/material/road/crossshape_pavement.mat"
+}
+material_def : terrain_mat.41fld {
+	path:"/material/road/square_block_pavement.mat"
+}
+material_def : terrain_mat.42fld {
+	path:"/material/road/demo_sidewalk01.mat"
+}
+material_def : terrain_mat.43fld {
+	path:"/material/road/reddish_pavement.mat"
+}
+material_def : terrain_mat.44fld {
+	path:"/material/road/sidewalk_grassy.mat"
+}
+material_def : terrain_mat.45fld {
+	path: "/material/terrain/asphalt_old.mat"
+}
+material_def : terrain_mat.46fld {
+	path: "/material/terrain/asphalt10.mat"
+}
+material_def : terrain_mat.47fld {
+	path: "/material/road/old_city.mat"
+}
+material_def : terrain_mat.48fld {
+	path: "/material/road/old_city_2.mat"
+}
+material_def : terrain_mat.49fld {
+	path: "/material/road/sidewalk_13.mat"
+}
+material_def : terrain_mat.50fld {
+	path: "/material/road/sidewalk_14.mat"
+}
+material_def : terrain_mat.51fld {
+	path: "/material/terrain/asphalt_dusty.mat"
+}
+}

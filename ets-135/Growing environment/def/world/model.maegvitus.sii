@@ -1,0 +1,16 @@
+SiiNunit
+{
+
+model_def : model.mavitu001 {
+	model_desc: "/model/maegvitus/maeg_schbor.pmd"
+	category: "maeg Vitus"
+	distance_type: 1
+}
+
+model_def : model.maegvitu002 {
+	model_desc: "/model/maeg_vitus/maeg_vitusglass.pmd"
+	category: "maeg Vitus"
+	distance_type: 1
+}
+
+}

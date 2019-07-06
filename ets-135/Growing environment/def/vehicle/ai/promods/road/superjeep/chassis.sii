@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_chassis_data : chassis.superjeep
+{
+	model: "/vehicle/ai/promods/road/superjeep/superjeep.pmd"
+	lods[]: "/vehicle/ai/promods/road/superjeep/superjeep_lod.pmd"	
+	collision: "/vehicle/ai/promods/road/superjeep/superjeep.pmc"
+	shadow_texture: "/vehicle/ai/share/shadow_occlusion.tobj"
+	shadow_intensity: 1
+	variant: default
+}
+}

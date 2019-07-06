@@ -1,0 +1,452 @@
+traffic_trailer : .traffic.trailer.schmitz.universal.biedronka {
+	accessories[]: .schmitz.universal.tchassis.biedronka
+	accessories[]: .schmitz.universal.trwheel0.biedronka
+	accessories[]: .schmitz.universal.trwheel1.biedronka
+	accessories[]: .schmitz.universal.trwheel2.biedronka
+	accessories[]: .schmitz.universal.paintjob.biedronka
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.biedronka {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.biedronka {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.biedronka {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.biedronka {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.biedronka {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/biedronka.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.schmitz.universal.bondi {
+	accessories[]: .schmitz.universal.tchassis.bondi
+	accessories[]: .schmitz.universal.trwheel0.bondi
+	accessories[]: .schmitz.universal.trwheel1.bondi
+	accessories[]: .schmitz.universal.trwheel2.bondi
+	accessories[]: .schmitz.universal.paintjob.bondi
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.bondi {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.bondi {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.bondi {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.bondi {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.bondi {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/bondi.sii"
+}
+
+traffic_trailer : .traffic.trailer.schmitz.universal.deret {
+	accessories[]: .schmitz.universal.tchassis.deret
+	accessories[]: .schmitz.universal.trwheel0.deret
+	accessories[]: .schmitz.universal.trwheel1.deret
+	accessories[]: .schmitz.universal.trwheel2.deret
+	accessories[]: .schmitz.universal.paintjob.deret
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.deret {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.deret {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.deret {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.deret {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.deret {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/deret.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.schmitz.universal.eroski {
+	accessories[]: .schmitz.universal.tchassis.eroski
+	accessories[]: .schmitz.universal.trwheel0.eroski
+	accessories[]: .schmitz.universal.trwheel1.eroski
+	accessories[]: .schmitz.universal.trwheel2.eroski
+	accessories[]: .schmitz.universal.paintjob.eroski
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.eroski {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.eroski {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.eroski {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.eroski {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.eroski {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/eroski.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.schmitz.universal.hb_grandi {
+	accessories[]: .schmitz.universal.tchassis.hb_grandi
+	accessories[]: .schmitz.universal.trwheel0.hb_grandi
+	accessories[]: .schmitz.universal.trwheel1.hb_grandi
+	accessories[]: .schmitz.universal.trwheel2.hb_grandi
+	accessories[]: .schmitz.universal.paintjob.hb_grandi
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.hb_grandi {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.hb_grandi {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.hb_grandi {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.hb_grandi {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.hb_grandi {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/hb_grandi.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.schmitz.universal.icelandair {
+	accessories[]: .schmitz.universal.tchassis.icelandair
+	accessories[]: .schmitz.universal.trwheel0.icelandair
+	accessories[]: .schmitz.universal.trwheel1.icelandair
+	accessories[]: .schmitz.universal.trwheel2.icelandair
+	accessories[]: .schmitz.universal.paintjob.icelandair
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.icelandair {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.icelandair {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.icelandair {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.icelandair {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.icelandair {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/icelandair.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.schmitz.universal.maxima {
+	accessories[]: .schmitz.universal.tchassis.maxima
+	accessories[]: .schmitz.universal.trwheel0.maxima
+	accessories[]: .schmitz.universal.trwheel1.maxima
+	accessories[]: .schmitz.universal.trwheel2.maxima
+	accessories[]: .schmitz.universal.paintjob.maxima
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.maxima {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.maxima {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.maxima {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.maxima {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.maxima {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/maxima.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.schmitz.universal.mazet {
+	accessories[]: .schmitz.universal.tchassis.mazet
+	accessories[]: .schmitz.universal.trwheel0.mazet
+	accessories[]: .schmitz.universal.trwheel1.mazet
+	accessories[]: .schmitz.universal.trwheel2.mazet
+	accessories[]: .schmitz.universal.paintjob.mazet
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.mazet {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.mazet {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.mazet {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.mazet {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.mazet {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/mazet.sii"
+}
+traffic_trailer : .traffic.trailer.schmitz.universal.metro {
+	accessories[]: .schmitz.universal.tchassis.metro
+	accessories[]: .schmitz.universal.trwheel0.metro
+	accessories[]: .schmitz.universal.trwheel1.metro
+	accessories[]: .schmitz.universal.trwheel2.metro
+	accessories[]: .schmitz.universal.paintjob.metro
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.metro {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.metro {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.metro {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.metro {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.metro {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/metro.sii"
+}
+
+traffic_trailer : .traffic.trailer.schmitz.universal.nd {
+	accessories[]: .schmitz.universal.tchassis.nd
+	accessories[]: .schmitz.universal.trwheel0.nd
+	accessories[]: .schmitz.universal.trwheel1.nd
+	accessories[]: .schmitz.universal.trwheel2.nd
+	accessories[]: .schmitz.universal.paintjob.nd
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.nd {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.nd {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.nd {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.nd {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.nd {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/nd.sii"
+}
+
+traffic_trailer : .traffic.trailer.schmitz.universal.rimi {
+	accessories[]: .schmitz.universal.tchassis.rimi
+	accessories[]: .schmitz.universal.trwheel0.rimi
+	accessories[]: .schmitz.universal.trwheel1.rimi
+	accessories[]: .schmitz.universal.trwheel2.rimi
+	accessories[]: .schmitz.universal.paintjob.rimi
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.rimi {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.rimi {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.rimi {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.rimi {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.rimi {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/rimi.sii"
+}
+
+traffic_trailer : .traffic.trailer.schmitz.universal.smyril {
+	accessories[]: .schmitz.universal.tchassis.smyril
+	accessories[]: .schmitz.universal.trwheel0.smyril
+	accessories[]: .schmitz.universal.trwheel1.smyril
+	accessories[]: .schmitz.universal.trwheel2.smyril
+	accessories[]: .schmitz.universal.paintjob.smyril
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.smyril {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.smyril {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.smyril {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.smyril {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.smyril {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/smyril.sii"
+}
+
+traffic_trailer : .traffic.trailer.schmitz.universal.tesco {
+	accessories[]: .schmitz.universal.tchassis.tesco
+	accessories[]: .schmitz.universal.trwheel0.tesco
+	accessories[]: .schmitz.universal.trwheel1.tesco
+	accessories[]: .schmitz.universal.trwheel2.tesco
+	accessories[]: .schmitz.universal.paintjob.tesco
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.tesco {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.tesco {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.tesco {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.tesco {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.tesco {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/tesco.sii"
+}
+
+traffic_trailer : .traffic.trailer.schmitz.universal.xxxlutz {
+	accessories[]: .schmitz.universal.tchassis.xxxlutz
+	accessories[]: .schmitz.universal.trwheel0.xxxlutz
+	accessories[]: .schmitz.universal.trwheel1.xxxlutz
+	accessories[]: .schmitz.universal.trwheel2.xxxlutz
+	accessories[]: .schmitz.universal.paintjob.xxxlutz
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.xxxlutz {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.xxxlutz {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.xxxlutz {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.xxxlutz {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.xxxlutz {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/xxxlutz.sii"
+}
+
+traffic_trailer : .traffic.trailer.schmitz.universal.lidl {
+	accessories[]: .schmitz.universal.tchassis.lidl
+	accessories[]: .schmitz.universal.trwheel0.lidl
+	accessories[]: .schmitz.universal.trwheel1.lidl
+	accessories[]: .schmitz.universal.trwheel2.lidl
+	accessories[]: .schmitz.universal.paintjob.lidl
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.lidl {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.lidl {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.lidl {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.lidl {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.lidl {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/lidl.sii"
+}
+
+traffic_trailer : .traffic.trailer.schmitz.universal.gallia_ferry {
+	accessories[]: .schmitz.universal.tchassis.gallia_ferry
+	accessories[]: .schmitz.universal.trwheel0.gallia_ferry
+	accessories[]: .schmitz.universal.trwheel1.gallia_ferry
+	accessories[]: .schmitz.universal.trwheel2.gallia_ferry
+	accessories[]: .schmitz.universal.paintjob.gallia_ferry
+	cargo_mass: 21000
+	base: traffic.trailer.schmitz.universal
+}
+vehicle_accessory: .schmitz.universal.tchassis.gallia_ferry {
+	data_path: "/def/vehicle/trailer/schmitz/universal/chassis.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel0.gallia_ferry {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel1.gallia_ferry {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .schmitz.universal.trwheel2.gallia_ferry {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .schmitz.universal.paintjob.gallia_ferry {
+    	data_path: "/def/vehicle/trailer/schmitz/universal/company_paint_job/gallia_ferry.sii"
+}

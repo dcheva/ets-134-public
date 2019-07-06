@@ -1,0 +1,89 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+vegetation_data : veg.med0 {
+
+	name: "med - leaved"
+
+	models[]: vegetmodel.med.tree1
+	models[]: vegetmodel.med.tree2
+	models[]: vegetmodel.med.tree3
+	models[]: vegetmodel.med.tree4
+	
+}
+
+vegetation_data : veg.med1 {
+
+	name: "med - olives"
+
+	models[]: vegetmodel.med.olive
+	
+}
+
+vegetation_data : veg.med2 {
+
+	name: "med - olives dry"
+
+	models[]: vegetmodel.med.olivedry
+	
+}
+
+vegetation_data : veg.med3 {
+
+	name: "med - orange trees"
+
+	models[]: vegetmodel.med.orange
+	
+}
+
+vegetation_data : veg.med4 {
+
+	name: "med - pines small"
+
+	models[]: vegetmodel.med.pinesmall1
+	models[]: vegetmodel.med.pinesmall2
+	
+}
+
+vegetation_data : veg.med5 {
+
+	name: "med - pines tall"
+
+	models[]: vegetmodel.med.pinetall1
+	models[]: vegetmodel.med.pinetall2
+	
+}
+
+vegetation_data : veg.med6 {
+
+	name: "med - pines & leaved"
+
+	models[]: vegetmodel.med.pinetall1
+	models[]: vegetmodel.med.pinetall2
+	models[]: vegetmodel.med.pinesmall1
+	models[]: vegetmodel.med.pinesmall2
+	models[]: vegetmodel.med.tree1
+	models[]: vegetmodel.med.tree2
+	models[]: vegetmodel.med.tree3
+	models[]: vegetmodel.med.tree4
+	
+}
+
+vegetation_data : veg.med7 {
+
+	name: "med - bushes low"
+
+	models[]: vegetmodel.med.bush1
+	models[]: vegetmodel.med.bush2
+	models[]: vegetmodel.med.bush3
+	models[]: vegetmodel.med.bush4
+	
+}
+}

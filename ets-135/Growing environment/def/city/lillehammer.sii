@@ -1,0 +1,124 @@
+city_data: city.lillehammer
+{
+	city_name: "Lillehammer"
+	city_name_localized: "@@lillehammer@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -21
+	map_x_offsets[]: -20
+	map_x_offsets[]: -19
+	map_x_offsets[]: -20
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -66
+	map_y_offsets[]: -52
+	map_y_offsets[]: -29
+	map_y_offsets[]: -28
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	vehicle_brands[]:"volvo"
+
+	ai_lp_template[]:"0 12322"
+
+	ai_lp_def0[]:"SN"
+	ai_lp_def0[]:"SP"
+	ai_lp_def0[]:"SR"
+	ai_lp_def0[]:"ST"
+	ai_lp_def0[]:"SU"
+	ai_lp_def0[]:"SV"
+	ai_lp_def0[]:"SX"
+	ai_lp_def0[]:"SY"
+	ai_lp_def0[]:"SZ"
+	ai_lp_def0[]:"TA"
+	ai_lp_def0[]:"TB"
+	ai_lp_def0[]:"TC"
+	ai_lp_def0[]:"TD"
+	ai_lp_def0[]:"TE"
+
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+
+	ai_lp_def2[]:"0"
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+
+	ai_lp_def3[]:"5"
+	ai_lp_def3[]:"6"
+	ai_lp_def3[]:"7"
+	ai_lp_def3[]:"8"
+	ai_lp_def3[]:"9"
+
+	truck_lp_template[]:"0 12322"
+
+	truck_lp_def0[]:"SN"
+	truck_lp_def0[]:"SP"
+	truck_lp_def0[]:"SR"
+	truck_lp_def0[]:"ST"
+	truck_lp_def0[]:"SU"
+	truck_lp_def0[]:"SV"
+	truck_lp_def0[]:"SX"
+	truck_lp_def0[]:"SY"
+	truck_lp_def0[]:"SZ"
+	truck_lp_def0[]:"TA"
+	truck_lp_def0[]:"TB"
+	truck_lp_def0[]:"TC"
+	truck_lp_def0[]:"TD"
+	truck_lp_def0[]:"TE"
+
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"0"
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+	truck_lp_def3[]:"0"
+	truck_lp_def3[]:"1"
+	truck_lp_def3[]:"2"
+	truck_lp_def3[]:"3"
+	truck_lp_def3[]:"4"
+}

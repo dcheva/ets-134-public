@@ -1,0 +1,78 @@
+SiiNunit
+{
+sign_model : sign.itref1 {
+
+	sign_name: "IT reflective 3 layer barrier right"
+
+	model_desc: "/model/sign/reflectivemount/reflective_mount_cbit_3layer.pmd"
+	look_name: default
+	category: "signs/it"
+	mass: 100
+
+	dynamic: true
+	road_model: true
+	distance_type: 2
+}
+sign_model : sign.m95nldyn001 {
+
+	sign_name: "NL - Citylimit enter"
+
+	model_desc: "/model/sign/city_limits/cl_nl_en_w.pmd"
+	model_coll: "/model/sign/city_limits/cl_nl_en_w.pmc"
+	look_name: default
+	category: "signs/nl-citylimits"
+	mass: 100
+
+	dynamic: true
+	editable: true
+	road_model: false
+	distance_type: 2
+}
+	
+sign_model : sign.m95nldyn002 {
+
+	sign_name: "NL - Citylimit exit"
+
+	model_desc: "/model/sign/city_limits/cl_nl_ex_w.pmd"
+	model_coll: "/model/sign/city_limits/cl_nl_ex_w.pmc"
+	look_name: default
+	category: "signs/nl-citylimits"
+	mass: 100
+
+	dynamic: true
+	editable: true
+	road_model: false
+	distance_type: 2
+
+}
+sign_model : sign.modtest003 {
+
+	sign_name: "NL - Zone enter"
+
+	model_desc: "/model/sign/nl_portals/nl_zone_start.pmd"
+	model_coll: "/model/sign/nl_portals/nl_zone_start.pmc"
+	look_name: default
+	category: "signs/nl-portals"
+	mass: 100
+
+	dynamic: true
+	editable: true
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.modtest004 {
+
+	sign_name: "NL - Zone exit"
+
+	model_desc: "/model/sign/nl_portals/nl_zone_end.pmd"
+	model_coll: "/model/sign/nl_portals/nl_zone_end.pmc"
+	look_name: default
+	category: "signs/nl-portals"
+	mass: 100
+
+	dynamic: true
+	editable: true
+	road_model: false
+	distance_type: 2
+}
+}

@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.miastoswino.portswinou {
+	price: 4
+	time: 10
+	distance : 1
+}
+}
+

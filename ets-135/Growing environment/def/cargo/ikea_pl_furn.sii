@@ -1,0 +1,12 @@
+cargo_data: cargo.ikea_pl_furn
+{
+	name: "@@cargo_fl_furn@@"
+	fragility: 0.71
+	group[]: containers
+	volume: 2.6
+	mass: 560.0
+	unit_reward_per_km: 0.719
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

@@ -1,0 +1,204 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+
+## Bulgaria TRAFFIC LIGHTS ##
+
+tr_semaphore_model  : tr_sem_mdl.single.bg{
+
+	name: "single-bg"
+
+	model_desc: "/model/traffic_light/bulgaria/single_bg.pmd"
+	model_coll: "/model/traffic_light/bulgaria/single_bg.pmc"
+
+
+}
+tr_semaphore_model  : tr_sem_mdl.single_l.bg {
+
+	name: "single_l-bg"
+
+	model_desc: "/model/traffic_light/bulgaria/single_bg.pmd"
+	model_coll: "/model/traffic_light/bulgaria/single_bg.pmc"
+
+
+}
+tr_semaphore_model  : tr_sem_mdl.city.bg {
+
+	name: "city-bg"
+
+	model_desc: "/model/traffic_light/bulgaria/city_bg.pmd"
+	model_coll: "/model/traffic_light/bulgaria/city_bg.pmc"
+
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.straighth.bg {
+
+	name: "straight.h"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/straight_high_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/straight_high_de.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.straightl.bg {
+
+	name: "straight.l"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/straight_low_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/straight_low_de.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.lefth.bg {
+
+	name: "left.h"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/left_high_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/left_high_de.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.leftl.bg {
+
+	name: "left.l"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/left_low_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/left_low_de.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.righth.bg {
+
+	name: "right.h"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/right_high_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/right_high_de.pmc"
+
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.rightl.bg {
+
+	name: "right.l"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/right_low_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/right_low_de.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.thruh.bg {
+
+	name: "thru.h"
+	
+	model_desc: "/model/traffic_light/big_junctions/de/thru_high_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/thru_high_de.pmc"
+
+
+}
+
+## TURKEY TRAFFIC LIGHT ##
+
+tr_semaphore_model : tr_sem_mdl.city.tr {
+
+	name: "city-tr"
+
+	model_desc: "/model/traffic_light/city_de.pmd"
+	model_coll: "/model/traffic_light/city_de.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.single_l.tr {
+
+	name: "single_l-tr"
+
+	model_desc: "/model/traffic_light/single_left_de.pmd"
+	model_coll: "/model/traffic_light/single_left_de.pmc"
+
+
+}
+tr_semaphore_model : tr_sem_mdl.single.tr {
+
+	name: "single-tr"
+
+	model_desc: "/model/traffic_light/single_de.pmd"
+	model_coll: "/model/traffic_light/single_de.pmc"
+
+
+}
+
+
+
+## TURKEY TOLL ##
+
+tr_semaphore_model : tr_sem_mdl.ab_toll.svk {
+
+	name: "ab_toll_svk"
+
+	model_desc: "/model2/barrier/animated/toll_gate_sc.pmd"
+	model_coll: "/model2/barrier/animated/toll_gate_sc.pmc"
+	
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	state_collision[0]: false
+
+	# red
+	state_anim[1]: "/model2/barrier/animated/t_small_dwn_sc.pma"
+	state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/model2/barrier/animated/t_smal_up_sc.pma"
+	state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: false
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.ab_toll.snb {
+
+	name: "ab_toll_snb"
+
+	model_desc: "/model2/barrier/animated/toll_gate_nb.pmd"
+	model_coll: "/model2/barrier/animated/toll_gate_nb.pmc"
+	
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	state_collision[0]: false
+
+	# red
+	state_anim[1]: ""
+	state_collision[1]: false
+
+	# orange_to_green
+	state_anim[2]: ""
+	state_collision[2]: false
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: false
+
+
+}
+}

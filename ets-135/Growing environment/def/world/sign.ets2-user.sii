@@ -1,0 +1,736 @@
+SiiNunit
+{
+
+sign_model : sign.groe1 {
+
+	sign_name: "Groedig enter"
+
+	model_desc: "/model/sign/traffic/groedig_enter.pmd"
+	model_coll: "/model/sign/traffic/groedig_enter.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_start
+	mass: 100
+}
+
+sign_model : sign.groe2 {
+
+	sign_name: "Groedig exit"
+
+	model_desc: "/model/sign/traffic/groedig_exit.pmd"
+	model_coll: "/model/sign/traffic/groedig_exit.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_end
+	mass: 100
+}
+
+sign_model : sign.neua1 {
+
+	sign_name: "Neu-Anif enter"
+
+	model_desc: "/model/sign/traffic/neuanif_enter.pmd"
+	model_coll: "/model/sign/traffic/neuanif_enter.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_start
+	mass: 100
+}
+
+sign_model : sign.neua2 {
+
+	sign_name: "Neu-Anif exit"
+
+	model_desc: "/model/sign/traffic/neuanif_exit.pmd"
+	model_coll: "/model/sign/traffic/neuanif_exit.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_end
+	mass: 100
+}
+
+sign_model : sign.mond1 {
+
+	sign_name: "Mondsee enter"
+
+	model_desc: "/model/sign/traffic/mondsee_enter.pmd"
+	model_coll: "/model/sign/traffic/mondsee_enter.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_start
+	mass: 100
+}
+
+sign_model : sign.mond2 {
+
+	sign_name: "Mondsee exit"
+
+	model_desc: "/model/sign/traffic/mondsee_exit.pmd"
+	model_coll: "/model/sign/traffic/mondsee_exit.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_end
+	mass: 100
+
+}
+
+sign_model : sign.seew1 {
+
+	sign_name: "Seewalchen enter"
+
+	model_desc: "/model/sign/traffic/seewalchen_enter.pmd"
+	model_coll: "/model/sign/traffic/seewalchen_enter.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_start
+	mass: 100
+}
+
+sign_model : sign.seew2 {
+
+	sign_name: "Seewalchen exit"
+
+	model_desc: "/model/sign/traffic/seewalchen_exit.pmd"
+	model_coll: "/model/sign/traffic/seewalchen_exit.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_end
+	mass: 100
+	
+}
+
+sign_model : sign.sqrl1 {
+
+	sign_name: "squirrel welcome"
+
+	model_desc: "/model/sign/traffic/sqrl/sqrl_welc.pmd"
+	model_coll: "/model/sign/traffic/sqrl/sqrl_welc.pmc"
+	look_name: default
+	category: "signs/sqrl"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 0
+}
+
+sign_model : sign.sqrl2 {
+
+	sign_name: "squirrel dog"
+
+	model_desc: "/model/sign/traffic/sqrl/sqrl_dog.pmd"
+	model_coll: "/model/sign/traffic/sqrl/sqrl_dog.pmc"
+	look_name: default
+	category: "signs/sqrl"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 0
+}
+
+sign_model : sign.sqrl3 {
+
+	sign_name: "squirrel rec"
+
+	model_desc: "/model/sign/traffic/sqrl/sqrl_rec.pmd"
+	model_coll: "/model/sign/traffic/sqrl/sqrl_rec.pmc"
+	look_name: default
+	category: "signs/sqrl"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 0
+}
+
+sign_model : sign.riv1 {
+
+	sign_name: "River Donau"
+
+	model_desc: "/model/sign/traffic/at/river/at_rivers.pmd"
+	model_coll: "/model/sign/traffic/at/river/at_rivers.pmc"
+	look_name: donau
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 0
+}
+
+sign_model : sign.riv2 {
+
+	sign_name: "River Enns"
+
+	model_desc: "/model/sign/traffic/at/river/at_rivers.pmd"
+	model_coll: "/model/sign/traffic/at/river/at_rivers.pmc"
+	look_name: enns
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 0
+}
+
+sign_model : sign.riv3 {
+
+	sign_name: "River Inn"
+
+	model_desc: "/model/sign/traffic/at/river/at_rivers.pmd"
+	model_coll: "/model/sign/traffic/at/river/at_rivers.pmc"
+	look_name: inn
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 0
+}
+
+sign_model : sign.riv4 {
+
+	sign_name: "River Salzach"
+
+	model_desc: "/model/sign/traffic/at/river/at_rivers.pmd"
+	model_coll: "/model/sign/traffic/at/river/at_rivers.pmc"
+	look_name: salzach
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 0
+}
+
+sign_model : sign.riv5 {
+
+	sign_name: "River Wien"
+
+	model_desc: "/model/sign/traffic/at/river/at_rivers.pmd"
+	model_coll: "/model/sign/traffic/at/river/at_rivers.pmc"
+	look_name: wien
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 0
+}
+
+sign_model : sign.reg01 {
+
+	sign_name: "Welcome to Kaernten AT"
+
+	model_desc: "/model/sign/traffic/at/regional/at_regional1.pmd"
+	model_coll: "/model/sign/traffic/at/regional/at_regional1.pmc"
+	look_name: kaernten
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.reg02 {
+
+	sign_name: "Welcome to Tirol AT"
+
+	model_desc: "/model/sign/traffic/at/regional/at_regional2.pmd"
+	model_coll: "/model/sign/traffic/at/regional/at_regional2.pmc"
+	look_name: tirol
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.reg03 {
+
+	sign_name: "Welcome to Oberoesterreich AT"
+
+	model_desc: "/model/sign/traffic/at/regional/at_regional3.pmd"
+	model_coll: "/model/sign/traffic/at/regional/at_regional3.pmc"
+	look_name: ooe
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.reg04 {
+
+	sign_name: "Welcome to Salzburg AT"
+
+	model_desc: "/model/sign/traffic/at/regional/at_regional4.pmd"
+	model_coll: "/model/sign/traffic/at/regional/at_regional4.pmc"
+	look_name: salzburg
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.reg05 {
+
+	sign_name: "Welcome to Vorarlberg AT"
+
+	model_desc: "/model/sign/traffic/at/regional/at_regional4.pmd"
+	model_coll: "/model/sign/traffic/at/regional/at_regional4.pmc"
+	look_name: vorarlberg
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.reg06 {
+
+	sign_name: "Welcome to Burgenland AT"
+
+	model_desc: "/model/sign/traffic/at/regional/at_regional4.pmd"
+	model_coll: "/model/sign/traffic/at/regional/at_regional4.pmc"
+	look_name: burgenland
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.aeinl {
+
+	sign_name: "One way left AT"
+
+	model_desc: "/model/sign/traffic/at/einbahn_left_at.pmd"
+	model_coll: "/model/sign/traffic/at/einbahn_left_at.pmc"
+	look_name: default
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.aeinr {
+
+	sign_name: "One way right AT"
+
+	model_desc: "/model/sign/traffic/at/einbahn_right_at.pmd"
+	model_coll: "/model/sign/traffic/at/einbahn_right_at.pmc"
+	look_name: default
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.riv6 {
+
+	sign_name: "River Donaukanal"
+
+	model_desc: "/model/sign/traffic/at/river/at_rivers.pmd"
+	model_coll: "/model/sign/traffic/at/river/at_rivers.pmc"
+	look_name: donauka
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 0
+}
+
+sign_model : sign.bordathu {
+
+	sign_name: "Border AT-HU"
+
+	model_desc: "/model/sign/traffic/border_athu.pmd"
+	model_coll: "/model/sign/traffic/border_athu.pmc"
+	look_name: default
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 0
+
+}
+
+sign_model : sign.rdbt {
+
+	sign_name: "Roundabout note indicate"
+
+	model_desc: "/model/sign/traffic/at/river/at_rivers.pmd"
+	model_coll: "/model/sign/traffic/at/river/at_rivers.pmc"
+	look_name: rdbt
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 0
+
+}
+
+sign_model : sign.riv7 {
+
+	sign_name: "River Donau-Oder-kanal"
+
+	model_desc: "/model/sign/traffic/at/river/at_rivers.pmd"
+	model_coll: "/model/sign/traffic/at/river/at_rivers.pmc"
+	look_name: donodka
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 0
+}
+
+sign_model : sign.hain1 {
+
+	sign_name: "Hainburg enter"
+
+	model_desc: "/model/sign/traffic/hainburg_enter.pmd"
+	model_coll: "/model/sign/traffic/hainburg_enter.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_start
+	mass: 100
+}
+
+sign_model : sign.hain2 {
+
+	sign_name: "Hainburg exit"
+
+	model_desc: "/model/sign/traffic/hainburg_exit.pmd"
+	model_coll: "/model/sign/traffic/hainburg_exit.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_end
+	mass: 100
+}
+
+sign_model : sign.riv8 {
+
+	sign_name: "River Schwechat"
+
+	model_desc: "/model/sign/traffic/at/river/at_rivers.pmd"
+	model_coll: "/model/sign/traffic/at/river/at_rivers.pmc"
+	look_name: schwech
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 0
+}
+
+sign_model : sign.obst1 {
+
+	sign_name: "Obsteig enter"
+
+	model_desc: "/model/sign/traffic/obsteig_enter.pmd"
+	model_coll: "/model/sign/traffic/obsteig_enter.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_start
+	mass: 100
+}
+
+sign_model : sign.obst2 {
+
+	sign_name: "Obsteig exit"
+
+	model_desc: "/model/sign/traffic/obsteig_exit.pmd"
+	model_coll: "/model/sign/traffic/obsteig_exit.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_end
+	mass: 100
+}
+sign_model : sign.reut1 {
+
+	sign_name: "Reutte enter"
+
+	model_desc: "/model/sign/traffic/reutte_enter.pmd"
+	model_coll: "/model/sign/traffic/reutte_enter.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_start
+	mass: 100
+}
+
+sign_model : sign.reut2 {
+
+	sign_name: "Reutte exit"
+
+	model_desc: "/model/sign/traffic/reutte_exit.pmd"
+	model_coll: "/model/sign/traffic/reutte_exit.pmc"
+	look_name: default
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_end
+	mass: 100
+}
+
+sign_model : sign.voes1 {
+
+	sign_name: "Voesendorf enter"
+
+	model_desc: "/model/sign/traffic/reutte_enter.pmd"
+	model_coll: "/model/sign/traffic/reutte_enter.pmc"
+	look_name: voesend
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_start
+	mass: 100
+}
+
+sign_model : sign.voes2 {
+
+	sign_name: "Voesendorf exit"
+
+	model_desc: "/model/sign/traffic/reutte_exit.pmd"
+	model_coll: "/model/sign/traffic/reutte_exit.pmc"
+	look_name: voesend
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_end
+	mass: 100
+}
+
+sign_model : sign.maxi1 {
+
+	sign_name: "Tal der Ahnungslosen Cottbus"
+
+	model_desc: "/model/germany/tourist/tourist_info.pmd"
+	model_coll: "/model/germany/tourist/tourist_info.pmc"
+	look_name: maximus
+	category: "signs/de"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+}
+
+sign_model : sign.omv1 {
+
+	sign_name: "OMV company entrance"
+
+	model_desc: "/prefab/warehouse_small/posped_logo.pmd"
+	look_name: omv
+	category: "docks"
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.breg1 {
+
+	sign_name: "Bregenz enter"
+
+	model_desc: "/model/sign/traffic/at/bregenz_enter.pmd"
+	model_coll: "/model/sign/traffic/at/bregenz_enter.pmc"
+	look_name: bregenz
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_start
+	mass: 100
+}
+
+sign_model : sign.breg2 {
+
+	sign_name: "Bregenz exit"
+
+	model_desc: "/model/sign/traffic/at/bregenz_exit.pmd"
+	model_coll: "/model/sign/traffic/at/bregenz_exit.pmc"
+	look_name: bregenz
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_end
+	mass: 100
+}
+
+sign_model : sign.feldk1 {
+
+	sign_name: "Feldkirch enter"
+
+	model_desc: "/model/sign/traffic/at/bregenz_enter.pmd"
+	model_coll: "/model/sign/traffic/at/bregenz_enter.pmc"
+	look_name: feldkirch
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_start
+	mass: 100
+}
+
+sign_model : sign.feldk2 {
+
+	sign_name: "Feldkirch exit"
+
+	model_desc: "/model/sign/traffic/at/bregenz_exit.pmd"
+	model_coll: "/model/sign/traffic/at/bregenz_exit.pmc"
+	look_name: feldkirch
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_end
+	mass: 100
+}
+
+sign_model : sign.chur1 {
+
+	sign_name: "Chur enter"
+
+	model_desc: "/model/sign/traffic/ch/chur_enter.pmd"
+	model_coll: "/model/sign/traffic/ch/chur_enter.pmc"
+	look_name: chur
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_start
+	mass: 100
+}
+
+sign_model : sign.chur2 {
+
+	sign_name: "Chur exit"
+
+	model_desc: "/model/sign/traffic/ch/chur_exit.pmd"
+	model_coll: "/model/sign/traffic/ch/chur_exit.pmc"
+	look_name: chur
+	category: "citylimit"
+
+	dynamic: true
+	distance_type: 2
+
+	traffic_rule: traffic_rule.city_end
+	mass: 100
+}
+
+sign_model : sign.at140a {
+
+	sign_name: "speed limit 140 end at"
+
+	model_desc: "/model/sign/attraffic/speedlimit_140end.pmd"
+	model_coll: "/model/sign/attraffic/speedlimit_140end.pmc"
+	look_name: 140
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+
+	traffic_rule: traffic_rule.limit_end
+}
+
+sign_model : sign.at140b {
+
+	sign_name: "speed limit 140 at"
+
+	model_desc: "/model/sign/attraffic/speedlimit_140.pmd"
+	model_coll: "/model/sign/attraffic/speedlimit_140.pmc"
+	look_name: 140
+	category: "signs/at"
+	mass: 100
+
+	dynamic: true
+	road_model: false
+	distance_type: 2
+
+	traffic_rule: traffic_rule.limit_140
+}
+
+}

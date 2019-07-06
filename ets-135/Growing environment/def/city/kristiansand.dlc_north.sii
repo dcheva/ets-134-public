@@ -1,0 +1,86 @@
+city_data: city.kristiansand
+{
+	city_name: "Kristiansand"
+	city_name_localized: "@@kristiansand@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -102
+	map_x_offsets[]: -98
+	map_x_offsets[]: -82
+	map_x_offsets[]: -54
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -94
+	map_y_offsets[]: -60
+	map_y_offsets[]: -40
+	map_y_offsets[]: -27
+
+	ai_lp_template[]:"0 12222"
+
+	ai_lp_def0[]:"PN"
+	ai_lp_def0[]:"PP"
+	ai_lp_def0[]:"PR"
+	ai_lp_def0[]:"PS"
+	ai_lp_def0[]:"PT"
+	ai_lp_def0[]:"PU"
+	ai_lp_def0[]:"PV"
+
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+
+	ai_lp_def2[]:"0"
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+
+	truck_lp_template[]:"0 12222"
+
+	truck_lp_def0[]:"PN"
+	truck_lp_def0[]:"PP"
+	truck_lp_def0[]:"PR"
+	truck_lp_def0[]:"PS"
+	truck_lp_def0[]:"PT"
+	truck_lp_def0[]:"PU"
+	truck_lp_def0[]:"PV"
+
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"0"
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+}

@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.naantali.mariehamn{
+	price: 500
+	time: 330
+	distance: 120
+}
+}
+

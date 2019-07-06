@@ -1,0 +1,576 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+# UK
+
+
+
+road_look : road.ukpro1 {
+	name: 				"uk road 1 tmpl"
+	template_right:		"/road_template/uk/uk_road_1.pmd"
+
+	lanes_left[]:	traffic_lane.road.local.no_overtake
+	lanes_right[]:	traffic_lane.road.local.no_overtake
+
+	
+
+	compatible_edges_right[]: ukp_sw_3m_a
+	compatible_edges_right[]: ukp_sw_3m_b
+	compatible_edges_right[]: ukp_sw_3m_c
+	compatible_edges_right[]: ukp_sw_3m_c1
+	compatible_edges_right[]: ukp_sw_3m_d
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	
+	shoulder_space_left:		0.5
+	shoulder_space_right:		0.5	
+	
+}
+
+road_look : road.ukpro2 {
+	name: 				"uk exit one lane"
+	template_right:		"/road_template/uk/uk_exit_one_lane.pmd"
+
+	lanes_right[]:		traffic_lane.road.motorway.low_density
+
+	
+
+	compatible_edges_right[]: ukp_sw_3m_a
+	compatible_edges_right[]: ukp_sw_3m_b
+	compatible_edges_right[]: ukp_sw_3m_c
+	compatible_edges_right[]: ukp_sw_3m_c1
+	compatible_edges_right[]: ukp_sw_3m_d
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	
+	shoulder_space_left:		0.0
+	shoulder_space_right:		2.5
+	
+}
+
+road_look : road.ukpro3 {
+	name: 				"uk road 1 enter"
+	template_right:		"/road_template/uk/uk_road_1_enter.pmd"
+
+	lanes_left[]:		traffic_lane.no_vehicles
+	lanes_right[]:		traffic_lane.no_vehicles
+
+	
+
+	compatible_edges_right[]: ukp_sw_3m_a
+	compatible_edges_right[]: ukp_sw_3m_b
+	compatible_edges_right[]: ukp_sw_3m_c
+	compatible_edges_right[]: ukp_sw_3m_c1
+	compatible_edges_right[]: ukp_sw_3m_d
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	
+	shoulder_space_left:		0.5
+	shoulder_space_right:		0.5
+	
+}
+
+road_look : road.ukpro4 {
+	name: 				"uk road 1 minim"
+	template_right:		"/road_template/uk/uk_road_1_minim.pmd"
+
+	lanes_left[]:		traffic_lane.no_vehicles
+	lanes_right[]:		traffic_lane.no_vehicles
+
+	lane_offsets_left[]:	(-1, 0.0)
+	lane_offsets_right[]:	(-1, 0.0)
+
+	
+
+	compatible_edges_right[]: ukp_sw_3m_a
+	compatible_edges_right[]: ukp_sw_3m_b
+	compatible_edges_right[]: ukp_sw_3m_c
+	compatible_edges_right[]: ukp_sw_3m_c1
+	compatible_edges_right[]: ukp_sw_3m_d
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0	
+	
+}
+
+road_look : road.ukpro5 {
+	name: 				"uk road 1 one way"
+	template_right:		"/road_template/uk/uk_road_1_one_way.pmd"
+
+	lanes_right[]:		traffic_lane.road.local
+
+	lane_offsets_right[]:	 (2.25, 0.0)
+	
+	
+	compatible_edges_right[]: ukp_sw_3m_a
+	compatible_edges_right[]: ukp_sw_3m_b
+	compatible_edges_right[]: ukp_sw_3m_c
+	compatible_edges_right[]: ukp_sw_3m_c1
+	compatible_edges_right[]: ukp_sw_3m_d
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	
+	shoulder_space_left:		0.5
+	shoulder_space_right:		0.5
+	
+}
+
+#road_look : road.ukpro6 {
+#	name: 				"uk road 1 minim village 1"
+#	template_right:		"/road_template/uk/uk_road_1_minim_village_1.pmd"
+#
+#	lanes_left[]:		traffic_lane.no_vehicles
+#	lanes_right[]:		traffic_lane.no_vehicles
+#
+#	lane_offsets_left[]:	(-1, 0.0)
+#	lane_offsets_right[]:	(-1, 0.0)
+#
+#	
+#
+#	compatible_edges_right[]: ukp_sh_vill
+#
+#	
+#	shoulder_space_left:		0.0
+#	shoulder_space_right:		0.0	
+#	
+#}
+
+road_look : road.ukpro7 {
+	name: 				"uk road 2 city narrow tmpl"
+	template_right:		"/road_template/uk/uk_road_2_city.pmd"
+	template_left:		"/road_template/uk/uk_road_2_city.pmd"
+	
+	road_offset: 1.0
+
+	lanes_right[]:		traffic_lane.road.local.no_overtake
+	lanes_right[]:		traffic_lane.road.local.no_overtake
+	lanes_left[]:		traffic_lane.road.local.no_overtake
+	lanes_left[]:		traffic_lane.road.local.no_overtake
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+
+	
+
+	compatible_edges_right[]: ukp_sw_3m_a
+	compatible_edges_right[]: ukp_sw_3m_b
+	compatible_edges_right[]: ukp_sw_3m_c
+	compatible_edges_right[]: ukp_sw_3m_c1
+	compatible_edges_right[]: ukp_sw_3m_d
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+
+	compatible_edges_left[]: ukp_sw_3m_a
+	compatible_edges_left[]: ukp_sw_3m_b
+	compatible_edges_left[]: ukp_sw_3m_c
+	compatible_edges_left[]: ukp_sw_3m_c1
+	compatible_edges_left[]: ukp_sw_3m_d
+	compatible_edges_left[]: ukp_sh_15
+	compatible_edges_left[]: ukp_curb_15
+	compatible_edges_left[]: ukp_sh_as_15
+
+	
+}
+
+road_look : road.ukpro8 {
+	name: 				"uk road 2 narrow tmpl"
+	template_right:		"/road_template/uk/uk_road_2.pmd"
+	template_left:		"/road_template/uk/uk_road_2.pmd"
+	
+	road_offset: 1.0
+
+	lanes_right[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_left[]:		traffic_lane.road.expressway
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+
+	
+
+	compatible_edges_right[]: ukp_sw_3m_a
+	compatible_edges_right[]: ukp_sw_3m_b
+	compatible_edges_right[]: ukp_sw_3m_c
+	compatible_edges_right[]: ukp_sw_3m_c1
+	compatible_edges_right[]: ukp_sw_3m_d
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+
+	compatible_edges_left[]: ukp_sw_3m_a
+	compatible_edges_left[]: ukp_sw_3m_b
+	compatible_edges_left[]: ukp_sw_3m_c
+	compatible_edges_left[]: ukp_sw_3m_c1
+	compatible_edges_left[]: ukp_sw_3m_d
+	compatible_edges_left[]: ukp_sh_15
+	compatible_edges_left[]: ukp_curb_15
+	compatible_edges_left[]: ukp_sh_as_15
+
+	
+}
+
+road_look : road.ukpro9 {
+	name: 			"uk road 2 narrow one way tmpl"
+	template_right:		"/road_template/uk/uk_road_2_1.pmd"
+
+	lanes_right[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+
+
+	compatible_edges_right[]: ukp_sw_3m_a
+	compatible_edges_right[]: ukp_sw_3m_b
+	compatible_edges_right[]: ukp_sw_3m_c
+	compatible_edges_right[]: ukp_sw_3m_c1
+	compatible_edges_right[]: ukp_sw_3m_d
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+
+	compatible_edges_left[]: ukp_sw_3m_a
+	compatible_edges_left[]: ukp_sw_3m_b
+	compatible_edges_left[]: ukp_sw_3m_c
+	compatible_edges_left[]: ukp_sw_3m_c1
+	compatible_edges_left[]: ukp_sw_3m_d
+	compatible_edges_left[]: ukp_sh_15
+	compatible_edges_left[]: ukp_curb_15
+	compatible_edges_left[]: ukp_sh_as_15
+
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+
+	
+}
+
+road_look : road.ukpro10 {
+	name: 			"uk gas road 1 tmpl"
+	template_right:		"/road_template/uk/uk_gas_road_1.pmd"
+
+	lanes_right[]:		traffic_lane.road.motorway.low_density
+
+	compatible_edges_right[]: ukp_sw_3m_a
+	compatible_edges_right[]: ukp_sw_3m_b
+	compatible_edges_right[]: ukp_sw_3m_c
+	compatible_edges_right[]: ukp_sw_3m_c1
+	compatible_edges_right[]: ukp_sw_3m_d
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+
+	compatible_edges_left[]: ukp_sw_3m_a
+	compatible_edges_left[]: ukp_sw_3m_b
+	compatible_edges_left[]: ukp_sw_3m_c
+	compatible_edges_left[]: ukp_sw_3m_c1
+	compatible_edges_left[]: ukp_sw_3m_d
+	compatible_edges_left[]: ukp_sh_15
+	compatible_edges_left[]: ukp_curb_15
+	compatible_edges_left[]: ukp_sh_as_15
+	
+	shoulder_space_left:		0.0
+	shoulder_space_right:		0.0
+
+}
+
+road_look : road.ukpro11 {
+	name: 			"uk hw 2 lanes 2m offset tmpl"
+	template_right:		"/road_template/uk/uk_hw_2_lanes_two_ways.pmd"
+	template_left:			"/road_template/uk/uk_hw_2_lanes_two_ways.pmd"
+
+
+
+	road_offset: 2
+
+	lanes_left[]:		traffic_lane.road.motorway
+	lanes_left[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+
+
+	
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	compatible_edges_right[]: ukp_drain_15
+
+	compatible_edges_left[]: ukp_sh_15
+	compatible_edges_left[]: ukp_curb_15
+	compatible_edges_left[]: ukp_sh_as_15
+	compatible_edges_left[]: ukp_drain_15
+
+
+
+	
+	shoulder_space_left:		3.5
+	shoulder_space_right:		3.5
+}
+
+road_look : road.ukpro12 {
+	name: 			"uk hw 2 lanes 5m offset tmpl"
+	template_right:		"/road_template/uk/uk_hw_2_lanes_two_ways.pmd"
+	template_left:			"/road_template/uk/uk_hw_2_lanes_two_ways.pmd"
+
+
+
+	road_offset: 5
+
+	lanes_left[]:		traffic_lane.road.motorway
+	lanes_left[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+
+
+
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	compatible_edges_right[]: ukp_drain_15
+
+	compatible_edges_left[]: ukp_sh_15
+	compatible_edges_left[]: ukp_curb_15
+	compatible_edges_left[]: ukp_sh_as_15
+	compatible_edges_left[]: ukp_drain_15
+
+
+
+	
+	shoulder_space_left:		3.5
+	shoulder_space_right:		3.5
+}
+
+road_look : road.ukpro13 {
+	name: 			"uk hw 2 lanes one way tmpl"
+	template_right:		"/road_template/uk/uk_hw_2_lanes_one_way.pmd"
+
+
+
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	compatible_edges_right[]: ukp_drain_15
+
+	
+	shoulder_space_left:		0.0
+	shoulder_space_right:		3.5
+
+}
+
+road_look : road.ukpro14 {
+	name: 			"uk hw 3 lanes 2m offset tmpl"
+	template_right:		"/road_template/uk/uk_hw_3_lanes_two_ways.pmd"
+	template_left:			"/road_template/uk/uk_hw_3_lanes_two_ways.pmd"
+
+
+
+	road_offset: 2
+
+	lanes_left[]:		traffic_lane.road.motorway
+	lanes_left[]:		traffic_lane.road.motorway
+	lanes_left[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	
+
+
+
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	compatible_edges_right[]: ukp_drain_15
+
+	compatible_edges_left[]: ukp_sh_15
+	compatible_edges_left[]: ukp_curb_15
+	compatible_edges_left[]: ukp_sh_as_15
+	compatible_edges_left[]: ukp_drain_15
+
+
+
+	
+	shoulder_space_left:		3.5
+	shoulder_space_right:		3.5
+}
+
+road_look : road.ukpro15 {
+	name: 			"uk hw 3 lanes 5m offset tmpl"
+	template_right:		"/road_template/uk/uk_hw_3_lanes_two_ways.pmd"
+	template_left:			"/road_template/uk/uk_hw_3_lanes_two_ways.pmd"
+
+
+
+	road_offset: 5
+
+	lanes_left[]:		traffic_lane.road.motorway
+	lanes_left[]:		traffic_lane.road.motorway
+	lanes_left[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+
+
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	compatible_edges_right[]: ukp_drain_15
+
+	compatible_edges_left[]: ukp_sh_15
+	compatible_edges_left[]: ukp_curb_15
+	compatible_edges_left[]: ukp_sh_as_15
+	compatible_edges_left[]: ukp_drain_15
+
+
+
+	
+	shoulder_space_left:		3.5
+	shoulder_space_right:		3.5
+}
+
+road_look : road.ukpro16 {
+	name: 			"uk hw 3 lanes one way tmpl"
+	template_right:		"/road_template/uk/uk_hw_3_lanes_one_way.pmd"
+
+
+
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	compatible_edges_right[]: ukp_drain_15
+
+	
+	shoulder_space_left:		0.0
+	shoulder_space_right:		3.5
+
+}
+
+#road_look : road.ukpro17 {
+#	name: 			"uk hw2 exit one lane tmpl"
+#	template_right:		"/road_template/uk/uk_hw2_exit_one_lane.pmd"
+#
+#
+#
+#	lanes_right[]:		traffic_lane.road.motorway
+#	lanes_right[]:		traffic_lane.road.motorway
+#	lanes_right[]:		traffic_lane.road.motorway.low_density
+#
+#	compatible_edges_right[]: ukp_sh_15
+#	compatible_edges_right[]: ukp_curb_15
+#	compatible_edges_right[]: ukp_sh_as_15
+#	compatible_edges_right[]: ukp_drain_15
+#	
+#	shoulder_space_left:		0.0
+#	shoulder_space_right:		3.5
+#	
+#}
+
+road_look : road.ukpro18 {
+	name: 			"uk hw 4 lanes one way tmpl"
+	template_right:		"/road_template/uk/uk_hw_4_lanes_one_way.pmd"
+
+
+
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway.low_density
+
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	compatible_edges_right[]: ukp_drain_15
+	
+	
+	shoulder_space_left:		0.0
+	shoulder_space_right:		3.5
+	
+}
+
+road_look : road.ukpro19 {
+	name: 			"uk hw 5 lanes one way tmpl"
+	template_right:		"/road_template/uk/uk_hw_5_lanes_one_way.pmd"
+
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway
+	lanes_right[]:		traffic_lane.road.motorway.low_density
+
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	compatible_edges_right[]: ukp_drain_15
+	
+	
+	shoulder_space_left:		0.0
+	shoulder_space_right:		3.5
+	
+}
+
+
+
+road_look : road.ukpro22 {
+	name: 				"uk road1 hw 1m offset tmpl"
+	template_right:		"/road_template/uk/uk_exit_one_lane2.pmd"
+	template_left:		"/road_template/uk/uk_exit_one_lane2.pmd"
+
+
+	road_offset: 6.5
+
+	lanes_left[]:		traffic_lane.road.motorway.low_density
+	lanes_right[]:		traffic_lane.road.motorway.low_density
+
+	lane_offsets_left[]:	(-4.5, 0.0)
+	lane_offsets_right[]:	(-4.5, 0.0)
+
+	compatible_edges_left[]: ukp_sh_15
+	compatible_edges_right[]: ukp_sh_15
+	
+	shoulder_space_left:		2.5
+	shoulder_space_right:		2.5
+	
+}
+
+road_look : road.ukpro23 {
+	name: 				"uk road 1 city tmpl"
+	template_right:		"/road_template/uk/uk_road_1_city.pmd"
+
+	lanes_left[]:	traffic_lane.road.local.no_overtake
+	lanes_right[]:	traffic_lane.road.local.no_overtake
+
+	
+
+	compatible_edges_right[]: ukp_sw_3m_a
+	compatible_edges_right[]: ukp_sw_3m_b
+	compatible_edges_right[]: ukp_sw_3m_c
+	compatible_edges_right[]: ukp_sw_3m_c1
+	compatible_edges_right[]: ukp_sw_3m_d
+	compatible_edges_right[]: ukp_sh_15
+	compatible_edges_right[]: ukp_curb_15
+	compatible_edges_right[]: ukp_sh_as_15
+	
+	shoulder_space_left:		0.5
+	shoulder_space_right:		0.5	
+	
+}
+
+}

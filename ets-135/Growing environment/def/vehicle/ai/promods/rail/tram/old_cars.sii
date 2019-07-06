@@ -1,0 +1,27 @@
+#
+#	CARRIAGE 0
+#
+
+traffic_trailer : train_car.tram_old.first
+{
+	accessories[]: .tram_old.first.tchassis
+	accessories[]: .tram_old.first.trwheel0
+	accessories[]: .tram_old.first.trwheel1
+
+	displacement_limit: 0.0
+
+}
+vehicle_accessory: .tram_old.first.tchassis
+{
+	data_path: "/def/vehicle/ai/promods/rail/tram/old/chassis_rear.sii"
+}
+vehicle_wheel_accessory: .tram_old.first.trwheel0
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/incentro_rear.sii"
+}
+vehicle_wheel_accessory: .tram_old.first.trwheel1
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/incentro_rear.sii"
+}

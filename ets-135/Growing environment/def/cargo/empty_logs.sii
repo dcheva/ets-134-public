@@ -1,0 +1,12 @@
+cargo_data: cargo.empty_logs 
+{
+	name: "@@cargo_emptylogs@@"
+	#price_coef: 1.0
+	fragility: 0.01
+	group[]: construction
+	volume: 2.6
+	mass: 0.0
+	unit_reward_per_km: 0.4
+	unit_load_time: 0
+	body_types[]: _emptytrailer
+}

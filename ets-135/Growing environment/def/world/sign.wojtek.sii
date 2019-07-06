@@ -1,0 +1,2051 @@
+SiiNunit
+{
+
+sign_model : sign.wojtek1 {
+		sign_name: "PL Dynamic Sign - Panel - 2x5l green with glow"
+
+		model_desc: "/model/sign/navigation/modnav/dyn_modnavsigns_pl_panel_2x5lines_glow.pmd"
+
+		look_name: green
+		category: "nav-dynamic/pl"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: true
+	}
+sign_model : sign.wojtek2 {
+		sign_name: "PL Living Street START"
+
+		model_desc: "/model/sign/traffic/pl/living_street_pl.pmd"
+
+		look_name: start
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+		traffic_rule: traffic_rule.limit_20
+	}
+sign_model : sign.wojtek3 {
+		sign_name: "PL Living Street END"
+
+		model_desc: "/model/sign/traffic/pl/living_street_pl.pmd"
+
+		look_name: end
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+		traffic_rule: traffic_rule.limit_end
+	}
+sign_model : sign.wojtek4 {
+		sign_name: "PL parking T-30a"
+
+		model_desc: "/model/sign/wojtek/parking_pl_v2.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: t30a
+		editable: false
+	}
+sign_model : sign.wojtek5 {
+		sign_name: "PL parking T-30b"
+
+		model_desc: "/model/sign/wojtek/parking_pl_v2.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: t30b
+		editable: false
+	}
+sign_model : sign.wojtek6 {
+		sign_name: "PL parking T-30c"
+
+		model_desc: "/model/sign/wojtek/parking_pl_v2.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: t30c
+		editable: false
+	}
+sign_model : sign.wojtek7 {
+		sign_name: "PL parking T-30d"
+
+		model_desc: "/model/sign/wojtek/parking_pl_v2.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: t30d
+		editable: false
+	}
+sign_model : sign.wojtek8 {
+		sign_name: "PL parking T-30e"
+
+		model_desc: "/model/sign/wojtek/parking_pl_v2.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: t30e
+		editable: false
+	}
+sign_model : sign.wojtek9 {
+		sign_name: "PL parking T-30f"
+
+		model_desc: "/model/sign/wojtek/parking_pl_v2.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: t30f
+		editable: false
+	}
+sign_model : sign.wojtek10 {
+		sign_name: "PL parking T-30g"
+
+		model_desc: "/model/sign/wojtek/parking_pl_v2.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: t30g
+		editable: false
+	}
+sign_model : sign.wojtek11 {
+		sign_name: "PL parking T-30h"
+
+		model_desc: "/model/sign/wojtek/parking_pl_v2.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: t30h
+		editable: false
+	}
+sign_model : sign.wojtek12 {
+		sign_name: "PL parking T-30i"
+
+		model_desc: "/model/sign/wojtek/parking_pl_v2.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: t30i
+		editable: false
+	}
+sign_model : sign.wojtek13 {
+		sign_name: "PL border control"
+
+		model_desc: "/model/sign/wojtek/border_control_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek14 {
+		sign_name: "PL Detour END"
+
+		model_desc: "/model/sign/wojtek/old/old_sign.pmd"
+
+		look_name: default
+		category: "signs/pl/OLD/bye"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+	}
+sign_model : sign.wojtek15 {
+		sign_name: "PL Country border"
+
+		model_desc: "/model/sign/wojtek/old/old_sign.pmd"
+
+		look_name: default
+		category: "signs/pl/OLD/bye"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+	}
+sign_model : sign.wojtek16 {
+		sign_name: "PL No emergency lane"
+
+		model_desc: "/model/sign/wojtek/orange_board_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: emergency
+		editable: false
+	}
+sign_model : sign.wojtek17 {
+		sign_name: "PL Winter is Coming"
+
+		model_desc: "/model/sign/wojtek/orange_board_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: whatever
+		editable: false
+	}
+sign_model : sign.wojtek18 {
+		sign_name: "PL Oneway street"
+
+		model_desc: "/model/sign/wojtek/oneway_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek19 {
+		sign_name: "PL Border Świecko"
+
+		model_desc: "/model/sign/wojtek/old/old_sign.pmd"
+
+		look_name: default
+		category: "signs/pl/OLD/bye"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+	}
+sign_model : sign.wojtek20 {
+		sign_name: "PL Border Grzechotki"
+
+		model_desc: "/model/sign/wojtek/old/old_sign.pmd"
+
+		look_name: default
+		category: "signs/pl/OLD/bye"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+	}
+sign_model : sign.wojtek21 {
+		sign_name: "PL Unexpected direction change LR"
+
+		model_desc: "/model/sign/wojtek/dir_change_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: leftright
+		editable: false
+	}
+sign_model : sign.wojtek22 {
+		sign_name: "PL Unexpected direction change RL"
+
+		model_desc: "/model/sign/wojtek/dir_change_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: rightleft
+		editable: false
+	}
+sign_model : sign.wojtek23 {
+		sign_name: "PL Land for sale"
+
+		model_desc: "/model/sign/wojtek/landforsale/landforsale.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek24 {
+		sign_name: "UK Dynamic Sign - Panel - 0.5x1.5 white"
+
+		model_desc: "/model/sign/wojtek/uk_pan_warn.pmd"
+
+		look_name: default
+		category: "nav-dynamic/uk"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: true
+	}
+sign_model : sign.wojtek25 {
+		sign_name: "Italy tunnel name + length"
+
+		model_desc: "/model/sign/wojtek/tunnel_hw_it_text.pmd"
+
+		look_name: default
+		category: "nav-dynamic/it"
+		dynamic: true
+		distance_type: 2
+		mass: 50
+		variant_name: default
+		editable: true
+	}
+sign_model : sign.wojtek26 {
+		sign_name: "Bar Entrance"
+
+		model_desc: "/model/sign/wojtek/bar/bar_dk60.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek27 {
+		sign_name: "Left turns Poznań"
+
+		model_desc: "/model/sign/wojtek/left_poznan/left_poznan.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: left_turns
+		editable: false
+	}
+sign_model : sign.wojtek28 {
+		sign_name: "Left turn detour Poznań"
+
+		model_desc: "/model/sign/wojtek/left_poznan/left_poznan.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: left_detour
+		editable: false
+	}
+sign_model : sign.wojtek29 {
+		sign_name: "PL Dynamic Sign - Panel - 0.6x0.25 orange subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_t1.pmd"
+
+		look_name: default
+		category: "nav-dynamic/pl"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: true
+	}
+sign_model : sign.wojtek30 {
+		sign_name: "PL Dynamic Sign - Panel - 0.6x0.334 subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_t2.pmd"
+
+		look_name: default
+		category: "nav-dynamic/pl"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: true
+	}
+sign_model : sign.wojtek31 {
+		sign_name: "PL Dynamic Sign - Panel - 0.75x0.35 subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_t3.pmd"
+
+		look_name: default
+		category: "nav-dynamic/pl"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: true
+	}
+sign_model : sign.wojtek32 {
+		sign_name: "PL Dynamic Sign - Panel - 0.46x0.25 subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_46_25_cur.pmd"
+
+		look_name: default
+		category: "nav-dynamic/pl"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: true
+	}
+sign_model : sign.wojtek33 {
+		sign_name: "PL Dynamic Sign - Panel - 0.6x0.25 arrows subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_60_25_arr.pmd"
+
+		look_name: default
+		category: "nav-dynamic/pl"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: true
+	}
+sign_model : sign.wojtek34 {
+		sign_name: "PL Dynamic Sign - Panel - 0.75x0.35 arrows subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_75_35_arr.pmd"
+
+		look_name: default
+		category: "nav-dynamic/pl"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: true
+	}
+sign_model : sign.wojtek35 {
+		sign_name: "PL Highway toll"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_60_25_pay.pmd"
+
+		look_name: default
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek36 {
+		sign_name: "PL Highway toll end"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_60_25_pay.pmd"
+
+		look_name: end
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek37 {
+		sign_name: "PL Highway toll big"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_90_35_pay.pmd"
+
+		look_name: default
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek38 {
+		sign_name: "PL Highway toll big end"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_90_35_pay.pmd"
+
+		look_name: end
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek39 {
+		sign_name: "PL Dynamic Sign - Panel - 0.6x0.25 blue subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_t1.pmd"
+
+		look_name: blue
+		category: "nav-dynamic/pl"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: true
+	}
+sign_model : sign.wojtek40 {
+		sign_name: "PL Dynamic Sign - Panel - 0.9x0.35 blue subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_900_350_blue.pmd"
+
+		look_name: default
+		category: "nav-dynamic/pl"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: true
+	}
+sign_model : sign.wojtek41 {
+		sign_name: "PL Except for delivery subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_60_25_pay.pmd"
+
+		look_name: delivery
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek42 {
+		sign_name: "PL Disabled people subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_600_360_disabled.pmd"
+
+		look_name: default
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek43 {
+		sign_name: "PL T-25a subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_320_800_arrows.pmd"
+
+		look_name: default
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: t25a
+		editable: false
+	}
+sign_model : sign.wojtek44 {
+		sign_name: "PL T-25b subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_320_800_arrows.pmd"
+
+		look_name: default
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: t25b
+		editable: false
+	}
+sign_model : sign.wojtek45 {
+		sign_name: "PL T-25c subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_320_800_arrows.pmd"
+
+		look_name: default
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: t25c
+		editable: false
+	}
+sign_model : sign.wojtek46 {
+		sign_name: "PL T-26 subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_320_800_arrows.pmd"
+
+		look_name: default
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: t25d
+		editable: false
+	}
+sign_model : sign.wojtek47 {
+		sign_name: "PL T-20 subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_600_450_train.pmd"
+
+		look_name: default
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+	}
+sign_model : sign.wojtek48 {
+		sign_name: "PL Dynamic Sign - Panel - 0.6x0.25 white subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_t1.pmd"
+
+		look_name: white
+		category: "nav-dynamic/pl"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek49 {
+		sign_name: "PL Dynamic Sign - Panel - 1.2x0.36 blue subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_1200_360_blue.pmd"
+
+		look_name: default
+		category: "nav-dynamic/pl"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek50 {
+		sign_name: "PL City start 1200"
+
+		model_desc: "/model/sign/city_limits/pl/city_name_1200_pl.pmd"
+		model_coll: "/model/sign/city_limits/pl/city_name_1200_pl.pmc"
+		
+		stand_classes[]: plcity
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek51 {
+		sign_name: "PL City start 1000"
+
+		model_desc: "/model/sign/city_limits/pl/city_name_1000_pl.pmd"
+		model_coll: "/model/sign/city_limits/pl/city_name_1000_pl.pmc"
+		
+		stand_classes[]: plcity
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek52 {
+		sign_name: "PL City start 1400"
+
+		model_desc: "/model/sign/city_limits/pl/city_name_1400_pl.pmd"
+		model_coll: "/model/sign/city_limits/pl/city_name_1400_pl.pmc"
+		
+		stand_classes[]: plcity
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek53 {
+		sign_name: "PL City start 1600"
+
+		model_desc: "/model/sign/city_limits/pl/city_name_1600_pl.pmd"
+		model_coll: "/model/sign/city_limits/pl/city_name_1600_pl.pmc"
+		
+		stand_classes[]: plcity
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek54 {
+		sign_name: "PL Truck subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_640_340_truck.pmd"
+
+		look_name: default
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek55 {
+		sign_name: "PL River name 800"
+
+		model_desc: "/model/sign/wojtek/river/river_800_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek56 {
+		sign_name: "PL River name 900"
+
+		model_desc: "/model/sign/wojtek/river/river_900_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek57 {
+		sign_name: "PL River name 1000"
+
+		model_desc: "/model/sign/wojtek/river/river_1000_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek58 {
+		sign_name: "PL River name 1100"
+
+		model_desc: "/model/sign/wojtek/river/river_1100_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek59 {
+		sign_name: "PL River name 1200"
+
+		model_desc: "/model/sign/wojtek/river/river_1200_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek60 {
+		sign_name: "PL River name 1300"
+
+		model_desc: "/model/sign/wojtek/river/river_1300_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek61 {
+		sign_name: "PL River name 1400"
+
+		model_desc: "/model/sign/wojtek/river/river_1400_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek62 {
+		sign_name: "PL River name 1500"
+
+		model_desc: "/model/sign/wojtek/river/river_1500_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek63 {
+		sign_name: "PL River name 1600"
+
+		model_desc: "/model/sign/wojtek/river/river_1600_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek64 {
+		sign_name: "PL River name 1700"
+
+		model_desc: "/model/sign/wojtek/river/river_1700_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek65 {
+		sign_name: "PL River name 1800"
+
+		model_desc: "/model/sign/wojtek/river/river_1800_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek66 {
+		sign_name: "PL River name 1900"
+
+		model_desc: "/model/sign/wojtek/river/river_1900_pl.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek67 {
+		sign_name: "PL Admin gmina 800"
+
+		model_desc: "/model/sign/wojtek/admin/admin_g_1_pl.pmd"
+		
+		stand_classes[]: pladmin1
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek68 {
+		sign_name: "PL Admin gmina 1200"
+
+		model_desc: "/model/sign/wojtek/admin/admin_g_2_pl.pmd"
+		
+		stand_classes[]: pladmin1
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek69 {
+		sign_name: "PL Admin gmina 1600"
+
+		model_desc: "/model/sign/wojtek/admin/admin_g_3_pl.pmd"
+		
+		stand_classes[]: pladmin1
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek70 {
+		sign_name: "PL Admin gmina + powiat 800"
+
+		model_desc: "/model/sign/wojtek/admin/admin_gp_1_pl.pmd"
+		
+		stand_classes[]: pladmin2
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek71 {
+		sign_name: "PL Admin gmina + powiat 1200"
+
+		model_desc: "/model/sign/wojtek/admin/admin_gp_2_pl.pmd"
+		
+		stand_classes[]: pladmin2
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek72 {
+		sign_name: "PL Admin gmina + powiat 1600"
+
+		model_desc: "/model/sign/wojtek/admin/admin_gp_3_pl.pmd"
+		
+		stand_classes[]: pladmin2
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek73 {
+		sign_name: "PL Admin gmina + powiat + woj 1300"
+
+		model_desc: "/model/sign/wojtek/admin/admin_gpw_2_pl.pmd"
+		
+		stand_classes[]: pladmin3
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek74 {
+		sign_name: "PL Admin gmina + powiat + woj 1900"
+
+		model_desc: "/model/sign/wojtek/admin/admin_gpw_1_pl.pmd"
+		
+		stand_classes[]: pladmin3
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek75 {
+		sign_name: "PL Admin miasto-powiat 1600"
+
+		model_desc: "/model/sign/wojtek/admin/admin_mp_1_pl.pmd"
+		
+		stand_classes[]: pladmin1
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek76 {
+		sign_name: "PL Admin miasto-powiat + woj 1300"
+
+		model_desc: "/model/sign/wojtek/admin/admin_mpw_1_pl.pmd"
+		
+		stand_classes[]: pladmin2
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek77 {
+		sign_name: "PL Admin powiat + woj 1300"
+
+		model_desc: "/model/sign/wojtek/admin/admin_pw_1_pl.pmd"
+		
+		stand_classes[]: pladmin2
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek78 {
+		sign_name: "PL Moose Warning Ełk"
+
+		model_desc: "/model/sign/wojtek/moose/moose_elk_pl.pmd"
+
+		look_name: default
+		category: "signs/pl/extra"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek79 {
+		sign_name: "Svinesund NO left"
+
+		model_desc: "/model/sign/wojtek/svin/svin_no_left.pmd"
+
+		look_name: default
+		category: "signs/wojtek"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek80 {
+		sign_name: "Svinesund NO right"
+
+		model_desc: "/model/sign/wojtek/svin/svin_no_right.pmd"
+
+		look_name: default
+		category: "signs/wojtek"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek81 {
+		sign_name: "Svinesund SE right"
+
+		model_desc: "/model/sign/wojtek/svin/svin_se_right.pmd"
+
+		look_name: default
+		category: "signs/wojtek"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek82 {
+		sign_name: "Svinesund SE left"
+
+		model_desc: "/model/sign/wojtek/svin/svin_se_left.pmd"
+
+		look_name: default
+		category: "signs/wojtek"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek83 {
+		sign_name: "PL City start 1800"
+
+		model_desc: "/model/sign/city_limits/pl/city_name_1800_pl.pmd"
+		
+		stand_classes[]: plcity
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek84 {
+		sign_name: "PL City start 2000"
+
+		model_desc: "/model/sign/city_limits/pl/city_name_2000_pl.pmd"
+		
+		stand_classes[]: plcity
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek85 {
+		sign_name: "PL City start 2200"
+
+		model_desc: "/model/sign/city_limits/pl/city_name_2200_pl.pmd"
+		
+		stand_classes[]: plcity
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek86 {
+		sign_name: "PL City start 2400"
+
+		model_desc: "/model/sign/city_limits/pl/city_name_2400_pl.pmd"
+		
+		stand_classes[]: plcity
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek87 {
+		sign_name: "PL Construction site vehicles subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_600_360_disabled.pmd"
+
+		look_name: budowa
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek88 {
+		sign_name: "PL Radio"
+
+		model_desc: "/model/sign/wojtek/radio_pl.pmd"
+		model_coll: "/model/sign/wojtek/radio_pl.pmc"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek89 {
+		sign_name: "PL Road Number 1"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_1.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek90 {
+		sign_name: "PL Road Number 2"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_2.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek91 {
+		sign_name: "PL Road Number 3"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_3.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek92 {
+		sign_name: "PL Road Number 4"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_4.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek93 {
+		sign_name: "PL Road Number 5"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_5.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek94 {
+		sign_name: "PL Road Number 6"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_6.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek95 {
+		sign_name: "PL Detour BB"
+
+		model_desc: "/model/sign/wojtek/detour/detour_bb.pmd"
+		model_coll: "/model/sign/wojtek/detour/detour_bb.pmc"
+
+		look_name: default
+		category: "signs/pl/detour"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek96 {
+		sign_name: "PL Detour KR"
+
+		model_desc: "/model/sign/wojtek/detour/detour_bb.pmd"
+		model_coll: "/model/sign/wojtek/detour/detour_bb.pmc"
+
+		look_name: kr
+		category: "signs/pl/detour"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+	}
+sign_model : sign.wojtek97 {
+		sign_name: "PL HW Matrix 70 slow down"
+
+		model_desc: "/model/sign/wojtek/matrix/matrix_70_hw_pl.pmd"
+
+		look_name: default
+		category: "signs/pl/matrix"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek98 {
+		sign_name: "PL DK61 Augustów limit"
+
+		model_desc: "/model/sign/wojtek/dk61_augustow_limit_pl.pmd"
+		model_coll: "/model/sign/wojtek/dk61_augustow_limit_pl.pmc"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek99 {
+		sign_name: "PL Admin powiat 800"
+
+		model_desc: "/model/sign/wojtek/admin/admin_g_1_pl.pmd"
+		
+		stand_classes[]: pladmin1
+
+		look_name: powiat
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek100 {
+		sign_name: "PL Admin powiat 1200"
+
+		model_desc: "/model/sign/wojtek/admin/admin_g_2_pl.pmd"
+		
+		stand_classes[]: pladmin1
+
+		look_name: powiat
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek101 {
+		sign_name: "PL Admin powiat 1600"
+
+		model_desc: "/model/sign/wojtek/admin/admin_g_3_pl.pmd"
+		
+		stand_classes[]: pladmin1
+
+		look_name: powiat
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek102 {
+		sign_name: "PL Augustów roundabout memorial sign"
+
+		model_desc: "/model/sign/wojtek/augustow_round_memo.pmd"
+		model_coll: "/model/sign/wojtek/augustow_round_memo.pmc"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek103 {
+		sign_name: "PL DK8 Suwałki limit"
+
+		model_desc: "/model/sign/wojtek/dk8_suwalki_limit_pl.pmd"
+		model_coll: "/model/sign/wojtek/dk8_suwalki_limit_pl.pmc"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek104 {
+		sign_name: "PL DW671 Jeżewo limit"
+
+		model_desc: "/model/sign/wojtek/dw671_jezewo_limit_pl.pmd"
+		model_coll: "/model/sign/wojtek/dw671_jezewo_limit_pl.pmc"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek105 {
+		sign_name: "PL DK61 road island big warning"
+
+		model_desc: "/model/sign/wojtek/road_island_dk61_pl.pmd"
+		model_coll: "/model/sign/wojtek/road_island_dk61_pl.pmc"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek106 {
+		sign_name: "PL DK61 road island big warning (destroyed)"
+
+		model_desc: "/model/sign/wojtek/road_island_dk61_pl.pmd"
+		model_coll: "/model/sign/wojtek/road_island_dk61_pl.pmc"
+
+		look_name: crap
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek107 {
+		sign_name: "PL Braszowice Gabra mine entrance sign"
+
+		model_desc: "/model/sign/wojtek/gabra_mine_pl.pmd"
+		model_coll: "/model/sign/wojtek/gabra_mine_pl.pmc"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek108 {
+		sign_name: "PL A1 Gorzyce limit"
+
+		model_desc: "/model/sign/wojtek/a1_gorzyce_limits_pl_v2.pmd"
+		model_coll: "/model/sign/wojtek/a1_gorzyce_limits_pl_v2.pmc"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek109 {
+		sign_name: "PL standard pole"
+
+		model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_standard_1pole.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek110 {
+		sign_name: "PL standard pole w/ clamp"
+
+		model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_standard_1pole_c.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek111 {
+		sign_name: "PL standard pole clamp"
+
+		model_desc: "/model/sign/navigation/sbnav/dyn_sbnavstands_pl_standard_clamp.pmd"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek112 {
+		sign_name: "PL DK8 Suwałki limit 2"
+
+		model_desc: "/model/sign/wojtek/dk8_suwalki_limit_2_pl.pmd"
+		model_coll: "/model/sign/wojtek/dk8_suwalki_limit_2_pl.pmc"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek113 {
+		sign_name: "PL DK8 truck left"
+
+		model_desc: "/model/sign/wojtek/600x750_pl.pmd"
+		model_coll: "/model/sign/wojtek/600x750_pl.pmc"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: truck_left
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek114 {
+		sign_name: "PL DK8 truck right"
+
+		model_desc: "/model/sign/wojtek/600x750_pl.pmd"
+		model_coll: "/model/sign/wojtek/600x750_pl.pmc"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: truck_right
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek115 {
+		sign_name: "PL Suwałki extra"
+
+		model_desc: "/model/sign/wojtek/suwalki_extra_pl.pmd"
+		model_coll: "/model/sign/wojtek/suwalki_extra_pl.pmc"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek116 {
+		sign_name: "PL Suwałki 7.5t subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_600x470_pl.pmd"
+		model_coll: "/model/sign/wojtek/subsigns/subsign_600x470_pl.pmc"
+
+		look_name: default
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek117 {
+		sign_name: "PL Suwałki 15t subsign"
+
+		model_desc: "/model/sign/wojtek/subsigns/subsign_600x320_pl.pmd"
+		model_coll: "/model/sign/wojtek/subsigns/subsign_600x320_pl.pmc"
+
+		look_name: default
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek118 {
+		sign_name: "PL DK61 Kisielnica limit"
+
+		model_desc: "/model/sign/wojtek/dk61_kisielnica_limit_pl.pmd"
+		model_coll: "/model/sign/wojtek/dk61_kisielnica_limit_pl.pmc"
+
+		look_name: default
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek119 {
+		sign_name: "PL Road Number 2 (DK)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_2_dk.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek120 {
+		sign_name: "PL Road Number 2 (DK 8t)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_2_dk.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: black
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek121 {
+		sign_name: "PL Road Number 2 (DK 10t)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_2_dk_10t.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek122 {
+		sign_name: "PL Road Number 3 (DW 10t)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_3_dw_10t.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek123 {
+		sign_name: "PL Road Number 3 (DW)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_3_dw_e.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: dw
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: dw
+		editable: true
+	}
+sign_model : sign.wojtek124 {
+		sign_name: "PL Road Number 3 (E)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_3_dw_e.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: e
+		editable: true
+	}
+sign_model : sign.wojtek125 {
+		sign_name: "PL Road Number 1 (DK)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_1_dk.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek126 {
+		sign_name: "PL Road Number 1 (DK 8t)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_1_dk.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: black
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek127 {
+		sign_name: "PL Road Number 1 (DK 10t)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_1_dk_10t.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek128 {
+		sign_name: "PL Road Number 3 (A/S)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_3_dw_e.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: as
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: dw
+		editable: true
+	}
+sign_model : sign.wojtek129 {
+		sign_name: "PL Road Number 4 (DK 10t arrow)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_4_dk_10t.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek130 {
+		sign_name: "PL Road Number 4 (DK 8t arrow)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_4_dk_arrow.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: black
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek131 {
+		sign_name: "PL Road Number 4 (DK arrow)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_4_dk_arrow.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek132 {
+		sign_name: "PL Road Number 5 (A/S/DK arrow)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_5_a_s_dk_arrow.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek133 {
+		sign_name: "PL Road Number 5 (DK 8t arrow)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_5_a_s_dk_arrow.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: black
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek134 {
+		sign_name: "PL Road Number 5 (DK 10t arrow)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_5_dk_10t.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek135 {
+		sign_name: "PL Road Number 6 (A/S arrow)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_6_dw_arrow.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: dw
+		editable: true
+	}
+sign_model : sign.wojtek136 {
+		sign_name: "PL Road Number 6 (DW arrow)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_6_dw_arrow.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: dw
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: dw
+		editable: true
+	}
+sign_model : sign.wojtek137 {
+		sign_name: "PL Road Number 6 (DW 10t arrow)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_6_dw_10t.pmd"
+		
+		stand_classes[]: plstd
+
+		look_name: default
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek138 {
+		sign_name: "PL District start 1000"
+
+		model_desc: "/model/sign/city_limits/pl/city_name_1000_pl.pmd"
+		model_coll: "/model/sign/city_limits/pl/city_name_1000_pl.pmc"
+		
+		stand_classes[]: plcity
+
+		look_name: blue
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek139 {
+		sign_name: "PL District start 1200"
+
+		model_desc: "/model/sign/city_limits/pl/city_name_1200_pl.pmd"
+		model_coll: "/model/sign/city_limits/pl/city_name_1200_pl.pmc"
+		
+		stand_classes[]: plcity
+
+		look_name: blue
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek140 {
+		sign_name: "PL District start 1400"
+
+		model_desc: "/model/sign/city_limits/pl/city_name_1400_pl.pmd"
+		model_coll: "/model/sign/city_limits/pl/city_name_1400_pl.pmc"
+		
+		stand_classes[]: plcity
+
+		look_name: blue
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek141 {
+		sign_name: "PL District start 1600"
+
+		model_desc: "/model/sign/city_limits/pl/city_name_1600_pl.pmd"
+		model_coll: "/model/sign/city_limits/pl/city_name_1600_pl.pmc"
+		
+		stand_classes[]: plcity
+
+		look_name: blue
+		category: "signs/pl"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek142 {
+		sign_name: "PL Road Number 6 (E xxx)"
+
+		model_desc: "/model/sign/traffic/pl/roadnumpl_6_dw_arrow.pmd"
+		model_coll: "/model/sign/traffic/pl/roadnumpl_6_dw_arrow.pmc"
+		
+		stand_classes[]: plstd
+
+		look_name: e
+		category: "signs/pl/road number"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		variant_name: e
+		editable: true
+	}
+sign_model : sign.wojtek143 {
+		sign_name: "PL New detour sign (S61)"
+
+		model_desc: "/model/sign/traffic/pl/detour_new_pl.pmd"
+		model_coll: "/model/sign/traffic/pl/detour_new_pl.pmc"
+
+		look_name: default
+		category: "signs/pl/detour"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+	}
+sign_model : sign.wojtek144 {
+		sign_name: "PL New exit number"
+
+		model_desc: "/model/sign/traffic/pl/exit_number_new_pl.pmd"
+		model_coll: "/model/sign/traffic/pl/exit_number_new_pl.pmc"
+
+		look_name: default
+		category: "signs/pl/experimental signage"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek145 {
+		sign_name: "PL Experimental warning S61 south"
+
+		model_desc: "/model/sign/traffic/pl/experimental_s61_south_pl.pmd"
+		model_coll: "/model/sign/traffic/pl/experimental_s61_south_pl.pmc"
+
+		look_name: default
+		category: "signs/pl/extra"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+	}
+sign_model : sign.wojtek146 {
+		sign_name: "PL Experimental warning S61 north"
+
+		model_desc: "/model/sign/traffic/pl/experimental_s61_north_pl.pmd"
+		model_coll: "/model/sign/traffic/pl/experimental_s61_north_pl.pmc"
+
+		look_name: default
+		category: "signs/pl/extra"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+	}
+sign_model : sign.wojtek147 {
+		sign_name: "PL New exit number small"
+
+		model_desc: "/model/sign/traffic/pl/exit_number_new_2_pl.pmd"
+		model_coll: "/model/sign/traffic/pl/exit_number_new_2_pl.pmc"
+
+		look_name: default
+		category: "signs/pl/experimental signage"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: true
+	}
+sign_model : sign.wojtek148 {
+		sign_name: "PL GDDKiA"
+
+		model_desc: "/model/sign/traffic/pl/gddkia_pl.pmd"
+		model_coll: "/model/sign/traffic/pl/gddkia_pl.pmc"
+
+		look_name: default
+		category: "signs/pl/extra"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+	}
+sign_model : sign.wojtek149 {
+		sign_name: "PL Experimental warning S61 south (distance)"
+
+		model_desc: "/model/sign/traffic/pl/arrows_s61_south_pl.pmd"
+
+		look_name: default
+		category: "signs/pl/subsigns"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+sign_model : sign.wojtek150 {
+		sign_name: "PL Dangerous goods right"
+
+		model_desc: "/model/sign/traffic/pl/dangerous_right_s61_pl.pmd"
+		model_coll: "/model/sign/traffic/pl/dangerous_right_s61_pl.pmc"
+
+		look_name: default
+		category: "signs/pl/extra"
+		dynamic: true
+		distance_type: 2
+		mass: 100
+		editable: false
+		
+		drop_sun_shadows: 1
+	}
+}

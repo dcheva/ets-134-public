@@ -1,0 +1,156 @@
+traffic_rule_data : traffic_rule.density_50
+{
+	name: "Traffic density 5.0"
+
+	str_params[]: "car"		
+ 	rule: "density"
+ 	num_params[]: 0.0	# Midnight
+	num_params[]: 5.0	# frequency
+	num_params[]: 50	# count limit
+	additional_rules[]: traffic_rule.s_truck_u
+	additional_rules[]: traffic_rule.s_police_u
+	additional_rules[]: traffic_rule.s_bus_h
+	additional_rules[]: traffic_rule.s_emergen_u
+}
+traffic_rule_data : traffic_rule.density_40
+{
+	name: "Traffic density 4.0"
+
+	str_params[]: "car"		
+	rule: "density"
+ 	num_params[]: 0.0	# Midnight
+	num_params[]: 4.0	# frequency
+	num_params[]: 40	# count limit
+	additional_rules[]: traffic_rule.s_truck_u
+	additional_rules[]: traffic_rule.s_police_u
+	additional_rules[]: traffic_rule.s_bus_h
+	additional_rules[]: traffic_rule.s_emergen_u
+}
+traffic_rule_data : traffic_rule.density_30
+{
+	name: "Traffic density 3.0"
+
+	str_params[]: "car"		
+	rule: "density"
+ 	num_params[]: 0.0	# Midnight
+	num_params[]: 3.0	# frequency
+	num_params[]: 30	# count limit
+	additional_rules[]: traffic_rule.s_truck_u
+	additional_rules[]: traffic_rule.s_police_u
+	additional_rules[]: traffic_rule.s_bus_h
+	additional_rules[]: traffic_rule.s_emergen_u
+}
+traffic_rule_data : traffic_rule.density_25
+{
+	name: "Traffic density 2.5"
+
+	str_params[]: "car"		
+	rule: "density"
+ 	num_params[]: 0.0	# Midnight
+	num_params[]: 2.5	# frequency
+	num_params[]: 25	# count limit
+	additional_rules[]: traffic_rule.s_truck_u
+	additional_rules[]: traffic_rule.s_police_u
+	additional_rules[]: traffic_rule.s_bus_h
+	additional_rules[]: traffic_rule.s_emergen_u
+	
+}
+traffic_rule_data : traffic_rule.density_20
+{
+	name: "Traffic density 2.0"
+
+	str_params[]: "car"		
+	rule: "density"
+ 	num_params[]: 0.0	# Midnight
+	num_params[]: 2.0	# frequency
+	num_params[]: 20	# count limit
+	additional_rules[]: traffic_rule.s_truck_u
+	additional_rules[]: traffic_rule.s_police_u
+	additional_rules[]: traffic_rule.s_bus_l
+	additional_rules[]: traffic_rule.s_emergen_u
+}
+traffic_rule_data : traffic_rule.density_15
+{
+	name: "Traffic density 1.5"
+
+	str_params[]: "car"		
+	rule: "density"
+ 	num_params[]: 0.0	# Midnight
+	num_params[]: 1.5	# frequency
+	num_params[]: 15	# count limit
+}
+traffic_rule_data : traffic_rule.density_12
+{
+	name: "Traffic density 1.2"
+	
+	str_params[]: "car"		
+	rule: "density"
+ 	num_params[]: 0.0	# Midnight
+	num_params[]: 1.2	# frequency
+	num_params[]: 12	# count limit
+}
+traffic_rule_data : traffic_rule.density_07
+{
+	name: "Traffic density 0.7"
+
+	str_params[]: "car"		
+	rule: "density"
+ 	num_params[]: 0.0	# Midnight
+	num_params[]: 0.7	# frequency
+	num_params[]: 7	# count limit
+	additional_rules[]: traffic_rule.s_truck_l
+	additional_rules[]: traffic_rule.s_bus_l
+}
+
+traffic_rule_data : traffic_rule.density_05
+{
+	name: "Traffic density 0.5"
+
+	str_params[]: "car"		
+	rule: "density"
+ 	num_params[]: 0.0	# Midnight
+	num_params[]: 0.5	# frequency
+	num_params[]: 5		# count limit
+	additional_rules[]: traffic_rule.s_truck_l
+	additional_rules[]: traffic_rule.s_bus_l
+}
+
+traffic_rule_data : traffic_rule.density_03
+{
+	name: "Traffic density 0.3"
+
+	str_params[]: "car"		
+	rule: "density"
+ 	num_params[]: 0.0	# Midnight
+	num_params[]: 0.3	# frequency
+	num_params[]: 5		# count limit
+	additional_rules[]: traffic_rule.s_truck_l
+	additional_rules[]: traffic_rule.s_bus_l
+}
+
+traffic_rule_data : traffic_rule.density_01
+{
+	name: "Traffic density 0.1"
+
+	str_params[]: "car"		
+	rule: "density"
+ 	num_params[]: 0.0	# Midnight
+	num_params[]: 0.05	# frequency
+	num_params[]: 5		# count limit
+	additional_rules[]: traffic_rule.s_truck_l
+	additional_rules[]: traffic_rule.s_bus_l
+}
+
+traffic_rule_data : traffic_rule.density_002
+{
+	name: "Traffic density 0.02"
+
+	str_params[]: "car"	
+	rule: "density"
+ 	num_params[]: 0.0	# Midnight
+	num_params[]: 0.2	# frequency
+	num_params[]: 5		# count limit
+	
+	additional_rules[]: traffic_rule.s_truck_l
+	additional_rules[]: traffic_rule.s_bus_l
+}

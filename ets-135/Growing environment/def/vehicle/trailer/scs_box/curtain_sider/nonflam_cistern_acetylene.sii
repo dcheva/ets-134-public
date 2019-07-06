@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_cargo_data : .acetylene
+{
+	model: "/vehicle/trailer_eu/gooseneck/cargo_nonflam_cistern.pmd"
+	collision: "/vehicle/trailer_eu/gooseneck/cargo_nonflam_cistern.pmc"
+ 
+	variant: default
+	look: acet
+}
+} 

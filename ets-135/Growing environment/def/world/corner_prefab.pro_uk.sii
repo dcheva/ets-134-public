@@ -1,0 +1,1612 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+# reserved numbers: 364-367,369,370-436,438,439-443,446-449,452
+
+
+prefab_model : corner.ukp1 {
+  name: "sh"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sh.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sh.ppd"
+}  
+
+prefab_model : corner.ukp2 {
+  name: "sh"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sh_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sh_f.ppd"
+} 
+
+prefab_model : corner.ukp3 {
+  name: "sh"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sh_narrow.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sh_narrow.ppd"
+} 
+
+prefab_model : corner.ukp4 {
+  name: "sh_asp"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sh_asp.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sh_asp.ppd"
+}  
+
+prefab_model : corner.ukp5 {
+  name: "sh_asp"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sh_asp_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sh_asp_f.ppd"
+} 
+
+prefab_model : corner.ukp6 {
+  name: "sh_asp"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sh_asp_narrow.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sh_asp_narrow.ppd"
+} 
+
+prefab_model : corner.ukp7 {
+  name: "curb"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_curb.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_curb.ppd"
+}  
+
+prefab_model : corner.ukp8 {
+  name: "curb"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_curb_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_curb_f.ppd"
+} 
+
+prefab_model : corner.ukp9 {
+  name: "curb"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_curb_narrow.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_curb_narrow.ppd"
+} 
+
+prefab_model : corner.ukp10 {
+  name: "sw_a"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_a.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_a.ppd"
+}  
+
+prefab_model : corner.ukp11 {
+  name: "sw_a"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_a_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_a_f.ppd"
+} 
+
+prefab_model : corner.ukp12 {
+  name: "sw_a"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_a_narrow.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_a_narrow.ppd"
+} 
+
+prefab_model : corner.ukp13 {
+  name: "sw_b"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_b.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_b.ppd"
+}  
+
+prefab_model : corner.ukp14 {
+  name: "sw_b"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_b_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_b_f.ppd"
+} 
+
+prefab_model : corner.ukp15 {
+  name: "sw_b"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_b_narrow.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_b_narrow.ppd"
+} 
+
+prefab_model : corner.ukp16 {
+  name: "sw_c"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_c.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_c.ppd"
+}  
+
+prefab_model : corner.ukp17 {
+  name: "sw_c"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_c_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_c_f.ppd"
+} 
+
+prefab_model : corner.ukp18 {
+  name: "sw_c"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_c_narrow.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_c_narrow.ppd"
+} 
+
+prefab_model : corner.ukp19 {
+  name: "sw_d"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_d.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_d.ppd"
+}  
+
+prefab_model : corner.ukp20 {
+  name: "sw_d"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_d_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_d_f.ppd"
+} 
+
+prefab_model : corner.ukp21 {
+  name: "sw_d"
+	model_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_d_narrow.pmd"
+	prefab_desc: "/prefab2/corners/uk/uk_r1_minim_x_r1_t_minim_tmpl_sw_d_narrow.ppd"
+}
+
+prefab_model : corner.ukp22 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sh.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sh.ppd"
+	}
+
+prefab_model : corner.ukp23 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sh_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sh_f.ppd"
+	}
+
+prefab_model : corner.ukp24 { 
+name: "sh_asp"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sh_asp.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sh_asp.ppd"
+	}
+
+prefab_model : corner.ukp25 { 
+name: "sh_asp"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sh_asp_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sh_asp_f.ppd"
+	}
+
+prefab_model : corner.ukp26 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_curb.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_curb.ppd"
+	}
+
+prefab_model : corner.ukp27 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_curb_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_curb_f.ppd"
+	}
+
+prefab_model : corner.ukp28 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_a.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_a.ppd"
+	}
+
+prefab_model : corner.ukp29 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_a_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_a_f.ppd"
+	}
+
+prefab_model : corner.ukp30 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_b.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_b.ppd"
+	}
+
+prefab_model : corner.ukp31 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_b_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_b_f.ppd"
+	}
+
+prefab_model : corner.ukp32 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_c.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_c.ppd"
+	}
+
+prefab_model : corner.ukp33 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_c_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_c_f.ppd"
+	}
+
+prefab_model : corner.ukp34 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_d.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_d.ppd"
+	}
+
+prefab_model : corner.ukp35 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_d_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_d_f.ppd"
+	}
+
+prefab_model : corner.ukp36 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_c1.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_c1.ppd"
+	}
+
+prefab_model : corner.ukp37 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_c1_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_enter_tmpl_sw_c1_f.ppd"
+	}
+
+prefab_model : corner.ukp38 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_sh_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_sh_narrow.ppd"
+	}
+
+prefab_model : corner.ukp39 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_curb_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_curb_narrow.ppd"
+	}
+
+prefab_model : corner.ukp40 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_sw_a_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_sw_a_narrow.ppd"
+	}
+
+prefab_model : corner.ukp41 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_sw_b_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_sw_b_narrow.ppd"
+	}
+
+prefab_model : corner.ukp42 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_sw_c_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_sw_c_narrow.ppd"
+	}
+
+prefab_model : corner.ukp43 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_sw_d_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_sw_d_narrow.ppd"
+	}
+
+prefab_model : corner.ukp44 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_sw_c1_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_exit_t_mirrored_tmpl_sw_c1_narrow.ppd"
+	}
+
+prefab_model : corner.ukp45 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sh.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sh.ppd"
+	}
+
+prefab_model : corner.ukp46 { 
+name: "sh_asp"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sh_asp.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sh_asp.ppd"
+	}
+
+prefab_model : corner.ukp47 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_curb.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_curb.ppd"
+	}
+
+prefab_model : corner.ukp48 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sw_a.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sw_a.ppd"
+	}
+
+prefab_model : corner.ukp49 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sw_b.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sw_b.ppd"
+	}
+
+prefab_model : corner.ukp50 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sw_c.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sw_c.ppd"
+	}
+
+prefab_model : corner.ukp51 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sw_d.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sw_d.ppd"
+	}
+
+prefab_model : corner.ukp52 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sw_c1.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_tmpl_sw_c1.ppd"
+	}
+
+prefab_model : corner.ukp53 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sh.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sh.ppd"
+	}
+
+prefab_model : corner.ukp54 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sh_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sh_f.ppd"
+	}
+
+prefab_model : corner.ukp55 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sh_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sh_narrow.ppd"
+	}
+
+prefab_model : corner.ukp56 { 
+name: "sh_asp"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sh_asp.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sh_asp.ppd"
+	}
+
+prefab_model : corner.ukp57 { 
+name: "sh_asp"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sh_asp_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sh_asp_f.ppd"
+	}
+
+prefab_model : corner.ukp58 { 
+name: "sh_asp"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sh_asp_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sh_asp_narrow.ppd"
+	}
+
+prefab_model : corner.ukp59 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_curb.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_curb.ppd"
+	}
+
+prefab_model : corner.ukp60 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_curb_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_curb_f.ppd"
+	}
+
+prefab_model : corner.ukp61 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_curb_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_curb_narrow.ppd"
+	}
+
+prefab_model : corner.ukp62 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_a.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_a.ppd"
+	}
+
+prefab_model : corner.ukp63 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_a_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_a_f.ppd"
+	}
+
+prefab_model : corner.ukp64 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_a_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_a_narrow.ppd"
+	}
+
+prefab_model : corner.ukp65 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_b.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_b.ppd"
+	}
+
+prefab_model : corner.ukp66 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_b_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_b_f.ppd"
+	}
+
+prefab_model : corner.ukp67 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_b_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_b_narrow.ppd"
+	}
+
+prefab_model : corner.ukp68 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_c.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_c.ppd"
+	}
+
+prefab_model : corner.ukp69 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_c_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_c_f.ppd"
+	}
+
+prefab_model : corner.ukp70 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_c_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_c_narrow.ppd"
+	}
+
+prefab_model : corner.ukp71 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_d.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_d.ppd"
+	}
+
+prefab_model : corner.ukp72 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_d_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_d_f.ppd"
+	}
+
+prefab_model : corner.ukp73 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_d_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_d_narrow.ppd"
+	}
+
+prefab_model : corner.ukp74 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_c1.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_c1.ppd"
+	}
+
+prefab_model : corner.ukp75 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_c1_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_c1_f.ppd"
+	}
+
+prefab_model : corner.ukp76 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_c1_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_t_tmpl_sw_c1_narrow.ppd"
+	}
+
+prefab_model : corner.ukp77 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sh.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sh.ppd"
+	}
+
+prefab_model : corner.ukp78 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sh_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sh_f.ppd"
+	}
+
+prefab_model : corner.ukp81 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_curb.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_curb.ppd"
+	}
+
+prefab_model : corner.ukp82 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_curb_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_curb_f.ppd"
+	}
+
+prefab_model : corner.ukp83 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_a.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_a.ppd"
+	}
+
+prefab_model : corner.ukp84 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_a_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_a_f.ppd"
+	}
+
+prefab_model : corner.ukp85 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_b.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_b.ppd"
+	}
+
+prefab_model : corner.ukp86 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_b_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_b_f.ppd"
+	}
+
+prefab_model : corner.ukp87 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_c.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_c.ppd"
+	}
+
+prefab_model : corner.ukp88 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_c_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_c_f.ppd"
+	}
+
+prefab_model : corner.ukp89 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_d.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_d.ppd"
+	}
+
+prefab_model : corner.ukp90 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_d_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_d_f.ppd"
+	}
+
+prefab_model : corner.ukp91 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_c1.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_c1.ppd"
+	}
+
+prefab_model : corner.ukp92 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_c1_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_minim_tmpl_sw_c1_f.ppd"
+	}
+
+prefab_model : corner.ukp93 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sh_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sh_narrow.ppd"
+	}
+
+prefab_model : corner.ukp94 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sh_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sh_f.ppd"
+	}
+
+prefab_model : corner.ukp95 { 
+name: "sh_asp"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sh_asp_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sh_asp_narrow.ppd"
+	}
+
+prefab_model : corner.ukp96 { 
+name: "sh_asp"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sh_asp_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sh_asp_f.ppd"
+	}
+
+prefab_model : corner.ukp97 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_curb_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_curb_narrow.ppd"
+	}
+
+prefab_model : corner.ukp98 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_curb_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_curb_f.ppd"
+	}
+
+prefab_model : corner.ukp99 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_a_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_a_narrow.ppd"
+	}
+
+prefab_model : corner.ukp100 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_a_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_a_f.ppd"
+	}
+
+prefab_model : corner.ukp101 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_b_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_b_narrow.ppd"
+	}
+
+prefab_model : corner.ukp102 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_b_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_b_f.ppd"
+	}
+
+prefab_model : corner.ukp103 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_c_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_c_narrow.ppd"
+	}
+
+prefab_model : corner.ukp104 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_c_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_c_f.ppd"
+	}
+
+prefab_model : corner.ukp105 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_d_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_d_narrow.ppd"
+	}
+
+prefab_model : corner.ukp106 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_d_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_d_f.ppd"
+	}
+
+prefab_model : corner.ukp107 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_c1_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_c1_narrow.ppd"
+	}
+
+prefab_model : corner.ukp108 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_c1_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_narrow_x_r1_t_enter_tmpl_sw_c1_f.ppd"
+	}
+
+prefab_model : corner.ukp109 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sh.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sh.ppd"
+	}
+
+prefab_model : corner.ukp110 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sh_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sh_f.ppd"
+	}
+
+prefab_model : corner.ukp111 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sh_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sh_narrow.ppd"
+	}
+
+prefab_model : corner.ukp115 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_curb.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_curb.ppd"
+	}
+
+prefab_model : corner.ukp116 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_curb_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_curb_f.ppd"
+	}
+
+prefab_model : corner.ukp117 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_curb_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_curb_narrow.ppd"
+	}
+
+prefab_model : corner.ukp118 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_a.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_a.ppd"
+	}
+
+prefab_model : corner.ukp119 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_a_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_a_f.ppd"
+	}
+
+prefab_model : corner.ukp120 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_a_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_a_narrow.ppd"
+	}
+
+prefab_model : corner.ukp121 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_b.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_b.ppd"
+	}
+
+prefab_model : corner.ukp122 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_b_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_b_f.ppd"
+	}
+
+prefab_model : corner.ukp123 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_b_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_b_narrow.ppd"
+	}
+
+prefab_model : corner.ukp124 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_c.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_c.ppd"
+	}
+
+prefab_model : corner.ukp125 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_c_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_c_f.ppd"
+	}
+
+prefab_model : corner.ukp126 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_c_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_c_narrow.ppd"
+	}
+
+prefab_model : corner.ukp127 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_d.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_d.ppd"
+	}
+
+prefab_model : corner.ukp128 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_d_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_d_f.ppd"
+	}
+
+prefab_model : corner.ukp129 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_d_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_d_narrow.ppd"
+	}
+
+prefab_model : corner.ukp130 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_c1.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_c1.ppd"
+	}
+
+prefab_model : corner.ukp131 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_c1_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_c1_f.ppd"
+	}
+
+prefab_model : corner.ukp132 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_c1_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r1_t_enter_tmpl_sw_c1_narrow.ppd"
+	}
+
+prefab_model : corner.ukp133 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sh_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sh_narrow.ppd"
+	}
+
+prefab_model : corner.ukp134 { 
+name: "sh_asp"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sh_asp_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sh_asp_narrow.ppd"
+	}
+
+prefab_model : corner.ukp135 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_curb_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_curb_narrow.ppd"
+	}
+
+prefab_model : corner.ukp136 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sw_a_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sw_a_narrow.ppd"
+	}
+
+prefab_model : corner.ukp137 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sw_b_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sw_b_narrow.ppd"
+	}
+
+prefab_model : corner.ukp138 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sw_c_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sw_c_narrow.ppd"
+	}
+
+prefab_model : corner.ukp139 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sw_d_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sw_d_narrow.ppd"
+	}
+
+prefab_model : corner.ukp140 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sw_c1_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_narrow_t_tmpl_sw_c1_narrow.ppd"
+	}
+
+prefab_model : corner.ukp141 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_sh_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_sh_narrow.ppd"
+	}
+
+prefab_model : corner.ukp142 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_curb_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_curb_narrow.ppd"
+	}
+
+prefab_model : corner.ukp143 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_sw_a_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_sw_a_narrow.ppd"
+	}
+
+prefab_model : corner.ukp144 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_sw_b_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_sw_b_narrow.ppd"
+	}
+
+prefab_model : corner.ukp145 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_sw_c_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_sw_c_narrow.ppd"
+	}
+
+prefab_model : corner.ukp146 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_sw_d_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_sw_d_narrow.ppd"
+	}
+
+prefab_model : corner.ukp147 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_sw_c1_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r2_x_r2_t_narrow_tmpl_sw_c1_narrow.ppd"
+	}
+
+prefab_model : corner.ukp148 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sh_long.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sh_long.ppd"
+	}
+
+prefab_model : corner.ukp149 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sh_long_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sh_long_f.ppd"
+	}
+
+prefab_model : corner.ukp150 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sh_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sh_narrow.ppd"
+	}
+	
+prefab_model : corner.ukp151 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sh_short.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sh_short.ppd"
+	}
+
+prefab_model : corner.ukp152 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sh_short_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sh_short_f.ppd"
+	}
+
+prefab_model : corner.ukp153 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_curb_long.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_curb_long.ppd"
+	}
+
+prefab_model : corner.ukp154 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_curb_long_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_curb_long_f.ppd"
+	}
+
+prefab_model : corner.ukp155 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_curb_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_curb_narrow.ppd"
+	}
+
+prefab_model : corner.ukp156 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_curb_short.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_curb_short.ppd"
+	}
+
+prefab_model : corner.ukp157 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_curb_short_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_curb_short_f.ppd"
+	}
+	
+prefab_model : corner.ukp158 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_a_long.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_a_long.ppd"
+	}
+
+prefab_model : corner.ukp159 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_a_long_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_a_long_f.ppd"
+	}
+
+prefab_model : corner.ukp160 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_a_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_a_narrow.ppd"
+	}
+
+prefab_model : corner.ukp161 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_a_short.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_a_short.ppd"
+	}
+
+prefab_model : corner.ukp162 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_a_short_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_a_short_f.ppd"
+	}
+	
+prefab_model : corner.ukp163 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_b_long.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_b_long.ppd"
+	}
+
+prefab_model : corner.ukp164 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_b_long_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_b_long_f.ppd"
+	}
+
+prefab_model : corner.ukp165 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_b_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_b_narrow.ppd"
+	}
+	
+prefab_model : corner.ukp166 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_b_short.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_b_short.ppd"
+	}
+
+prefab_model : corner.ukp167 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_b_short_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_b_short_f.ppd"
+	}	
+
+prefab_model : corner.ukp168 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c_long.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c_long.ppd"
+	}
+
+prefab_model : corner.ukp169 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c_long_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c_long_f.ppd"
+	}
+
+prefab_model : corner.ukp170 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c_narrow.ppd"
+	}
+	
+prefab_model : corner.ukp171 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c_short.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c_short.ppd"
+	}
+
+prefab_model : corner.ukp172 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c_short_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c_short_f.ppd"
+	}
+
+prefab_model : corner.ukp173 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_d_long.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_d_long.ppd"
+	}
+
+prefab_model : corner.ukp174 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_d_long_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_d_long_f.ppd"
+	}
+
+prefab_model : corner.ukp175 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_d_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_d_narrow.ppd"
+	}
+	
+prefab_model : corner.ukp176 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_d_short.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_d_short.ppd"
+	}
+
+prefab_model : corner.ukp177 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_d_short_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_d_short_f.ppd"
+	}
+
+prefab_model : corner.ukp178 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c1_long.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c1_long.ppd"
+	}
+
+prefab_model : corner.ukp179 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c1_long_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c1_long_f.ppd"
+	}
+
+prefab_model : corner.ukp180 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c1_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c1_narrow.ppd"
+	}
+
+prefab_model : corner.ukp181 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c1_short.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c1_short.ppd"
+	}
+
+prefab_model : corner.ukp182 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c1_short_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_y_narrow_tmpl_sw_c1_short_f.ppd"
+	}
+
+prefab_model : corner.ukp186 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sh.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sh.ppd"
+	}
+
+prefab_model : corner.ukp187 { 
+name: "sh_asp"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sh_asp.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sh_asp.ppd"
+	}
+
+prefab_model : corner.ukp188 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_curb.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_curb.ppd"
+	}
+
+prefab_model : corner.ukp189 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sw_a.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sw_a.ppd"
+	}
+
+prefab_model : corner.ukp190 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sw_b.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sw_b.ppd"
+	}
+
+prefab_model : corner.ukp191 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sw_c.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sw_c.ppd"
+	}
+
+prefab_model : corner.ukp192 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sw_d.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sw_d.ppd"
+	}
+
+prefab_model : corner.ukp193 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sw_c1.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_sw_round_narrow_tmpl_sw_c1.ppd"
+	}
+	
+prefab_model : corner.ukp194 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_sh.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_sh.ppd"
+	}
+
+prefab_model : corner.ukp195 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_curb.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_curb.ppd"
+	}
+
+prefab_model : corner.ukp196 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_sw_a.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_sw_a.ppd"
+	}
+
+prefab_model : corner.ukp197 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_sw_b.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_sw_b.ppd"
+	}
+
+prefab_model : corner.ukp198 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_sw_c.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_sw_c.ppd"
+	}
+
+prefab_model : corner.ukp199 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_sw_d.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_sw_d.ppd"
+	}
+
+prefab_model : corner.ukp200 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_sw_c1.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_y_sw_round_narrow_tmpl_sw_c1.ppd"
+	}
+
+prefab_model : corner.ukp201 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sh.pmd"
+		 prefab_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sh.ppd"
+	}
+
+prefab_model : corner.ukp203 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_curb.pmd"
+		 prefab_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_curb.ppd"
+	}
+
+prefab_model : corner.ukp205 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_a.pmd"
+		 prefab_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_a.ppd"
+	}
+
+prefab_model : corner.ukp206 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_a_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_a_f.ppd"
+	}
+
+prefab_model : corner.ukp207 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_b.pmd"
+		 prefab_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_b.ppd"
+	}
+
+prefab_model : corner.ukp208 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_b_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_b_f.ppd"
+	}
+
+prefab_model : corner.ukp209 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_c.pmd"
+		 prefab_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_c.ppd"
+	}
+
+prefab_model : corner.ukp210 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_c_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_c_f.ppd"
+	}
+
+prefab_model : corner.ukp211 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_d.pmd"
+		 prefab_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_d.ppd"
+	}
+
+prefab_model : corner.ukp212 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_d_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_d_f.ppd"
+	}
+
+prefab_model : corner.ukp213 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_c1.pmd"
+		 prefab_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_c1.ppd"
+	}
+
+prefab_model : corner.ukp214 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_c1_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/bus_station/uk_bus_station_small_tmpl_sw_c1_f.ppd"
+	}
+
+prefab_model : corner.ukp215 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sh_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sh_narrow.ppd"
+	}
+
+prefab_model : corner.ukp216 { 
+name: "sh_asp"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sh_asp_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sh_asp_narrow.ppd"
+	}
+
+prefab_model : corner.ukp217 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_curb_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_curb_narrow.ppd"
+	}
+
+prefab_model : corner.ukp218 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sw_a_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sw_a_narrow.ppd"
+	}
+
+prefab_model : corner.ukp219 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sw_b_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sw_b_narrow.ppd"
+	}
+
+prefab_model : corner.ukp220 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sw_c_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sw_c_narrow.ppd"
+	}
+
+prefab_model : corner.ukp221 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sw_d_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sw_d_narrow.ppd"
+	}
+
+prefab_model : corner.ukp222 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sw_c1_narrow.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_r1_x_r1_enter_t_tmpl_sw_c1_narrow.ppd"
+	}
+
+prefab_model : corner.ukp223 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_curb.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_curb.ppd"
+	}
+
+prefab_model : corner.ukp224 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_curb_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_curb_f.ppd"
+	}
+
+prefab_model : corner.ukp225 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sh.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sh.ppd"
+	}
+
+prefab_model : corner.ukp226 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sh_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sh_f.ppd"
+	}
+
+prefab_model : corner.ukp227 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_a.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_a.ppd"
+	}
+
+prefab_model : corner.ukp228 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_a_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_a_f.ppd"
+	}
+	
+prefab_model : corner.ukp229 { 
+name: "sw_a_con"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_a_con.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_a_con.ppd"
+	}
+
+prefab_model : corner.ukp230 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_b.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_b.ppd"
+	}
+
+prefab_model : corner.ukp231 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_b_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_b_f.ppd"
+	}
+	
+prefab_model : corner.ukp232 { 
+name: "sw_b_con"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_b_con.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_b_con.ppd"
+	}
+
+prefab_model : corner.ukp233 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_c.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_c.ppd"
+	}
+	
+prefab_model : corner.ukp234 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_c_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_c_f.ppd"
+	}
+	
+prefab_model : corner.ukp235 { 
+name: "sw_c_con"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_c_con.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_c_con.ppd"
+	}
+	
+prefab_model : corner.ukp236 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_d.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_d.ppd"
+	}
+	
+prefab_model : corner.ukp237 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_d_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_d_f.ppd"
+	}
+	
+prefab_model : corner.ukp238 { 
+name: "sw_d_con"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_d_con.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_d_con.ppd"
+	}
+
+prefab_model : corner.ukp239 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_c1.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_c1.ppd"
+	}
+
+prefab_model : corner.ukp240 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_c1_f.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_c1_f.ppd"
+	}
+	
+prefab_model : corner.ukp241 { 
+name: "sw_c1_con"
+		 model_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_c1_con.pmd"
+		 prefab_desc: "/prefab2/corners/uk/uk_road1_sw_end_tmpl_sw_c1_con.ppd"
+	}
+	
+prefab_model : corner.ukp242 { 
+name: "sh"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_sh.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_sh.ppd"
+	}
+
+prefab_model : corner.ukp243 { 
+name: "curb"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_curb.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_curb.ppd"
+	}
+
+prefab_model : corner.ukp244 { 
+name: "sw_a"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_sw_a.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_sw_a.ppd"
+	}
+
+prefab_model : corner.ukp245 { 
+name: "sw_b"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_sw_b.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_sw_b.ppd"
+	}
+
+prefab_model : corner.ukp246 { 
+name: "sw_c"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_sw_c.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_sw_c.ppd"
+	}
+
+prefab_model : corner.ukp247 { 
+name: "sw_d"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_sw_d.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_sw_d.ppd"
+	}
+
+prefab_model : corner.ukp248 { 
+name: "sw_c1"
+		 model_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_sw_c1.pmd"
+		 prefab_desc: "/prefab2/corners/uk/roundabout/uk_r1_x_r1_t_sw_round_narrow_tmpl_sw_c1.ppd"
+	}	
+	
+prefab_model : corner.ukp249 {
+  name: "sh"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sh.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sh.ppd"
+}
+
+prefab_model : corner.ukp250 {
+  name: "curb"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_curb.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_curb.ppd"
+}
+
+prefab_model : corner.ukp251 {
+  name: "sw_a"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_a.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_a.ppd"
+}
+
+prefab_model : corner.ukp252 {
+  name: "sw_b"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_b.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_b.ppd"
+}
+
+prefab_model : corner.ukp253 {
+  name: "sw_c"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_c.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_c.ppd"
+}
+
+prefab_model : corner.ukp254 {
+  name: "sw_c1"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_c1.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_c1.ppd"
+}
+
+prefab_model : corner.ukp255 {
+  name: "sw_d"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_d.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_d.ppd"
+}
+
+prefab_model : corner.ukp256 {
+  name: "sh"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sh_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sh_f.ppd"
+}
+
+prefab_model : corner.ukp257 {
+  name: "curb"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_curb_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_curb_f.ppd"
+}
+
+prefab_model : corner.ukp258 {
+  name: "sw_a"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_a_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_a_f.ppd"
+}
+
+prefab_model : corner.ukp259 {
+  name: "sw_b"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_b_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_b_f.ppd"
+}
+
+prefab_model : corner.ukp260 {
+  name: "sw_c"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_c_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_c_f.ppd"
+}
+
+prefab_model : corner.ukp261 {
+  name: "sw_c1"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_c1_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_c1_f.ppd"
+}
+
+prefab_model : corner.ukp262 {
+  name: "sw_d"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_d_f.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_sw_round_narrow_tmpl_sw_d_f.ppd"
+}
+
+prefab_model : corner.ukp263 {
+  name: "sh"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_sh.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_sh.ppd"
+}
+
+prefab_model : corner.ukp264 {
+  name: "curb"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_curb.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_curb.ppd"
+}
+
+prefab_model : corner.ukp265 {
+  name: "sw_a"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_sw_a.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_sw_a.ppd"
+}
+
+prefab_model : corner.ukp266 {
+  name: "sw_b"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_sw_b.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_sw_b.ppd"
+}
+
+prefab_model : corner.ukp267 {
+  name: "sw_c"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_sw_c.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_sw_c.ppd"
+} 
+
+prefab_model : corner.ukp268 {
+  name: "sw_c1"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_sw_c1.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_sw_c1.ppd"
+} 
+
+prefab_model : corner.ukp269 {
+  name: "sw_d"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_sw_d.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r1_t_sw_round_narrow_tmpl_sw_d.ppd"
+} 
+
+prefab_model : corner.ukp270 {
+  name: "sh"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_sh.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_sh.ppd"
+}
+
+prefab_model : corner.ukp271 {
+  name: "curb"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_curb.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_curb.ppd"
+}
+
+prefab_model : corner.ukp272 {
+  name: "sw_a"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_sw_a.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_sw_a.ppd"
+}
+
+prefab_model : corner.ukp273 {
+  name: "sw_b"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_sw_b.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_sw_b.ppd"
+}
+
+prefab_model : corner.ukp274 {
+  name: "sw_c"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_sw_c.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_sw_c.ppd"
+}
+
+prefab_model : corner.ukp275 {
+  name: "sw_c1"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_sw_c1.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_sw_c1.ppd"
+}
+
+prefab_model : corner.ukp276 {
+  name: "sw_d"
+	model_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_sw_d.pmd"
+	prefab_desc: "/prefab2/corners/uk/roundabout/uk_r2_x_r2_sw_round_narrow_tmpl_sw_d.ppd"
+}
+	
+################
+###  E O F  ####
+################	
+}

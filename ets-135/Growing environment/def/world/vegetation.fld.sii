@@ -1,0 +1,35 @@
+SiiNunit
+{
+# by FLD / TZ express map
+vegetation_data : veg.0fld {
+	name: "bush fld 00"
+    models: 1
+	models[]: vegetmodel.big_bush1
+}
+vegetation_data : veg.1fld {
+	name: "bush fld sc 00"
+    models: 2
+	models[]: vegetmodel.low.tree1_sc
+	models[]: vegetmodel.low.tree2_sc
+}
+vegetation_data : veg.2fld {
+	name: "tree fld 00"
+    models: 6
+	models[]: vegetmodel.maple.tree
+	models[]: vegetmodel.maple.tree
+	models[]: vegetmodel.poplar.tree
+	models[]: vegetmodel.poplar.tree
+	models[]: vegetmodel.maple.small
+	models[]: vegetmodel.big_bush
+}
+vegetation_data : veg.3fld {
+	name: "tree fld sc 00"
+    models: 6
+	models[]: vegetmodel.maple.tree_sc
+	models[]: vegetmodel.maple.tree_sc
+	models[]: vegetmodel.poplar.tree_sc
+	models[]: vegetmodel.poplar.tree_sc
+	models[]: vegetmodel.maple.small_sc
+	models[]: vegetmodel.big_bush_sc
+}
+}

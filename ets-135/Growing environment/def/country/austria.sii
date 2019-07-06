@@ -1,0 +1,20 @@
+﻿
+country_data: country.data.austria
+{
+	name: "Österreich"
+	name_localized: "@@austria@@"
+	country_code: "A"
+	pos:(14940, 0, 18780)
+	fuel_price: 1.2
+	country_id: 1
+	lights_mandatory: false
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 44000
+}

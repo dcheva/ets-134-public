@@ -1,0 +1,195 @@
+SiiNunit
+{
+
+# LEVEL CROSSINGS ###########################
+
+tr_semaphore_model : tr_sem_mdl.lvl_cr_r_hu {
+
+	name: "ab_right_hu"
+
+	model_desc: "/prefab/level_crossing/level_right_anim_hu.pmd"
+	model_coll: "/prefab/level_crossing/level_right_anim_hu.pmc"
+
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/level_crossing/hu_right_dwn.pma"
+	state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/hu_right_up.pma"
+	state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: false
+}
+
+tr_semaphore_model : tr_sem_mdl.lvl_cr_l_hu {
+
+	name: "ab_left_hu"
+
+	model_desc: "/prefab/level_crossing/level_left_anim_hu.pmd"
+	model_coll: "/prefab/level_crossing/level_left_anim_hu.pmc"
+
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/level_crossing/hu_left_dwn.pma"
+	state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/hu_left_up.pma"
+	state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: false
+}
+
+tr_semaphore_model : tr_sem_mdl.lvl_cr_rs_hu {
+
+	name: "ab_right_s_h"
+
+	model_desc: "/prefab/level_crossing/level_right_anim_1rail_hu.pmd"
+	model_coll: "/prefab/level_crossing/level_right_anim_1rail_hu.pmc"
+
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/level_crossing/hu_right_dwn.pma"
+	state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/hu_right_up.pma"
+	state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: false
+}
+
+tr_semaphore_model : tr_sem_mdl.lvl_cr_ls_hu {
+
+	name: "ab_left_s_h"
+
+	model_desc: "/prefab/level_crossing/level_left_anim_1rail_hu.pmd"
+	model_coll: "/prefab/level_crossing/level_left_anim_1rail_hu.pmc"
+
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/level_crossing/hu_left_dwn.pma"
+	state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/hu_left_up.pma"
+	state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: false
+}
+
+tr_semaphore_model : tr_sem_mdl.cross_s_hu {
+
+	name: "ab_right2_h"
+
+	model_desc: "/prefab/level_crossing/level_right_signal_hu.pmd"
+	model_coll: "/prefab/level_crossing/level_right_signal_hu.pmc"
+
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	state_collision[0]: false
+
+	# red
+	state_anim[1]: ""
+	state_collision[1]: false
+
+	# orange_to_green
+	state_anim[2]: ""
+	state_collision[2]: false
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: false
+}
+
+tr_semaphore_model : tr_sem_mdl.cross_ss_hu {
+
+	name: "ab_right_h2"
+
+	model_desc: "/prefab/level_crossing/level_right_signal_smpl_hu.pmd"
+	model_coll: "/prefab/level_crossing/level_right_signal_smpl_hu.pmc"
+	
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	state_collision[0]: false
+
+	# red
+	state_anim[1]: ""
+	state_collision[1]: false
+
+	# orange_to_green
+	state_anim[2]: ""
+	state_collision[2]: false
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: false
+}
+
+tr_semaphore_model : tr_sem_mdl.cross_ls_hu {
+
+	name: "ab_left_h2"
+
+	model_desc: "/prefab/level_crossing/level_right_signal_smpl_hu.pmd"
+	model_coll: "/prefab/level_crossing/level_right_signal_smpl_hu.pmc"
+	
+	state_anim: 4
+	state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	state_collision[0]: false
+
+	# red
+	state_anim[1]: ""
+	state_collision[1]: false
+
+	# orange_to_green
+	state_anim[2]: ""
+	state_collision[2]: false
+
+	# green
+	state_anim[3]: ""
+	state_collision[3]: false
+}
+
+}

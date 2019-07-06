@@ -1,0 +1,10 @@
+SiiNunit
+{
+accessory_wheel_data : dacia_logan.fwheel
+{
+	model: "/vehicle/wheel/17in/dacia_wheel.pmd"
+
+}
+}
+
+

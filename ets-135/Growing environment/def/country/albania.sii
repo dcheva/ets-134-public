@@ -1,0 +1,20 @@
+
+country_data: country.data.albania
+{
+	name: "Shqipëria"
+	name_localized: "@@albania@@"
+	country_code: "AL"
+	pos:(39500, 0, 56000)
+	fuel_price: 1.45
+	country_id: 14
+	lights_mandatory: false
+	driving_tired_offence: true
+		
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+	
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+}
+

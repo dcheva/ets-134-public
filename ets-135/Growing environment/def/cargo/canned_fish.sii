@@ -1,0 +1,12 @@
+cargo_data : cargo.canned_fish
+{
+	name: "@@cargo_canned_fish@@"
+	fragility: 0.4
+	group[]: containers
+	volume: 2.6
+	mass: 573.3
+	unit_reward_per_km: 0.58
+	unit_load_time: 78
+	body_types[]: refrigerated
+	body_types[]: insulated
+}

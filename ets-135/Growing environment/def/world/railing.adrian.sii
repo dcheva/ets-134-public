@@ -1,0 +1,21 @@
+SiiNunit
+{
+railing_model : railing.aj1 {
+	model_desc: "/model/railing/crash_barrier_x1.pmd"
+}
+railing_model : railing.aj2 {
+	model_desc: "/model/railing/crash_barrier_x2.pmd"
+}
+railing_model : railing.aj3 {
+	model_desc: "/model/railing/crash_barrier_x3.pmd"
+}
+railing_model : railing.aj4 {
+	model_desc: "/model/railing/crash_barrier_x4.pmd"
+}
+railing_model : railing.aj5 {
+	model_desc: "/model/railing/crash_barrier_x5.pmd"
+}
+railing_model : railing.aj6 {
+	model_desc: "/model/railing/lines/lines_032b.pmd"
+}
+}

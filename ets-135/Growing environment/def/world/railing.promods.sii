@@ -1,0 +1,401 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+
+railing_model : railing.2000 {
+	model_desc: "/model/norway/railing/crash_barrier_no.pmd"
+}
+
+railing_model : railing.2001 {
+	model_desc: "/model/norway/railing/crash_barrier_no1.pmd"
+}
+
+railing_model : railing.2002 {
+	model_desc: "/model/norway/railing/crash_barrier_no_outer.pmd"
+}
+
+railing_model : railing.scanrail01 {
+	model_desc: "/model/railing/crash_barrier_se.pmd"
+}
+
+railing_model : railing.scanrail02 {
+	model_desc: "/model/railing/lines/lines_exit_landroad_1m.pmd"
+}
+
+railing_model : railing.scanrail03 {
+	model_desc: "/model/railing/crash_barrier_ru.pmd"
+}
+
+railing_model : railing.scanrail04 {
+	model_desc: "/model/railing/bridge/2lanes_x_2m_nostart.pmd"
+}
+
+railing_model : railing.scanrail05 {
+	model_desc: "/model/railing/bridge/simple_sidewalk_colors.pmd"
+	look_name: silver
+}
+railing_model : railing.scanrail06 {
+	model_desc: "/model/railing/bridge/simple_sidewalk_colors.pmd"
+	look_name: red
+}
+railing_model : railing.scanrail07 {
+	model_desc: "/model/railing/bridge/simple_sidewalk_colors.pmd"
+	look_name: red_white
+}
+railing_model : railing.scanrail08 {
+	model_desc: "/model/railing/bridge/simple_sidewalk_colors.pmd"
+	look_name: yellow
+}
+
+railing_model : railing.scanrail09 {
+	model_desc: "/model/uk/studs/studs_2x2.pmd"
+}
+railing_model : railing.scanrail10 {
+	model_desc: "/model/uk/studs/studs_3x2.pmd"
+}
+
+railing_model : railing.scanrail11 {
+	model_desc: "/model/uk/studs/studs_2x2_g.pmd"
+}
+railing_model : railing.scanrail12 {
+	model_desc: "/model/uk/studs/studs_3x2_g.pmd"
+}
+
+railing_model : railing.scanrail13 {
+	model_desc: "/model/uk/studs/green_single.pmd"
+}
+
+railing_model : railing.scanrail14 {
+	model_desc: "/model/uk/studs/white_single.pmd"
+}
+
+railing_model : railing.scanrail15 {
+	model_desc: "/model/uk/studs/red_single.pmd"
+}
+
+railing_model : railing.scanrail16 {
+	model_desc: "/model/uk/studs/2lane_oneway.pmd"
+}
+
+railing_model : railing.scanrail17 {
+	model_desc: "/model/uk/studs/2lane_oneway_g.pmd"
+}
+
+railing_model : railing.scanrail18 {
+	model_desc: "/model/uk/studs/3lane_oneway.pmd"
+}
+
+railing_model : railing.scanrail19 {
+	model_desc: "/model/uk/studs/3lane_oneway_g.pmd"
+}
+
+railing_model : railing.scanrail21 {
+	model_desc: "/model/railing/tunnel/stockholm_3lane_start.pmd"
+	tunnel: true
+}
+
+railing_model : railing.scanrail22 {
+	model_desc: "/model/railing/tunnel/stockholm_2lane_start.pmd"
+	tunnel: true
+}
+
+railing_model : railing.scanrail23 {
+	model_desc: "/model/railing/tunnel/stockholm_2lane_end.pmd"
+	tunnel: true
+}
+
+railing_model : railing.scanrail24 {
+	model_desc: "/model/railing/tunnel/stockholm_3lane_end.pmd"
+	tunnel: true
+}
+
+railing_model : railing.scanrail25 {
+	model_desc: "/model/railing/tunnel/stockholm_1lane_start.pmd"
+	tunnel: true
+}
+
+railing_model : railing.scanrail26 {
+	model_desc: "/model/railing/tunnel/stockholm_1lane_end.pmd"
+	tunnel: true
+}
+
+railing_model : railing.scanrail27 {
+	model_desc: "/model/railing/tunnel/stockholm_tunel.pmd"
+	tunnel: true
+}
+
+railing_model : railing.scanrail28 {
+	model_desc: "/model/railing/bridge/hw_4a_cz_full_bridge.pmd"
+}
+
+railing_model : railing.scanrail29 {
+	model_desc: "/model/railing/lines/lines_02_uk.pmd"
+}
+railing_model : railing.scanrail30 {
+	model_desc: "/model/railing/lines/lines_2x1_dv_b.pmd"
+}
+railing_model : railing.scanrail31 {
+	model_desc: "/model/railing/lines/lines_2x1_dv_s.pmd"
+}
+railing_model : railing.scanrail32 {
+	model_desc: "/model/railing/lines/lines_2x1_fr_dash_center.pmd"
+}
+railing_model : railing.scanrail33 {
+	model_desc: "/model/railing/lines/lines_2x1_fr_no_center.pmd"
+}
+railing_model : railing.scanrail34 {
+	model_desc: "/model/railing/lines/lines_2x2c_fr_expressway.pmd"
+}
+railing_model : railing.scanrail35 {
+	model_desc: "/model/railing/lines/lines_03_bm_short.pmd"
+}
+railing_model : railing.scanrail36 {
+	model_desc: "/model/railing/tunnel/goldbach/goldbach_start.pmd"
+	tunnel: true
+}
+railing_model : railing.scanrail37 {
+	model_desc: "/model/railing/tunnel/goldbach/goldbach_end.pmd"
+	tunnel: true
+}
+railing_model : railing.scanrail38 {
+	model_desc: "/model/railing/tunnel/karawanken/karawanken_tunnel_austria.pmd"
+	tunnel: true
+}
+railing_model : railing.scanrail39 {
+	model_desc: "/model/railing/tunnel/karawanken/karawanken_tunnel_slovenia.pmd"
+	tunnel: true
+}
+railing_model : railing.promods01 {
+	model_desc: "/model/railing/crash_barrier_2x2m_concrete_be.pmd"
+}
+
+railing_model : railing.promods02 {
+	model_desc: "/model/railing/crash_barrier_2x2m_single_concrete_be.pmd"
+}
+
+railing_model : railing.promods03 {
+	model_desc: "/model/railing/crash_barrier_3x2m_concrete_be.pmd"
+}
+
+railing_model : railing.promods04 {
+	model_desc: "/model/railing/crash_barrier_2x2m_left_concrete_be.pmd"
+}
+railing_model : railing.promods05 {
+	model_desc: "/model/railing/crash_barrier_2x2m_right_concrete_be.pmd"
+}
+
+railing_model : railing.promods06 {
+	model_desc: "/model/railing/center_concrete_barrier_2m_be.pmd"
+}
+
+railing_model : railing.promods07 {
+	model_desc: "/model/railing/crash_barrier_single_concrete_be.pmd"
+}
+railing_model : railing.promods08 {
+	model_desc: "/model/railing/tunnel/pm_generic_tunnel01_2lane.pmd"
+	tunnel: true
+}
+railing_model : railing.promods09 {
+	model_desc: "/model/railing/tunnel/pm_generic_tunnel02_2lane.pmd"
+	tunnel: true
+}
+railing_model : railing.promods10 {
+	model_desc: "/model/railing/tunnel/pm_generic_tunnel01_3lane.pmd"
+	tunnel: true
+}
+railing_model : railing.promods11 {
+	model_desc: "/model/railing/tunnel/pm_generic_tunnel01_4lane.pmd"
+	tunnel: true
+}
+railing_model : railing.promods12 {
+	model_desc: "/model/railing/tunnel/pm_stockholm_tunnel_2b.pmd"
+	tunnel: true
+}
+railing_model : railing.promods13 {
+	model_desc: "/model/railing/tunnel/pm_stockholm_tunnel_3a.pmd"
+	tunnel: true
+}
+
+railing_model : railing.promods14 {
+	model_desc: "/model/railing/barrier_blind_protection.pmd"
+}
+
+railing_model : railing.promods15 {
+	model_desc: "/model/railing/crash_barrier_rus/crash_barrier_rus.pmd"
+}
+
+#railing_model : railing.promods16 {
+#	model_desc: "/model/railing/crash_barrier_rus/crash_barrier_rus1.pmd"
+#}
+
+railing_model : railing.promods17 {
+	model_desc: "/model2/railing/bridge/3lanes_x_1way_wall_sc.pmd"
+}
+
+railing_model : railing.promods18 {
+	model_desc: "/model2/railing/bridge/hw_wall_loose_sc.pmd"
+}
+
+railing_model : railing.promods19 {
+	model_desc: "/model/railing/bridge/road_1_1_one_clean.pmd"
+}
+
+railing_model : railing.promods20 {
+	model_desc: "/model/railing/bridge/exit/hw2a_oneway.pmd"
+}
+
+railing_model : railing.promods21 {
+	model_desc: "/model/railing/bridge/exit/hw2a_2m.pmd"
+}
+
+railing_model : railing.promods22 {
+	model_desc: "/model/railing/bridge/bridge_bottom_hw_exit.pmd"
+}
+
+railing_model : railing.promods23 {
+	model_desc: "/model/railing/bridge/bridge_bottom_hw2_ow.pmd"
+}
+
+railing_model : railing.promods24 {
+	model_desc: "/model/railing/bridge/bridge_railing.pmd"
+}
+
+railing_model : railing.promods25 {
+	model_desc: "/model2/railing/tunnel/city_road_conc_low_sc.pmd"
+	tunnel: true
+}
+railing_model : railing.promods26 {
+	model_desc: "/model/railing/tunnel/hw2_tunnel_rounded_uni.pmd"
+	tunnel: true
+}
+railing_model : railing.promods26a {
+	model_desc: "/model/railing/tunnel/hw2_tunnel_rounded.pmd"
+	look_name: med_smdry3
+	tunnel: true
+}
+railing_model : railing.promods27 {
+	model_desc: "/model2/railing/tunnel/hw3a_conc_low_sc.pmd"
+	tunnel: true
+}
+railing_model : railing.promods28 {
+	model_desc: "/model/railing/tunnel/pm_generic_tunnel03_hw3a_2x5m.pmd"
+	tunnel: true
+}
+railing_model : railing.promods29 {
+	model_desc: "/model2/railing/tunnel/small_road_conc_sc2.pmd"
+	tunnel: true
+}
+railing_model : railing.promods30 {
+	model_desc: "/model2/railing/tunnel/small_road_conc_rock_sc2.pmd"
+	tunnel: true
+}
+railing_model : railing.promods31 {
+	model_desc: "/model/railing/bridge/bridge_norail.pmd"
+}
+railing_model : railing.promods32 {
+	model_desc: "/model2/railing/tunnel/small_road_conc_se.pmd"
+	tunnel: true
+}
+
+railing_model : railing.promods33 {
+	model_desc: "/model/railing/germany/crash_barrier_ger_blindprotect.pmd"
+}
+
+railing_model : railing.promods34 {
+	model_desc: "/model/railing/center_crash_barrier_1m_2b_blindprotect.pmd"
+}
+
+railing_model : railing.promods35 {
+	model_desc: "/model/railing/crash_barrier_square_uk.pmd"
+}
+
+railing_model : railing.promods36 {
+	model_desc: "/model/railing/bridge/pm_bridge1a_road_1_deep.pmd"
+}
+
+railing_model : railing.promods37 {
+	model_desc: "/model2/railing/tunnel/tunnel_3lane_hr.pmd"
+	tunnel: true
+}
+
+railing_model : railing.promods38 {
+	model_desc: "/model2/railing/barrier/pm_railing_01.pmd"
+}
+railing_model : railing.promods39 {
+	model_desc: "/model2/railing/barrier/pm_railing_02.pmd"
+}
+railing_model : railing.promods40 {
+	model_desc: "/model2/railing/bridge/pm_hw2a_0m_offset_01.pmd"
+}
+railing_model : railing.promods41 {
+	model_desc: "/model2/railing/bridge/pm_hw2a_1m_offset_01.pmd"
+}
+railing_model : railing.promods42 {
+	model_desc: "/model2/railing/bridge/pm_hw2a_2m_offset_01.pmd"
+}
+railing_model : railing.promods43 {
+	model_desc: "/model2/railing/bridge/pm_hw2b_2m_offset_01.pmd"
+}
+railing_model : railing.promods44 {
+	model_desc: "/model2/railing/bridge/pm_hw3b_2m_offset_01.pmd"
+}
+railing_model : railing.promods45 {
+	model_desc: "/model2/railing/bridge/pm_hw2a_oneway_01.pmd"
+}
+railing_model : railing.promods46 {
+	model_desc: "/model2/railing/bridge/pm_hw2b_oneway_01.pmd"
+}
+railing_model : railing.promods47 {
+	model_desc: "/model2/railing/bridge/pm_hw3b_oneway_01.pmd"
+}
+railing_model : railing.promods48 {
+	model_desc: "/model2/railing/bridge/pm_hw4b_oneway_01.pmd"
+}
+railing_model : railing.promods49 {
+	model_desc: "/model2/railing/bridge/pm_rl1_01.pmd"
+}
+railing_model : railing.promods50 {
+	model_desc: "/model2/railing/bridge/pm_rl2_01.pmd"
+}
+railing_model : railing.promods51 {
+	model_desc: "/model2/railing/bridge/pm_rl3_01.pmd"
+}
+railing_model : railing.promods52 {
+	model_desc: "/model2/railing/barrier/railing_01_uk.pmd"
+}
+railing_model : railing.abra001 {
+	model_desc: "/model2/railing/tunnel/small_road_rock_simple.pmd"
+	look_name: default
+	tunnel: true
+	use_perlin: false
+}
+railing_model : railing.abra002 {
+	model_desc: "/model2/railing/tunnel/small_road_conc_rock_is.pmd"
+	look_name: default
+	tunnel: true
+	use_perlin: false
+}
+railing_model : railing.abra003 {
+	model_desc: "/model2/railing/tunnel/isa_2lane.pmd"
+	look_name: default
+	tunnel: true
+	use_perlin: false
+}
+
+railing_model : railing.nico1 {
+	look_name: default
+	tunnel: true
+	use_perlin: false
+	model_desc: "/model2/railing/tunnel/small_road1_rock.pmd"
+}
+#
+# EOF
+#
+}

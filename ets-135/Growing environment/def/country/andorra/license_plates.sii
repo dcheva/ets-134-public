@@ -1,0 +1,53 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+
+	templates[]:" 01111"
+	
+	def0[]:"<font xscale=0.8 yscale=0.8 >A</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >B</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >C</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >D</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >E</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >F</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >G</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >H</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >J</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >K</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >L</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >M</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >N</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >O</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >P</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >R</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >S</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >T</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >U</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >V</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >W</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >Y</font>"
+	def0[]:"<font xscale=0.8 yscale=0.8 >Z</font>"
+
+	def1[]:"<font xscale=0.8 yscale=0.8 >0</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >1</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >2</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >3</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >4</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >5</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >6</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >7</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >8</font>"
+	def1[]:"<font xscale=0.8 yscale=0.8 >9</font>"
+
+}
+
+}

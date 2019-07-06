@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.nynashamn.visby{
+	price: 59
+	time: 195
+	distance: 148
+}
+}
+

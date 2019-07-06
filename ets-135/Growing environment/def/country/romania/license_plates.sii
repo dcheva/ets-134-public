@@ -1,0 +1,94 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file"<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g."city" for"/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	templates[]:"2 00 111"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"U"
+	def1[]:"V" 
+	def1[]:"Z"
+
+	def2[]:"AB"
+	def2[]:"AG"
+	def2[]:"AR"
+	def2[]:"B"
+ 	def2[]:"BC"
+	def2[]:"BH"
+	def2[]:"BN"
+	def2[]:"BR"
+	def2[]:"BT"
+	def2[]:"BV"
+	def2[]:"BZ"
+	def2[]:"CJ"
+	def2[]:"CL"
+	def2[]:"CS"
+	def2[]:"CT"
+ 	def2[]:"CV"
+	def2[]:"DB"
+	def2[]:"DJ"
+	def2[]:"GJ"
+	def2[]:"GL"
+	def2[]:"GR"
+	def2[]:"HD"
+	def2[]:"HR"
+	def2[]:"IF"
+ 	def2[]:"IL"
+	def2[]:"IS"
+   	def2[]:"MH"
+	def2[]:"MM"
+	def2[]:"MS"
+	def2[]:"NT"
+	def2[]:"OT"
+	def2[]:"PH"
+	def2[]:"SB"
+	def2[]:"SJ"
+	def2[]:"SM"
+	def2[]:"SV"
+	def2[]:"TL"
+	def2[]:"TM"
+	def2[]:"TR"
+	def2[]:"VL"
+	def2[]:"VN"
+	def2[]:"VS"
+}
+
+}

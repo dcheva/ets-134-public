@@ -1,0 +1,9 @@
+﻿###
+# WARNING: Map must be rebuilt when anything is changed here!
+###
+ferry_data: ferry.ronne
+{
+	ferry_name: "Rønne"
+}
+
+

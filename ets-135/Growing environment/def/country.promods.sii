@@ -1,0 +1,266 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+
+#@include "country/finland.sii"
+@include "country/liecht.sii"
+@include "country/romania.sii"
+@include "country/ireland.sii"
+@include "country/nireland.sii"
+#@include "country/estonia.sii"
+#@include "country/latvia.sii"
+@include "country/iceland.sii"
+@include "country/faroe.sii"
+@include "country/slovenia.sii"
+@include "country/croatia.sii"
+@include "country/spain.sii"
+@include "country/portugal.sii"
+@include "country/andorra.sii"
+@include "country/ukraine.sii"
+#@include "country/lithuania.sii"
+@include "country/bulgaria.sii"
+@include "country/moldova.sii"
+@include "country/greece.sii"
+@include "country/isleofman.sii"
+@include "country/bosnia.sii"
+@include "country/serbia.sii"
+@include "country/turkey.sii"
+@include "country/jersey.sii"
+@include "country/macedonia.sii"
+@include "country/mnegro.sii"
+@include "country/albania.sii"
+@include "country/aland.sii"
+@include "country/cyprus.sii"
+@include "country/svalbard.sii"
+}
+
+# Recommended country identifiers for currently unused countries. Using those indices
+# is not required however it improves compatibility with future DLCs or with other
+# mods utilizing indices from this table.
+
+# **** ADDITIONAL EUROPE CODE ****
+
+# 221 Foroyar (Faroe Islands)
+# 203 Isle of Man
+# 210 Northern Ireland
+# 222 Jersey
+# 234 Macedonia
+# 235 Åland
+
+# **** EUROPE ****
+
+# 14 Albania
+# 15 Andorra
+# 16 Belarus
+# 17 Bosnia and Herzegovina
+# 18 Bulgaria
+# 19 Croatia
+# 20 Cyprus
+# 21 Denmark
+# 22 Estonia
+# 23 Finland
+# 24 Georgia
+# 25 Greece
+# 26 Iceland
+# 27 Republic of Ireland
+# 28 Latvia
+# 29 Liechtenstein
+# 30 Lithuania
+# 31 Malta
+# 32 Moldova
+# 33 Monaco
+# 34 Montenegro
+# 35 Norway
+# 36 Portugal
+# 37 Romania
+# 38 Russia
+# 39 San Marino
+# 40 Serbia
+# 41 Slovenia
+# 42 Spain
+# 43 Sweden
+# 44 Turkey
+# 45 Ukraine
+
+# **** ASIA ****
+
+# 46 Afghanistan
+# 47 Armenia
+# 48 Azerbaijan
+# 49 Bahrain
+# 50 Bangladesh
+# 51 Bhutan
+# 52 Brunei
+# 53 Cambodia
+# 54 China
+# 55 East Timor
+# 56 India
+# 57 Indonesia
+# 58 Iran
+# 59 Iraq
+# 60 Israel
+# 61 Palestine
+# 62 Japan
+# 63 Jordan
+# 64 Kazakhstan
+# 65 Kuwait
+# 66 Kyrgyzstan
+# 67 Laos
+# 68 Lebanon
+# 69 Malaysia
+# 70 Maldives
+# 71 Mongolia
+# 72 Myanmar
+# 73 Nepal
+# 74 North Korea
+# 75 Oman
+# 76 Pakistan
+# 77 Philippines
+# 78 Qatar
+# 79 Saudi Arabia
+# 80 Singapore
+# 81 South Korea
+# 82 Sri Lanka
+# 83 Syria
+# 84 Taiwan
+# 85 Tajikistan
+# 86 Thailand
+# 87 Tibet
+# 88 Turkmenistan
+# 89 United Arab Emirates
+# 90 Uzbekistan
+# 91 Vietnam
+# 92 Yemen
+
+# **** AFRICA ****
+
+# 93 Algeria
+# 94 Angola
+# 95 Benin
+# 96 Botswana
+# 97 Burkina Faso
+# 98 Burundi
+# 99 Cameroon
+# 100 Cape Verde
+# 101 Central African Republic
+# 102 Chad
+# 103 Comoros
+# 104 Republic of the Congo
+# 105 Democratic Republic of the Congo
+# 106 Côte d'Ivoire
+# 107 Djibouti
+# 108 Egypt
+# 109 Equatorial Guinea
+# 110 Eritrea
+# 111 Ethiopia
+# 112 Gabon
+# 113 The Gambia
+# 114 Ghana
+# 115 Guinea
+# 116 Guinea-Bissau
+# 117 Kenya
+# 118 Lesotho
+# 119 Liberia
+# 120 Libya
+# 121 Madagascar
+# 122 Malawi
+# 123 Mali
+# 124 Mauritania
+# 125 Mauritius
+# 126 Morocco
+# 127 Mozambique
+# 128 Namibia
+# 129 Niger
+# 130 Nigeria
+# 131 Rwanda
+# 132 S?o Tomé and Príncipe
+# 133 Senegal
+# 134 Seychelles
+# 135 Sierra Leone
+# 136 Somalia
+# 137 South Africa
+# 138 South Sudan
+# 139 Sudan
+# 140 Swaziland
+# 141 Tanzania
+# 142 Togo
+# 143 Tunisia
+# 144 Uganda
+# 145 Western Sahara
+# 146 Zambia
+# 147 Zaire
+# 148 Zimbabwe
+
+# **** NORTH AMERICA ****
+
+# 149 United States of America
+# 150 Mexico
+# 151 Canada
+# 152 Greenland
+
+# **** CENTRAL AMERICA ****
+
+# 153 Antigua and Barbuda
+# 154 Bahamas
+# 155 Barbados
+# 156 Belize
+# 157 Cayman Islands
+# 158 Costa Rica
+# 159 Cuba
+# 160 Dominica
+# 161 Dominican Republic
+# 162 El Salvador
+# 163 Grenada
+# 164 Guatemala
+# 165 Haiti
+# 166 Honduras
+# 167 Jamaica
+# 168 Nicaragua
+# 169 Panama
+# 170 Puerto Rico
+# 171 Saint Kitts and Nevis
+# 172 Saint Lucia
+# 173 Saint Vincent and the Grenadines
+# 174 Trinidad and Tobago
+# 175 Turks and Caicos
+
+# **** SOUTH AMERICA ****
+
+# 176 Argentina
+# 177 Bolivia
+# 178 Brazil
+# 179 Chile
+# 180 Colombia
+# 181 Ecuador
+# 182 French Guiana
+# 183 Guyana
+# 184 Paraguay
+# 185 Peru
+# 186 Suriname
+# 187 Uruguay
+# 188 Venezuela
+
+# **** OCEANIA ****
+
+# 189 Australia
+# 190 New Zealand
+# 191 Fiji
+# 192 Papua New Guinea
+# 193 Solomon Islands
+# 194 Vanuatu
+# 195 Kiribati
+# 196 Marshall Islands
+# 197 Micronesia
+# 198 Nauru
+# 199 Palau
+# 200 Samoa
+# 201 Tonga
+# 202 Tuvalu
+

@@ -1,0 +1,84 @@
+city_data: city.basel
+{
+	city_name: "Basel"
+	city_name_localized: "@@basel@@"
+	country: switzerland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20 // close zoom for minimap
+	map_x_offsets[]: -55 // far zoom for monimap
+	map_x_offsets[]: -20 // city zoom for world map
+	map_x_offsets[]: -20 // closest zoom for world map
+	map_x_offsets[]: -20 // middle zoom for world map
+	map_x_offsets[]: -55 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -20
+
+	vehicle_brands[]:"scania"
+
+	ai_lp_template[]:"0.211"
+	ai_lp_template[]:"0.2111"
+	ai_lp_template[]:"0.21111"
+	ai_lp_template[]:"0.211111"
+
+	ai_lp_def0[]:"BS<offset hshift=90 vshift=3><img src=/material/ui/lp/switzerland/$SIDE$_bs.mat color=FFFFFFFF width=16 height=20><offset hshift=-104 vshift=-3>"
+	ai_lp_def0[]:"BL<offset hshift=90 vshift=3><img src=/material/ui/lp/switzerland/$SIDE$_bl.mat color=FFFFFFFF width=16 height=20><offset hshift=-104 vshift=-3>"
+
+	ai_lp_def1[]:"0"
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+
+	truck_lp_template[]:"0.211"
+	truck_lp_template[]:"0.2111"
+	truck_lp_template[]:"0.21111"
+	truck_lp_template[]:"0.211111"
+
+	truck_lp_def0[]:"BS<offset hshift=90 vshift=3><img src=/material/ui/lp/switzerland/$SIDE$_bs.mat color=FFFFFFFF width=16 height=20><offset hshift=-104 vshift=-3>"
+	truck_lp_def0[]:"BL<offset hshift=90 vshift=3><img src=/material/ui/lp/switzerland/$SIDE$_bl.mat color=FFFFFFFF width=16 height=20><offset hshift=-104 vshift=-3>"
+
+	truck_lp_def1[]:"0"
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+}

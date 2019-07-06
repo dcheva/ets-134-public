@@ -1,0 +1,239 @@
+SiiNunit
+{
+# Please contact me on ProMods forum if more prefabs need to be replaced in our map: https://promods.net/memberlist.php?mode=viewprofile&u=24038
+prefab_model : prefab.693fld_pm {
+	model_desc: "/prefab/ew/4x2t_med_2m_1a_pm.pmd"
+	prefab_desc: "/prefab/ew/4x2t_med_2m_1a_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.1103fld_pm {
+	model_desc: "/prefab/roundabout_uk/2x1_1a_oneway_pm.pmd"
+	prefab_desc: "/prefab/roundabout_uk/2x1_1a_oneway_pm.ppd"
+	category: "roundabout_uk TZ map PM"
+}
+prefab_model : prefab.33fld_pm {
+	model_desc: "/prefab/ew/1a_fork_pm.pmd"
+	prefab_desc: "/prefab/ew/1a_fork_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.133fld_pm {
+	model_desc: "/prefab/ew/1b_fork_long_pm.pmd"
+	prefab_desc: "/prefab/ew/1b_fork_long_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.264fld_pm {
+	model_desc: "/prefab/roundabout/2_2y_oneway_mirror_pm.pmd"
+	prefab_desc: "/prefab/roundabout/2_2y_oneway_mirror_pm.ppd"
+	category: "roundabout TZ map PM"
+}
+prefab_model : prefab.104fld_pm {
+	model_desc: "/prefab/ew/2x2_med_oneway_2a_pm.pmd"
+	prefab_desc: "/prefab/ew/2x2_med_oneway_2a_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.105fld_pm {
+	model_desc: "/prefab/ew/2x2_med_oneway_2a_mirror_pm.pmd"
+	prefab_desc: "/prefab/ew/2x2_med_oneway_2a_mirror_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.323fld_pm {
+	model_desc: "/prefab/roundabout_uk/2_1y_oneway_pm.pmd"
+	prefab_desc: "/prefab/roundabout_uk/2_1y_oneway_pm.ppd"
+	category: "roundabout_uk TZ map PM"
+}
+prefab_model : prefab.435fld_pm {
+	model_desc: "/prefab/roundabout/2_1y_oneway_v1_mirror_pm.pmd"
+	prefab_desc: "/prefab/roundabout/2_1y_oneway_v1_mirror_pm.ppd"
+	category: "roundabout TZ map PM"
+}
+prefab_model : prefab.434fld_pm {
+	model_desc: "/prefab/roundabout/2_1y_oneway_v1_pm.pmd"
+	prefab_desc: "/prefab/roundabout/2_1y_oneway_v1_pm.ppd"
+	category: "roundabout TZ map PM"
+}
+prefab_model : prefab.1244fld_pm {
+	model_desc: "/prefab/ew/1a_fork_oneway_pm.pmd"
+	prefab_desc: "/prefab/ew/1a_fork_oneway_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.1253fld_pm {
+	model_desc: "/prefab/roundabout_uk/2x2_1a_oneway_pm.pmd"
+	prefab_desc: "/prefab/roundabout_uk/2x2_1a_oneway_pm.ppd"
+	category: "roundabout_uk TZ map PM"
+}
+prefab_model : prefab.426fld_pm {
+	model_desc: "/prefab/roundabout/1_1y_oneway_v2_pm.pmd"
+	prefab_desc: "/prefab/roundabout/1_1y_oneway_v2_pm.ppd"
+	category: "roundabout TZ map PM"
+}
+prefab_model : prefab.428fld_pm {
+	model_desc: "/prefab/roundabout/1_1y_oneway_v2_mirror_pm.pmd"
+	prefab_desc: "/prefab/roundabout/1_1y_oneway_v2_mirror_pm.ppd"
+	category: "roundabout TZ map PM"
+}
+prefab_model : prefab.1254fld_pm {
+	model_desc: "/prefab/roundabout_uk/2x1_2a_oneway_pm.pmd"
+	prefab_desc: "/prefab/roundabout_uk/2x1_2a_oneway_pm.ppd"
+	category: "roundabout_uk TZ map PM"
+}
+prefab_model : prefab.1259fld_pm {
+	model_desc: "/prefab/roundabout_uk/3x2_1a_oneway_pm.pmd"
+	prefab_desc: "/prefab/roundabout_uk/3x2_1a_oneway_pm.ppd"
+	category: "roundabout_uk TZ map PM"
+}
+prefab_model : prefab.1262fld_pm {
+	model_desc: "/prefab/roundabout_uk/3x2_1a_oneway_pm.pmd"
+	prefab_desc: "/prefab/roundabout_uk/3x2_1a_oneway_v1_pm.ppd"
+	category: "roundabout_uk TZ map PM"
+}
+prefab_model : prefab.2281fld_pm {
+	model_desc: "/prefab/roadwork/roadwork_1x1b_pm.pmd"
+	prefab_desc: "/prefab/roadwork/roadwork_1x1b_pm.ppd"
+	category: "roadwork TZ map PM"
+}
+prefab_model : prefab.219fld_pm {
+	model_desc: "/prefab/land_2/2x1_0m_2a_mirr_pm.pmd"
+	prefab_desc: "/prefab/land_2/2x1_0m_2a_mirr_pm.ppd"
+	category: "land_2 TZ map PM"
+}
+prefab_model : prefab.685fld_pm {
+	model_desc: "/prefab/ew/4x1_med_2m_oneway_1a_pm.pmd"
+	prefab_desc: "/prefab/ew/4x1_med_2m_oneway_1a_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.687fld_pm {
+	model_desc: "/prefab/ew/4x1t_med_2m_oneway_1a_pm.pmd"
+	prefab_desc: "/prefab/ew/4x1t_med_2m_oneway_1a_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.688fld_pm {
+	model_desc: "/prefab/ew/4x1t_med_2m_oneway_1a_mirr_pm.pmd"
+	prefab_desc: "/prefab/ew/4x1t_med_2m_oneway_1a_mirr_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.784fld_pm {
+	model_desc: "/prefab/ew/1a_fork_pm.pmd"
+	prefab_desc: "/prefab/ew_uk/1a_fork_pm.ppd"
+	category: "ew_uk TZ map PM"
+}
+prefab_model : prefab.113fld_pm {
+	model_desc: "/prefab/ew/4x2t_med_2m_1a_pm.pmd"
+	prefab_desc: "/prefab/ew/4x2t_med_2m_2a_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.157fld_pm {
+	model_desc: "/prefab/ew/1a_fork_2m_pm.pmd"
+	prefab_desc: "/prefab/ew/1a_fork_2m_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.491fld_pm {
+	model_desc: "/prefab/ew/1a_fork_2m_pm.pmd"
+	prefab_desc: "/prefab/ew_uk/1a_fork_2m_pm.ppd"
+	category: "ew_uk TZ map PM"
+}
+prefab_model : prefab.191fld_pm {
+	model_desc: "/prefab/ew/2x1_oneway_1a_pm.pmd"
+	prefab_desc: "/prefab/ew/2x1_oneway_1a_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.866fld_pm {
+	model_desc: "/prefab/ew/2x1_oneway_1a_pm.pmd"
+	prefab_desc: "/prefab/ew_uk/2x1_oneway_1a_pm.ppd"
+	category: "ew_uk TZ map PM"
+}
+prefab_model : prefab.239fld_pm {
+	model_desc: "/prefab/roadwork/2x2_med_oneway_1a_pm.pmd"
+	prefab_desc: "/prefab/roadwork/2x2_med_oneway_1a_pm.ppd"
+	category: "roadwork TZ map PM"
+}
+prefab_model : prefab.240fld_pm {
+	model_desc: "/prefab/roadwork/2x2_med_oneway_1a_mirr_pm.pmd"
+	prefab_desc: "/prefab/roadwork/2x2_med_oneway_1a_mirr_pm.ppd"
+	category: "roadwork TZ map PM"
+}
+prefab_model : prefab.418fld_pm {
+	model_desc: "/prefab/ew/2x2_med_oneway_2a_v2_mirror_pm.pmd"
+	prefab_desc: "/prefab/ew/2x2_med_oneway_2a_v2_mirror_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.534fld_pm {
+	model_desc: "/prefab/ew/2x2_med_oneway_2a_v2_mirror_pm.pmd"
+	prefab_desc: "/prefab/ew_uk/2x2_med_oneway_2a_v2_mirror_pm.ppd"
+	category: "ew_uk TZ map PM"
+}
+prefab_model : prefab.130fld_pm {
+	model_desc: "/prefab/ew/1a_fork_med_pm.pmd"
+	prefab_desc: "/prefab/ew/1a_fork_med_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.779fld_pm {
+	model_desc: "/prefab/ew/1a_fork_med_pm.pmd"
+	prefab_desc: "/prefab/ew_uk/1a_fork_med_pm.ppd"
+	category: "ew_uk TZ map PM"
+}
+prefab_model : prefab.228fld_pm {
+	model_desc: "/prefab/land_2/2x1_0m_1a_v1_pm.pmd"
+	prefab_desc: "/prefab/land_2/2x1_0m_1a_v1_pm.ppd"
+	category: "land_2 TZ map PM"
+}
+prefab_model : prefab.218fld_pm {
+	model_desc: "/prefab/land_2/2x1_0m_2a_pm.pmd"
+	prefab_desc: "/prefab/land_2/2x1_0m_2a_pm.ppd"
+	category: "land_2 TZ map PM"
+}
+prefab_model : prefab.629fld_pm {
+	model_desc: "/prefab/ew/4x1t_med_1m_oneway_1a_pm.pmd"
+	prefab_desc: "/prefab/ew/4x1t_med_1m_oneway_1a_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.633fld_pm {
+	model_desc: "/prefab/ew/4x1t_med_1m_oneway_1a_pm.pmd"
+	prefab_desc: "/prefab/ew_uk/4x1t_med_1m_oneway_1a_pm.ppd"
+	category: "ew_uk TZ map PM"
+}
+prefab_model : prefab.696fld_pm {
+	model_desc: "/prefab/ew/4x2t_med_2m_oneway_1a_mirr_pm.pmd"
+	prefab_desc: "/prefab/ew/4x2t_med_2m_oneway_1a_mirr_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.310fld_pm {
+	model_desc: "/prefab/land_2/rl2_t_nt_1a_pm.pmd"
+	prefab_desc: "/prefab/land_2/rl2_t_nt_1a_pm.ppd"
+	category: "land_2 TZ map PM"
+}
+prefab_model : prefab.475fld_pm {
+	model_desc: "/prefab/land_2/rl2_t_nt_1a_pm.pmd"
+	prefab_desc: "/prefab/land_uk_2/rl2_t_nt_1a_pm.ppd"
+	category: "land_uk_2 TZ map PM"
+}
+prefab_model : prefab.648fld_pm {
+	model_desc: "/prefab/ew/4x2t_med_1m_1a_pm.pmd"
+	prefab_desc: "/prefab/ew/4x2t_med_1m_1a_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.655fld_pm {
+	model_desc: "/prefab/ew/4x2t_med_1m_1a_pm.pmd"
+	prefab_desc: "/prefab/ew_uk/4x2t_med_1m_1a_pm.ppd"
+	category: "ew_uk TZ map PM"
+}
+prefab_model : prefab.232fld_pm {
+	model_desc: "/prefab/ew/2x1_med_oneway_3a_pm.pmd"
+	prefab_desc: "/prefab/ew/2x1_med_oneway_3a_pm.ppd"
+	category: "ew TZ map PM"
+}
+prefab_model : prefab.504fld_pm {
+	model_desc: "/prefab/ew/2x1_med_oneway_3a_pm.pmd"
+	prefab_desc: "/prefab/ew_uk/2x1_med_oneway_3a_pm.ppd"
+	category: "ew_uk TZ map PM"
+}
+prefab_model : prefab.1258fld_pm {
+	model_desc: "/prefab/roundabout_uk/3x1_2a_oneway_pm.pmd"
+	prefab_desc: "/prefab/roundabout_uk/3x1_2a_oneway_pm.ppd"
+	category: "roundabout_uk TZ map PM"
+}
+prefab_model : prefab.1261fld_pm {
+	model_desc: "/prefab/roundabout_uk/3x1_2a_oneway_pm.pmd"
+	prefab_desc: "/prefab/roundabout_uk/3x1_2a_oneway_v1_pm.ppd"
+	category: "roundabout_uk TZ map PM"
+}
+}

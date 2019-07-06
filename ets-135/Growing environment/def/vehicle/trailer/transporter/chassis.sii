@@ -1,0 +1,27 @@
+SiiNunit
+{
+accessory_chassis_data : chassis.trailer.trans
+{
+	detail_model: "/vehicle/trailer_eu/transporter/transporter.pmd"
+	model: "/vehicle/trailer_eu/transporter/transporter.pmd"
+	lods[]: "/vehicle/trailer_eu/transporter/transporter.pmd"
+	
+	collision: "/vehicle/trailer_eu/transporter/transporter.pmc"
+
+	residual_travel[]: 0.12 	# 1st axle
+	residual_travel[]: 0.12 	# 2nd axle
+
+	trailer_mass: 7500.0
+ 
+	variant: default
+	
+	extended_shadow_texture: "/vehicle/trailer_eu/transporter/shadow.tobj"
+	extended_shadow_intensity: 1.3
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+	 
+	ui_shadow: "/vehicle/trailer_eu/transporter/ui_shadow.pmd"
+}
+}
+
+                                            

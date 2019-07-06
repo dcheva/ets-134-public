@@ -1,0 +1,35 @@
+SiiNunit 
+{
+
+# STARTING CUTSCENES #
+
+cutscene_data: cutscene.sgr_rw_w
+{
+    objects_path: "/map/scenes/s_gr_rwe_w.promods.sbd"
+}
+
+# WARNING SIGNS #
+
+## ROADWORKS ##
+
+### DISTANT (SMALL) ###
+cutscene_data: cutscene.sgr_r
+{
+    objects_path: "/map/scenes/s_gr_rw.promods.sbd"
+}
+
+cutscene_data: cutscene.sgri_r
+{
+    objects_path: "/map/scenes/s_gr_in_rw.promods.sbd"
+}
+
+cutscene_data: cutscene.sgr_rw
+{
+    objects_path: "/map/scenes/s_gr_rw_w.promods.sbd"
+}
+
+### 100M ###
+
+### 80M ###
+
+}

@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis.re460
+{ 
+	model: "/vehicle/ai/promods/rail/re460/re460_loc.pmd"
+
+	collision: "/vehicle/ai/promods/rail/re460/re460_loc.pmc"
+
+	extended_shadow_texture: "/vehicle/ai/tgv/locomotive/tgv_locomotive_shadow_fr.tobj"
+	extended_shadow_intensity: 1.05
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+
+	variant: gray
+	variant_uk: gray
+	look: default
+}
+}

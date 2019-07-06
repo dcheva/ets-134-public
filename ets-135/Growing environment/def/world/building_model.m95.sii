@@ -1,0 +1,53 @@
+SiiNunit
+{
+building_model : bld_model.it1 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/italy/crash_barrier_it3l.pmd"
+	look_name: default
+}
+
+building_model : bld_model.it2 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/italy/crash_barrier_it_a22n.pmd"
+	look_name: default
+}
+
+building_model : bld_model.it3 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/italy/crash_barrier_it_it3lbig.pmd"
+	look_name: default
+}
+
+building_model : bld_model.de1 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/germany/crash_barrier_ger_n.pmd"
+}
+building_model : bld_model.de2 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/germany/barrier_ger_high_ext.pmd"
+	look_name: default
+}
+building_model : bld_model.nl1 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/buildings/netherlands/dam_oosterschelde_h.pmd"
+	look_name: default
+}
+building_model : bld_model.nl2 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/buildings/netherlands/dam_oosterschelde_l.pmd"
+	look_name: default
+}
+building_model : bld_model.nl3 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/power_line/railway_power_betuwe.pmd"
+	look_name: default
+}
+}

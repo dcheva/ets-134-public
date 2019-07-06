@@ -1,0 +1,168 @@
+SiiNunit
+{
+
+# TRAIN & TRAM CROSSROAD #####################
+
+# Double Tracks
+
+tr_semaphore_profile : tr_sem_prof.lvl_cr_v00 {
+
+	name: "rail crossing HU - default"
+	interval[]: (60.0, 200.0, 150.0, 30.0) 
+	cycle[]: 4.0
+
+	type[0]: barrier_distance
+	type[1]: model_only
+	type[2]: model_only
+
+	model[0]: ""
+	model[1]: "lvl_cr_r_hu"
+	model[2]: "lvl_cr_l_hu"
+
+	id_map[0]: 0
+	id_map[1]: 0
+	id_map[2]: 0
+}
+
+tr_semaphore_profile : tr_sem_prof.lvl_cr_v01 {
+
+	name: "rail crossing HU - simple"
+
+	interval[]: (50.0, 200.0, 150.0, 20.0)
+	cycle[]: 1.0
+
+	type[0]: barrier_distance
+	type[1]: model_only
+	type[2]: model_only
+
+	model[0]: ""
+	model[1]: "lvl_cr_r_hu"
+	model[2]: ""
+
+	id_map[0]: 0
+	id_map[1]: 0
+	id_map[2]: 0
+} 
+
+tr_semaphore_profile : tr_sem_prof.lvl_cr_v02 {
+
+	name: "rail crossing HU - signal only"
+
+	interval[]: (50.0, 200.0, 150.0, 20.0)
+	cycle[]: 1.0
+
+	type[0]: barrier_distance
+	type[1]: model_only
+	type[2]: model_only
+
+	model[0]: ""
+	model[1]: "cross_s_hu"
+	model[2]: "cross_s_hu"
+
+	id_map[0]: 0
+	id_map[1]: 0
+	id_map[2]: 0
+} 
+
+tr_semaphore_profile : tr_sem_prof.lvl_cr_v03 {
+
+	name: "rail crossing HU - simple signal only"
+
+	interval[]: (50.0, 200.0, 150.0, 20.0)
+	cycle[]: 1.0
+
+	type[0]: barrier_distance
+	type[1]: model_only
+	type[2]: model_only
+
+	model[0]: ""
+	model[1]: "cross_s_hu"
+	model[2]: ""
+
+	id_map[0]: 0
+	id_map[1]: 0
+	id_map[2]: 0
+} 
+  
+# Single Tracks
+
+tr_semaphore_profile : tr_sem_prof.lvl_cr_v04 {
+
+	name: "1 rail crossing HU - default"
+	interval[]: (60.0, 200.0, 150.0, 30.0) 
+	cycle[]: 4.0
+
+	type[0]: barrier_distance
+	type[1]: model_only
+	type[2]: model_only
+
+	model[0]: ""
+	model[1]: "lvl_cr_rs_hu"
+	model[2]: "lvl_cr_ls_hu"
+
+	id_map[0]: 0
+	id_map[1]: 0
+	id_map[2]: 0
+}
+
+tr_semaphore_profile : tr_sem_prof.lvl_cr_v05 {
+
+	name: "1 rail crossing HU - simple"
+
+	interval[]: (50.0, 200.0, 150.0, 20.0)
+	cycle[]: 1.0
+
+	type[0]: barrier_distance
+	type[1]: model_only
+	type[2]: model_only
+
+	model[0]: ""
+	model[1]: "lvl_cr_rs_hu"
+	model[2]: ""
+
+	id_map[0]: 0
+	id_map[1]: 0
+	id_map[2]: 0
+} 
+
+tr_semaphore_profile : tr_sem_prof.lvl_cr_v06 {
+
+	name: "1 rail crossing HU - signal only"
+
+	interval[]: (50.0, 200.0, 150.0, 20.0)
+	cycle[]: 1.0
+
+	type[0]: barrier_distance
+	type[1]: model_only
+	type[2]: model_only
+
+	model[0]: ""
+	model[1]: "cross_ss_hu"
+	model[2]: "cross_ss_hu"
+
+	id_map[0]: 0
+	id_map[1]: 0
+	id_map[2]: 0
+} 
+
+tr_semaphore_profile : tr_sem_prof.lvl_cr_v07 {
+
+	name: "1 rail crossing HU - simple signal only"
+
+	interval[]: (50.0, 200.0, 150.0, 20.0)
+	cycle[]: 1.0
+
+	type[0]: barrier_distance
+	type[1]: model_only
+	type[2]: model_only
+
+	model[0]: ""
+	model[1]: "cross_ss_hu"
+	model[2]: ""
+
+	id_map[0]: 0
+	id_map[1]: 0
+	id_map[2]: 0
+}
+
+}

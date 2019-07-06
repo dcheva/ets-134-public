@@ -1,0 +1,86 @@
+﻿city_data: city.pleven
+{
+	city_name: "Плевен"
+	city_name_localized: "@@pleven@@"
+	country: bulgaria
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	vehicle_brands[]:"iveco"
+
+	truck_lp_template[]:"0 1111 22"
+
+	truck_lp_def0[]:"EH"
+
+	truck_lp_def1[]:"0"
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"A"
+	truck_lp_def2[]:"B"
+	truck_lp_def2[]:"K"
+	truck_lp_def2[]:"M"
+	truck_lp_def2[]:"H"
+	truck_lp_def2[]:"P"
+	truck_lp_def2[]:"C"
+	truck_lp_def2[]:"T"
+	truck_lp_def2[]:"X"
+
+	ai_lp_template[]:"0 1111 22"
+
+	ai_lp_def0[]:"EH"
+
+	ai_lp_def1[]:"0"
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+
+	ai_lp_def2[]:"A"
+	ai_lp_def2[]:"B"
+	ai_lp_def2[]:"K"
+	ai_lp_def2[]:"M"
+	ai_lp_def2[]:"H"
+	ai_lp_def2[]:"P"
+	ai_lp_def2[]:"C"
+	ai_lp_def2[]:"T"
+	ai_lp_def2[]:"X"
+}

@@ -1,0 +1,51 @@
+traffic_vehicle : traffic.seat_leon_03.police.an
+{
+	accessories[]: .seat_leon_03.police.an.chassis
+	accessories[]: .seat_leon_03.police.an.fwheel
+	accessories[]: .seat_leon_03.police.an.rwheel
+
+	max_speed: 160
+	gearbox[]: (0.0, 1.0)
+	gearbox[]: (10.367 , 0.2165)
+	gearbox[]: (13.103 , 0.3717)
+	gearbox[]: (21.220 , 0.9097)
+	gearbox[]: (29.583 , 1.0000)
+	gearbox[]: (38.367 , 0.5069)
+	gearbox[]: (44.086 , 0.7370)
+	gearbox[]: (53.775 , 0.9922)
+	gearbox[]: (62.507 , 0.4998)
+	gearbox[]: (72.496 , 0.5441)
+	gearbox[]: (77.933 , 0.5556)
+	gearbox[]: (85.642 , 0.5374)
+	gearbox[]: (91.547 , 0.2690)
+	gearbox[]: (103.949 , 0.3656)
+	gearbox[]: (114.749 , 0.3250)
+	gearbox[]: (125.691 , 0.3086)
+	gearbox[]: (135.611 , 0.1131)
+	engine_torque: 189
+	vehicle_mass: 1455
+	
+	spawn_ratio: 0
+
+	lod_dist[]: 80
+	lod_dist[]: 120
+
+@include "/def/vehicle/ai/drivers_generic_police.sui"
+}
+
+vehicle_accessory: .seat_leon_03.police.an.chassis
+{
+    	data_path: "/def/vehicle/ai/promods/road/seat_leon_03/chassis_police_an.sii"
+}
+
+vehicle_wheel_accessory: .seat_leon_03.police.an.fwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/seat_leon_03_f.sii"
+}
+
+vehicle_wheel_accessory: .seat_leon_03.police.an.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/seat_leon_03_r.sii"
+}

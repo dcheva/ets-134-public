@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis.peugeot_407.police.es
+{
+	model: "/vehicle/ai/promods/road/peugeot_407/ai_police.pmd"
+	lods[]: "/vehicle/ai/promods/road/peugeot_407/lod_police.pmd"	
+	lods[]: "/vehicle/ai/promods/road/peugeot_407/lod2_police.pmd"	
+	collision: "/vehicle/ai/promods/road/peugeot_407/ai_police.pmc"
+
+	shadow_texture: "/vehicle/ai/share/shadow_occlusion.tobj"
+	shadow_intensity: 1.2
+
+	variant: es
+	variant_uk: default
+	look: default
+}
+}

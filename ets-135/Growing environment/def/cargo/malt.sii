@@ -1,0 +1,10 @@
+cargo_data: cargo.malt
+{
+	name: "@@cargo_malt@@"
+	fragility: 0.6
+	price_coef: 1.289
+	group[]: containers
+	body_types[]: _malt_01
+	body_types[]: _malt_02
+	body_types[]: _malt_03
+	}

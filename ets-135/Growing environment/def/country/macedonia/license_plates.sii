@@ -1,0 +1,109 @@
+﻿SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	templates[]:"0 1111 22"
+
+	def0[]:"BE<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_be.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"BT<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_bt.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"DB<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_db.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"DE<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_de.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"DK<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_dk.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"GE<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_ge.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"GV<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_gv.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"KA<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_ka.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"KI<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_ki.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"KO<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_ko.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"KP<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_kp.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"KR<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_kr.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"KU<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_ku.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"MB<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_mb.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"MK<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_mk.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"NE<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_ne.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"OH<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_oh.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"PP<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_pp.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"PS<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_ps.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"RA<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_ra.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"RE<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_re.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"SK<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_sk.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"SN<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_sn.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"SU<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_su.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"SR<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_sr.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"ST<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_st.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"SU<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_su.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"TE<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_te.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"VA<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_va.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"VE<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_ve.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"VI<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_vi.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+	def0[]:"VV<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/mk_vv.mat color=FFFFFFFF><offset hshift=-10 vshift=5>"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+	def1[]:"0"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+}
+
+license_plate_data : .lp.police
+{
+	type: police
+
+	templates[]:"01112111"
+
+	def0[]:"<color value=FF56200D>"
+	
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+	def1[]:"0"
+	
+	def2[]:"<offset hshift=1 vshift=-5><img src=/material/ui/lp/macedonia/police_mk.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+	
+}
+
+}

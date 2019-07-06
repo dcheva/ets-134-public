@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.stromness.thurso{
+	price: 150
+	time: 90
+	distance: 30
+}
+}
+
