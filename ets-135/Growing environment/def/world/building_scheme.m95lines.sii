@@ -1,0 +1,25 @@
+SiiNunit
+{
+
+
+building_scheme : bld_scheme.pml0 {
+	name: "Lines NL - blockmarking"
+	models[]: bld_model.pml0001
+}
+building_scheme : bld_scheme.pml1 {
+	name: "Lines NL - blockmarking small"
+	models[]: bld_model.pml0002
+}
+building_scheme : bld_scheme.pml2 {
+	name: "Lines NL - broken"
+	models[]: bld_model.pml0003
+}
+building_scheme : bld_scheme.pml3 {
+	name: "Lines NL - continuous"
+	models[]: bld_model.pml0004
+}
+building_scheme : bld_scheme.pml4 {
+	name: "Lines NL - ETW"
+	models[]: bld_model.pml0005
+}
+}

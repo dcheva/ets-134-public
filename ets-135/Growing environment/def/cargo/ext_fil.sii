@@ -1,0 +1,12 @@
+cargo_data: cargo.ext_fil{
+	name: "@@cargo_ext_fil@@"
+	fragility: 0.7
+	#price_coef: 1.10
+	group[]: containers
+	#volume: 2.6
+	#mass: 668.9
+	#unit_reward_per_km: 0.523
+	#unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

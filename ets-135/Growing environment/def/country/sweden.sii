@@ -1,0 +1,25 @@
+
+country_data: country.data.sweden
+{
+	country_id: 43
+	name: "Sverige"
+	name_localized: "@@sweden@@"
+	country_code: "S"
+
+	pos:(14500, 0, -45000)
+
+	fuel_price: 1.51
+
+	lights_mandatory: true
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 38000
+	mass_limit_per_axle_count[]: 46000
+	mass_limit_per_axle_count[]: 64000	# mistake ??
+	mass_limit_per_axle_count[]: 64000
+}

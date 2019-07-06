@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis.sc_psgr_car.sc
+{ 
+	model: "/vehicle/ai/promods/rail/train_cars/sc_psgr_car.pmd"
+
+	collision: "/vehicle/ai/promods/rail/train_cars/sc_psgr_car.pmc"
+
+	extended_shadow_texture: "/vehicle/ai/tgv/locomotive/tgv_locomotive_shadow_fr.tobj"
+	extended_shadow_intensity: 1.05
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+
+	variant: variant1
+	variant_uk: variant1
+	look: scandinavia
+}
+}

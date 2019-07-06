@@ -1,0 +1,10 @@
+cargo_data: cargo.ikea_toys
+{
+	name: "@@cn_toys@@"
+	fragility: 0.4
+	price_coef: 1.425
+	group[]: containers
+	body_types[]: _ikeatoys_01
+	body_types[]: _ikeatoys_02
+	body_types[]: _ikeatoys_03
+}

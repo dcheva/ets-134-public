@@ -1,0 +1,17 @@
+SiiNunit
+{
+
+traffic_rule_data : traffic_rule.limit_10
+{
+	name: "Speed limit 10"
+
+	rule: "speed_limit"
+	num_params[]: 10
+}traffic_rule_data : traffic_rule.limit_05
+{
+	name: "Speed limit 05"
+
+	rule: "speed_limit"
+	num_params[]: 05
+}
+}

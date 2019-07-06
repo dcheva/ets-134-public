@@ -1,0 +1,149 @@
+SiiNunit
+{
+
+building_model : bld_model.1060 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model2/barrier/stone/wall_stone2.pmd"
+	look_name: default
+}
+
+building_model : bld_model.1106 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model2/barrier/stone/wall_stone1.pmd"
+}
+
+building_model : bld_model.1137 {
+	railing_model: false
+	follow_curve_dir: true
+	model_desc: "/model2/barrier/stone/barrier_pebblestone_01.pmd"
+	look_name: default
+	min_scale:0.8
+	max_scale:1.5
+}
+
+building_model : bld_model.1049 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model2/barrier/concrete/barrier_concrete9.pmd"
+	look_name: default
+}
+
+building_model : bld_model.1050 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model2/barrier/concrete/barrier_concrete9-sidewalk.pmd"
+	look_name: default
+}
+
+building_model : bld_model.1078 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model2/barrier/concrete/wall_concrete_brown1.pmd"
+	look_name: default
+}
+
+building_model : bld_model.1079 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model2/barrier/concrete/wall_concrete_stone2.pmd"
+	look_name: default
+}
+
+building_model : bld_model.1061 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model2/barrier/brick/wall_brick1.pmd"
+	look_name: default
+}
+
+
+building_model : bld_model.1142 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/wall/treewall2.pmd"
+}
+
+building_model : bld_model.1118 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/wall/bushwall.pmd"
+}
+
+# -----------------------------
+#	Arizona rock walls
+# -----------------------------
+
+building_model : bld_model.az_1 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rock/az_wall_6m_bld_simple_01.pmd"
+}
+
+building_model : bld_model.az_2 {
+	single_part: false
+	follow_curve_dir: true
+	model_desc: "/model/rock/az_wall_6m_bld_various_01.pmd"
+}
+
+building_model : bld_model.az_5 {
+	single_part: false
+	follow_curve_dir: true
+	model_desc: "/model/rock/az_wall_6m_bld_various_02.pmd"
+}
+building_model : bld_model.az_6 {
+	single_part: false
+	follow_curve_dir: true
+	model_desc: "/model/rock/az_wall_15m_bld_various_02.pmd"
+}
+building_model : bld_model.az_7 {
+	single_part: false
+	follow_curve_dir: true
+	model_desc: "/model/rock/az_wall_30m_bld_various_02.pmd"
+}
+building_model : bld_model.az_8 {
+	single_part: false
+	follow_curve_dir: true
+	model_desc: "/model/rock/az_wall_15m_bld_various_01.pmd"
+}
+building_model : bld_model.az_9 {
+	single_part: false
+	follow_curve_dir: true
+	model_desc: "/model/rock/az_wall_30m_bld_various_01.pmd"
+}
+building_model : bld_model.az_10 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rock/az_wall_15m_bld_simple_01.pmd"
+}
+building_model : bld_model.az_11 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rock/az_wall_30m_bld_simple_01.pmd"
+}
+building_model : bld_model.az_12 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rock/az_wall_30m_bld_simple_02.pmd"
+}
+building_model : bld_model.az_13 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rock/az_wall_6m_bld_simple_02.pmd"
+}
+building_model : bld_model.az_14 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rock/az_wall_15m_bld_simple_02.pmd"
+}
+
+building_model : bld_model.az_15 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/panorama/az_rock/az_cliff_eroded01.pmd"
+}
+
+
+# EOF
+}	

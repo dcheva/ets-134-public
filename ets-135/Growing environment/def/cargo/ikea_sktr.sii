@@ -1,0 +1,10 @@
+cargo_data: cargo.ikea_sktr
+	{
+	name: "@@cargo_skir_tr@@"
+	fragility: 0.7
+	price_coef: 1.1
+	group[]: containers
+	body_types[]: _ikea_sktr_01
+	body_types[]: _ikea_sktr_02
+	body_types[]: _ikea_sktr_03
+	}

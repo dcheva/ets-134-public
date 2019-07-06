@@ -1,0 +1,338 @@
+SiiNunit
+{
+
+sign_model : sign.plyk01ds	 {
+
+	sign_name: "logo dsg building sign"
+
+	model_desc: "/model/sign/company_logos/dsg/building_sign.pmd"
+	model_coll: "/model/sign/company_logos/dsg/building_sign.pmc"
+	look_name: default
+	dynamic: false
+	category: "company logos"
+
+}
+
+sign_model : sign.plyk02ds	 {
+
+	sign_name: "logo dsg foetex entrance"
+
+	model_desc: "/model/sign/company_logos/dsg/entrance_universal.pmd"
+	model_coll: "/model/sign/company_logos/dsg/entrance_universal.pmc"
+	look_name: foetex
+	dynamic: false
+	category: "company logos"
+}
+
+sign_model : sign.plyk03ds	 {
+
+	sign_name: "logo dsg netto entrance"
+
+	model_desc: "/model/sign/company_logos/dsg/entrance_universal.pmd"
+	model_coll: "/model/sign/company_logos/dsg/entrance_universal.pmc"
+	look_name: netto
+	dynamic: false
+	category: "company logos"
+}
+
+sign_model : sign.plyk04ds	 {
+
+	sign_name: "logo dsg bilka entrance"
+
+	model_desc: "/model/sign/company_logos/dsg/entrance_universal.pmd"
+	model_coll: "/model/sign/company_logos/dsg/entrance_universal.pmc"
+	look_name: bilka
+	dynamic: false
+	category: "company logos"
+}
+
+sign_model : sign.plyk05db	 {
+
+	sign_name: "logo daugbjerg"
+
+	model_desc: "/model/sign/company_logos/daugbjerg/entrance_sign.pmd"
+	look_name: default
+	dynamic: false
+	category: "company logos"
+}
+
+sign_model : sign.plyk06fv	 {
+
+	sign_name: "logo ferrovial ground"
+
+	model_desc: "/model/sign/company_logos/ferrovial/entrance_sign.pmd"
+	look_name: default
+	dynamic: false
+	category: "company logos"
+}
+
+sign_model : sign.plyk07fv	 {
+
+	sign_name: "logo ferrovial battleirog"
+
+	model_desc: "/model/sign/company_logos/ferrovial/building_sign.pmd"
+	look_name: default
+	dynamic: false
+	category: "company logos"
+}
+
+# --- EU traffic barriers ----------------------------------------------------------------
+
+sign_model : sign.plyk08tb {
+
+	sign_name: "Trafic barrier PM"
+
+	model_desc: "/model/sign/misc/traffic_barrier_pm.pmd"
+	model_coll: "/model/sign/misc/traffic_barrier_pm.pmc"
+	look_name: default
+	category: "details/PM"
+	dynamic: true
+	distance_type: 0
+	mass: 100
+	road_model: true
+	instanced: false
+}
+
+sign_model : sign.plyk09tb {
+
+	sign_name: "Trafic barrier light left PM"
+
+	model_desc: "/model/sign/misc/traffic_barrier_pm_ll.pmd"
+	model_coll: "/model/sign/misc/traffic_barrier_pm_ll.pmc"
+	look_name: default
+	category: "details/PM"
+	dynamic: true
+	distance_type: 0
+	mass: 100
+	road_model: true
+	instanced: false
+}
+
+sign_model : sign.plyk11tb {
+
+	sign_name: "Trafic barrier light right PM"
+
+	model_desc: "/model/sign/misc/traffic_barrier_pm_lr.pmd"
+	model_coll: "/model/sign/misc/traffic_barrier_pm_lr.pmc"
+	look_name: default
+	category: "details/PM"
+	dynamic: true
+	distance_type: 0
+	mass: 100
+	road_model: true
+	instanced: false
+}
+
+sign_model : sign.plyk12tb {
+
+	sign_name: "Trafic barrier light double PM"
+
+	model_desc: "/model/sign/misc/traffic_barrier_pm_ld.pmd"
+	model_coll: "/model/sign/misc/traffic_barrier_pm_ld.pmc"
+	look_name: default
+	category: "details/PM"
+	dynamic: true
+	distance_type: 0
+	mass: 100
+	road_model: true
+	instanced: false
+}
+
+# --- UK bollards and signs ----------------------------------------------------------------
+
+sign_model : sign.plyk13uk {
+
+	sign_name: "bollard pass left"
+
+	model_desc: "/model/sign/traffic/uk/uk_bollard_pass_left.pmd"
+	model_coll: "/model/sign/traffic/uk/uk_bollard_pass_left.pmc"
+	look_name: default
+	category: "signs/uk"
+
+	dynamic: true
+	distance_type: 0
+	mass: 100
+	road_model: true
+	instanced: false
+}
+
+sign_model : sign.plyk14uk {
+
+	sign_name: "bollard pass right"
+
+	model_desc: "/model/sign/traffic/uk/uk_bollard_pass_right.pmd"
+	model_coll: "/model/sign/traffic/uk/uk_bollard_pass_right.pmc"
+	look_name: default
+	category: "signs/uk"
+
+	dynamic: true
+	distance_type: 0
+	mass: 100
+	road_model: true
+	instanced: false
+}
+
+sign_model : sign.plyk15uk {
+
+	sign_name: "bollard pass both"
+
+	model_desc: "/model/sign/traffic/uk/uk_bollard_pass_both.pmd"
+	model_coll: "/model/sign/traffic/uk/uk_bollard_pass_both.pmc"
+	look_name: default
+	category: "signs/uk"
+
+	dynamic: true
+	distance_type: 0
+	mass: 100
+	road_model: true
+	instanced: false
+}
+
+sign_model : sign.plyk16uk {
+
+	sign_name: "bollard no entry"
+
+	model_desc: "/model/sign/traffic/uk/uk_bollard_no_entry.pmd"
+	model_coll: "/model/sign/traffic/uk/uk_bollard_no_entry.pmc"
+	look_name: default
+	category: "signs/uk"
+
+	dynamic: true
+	distance_type: 0
+	mass: 100
+	road_model: true
+	instanced: false
+}
+
+sign_model : sign.plyk17uk {
+
+	sign_name: "Belisha Beacon"
+
+	model_desc: "/model/sign/traffic/uk/uk_belisha_beacon.pmd"
+	model_coll: "/model/sign/traffic/uk/uk_belisha_beacon.pmc"
+	look_name: default
+	category: "signs/uk"
+
+	dynamic: true
+	distance_type: 0
+	mass: 100
+	road_model: true
+	instanced: false
+}
+
+
+sign_model : sign.plyk20uk {
+
+	sign_name: "TMP Heritage - pass left"
+
+	model_desc: "/model/sign/traffic/uk/uk_tmp_heritage_pass_left.pmd"
+	model_coll: "/model/sign/traffic/uk/uk_tmp_heritage_pass_left.pmc"
+	look_name: default
+	category: "signs/uk"
+
+	dynamic: true
+	distance_type: 0
+	mass: 100
+	road_model: true
+	instanced: false
+}
+
+sign_model : sign.plyk21uk {
+
+	sign_name: "TMP Heritage - pass right"
+
+	model_desc: "/model/sign/traffic/uk/uk_tmp_heritage_pass_right.pmd"
+	model_coll: "/model/sign/traffic/uk/uk_tmp_heritage_pass_right.pmc"
+	look_name: default
+	category: "signs/uk"
+
+	dynamic: true
+	distance_type: 0
+	mass: 100
+	road_model: true
+	instanced: false
+}
+
+sign_model : sign.plyk22uk {
+
+	sign_name: "TMP Heritage - pass"
+
+	model_desc: "/model/sign/traffic/uk/uk_tmp_heritage_pass_both.pmd"
+	model_coll: "/model/sign/traffic/uk/uk_tmp_heritage_pass_both.pmc"
+	look_name: default
+	category: "signs/uk"
+
+	dynamic: true
+	distance_type: 0
+	mass: 100
+	road_model: true
+	instanced: false
+}
+sign_model : sign.plyk23uk {
+
+	sign_name: "TMP Heritage - no entry"
+
+	model_desc: "/model/sign/traffic/uk/uk_tmp_heritage_no_entry.pmd"
+	model_coll: "/model/sign/traffic/uk/uk_tmp_heritage_no_entry.pmc"
+	look_name: default
+	category: "signs/uk"
+
+	dynamic: true
+	distance_type: 0
+	mass: 100
+	road_model: true
+	instanced: false
+}
+
+sign_model : sign.plyk024uk {
+
+	sign_name: "traffic cone, above 60 mph"
+
+	model_desc: "/model/sign/traffic/uk/uk_cone_100.pmd"
+	model_coll: "/model/sign/traffic/uk/uk_cone_100.pmc"
+	look_name: default
+	category: "signs/uk"
+
+	dynamic: true
+	distance_type: 0
+	mass: 25
+	road_model: true
+	instanced: false
+}
+
+sign_model : sign.plyk025uk {
+
+	sign_name: "traffic cone, 50 mph"
+
+	model_desc: "/model/sign/traffic/uk/uk_cone_075.pmd"
+	model_coll: "/model/sign/traffic/uk/uk_cone_075.pmc"
+	look_name: default
+	category: "signs/uk"
+
+	dynamic: true
+	distance_type: 0
+	mass: 25
+	road_model: true
+	instanced: false
+}
+
+sign_model : sign.plyk026uk {
+
+	sign_name: "traffic cone, 30 mph"
+
+	model_desc: "/model/sign/traffic/uk/uk_cone_050.pmd"
+	model_coll: "/model/sign/traffic/uk/uk_cone_050.pmc"
+	look_name: default
+	category: "signs/uk"
+
+	dynamic: true
+	distance_type: 0
+	mass: 25
+	road_model: true
+	instanced: false
+}
+
+# ---  ----------------------------------------------------------------
+
+#EOF
+}

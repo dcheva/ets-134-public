@@ -1,0 +1,539 @@
+SiiNunit
+{
+model_def : model.ats001 {
+	model_desc: "/model/uni/ca_rock/ca_cliff_coast01.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats002 {
+	model_desc: "/model/uni/ca_rock/ca_cliff_coast02.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats003 {
+	model_desc: "/model/uni/ca_rock/ca_cliff_coast03.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats004 {
+	model_desc: "/model/uni/ca_rock/ca_cliff_eroded01.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats005 {
+	model_desc: "/model/uni/ca_rock/ca_cliff_rocks01.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats006 {
+	model_desc: "/model/uni/ca_rock/ca_far_hills01.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats007 {
+	model_desc: "/model/uni/ca_rock/ca_far_hills01a.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats008 {
+	model_desc: "/model/uni/ca_rock/ca_far_hills02.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats009 {
+ 	model_desc: "/model/uni/ca_rock/ca_far_shasta.pmd"
+	distance_type: 2
+	category: "snowy rocks"
+}
+model_def : model.ats010 {
+	model_desc: "/model/uni/ca_rock/ca_mid_hills01.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats011 {
+	model_desc: "/model/uni/ca_rock/ca_rock_wall01.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats012 {
+	model_desc: "/model/uni/ca_rock/ca_rock_wall02.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats013 {
+	model_desc: "/model/uni/ca_rock/ca_rock_wall03.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats014 {
+	model_desc: "/model/uni/ca_rock/ca_rock_wall03a.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats015 {
+	model_desc: "/model/uni/ca_rock/ca_stone1.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats016 {
+	model_desc: "/model/uni/ca_rock/ca_stone2.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats017 {
+	vegetation_model: vegetmodel.palm1
+	category: "coastal trees"
+}
+model_def : model.ats018 {
+	vegetation_model: vegetmodel.palm2
+	category: "coastal trees"
+}
+model_def : model.ats019 {
+	vegetation_model: vegetmodel.palm2a
+	category: "coastal trees"
+}
+model_def : model.ats020 {
+	vegetation_model: vegetmodel.palm3
+	category: "coastal trees"
+}
+model_def : model.ats021 {
+	vegetation_model: vegetmodel.palm4
+	category: "coastal trees"
+}
+model_def : model.ats022 {
+	vegetation_model: vegetmodel.palm5
+	category: "coastal trees"
+}
+model_def : model.ats023 {
+	model_desc: "/model/vegetation/coast/tree_hedge.pmd"
+	category: "coastal trees"
+}
+model_def : model.ats025 {
+	model_desc: "/model/vegetation/coast/tree_hedge_purple1.pmd"
+	category: "coastal trees"
+}
+model_def : model.ats026 {
+	model_desc: "/model/vegetation/coast/tree_hedge_purple2.pmd"
+	category: "coastal trees"
+}
+model_def : model.ats027 {
+	model_desc: "/model/vegetation/coast/tree_hedge_red.pmd"
+	category: "coastal trees"
+}
+model_def : model.ats028 {
+	model_desc: "/model/vegetation/coast/tree_hedge_white.pmd"
+	category: "coastal trees"
+}
+model_def : model.ats029 {
+	vegetation_model: vegetmodel.tree_1
+	category: "desert trees"
+}
+model_def : model.ats030 {
+	vegetation_model: vegetmodel.tree_2
+	category: "coastal trees"
+}
+model_def : model.ats031 {
+	vegetation_model: vegetmodel.tree_3
+	category: "desert trees"
+}
+model_def : model.ats032 {
+	vegetation_model: vegetmodel.tree_4
+	category: "desert trees"
+}
+model_def : model.ats033 {
+	vegetation_model: vegetmodel.tree5_orange
+	category: "coastal trees"
+}
+model_def : model.ats034 {
+	vegetation_model: vegetmodel.tree_6
+	category: "coastal trees"
+}
+model_def : model.ats035 {
+	vegetation_model: vegetmodel.tree_7
+	category: "coastal trees"
+}
+model_def : model.ats036 {
+	vegetation_model: vegetmodel.tree_8
+	category: "coastal trees"
+}
+model_def : model.ats037 {
+	vegetation_model: vegetmodel.bush1_inst
+	category: "desert trees"
+}
+model_def : model.ats038 {
+	vegetation_model: vegetmodel.bush2_inst
+	category: "desert trees"
+}
+model_def : model.ats039 {
+	vegetation_model: vegetmodel.bush3_inst
+	category: "desert trees"	
+}
+model_def : model.ats040 {
+	vegetation_model: vegetmodel.pine_1
+	category: "desert trees"
+}
+model_def : model.ats041 {
+	vegetation_model: vegetmodel.pine_2
+	category: "desert trees"
+}
+model_def : model.ats042 {
+	vegetation_model: vegetmodel.pine_3
+	category: "desert trees"
+}
+model_def : model.ats043 {
+	vegetation_model: vegetmodel.pine_4
+	category: "desert trees"
+}
+model_def : model.ats044 {
+	vegetation_model: vegetmodel.pine_5
+	category: "desert trees"
+}
+model_def : model.ats045 {
+	vegetation_model: vegetmodel.saguaro_big
+	category: "desert trees"
+}
+model_def : model.ats046 {
+	vegetation_model: vegetmodel.saguaro_1
+	category: "desert trees"
+}
+model_def : model.ats047 {
+	vegetation_model: vegetmodel.saguaro_2
+	category: "desert trees"
+}
+model_def : model.ats048 {
+	vegetation_model: vegetmodel.saguaro_3
+	category: "desert trees"
+}
+model_def : model.ats049 {
+	model_desc: "/model/vegetation/desert/stone_big1.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats050 {
+	model_desc: "/model/vegetation/desert/stone_big2.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats051 {
+	model_desc: "/model/vegetation/desert/stone_big3.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats052 {
+	model_desc: "/model/vegetation/desert/stone_big4.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats053 {
+	model_desc: "/model/vegetation/desert/stone_small1.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+model_def : model.ats054 {
+	model_desc: "/model/vegetation/desert/stone_small2.pmd"
+	distance_type: 1
+	category: "desert rocks"
+}
+
+model_def : model.ats055 {
+	model_desc: "/model/props/street/posters_01.pmd"
+	category: "props"
+	
+}
+
+model_def : model.ats56 {
+	model_desc: "/model/props/road/road_retard.pmd"
+	
+}
+model_def : model.ats57 {
+	model_desc: "/model/props/road/road_retard2.pmd"
+	
+}
+
+model_def : model.ats58 {
+	category: "props"
+	model_desc: "/model/props/road/road_stripe01.pmd"
+}
+
+model_def : model.ats59 {
+	category: "props"
+	model_desc: "/model/props/road/road_stripe02.pmd"
+}
+
+model_def : model.ats60 {
+	category: "props"
+	model_desc: "/model/props/road/road_stripe03.pmd"
+}
+
+model_def : model.ats61 {
+	category: "props"
+	model_desc: "/model/props/road/road_stripe04.pmd"
+}
+
+model_def : model.ats62 {
+	category: "props"
+	model_desc: "/model/props/road/road_stripe05.pmd"
+}
+
+model_def : model.ats63 {
+	model_desc: "/model/props/street/playground/children_01.pmd"	
+}
+model_def : model.ats64 {
+	model_desc: "/model/props/street/playground/children_02.pmd"	
+}
+model_def : model.ats65 {
+	model_desc: "/model/props/street/playground/children_03.pmd"	
+}
+model_def : model.ats66 {
+	model_desc: "/model/props/street/playground/skatepark.pmd"	
+}
+model_def : model.ats67 {
+	model_desc: "/model/props/street/playground/relaxzone.pmd"
+}
+
+
+
+model_def : model.ats68 {
+	category: "props"
+	model_desc: "/model/ats/props/adv_board3_old.pmd"
+}
+model_def : model.ats69 {
+	category: "props"
+	model_desc: "/model/ats/props/baloons1.pmd"
+}
+model_def : model.ats70 {
+	category: "props"
+	model_desc: "/model/ats/props/garbage1.pmd"
+}
+model_def : model.ats71 {
+	category: "props"
+	model_desc: "/model/ats/props/garbage2.pmd"
+}
+model_def : model.ats72 {
+	category: "props"
+	model_desc: "/model/ats/props/neon_blink_cafe.pmd"
+}
+model_def : model.ats73 {
+	category: "props"
+	model_desc: "/model/ats/props/neon_blink_chemist.pmd"
+}
+model_def : model.ats74 {
+	category: "props"
+	model_desc: "/model/ats/props/neon_blink_cirk.pmd"
+}
+model_def : model.ats75 {
+	category: "props"
+	model_desc: "/model/ats/props/sidewalk_corner.pmd"
+}
+model_def : model.ats76 {
+	category: "props"
+	model_desc: "/model/ats/props/statue_1.pmd"
+}
+model_def : model.ats77 {
+	category: "props"
+	model_desc: "/model/ats/props/sw_drainage.pmd"
+}
+
+model_def : model.ats78 {
+	category: "city"
+	model_desc: "/model/ats/public/train_station.pmd"
+}
+
+model_def : model.ats79 {
+	category: "city"
+	model_desc: "/model/ats/public/north_center.pmd"
+}
+
+model_def : model.ats80 {
+	category: "city"
+	model_desc: "/model/ats/public/station_building.pmd"
+}
+
+model_def : model.ats81 {
+	category: "city"
+	model_desc: "/model/ats/public/nv_admin01.pmd"
+}
+
+model_def : model.ats82 {
+	category: "city"
+	model_desc: "/model/ats/public/nv_admin01_entrance.pmd"
+}
+
+model_def : model.ats83 {
+    category: "houses"
+	model_desc: "/model/ats/terraced/street_house1.pmd"
+	dynamic_lod_desc[]: "/model/ats/terraced/street_house1_lod1.pmd"
+	dynamic_lod_dist[]: 100.0
+	static_lod_name[]: "100m"
+	static_lod_path[]:  "/model/ats/terraced/street_house1_lod1.pmd"
+}
+
+model_def : model.ats84 {
+    category: "houses"
+	model_desc: "/model/ats/terraced/street_house1b.pmd"
+	dynamic_lod_desc[]: "/model/ats/terraced/street_house1b_lod1.pmd"
+	dynamic_lod_dist[]: 100.0
+	static_lod_name[]: "100m"
+	static_lod_path[]:  "/model/ats/terraced/street_house1b_lod1.pmd"
+}
+
+model_def : model.ats85 {
+    category: "houses"
+	model_desc: "/model/ats/terraced/street_house4b.pmd"
+	dynamic_lod_desc[]: "/model/ats/terraced/street_house4b_lod1.pmd"
+	dynamic_lod_dist[]: 100.0
+	static_lod_name[]: "100m"
+	static_lod_path[]:  "/model/ats/terraced/street_house4b_lod1.pmd"
+}
+
+model_def : model.ats86 {
+    category: "houses"
+	model_desc: "/model/ats/terraced/street_house4c.pmd"
+	dynamic_lod_desc[]: "/model/ats/terraced/street_house4c_lod1.pmd"
+	dynamic_lod_dist[]: 100.0
+	static_lod_name[]: "100m"
+	static_lod_path[]:  "/model/ats/terraced/street_house4c_lod1.pmd"
+}
+
+model_def : model.ats87 {
+    category: "houses"
+	model_desc: "/model/ats/terraced/street_house5.pmd"
+	dynamic_lod_desc[]: "/model/ats/terraced/street_house5_lod1.pmd"
+	dynamic_lod_dist[]: 100.0
+	static_lod_name[]: "100m"
+	static_lod_path[]:  "/model/ats/terraced/street_house5_lod1.pmd"
+}
+
+model_def : model.ats88 {
+	category: "ProMods - Vehicles"
+	model_desc: "/model/ats/vehicle/tesla/tesla.pmd"
+}
+
+model_def : model.ats89 {
+	category: "props"
+	model_desc: "/model/ats/props/tire_damage/tire_damage.pmd"	
+	
+}
+
+model_def : model.ats90 {
+	category: "props"
+	model_desc: "/model/ats/props/tire_damage_02/tire_damage_02.pmd"	
+	
+}
+
+model_def : model.ats91 {
+	category: "gas station"
+	model_desc: "/model/ats/building/e_charger/e-charger-station.pmd"	
+	
+}
+
+model_def : model.ats92 {
+	category: "gas station"
+	model_desc: "/model/ats/building/e_charger/e-charger-station-2.pmd"		
+}	
+
+model_def : model.or_103 {
+	category: "props"
+	model_desc: "/model/props/country/or_logs_long.pmd"
+	dynamic_lod_desc[]: "/model/props/country/or_logs_long_lod1.pmd"
+	dynamic_lod_dist[]: 16
+	
+	static_lod_name[]: "lod 50m"
+	static_lod_path[]: "/model/props/country/or_logs_long_lod1.pmd"
+	static_lod_name[]: "lod 150m"
+	static_lod_path[]: "/model/props/country/or_logs_long_lod2.pmd"
+}
+
+model_def : model.or_104 {
+	category: "props"
+	model_desc: "/model/props/country/or_logs_mid.pmd"
+	dynamic_lod_desc[]: "/model/props/country/or_logs_mid_lod1.pmd"
+	dynamic_lod_dist[]: 9
+	
+	static_lod_name[]: "lod 30m"
+	static_lod_path[]: "/model/props/country/or_logs_mid_lod1.pmd"
+	static_lod_name[]: "lod 150m"
+	static_lod_path[]: "/model/props/country/or_logs_mid_lod2.pmd"
+}
+
+model_def : model.or_105 {
+	category: "props"
+	model_desc: "/model/props/country/or_logs_short.pmd"
+	dynamic_lod_desc[]: "/model/props/country/or_logs_short_lod1.pmd"
+	dynamic_lod_dist[]: 17
+	
+	static_lod_name[]: "lod 30m"
+	static_lod_path[]: "/model/props/country/or_logs_short_lod1.pmd"
+	static_lod_name[]: "lod 150m"
+	static_lod_path[]: "/model/props/country/or_logs_short_lod2.pmd"
+}
+
+model_def : model.or_109 {
+	category: "props"
+	model_desc: "/model/props/country/or_logs_pile_small.pmd"
+}
+
+model_def : model.or_110 {
+	category: "props"
+	model_desc: "/model/props/country/or_logs_pile.pmd"
+	dynamic_lod_desc[]: "/model/props/country/or_logs_pile_lod1.pmd"
+	dynamic_lod_dist[]: 34
+	static_lod_name[]: "lod 50m"
+	static_lod_path[]: "/model/props/country/or_logs_pile_lod1.pmd"
+	static_lod_name[]: "lod 150m"
+	static_lod_path[]: "/model/props/country/or_logs_pile_lod2.pmd"
+}
+
+model_def : model.or_344 {
+	category: "props"
+	model_desc: "/model/props/country/or_logs_pile_long.pmd"
+	dynamic_lod_desc[]: "/model/props/country/or_logs_pile_long_lod1.pmd"
+	dynamic_lod_dist[]: 39
+	static_lod_name[]: "lod 50m"
+	static_lod_path[]: "/model/props/country/or_logs_pile_long_lod1.pmd"
+	static_lod_name[]: "lod 150m"
+	static_lod_path[]: "/model/props/country/or_logs_pile_long_lod2.pmd"
+}
+
+model_def : model.or_345 {
+	category: "props"
+	model_desc: "/model/props/country/or_logs_pile_tall.pmd"
+	dynamic_lod_desc[]: "/model/props/country/or_logs_pile_tall_lod1.pmd"
+	dynamic_lod_dist[]: 54
+	static_lod_name[]: "lod 50m"
+	static_lod_path[]: "/model/props/country/or_logs_pile_tall_lod1.pmd"
+	static_lod_name[]: "lod 150m"
+	static_lod_path[]: "/model/props/country/or_logs_pile_tall_lod2.pmd"
+}
+model_def : model.or_352 {
+	category: "props"
+	model_desc: "/model/props/country/or_chip_pile_04.pmd"
+}
+model_def : model.or_353 {
+	category: "props"
+	model_desc: "/model/props/country/or_chip_pile_03.pmd"
+}
+model_def : model.or_354 {
+	category: "props"
+	model_desc: "/model/props/country/or_chip_pile_01.pmd"
+}
+model_def : model.or_355 {
+	category: "props"
+	model_desc: "/model/props/country/or_chip_pile_02.pmd"
+}
+model_def : model.or_359 {
+	category: "props"
+	model_desc: "/model/props/country/or_branch_pile_medium.pmd"
+}
+model_def : model.or_360 {
+	category: "props"
+	model_desc: "/model/props/country/or_branch_pile_small.pmd"
+}
+model_def : model.or_358 {
+	category: "props"
+	model_desc: "/model/props/country/or_branch_pile_big.pmd"
+	static_lod_name[]: "lod 150m"
+	static_lod_path[]: "/model/props/country/or_branch_pile_big_lod1.pmd"
+}
+
+}

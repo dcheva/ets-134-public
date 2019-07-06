@@ -1,0 +1,10 @@
+cargo_data: cargo.truckengines
+{
+	name: "@@cargo_truckengines@@"
+	fragility: 0.7
+	price_coef: 1.789
+	group[]: machinery
+	body_types[]: _truckeng_01
+	body_types[]: _truckeng_02
+	body_types[]: _truckeng_03
+}

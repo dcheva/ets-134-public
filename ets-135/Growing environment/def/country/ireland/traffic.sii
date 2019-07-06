@@ -1,0 +1,199 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+#
+# NOTE: To override a traffic info in your mod, just create a new definition
+# in your definition file (see above) with the same value for 'object' attribute as the one being overridden
+# For each 'object' the LAST LOADED traffic info is used
+#
+
+#################################################
+########### car 
+#################################################
+
+country_traffic_info : .country.info.traffic.a3 {
+	object: traffic.a3
+	spawn_frequency: 0.00
+}
+
+country_traffic_info : .country.info.traffic.accord {
+	object: traffic.accord
+	spawn_frequency: 4.00
+}
+
+country_traffic_info : .country.info.traffic.audi_a6 {
+	object: traffic.audi_a6
+	spawn_frequency: 0.00
+}
+
+country_traffic_info : .country.info.traffic.bmw5 {
+	object: traffic.bmw5
+	spawn_frequency: 0.00
+}
+
+country_traffic_info : .country.info.traffic.mercedes_ce {
+	object: traffic.mercedes_ce
+	spawn_frequency: 0.00
+}
+
+country_traffic_info : .country.info.traffic.golf {
+	object: traffic.golf
+	spawn_frequency: 4.00
+}
+
+country_traffic_info : .country.info.traffic.seat {
+	object: traffic.seat
+	spawn_frequency: 0.00
+}
+
+country_traffic_info : .country.info.traffic.punto {
+	object: traffic.punto
+	spawn_frequency: 0.00
+}
+
+country_traffic_info : .country.info.traffic.qashqai {
+	object: traffic.qashqai
+	spawn_frequency: 2.00
+}
+
+country_traffic_info : .country.info.traffic.jaguar_xf {
+	object: traffic.jaguar_xf
+	spawn_frequency: 3.00
+}
+
+country_traffic_info : .country.info.traffic.lancer_x {
+	object: traffic.lancer_x
+	spawn_frequency: 0.00
+}
+
+country_traffic_info : .country.info.traffic.passat_cc {
+	object: traffic.passat_cc
+	spawn_frequency: 0.00
+}
+
+country_traffic_info : .country.info.traffic.citroen_c4 {
+	object: traffic.citroen_c4
+	spawn_frequency: 0.00
+}
+
+country_traffic_info : .country.info.traffic.megane {
+	object: traffic.megane
+	spawn_frequency: 0.00
+}
+
+country_traffic_info : .country.info.traffic.mini {
+	object: traffic.mini
+	spawn_frequency: 4.00
+}
+
+country_traffic_info : .country.info.traffic.range_rover {
+	object: traffic.range_rover
+	spawn_frequency: 3.00
+}
+
+country_traffic_info : .country.info.traffic.focus_2009 {
+	object: traffic.focus_2009
+	spawn_frequency: 4.00
+}
+
+country_traffic_info : .country.info.traffic.kia_ceed {
+	object: traffic.kia_ceed
+	spawn_frequency: 2.00
+}
+
+country_traffic_info : .country.info.traffic.tourer {
+	object: traffic.tourer
+	spawn_frequency: 0
+}
+
+country_traffic_info : .country.info.traffic.p3008 {
+	object: traffic.p3008
+	spawn_frequency: 0
+}
+
+country_traffic_info : .country.info.traffic.talisman {
+	object: traffic.talisman
+	spawn_frequency: 0.3
+}
+
+country_traffic_info : .country.info.traffic.duck {
+	object: traffic.duck
+	spawn_frequency: 0
+}
+country_traffic_info : .country.info.traffic.ducato.box {
+	object: traffic.ducato.box
+	spawn_frequency: 0.50
+}
+country_traffic_info : .country.info.traffic.ducato.plat {
+	object: traffic.ducato.plat
+	spawn_frequency: 0.05
+}
+country_traffic_info : .country.info.traffic.ducato {
+	object: traffic.ducato
+	spawn_frequency: 0.3
+}
+country_traffic_info : .country.info.traffic.captur {
+	object: traffic.captur
+	spawn_frequency: 0.00
+}
+
+country_traffic_info : .country.info.traffic.a_romeo_159 {
+	object: traffic.a_romeo_159
+	spawn_frequency: 0.20
+}
+
+country_traffic_info : .country.info.traffic.k_ceed_c {
+	object: traffic.k_ceed_c
+	spawn_frequency: 1.00
+}
+
+country_traffic_info : .country.info.traffic.octavia_iii {
+	object: traffic.octavia_iii
+	spawn_frequency: 2.00
+}
+
+country_traffic_info : .country.info.traffic.volvo_xc70 {
+	object: traffic.volvo_xc70
+	spawn_frequency: 2.00
+}
+
+country_traffic_info : .country.info.traffic.vw_touran {
+	object: traffic.vw_touran
+	spawn_frequency: 1.00
+}
+
+country_traffic_info : .country.info.traffic.superb.combi {
+	object: traffic.superb.combi
+	spawn_frequency: 3.0
+}
+country_traffic_info : .country.info.traffic.laguna {
+	object: traffic.laguna
+	spawn_frequency: 0.0
+}
+
+#################################################
+########### police 
+#################################################
+
+country_traffic_info : .country.info.traffic.transit_16 
+{
+	object: traffic.transit_16
+	spawn_frequency: 0.30
+}
+country_traffic_info : .country.info.traffic.transit_16t
+{
+	object: traffic.transit_16.trailer
+	spawn_frequency: 0.05
+}
+country_traffic_info : .country.info.traffic.ducato.uk
+{
+	object: traffic.ducato.uk
+	spawn_frequency: 1
+}
+}

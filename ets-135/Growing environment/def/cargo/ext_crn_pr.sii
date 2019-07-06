@@ -1,0 +1,12 @@
+cargo_data: cargo.ext_crn_pr{
+	name: "@@cargo_ext_crn_pr@@"
+	fragility: 0.6
+	#price_coef: 0.998
+	group[]: containers
+	#volume: 2.6
+	#mass: 668.9
+	#unit_reward_per_km: 0.523
+	#unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

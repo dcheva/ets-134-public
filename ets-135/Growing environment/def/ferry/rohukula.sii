@@ -1,0 +1,9 @@
+﻿###
+# WARNING: Map must be rebuilt when anything is changed here!
+###
+ferry_data: ferry.rohukula
+{
+	ferry_name: "Rohuküla"
+}
+
+

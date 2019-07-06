@@ -1,0 +1,78 @@
+﻿city_data: city.sofia
+{
+	city_name: "София"
+	city_name_localized: "@@sofia@@"
+	country: bulgaria
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"volvo"
+
+	truck_lp_template[]:"0 1111 22"
+
+	truck_lp_def0[]:"CB"
+
+	truck_lp_def1[]:"0"
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+
+	truck_lp_def2[]:"A"
+	truck_lp_def2[]:"B"
+	truck_lp_def2[]:"K"
+	truck_lp_def2[]:"M"
+	truck_lp_def2[]:"H"
+	truck_lp_def2[]:"P"
+	truck_lp_def2[]:"C"
+	truck_lp_def2[]:"T"
+	truck_lp_def2[]:"X"
+
+	ai_lp_template[]:"0 1111 22"
+
+	ai_lp_def0[]:"C"
+	ai_lp_def0[]:"CA"
+	ai_lp_def0[]:"CB"
+
+	ai_lp_def1[]:"0"
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+
+	ai_lp_def2[]:"A"
+	ai_lp_def2[]:"B"
+	ai_lp_def2[]:"K"
+	ai_lp_def2[]:"M"
+	ai_lp_def2[]:"H"
+	ai_lp_def2[]:"P"
+	ai_lp_def2[]:"C"
+	ai_lp_def2[]:"T"
+	ai_lp_def2[]:"X"
+}

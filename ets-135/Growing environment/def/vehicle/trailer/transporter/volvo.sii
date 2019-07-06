@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_cargo_data : cargo.trans.volvo
+{
+	detail_model: "/vehicle/trailer_eu/transporter/cargo_volvo.pmd"
+	model: "/vehicle/trailer_eu/transporter/cargo_volvo.pmd" # traffic
+	lods[]: "/vehicle/trailer_eu/transporter/cargo_volvo.pmd"
+ 
+	variant: default
+	look: default
+
+}
+}

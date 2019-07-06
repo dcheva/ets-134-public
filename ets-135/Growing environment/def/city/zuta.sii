@@ -1,0 +1,73 @@
+city_data: city.zuta
+{
+	city_name: "Žuta Lokva"
+	city_name_localized: "@@zuta@@"
+	country: croatia
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	ai_lp_template[]:"01333-22"
+
+	ai_lp_def0[]:"RI"
+
+	ai_lp_def1[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/croatia/hr.mat color=FFFFFFFF><offset hshift=4 vshift=4>"
+
+	ai_lp_def2[]:"A"
+	ai_lp_def2[]:"B"
+	ai_lp_def2[]:"C"
+	ai_lp_def2[]:"D"
+	ai_lp_def2[]:"E"
+	ai_lp_def2[]:"F"
+	ai_lp_def2[]:"G"
+	ai_lp_def2[]:"H"
+	ai_lp_def2[]:"J"
+	ai_lp_def2[]:"K"
+	ai_lp_def2[]:"L"
+	ai_lp_def2[]:"M"
+	ai_lp_def2[]:"N"
+	ai_lp_def2[]:"P"
+	ai_lp_def2[]:"Q"
+	ai_lp_def2[]:"R"
+	ai_lp_def2[]:"S"
+	ai_lp_def2[]:"T"
+	ai_lp_def2[]:"U"
+	ai_lp_def2[]:"V"
+	ai_lp_def2[]:"X"
+	ai_lp_def2[]:"Y"
+
+	ai_lp_def3[]:"1"
+	ai_lp_def3[]:"2"
+	ai_lp_def3[]:"3"
+	ai_lp_def3[]:"4"
+	ai_lp_def3[]:"5"
+	ai_lp_def3[]:"6"
+	ai_lp_def3[]:"7"
+	ai_lp_def3[]:"8"
+	ai_lp_def3[]:"9"
+	ai_lp_def3[]:"0"
+}

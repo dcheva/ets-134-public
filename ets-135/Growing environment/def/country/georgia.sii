@@ -1,0 +1,21 @@
+
+country_data: country.data.georgia
+{
+	name: "საქართველო"
+	name_localized: "@@georgia@@"
+	country_code: "GE"
+	pos:(127000, 0, 37000)
+	fuel_price: 0.82
+	country_id: 24
+	lights_mandatory: false
+	leftside_traffic: true
+	driving_tired_offence: true
+
+	time_zone: 240		# +4 hours in minutes
+	time_zone_name: "GET"
+	mass_limit_per_axle_count[]: 22500	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 32500
+	mass_limit_per_axle_count[]: 44000
+	mass_limit_per_axle_count[]: 44000
+}
+

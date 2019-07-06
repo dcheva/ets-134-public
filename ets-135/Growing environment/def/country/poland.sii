@@ -1,0 +1,24 @@
+
+country_data: country.data.poland
+{
+	country_id: 8
+	name: "Polska"
+	name_localized: "@@poland@@"
+	country_code: "PL"
+
+	pos: (32130, 0, -8330)
+
+	fuel_price: 1.2
+
+	lights_mandatory: true
+	driving_tired_offence: true
+
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 26000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+}
+

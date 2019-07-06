@@ -1,0 +1,9 @@
+SiiNunit
+{
+
+model_def : model.001nl {
+ 	model_desc: "/model/netherlands/city/veldhoven_asml.pmd"
+	distance_type: 3
+        category: "NL buildings"
+}
+}

@@ -1,0 +1,20 @@
+SiiNunit
+{
+overlay_def : .overlay {
+
+	city_names[]: "fo_kirkju_b"
+	city_names[]: "fo_klaksv_b"
+	city_names[]: "fo_oyndfj_b"
+	city_names[]: "fo_oyrarb_b"
+	city_names[]: "fo_runavi_b"
+	city_names[]: "fo_sorvag_b"
+	city_names[]: "fo_torsha_b"
+	city_names[]: "fo_tvoroy_b"
+	city_names[]: "fo_floghv_b"
+
+	road_names[]: "fo_rv10"
+	road_names[]: "fo_rv11"
+
+}
+
+}

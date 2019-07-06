@@ -1,0 +1,151 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+
+tr_semaphore_model : tr_sem_mdl.single_s {
+
+	name: "single_s"
+
+#	model_desc: "/model/traffic_light/single_small.pmd"
+#	model_coll: "/model/traffic_light/single_small.pmc"
+
+	model_desc: "/model/traffic_light/single_small_dummy.pmd"
+	model_coll: "/model/traffic_light/single_small_dummy.pmc"
+	
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_s.a {
+
+	name: "single_s-a"
+
+	model_desc: "/model/traffic_light/single_small_au.pmd"
+	model_coll: "/model/traffic_light/single_small_au.pmc"
+	
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+}
+tr_semaphore_model : tr_sem_mdl.single_s.cz {
+
+	name: "single_s-cz"
+
+	model_desc: "/model/traffic_light/single_small_cz.pmd"
+	model_coll: "/model/traffic_light/single_small_cz.pmc"
+
+	
+
+}
+tr_semaphore_model : tr_sem_mdl.single_s.d {
+
+	name: "single_s-d"
+
+	model_desc: "/model/traffic_light/single_small_de.pmd"
+	model_coll: "/model/traffic_light/single_small_de.pmc"
+	
+
+}
+tr_semaphore_model : tr_sem_mdl.single_s.e {
+
+	name: "single_s-e"
+
+	model_desc: "/model/traffic_light/single_small_es.pmd"
+	model_coll: "/model/traffic_light/single_small_es.pmc"
+	
+
+}
+tr_semaphore_model : tr_sem_mdl.single_s.i {
+
+	name: "single_s-i"
+
+	model_desc: "/model/traffic_light/single_small_it.pmd"
+	model_coll: "/model/traffic_light/single_small_it.pmc"
+	
+
+}
+tr_semaphore_model : tr_sem_mdl.single_s.f {
+
+	name: "single_s-f"
+
+	model_desc: "/model/traffic_light/single_small_fr.pmd"
+	model_coll: "/model/traffic_light/single_small_fr.pmc"
+	
+
+}
+tr_semaphore_model : tr_sem_mdl.single_s.ch {
+
+	name: "single_s-ch"
+
+	model_desc: "/model/traffic_light/single_small_ch.pmd"
+	model_coll: "/model/traffic_light/single_small_ch.pmc"
+	
+
+}
+tr_semaphore_model : tr_sem_mdl.single_s.nl {
+
+	name: "single_s-nl"
+
+	model_desc: "/model/traffic_light/single_small_nl.pmd"
+	model_coll: "/model/traffic_light/single_small_nl.pmc"
+	
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_s.l {
+
+	name: "single_s-l"
+
+	model_desc: "/model/traffic_light/single_small_be.pmd"
+	model_coll: "/model/traffic_light/single_small_be.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_s.b {
+
+	name: "single_s-b"
+
+	model_desc: "/model/traffic_light/single_small_be.pmd"
+	model_coll: "/model/traffic_light/single_small_be.pmc"
+	
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_s.h {
+
+	name: "single_s-h"
+
+	model_desc: "/model/traffic_light/single_small_hu.pmd"
+	model_coll: "/model/traffic_light/single_small_hu.pmc"
+	
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_s.gr {
+
+	name: "single_s-gr"
+
+	model_desc: "/model/traffic_light/greece/single_small_gr.pmd"
+	model_coll: "/model/traffic_light/greece/single_small_gr.pmc"
+	
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_s.pl {
+
+	name: "single_s-pl"
+
+#	model_desc: "/model/traffic_light/single_small_pl.pmd"
+#	model_coll: "/model/traffic_light/single_small_pl.pmc"
+
+	model_desc: "/model/traffic_light/single_small_dummy.pmd"
+	model_coll: "/model/traffic_light/single_small_dummy.pmc"
+	
+
+}
+}

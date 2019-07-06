@@ -1,0 +1,9 @@
+cargo_data: cargo.skir_bo{
+	name: "@@cargo_skir_bo@@"
+	fragility: 0.7
+	price_coef: 1.001
+	group[]: containers
+	body_types[]: _skirbo_01
+	body_types[]: _skirbo_02
+	body_types[]: _skirbo_03
+	}

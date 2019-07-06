@@ -1,0 +1,241 @@
+SiiNunit
+{
+
+# 
+# TRAFFIC LIGHT GANTRIES
+#
+
+
+## GERMANY ##
+sign_model : sign.tlgantde01 {
+
+	sign_name: "Traffic Light Gantry DE - Arm 1 lane"
+
+
+	model_desc: "/model/traffic_light/big_junctions/de/traffic_light_arm1_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/traffic_light_arm1_de.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.tlgantde02 {
+
+	sign_name: "Traffic Light Gantry DE - Arm 2 lanes"
+
+
+	model_desc: "/model/traffic_light/big_junctions/de/traffic_light_arm2_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/traffic_light_arm2_de.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.tlgantde03 {
+
+	sign_name: "Traffic Light Gantry DE - Arm 3 lanes"
+
+
+	model_desc: "/model/traffic_light/big_junctions/de/traffic_light_arm3_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/traffic_light_arm3_de.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.tlgantde04 {
+
+	sign_name: "Traffic Light Gantry DE - Post"
+
+
+	model_desc: "/model/traffic_light/big_junctions/de/traffic_light_post1_de.pmd"
+	model_coll: "/model/traffic_light/big_junctions/de/traffic_light_post1_de.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+## NETHERLANDS ##
+sign_model : sign.tlgantnl01 {
+
+	sign_name: "Traffic Light Gantry NL - Arm 1 lane"
+
+
+	model_desc: "/model/traffic_light/big_junctions/nl/traffic_light_arm1_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/traffic_light_arm1_nl.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.tlgantnl02 {
+
+	sign_name: "Traffic Light Gantry NL - Arm 2 lanes"
+
+
+	model_desc: "/model/traffic_light/big_junctions/nl/traffic_light_arm2_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/traffic_light_arm2_nl.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.tlgantnl03 {
+
+	sign_name: "Traffic Light Gantry NL - Arm 3 lanes"
+
+
+	model_desc: "/model/traffic_light/big_junctions/nl/traffic_light_arm3_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/traffic_light_arm3_nl.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.tlgantnl04 {
+
+	sign_name: "Traffic Light Gantry NL - Post"
+
+
+	model_desc: "/model/traffic_light/big_junctions/nl/traffic_light_post1_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/traffic_light_post1_nl.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.tlgantnl05 {
+
+	sign_name: "Traffic Light Gantry NL - Gantry 2 lanes"
+
+
+	model_desc: "/model/traffic_light/big_junctions/nl/traffic_light_gantry2_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/traffic_light_gantry2_nl.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.tlgantnl06 {
+
+	sign_name: "Traffic Light Gantry NL - Gantry 3 lanes"
+
+
+	model_desc: "/model/traffic_light/big_junctions/nl/traffic_light_gantry3_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/traffic_light_gantry3_nl.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.tlgantnl07 {
+
+	sign_name: "Traffic Light Gantry NL - Gantry 4 lanes"
+
+
+	model_desc: "/model/traffic_light/big_junctions/nl/traffic_light_gantry4_nl.pmd"
+	model_coll: "/model/traffic_light/big_junctions/nl/traffic_light_gantry4_nl.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+
+## ICELAND ##
+sign_model : sign.tlgantis01 {
+
+	sign_name: "Traffic Light Gantry IS - Arm 1 lane"
+
+
+	model_desc: "/model/traffic_light/big_junctions/is/traffic_light_arm1_is.pmd"
+	model_coll: "/model/traffic_light/big_junctions/is/traffic_light_arm1_is.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.tlgantis02 {
+
+	sign_name: "Traffic Light Gantry IS - Arm 2 lanes"
+
+
+	model_desc: "/model/traffic_light/big_junctions/is/traffic_light_arm2_is.pmd"
+	model_coll: "/model/traffic_light/big_junctions/is/traffic_light_arm2_is.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.tlgantis05 {
+
+	sign_name: "Traffic Light Gantry IS - Gantry 2 lanes"
+
+
+	model_desc: "/model/traffic_light/big_junctions/is/traffic_light_gantry2_is.pmd"
+	model_coll: "/model/traffic_light/big_junctions/is/traffic_light_gantry2_is.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.tlgantis06 {
+
+	sign_name: "Traffic Light Gantry IS - Gantry 3 lanes"
+
+
+	model_desc: "/model/traffic_light/big_junctions/is/traffic_light_gantry3_is.pmd"
+	model_coll: "/model/traffic_light/big_junctions/is/traffic_light_gantry3_is.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+sign_model : sign.tlgantis07 {
+
+	sign_name: "Traffic Light Gantry IS - Gantry 4 lanes"
+
+
+	model_desc: "/model/traffic_light/big_junctions/is/traffic_light_gantry4_is.pmd"
+	model_coll: "/model/traffic_light/big_junctions/is/traffic_light_gantry4_is.pmc"
+	look_name: default
+	category: "traffic light gantries"
+	mass: 100
+	dynamic: false
+	road_model: false
+	distance_type: 2
+}
+
+#
+# EOF
+#
+}

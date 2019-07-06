@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_wheel_data : chrome.rwheel
+{
+	name: "Chrome Rear Wheels"
+	price: 3650
+	unlock: 0
+//	icon: "wr_steel"
+	model: "/vehicle/wheel/chrome/rear.pmd"
+}
+}

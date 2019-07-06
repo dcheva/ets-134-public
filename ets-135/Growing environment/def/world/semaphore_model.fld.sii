@@ -1,0 +1,14 @@
+SiiNunit
+{
+# by FLD / TZ express map
+tr_semaphore_model : tr_sem_mdl.cityonefld {
+
+	name: "city_one_fld"
+	
+	model_desc: "/model/traffic_light/city_one_fld.pmd"
+	model_coll: "/model/traffic_light/city_one_fld.pmc"
+
+
+}
+
+}

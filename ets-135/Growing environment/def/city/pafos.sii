@@ -1,0 +1,78 @@
+﻿city_data: city.pafos
+{
+	city_name: "Πάφος"
+	city_name_localized: "@@pafos@@"
+	country: cyprus
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	vehicle_brands[]:"mercedes"
+
+	truck_lp_template[]:"011 222"
+
+	truck_lp_def0[]:"H"
+	truck_lp_def0[]:"K"
+	truck_lp_def0[]:"L"
+	truck_lp_def0[]:"M"
+
+	truck_lp_def1[]:"A"
+	truck_lp_def1[]:"B"
+	truck_lp_def1[]:"C"
+	truck_lp_def1[]:"D"
+	truck_lp_def1[]:"E"
+	truck_lp_def1[]:"F"
+	truck_lp_def1[]:"G"
+	truck_lp_def1[]:"H"
+	truck_lp_def1[]:"J"
+	truck_lp_def1[]:"K"
+	truck_lp_def1[]:"L"
+	truck_lp_def1[]:"M"
+	truck_lp_def1[]:"N"
+	truck_lp_def1[]:"O"
+	truck_lp_def1[]:"P"
+	truck_lp_def1[]:"R"
+	truck_lp_def1[]:"S"
+	truck_lp_def1[]:"T"
+	truck_lp_def1[]:"U"
+	truck_lp_def1[]:"V"
+	truck_lp_def1[]:"X"
+	truck_lp_def1[]:"Y"
+	truck_lp_def1[]:"Z"
+
+	truck_lp_def2[]:"0"
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+}

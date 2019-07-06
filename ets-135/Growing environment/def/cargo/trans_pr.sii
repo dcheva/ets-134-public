@@ -1,0 +1,9 @@
+cargo_data: cargo.trans_pr{
+	name: "@@cargo_trans_pr@@"
+	fragility: 0.7
+	price_coef: 1.12
+	group[]: containers
+	body_types[]: _transprf_01
+	body_types[]: _transprf_02
+	body_types[]: _transprf_03
+	}

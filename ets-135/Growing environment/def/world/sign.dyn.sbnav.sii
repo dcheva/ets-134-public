@@ -1,0 +1,3865 @@
+SiiNunit
+{
+
+### POLAND ###
+
+sign_model : sign.sbnavpl01a {
+
+	sign_name: "PL - Board 0.5x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x1lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl01b {
+
+	sign_name: "PL - Board 0.5x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x1lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl01c {
+
+	sign_name: "PL - Board 0.5x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x1lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl02a {
+
+	sign_name: "PL - Board 0.5x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x2lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl02b {
+
+	sign_name: "PL - Board 0.5x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x2lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl02c {
+
+	sign_name: "PL - Board 0.5x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x2lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl03a {
+
+	sign_name: "PL - Board 0.5x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x3lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl03b {
+
+	sign_name: "PL - Board 0.5x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x3lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl03c {
+
+	sign_name: "PL - Board 0.5x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x3lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl04a {
+
+	sign_name: "PL - Board 0.5x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x4lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl04b {
+
+	sign_name: "PL - Board 0.5x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x4lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl04c {
+
+	sign_name: "PL - Board 0.5x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x4lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl05a {
+
+	sign_name: "PL - Board 0.5x5 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x5lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl05b {
+
+	sign_name: "PL - Board 0.5x5 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x5lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl05c {
+
+	sign_name: "PL - Board 0.5x5 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x5lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl06a {
+
+	sign_name: "PL - Board 0.5x6 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x6lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl06b {
+
+	sign_name: "PL - Board 0.5x6 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x6lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl06c {
+
+	sign_name: "PL - Board 0.5x6 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x6lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl07a {
+
+	sign_name: "PL - Board 0.5x7 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x7lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl07b {
+
+	sign_name: "PL - Board 0.5x7 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x7lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl07c {
+
+	sign_name: "PL - Board 0.5x7 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.5x7lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl08a {
+
+	sign_name: "PL - Board 1x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x1lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl08b {
+
+	sign_name: "PL - Board 1x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x1lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl08c {
+
+	sign_name: "PL - Board 1x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x1lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl09a {
+
+	sign_name: "PL - Board 1x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x2lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl09b {
+
+	sign_name: "PL - Board 1x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x2lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl09c {
+
+	sign_name: "PL - Board 1x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x2lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl10a {
+
+	sign_name: "PL - Board 1x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x3lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl10b {
+
+	sign_name: "PL - Board 1x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x3lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl10c {
+
+	sign_name: "PL - Board 1x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x3lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl11a {
+
+	sign_name: "PL - Board 1x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x4lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl11b {
+
+	sign_name: "PL - Board 1x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x4lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl11c {
+
+	sign_name: "PL - Board 1x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x4lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl12a {
+
+	sign_name: "PL - Board 1x5 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x5lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl12b {
+
+	sign_name: "PL - Board 1x5 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x5lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl12c {
+
+	sign_name: "PL - Board 1x5 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x5lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl13a {
+
+	sign_name: "PL - Board 1x6 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x6lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl13b {
+
+	sign_name: "PL - Board 1x6 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x6lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl13c {
+
+	sign_name: "PL - Board 1x6 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x6lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl14a {
+
+	sign_name: "PL - Board 1x7 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x7lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl14b {
+
+	sign_name: "PL - Board 1x7 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x7lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl14c {
+
+	sign_name: "PL - Board 1x7 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x7lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl15a {
+
+	sign_name: "PL - Board 2x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x1lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl15b {
+
+	sign_name: "PL - Board 2x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x1lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl16a {
+
+	sign_name: "PL - Board 2x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x2lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl16b {
+
+	sign_name: "PL - Board 2x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x2lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl16c {
+
+	sign_name: "PL - Board 2x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x2lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl17a {
+
+	sign_name: "PL - Board 2x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x3lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl17b {
+
+	sign_name: "PL - Board 2x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x3lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl17c {
+
+	sign_name: "PL - Board 2x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x3lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl18a {
+
+	sign_name: "PL - Board 2x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x4lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl18b {
+
+	sign_name: "PL - Board 2x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x4lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl18c {
+
+	sign_name: "PL - Board 2x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x4lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl19a {
+
+	sign_name: "PL - Board 2x5 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x5lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl19b {
+
+	sign_name: "PL - Board 2x5 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x5lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl19c {
+
+	sign_name: "PL - Board 2x5 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x5lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl20a {
+
+	sign_name: "PL - Board 2x6 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x6lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl20b {
+
+	sign_name: "PL - Board 2x6 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x6lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl20c {
+
+	sign_name: "PL - Board 2x6 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x6lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl21a {
+
+	sign_name: "PL - Board 2x7 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x7lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl21b {
+
+	sign_name: "PL - Board 2x7 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x7lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl21c {
+
+	sign_name: "PL - Board 2x7 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_2x7lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl22a {
+
+	sign_name: "PL - MOP 2x2"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_mop_2x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_mop_2x2.pmc"
+	look_name: default
+	
+	stand_classes[]: plmop2x2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl22b {
+
+	sign_name: "PL - MOP 2x2 name"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_mop_2x2name.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_mop_2x2name.pmc"
+	look_name: default
+	
+	stand_classes[]: plmop2x2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl23a {
+
+	sign_name: "PL - MOP 1x3"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_mop_1x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_mop_1x3.pmc"
+	look_name: default
+	
+	stand_classes[]: plmop1x3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl23b {
+
+	sign_name: "PL - MOP 1x3 name"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_mop_1x3name.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_mop_1x3name.pmc"
+	look_name: default
+	
+	stand_classes[]: plmop1x3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl24a {
+
+	sign_name: "PL - MOP 2x3"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_mop_2x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_mop_2x3.pmc"
+	look_name: default
+	
+	stand_classes[]: plmop2x3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl24b {
+
+	sign_name: "PL - MOP 2x3 name"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_mop_2x3name.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_mop_2x3name.pmc"
+	look_name: default
+	
+	stand_classes[]: plmop2x3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl25a {
+
+	sign_name: "PL - Board 4x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x1lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl25b {
+
+	sign_name: "PL - Board 4x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x1lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl25c {
+
+	sign_name: "PL - Board 4x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x1lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl26a {
+
+	sign_name: "PL - Board 4x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x2lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl26b {
+
+	sign_name: "PL - Board 4x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x2lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl26c {
+
+	sign_name: "PL - Board 4x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x2lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl27a {
+
+	sign_name: "PL - Board 4x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x3lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl27b {
+
+	sign_name: "PL - Board 4x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x3lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl27c {
+
+	sign_name: "PL - Board 4x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x3lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl28a {
+
+	sign_name: "PL - Board 4x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x4lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl28b {
+
+	sign_name: "PL - Board 4x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x4lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl28c {
+
+	sign_name: "PL - Board 4x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x4lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl29a {
+
+	sign_name: "PL - Board 4x5 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x5lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl29b {
+
+	sign_name: "PL - Board 4x5 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x5lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl29c {
+
+	sign_name: "PL - Board 4x5 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x5lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl30a {
+
+	sign_name: "PL - Board 4x6 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x6lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl30b {
+
+	sign_name: "PL - Board 4x6 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x6lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl30c {
+
+	sign_name: "PL - Board 4x6 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x6lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl31a {
+
+	sign_name: "PL - Board 4x7 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x7lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl31b {
+
+	sign_name: "PL - Board 4x7 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x7lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl31c {
+
+	sign_name: "PL - Board 4x7 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_4x7lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl32a {
+
+	sign_name: "PL - Board 0.75x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x1lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl32b {
+
+	sign_name: "PL - Board 0.75x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x1lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl32c {
+
+	sign_name: "PL - Board 0.75x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x1lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl33a {
+
+	sign_name: "PL - Board 0.75x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x2lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl33b {
+
+	sign_name: "PL - Board 0.75x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x2lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl33c {
+
+	sign_name: "PL - Board 0.75x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x2lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl34a {
+
+	sign_name: "PL - Board 0.75x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x3lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl34b {
+
+	sign_name: "PL - Board 0.75x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x3lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl34c {
+
+	sign_name: "PL - Board 0.75x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x3lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl35a {
+
+	sign_name: "PL - Board 0.75x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x4lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl35b {
+
+	sign_name: "PL - Board 0.75x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x4lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl35c {
+
+	sign_name: "PL - Board 0.75x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x4lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl36a {
+
+	sign_name: "PL - Board 0.75x5 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x5lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl36b {
+
+	sign_name: "PL - Board 0.75x5 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x5lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl36c {
+
+	sign_name: "PL - Board 0.75x5 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x5lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl37a {
+
+	sign_name: "PL - Board 0.75x6 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x6lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl37b {
+
+	sign_name: "PL - Board 0.75x6 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x6lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl37c {
+
+	sign_name: "PL - Board 0.75x6 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x6lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl38a {
+
+	sign_name: "PL - Board 0.75x7 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x7lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl38b {
+
+	sign_name: "PL - Board 0.75x7 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x7lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl38c {
+
+	sign_name: "PL - Board 0.75x7 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_0.75x7lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl39a {
+
+	sign_name: "PL - Board 3x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x1lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl39b {
+
+	sign_name: "PL - Board 3x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x1lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl39c {
+
+	sign_name: "PL - Board 3x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x1lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x1lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl1height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl40a {
+
+	sign_name: "PL - Board 3x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x2lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl40b {
+
+	sign_name: "PL - Board 3x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x2lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl40c {
+
+	sign_name: "PL - Board 3x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x2lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x2lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl2height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl41a {
+
+	sign_name: "PL - Board 3x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x3lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl41b {
+
+	sign_name: "PL - Board 3x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x3lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl41c {
+
+	sign_name: "PL - Board 3x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x3lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x3lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl3height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl42a {
+
+	sign_name: "PL - Board 3x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x4lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl42b {
+
+	sign_name: "PL - Board 3x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x4lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl42c {
+
+	sign_name: "PL - Board 3x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x4lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x4lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl4height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl43a {
+
+	sign_name: "PL - Board 3x5 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x5lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl43b {
+
+	sign_name: "PL - Board 3x5 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x5lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl43c {
+
+	sign_name: "PL - Board 3x5 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x5lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x5lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl5height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl44a {
+
+	sign_name: "PL - Board 3x6 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x6lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl44b {
+
+	sign_name: "PL - Board 3x6 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x6lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl44c {
+
+	sign_name: "PL - Board 3x6 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x6lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x6lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl6height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl45a {
+
+	sign_name: "PL - Board 3x7 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x7lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl45b {
+
+	sign_name: "PL - Board 3x7 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x7lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl45c {
+
+	sign_name: "PL - Board 3x7 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x7lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_3x7lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl46a {
+
+	sign_name: "PL - Board 1x8 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x8lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x8lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl46b {
+
+	sign_name: "PL - Board 1x8 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x8lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x8lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl46c {
+
+	sign_name: "PL - Board 1x8 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x8lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x8lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl47a {
+
+	sign_name: "PL - Board 1x9 green"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x9lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x9lines.pmc"
+	look_name: green
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl47b {
+
+	sign_name: "PL - Board 1x9 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x9lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x9lines.pmc"
+	look_name: blue
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl47c {
+
+	sign_name: "PL - Board 1x9 white"
+
+	model_desc: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x9lines.pmd"
+	model_coll: "/model/sign/navigation/sbnav/dyn_sbnavsigns_pl_board_1x9lines.pmc"
+	look_name: white
+	
+	stand_classes[]: pl7height
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+
+#  CHEVRONS
+
+sign_model : sign.sbnavpl48a {
+
+	sign_name: "PL - Chevron Right 1x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x1.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl48b {
+
+	sign_name: "PL - Chevron Right 1x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x1.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl48c {
+
+	sign_name: "PL - Chevron Right 1x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x1.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl49a {
+
+	sign_name: "PL - Chevron Right 1x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x2.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl49b {
+
+	sign_name: "PL - Chevron Right 1x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x2.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl49c {
+
+	sign_name: "PL - Chevron Right 1x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x2.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl50a {
+
+	sign_name: "PL - Chevron Right 1x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x3.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl50b {
+
+	sign_name: "PL - Chevron Right 1x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x3.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl50c {
+
+	sign_name: "PL - Chevron Right 1x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x3.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl51a {
+
+	sign_name: "PL - Chevron Right 1x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x4.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl51b {
+
+	sign_name: "PL - Chevron Right 1x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x4.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl51c {
+
+	sign_name: "PL - Chevron Right 1x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_1x4.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl51aa {
+
+	sign_name: "PL - Chevron Right 2x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x1.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl51bb {
+
+	sign_name: "PL - Chevron Right 2x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x1.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl51cc {
+
+	sign_name: "PL - Chevron Right 2x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x1.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl52a {
+
+	sign_name: "PL - Chevron Right 2x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x2.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl52b {
+
+	sign_name: "PL - Chevron Right 2x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x2.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl52c {
+
+	sign_name: "PL - Chevron Right 2x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x2.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl53a {
+
+	sign_name: "PL - Chevron Right 2x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x3.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl53b {
+
+	sign_name: "PL - Chevron Right 2x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x3.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl53c {
+
+	sign_name: "PL - Chevron Right 2x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x3.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl54a {
+
+	sign_name: "PL - Chevron Right 2x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x4.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl54b {
+
+	sign_name: "PL - Chevron Right 2x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x4.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl54c {
+
+	sign_name: "PL - Chevron Right 2x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_2x4.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl55a {
+
+	sign_name: "PL - Chevron Right 3x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x1.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl55b {
+
+	sign_name: "PL - Chevron Right 3x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x1.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl55c {
+
+	sign_name: "PL - Chevron Right 3x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x1.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl56a {
+
+	sign_name: "PL - Chevron Right 3x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x2.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl56b {
+
+	sign_name: "PL - Chevron Right 3x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x2.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl56c {
+
+	sign_name: "PL - Chevron Right 3x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x2.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl57a {
+
+	sign_name: "PL - Chevron Right 3x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x3.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl57b {
+
+	sign_name: "PL - Chevron Right 3x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x3.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl57c {
+
+	sign_name: "PL - Chevron Right 3x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x3.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl58a {
+
+	sign_name: "PL - Chevron Right 3x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x4.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl58b {
+
+	sign_name: "PL - Chevron Right 3x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x4.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl58c {
+
+	sign_name: "PL - Chevron Right 3x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_3x4.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl59a {
+
+	sign_name: "PL - Chevron Right 4x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x1.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl59b {
+
+	sign_name: "PL - Chevron Right 4x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x1.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl59c {
+
+	sign_name: "PL - Chevron Right 4x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x1.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl60a {
+
+	sign_name: "PL - Chevron Right 4x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x2.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl60b {
+
+	sign_name: "PL - Chevron Right 4x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x2.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl60c {
+
+	sign_name: "PL - Chevron Right 4x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x2.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl61a {
+
+	sign_name: "PL - Chevron Right 4x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x3.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl61b {
+
+	sign_name: "PL - Chevron Right 4x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x3.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl61c {
+
+	sign_name: "PL - Chevron Right 4x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x3.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl62a {
+
+	sign_name: "PL - Chevron Right 4x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x4.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl62b {
+
+	sign_name: "PL - Chevron Right 4x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x4.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl62c {
+
+	sign_name: "PL - Chevron Right 4x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_4x4.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl63a {
+
+	sign_name: "PL - Chevron Right 5x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x1.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl63b {
+
+	sign_name: "PL - Chevron Right 5x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x1.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl63c {
+
+	sign_name: "PL - Chevron Right 5x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x1.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl64a {
+
+	sign_name: "PL - Chevron Right 5x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x2.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl64b {
+
+	sign_name: "PL - Chevron Right 5x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x2.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl64c {
+
+	sign_name: "PL - Chevron Right 5x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x2.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl65a {
+
+	sign_name: "PL - Chevron Right 5x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x3.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl65b {
+
+	sign_name: "PL - Chevron Right 5x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x3.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl65c {
+
+	sign_name: "PL - Chevron Right 5x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x3.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl66a {
+
+	sign_name: "PL - Chevron Right 5x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x4.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl66b {
+
+	sign_name: "PL - Chevron Right 5x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x4.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl66c {
+
+	sign_name: "PL - Chevron Right 5x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_right_5x4.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl67a {
+
+	sign_name: "PL - Chevron Left 1x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x1.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl67b {
+
+	sign_name: "PL - Chevron Left 1x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x1.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl67c {
+
+	sign_name: "PL - Chevron Left 1x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x1.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl68a {
+
+	sign_name: "PL - Chevron Left 1x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x2.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl68b {
+
+	sign_name: "PL - Chevron Left 1x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x2.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl68c {
+
+	sign_name: "PL - Chevron Left 1x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x2.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl69a {
+
+	sign_name: "PL - Chevron Left 1x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x3.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl69b {
+
+	sign_name: "PL - Chevron Left 1x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x3.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl69c {
+
+	sign_name: "PL - Chevron Left 1x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x3.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl70a {
+
+	sign_name: "PL - Chevron Left 1x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x4.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl70b {
+
+	sign_name: "PL - Chevron Left 1x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x4.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl70c {
+
+	sign_name: "PL - Chevron Left 1x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_1x4.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl71a {
+
+	sign_name: "PL - Chevron Left 2x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x1.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl71b {
+
+	sign_name: "PL - Chevron Left 2x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x1.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl71c {
+
+	sign_name: "PL - Chevron Left 2x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x1.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl72a {
+
+	sign_name: "PL - Chevron Left 2x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x2.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl72b {
+
+	sign_name: "PL - Chevron Left 2x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x2.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl72c {
+
+	sign_name: "PL - Chevron Left 2x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x2.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl73a {
+
+	sign_name: "PL - Chevron Left 2x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x3.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl73b {
+
+	sign_name: "PL - Chevron Left 2x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x3.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl73c {
+
+	sign_name: "PL - Chevron Left 2x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x3.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl74a {
+
+	sign_name: "PL - Chevron Left 2x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x4.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl74b {
+
+	sign_name: "PL - Chevron Left 2x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x4.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl74c {
+
+	sign_name: "PL - Chevron Left 2x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_2x4.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl75a {
+
+	sign_name: "PL - Chevron Left 3x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x1.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl75b {
+
+	sign_name: "PL - Chevron Left 3x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x1.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl75c {
+
+	sign_name: "PL - Chevron Left 3x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x1.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl76a {
+
+	sign_name: "PL - Chevron Left 3x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x2.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl76b {
+
+	sign_name: "PL - Chevron Left 3x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x2.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl76c {
+
+	sign_name: "PL - Chevron Left 3x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x2.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl77a {
+
+	sign_name: "PL - Chevron Left 3x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x3.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl77b {
+
+	sign_name: "PL - Chevron Left 3x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x3.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl77c {
+
+	sign_name: "PL - Chevron Left 3x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x3.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl78a {
+
+	sign_name: "PL - Chevron Left 3x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x4.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl78b {
+
+	sign_name: "PL - Chevron Left 3x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x4.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl78c {
+
+	sign_name: "PL - Chevron Left 3x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_3x4.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl79a {
+
+	sign_name: "PL - Chevron Left 4x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x1.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl79b {
+
+	sign_name: "PL - Chevron Left 4x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x1.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl79c {
+
+	sign_name: "PL - Chevron Left 4x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x1.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl80a {
+
+	sign_name: "PL - Chevron Left 4x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x2.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl80b {
+
+	sign_name: "PL - Chevron Left 4x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x2.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl80c {
+
+	sign_name: "PL - Chevron Left 4x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x2.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl81a {
+
+	sign_name: "PL - Chevron Left 4x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x3.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl81b {
+
+	sign_name: "PL - Chevron Left 4x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x3.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl81c {
+
+	sign_name: "PL - Chevron Left 4x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x3.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl82a {
+
+	sign_name: "PL - Chevron Left 4x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x4.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl82b {
+
+	sign_name: "PL - Chevron Left 4x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x4.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl82c {
+
+	sign_name: "PL - Chevron Left 4x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_4x4.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl83a {
+
+	sign_name: "PL - Chevron Left 5x1 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x1.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl83b {
+
+	sign_name: "PL - Chevron Left 5x1 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x1.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl83c {
+
+	sign_name: "PL - Chevron Left 5x1 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x1.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x1.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn1
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl84a {
+
+	sign_name: "PL - Chevron Left 5x2 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x2.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl84b {
+
+	sign_name: "PL - Chevron Left 5x2 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x2.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl84c {
+
+	sign_name: "PL - Chevron Left 5x2 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x2.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x2.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn2
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl85a {
+
+	sign_name: "PL - Chevron Left 5x3 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x3.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl85b {
+
+	sign_name: "PL - Chevron Left 5x3 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x3.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl85c {
+
+	sign_name: "PL - Chevron Left 5x3 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x3.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x3.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn3
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl86a {
+
+	sign_name: "PL - Chevron Left 5x4 green"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x4.pmc"
+	look_name: zielony
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl86b {
+
+	sign_name: "PL - Chevron Left 5x4 blue"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x4.pmc"
+	look_name: niebieski
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+sign_model : sign.sbnavpl86c {
+
+	sign_name: "PL - Chevron Left 5x4 white"
+
+	model_desc: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x4.pmd"
+	model_coll: "/model/sign/navigation/sbnav/chevrons/dyn_sbnavsigns_pl_chevron_left_5x4.pmc"
+	look_name: bialy
+	
+	stand_classes[]: plchvrn4
+	
+	category: "PL"
+	dynamic: false
+	editable: true
+
+}
+
+}

@@ -1,0 +1,21 @@
+SiiNunit
+{
+ferry_connection : conn.seydisfjord.hirtshals{
+	price: 3230
+	time: 2730
+	distance: 1777
+
+ # NODE POSITIONS ########   x*256  , 0,  z*256
+ connection_positions[0]: (-12587853, 0, -22374825)
+ connection_positions[1]: ( -9405763, 0, -17735767)
+ connection_positions[2]: ( -2272404, 0, -10723390)
+
+ # NODE ROTATIONS ########  -sin(jaw), 0.0, -cos(jaw)
+ connection_directions[0]: ( 0.860000, 0.0,  0.500000)
+ connection_directions[1]: ( 0.707000, 0.0,  0.707000)
+ connection_directions[2]: ( 0.860000, 0.0,  0.500000)
+
+
+}
+}
+

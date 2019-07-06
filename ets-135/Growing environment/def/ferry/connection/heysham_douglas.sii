@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.heysham.douglas{
+	price: 384
+	time: 270
+	distance: 110
+}
+}
+

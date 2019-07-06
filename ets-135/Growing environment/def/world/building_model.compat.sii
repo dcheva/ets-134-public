@@ -1,0 +1,9 @@
+SiiNunit
+{
+building_model : bld_model.3sc {
+	single_part: true
+	model_desc: "/model/vegetation/tree_deciduous/poplar_avenue.pmd"
+	width: 8
+}
+
+}

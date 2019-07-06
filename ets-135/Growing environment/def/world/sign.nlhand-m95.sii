@@ -1,0 +1,52 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+sign_model : sign.nlhw01 {
+
+	sign_name: "Handwijzer dubbel NL"
+
+	model_desc: "/model/sign/nl_modular/nl_handwijzer_dubbel.pmd"
+	variant_name: default
+	category: "signs/nl - handwijzers"
+	editable: true	
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.nlhw02 {
+
+	sign_name: "Handwijzer links NL"
+
+	model_desc: "/model/sign/nl_modular/nl_handwijzer_links.pmd"
+	variant_name: default
+	category: "signs/nl - handwijzers"
+	editable: true	
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+}
+
+sign_model : sign.nlhw03 {
+
+	sign_name: "Handwijzer rechts NL"
+
+	model_desc: "/model/sign/nl_modular/nl_handwijzer_rechts.pmd"
+	variant_name: default
+	category: "signs/nl - handwijzers"
+	editable: true	
+
+	dynamic: false
+	distance_type: 2
+	mass: 100
+}
+}
+

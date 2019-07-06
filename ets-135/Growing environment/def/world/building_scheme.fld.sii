@@ -1,0 +1,999 @@
+SiiNunit
+{
+# by FLD / TZ express map
+building_scheme : bld_scheme.fld01 {
+	name: "bridge 3a one silwer"
+	models[]: bld_model.fld01
+	category: "bridge TZ map"
+}
+building_scheme : bld_scheme.fld02 {
+	name: "bridge 3a one red"
+	models[]: bld_model.fld02
+	category: "bridge TZ map"
+}
+building_scheme : bld_scheme.fld03 {
+	name: "bridge 3a one red_white"
+	models[]: bld_model.fld03
+	category: "bridge TZ map"
+}
+building_scheme : bld_scheme.fld04 {
+	name: "bridge 3a one yellow"
+	models[]: bld_model.fld04
+	category: "bridge TZ map"
+}
+building_scheme : bld_scheme.fld05 {
+	name: "center crash barrier 1m full"
+	models[]: bld_model.fld05
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld06 {
+	name: "center crash barrier 1m left"
+	models[]: bld_model.fld06
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld07 {
+	name: "center crash barrier 1m right"
+	models[]: bld_model.fld07
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld08 {
+	name: "center crash barrier bridge 1"
+	models[]: bld_model.fld08
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld09 {
+	name: "center crash barrier 1m mid cz full"
+	models[]: bld_model.fld09
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld10 {
+	name: "center crash barrier 1m mid cz left"
+	models[]: bld_model.fld10
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld11 {
+	name: "center crash barrier 1m mid cz right"
+	models[]: bld_model.fld11
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld12 {
+	name: "crash barrier 2x2m cz full"
+	models[]: bld_model.fld12
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld13 {
+	name: "center crash barrier 2m cz full"
+	models[]: bld_model.fld13
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld14 {
+	name: "center crash barrier fence cz"
+	models[]: bld_model.fld14
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld15 {
+	name: "center crash barrier 2m cz bridge full"
+	models[]: bld_model.fld15
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld16 {
+	name: "crash barrier cz full"
+	models[]: bld_model.fld16
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld17 {
+	name: "crash barrier cz left"
+	models[]: bld_model.fld17
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld18 {
+	name: "crash barrier cz right"
+	models[]: bld_model.fld18
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld19 {
+	name: "lines people small"
+	models[]: bld_model.fld19
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld20 {
+	name: "lines people medium"
+	models[]: bld_model.fld20
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld21 {
+	name: "lines people big"
+	models[]: bld_model.fld21
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld22 {
+	name: "lines road 02"
+	models[]: bld_model.fld22
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld23 {
+	name: "lines road 032"
+	models[]: bld_model.fld23
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld24 {
+	name: "lines road 05"
+	models[]: bld_model.fld24
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld25 {
+	name: "lines road big"
+	models[]: bld_model.fld25
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld26 {
+	name: "lines road 02p"
+	models[]: bld_model.fld26
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld27 {
+	name: "center crash barrier 1x2m full"
+	models[]: bld_model.fld27
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld28 {
+	name: "center crash barrier 1x2m full 2"
+	models[]: bld_model.fld28
+	category: "barrier TZ map"
+}
+building_scheme : bld_scheme.fld29 {
+	name: "lines parking 01"
+	models[]: bld_model.fld29
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld30 {
+	name: "lines parking 02"
+	models[]: bld_model.fld30
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld31 {
+	name: "lines parking 01 truck"
+	models[]: bld_model.fld31
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld32 {
+	name: "lines parking 01 truck mirror"
+	models[]: bld_model.fld32
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld33 {
+	name: "lines 02"
+	models[]: bld_model.fld33
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld34 {
+	name: "lines 02p"
+	models[]: bld_model.fld34
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld35 {
+	name: "lines 05"
+	models[]: bld_model.fld35
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld36 {
+	name: "lines 05p"
+	models[]: bld_model.fld36
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld37 {
+	name: "lines 032"
+	models[]: bld_model.fld37
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld38 {
+	name: "bridge 3a one 1 silwer"
+	models[]: bld_model.fld38
+	category: "bridge TZ map"
+}
+building_scheme : bld_scheme.fld39 {
+	name: "bridge 3a one 1 red"
+	models[]: bld_model.fld39
+	category: "bridge TZ map"
+}
+building_scheme : bld_scheme.fld40 {
+	name: "bridge 3a one 1 red_white"
+	models[]: bld_model.fld40
+	category: "bridge TZ map"
+}
+building_scheme : bld_scheme.fld41 {
+	name: "bridge 3a one 1 yellow"
+	models[]: bld_model.fld41
+	category: "bridge TZ map"
+}
+building_scheme : bld_scheme.fld42 {
+	name: "lines road 02p mini"
+	models[]: bld_model.fld42
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld43 {
+	name: "lines road 032p mini"
+	models[]: bld_model.fld43
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld44 {
+	name: "lines road 05p mini"
+	models[]: bld_model.fld44
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld45 {
+	name: "lines teeth 01"
+	models[]: bld_model.fld45
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld46 {
+	name: "lines teeth 02"
+	models[]: bld_model.fld46
+	category: "lines TZ map"
+}
+building_scheme : bld_scheme.fld47 {
+	name: "center kerb 1m asphalt_00"
+	models[]: bld_model.fld47
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld48 {
+	name: "center kerb 1m asphalt_00 full"
+	models[]: bld_model.fld48
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld49 {
+	name: "center kerb 1m asphalt_00 left"
+	models[]: bld_model.fld49
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld50 {
+	name: "center kerb 1m asphalt_00 right"
+	models[]: bld_model.fld50
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld51 {
+	name: "center kerb 1m asphalt_01"
+	models[]: bld_model.fld51
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld52 {
+	name: "center kerb 1m asphalt_01 full"
+	models[]: bld_model.fld52
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld53 {
+	name: "center kerb 1m asphalt_01 left"
+	models[]: bld_model.fld53
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld54 {
+	name: "center kerb 1m asphalt_01 right"
+	models[]: bld_model.fld54
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld55 {
+	name: "center kerb 1m demo_sw"
+	models[]: bld_model.fld55
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld56 {
+	name: "center kerb 1m demo_sw full"
+	models[]: bld_model.fld56
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld57 {
+	name: "center kerb 1m demo_sw left"
+	models[]: bld_model.fld57
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld58 {
+	name: "center kerb 1m demo_sw right"
+	models[]: bld_model.fld58
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld59 {
+	name: "center kerb 1m grass"
+	models[]: bld_model.fld59
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld60 {
+	name: "center kerb 1m grass full"
+	models[]: bld_model.fld60
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld61 {
+	name: "center kerb 1m grass left"
+	models[]: bld_model.fld61
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld62 {
+	name: "center kerb 1m grass right"
+	models[]: bld_model.fld62
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld63 {
+	name: "center kerb 1m hexagonal"
+	models[]: bld_model.fld63
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld64 {
+	name: "center kerb 1m hexagonal full"
+	models[]: bld_model.fld64
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld65 {
+	name: "center kerb 1m hexagonal left"
+	models[]: bld_model.fld65
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld66 {
+	name: "center kerb 1m hexagonal right"
+	models[]: bld_model.fld66
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld67 {
+	name: "center kerb 1m reddish"
+	models[]: bld_model.fld67
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld68 {
+	name: "center kerb 1m reddish full"
+	models[]: bld_model.fld68
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld69 {
+	name: "center kerb 1m reddish left"
+	models[]: bld_model.fld69
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld70 {
+	name: "center kerb 1m reddish right"
+	models[]: bld_model.fld70
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld71 {
+	name: "center kerb 1m sidewalk"
+	models[]: bld_model.fld71
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld72 {
+	name: "center kerb 1m sidewalk full"
+	models[]: bld_model.fld72
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld73 {
+	name: "center kerb 1m sidewalk left"
+	models[]: bld_model.fld73
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld74 {
+	name: "center kerb 1m sidewalk right"
+	models[]: bld_model.fld74
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld75 {
+	name: "center kerb 1m sidewalk_00"
+	models[]: bld_model.fld75
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld76 {
+	name: "center kerb 1m sidewalk_00 full"
+	models[]: bld_model.fld76
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld77 {
+	name: "center kerb 1m sidewalk_00 left"
+	models[]: bld_model.fld77
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld78 {
+	name: "center kerb 1m sidewalk_00 right"
+	models[]: bld_model.fld78
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld79 {
+	name: "center kerb 1m sidewalk_01"
+	models[]: bld_model.fld79
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld80 {
+	name: "center kerb 1m sidewalk_01 full"
+	models[]: bld_model.fld80
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld81 {
+	name: "center kerb 1m sidewalk_01 left"
+	models[]: bld_model.fld81
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld82 {
+	name: "center kerb 1m sidewalk_01 right"
+	models[]: bld_model.fld82
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld83 {
+	name: "center kerb 1m sidewalk_02"
+	models[]: bld_model.fld83
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld84 {
+	name: "center kerb 1m sidewalk_02 full"
+	models[]: bld_model.fld84
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld85 {
+	name: "center kerb 1m sidewalk_02 left"
+	models[]: bld_model.fld85
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld86 {
+	name: "center kerb 1m sidewalk_02 right"
+	models[]: bld_model.fld86
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld87 {
+	name: "center kerb 1m sidewalk_03"
+	models[]: bld_model.fld87
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld88 {
+	name: "center kerb 1m sidewalk_03 full"
+	models[]: bld_model.fld88
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld89 {
+	name: "center kerb 1m sidewalk_03 left"
+	models[]: bld_model.fld89
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld90 {
+	name: "center kerb 1m sidewalk_03 right"
+	models[]: bld_model.fld90
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld91 {
+	name: "center kerb 1m sidewalk_04"
+	models[]: bld_model.fld91
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld92 {
+	name: "center kerb 1m sidewalk_04 full"
+	models[]: bld_model.fld92
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld93 {
+	name: "center kerb 1m sidewalk_04 left"
+	models[]: bld_model.fld93
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld94 {
+	name: "center kerb 1m sidewalk_04 right"
+	models[]: bld_model.fld94
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld95 {
+	name: "center kerb 1m sidewalk_05"
+	models[]: bld_model.fld95
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld96 {
+	name: "center kerb 1m sidewalk_05 full"
+	models[]: bld_model.fld96
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld97 {
+	name: "center kerb 1m sidewalk_05 left"
+	models[]: bld_model.fld97
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld98 {
+	name: "center kerb 1m sidewalk_05 right"
+	models[]: bld_model.fld98
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld99 {
+	name: "center kerb 1m sidewalk_07"
+	models[]: bld_model.fld99
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld100 {
+	name: "center kerb 1m sidewalk_07 full"
+	models[]: bld_model.fld100
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld101 {
+	name: "center kerb 1m sidewalk_07 left"
+	models[]: bld_model.fld101
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld102 {
+	name: "center kerb 1m sidewalk_07 right"
+	models[]: bld_model.fld102
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld103 {
+	name: "center kerb 1m sidewalk_11"
+	models[]: bld_model.fld103
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld104 {
+	name: "center kerb 1m sidewalk_11 full"
+	models[]: bld_model.fld104
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld105 {
+	name: "center kerb 1m sidewalk_11 left"
+	models[]: bld_model.fld105
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld106 {
+	name: "center kerb 1m sidewalk_11 right"
+	models[]: bld_model.fld106
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld107 {
+	name: "center kerb 1m small_bl"
+	models[]: bld_model.fld107
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld108 {
+	name: "center kerb 1m small_bl full"
+	models[]: bld_model.fld108
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld109 {
+	name: "center kerb 1m small_bl left"
+	models[]: bld_model.fld109
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld110 {
+	name: "center kerb 1m small_bl right"
+	models[]: bld_model.fld110
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld111 {
+	name: "center kerb 1m small_st"
+	models[]: bld_model.fld111
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld112 {
+	name: "center kerb 1m small_st full"
+	models[]: bld_model.fld112
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld113 {
+	name: "center kerb 1m small_st left"
+	models[]: bld_model.fld113
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld114 {
+	name: "center kerb 1m small_st right"
+	models[]: bld_model.fld114
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld115 {
+	name: "center kerb 1m sidewalk_gr"
+	models[]: bld_model.fld115
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld116 {
+	name: "center kerb 1m sidewalk_gr full"
+	models[]: bld_model.fld116
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld117 {
+	name: "center kerb 1m sidewalk_gr left"
+	models[]: bld_model.fld117
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld118 {
+	name: "center kerb 1m sidewalk_gr right"
+	models[]: bld_model.fld118
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld119 {
+	name: "center kerb 2m asphalt_00"
+	models[]: bld_model.fld119
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld120 {
+	name: "center kerb 2m asphalt_00 full"
+	models[]: bld_model.fld120
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld121 {
+	name: "center kerb 2m asphalt_00 left"
+	models[]: bld_model.fld121
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld122 {
+	name: "center kerb 2m asphalt_00 right"
+	models[]: bld_model.fld122
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld123 {
+	name: "center kerb 2m asphalt_01"
+	models[]: bld_model.fld123
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld124 {
+	name: "center kerb 2m asphalt_01 full"
+	models[]: bld_model.fld124
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld125 {
+	name: "center kerb 2m asphalt_01 left"
+	models[]: bld_model.fld125
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld126 {
+	name: "center kerb 2m asphalt_01 right"
+	models[]: bld_model.fld126
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld127 {
+	name: "center kerb 2m demo_sw"
+	models[]: bld_model.fld127
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld128 {
+	name: "center kerb 2m demo_sw full"
+	models[]: bld_model.fld128
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld129 {
+	name: "center kerb 2m demo_sw left"
+	models[]: bld_model.fld129
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld130 {
+	name: "center kerb 2m demo_sw right"
+	models[]: bld_model.fld130
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld131 {
+	name: "center kerb 2m grass"
+	models[]: bld_model.fld131
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld132 {
+	name: "center kerb 2m grass full"
+	models[]: bld_model.fld132
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld133 {
+	name: "center kerb 2m grass left"
+	models[]: bld_model.fld133
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld134 {
+	name: "center kerb 2m grass right"
+	models[]: bld_model.fld134
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld135 {
+	name: "center kerb 2m hexagonal"
+	models[]: bld_model.fld135
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld136 {
+	name: "center kerb 2m hexagonal full"
+	models[]: bld_model.fld136
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld137 {
+	name: "center kerb 2m hexagonal left"
+	models[]: bld_model.fld137
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld138 {
+	name: "center kerb 2m hexagonal right"
+	models[]: bld_model.fld138
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld139 {
+	name: "center kerb 2m reddish"
+	models[]: bld_model.fld139
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld140 {
+	name: "center kerb 2m reddish full"
+	models[]: bld_model.fld140
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld141 {
+	name: "center kerb 2m reddish left"
+	models[]: bld_model.fld141
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld142 {
+	name: "center kerb 2m reddish right"
+	models[]: bld_model.fld142
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld143 {
+	name: "center kerb 2m sidewalk"
+	models[]: bld_model.fld143
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld144 {
+	name: "center kerb 2m sidewalk full"
+	models[]: bld_model.fld144
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld145 {
+	name: "center kerb 2m sidewalk left"
+	models[]: bld_model.fld145
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld146 {
+	name: "center kerb 2m sidewalk right"
+	models[]: bld_model.fld146
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld147 {
+	name: "center kerb 2m sidewalk_00"
+	models[]: bld_model.fld147
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld148 {
+	name: "center kerb 2m sidewalk_00 full"
+	models[]: bld_model.fld148
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld149 {
+	name: "center kerb 2m sidewalk_00 left"
+	models[]: bld_model.fld149
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld150 {
+	name: "center kerb 2m sidewalk_00 right"
+	models[]: bld_model.fld150
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld151 {
+	name: "center kerb 2m sidewalk_01"
+	models[]: bld_model.fld151
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld152 {
+	name: "center kerb 2m sidewalk_01 full"
+	models[]: bld_model.fld152
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld153 {
+	name: "center kerb 2m sidewalk_01 left"
+	models[]: bld_model.fld153
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld154 {
+	name: "center kerb 2m sidewalk_01 right"
+	models[]: bld_model.fld154
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld155 {
+	name: "center kerb 2m sidewalk_02"
+	models[]: bld_model.fld155
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld156 {
+	name: "center kerb 2m sidewalk_02 full"
+	models[]: bld_model.fld156
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld157 {
+	name: "center kerb 2m sidewalk_02 left"
+	models[]: bld_model.fld157
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld158 {
+	name: "center kerb 2m sidewalk_02 right"
+	models[]: bld_model.fld158
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld159 {
+	name: "center kerb 2m sidewalk_03"
+	models[]: bld_model.fld159
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld160 {
+	name: "center kerb 2m sidewalk_03 full"
+	models[]: bld_model.fld160
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld161 {
+	name: "center kerb 2m sidewalk_03 left"
+	models[]: bld_model.fld161
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld162 {
+	name: "center kerb 2m sidewalk_03 right"
+	models[]: bld_model.fld162
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld163 {
+	name: "center kerb 2m sidewalk_04"
+	models[]: bld_model.fld163
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld164 {
+	name: "center kerb 2m sidewalk_04 full"
+	models[]: bld_model.fld164
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld165 {
+	name: "center kerb 2m sidewalk_04 left"
+	models[]: bld_model.fld165
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld166 {
+	name: "center kerb 2m sidewalk_04 right"
+	models[]: bld_model.fld166
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld167 {
+	name: "center kerb 2m sidewalk_05"
+	models[]: bld_model.fld167
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld168 {
+	name: "center kerb 2m sidewalk_05 full"
+	models[]: bld_model.fld168
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld169 {
+	name: "center kerb 2m sidewalk_05 left"
+	models[]: bld_model.fld169
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld170 {
+	name: "center kerb 2m sidewalk_05 right"
+	models[]: bld_model.fld170
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld171 {
+	name: "center kerb 2m sidewalk_07"
+	models[]: bld_model.fld171
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld172 {
+	name: "center kerb 2m sidewalk_07 full"
+	models[]: bld_model.fld172
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld173 {
+	name: "center kerb 2m sidewalk_07 left"
+	models[]: bld_model.fld173
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld174 {
+	name: "center kerb 2m sidewalk_07 right"
+	models[]: bld_model.fld174
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld175 {
+	name: "center kerb 2m sidewalk_11"
+	models[]: bld_model.fld175
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld176 {
+	name: "center kerb 2m sidewalk_11 full"
+	models[]: bld_model.fld176
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld177 {
+	name: "center kerb 2m sidewalk_11 left"
+	models[]: bld_model.fld177
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld178 {
+	name: "center kerb 2m sidewalk_11 right"
+	models[]: bld_model.fld178
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld179 {
+	name: "center kerb 2m small_bl"
+	models[]: bld_model.fld179
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld180 {
+	name: "center kerb 2m small_bl full"
+	models[]: bld_model.fld180
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld181 {
+	name: "center kerb 2m small_bl left"
+	models[]: bld_model.fld181
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld182 {
+	name: "center kerb 2m small_bl right"
+	models[]: bld_model.fld182
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld183 {
+	name: "center kerb 2m small_st"
+	models[]: bld_model.fld183
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld184 {
+	name: "center kerb 2m small_st full"
+	models[]: bld_model.fld184
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld185 {
+	name: "center kerb 2m small_st left"
+	models[]: bld_model.fld185
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld186 {
+	name: "center kerb 2m small_st right"
+	models[]: bld_model.fld186
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld187 {
+	name: "center kerb 2m sidewalk_gr"
+	models[]: bld_model.fld187
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld188 {
+	name: "center kerb 2m sidewalk_gr full"
+	models[]: bld_model.fld188
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld189 {
+	name: "center kerb 2m sidewalk_gr left"
+	models[]: bld_model.fld189
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld190 {
+	name: "center kerb 2m sidewalk_gr right"
+	models[]: bld_model.fld190
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld191 {
+	name: "center kerb 1m snow"
+	models[]: bld_model.fld191
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld192 {
+	name: "center kerb 1m snow full"
+	models[]: bld_model.fld192
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld193 {
+	name: "center kerb 1m snow left"
+	models[]: bld_model.fld193
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld194 {
+	name: "center kerb 1m snow right"
+	models[]: bld_model.fld194
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld195 {
+	name: "center kerb 2m snow"
+	models[]: bld_model.fld195
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld196 {
+	name: "center kerb 2m snow full"
+	models[]: bld_model.fld196
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld197 {
+	name: "center kerb 2m snow left"
+	models[]: bld_model.fld197
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld198 {
+	name: "center kerb 2m snow right"
+	models[]: bld_model.fld198
+	category: "center kerb TZ map"
+}
+building_scheme : bld_scheme.fld199 {
+	name: "bridge hw 3a oneway cz one "
+	models[]: bld_model.fld199
+	category: "bridge TZ map"
+}
+}

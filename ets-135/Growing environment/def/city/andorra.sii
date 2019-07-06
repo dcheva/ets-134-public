@@ -1,0 +1,65 @@
+city_data: city.andorra
+{
+	city_name: "Andorra la Vella"
+	short_city_name: "Andorra"
+	city_name_localized: "@@andorra_vella@@"
+	short_city_name_localized: "@@andorra@@"
+	country: andorra
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"renault"
+
+	truck_lp_template[]:" 01111"
+
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >A</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >B</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >C</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >D</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >E</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >F</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >G</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >H</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >J</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >K</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >L</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >M</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >N</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >O</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >P</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >R</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >S</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >T</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >U</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >V</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >W</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >Y</font>"
+	truck_lp_def0[]:"<font xscale=0.8 yscale=0.8 >Z</font>"
+
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >0</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >1</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >2</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >3</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >4</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >5</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >6</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >7</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >8</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >9</font>"
+}

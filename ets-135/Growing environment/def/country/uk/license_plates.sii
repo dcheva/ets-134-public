@@ -1,0 +1,91 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	templates[]: "012 111"
+
+	def0[]:"A"
+	def0[]:"B"
+	def0[]:"C"
+	def0[]:"D"
+	def0[]:"E"
+	def0[]:"F"
+	def0[]:"G"
+	def0[]:"H"
+	def0[]:"K"
+	def0[]:"L"
+	def0[]:"M"
+	def0[]:"N"
+	def0[]:"O"
+	def0[]:"P"
+	def0[]:"R"
+	def0[]:"S"
+	def0[]:"V"
+	def0[]:"W"
+	def0[]:"Y"
+	
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+
+	def2[]:"51"
+	def2[]:"02"
+	def2[]:"52"
+	def2[]:"03"
+	def2[]:"53"
+	def2[]:"04"
+	def2[]:"54"
+	def2[]:"05"
+	def2[]:"55"
+	def2[]:"06"
+	def2[]:"56"
+	def2[]:"07"
+	def2[]:"57"
+	def2[]:"08"
+	def2[]:"58"
+	def2[]:"09"
+	def2[]:"59"
+	def2[]:"10"
+	def2[]:"60"
+	def2[]:"11"
+	def2[]:"61"
+	def2[]:"12"
+	def2[]:"62"
+	def2[]:"13"
+	def2[]:"63"
+	def2[]:"14"
+	def2[]:"64"
+	def2[]:"15"
+}
+
+}

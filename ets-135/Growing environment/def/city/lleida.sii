@@ -1,0 +1,71 @@
+city_data: city.lleida
+{
+	city_name: "Lleida"
+	city_name_localized: "@@lleida@@"
+	country: spain
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"iveco"
+
+	truck_lp_template[]:"0000 122"
+
+	truck_lp_def0[]:"0"
+	truck_lp_def0[]:"1"
+	truck_lp_def0[]:"2"
+	truck_lp_def0[]:"3"
+	truck_lp_def0[]:"4"
+	truck_lp_def0[]:"5"
+	truck_lp_def0[]:"6"
+	truck_lp_def0[]:"7"
+	truck_lp_def0[]:"8"
+	truck_lp_def0[]:"9"
+
+	truck_lp_def1[]:"B"
+	truck_lp_def1[]:"C"
+	truck_lp_def1[]:"D"
+	truck_lp_def1[]:"F"
+	truck_lp_def1[]:"G"
+	truck_lp_def1[]:"H"
+	truck_lp_def1[]:"J"
+	truck_lp_def1[]:"K"
+	truck_lp_def1[]:"L"
+	truck_lp_def1[]:"M"
+
+	truck_lp_def2[]:"B"
+	truck_lp_def2[]:"C"
+	truck_lp_def2[]:"D"
+	truck_lp_def2[]:"F"
+	truck_lp_def2[]:"G"
+	truck_lp_def2[]:"H"
+	truck_lp_def2[]:"J"
+	truck_lp_def2[]:"K"
+	truck_lp_def2[]:"L"
+	truck_lp_def2[]:"M"
+	truck_lp_def2[]:"N"
+	truck_lp_def2[]:"P"
+	truck_lp_def2[]:"R"
+	truck_lp_def2[]:"S"
+	truck_lp_def2[]:"T"
+	truck_lp_def2[]:"V"
+	truck_lp_def2[]:"W"
+	truck_lp_def2[]:"X"
+	truck_lp_def2[]:"Y"
+	truck_lp_def2[]:"Z"
+}

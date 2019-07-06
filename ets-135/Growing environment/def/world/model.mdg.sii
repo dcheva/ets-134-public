@@ -1,0 +1,95 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+model_def : model.de_bmw5_pol  {
+ 	model_desc: "/model/vehicle/de_bmw5_pol/de_bmw5_pol.pmd"
+        category: "ProMods - Emergency vehicles"
+}	
+model_def : model.de_bmw5_flr  {
+ 	model_desc: "/model/vehicle/de_bmw5_pol/de_bmw5_pol_flare.pmd"
+        category: "ProMods - Emergency vehicles"
+}	
+model_def : model.nl_golf_pol  {
+ 	model_desc: "/model/vehicle/nl_vwgolf_pol/nl_vwgolf_pol.pmd"
+        category: "ProMods - Emergency vehicles"
+}
+model_def : model.uni_sko_pol  {
+ 	model_desc: "/model/vehicle/uni_octavia_pol/uni_octavia_pol.pmd"
+        category: "ProMods - Emergency vehicles"
+}
+model_def : model.es_seat_pol  {
+ 	model_desc: "/model/vehicle/es_toledo_pol/es_toledo_pol.pmd"
+        category: "ProMods - Emergency vehicles"
+}
+model_def : model.es_407_pol  {
+ 	model_desc: "/model/vehicle/es_pg407_pol/es_pg407_pol.pmd"
+        category: "ProMods - Emergency vehicles"
+}
+model_def : model.srb_pol  {	
+model_desc: "/model/vehicle/srb_punto_pol/srb_punto_pol_1.pmd"
+        category: "ProMods - Emergency vehicles"
+}
+model_def : model.mdg_001  {
+		model_desc: "/model/vehicle/pm_ducato/pm_ducato.pmd"
+        category: "ProMods - Vehicles"
+}
+model_def : model.mdg_002  {	
+model_desc: "/model/vehicle/pm_ducato_flare/pm_ducato_elevator_flare.pmd"
+        category: "ProMods - Vehicles"		
+}
+model_def : model.mdg_003  {	
+model_desc: "/model/vehicle/pm_ducato_flare/pm_ducato_sign_flare_eu.pmd"
+        category: "ProMods - Vehicles"	
+}
+model_def : model.mdg_004  {	
+model_desc: "/model/vehicle/pm_ducato_flare/pm_ducato_sign_flare_uk.pmd"
+        category: "ProMods - Vehicles"		
+}
+model_def : model.mdg_005  {	
+model_desc: "/model/vehicle/de_vito_pol/de_vito_pol.pmd"
+        category: "ProMods - Emergency vehicles"		
+}
+model_def : model.mdg_006  {	
+model_desc: "/model/speedcamera/speedcamera_for_policecar.pmd"
+        category: "ProMods - Emergency vehicles"		
+}
+model_def : model.mdg_007  {	
+model_desc: "/model/turkey/apartements/apartement_tr_01.pmd"
+        category: "buildings"	
+}
+model_def : model.mdg_008  {	
+model_desc: "/model/sign/traffic/uk/uk_e_charger.pmd"
+        category: "gas station"		
+}
+model_def : model.mdg_009  {	
+model_desc: "/model/construction_machines/wirtgen/wirtgen.pmd"
+        category: "ProMods - Construction machines"			
+}
+model_def : model.mdg_010  {	
+model_desc: "/model/construction_machines/roller/roller.pmd"
+        category: "ProMods - Construction machines"	
+}
+model_def : model.mdg_011  {	
+model_desc: "/model/vehicle/recovery_truck/recovery_truck.pmd"
+        category: "ProMods - Vehicles"
+}
+model_def : model.mdg_012  {	
+model_desc: "/model/vehicle/recovery_truck/recovery_truck_beacons.pmd"
+        category: "ProMods - Vehicles"
+}
+model_def : model.mdg_013  {	
+model_desc: "/model/agricultury_machines/case_ih_600_quadtrac/case_ih_600_quadtrac.pmd"
+        category: "ProMods - Agricultury machines"	
+}
+model_def : model.mdg_014  {	
+model_desc: "/model/props/street/karcher.pmd"
+		distance_type: 2		
+}
+}

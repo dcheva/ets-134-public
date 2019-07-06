@@ -1,0 +1,12 @@
+cargo_data: cargo.aquariums
+{
+	name: "@@cargo_aquariums@@"
+	fragility: 0.9
+	group[]: containers
+	volume: 2.6
+	mass: 240
+	unit_reward_per_km: 0.523
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+}

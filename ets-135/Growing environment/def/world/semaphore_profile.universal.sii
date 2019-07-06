@@ -1,0 +1,963 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+
+################################
+## DEFAULT ## 2 SEC RED+AMBER ##
+## #############################
+tr_semaphore_profile : tr_sem_prof.u_r1xr1 {
+
+	name: "universal - road 1 x road 1"
+
+	#adjacent side, right
+	model[0]:  "single"
+	model[1]:  "single"
+	model[2]:  "single"
+	model[3]:  "single"
+
+	#adjacent side, left	
+	model[4]:  ""
+	model[5]:  ""
+	model[6]:  ""
+	model[7]:  ""
+	
+	#opposite side, right
+	model[8]:  ""
+	model[9]:  ""
+	model[10]: ""
+	model[11]: ""
+
+	#opposite side, left	
+	model[12]: ""
+	model[13]: ""
+	model[14]: ""
+	model[15]: ""
+
+	type[0]: traffic_light_minor
+	type[1]: traffic_light_major
+	type[2]: traffic_light_minor
+	type[3]: traffic_light_major
+	
+	type[4]: traffic_light_minor
+	type[5]: traffic_light_major
+	type[6]: traffic_light_minor
+	type[7]: traffic_light_major
+	
+	type[8]:  traffic_light
+	type[9]:  traffic_light
+	type[10]: traffic_light
+	type[11]: traffic_light
+
+	type[12]: traffic_light
+	type[13]: traffic_light
+	type[14]: traffic_light
+	type[15]: traffic_light
+
+	interval[]: (15.0, 2.0, 23.0, 2.0)
+
+	cycle[0]:  0.0
+	cycle[1]:  21.0
+	cycle[2]:  0.0
+	cycle[3]:  21.0
+	
+	cycle[4]:  0.0
+	cycle[5]:  21.0
+	cycle[6]:  0.0
+	cycle[7]:  21.0
+	
+	cycle[8]:  0.0
+	cycle[9]:  21.0
+	cycle[10]: 0.0
+	cycle[11]: 21.0
+	
+	cycle[12]: 0.0
+	cycle[13]: 21.0
+	cycle[14]: 0.0
+	cycle[15]: 21.0
+
+	sleep_time_start: 1410 # 23:30
+	sleep_time_end: 180 # 03:00
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr2 {
+
+	name: "universal - road 2 x road 2"
+
+	#adjacent side, right
+	model[0]:  "city"
+	model[1]:  "city"
+	model[2]:  "city"
+	model[3]:  "city"
+
+	#adjacent side, left	
+	model[4]:  "single_s"
+	model[5]:  "single_s"
+	model[6]:  "single_s"
+	model[7]:  "single_s"
+	
+	#opposite side, right
+	model[8]:  ""
+	model[9]:  ""
+	model[10]: ""
+	model[11]: ""
+
+	#opposite side, left	
+	model[12]: ""
+	model[13]: ""
+	model[14]: ""
+	model[15]: ""
+
+	type[0]: traffic_light_minor
+	type[1]: traffic_light_major
+	type[2]: traffic_light_minor
+	type[3]: traffic_light_major
+	
+	type[4]: traffic_light_minor
+	type[5]: traffic_light_major
+	type[6]: traffic_light_minor
+	type[7]: traffic_light_major
+	
+	type[8]:  traffic_light
+	type[9]:  traffic_light
+	type[10]: traffic_light
+	type[11]: traffic_light
+
+	type[12]: traffic_light
+	type[13]: traffic_light
+	type[14]: traffic_light
+	type[15]: traffic_light
+
+	interval[]: (15.0, 2.0, 23.0, 2.0)
+
+	cycle[0]:  0.0
+	cycle[1]:  21.0
+	cycle[2]:  0.0
+	cycle[3]:  21.0
+	
+	cycle[4]:  0.0
+	cycle[5]:  21.0
+	cycle[6]:  0.0
+	cycle[7]:  21.0
+	
+	cycle[8]:  0.0
+	cycle[9]:  21.0
+	cycle[10]: 0.0
+	cycle[11]: 21.0
+	
+	cycle[12]: 0.0
+	cycle[13]: 21.0
+	cycle[14]: 0.0
+	cycle[15]: 21.0
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr1 {
+
+	name: "universal - road 2 x road 1"
+
+	#adjacent side, right
+	model[0]:  "single"
+	model[1]:  "city"
+	model[2]:  "single"
+	model[3]:  "city"
+
+	#adjacent side, left	
+	model[4]:  ""
+	model[5]:  "single_s"
+	model[6]:  ""
+	model[7]:  "single_s"
+	
+	#opposite side, right
+	model[8]:  ""
+	model[9]:  ""
+	model[10]: ""
+	model[11]: ""
+
+	#opposite side, left	
+	model[12]: ""
+	model[13]: ""
+	model[14]: ""
+	model[15]: ""
+
+	type[0]: traffic_light_minor
+	type[1]: traffic_light_major
+	type[2]: traffic_light_minor
+	type[3]: traffic_light_major
+	
+	type[4]: traffic_light_minor
+	type[5]: traffic_light_major
+	type[6]: traffic_light_minor
+	type[7]: traffic_light_major
+	
+	type[8]:  traffic_light
+	type[9]:  traffic_light
+	type[10]: traffic_light
+	type[11]: traffic_light
+
+	type[12]: traffic_light
+	type[13]: traffic_light
+	type[14]: traffic_light
+	type[15]: traffic_light
+
+	interval[]: (15.0, 2.0, 23.0, 2.0)
+
+	cycle[0]:  0.0
+	cycle[1]:  21.0
+	cycle[2]:  0.0
+	cycle[3]:  21.0
+	
+	cycle[4]:  0.0
+	cycle[5]:  21.0
+	cycle[6]:  0.0
+	cycle[7]:  21.0
+	
+	cycle[8]:  0.0
+	cycle[9]:  21.0
+	cycle[10]: 0.0
+	cycle[11]: 21.0
+	
+	cycle[12]: 0.0
+	cycle[13]: 21.0
+	cycle[14]: 0.0
+	cycle[15]: 21.0
+	
+	sleep_time_start: 1410 # 23:30
+	sleep_time_end: 180 # 03:00
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr2 {
+
+	name: "universal - road 1 x road 2"
+
+	#adjacent side, right
+	model[0]:  "city"
+	model[1]:  "single"
+	model[2]:  "city"
+	model[3]:  "single"
+
+	#adjacent side, left	
+	model[4]:  "single_s"
+	model[5]:  ""
+	model[6]:  "single_s"
+	model[7]:  ""
+	
+	#opposite side, right
+	model[8]:  ""
+	model[9]:  ""
+	model[10]: ""
+	model[11]: ""
+
+	#opposite side, left	
+	model[12]: ""
+	model[13]: ""
+	model[14]: ""
+	model[15]: ""
+
+	type[0]: traffic_light_minor
+	type[1]: traffic_light_major
+	type[2]: traffic_light_minor
+	type[3]: traffic_light_major
+	
+	type[4]: traffic_light_minor
+	type[5]: traffic_light_major
+	type[6]: traffic_light_minor
+	type[7]: traffic_light_major
+	
+	type[8]:  traffic_light
+	type[9]:  traffic_light
+	type[10]: traffic_light
+	type[11]: traffic_light
+
+	type[12]: traffic_light
+	type[13]: traffic_light
+	type[14]: traffic_light
+	type[15]: traffic_light
+
+	interval[]: (15.0, 2.0, 23.0, 2.0)
+
+	cycle[0]:  0.0
+	cycle[1]:  21.0
+	cycle[2]:  0.0
+	cycle[3]:  21.0
+	
+	cycle[4]:  0.0
+	cycle[5]:  21.0
+	cycle[6]:  0.0
+	cycle[7]:  21.0
+	
+	cycle[8]:  0.0
+	cycle[9]:  21.0
+	cycle[10]: 0.0
+	cycle[11]: 21.0
+	
+	cycle[12]: 0.0
+	cycle[13]: 21.0
+	cycle[14]: 0.0
+	cycle[15]: 21.0
+	
+	sleep_time_start: 1410 # 23:30
+	sleep_time_end: 180 # 03:00
+}
+
+################################
+## GERMANY ## 1 SEC RED+AMBER ##
+################################
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr1.d {
+
+	name: "universal - road 1 x road 1 d"
+
+	inherited: tr_sem_prof.u_r1xr1
+
+	interval[]: (15.0, 2.0, 24.0, 1.0)
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr2.d {
+
+	name: "universal - road 2 x road 2 d"
+
+	inherited: tr_sem_prof.u_r2xr2
+
+	interval[]: (15.0, 2.0, 24.0, 1.0)
+
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr1.d {
+
+	name: "universal - road 2 x road 1 d"
+
+	inherited: tr_sem_prof.u_r2xr1
+
+	interval[]: (15.0, 2.0, 24.0, 1.0)
+
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr2.d {
+
+	name: "universal - road 1 x road 2 d"
+
+	inherited: tr_sem_prof.u_r1xr2
+
+	interval[]: (15.0, 2.0, 24.0, 1.0)
+}
+
+########################################
+## THE NETHERLANDS ## 0 SEC RED+AMBER ##
+########################################
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr1.nl {
+
+	name: "universal - road 1 x road 1 nl"
+
+	inherited: tr_sem_prof.u_r1xr1
+
+	interval[]: (15.0, 2.0, 25.0, 0.0)
+
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr2.nl {
+
+	name: "universal - road 2 x road 2 nl"
+
+	inherited: tr_sem_prof.u_r2xr2
+
+	interval[]: (15.0, 2.0, 25.0, 0.0)
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr1.nl {
+
+	name: "universal - road 2 x road 1 nl"
+
+	inherited: tr_sem_prof.u_r2xr1
+
+	interval[]: (15.0, 2.0, 25.0, 0.0)
+
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr2.nl {
+
+	name: "universal - road 1 x road 2 nl"
+
+	inherited: tr_sem_prof.u_r1xr2
+	
+	interval[]: (15.0, 2.0, 25.0, 0.0)
+}
+
+###############################################################
+## GREAT BRITAIN #### 2 SEC RED+AMBER #### LEFT HAND TRAFFIC ##
+###############################################################
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr1.gb {
+
+	name: "universal - road 1 x road 1 gb"
+	inherited: tr_sem_prof.u_r1xr1
+	
+	#adjacent side, right
+	model[0]:  ""
+	model[1]:  ""
+	model[2]:  ""
+	model[3]:  ""
+
+	#adjacent side, left	
+	model[4]:  "single"
+	model[5]:  "single"
+	model[6]:  "single"
+	model[7]:  "single"
+	
+	#opposite side, right
+	model[8]:  "single"
+	model[9]:  "single"
+	model[10]: "single"
+	model[11]: "single"
+
+	#opposite side, left	
+	model[12]: ""
+	model[13]: ""
+	model[14]: ""
+	model[15]: ""
+	
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr2.gb {
+
+	name: "universal - road 2 x road 2 gb"
+	inherited: tr_sem_prof.u_r2xr2
+	
+	#adjacent side, right
+	model[0]:  "single"
+	model[1]:  "single"
+	model[2]:  "single"
+	model[3]:  "single"
+
+	#adjacent side, left	
+	model[4]:  "single"
+	model[5]:  "single"
+	model[6]:  "single"
+	model[7]:  "single"
+	
+	#opposite side, right
+	model[8]:  "single"
+	model[9]:  "single"
+	model[10]: "single"
+	model[11]: "single"
+
+	#opposite side, left	
+	model[12]: ""
+	model[13]: ""
+	model[14]: ""
+	model[15]: ""
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr1.gb {
+
+	name: "universal - road 2 x road 1 gb"
+	inherited: tr_sem_prof.u_r2xr1
+
+		#adjacent side, right
+	model[0]:  ""
+	model[1]:  "single"
+	model[2]:  ""
+	model[3]:  "single"
+
+	#adjacent side, left	
+	model[4]:  "single"
+	model[5]:  "single"
+	model[6]:  "single"
+	model[7]:  "single"
+	
+	#opposite side, right
+	model[8]:  "single"
+	model[9]:  "single"
+	model[10]: "single"
+	model[11]: "single"
+
+	#opposite side, left	
+	model[12]: ""
+	model[13]: ""
+	model[14]: ""
+	model[15]: ""
+}
+tr_semaphore_profile : tr_sem_prof.u_r1xr2.gb {
+
+	name: "universal - road 1 x road 2 gb"
+	inherited: tr_sem_prof.u_r1xr2
+	
+		#adjacent side, right
+	model[0]:  "single"
+	model[1]:  ""
+	model[2]:  "single"
+	model[3]:  ""
+
+	#adjacent side, left	
+	model[4]:  "single"
+	model[5]:  "single"
+	model[6]:  "single"
+	model[7]:  "single"
+	
+	#opposite side, right
+	model[8]:  "single"
+	model[9]:  "single"
+	model[10]: "single"
+	model[11]: "single"
+
+	#opposite side, left	
+	model[12]: ""
+	model[13]: ""
+	model[14]: ""
+	model[15]: ""
+	
+}
+
+#########################################################
+## IRELAND #### 0 SEC RED+AMBER #### LEFT HAND TRAFFIC ##
+#########################################################
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr1.irl {
+
+	name: "universal - road 1 x road 1 irl"
+	inherited: tr_sem_prof.u_r1xr1.nl
+	
+	#adjacent side, right
+	model[0]:  ""
+	model[1]:  ""
+	model[2]:  ""
+	model[3]:  ""
+
+	#adjacent side, left	
+	model[4]:  "single"
+	model[5]:  "single"
+	model[6]:  "single"
+	model[7]:  "single"
+	
+	#opposite side, right
+	model[8]:  "single"
+	model[9]:  "single"
+	model[10]: "single"
+	model[11]: "single"
+
+	#opposite side, left	
+	model[12]: ""
+	model[13]: ""
+	model[14]: ""
+	model[15]: ""
+	
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr2.irl {
+
+	name: "universal - road 2 x road 2 irl"
+	inherited: tr_sem_prof.u_r2xr2.nl
+	
+	#adjacent side, right
+	model[0]:  "single"
+	model[1]:  "single"
+	model[2]:  "single"
+	model[3]:  "single"
+
+	#adjacent side, left	
+	model[4]:  "single"
+	model[5]:  "single"
+	model[6]:  "single"
+	model[7]:  "single"
+	
+	#opposite side, right
+	model[8]:  "single"
+	model[9]:  "single"
+	model[10]: "single"
+	model[11]: "single"
+
+	#opposite side, left	
+	model[12]: ""
+	model[13]: ""
+	model[14]: ""
+	model[15]: ""
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr1.irl {
+
+	name: "universal - road 2 x road 1 irl"
+	inherited: tr_sem_prof.u_r2xr1.nl
+
+		#adjacent side, right
+	model[0]:  ""
+	model[1]:  "single"
+	model[2]:  ""
+	model[3]:  "single"
+
+	#adjacent side, left	
+	model[4]:  "single"
+	model[5]:  "single"
+	model[6]:  "single"
+	model[7]:  "single"
+	
+	#opposite side, right
+	model[8]:  "single"
+	model[9]:  "single"
+	model[10]: "single"
+	model[11]: "single"
+
+	#opposite side, left	
+	model[12]: ""
+	model[13]: ""
+	model[14]: ""
+	model[15]: ""
+}
+tr_semaphore_profile : tr_sem_prof.u_r1xr2.irl {
+
+	name: "universal - road 1 x road 2 irl"
+	inherited: tr_sem_prof.u_r1xr2.nl
+	
+		#adjacent side, right
+	model[0]:  "single"
+	model[1]:  ""
+	model[2]:  "single"
+	model[3]:  ""
+
+	#adjacent side, left	
+	model[4]:  "single"
+	model[5]:  "single"
+	model[6]:  "single"
+	model[7]:  "single"
+	
+	#opposite side, right
+	model[8]:  "single"
+	model[9]:  "single"
+	model[10]: "single"
+	model[11]: "single"
+
+	#opposite side, left	
+	model[12]: ""
+	model[13]: ""
+	model[14]: ""
+	model[15]: ""
+	
+}
+
+#############
+## ALBANIA ##
+#############
+
+#############
+## ANDORRA ##
+#############
+
+#############
+## AUSTRIA ##
+#############
+
+#############
+## BELARUS ##
+#############
+
+#############
+## BELGIUM ##
+#############
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr1.b {
+
+	name: "universal - road 1 x road 1 b"
+	inherited: tr_sem_prof.u_r1xr1.nl
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr2.b {
+
+	name: "universal - road 2 x road 2 b"
+	inherited: tr_sem_prof.u_r2xr2.nl
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr1.b {
+
+	name: "universal - road 2 x road 1 b"
+	inherited: tr_sem_prof.u_r2xr1.nl
+}
+tr_semaphore_profile : tr_sem_prof.u_r1xr2.b {
+
+	name: "universal - road 1 x road 2 b"
+	inherited: tr_sem_prof.u_r1xr2.nl
+}
+
+##############
+## BULGARIA ##
+##############
+
+#############
+## CROATIA ##
+#############
+
+#############
+## CZECHIA ##
+#############
+
+#############
+## DENMARK ##
+#############
+
+#############
+## ESTONIA ##
+#############
+
+############
+## FAROER ##
+############
+
+#############
+## FINLAND ##
+#############
+
+############
+## FRANCE ##
+############
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr1.f {
+
+	name: "universal - road 1 x road 1 f"
+	inherited: tr_sem_prof.u_r1xr1.nl
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr2.f {
+
+	name: "universal - road 2 x road 2 f"
+	inherited: tr_sem_prof.u_r2xr2.nl
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr1.f {
+
+	name: "universal - road 2 x road 1 f"
+	inherited: tr_sem_prof.u_r2xr1.nl
+}
+tr_semaphore_profile : tr_sem_prof.u_r1xr2.f {
+
+	name: "universal - road 1 x road 2 f"
+	inherited: tr_sem_prof.u_r1xr2.nl
+}
+
+############
+## GREECE ##
+############
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr1.gr {
+
+	name: "universal - road 1 x road 1 gr"
+	inherited: tr_sem_prof.u_r1xr1.nl
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr2.gr {
+
+	name: "universal - road 2 x road 2 gr"
+	inherited: tr_sem_prof.u_r2xr2.nl
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr1.gr {
+
+	name: "universal - road 2 x road 1 gr"
+	inherited: tr_sem_prof.u_r2xr1.nl
+}
+tr_semaphore_profile : tr_sem_prof.u_r1xr2.gr {
+
+	name: "universal - road 1 x road 2 gr"
+	inherited: tr_sem_prof.u_r1xr2.nl
+}
+
+#############
+## HUNGARY ##
+#############
+
+#############
+## ICELAND ##
+#############
+
+###########
+## ITALY ##
+###########
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr1.i {
+
+	name: "universal - road 1 x road 1 i"
+	inherited: tr_sem_prof.u_r1xr1.nl
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr2.i {
+
+	name: "universal - road 2 x road 2 i"
+	inherited: tr_sem_prof.u_r2xr2.nl
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr1.i {
+
+	name: "universal - road 2 x road 1 i"
+	inherited: tr_sem_prof.u_r2xr1.nl
+}
+tr_semaphore_profile : tr_sem_prof.u_r1xr2.i {
+
+	name: "universal - road 1 x road 2 i"
+	inherited: tr_sem_prof.u_r1xr2.nl
+}
+
+#################
+## ISLE OF MAN ##
+#################
+
+############
+## JERSEY ##
+############
+
+############
+## LATVIA ##
+############
+
+###############
+## LITHUANIA ##
+###############
+
+###################
+## LIECHTENSTEIN ##
+###################
+
+################
+## LUXEMBOURG ##
+################
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr1.l {
+
+	name: "universal - road 1 x road 1 l"
+	inherited: tr_sem_prof.u_r1xr1.nl
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr2.l {
+
+	name: "universal - road 2 x road 2 l"
+	inherited: tr_sem_prof.u_r2xr2.nl
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr1.l {
+
+	name: "universal - road 2 x road 1 l"
+	inherited: tr_sem_prof.u_r2xr1.nl
+}
+tr_semaphore_profile : tr_sem_prof.u_r1xr2.l {
+
+	name: "universal - road 1 x road 2 l"
+	inherited: tr_sem_prof.u_r1xr2.nl
+}
+
+#############
+## MOLDOVA ##
+#############
+
+############
+## MONACO ##
+############
+
+###############
+## MACEDONIA ##
+###############
+
+################
+## MONTENEGRO ##
+################
+
+############
+## NORWAY ##
+############
+
+############
+## POLAND ##
+############
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr1.pl {
+
+	name: "universal - road 1 x road 1 pl"
+	inherited: tr_sem_prof.cr_r1xr1.d
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr2.pl {
+
+	name: "universal - road 2 x road 2 pl"
+	inherited: tr_sem_prof.u_r2xr2.d
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr1.pl {
+
+	name: "universal - road 2 x road 1 pl"
+	inherited: tr_sem_prof.u_r2xr1.d
+}
+tr_semaphore_profile : tr_sem_prof.u_r1xr2.pl {
+
+	name: "universal - road 1 x road 2 pl"
+	inherited: tr_sem_prof.u_r1xr2.d
+}
+
+##############
+## PORTUGAL ##
+##############
+
+#############
+## ROMANIA ##
+#############
+
+############
+## RUSSIA ##
+############
+
+#########################
+## RUSSIA, KALININGRAD ##
+#########################
+
+############
+## SERBIA ##
+###########
+
+##############
+## SLOVAKIA ##
+##############
+
+##############
+## SLOVENIA ##
+##############
+
+###########
+## SPAIN ##
+###########
+
+tr_semaphore_profile : tr_sem_prof.u_r1xr1.e {
+
+	name: "universal - road 1 x road 1 e"
+	inherited: tr_sem_prof.u_r1xr1.nl
+}
+tr_semaphore_profile : tr_sem_prof.u_r2xr2.e {
+
+	name: "universal - road 2 x road 2 e"
+	inherited: tr_sem_prof.u_r2xr2.nl
+}
+
+tr_semaphore_profile : tr_sem_prof.u_r2xr1.e {
+
+	name: "universal - road 2 x road 1 e"
+	inherited: tr_sem_prof.u_r2xr1.nl
+}
+tr_semaphore_profile : tr_sem_prof.u_r1xr2.e {
+
+	name: "universal - road 1 x road 2 e"
+	inherited: tr_sem_prof.u_r1xr2.nl
+}
+
+############
+## SWEDEN ##
+############
+
+#################
+## SWITZERLAND ##
+#################
+
+############
+## TURKEY ##
+############
+
+#############
+## UKRAINE ##
+#############
+
+}
+

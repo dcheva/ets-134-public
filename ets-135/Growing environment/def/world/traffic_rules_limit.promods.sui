@@ -1,0 +1,42 @@
+traffic_rule_data : traffic_rule.limit_15
+{
+	name: "Speed limit 15"
+
+	rule: "speed_limit"
+	num_params[]: 15
+}
+#traffic_rule_data : traffic_rule.limit_20
+#{
+#	name: "Speed limit 20"
+#
+#	rule: "speed_limit"
+#	num_params[]: 20
+#}
+traffic_rule_data : traffic_rule.limit_35
+{
+	name: "Speed limit 35"
+
+	rule: "speed_limit"
+	num_params[]: 35
+}
+traffic_rule_data : traffic_rule.limit_45
+{
+	name: "Speed limit 45"
+
+	rule: "speed_limit"
+	num_params[]: 45
+}
+#traffic_rule_data : traffic_rule.limit_5
+#{
+#	name: "Speed limit 5"
+#
+#	rule: "speed_limit"
+#	num_params[]: 5
+#}
+traffic_rule_data : traffic_rule.limit_140
+{
+	name: "Speed limit 140"
+
+	rule: "speed_limit"
+	num_params[]: 140
+}

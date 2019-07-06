@@ -1,0 +1,56 @@
+traffic_trailer : traffic.trailer.food_cistern.nd {
+	accessories[]: .traffic.food_cistern.tchassis.nd
+	accessories[]: .traffic.food_cistern.trwheel0.nd
+	accessories[]: .traffic.food_cistern.trwheel1.nd
+	accessories[]: .traffic.food_cistern.trwheel2.nd
+	accessories[]: .traffic.food_cistern.paintjob.nd
+	cargo_mass: 18000
+	base: traffic.trailer.food_cistern
+}
+vehicle_accessory: .traffic.food_cistern.tchassis.nd {
+	data_path: "/def/vehicle/trailer/food_cistern/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.food_cistern.trwheel0.nd {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .traffic.food_cistern.trwheel1.nd {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .traffic.food_cistern.trwheel2.nd {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .traffic.food_cistern.paintjob.nd {
+    data_path: "/def/vehicle/trailer/food_cistern/company_paint_job/nd.sii"
+}
+
+
+traffic_trailer : traffic.trailer.food_cistern.deret {
+	accessories[]: .traffic.food_cistern.tchassis.deret
+	accessories[]: .traffic.food_cistern.trwheel0.deret
+	accessories[]: .traffic.food_cistern.trwheel1.deret
+	accessories[]: .traffic.food_cistern.trwheel2.deret
+	accessories[]: .traffic.food_cistern.paintjob.deret
+	cargo_mass: 18000
+	base: traffic.trailer.food_cistern
+}
+vehicle_accessory: .traffic.food_cistern.tchassis.deret {
+	data_path: "/def/vehicle/trailer/food_cistern/chassis.sii"
+}
+vehicle_wheel_accessory: .traffic.food_cistern.trwheel0.deret {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .traffic.food_cistern.trwheel1.deret {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_wheel_accessory: .traffic.food_cistern.trwheel2.deret {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/single.sii"
+}
+vehicle_paint_job_accessory: .traffic.food_cistern.paintjob.deret {
+    data_path: "/def/vehicle/trailer/food_cistern/company_paint_job/deret.sii"
+}

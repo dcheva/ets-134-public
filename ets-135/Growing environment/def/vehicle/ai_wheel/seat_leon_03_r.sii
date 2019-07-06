@@ -1,0 +1,10 @@
+SiiNunit
+{
+accessory_wheel_data : seat_leon_03.police.an.rwheel
+{
+	model: "/vehicle/wheel/seat_leon_03/seat_leon_03.pmd"
+
+}
+}
+
+

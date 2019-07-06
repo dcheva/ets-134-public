@@ -1,0 +1,33 @@
+traffic_vehicle : traffic.xc90.police.is
+{
+	accessories[]: .xc90.police.is.chassis
+	accessories[]: .xc90.police.is.fwheel
+	accessories[]: .xc90.police.is.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 2100
+@include "/def/vehicle/ai/drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .xc90.police.is.chassis
+{
+	data_path: "/def/vehicle/ai/promods/road/xc90/chassis_police_is.sii"
+}
+
+vehicle_wheel_accessory: .xc90.police.is.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_20in.sii"
+}
+
+vehicle_wheel_accessory: .xc90.police.is.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_20in.sii"
+}

@@ -1,0 +1,69 @@
+
+city_data: city.amsterdam
+{
+	city_name: "Amsterdam"
+	city_name_localized: "@@amsterdam@@"
+	country: netherlands
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -28
+	map_x_offsets[]: -31
+	map_x_offsets[]: -26
+	map_x_offsets[]: -43
+	map_x_offsets[]: -45
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -10
+	map_y_offsets[]: -5
+	map_y_offsets[]: -47
+	map_y_offsets[]: -46
+	map_y_offsets[]: -25
+	map_y_offsets[]: -25
+
+	vehicle_brands[]: "daf"
+
+	truck_lp_template[]:"00-B1-11"
+	truck_lp_template[]:"00-B11-2"
+
+	truck_lp_def0[]:"0"
+	truck_lp_def0[]:"1"
+	truck_lp_def0[]:"2"
+	truck_lp_def0[]:"3"
+	truck_lp_def0[]:"4"
+	truck_lp_def0[]:"5"
+	truck_lp_def0[]:"6"
+	truck_lp_def0[]:"7"
+	truck_lp_def0[]:"8"
+	truck_lp_def0[]:"9"
+
+	truck_lp_def1[]:"B"
+	truck_lp_def1[]:"D"
+	truck_lp_def1[]:"F"
+	truck_lp_def1[]:"G"
+	truck_lp_def1[]:"H"
+	truck_lp_def1[]:"J"
+	truck_lp_def1[]:"K"
+	truck_lp_def1[]:"L"
+	truck_lp_def1[]:"N"
+	truck_lp_def1[]:"P"
+	truck_lp_def1[]:"R"
+	truck_lp_def1[]:"S"
+	truck_lp_def1[]:"T"
+	truck_lp_def1[]:"V"
+	truck_lp_def1[]:"X"
+	truck_lp_def1[]:"Z"
+	
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+}
+

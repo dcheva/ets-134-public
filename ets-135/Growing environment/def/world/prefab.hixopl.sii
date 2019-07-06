@@ -1,0 +1,197 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+prefab_model : prefab.01hixo {
+	model_desc: "/prefab/hw/de/tran_2x_hw4b-3b5m_left.pmd"
+	prefab_desc: "/prefab/hw/de/tran_2x_hw4b-3b5m_left.ppd"
+	category: "ProMods DE"
+}
+prefab_model : prefab.hixo1 {
+	model_desc:  "/prefab/hixopl/1x1x_small_oneway_1a.pmd"
+	prefab_desc: "/prefab/hixopl/1x1x_small_oneway_1a.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo2 {
+	model_desc:  "/prefab/hixopl/geta_polarfish.pmd"
+	prefab_desc: "/prefab/hixopl/geta_polarfish.ppd"
+	category: "ProMods Companies"
+}
+prefab_model : prefab.hixo3 {
+	model_desc:  "/prefab/wojtek/plock_bp.pmd"
+	prefab_desc: "/prefab/hixopl/geta_gas.ppd"
+	category: "ProMods Companies"
+}
+prefab_model : prefab.hixo4 {
+	model_desc:  "/prefab/hixopl/poznan1.pmd"
+	prefab_desc: "/prefab/hixopl/poznan1.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo5 {
+	model_desc:  "/prefab/hixopl/poznan2.pmd"
+	prefab_desc: "/prefab/hixopl/poznan2.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo6 {
+	model_desc:  "/prefab/hixopl/poznan2_fork1.pmd"
+	prefab_desc: "/prefab/hixopl/poznan2_fork1.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo7 {
+	model_desc:  "/prefab/hixopl/poznan2_fork2.pmd"
+	prefab_desc: "/prefab/hixopl/poznan2_fork2.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo8 {
+	model_desc:  "/prefab/hixopl/poznan2_fork3.pmd"
+	prefab_desc: "/prefab/hixopl/poznan2_fork3.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo9 {
+	model_desc:  "/prefab/hixopl/poznan3_fork1.pmd"
+	prefab_desc: "/prefab/hixopl/poznan3_fork1.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo10 {
+	model_desc:  "/prefab/hixopl/poznan3.pmd"
+	prefab_desc: "/prefab/hixopl/poznan3.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo11 {
+	model_desc:  "/prefab/hixopl/poznan3_fork3.pmd"
+	prefab_desc: "/prefab/hixopl/poznan3_fork3.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo12 {
+	model_desc:  "/prefab/hixopl/poznan3_fork2.pmd"
+	prefab_desc: "/prefab/hixopl/poznan3_fork2.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo13 {
+	model_desc:  "/prefab/hixopl/poznan4.pmd"
+	prefab_desc: "/prefab/hixopl/poznan4.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hixo14 {
+	model_desc:  "/prefab/hixopl/poznan5.pmd"
+	prefab_desc: "/prefab/hixopl/poznan5.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hixo15 {
+	model_desc:  "/prefab/hixopl/poznan6.pmd"
+	prefab_desc: "/prefab/hixopl/poznan6.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hixo16 {
+	model_desc:  "/prefab/hixopl/tran_1x_hw2-3_short_bm1.pmd"
+	prefab_desc: "/prefab/hixopl/tran_1x_hw2-3_short_bm1.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hixo17 {
+	model_desc:  "/prefab/hixopl/tran_1x_hw3-4_short_bm2.pmd"
+	prefab_desc: "/prefab/hixopl/tran_1x_hw3-4_short_bm2.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hixo18 {
+	model_desc:  "/prefab/hixopl/6x2t_med_2m.pmd"
+	prefab_desc: "/prefab/hixopl/6x2t_med_2m.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo19 {
+	model_desc:  "/prefab/hixopl/poznan7.pmd"
+	prefab_desc: "/prefab/hixopl/poznan7.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo20 {
+	model_desc:  "/prefab/hixopl/poznan8.pmd"
+	prefab_desc: "/prefab/hixopl/poznan8.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo21 {
+	model_desc:  "/prefab/hixopl/poznan9.pmd"
+	prefab_desc: "/prefab/hixopl/poznan9.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo22 {
+	model_desc:  "/prefab/hixopl/poznan10.pmd"
+	prefab_desc: "/prefab/hixopl/poznan10.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo23 {
+	model_desc:  "/prefab/hixopl/poznan10_fork1.pmd"
+	prefab_desc: "/prefab/hixopl/poznan10_fork1.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo24 {
+	model_desc:  "/prefab/hixopl/poznan10_fork2.pmd"
+	prefab_desc: "/prefab/hixopl/poznan10_fork2.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo25 {
+	model_desc:  "/prefab/hixopl/poznan11.pmd"
+	prefab_desc: "/prefab/hixopl/poznan11.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo26 {
+	model_desc:  "/prefab/hixopl/poznan11_fork1.pmd"
+	prefab_desc: "/prefab/hixopl/poznan11_fork1.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo27 {
+	model_desc:  "/prefab/hixopl/poznan11_fork2.pmd"
+	prefab_desc: "/prefab/hixopl/poznan11_fork2.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo28 {
+	model_desc:  "/prefab/hixopl/poznan11_fork3.pmd"
+	prefab_desc: "/prefab/hixopl/poznan11_fork3.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo29 {
+	model_desc:  "/prefab/hixopl/poznan11_fork4.pmd"
+	prefab_desc: "/prefab/hixopl/poznan11_fork4.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo30 {
+	model_desc:  "/prefab/hixopl/poznan12.pmd"
+	prefab_desc: "/prefab/hixopl/poznan12.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo31 {
+	model_desc:  "/prefab/hixopl/poznan12_fork1.pmd"
+	prefab_desc: "/prefab/hixopl/poznan12_fork1.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo32 {
+	model_desc:  "/prefab/hixopl/lomza_dk63_dk64.pmd"
+	prefab_desc: "/prefab/hixopl/lomza_dk63_dk64.ppd"
+	category: "ProMods Cross"
+}
+prefab_model : prefab.hixo33 {
+	model_desc:  "/prefab/hixopl/ruts/rl0_ruts_transistion_pl.pmd"
+	prefab_desc: "/prefab/hixopl/ruts/rl0_ruts_transistion_pl.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hixo34 {
+	model_desc:  "/prefab/hixopl/ruts/rl1_ruts_transistion_pl.pmd"
+	prefab_desc: "/prefab/hixopl/ruts/rl1_ruts_transistion_pl.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hixo35 {
+	model_desc:  "/prefab/hixopl/ruts/rl2_ruts_transistion_pl.pmd"
+	prefab_desc: "/prefab/hixopl/ruts/rl2_ruts_transistion_pl.ppd"
+	category: "ProMods PL"
+}
+prefab_model : prefab.hixo36 {
+	model_desc:  "/prefab/hixopl/ruts/rl3_ruts_transistion_pl.pmd"
+	prefab_desc: "/prefab/hixopl/ruts/rl3_ruts_transistion_pl.ppd"
+	category: "ProMods PL"
+}
+
+}

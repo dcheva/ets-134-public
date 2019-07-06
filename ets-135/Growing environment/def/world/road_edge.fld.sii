@@ -1,0 +1,822 @@
+SiiNunit
+{
+# by FLD / TZ express map
+road_edge : road_edge.00fld {
+	name: 		"sw_1m_asphalt_00"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: asphalt_00
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.01fld {
+	name: 		"sw_1m_asphalt_01"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: asphalt_01
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.02fld {
+	name: 		"sw_1m_crosshape"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: crosshape
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.03fld {
+	name: 		"sw_1m_demo_sw"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: demo_sw
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.04fld {
+	name: 		"sw_1m_grass"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: grass
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.05fld {
+	name: 		"sw_1m_hexagonal"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: hexagonal
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.06fld {
+	name: 		"sw_1m_reddish"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: reddish
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.07fld {
+	name: 		"sw_1m_sidewalk"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.08fld {
+	name: 		"sw_1m_sidewalk_00"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_00
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.09fld {
+	name: 		"sw_1m_sidewalk_01"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_01
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.10fld {
+	name: 		"sw_1m_sidewalk_02"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_02
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.11fld {
+	name: 		"sw_1m_sidewalk_03"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_03
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.12fld {
+	name: 		"sw_1m_sidewalk_04"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_04
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.13fld {
+	name: 		"sw_1m_sidewalk_05"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_05
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.14fld {
+	name: 		"sw_1m_sidewalk_06"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_06
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.15fld {
+	name: 		"sw_1m_sidewalk_07"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_07
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.16fld {
+	name: 		"sw_1m_sidewalk_08"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_08
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.17fld {
+	name: 		"sw_1m_sidewalk_09"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_09
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.18fld {
+	name: 		"sw_1m_sidewalk_10"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_10
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.19fld {
+	name: 		"sw_1m_sidewalk_11"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_11
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.20fld {
+	name: 		"sw_1m_sidewalk_12"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_12
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.21fld {
+	name: 		"sw_1m_sidewalk_13"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_13
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.22fld {
+	name: 		"sw_1m_sidewalk_14"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_14
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.23fld {
+	name: 		"sw_1m_small_bl"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: small_bl
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.24fld {
+	name: 		"sw_1m_small_st"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: small_st
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.25fld {
+	name: 		"sw_1m_square"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: square
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.26fld {
+	name: 		"sw_1m_sidewalk_gr"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: sidewalk_gr
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.27fld {
+	name: 		"sw_1m_old_city"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: old_city
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.28fld {
+	name: 		"sw_1m_old_city_2"
+	model:		"/road_template/sidewalk/sidewalk_1m.pmd"
+	look: old_city_2
+	variant_5: sw_1m_00_5m
+	variant_15: sw_1m_00_15m
+}
+road_edge : road_edge.29fld {
+	name: 		"sw_2m_asphalt_00"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: asphalt_00
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.30fld {
+	name: 		"sw_2m_asphalt_01"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: asphalt_01
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.31fld {
+	name: 		"sw_2m_crosshape"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: crosshape
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.32fld {
+	name: 		"sw_2m_demo_sw"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: demo_sw
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.33fld {
+	name: 		"sw_2m_grass"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: grass
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.34fld {
+	name: 		"sw_2m_hexagonal"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: hexagonal
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.35fld {
+	name: 		"sw_2m_reddish"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: reddish
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.36fld {
+	name: 		"sw_2m_sidewalk"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.37fld {
+	name: 		"sw_2m_sidewalk_00"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_00
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.38fld {
+	name: 		"sw_2m_sidewalk_01"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_01
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.39fld {
+	name: 		"sw_2m_sidewalk_02"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_02
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.40fld {
+	name: 		"sw_2m_sidewalk_03"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_03
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.41fld {
+	name: 		"sw_2m_sidewalk_04"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_04
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.42fld {
+	name: 		"sw_2m_sidewalk_05"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_05
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.43fld {
+	name: 		"sw_2m_sidewalk_06"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_06
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.44fld {
+	name: 		"sw_2m_sidewalk_07"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_07
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.45fld {
+	name: 		"sw_2m_sidewalk_08"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_08
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.46fld {
+	name: 		"sw_2m_sidewalk_09"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_09
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.47fld {
+	name: 		"sw_2m_sidewalk_10"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_10
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.48fld {
+	name: 		"sw_2m_sidewalk_11"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_11
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.49fld {
+	name: 		"sw_2m_sidewalk_12"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_12
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.50fld {
+	name: 		"sw_2m_sidewalk_13"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_13
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.51fld {
+	name: 		"sw_2m_sidewalk_14"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_14
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.52fld {
+	name: 		"sw_2m_small_bl"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: small_bl
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.53fld {
+	name: 		"sw_2m_small_st"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: small_st
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.54fld {
+	name: 		"sw_2m_square"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: square
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.55fld {
+	name: 		"sw_2m_sidewalk_gr"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: sidewalk_gr
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.56fld {
+	name: 		"sw_2m_old_city"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: old_city
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.57fld {
+	name: 		"sw_2m_old_city_2"
+	model:		"/road_template/sidewalk/sidewalk_2m.pmd"
+	look: old_city_2
+	variant_5: sw_2m_00_5m
+	variant_15: sw_2m_00_15m
+}
+road_edge : road_edge.58fld {
+	name: 		"sw_3m_asphalt_00"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: asphalt_00
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.59fld {
+	name: 		"sw_3m_asphalt_01"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: asphalt_01
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.60fld {
+	name: 		"sw_3m_crosshape"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: crosshape
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.61fld {
+	name: 		"sw_3m_demo_sw"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: demo_sw
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.62fld {
+	name: 		"sw_3m_grass"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: grass
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.63fld {
+	name: 		"sw_3m_hexagonal"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: hexagonal
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.64fld {
+	name: 		"sw_3m_reddish"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: reddish
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.65fld {
+	name: 		"sw_3m_sidewalk"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.66fld {
+	name: 		"sw_3m_sidewalk_00"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_00
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.67fld {
+	name: 		"sw_3m_sidewalk_01"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_01
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.68fld {
+	name: 		"sw_3m_sidewalk_02"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_02
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.69fld {
+	name: 		"sw_3m_sidewalk_03"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_03
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.70fld {
+	name: 		"sw_3m_sidewalk_04"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_04
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.71fld {
+	name: 		"sw_3m_sidewalk_05"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_05
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.72fld {
+	name: 		"sw_3m_sidewalk_06"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_06
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.73fld {
+	name: 		"sw_3m_sidewalk_07"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_07
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.74fld {
+	name: 		"sw_3m_sidewalk_08"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_08
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.75fld {
+	name: 		"sw_3m_sidewalk_09"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_09
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.76fld {
+	name: 		"sw_3m_sidewalk_10"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_10
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.77fld {
+	name: 		"sw_3m_sidewalk_11"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_11
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.78fld {
+	name: 		"sw_3m_sidewalk_12"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_12
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.79fld {
+	name: 		"sw_3m_sidewalk_13"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_13
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.80fld {
+	name: 		"sw_3m_sidewalk_14"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_14
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.81fld {
+	name: 		"sw_3m_small_bl"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: small_bl
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.82fld {
+	name: 		"sw_3m_small_st"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: small_st
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.83fld {
+	name: 		"sw_3m_square"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: square
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.84fld {
+	name: 		"sw_3m_sidewalk_gr"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: sidewalk_gr
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.85fld {
+	name: 		"sw_3m_old_city"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: old_city
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.86fld {
+	name: 		"sw_3m_old_city_2"
+	model:		"/road_template/sidewalk/sidewalk_3m.pmd"
+	look: old_city_2
+	variant_5: sw_3m_00_5m
+	variant_15: sw_3m_00_15m
+}
+road_edge : road_edge.87fld {
+	name: 		"sw_4m_asphalt_00"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: asphalt_00
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.88fld {
+	name: 		"sw_4m_asphalt_01"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: asphalt_01
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.89fld {
+	name: 		"sw_4m_crosshape"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: crosshape
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.90fld {
+	name: 		"sw_4m_demo_sw"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: demo_sw
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.91fld {
+	name: 		"sw_4m_grass"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: grass
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.92fld {
+	name: 		"sw_4m_hexagonal"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: hexagonal
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.93fld {
+	name: 		"sw_4m_reddish"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: reddish
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.94fld {
+	name: 		"sw_4m_sidewalk"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.95fld {
+	name: 		"sw_4m_sidewalk_00"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_00
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.96fld {
+	name: 		"sw_4m_sidewalk_01"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_01
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.97fld {
+	name: 		"sw_4m_sidewalk_02"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_02
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.98fld {
+	name: 		"sw_4m_sidewalk_03"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_03
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.99fld {
+	name: 		"sw_4m_sidewalk_04"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_04
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.100fld {
+	name: 		"sw_4m_sidewalk_05"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_05
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.101fld {
+	name: 		"sw_4m_sidewalk_06"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_06
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.102fld {
+	name: 		"sw_4m_sidewalk_07"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_07
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.103fld {
+	name: 		"sw_4m_sidewalk_08"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_08
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.104fld {
+	name: 		"sw_4m_sidewalk_09"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_09
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.105fld {
+	name: 		"sw_4m_sidewalk_10"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_10
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.106fld {
+	name: 		"sw_4m_sidewalk_11"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_11
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.107fld {
+	name: 		"sw_4m_sidewalk_12"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_12
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.108fld {
+	name: 		"sw_4m_sidewalk_13"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_13
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.109fld {
+	name: 		"sw_4m_sidewalk_14"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_14
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.110fld {
+	name: 		"sw_4m_small_bl"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: small_bl
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.111fld {
+	name: 		"sw_4m_small_st"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: small_st
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.112fld {
+	name: 		"sw_4m_square"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: square
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.113fld {
+	name: 		"sw_4m_sidewalk_gr"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: sidewalk_gr
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.114fld {
+	name: 		"sw_4m_old_city"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: old_city
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.115fld {
+	name: 		"sw_4m_old_city_2"
+	model:		"/road_template/sidewalk/sidewalk_4m.pmd"
+	look: old_city_2
+	variant_5: sw_4m_00_5m
+	variant_15: sw_4m_00_15m
+}
+road_edge : road_edge.116fld {
+	name: 		"shoulder_fld"
+	model:		"/road_template/road/shoulder_fld.pmd"
+	variant_5: sh_a_5m
+	variant_15: sh_a_15m
+}
+}

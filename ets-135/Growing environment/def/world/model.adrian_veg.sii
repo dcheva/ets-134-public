@@ -1,0 +1,60 @@
+SiiNunit
+{
+
+model_def : model.adrveg001 {
+	vegetation_model : vegetmodel.spruce.big2_sc
+}
+model_def : model.adrveg002 {
+	model_desc: "/model/sign/border1234_post_no.pmd"
+	distance_type: 3
+}
+model_def : model.adrveg003 {
+	model_desc: "/model/sign/border1234_post_ru.pmd"
+	distance_type: 3
+}
+model_def : model.adrveg004 {
+	model_desc: "/model/sign/woodensign_post_ru.pmd"
+	distance_type: 3
+}
+model_def : model.adrveg005 {
+	model_desc: "/model/gate/forest_gat2_open.pmd"
+	distance_type: 3
+}
+model_def : model.adrveg006 {
+	model_desc: "/model/gate/forest_gat2_closed.pmd"
+	distance_type: 3
+}
+model_def : model.adrveg007 { 
+	
+	model_desc: "/model/advert/billboard/billboard_uni.pmd"
+
+}
+model_def : model.adrveg008 {
+	model_desc: "/model/sign/border1234_post_fi.pmd"
+	distance_type: 3
+}
+model_def : model.adrveg009 {
+	model_desc: "/model/billboard/no/billboard_1.pmd"
+	distance_type: 3
+}
+model_def : model.adrveg010 {
+	model_desc: "/model/sign/traffic/no/no_mark_left.pmd"
+	distance_type: 3
+}
+model_def : model.adrveg011 {
+	model_desc: "/model/sign/traffic/no/no_mark_right.pmd"
+	distance_type: 3
+}
+model_def : model.adrveg012 {
+	model_desc: "/model/norway/generic_logo_board_1x1.pmd"
+	distance_type: 3
+}
+model_def : model.adrveg013 {
+	model_desc: "/model/norway/generic_logo_board_2x1.pmd"
+	distance_type: 3
+}
+model_def : model.adrveg014 {
+	model_desc: "/model/norway/generic_logo_board_3x1.pmd"
+	distance_type: 3
+}
+}

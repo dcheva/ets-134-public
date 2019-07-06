@@ -1,0 +1,16 @@
+SiiNunit
+{
+ferry_connection : conn.douglas.belfast{
+	price: 350
+	time: 180
+	distance: 100
+	
+	# NODE POSITIONS ########   x*256  , 0,  z*256
+	connection_positions[0]: (-13401600, 0, -9446400)
+	
+	# NODE ROTATIONS ########  -sin(jaw), 0.0, -cos(jaw)
+	connection_directions[0]: ( 0.00,0.00,-1.00)
+
+}
+}
+

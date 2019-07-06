@@ -1,0 +1,120 @@
+traffic_vehicle : traffic.tram_kon
+{
+	accessories[]: .tram_kon.chassis
+	accessories[]: .tram_kon.fwheel
+	accessories[]: .tram_kon.rwheel
+	accessories[]: .tram_kon.rwheel2
+	accessories[]: .tram_kon.rwheel3
+
+	max_speed: 50
+
+	vehicle_mass: 100000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 20000
+
+	trailer_chains[]: "train_car.tram_kon.couple | train_car.tram_kon.end"
+
+	displacement_limit: 0.0
+	
+	spawn_ratio: 0
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	prefer_variant: true
+	variant[]: traffic.tram_kon.poznan
+}
+vehicle_accessory: .tram_kon.chassis
+{
+	data_path: "/def/vehicle/ai/promods/rail/tram/konstal/chassis_front.sii"
+}
+
+vehicle_wheel_accessory: .tram_kon.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/tram_front.sii"
+}
+
+vehicle_wheel_accessory: .tram_kon.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/tram_rear.sii"
+}
+
+vehicle_wheel_accessory: .tram_kon.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/tram_rear.sii"
+}
+
+vehicle_wheel_accessory: .tram_kon.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/tram_rear.sii"
+}
+
+traffic_vehicle : traffic.tram_kon.poznan
+{
+	accessories[]: .tram_kon.chassis.poznan
+	accessories[]: .tram_kon.fwheel.poznan
+	accessories[]: .tram_kon.rwheel.poznan
+	accessories[]: .tram_kon.rwheel2.poznan
+	accessories[]: .tram_kon.rwheel3.poznan
+
+	max_speed: 50
+
+	vehicle_mass: 100000
+	gearbox[]: (0, 1)
+	gearbox[]: (10, 0.9)
+	gear_ratio: 10
+	engine_torque: 20000
+
+	trailer_chains[]: "train_car.tram_kon.couple | train_car.tram_kon.end"
+
+	displacement_limit: 0.0
+
+	lod_dist[]: 70
+	# add lod in between
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+	spawn_condition[]: .traffic.tram_kon.poznan.condition.city
+}
+vehicle_accessory: .tram_kon.chassis.poznan
+{
+	data_path: "/def/vehicle/ai/promods/rail/tram/konstal/chassis_front.poznan.sii"
+}
+
+vehicle_wheel_accessory: .tram_kon.fwheel.poznan
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/tram_front.sii"
+}
+
+vehicle_wheel_accessory: .tram_kon.rwheel.poznan
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/tram_rear.sii"
+}
+
+vehicle_wheel_accessory: .tram_kon.rwheel2.poznan
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/tram_rear.sii"
+}
+
+vehicle_wheel_accessory: .tram_kon.rwheel3.poznan
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/tram_rear.sii"
+}
+traffic_spawn_condition: .traffic.tram_kon.poznan.condition.city
+{
+	# spawn only near city with specified name
+	type: city
+	str_param[]: "poznan"
+}

@@ -1,0 +1,31 @@
+SiiNunit
+{
+# by FLD / TZ express map
+	
+	prefab_model : prefab.0fldext {
+	model_desc: "/prefab/hw_uk/3x1_med_oneway_2a_v1_mirror.pmd"
+	prefab_desc: "/prefab/hw_uk/3x1_med_oneway_2a_v1_mirror.ppd"
+	category: "hw_uk TZ map"
+}
+
+	prefab_model : prefab.1fldext {
+	model_desc: "/prefab/hw_uk/3x1_med_oneway_2a_v1.pmd"
+	prefab_desc: "/prefab/hw_uk/3x1_med_oneway_2a_v1.ppd"
+	category: "hw_uk TZ map"
+}
+	prefab_model : prefab.2fldext {
+	model_desc: "/prefab/roundabout_uk/4_2y_oneway.pmd"
+	prefab_desc: "/prefab/roundabout_uk/4_2y_oneway.ppd"
+	category: "roundabout_uk TZ map"
+}
+	prefab_model : prefab.3fldext {
+	model_desc: "/prefab/roundabout_uk/4_2y_oneway_mirror.pmd"
+	prefab_desc: "/prefab/roundabout_uk/4_2y_oneway_mirror.ppd"
+	category: "roundabout_uk TZ map"
+}
+	prefab_model : prefab.4fldext {
+	model_desc: "/prefab/land_2/3_t_small_2m_all_1b.pmd"
+	prefab_desc: "/prefab/land_2/3_t_small_2m_all_1b.ppd"
+	category: "land_2 TZ map"
+}
+}

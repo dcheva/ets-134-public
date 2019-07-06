@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.uig.tarbert{
+	price: 150
+	time: 100
+	distance: 30
+}
+}
+

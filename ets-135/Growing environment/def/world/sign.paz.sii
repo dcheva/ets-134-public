@@ -1,0 +1,79 @@
+SiiNunit
+{
+
+sign_model : sign.modpz01
+	{
+		sign_name: "UK Dynamic Sign - Special - Underground"
+
+		model_desc: "/model/building/uk/ltube.pmd"
+		model_coll: "/model/building/uk/ltube.pmc"
+
+		look_name: default
+		category: "signs/uk"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+		editable: true
+	}
+
+sign_model : sign.modpz02
+	{
+		sign_name: "UK - Classic Telephone"
+
+		model_desc: "/model/building/uk/london_phone.pmd"
+		model_coll: "/model/building/uk/london_phone.pmc"
+
+		look_name: default
+		category: "signs/uk"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+	}
+	
+sign_model : sign.modpz03
+	{
+		sign_name: "Bollard black"
+
+		model_desc: "/model/building/uk/black_bollard.pmd"
+		model_coll: "/model/building/uk/black_bollard.pmc"
+
+		look_name: default
+		category: "signs/uk"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+	}
+	
+sign_model : sign.modpz04
+	{
+		sign_name: "Bollard black fat"
+
+		model_desc: "/model/building/uk/black_bollard_fat.pmd"
+		model_coll: "/model/building/uk/black_bollard_fat.pmc"
+
+		look_name: default
+		category: "signs/uk"
+		dynamic: false
+		distance_type: 2
+		mass: 100
+		variant_name: default
+	}
+	
+sign_model : sign.modpz05
+	{
+		sign_name: "Crossing signal UK"
+
+		model_desc: "/prefab/level_crossing/crossing_uk.pmd"
+		model_coll: "/prefab/level_crossing/crossing_uk.pmc"
+		look_name: default
+		category: "signs/uk"
+
+		dynamic: false
+		distance_type: 2
+		mass: 100
+	}
+
+}

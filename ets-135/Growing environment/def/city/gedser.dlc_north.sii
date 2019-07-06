@@ -1,0 +1,93 @@
+city_data: city.gedser
+{
+	city_name: "Gedser"
+	city_name_localized: "@@gedser@@"
+	country: denmark
+
+	## City pin and name scale factor sets size of city pin and name text on UI map.
+	## Valid values: (0;2> default value 1.0. Default pin size on UI map 24px X 24px.
+	#city_pin_scale_factor[]: 1.0f
+	#city_pin_scale_factor[]: 1.0f
+	#city_pin_scale_factor[]: 1.0f
+	#city_pin_scale_factor[]: 1.0f
+	#city_pin_scale_factor[]: 1.0f
+	#city_pin_scale_factor[]: 0.9f
+	#city_pin_scale_factor[]: 0.85f
+	#city_pin_scale_factor[]: 0.75f
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.8  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.6  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -35
+	map_x_offsets[]: -36
+	map_x_offsets[]: -30
+	map_x_offsets[]: -27
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -101
+	map_y_offsets[]: -64
+	map_y_offsets[]: -32
+	map_y_offsets[]: -21
+
+	truck_lp_template[]:"00 12 232"
+
+	truck_lp_def0[]:"A"
+	truck_lp_def0[]:"B"
+	truck_lp_def0[]:"C"
+	truck_lp_def0[]:"D"
+	truck_lp_def0[]:"E"
+	truck_lp_def0[]:"F"
+	truck_lp_def0[]:"G"
+	truck_lp_def0[]:"H"
+	truck_lp_def0[]:"J"
+	truck_lp_def0[]:"K"
+	truck_lp_def0[]:"L"
+	truck_lp_def0[]:"M"
+	truck_lp_def0[]:"N"
+	truck_lp_def0[]:"P"
+	truck_lp_def0[]:"R"
+	truck_lp_def0[]:"S"
+	truck_lp_def0[]:"T"
+	truck_lp_def0[]:"U"
+	truck_lp_def0[]:"V"
+	truck_lp_def0[]:"W"
+	truck_lp_def0[]:"X"
+	truck_lp_def0[]:"Y"
+	truck_lp_def0[]:"Z"
+
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+
+	truck_lp_def2[]:"0"
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+	truck_lp_def3[]:"0"
+	truck_lp_def3[]:"1"
+	truck_lp_def3[]:"2"
+	truck_lp_def3[]:"3"
+	truck_lp_def3[]:"4"
+}

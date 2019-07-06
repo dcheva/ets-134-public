@@ -1,0 +1,606 @@
+traffic_trailer : .traffic.trailer.generic.profiliner.biedronka
+{
+	accessories[]: .generic.profiliner.tchassis.biedronka
+	accessories[]: .generic.profiliner.trwheel0.biedronka
+	accessories[]: .generic.profiliner.trwheel1.biedronka
+	accessories[]: .generic.profiliner.trwheel2.biedronka
+	accessories[]: .generic.profiliner.paintjob.biedronka
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.biedronka
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.biedronka
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.biedronka
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.biedronka
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.biedronka
+{
+    	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/biedronka.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.profiliner.maxima
+{
+	accessories[]: .generic.profiliner.tchassis.maxima
+	accessories[]: .generic.profiliner.trwheel0.maxima
+	accessories[]: .generic.profiliner.trwheel1.maxima
+	accessories[]: .generic.profiliner.trwheel2.maxima
+	accessories[]: .generic.profiliner.paintjob.maxima
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.maxima
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.maxima
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.maxima
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.maxima
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.maxima
+{
+    	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/maxima.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.profiliner.mazet
+{
+	accessories[]: .generic.profiliner.tchassis.mazet
+	accessories[]: .generic.profiliner.trwheel0.mazet
+	accessories[]: .generic.profiliner.trwheel1.mazet
+	accessories[]: .generic.profiliner.trwheel2.mazet
+	accessories[]: .generic.profiliner.paintjob.mazet
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.mazet
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.mazet
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.mazet
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.mazet
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.mazet
+{
+    	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/mazet.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.profiliner.rimi
+{
+	accessories[]: .generic.profiliner.tchassis.rimi
+	accessories[]: .generic.profiliner.trwheel0.rimi
+	accessories[]: .generic.profiliner.trwheel1.rimi
+	accessories[]: .generic.profiliner.trwheel2.rimi
+	accessories[]: .generic.profiliner.paintjob.rimi
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.rimi
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.rimi
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.rimi
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.rimi
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.rimi
+{
+    	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/rimi.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.profiliner.xxxlutz
+{
+	accessories[]: .generic.profiliner.tchassis.xxxlutz
+	accessories[]: .generic.profiliner.trwheel0.xxxlutz
+	accessories[]: .generic.profiliner.trwheel1.xxxlutz
+	accessories[]: .generic.profiliner.trwheel2.xxxlutz
+	accessories[]: .generic.profiliner.paintjob.xxxlutz
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.xxxlutz
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.xxxlutz
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.xxxlutz
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.xxxlutz
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.xxxlutz
+{
+    	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/xxxlutz.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.profiliner.tesco
+{
+	accessories[]: .generic.profiliner.tchassis.tesco
+	accessories[]: .generic.profiliner.trwheel0.tesco
+	accessories[]: .generic.profiliner.trwheel1.tesco
+	accessories[]: .generic.profiliner.trwheel2.tesco
+	accessories[]: .generic.profiliner.paintjob.tesco
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.tesco
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.tesco
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.tesco
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.tesco
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.tesco
+{
+    	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/tesco.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.profiliner.metro
+{
+	accessories[]: .generic.profiliner.tchassis.metro
+	accessories[]: .generic.profiliner.trwheel0.metro
+	accessories[]: .generic.profiliner.trwheel1.metro
+	accessories[]: .generic.profiliner.trwheel2.metro
+	accessories[]: .generic.profiliner.paintjob.metro
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.metro
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.metro
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.metro
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.metro
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.metro
+{
+    	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/metro.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.profiliner.nd
+{
+	accessories[]: .generic.profiliner.tchassis.nd
+	accessories[]: .generic.profiliner.trwheel0.nd
+	accessories[]: .generic.profiliner.trwheel1.nd
+	accessories[]: .generic.profiliner.trwheel2.nd
+	accessories[]: .generic.profiliner.paintjob.nd
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.nd
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.nd
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.nd
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.nd
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.nd
+{
+    	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/nd.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.profiliner.deret
+{
+	accessories[]: .generic.profiliner.tchassis.deret
+	accessories[]: .generic.profiliner.trwheel0.deret
+	accessories[]: .generic.profiliner.trwheel1.deret
+	accessories[]: .generic.profiliner.trwheel2.deret
+	accessories[]: .generic.profiliner.paintjob.deret
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.deret
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.deret
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.deret
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.deret
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.deret
+{
+    	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/deret.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.profiliner.eroski
+{
+	accessories[]: .generic.profiliner.tchassis.eroski
+	accessories[]: .generic.profiliner.trwheel0.eroski
+	accessories[]: .generic.profiliner.trwheel1.eroski
+	accessories[]: .generic.profiliner.trwheel2.eroski
+	accessories[]: .generic.profiliner.paintjob.eroski
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.eroski
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.eroski
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.eroski
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.eroski
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.eroski
+{
+    	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/eroski.sii"
+}
+
+
+traffic_trailer : .traffic.trailer.generic.profiliner.bondi
+{
+	accessories[]: .generic.profiliner.tchassis.bondi
+	accessories[]: .generic.profiliner.trwheel0.bondi
+	accessories[]: .generic.profiliner.trwheel1.bondi
+	accessories[]: .generic.profiliner.trwheel2.bondi
+	accessories[]: .generic.profiliner.paintjob.bondi
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.bondi
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.bondi
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.bondi
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.bondi
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.bondi
+{
+   	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/bondi.sii"
+}
+
+traffic_trailer : .traffic.trailer.generic.profiliner.eimskip
+{
+	accessories[]: .generic.profiliner.tchassis.eimskip
+	accessories[]: .generic.profiliner.trwheel0.eimskip
+	accessories[]: .generic.profiliner.trwheel1.eimskip
+	accessories[]: .generic.profiliner.trwheel2.eimskip
+	accessories[]: .generic.profiliner.paintjob.eimskip
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.eimskip
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.eimskip
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.eimskip
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.eimskip
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.eimskip
+{
+   	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/eimskip.sii"
+}
+
+traffic_trailer : .traffic.trailer.generic.profiliner.hb_grandi
+{
+	accessories[]: .generic.profiliner.tchassis.hb_grandi
+	accessories[]: .generic.profiliner.trwheel0.hb_grandi
+	accessories[]: .generic.profiliner.trwheel1.hb_grandi
+	accessories[]: .generic.profiliner.trwheel2.hb_grandi
+	accessories[]: .generic.profiliner.paintjob.hb_grandi
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.hb_grandi
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.hb_grandi
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.hb_grandi
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.hb_grandi
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.hb_grandi
+{
+   	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/hb_grandi.sii"
+}
+traffic_trailer : .traffic.trailer.generic.profiliner.icelandair
+{
+	accessories[]: .generic.profiliner.tchassis.icelandair
+	accessories[]: .generic.profiliner.trwheel0.icelandair
+	accessories[]: .generic.profiliner.trwheel1.icelandair
+	accessories[]: .generic.profiliner.trwheel2.icelandair
+	accessories[]: .generic.profiliner.paintjob.icelandair
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.icelandair
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.icelandair
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.icelandair
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.icelandair
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.icelandair
+{
+   	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/icelandair.sii"
+}
+traffic_trailer : .traffic.trailer.generic.profiliner.samskip
+{
+	accessories[]: .generic.profiliner.tchassis.samskip
+	accessories[]: .generic.profiliner.trwheel0.samskip
+	accessories[]: .generic.profiliner.trwheel1.samskip
+	accessories[]: .generic.profiliner.trwheel2.samskip
+	accessories[]: .generic.profiliner.paintjob.samskip
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.samskip
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.samskip
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.samskip
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.samskip
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.samskip
+{
+   	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/samskip.sii"
+}
+traffic_trailer : .traffic.trailer.generic.profiliner.smyril
+{
+	accessories[]: .generic.profiliner.tchassis.smyril
+	accessories[]: .generic.profiliner.trwheel0.smyril
+	accessories[]: .generic.profiliner.trwheel1.smyril
+	accessories[]: .generic.profiliner.trwheel2.smyril
+	accessories[]: .generic.profiliner.paintjob.smyril
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.smyril
+{
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.smyril
+{
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.smyril
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.smyril
+{
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.smyril
+{
+   	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/smyril.sii"
+}
+
+traffic_trailer : .traffic.trailer.generic.profiliner.lidl {
+	accessories[]: .generic.profiliner.tchassis.lidl
+	accessories[]: .generic.profiliner.trwheel0.lidl
+	accessories[]: .generic.profiliner.trwheel1.lidl
+	accessories[]: .generic.profiliner.trwheel2.lidl
+	accessories[]: .generic.profiliner.paintjob.lidl
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.lidl {
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.lidl {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.lidl {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.lidl {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.lidl {
+   	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/lidl.sii"
+}
+
+traffic_trailer : .traffic.trailer.generic.profiliner.gallia_ferry {
+	accessories[]: .generic.profiliner.tchassis.gallia_ferry
+	accessories[]: .generic.profiliner.trwheel0.gallia_ferry
+	accessories[]: .generic.profiliner.trwheel1.gallia_ferry
+	accessories[]: .generic.profiliner.trwheel2.gallia_ferry
+	accessories[]: .generic.profiliner.paintjob.gallia_ferry
+	cargo_mass: 21000
+	base: traffic.trailer.generic.profiliner
+}
+vehicle_accessory: .generic.profiliner.tchassis.gallia_ferry {
+	data_path: "/def/vehicle/trailer/krone/profiliner/chassis.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel0.gallia_ferry {
+	offset: 0
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel1.gallia_ferry {
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_wheel_accessory: .generic.profiliner.trwheel2.gallia_ferry {
+	offset: 4
+	data_path: "/def/vehicle/t_wheel/385_65_r22_5.sii"
+}
+vehicle_paint_job_accessory: .generic.profiliner.paintjob.gallia_ferry {
+   	data_path: "/def/vehicle/trailer/krone/profiliner/company_paint_job/gallia_ferry.sii"
+}

@@ -1,0 +1,27 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+# reserved numbers: 364-367,369,370-436,438,439-443,446-449,452
+
+
+
+prefab_model : prefab.trprefab01 {
+
+	model_desc: "/prefab2/toll_sevke.pmd"
+	prefab_desc: "/prefab2/toll_sevke.ppd"
+	category: "TR Prefabs"
+}
+
+prefab_model : prefab.trprefab02 {
+
+	model_desc: "/prefab2/toll_sevkenb.pmd"
+	prefab_desc: "/prefab2/toll_sevkenb.ppd"
+	category: "TR Prefabs"
+}
+}

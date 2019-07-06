@@ -1,0 +1,7 @@
+SiiNunit
+{
+country_traffic_info : .country.info.traffic.traxx_f140.ro {
+	object: traffic.traxx_f140.ro
+	spawn_frequency: 1.00
+}
+}

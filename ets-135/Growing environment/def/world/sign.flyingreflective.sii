@@ -1,0 +1,18 @@
+SiiNunit
+{
+
+sign_model : sign.fref001 {
+
+	sign_name: "reflective de high"
+
+	model_desc: "/model/sign/reflective_post_de_high.pmd"
+	model_coll: "/model/sign/reflective_post_de_high.pmc"
+	look_name: default
+	category: "reflective_posts"
+	mass: 100
+	instanced: true
+	dynamic: true
+	road_model: true
+	distance_type: 2
+}
+}

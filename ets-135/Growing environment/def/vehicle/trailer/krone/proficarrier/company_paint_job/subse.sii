@@ -1,0 +1,8 @@
+SiiNunit
+{
+accessory_paint_job_data : .paint_job
+{
+	airbrush: true
+	paint_job_mask: "/vehicle/trailer_eu/company/subse.tobj"
+}
+}

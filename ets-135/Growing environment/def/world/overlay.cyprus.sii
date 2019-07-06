@@ -1,0 +1,20 @@
+SiiNunit
+{
+overlay_def : .overlay {
+
+	road_names[]: "cy_a1"
+	road_names[]: "cy_a2"
+	road_names[]: "cy_a3"
+	road_names[]: "cy_a5"
+	road_names[]: "cy_a6"
+	road_names[]: "cy_a9"
+	road_names[]: "cy_b1"
+	road_names[]: "cy_b2"
+	road_names[]: "cy_b4"
+	road_names[]: "cy_b5"
+	road_names[]: "cy_b8"
+	road_names[]: "cy_b9"
+	road_names[]: "cy_b22"
+}
+
+}

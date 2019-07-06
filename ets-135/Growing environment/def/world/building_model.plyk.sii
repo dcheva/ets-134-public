@@ -1,0 +1,154 @@
+SiiNunit
+{
+
+building_model : bld_model.plyk020 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/power_line/railway_powerline_one_sided_se_high.pmd"
+	look_name: default
+}
+
+building_model : bld_model.plyk021 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/power_line/railway_powerline_one_sided_se_low.pmd"
+	look_name: default
+}
+
+
+building_model : bld_model.plyk022 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/power_line/railway_powerline_one_sided_de_old.pmd"
+	look_name: default
+}
+
+// ----- Additional looks for rail object: Concrete ------------------------------------------------------
+
+building_model : bld_model.rail001 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail.pmd"
+	look_name: concrete
+}
+
+building_model : bld_model.rail002 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail_02.pmd"
+	look_name: concrete
+}
+
+building_model : bld_model.rail003 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail_03.pmd"
+	look_name: concrete
+}
+
+building_model : bld_model.rail005 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail_2x.pmd"
+	look_name: concrete
+}
+
+building_model : bld_model.rail006 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail_2x_02.pmd"
+	look_name: concrete
+}
+
+building_model : bld_model.rail007 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail_2x_03.pmd"
+	look_name: concrete
+}
+
+building_model : bld_model.rail008 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail_2x_small.pmd"
+	look_name: concrete
+}
+
+// ----- Additional looks for rail object: Timber ------------------------------------------------------
+
+building_model : bld_model.rail011 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail.pmd"
+	look_name: timber
+}
+
+building_model : bld_model.rail012 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail_02.pmd"
+	look_name: timber
+}
+
+building_model : bld_model.rail013 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail_03.pmd"
+	look_name: timber
+}
+
+building_model : bld_model.rail015 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail_2x.pmd"
+	look_name: timber
+}
+
+building_model : bld_model.rail016 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail_2x_02.pmd"
+	look_name: timber
+}
+
+building_model : bld_model.rail017 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail_2x_03.pmd"
+	look_name: timber
+}
+
+building_model : bld_model.rail018 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/rail/rail_2x_small.pmd"
+	look_name: timber
+}
+
+
+// ----- Anti noise walls ------------------------------------------------------
+
+building_model : bld_model.anw019 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/wall/anti_noise2a.pmd"
+}
+
+building_model : bld_model.anw020 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/wall/anti_noise_at_low.pmd"
+	look_name: default
+}
+
+building_model : bld_model.anw021 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/wall/anti_noise_at_low_lod.pmd"
+	look_name: default
+}
+
+
+// ---- End stuff ----------------------------------------
+
+}	

@@ -1,0 +1,64 @@
+city_data: city.ljubljana
+{
+	city_name: "Ljubljana"
+	city_name_localized: "@@ljubljana@@"
+	country: slovenia
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"iveco"
+
+	truck_lp_template[]:"011-222"
+
+	truck_lp_def0[]:"LJ<offset hshift=6><img src=/material/ui/lp/slovenia/lj.mat color=FFFFFFFF width=16 height=22><offset hshift=2>"
+
+	truck_lp_def1[]:"A"
+	truck_lp_def1[]:"B"
+	truck_lp_def1[]:"C"
+	truck_lp_def1[]:"D"
+	truck_lp_def1[]:"E"
+	truck_lp_def1[]:"F"
+	truck_lp_def1[]:"G"
+	truck_lp_def1[]:"H"
+	truck_lp_def1[]:"J"
+	truck_lp_def1[]:"K"
+	truck_lp_def1[]:"L"
+	truck_lp_def1[]:"M"
+	truck_lp_def1[]:"N"
+	truck_lp_def1[]:"P"
+	truck_lp_def1[]:"Q"
+	truck_lp_def1[]:"R"
+	truck_lp_def1[]:"S"
+	truck_lp_def1[]:"T"
+	truck_lp_def1[]:"U"
+	truck_lp_def1[]:"V"
+	truck_lp_def1[]:"X"
+	truck_lp_def1[]:"Y"
+
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+	truck_lp_def2[]:"0"
+}

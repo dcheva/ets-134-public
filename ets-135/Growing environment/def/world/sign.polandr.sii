@@ -1,0 +1,21 @@
+SiiNunit 
+
+{
+
+## SIGN ROAD NUMBER
+
+sign_model : sign.numer01{
+
+	sign_name: "PL ViaTOLL"
+
+	model_desc: "/model/sign/traffic/pl/pl_roadnumbers/numer_drogowy.pmd"
+	model_coll: "/model/sign/traffic/pl/pl_roadnumbers/numer_drogowy.pmc"
+	look_name: default
+	category: "signs/pl-ViaTOLL"
+	dynamic: true
+	distance_type: 2
+	mass: 100
+        
+}
+
+}

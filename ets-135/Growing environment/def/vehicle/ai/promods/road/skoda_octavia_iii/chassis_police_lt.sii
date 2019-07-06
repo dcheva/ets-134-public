@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis.octavia_iii.police.lt
+{
+	model: "/vehicle/ai/promods/road/skoda_octavia_iii/ai_police.pmd"
+	lods[]: "/vehicle/ai/promods/road/skoda_octavia_iii/lod_police.pmd"	
+	lods[]: "/vehicle/ai/promods/road/skoda_octavia_iii/lod2_police.pmd"
+	lods[]: "/vehicle/ai/promods/road/skoda_octavia_iii/lod3_police.pmd"
+	collision: "/vehicle/ai/promods/road/skoda_octavia_iii/ai_police.pmc"
+
+	shadow_texture: "/vehicle/ai/share/shadow_occlusion.tobj"
+	shadow_intensity: 1.2
+
+	variant: lt
+	look: lt
+}
+}

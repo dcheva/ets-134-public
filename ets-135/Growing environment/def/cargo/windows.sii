@@ -1,0 +1,10 @@
+cargo_data: cargo.windows{
+	name: "@@cargo_windows@@"
+	fragility: 0.9
+	group[]: inloader
+	volume: 1
+	mass: 223
+	unit_reward_per_km: 0.21735
+	unit_load_time: 30
+	body_types[]: _gls_lergled
+	}

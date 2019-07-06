@@ -1,0 +1,40 @@
+SiiNunit
+{
+
+journey_events_cutscene : j_cut.sgr_r
+{
+    cutscene_tokens[]:     sgr_r
+    
+    left_width:             3.5               // [m]
+    right_width:            3.5               // [m]
+	sequence_mode: 			pseudo
+}
+
+journey_events_cutscene : j_cut.sgri_r
+{
+    cutscene_tokens[]:     sgri_r
+    
+    left_width:             3.5               // [m]
+    right_width:            3.5               // [m]
+	sequence_mode: 			pseudo
+}
+
+journey_events_cutscene : j_cut.sgr_rw
+{
+    cutscene_tokens[]:     sgr_rw
+    
+    left_width:             3.5               // [m]
+    right_width:            3.5               // [m]
+	sequence_mode: 			pseudo
+}
+
+journey_events_cutscene : j_cut.sgr_rw_w
+{
+    cutscene_tokens[]:     sgr_rw_w
+    
+    left_width:             3.5               // [m]
+    right_width:            3.5               // [m]
+	sequence_mode: 			pseudo
+}
+
+}

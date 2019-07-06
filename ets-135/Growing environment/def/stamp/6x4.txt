@@ -1,0 +1,8 @@
+oo oo oo oo oo oo oo oo
+ox xx xx xo oo ox xx xo
+ox XX XX xo oo ox XX xo-
+ox XX XX xx xx xx XX xo-
+ox xx XX XX XX XX xx xo
+oo ox XX XX XX XX xo oo
+oo ox xx xx xx xx xo oo-
+oo oo oo oo oo oo oo oo-

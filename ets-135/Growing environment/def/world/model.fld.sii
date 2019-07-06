@@ -1,0 +1,1088 @@
+SiiNunit
+{
+# by FLD / TZ express map
+model_def : model.fld01 {
+	model_desc: "/model/pillar/pillar01.pmd"
+	category: "pillar TZ map"
+}
+model_def : model.fld02 {
+	model_desc: "/model/road/center_sidewalk_00.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld03 {
+	model_desc: "/model/bridge/hw_2b_bridge1.pmd"
+	category: "bridge TZ map"
+}
+model_def : model.fld04 {
+	model_desc: "/model/bridge/bridge_center_1.pmd"
+	category: "bridge TZ map"
+}
+model_def : model.fld05 {
+	model_desc: "/model/factory/chimney_white-red.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld06 {
+	model_desc: "/model/factory/chimney_2.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld07 {
+	model_desc: "/model/warehouse/warehouse_01.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld08 {
+	model_desc: "/model/warehouse/warehouse_01a.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld09 {
+	model_desc: "/model/warehouse/warehouse_02.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld10 {
+	model_desc: "/model/warehouse/warehouse_03.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld11 {
+	model_desc: "/model/warehouse/warehouse_03a.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld12 {
+	model_desc: "/model/warehouse/warehouse_04.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld13 {
+	model_desc: "/model/warehouse/warehouse_05.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld14 {
+	model_desc: "/model/warehouse/warehouse_06.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld15 {
+	model_desc: "/model/warehouse/warehouse_07.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld16 {
+	model_desc: "/model/warehouse/warehouse_08.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld17 {
+	model_desc: "/model/warehouse/warehouse_09.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld18 {
+	model_desc: "/model/warehouse/warehouse_10.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld19 {
+	model_desc: "/model/warehouse/warehouse_11.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld20 {
+	model_desc: "/model/warehouse/warehouse_11a.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld21 {
+	model_desc: "/model/warehouse/warehouse_12.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld22 {
+	model_desc: "/model/warehouse/warehouse_13.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld23 {
+	model_desc: "/prefab/construction/const_block_01.pmd"
+	category: "construction TZ map"
+}
+model_def : model.fld24 {
+	model_desc: "/prefab/construction/const_block_02.pmd"
+	category: "construction TZ map"
+}
+model_def : model.fld25 {
+	model_desc: "/model/factory/electric1.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld26 {
+	model_desc: "/model/factory/electric2.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld27 {
+	model_desc: "/model/factory/factory_01.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld28 {
+	model_desc: "/model/factory/factory_02.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld29 {
+	model_desc: "/model/factory/factory_03.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld30 {
+	model_desc: "/model/factory/factory_04.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld31 {
+	model_desc: "/model/factory/factory_05.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld32 {
+	model_desc: "/model/factory/generator.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld33 {
+	model_desc: "/model/factory/sewage.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld34 {
+	model_desc: "/model/factory/slavkov.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld35 {
+	model_desc: "/model/dock/silo/tank_01.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld36 {
+	model_desc: "/model/dock/silo/tank_01a.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld37 {
+	model_desc: "/model/dock/silo/tank_01b.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld38 {
+	model_desc: "/model/dock/silo/tank_02.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld39 {
+	model_desc: "/model/dock/silo/tank_03.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld40 {
+	model_desc: "/model/dock/silo/tank_04.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld41 {
+	model_desc: "/model/dock/silo/tank_05.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld42 {
+	model_desc: "/model/dock/silo/tank_06.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld43 {
+	model_desc: "/model/dock/silo/tank_07.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld44 {
+	model_desc: "/model/dock/silo/tank_08.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld45 {
+	model_desc: "/model/dock/silo/tank_09.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld46 {
+	model_desc: "/model/dock/silo/tank_09a.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld47 {
+	model_desc: "/model/dock/silo/tank_09b.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld48 {
+	model_desc: "/model/dock/port_hall_1.pmd"
+	category: "dock TZ map"
+}
+model_def : model.fld49 {
+	model_desc: "/model/warehouse/warehouse_14.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld50 {
+	model_desc: "/model/warehouse/warehouse_15.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld51 {
+	model_desc: "/model/dock/silo/tank_10.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld52 {
+	model_desc: "/model/dock/silo/tank_10a.pmd"
+	category: "silo TZ map"
+}
+model_def : model.fld53 {
+	model_desc: "/model/warehouse/warehouse_16.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld54 {
+	model_desc: "/model/gate/gate_01.pmd"
+	category: "gate TZ map"
+}
+model_def : model.fld55 {
+	model_desc: "/model/gate/gate_02.pmd"
+	category: "gate TZ map"
+}
+model_def : model.fld56 {
+	model_desc: "/model/gate/lavka_01.pmd"
+	category: "bridge TZ map"
+}
+model_def : model.fld57 {
+	model_desc: "/model/gate/wall_01.pmd"
+	category: "wall TZ map"
+}
+model_def : model.fld58 {
+	model_desc: "/model/gate/wall_01_1.pmd"
+	category: "wall TZ map"
+}
+model_def : model.fld59 {
+	model_desc: "/model/factory/factory_06.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld60 {
+	model_desc: "/model/road/center_sidewalk_01.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld61 {
+	model_desc: "/model/road/center_sidewalk_02.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld62 {
+	model_desc: "/model/road/center_sidewalk_03.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld63 {
+	model_desc: "/model/pillar/pillar01a.pmd"
+	category: "pillar TZ map"
+}
+model_def : model.fld64 {
+	model_desc: "/model/road/arrow_eu.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld65 {
+	model_desc: "/model/road/stripes_prefab_eu_01a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld66 {
+	model_desc: "/model/road/stripes_prefab_eu_01a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld67 {
+	model_desc: "/model/road/stripes_prefab_eu_02a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld68 {
+	model_desc: "/model/road/stripes_prefab_eu_02a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld69 {
+	model_desc: "/model/road/stripes_prefab_eu_03a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld70 {
+	model_desc: "/model/road/stripes_prefab_eu_03a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld71 {
+	model_desc: "/model/road/stripes_prefab_eu_04a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld72 {
+	model_desc: "/model/road/stripes_prefab_eu_04a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld73 {
+	model_desc: "/model/road/stripes_prefab_eu_05a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld74 {
+	model_desc: "/model/road/stripes_prefab_eu_05a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld75 {
+	model_desc: "/model/road/stripes_prefab_eu_06a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld76 {
+	model_desc: "/model/road/stripes_prefab_eu_06a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld77 {
+	model_desc: "/model/road/stripes_prefab_eu_07a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld78 {
+	model_desc: "/model/road/stripes_prefab_eu_07a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld79 {
+	model_desc: "/model/road/stripes_prefab_eu_08a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld80 {
+	model_desc: "/model/road/stripes_prefab_eu_08a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld81 {
+	model_desc: "/model/road/stripes_prefab_eu_09a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld82 {
+	model_desc: "/model/road/stripes_prefab_eu_09a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld83 {
+	model_desc: "/model/road/stripes_prefab_eu_10a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld84 {
+	model_desc: "/model/road/stripes_prefab_eu_10a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld85 {
+	model_desc: "/model/road/stripes_prefab_eu_11a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld86 {
+	model_desc: "/model/road/stripes_prefab_eu_11a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld87 {
+	model_desc: "/model/road/stripes_prefab_eu_12a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld88 {
+	model_desc: "/model/road/stripes_prefab_eu_12a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld89 {
+	model_desc: "/model/road/stripes_prefab_eu_13a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld90 {
+	model_desc: "/model/road/stripes_prefab_eu_13a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld91 {
+	model_desc: "/model/road/stripes_prefab_eu_14a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld92 {
+	model_desc: "/model/road/stripes_prefab_eu_14a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld93 {
+	model_desc: "/model/road/stripes_prefab_eu_15a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld94 {
+	model_desc: "/model/road/stripes_prefab_eu_15a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld95 {
+	model_desc: "/model/road/stripes_prefab_eu_16a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld96 {
+	model_desc: "/model/road/stripes_prefab_eu_16a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld97 {
+	model_desc: "/model/road/stripes_prefab_eu_land_01a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld98 {
+	model_desc: "/model/road/stripes_prefab_eu_land_01a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld99 {
+	model_desc: "/model/road/stripes_prefab_eu_land_01a_full.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld100 {
+	model_desc: "/model/road/stripes_prefab_eu_land_01a_full_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld101 {
+	model_desc: "/model/road/stripes_prefab_eu_land_02a.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld102 {
+	model_desc: "/model/road/stripes_prefab_eu_land_02a_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld103 {
+	model_desc: "/model/road/stripes_prefab_eu_land_02a_small.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld104 {
+	model_desc: "/model/road/stripes_prefab_eu_01b.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld105 {
+	model_desc: "/model/road/stripes_prefab_eu_01b_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld106 {
+	model_desc: "/model/road/stripes_prefab_eu_02b.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld107 {
+	model_desc: "/model/road/stripes_prefab_eu_02b_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld108 {
+	model_desc: "/model/road/stripes_prefab_eu_03b.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld109 {
+	model_desc: "/model/road/stripes_prefab_eu_03b_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld110 {
+	model_desc: "/model/road/stripes_prefab_eu_04b.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld111 {
+	model_desc: "/model/road/stripes_prefab_eu_04b_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld112 {
+	model_desc: "/model/road/stripes_prefab_eu_05b.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld113 {
+	model_desc: "/model/road/stripes_prefab_eu_05b_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld114 {
+	model_desc: "/model/road/stripes_prefab_eu_06b.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld115 {
+	model_desc: "/model/road/stripes_prefab_eu_06b_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld116 {
+	model_desc: "/model/road/stripes_prefab_eu_07b.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld117 {
+	model_desc: "/model/road/stripes_prefab_eu_07b_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld118 {
+	model_desc: "/model/road/stripes_prefab_eu_12b.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld119 {
+	model_desc: "/model/road/stripes_prefab_eu_12b_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld120 {
+	model_desc: "/model/road/stripes_prefab_eu_13b.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld121 {
+	model_desc: "/model/road/stripes_prefab_eu_13b_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld122 {
+	model_desc: "/model/road/stripes_prefab_eu_14b.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld123 {
+	model_desc: "/model/road/stripes_prefab_eu_14b_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld124 {
+	model_desc: "/model/road/stripes_prefab_eu_15b.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld125 {
+	model_desc: "/model/road/stripes_prefab_eu_15b_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld126 {
+	model_desc: "/model/road/stripes_prefab_eu_16b.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld127 {
+	model_desc: "/model/road/stripes_prefab_eu_16b_mirror.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld128 {
+	model_desc: "/model/dock/port_hall_open_1.pmd"
+	category: "dock TZ map"
+}
+model_def : model.fld129 {
+	model_desc: "/model/tube/tube_01.pmd"
+	category: "tube TZ map"
+}
+model_def : model.fld130 {
+	model_desc: "/model/tube/tube_02.pmd"
+	category: "tube TZ map"
+}
+model_def : model.fld131 {
+	model_desc: "/model/tube/tube_03.pmd"
+	category: "tube TZ map"
+}
+model_def : model.fld132 {
+	model_desc: "/model/tube/tube_04.pmd"
+	category: "tube TZ map"
+}
+model_def : model.fld133 {
+	model_desc: "/model/tube/tube_05.pmd"
+	category: "tube TZ map"
+}
+model_def : model.fld134 {
+	model_desc: "/model/factory/barn_01.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld135 {
+	model_desc: "/model/factory/barn_02.pmd"
+	category: "factory TZ map"
+}
+model_def : model.fld136 {
+	model_desc: "/model/warehouse/warehouse_17.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld137 {
+	model_desc: "/model/warehouse/warehouse_17a.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld138 {
+	model_desc: "/model/building/administration/build_01.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld139 {
+	model_desc: "/model/building/administration/build_02.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld140 {
+	model_desc: "/model/building/administration/build_03.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld141 {
+	model_desc: "/model/building/administration/build_04.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld142 {
+	model_desc: "/model/building/administration/build_05.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld143 {
+	model_desc: "/model/building/administration/build_06.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld144 {
+	model_desc: "/model/building/administration/build_07.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld145 {
+	model_desc: "/model/building/administration/build_08.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld146 {
+	model_desc: "/model/warehouse/warehouse_18.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld147 {
+	model_desc: "/model/warehouse/warehouse_19.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld148 {
+	model_desc: "/model/warehouse/warehouse_20.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld149 {
+	model_desc: "/model/warehouse/warehouse_20a.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld150 {
+	model_desc: "/model/warehouse/warehouse_21.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld151 {
+	model_desc: "/model/warehouse/warehouse_22.pmd"
+	category: "warehouse TZ map"
+}
+model_def : model.fld152 {
+	model_desc: "/model/garage/garage_01.pmd"
+	category: "garage TZ map"
+}
+model_def : model.fld153 {
+	model_desc: "/model/garage/garage_02.pmd"
+	category: "garage TZ map"
+}
+model_def : model.fld154 {
+	model_desc: "/model/garage/garage_03.pmd"
+	category: "garage TZ map"
+}
+model_def : model.fld155 {
+	model_desc: "/model/garage/garage_04.pmd"
+	category: "garage TZ map"
+}
+model_def : model.fld156 {
+	model_desc: "/model/garage/garage_05.pmd"
+	category: "garage TZ map"
+}
+model_def : model.fld157 {
+	model_desc: "/model/garage/garage_05a.pmd"
+	category: "garage TZ map"
+}
+model_def : model.fld158 {
+	model_desc: "/model/service/service_01.pmd"
+	category: "service TZ map"
+}
+model_def : model.fld159 {
+	model_desc: "/model/service/service_02.pmd"
+	category: "service TZ map"
+}
+model_def : model.fld160 {
+	model_desc: "/model/washbox/washbox_01.pmd"
+	category: "washbox TZ map"
+}
+model_def : model.fld161 {
+	model_desc: "/model/washbox/washbox_01a.pmd"
+	category: "washbox TZ map"
+}
+model_def : model.fld162 {
+	model_desc: "/model/village/village_cz/house_01.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld163 {
+	model_desc: "/model/village/village_cz/house_02.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld164 {
+	model_desc: "/model/village/village_cz/house_03.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld165 {
+	model_desc: "/model/village/village_cz/house_04.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld166 {
+	model_desc: "/model/village/village_cz/house_05.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld167 {
+	model_desc: "/model/village/village_cz/house_06.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld168 {
+	model_desc: "/model/village/village_cz/house_07.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld169 {
+	model_desc: "/model/village/village_cz/house_08.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld170 {
+	model_desc: "/model/village/village_cz/house_09.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld171 {
+	model_desc: "/model/village/village_cz/house_10.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld172 {
+	model_desc: "/model/village/village_cz/house_11.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld173 {
+	model_desc: "/model/village/village_cz/house_12.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld174 {
+	model_desc: "/model/village/village_cz/house_13.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld175 {
+	model_desc: "/model/village/village_cz/house_14.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld176 {
+	model_desc: "/model/village/village_cz/house_15.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld177 {
+	model_desc: "/model/village/village_cz/house_16.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld178 {
+	model_desc: "/model/village/village_cz/house_17.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld179 {
+	model_desc: "/model/village/village_cz/house_18.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld180 {
+	model_desc: "/model/village/village_cz/house_19.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld181 {
+	model_desc: "/model/village/village_cz/house_20.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld182 {
+	model_desc: "/model/village/village_cz/house_21.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld183 {
+	model_desc: "/model/village/village_cz/house_22.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld184 {
+	model_desc: "/model/village/village_cz/house_23.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld185 {
+	model_desc: "/model/village/village_cz/house_24.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld186 {
+	model_desc: "/model/village/village_cz/house_25.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld187 {
+	model_desc: "/model/village/village_cz/house_26.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld188 {
+	model_desc: "/model/village/village_cz/house_27.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld189 {
+	model_desc: "/model/village/village_cz/house_28.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld190 {
+	model_desc: "/model/village/village_cz/house_29.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld191 {
+	model_desc: "/model/village/village_cz/house_30.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld192 {
+	model_desc: "/model/village/village_cz/house_31.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld193 {
+	model_desc: "/model/village/village_cz/house_32.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld194 {
+	model_desc: "/model/village/village_cz/house_33.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld195 {
+	model_desc: "/model/village/village_cz/house_34.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld196 {
+	model_desc: "/model/village/village_cz/house_35.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld197 {
+	model_desc: "/model/village/village_cz/house_36.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld198 {
+	model_desc: "/model/village/village_cz/house_37.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld199 {
+	model_desc: "/model/village/village_cz/house_38.pmd"
+	category: "village TZ map"
+}
+model_def : model.fld200 {
+	model_desc: "/model/building/market/market_01.pmd"
+	category: "market TZ map"
+}
+model_def : model.fld201 {
+	model_desc: "/model/building/market/market_02.pmd"
+	category: "market TZ map"
+}
+model_def : model.fld202 {
+	model_desc: "/model/building/market/market_03.pmd"
+	category: "market TZ map"
+}
+model_def : model.fld203 {
+	model_desc: "/model/building/market/market_04.pmd"
+	category: "market TZ map"
+}
+model_def : model.fld204 {
+	model_desc: "/model/building/market/market_05.pmd"
+	category: "market TZ map"
+}
+model_def : model.fld205 {
+	model_desc: "/model/building/market/market_06.pmd"
+	category: "market TZ map"
+}
+model_def : model.fld206 {
+	model_desc: "/model/building/administration/build_09.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld207 {
+	model_desc: "/model/building/administration/build_10.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld208 {
+	model_desc: "/model/building/administration/build_11.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld209 {
+	model_desc: "/model/building/administration/build_12.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld210 {
+	model_desc: "/model/building/administration/build_13.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld211 {
+	model_desc: "/model/building/administration/build_14.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld212 {
+	model_desc: "/model/building/administration/build_15.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld213 {
+	model_desc: "/model/building/administration/build_16.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld214 {
+	model_desc: "/model/building/administration/build_17.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld215 {
+	model_desc: "/model/building/administration/build_18.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld216 {
+	model_desc: "/model/building/administration/build_19.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld217 {
+	model_desc: "/model/building/administration/build_20.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld218 {
+	model_desc: "/model/building/administration/build_21.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld219 {
+	model_desc: "/model/building/administration/build_22.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld220 {
+	model_desc: "/model/building/czech/build_01.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld221 {
+	model_desc: "/model/building/czech/build_02.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld222 {
+	model_desc: "/model/building/czech/build_03.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld223 {
+	model_desc: "/model/building/czech/build_04.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld224 {
+	model_desc: "/model/building/czech/build_05.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld225 {
+	model_desc: "/model/building/czech/build_06.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld226 {
+	model_desc: "/model/building/czech/build_07.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld227 {
+	model_desc: "/model/building/czech/build_08.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld228 {
+	model_desc: "/model/building/czech/build_09.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld229 {
+	model_desc: "/model/building/czech/build_10.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld230 {
+	model_desc: "/model/building/czech/build_11.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld231 {
+	model_desc: "/model/building/czech/build_12.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld232 {
+	model_desc: "/model/building/czech/build_13.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld233 {
+	model_desc: "/model/building/city/build_01.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld234 {
+	model_desc: "/model/building/city/build_02.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld235 {
+	model_desc: "/model/building/city/build_03.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld236 {
+	model_desc: "/model/building/city/build_04.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld237 {
+	model_desc: "/model/building/city/build_05.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld238 {
+	model_desc: "/model/building/city/build_06.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld239 {
+	model_desc: "/model/building/city/build_07.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld240 {
+	model_desc: "/model/building/city/build_08.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld241 {
+	model_desc: "/model/building/city/build_09.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld242  {
+	model_desc: "/model/building/city/build_10.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld243  {
+	model_desc: "/model/building/city/build_11.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld244  {
+	model_desc: "/model/building/city/build_12.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld245  {
+	model_desc: "/model/building/city/build_13.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld246  {
+	model_desc: "/model/building/city/build_14.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld247  {
+	model_desc: "/model/building/city/build_15.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld248  {
+	model_desc: "/model/building/city/build_16.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld249  {
+	model_desc: "/model/building/city/build_17.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld250  {
+	model_desc: "/model/building/city/build_18.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld251  {
+	model_desc: "/model/building/city/build_19.pmd"
+	category: "building TZ map"
+}
+model_def : model.fld252  {
+	model_desc: "/model/school/school_01.pmd"
+	category: "school TZ map"
+}
+model_def : model.fld253  {
+	model_desc: "/model/school/school_02.pmd"
+	category: "school TZ map"
+}
+model_def : model.fld254  {
+	model_desc: "/model/bus_station/bus_station_01.pmd"
+	category: "bus station TZ map"
+}
+model_def : model.fld255  {
+	model_desc: "/model/bus_station/bus_station_cz_01.pmd"
+	category: "bus station TZ map"
+}
+model_def : model.fld256  {
+	model_desc: "/model/bus_station/bus_station_02.pmd"
+	category: "bus station TZ map"
+}
+model_def : model.fld257  {
+	model_desc: "/model/gas_station/gas_02.pmd"
+	category: "gas station TZ map"
+}
+model_def : model.fld258  {
+	model_desc: "/model/gas_station/price_stand_01.pmd"
+	category: "gas station TZ map"
+}
+model_def : model.fld259 {
+	model_desc: "/model/road/center_sidewalk_04.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld260 {
+	model_desc: "/model/road/center_sidewalk_05.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld261 {
+	model_desc: "/model/road/center_sidewalk_triangle_1m.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld262 {
+	model_desc: "/model/road/center_sidewalk_triangle_2m.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld263 {
+	model_desc: "/model/road/center_sidewalk_edge_2m.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld264 {
+	model_desc: "/model/road/center_sidewalk_edge_1m.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld265 {
+	model_desc: "/model/road/center_sidewalk_triangle.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld266 {
+	model_desc: "/model/road/center_roundabout_01.pmd"
+	category: "road TZ map"
+}
+model_def : model.fld267  {
+	model_desc: "/model/gas_station/gas_01.pmd"
+	category: "gas station TZ map"
+}
+model_def : model.fld268  {
+	model_desc: "/model/gas_station/price_stand_02.pmd"
+	category: "gas station TZ map"
+}
+model_def : model.fld269  {
+	model_desc: "/model/gas_station/gas_01a.pmd"
+	category: "gas station TZ map"
+}
+model_def : model.fld270  {
+	model_desc: "/model/gas_station/gas_03.pmd"
+	category: "gas station TZ map"
+}
+model_def : model.fld271  {
+	model_desc: "/model/road/crash_barrier_end_cz.pmd"
+	category: "road TZ map"
+}
+}

@@ -1,0 +1,10 @@
+SiiNunit
+{
+accessory_wheel_data : opel_insigni.police.lv.fwheel
+{
+	model: "/vehicle/wheel/opel_insignia/opel_insignia.pmd"
+
+}
+}
+
+

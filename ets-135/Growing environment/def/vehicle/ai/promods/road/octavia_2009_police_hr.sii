@@ -1,0 +1,33 @@
+traffic_vehicle : traffic.octavia_2009.police.hr
+{
+	accessories[]: .octavia_2009.police.hr.chassis
+	accessories[]: .octavia_2009.police.hr.fwheel
+	accessories[]: .octavia_2009.police.hr.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	spawn_ratio: 0
+
+	vehicle_mass: 1800
+@include "/def/vehicle/ai/drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .octavia_2009.police.hr.chassis
+{
+	data_path: "/def/vehicle/ai/promods/road/octavia_2009/chassis_police_hr.sii"
+}
+
+vehicle_wheel_accessory: .octavia_2009.police.hr.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .octavia_2009.police.hr.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}

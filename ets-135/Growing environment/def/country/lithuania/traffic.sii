@@ -1,0 +1,127 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+#
+# NOTE: To override a traffic info in your mod, just create a new definition
+# in your definition file (see above) with the same value for 'object' attribute as the one being overridden
+# For each 'object' the LAST LOADED traffic info is used
+#
+
+#################################################
+########### car 
+#################################################
+
+country_traffic_info : .country.info.traffic.l_119 {
+	object: traffic.l_119
+	spawn_frequency: 3.0
+}
+country_traffic_info : .country.info.traffic.riva_sedan {
+	object: traffic.riva_sedan
+	spawn_frequency: 0.40
+}
+country_traffic_info : .country.info.traffic.niva {
+	object: traffic.niva 
+	spawn_frequency: 2.0
+}
+country_traffic_info : .country.info.traffic.octavia_iii {
+	object: traffic.octavia_iii
+	spawn_frequency: 2.0
+}
+country_traffic_info : .country.info.traffic.fabia {
+	object: traffic.fabia
+	spawn_frequency: 2.0
+}
+country_traffic_info : .country.info.traffic.superb.combi {
+	object: traffic.superb.combi
+	spawn_frequency: 2.0
+}
+country_traffic_info : .country.info.traffic.megane {
+	object: traffic.megane
+	spawn_frequency: 2.0
+}
+country_traffic_info : .country.info.traffic.clio {
+	object: traffic.clio
+	spawn_frequency: 2.0
+}
+country_traffic_info : .country.info.traffic.captur {
+	object: traffic.captur
+	spawn_frequency: 2.0
+}
+country_traffic_info : .country.info.traffic.jaguar_xf {
+	object: traffic.jaguar_xf
+	spawn_frequency: 0.0
+}
+country_traffic_info : .country.info.traffic.lancer_x {
+	object: traffic.lancer_x
+	spawn_frequency: 0.0
+}
+country_traffic_info : .country.info.traffic.aleko {
+	object: traffic.aleko
+	spawn_frequency: 1.0
+}
+country_traffic_info : .country.info.traffic.ulja_452{
+	object: traffic.ulja_452
+	spawn_frequency: 0.5
+}
+country_traffic_info : .country.info.traffic.lich_4331{
+	object: traffic.lich_4331
+	spawn_frequency: 0.3
+}
+country_traffic_info : .country.info.traffic.granta {
+	object: traffic.granta
+	spawn_frequency: 2.0
+}
+country_traffic_info : .country.info.traffic.duster {
+	object: traffic.duster
+	spawn_frequency: 2.0
+}
+country_traffic_info : .country.info.traffic.a80 {
+	object: traffic.a80
+	spawn_frequency: 1.0
+}
+
+#################################################
+########### bus 
+#################################################
+
+country_traffic_info : .country.info.traffic.p_3204 {
+	object: traffic.p_3204_1
+	spawn_frequency: 1.0
+}
+
+#################################################
+########### police 
+#################################################
+country_traffic_info : .country.info.traffic.octavia_iii.police_lt {
+	object: traffic.octavia_iii.police_lt
+	spawn_frequency: 1.0
+}
+
+
+
+########## Fire Departement
+
+country_traffic_info : .country.info.traffic.fd_lv
+{
+	object: traffic.dagger.lv
+	spawn_frequency: 1.0
+}
+
+
+########## Ambulance
+
+country_traffic_info : .country.info.traffic.amb_lit
+{
+	object: traffic.crafter.lit
+	spawn_frequency: 1.0
+}
+
+
+
+}
