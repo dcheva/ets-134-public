@@ -1,6 +1,4 @@
 SiiNunit
-### (c) Cheva 2017-2019
-### //xx this values are original
 {
 
 bank_data : bank.data.storage
@@ -19,28 +17,30 @@ bank_data : bank.data.storage
 
 bank_loan_data: bank.data.loan1
 {
-	amount: 120000
-	interest_rate: 0.16	# 16%
-	duration: 52		# in weeks
+	amount: 10000
+	interest_rate: 0.23	# 23 %
+	duration: 5		# in weeks
 }
 
 bank_loan_data: bank.data.loan2
 {
-	amount: 60000
-	interest_rate: 0.20	# 20 %
-	duration: 39		# in weeks
+	amount: 50000
+	interest_rate: 0.2	# 20 %
+	duration: 5		# in weeks
 }
 
 bank_loan_data: bank.data.loan3
 {
-	amount: 40000
-	interest_rate: 0.26	# 26 %
-	duration:  26		# in weeks
+	amount: 100000
+	interest_rate: 0.18	# 18 %
+	duration: 5		# in weeks
 }
+
 bank_loan_data: bank.data.loan4
 {
-	amount: 20000
-	interest_rate: 0.33	# 33 %
-	duration: 13		# in weeks
+	amount: 400000
+	interest_rate: 0.12	# 12 %
+	duration: 10		# in weeks
 }
+
 }

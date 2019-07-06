@@ -1,6 +1,7 @@
 SiiNunit
 ### (c) Cheva 2017-2019
 ### //xx this values are original
+### //!!!20x!!!// this values are 20x from Growing Eco
 {
 police_data : police.data
 {
@@ -12,14 +13,14 @@ police_data : police.data
 	fine_amount_rounding: 0
 
 	# https://www.vicroads.vic.gov.au/safety-and-road-rules/road-rules/penalties/fines
-	# 2018/19 Penalty Amount $ (The value of a penalty unit is currently $161.19)
-	fine_amounts[0]: 201 		# car crash
-	fine_amounts[1]: 201 		# avoid sleeping
-	fine_amounts[2]: 322 		# wrong way
-	fine_amounts[3]: 322 		# speeding (camera)
-	fine_amounts[4]: 242		# no lights during night
-	fine_amounts[5]: 201 		# red lights // 403 but too expensive
-	fine_amounts[6]: 161 		# speeding
+	# 40208/19 Penalty Amount $ (The value of a penalty unit is currently $3220.19)
+	fine_amounts[0]: 4020 		# car crash
+	fine_amounts[1]: 4020 		# avoid sleeping
+	fine_amounts[2]: 6440 		# wrong way
+	fine_amounts[3]: 6440 		# speeding (camera)
+	fine_amounts[4]: 4840		# no lights during night
+	fine_amounts[5]: 4020 		# red lights // 403 but too expensive
+	fine_amounts[6]: 3220 		# speeding
 
 	#
 	# in seconds of real time

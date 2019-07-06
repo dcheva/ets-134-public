@@ -1,59 +1,54 @@
 SiiNunit
-### (c) Cheva 2017-2019
-### //xx this values are original
 {
 police_data : police.data
 {
-	## level based fines: min(base + level * step, limit), rounded up to multiple of rounding.
-	# constant fines, no levels
-	fine_factor_base: 1.0 # 0.2
-	fine_factor_step: 0.0 # 0.08
+	# level based fines: min(base + level * step, limit), rounded up to multiple of rounding.
+	fine_factor_base: 0.2
+	fine_factor_step: 0.08
 	fine_factor_limit: 1.0
-	fine_amount_rounding: 0
+	fine_amount_rounding: 20
 
-	# https://www.vicroads.vic.gov.au/safety-and-road-rules/road-rules/penalties/fines
-	# 2018/19 Penalty Amount $ (The value of a penalty unit is currently $161.19)
-	fine_amounts[0]: 201 		# car crash
-	fine_amounts[1]: 201 		# avoid sleeping
-	fine_amounts[2]: 322 		# wrong way
-	fine_amounts[3]: 322 		# speeding (camera)
-	fine_amounts[4]: 242		# no lights during night
-	fine_amounts[5]: 201 		# red lights // 403 but too expensive
-	fine_amounts[6]: 161 		# speeding
+	fine_amounts[0]: 400 		# car crash
+	fine_amounts[1]: 150 		# avoid sleeping
+	fine_amounts[2]: 100 		# wrong way
+	fine_amounts[3]: 550 		# speeding (camera)
+	fine_amounts[4]: 150		# no lights during night
+	fine_amounts[5]: 350 		# red lights
+	fine_amounts[6]: 550 		# speeding
 
 	#
 	# in seconds of real time
 	#
 	offence_check_delay[0]: 0 	# car crash
-	offence_check_delay[1]: 300 	# avoid sleeping
+	offence_check_delay[1]: 60 	# avoid sleeping
 	offence_check_delay[2]: 15 	# wrong way
-	offence_check_delay[3]: 3 	# speeding (camera) # 0
+	offence_check_delay[3]: 0 	# speeding (camera)
 	offence_check_delay[4]: 70	# no lights during night
-	offence_check_delay[5]: 3 	# red lights # 0
+	offence_check_delay[5]: 0 	# red lights
 	offence_check_delay[6]: 60 	# speeding
 
 	#
 	# in seconds of real time
 	#
 	offence_police_check_delay[0]: 0 	# car crash
-	offence_police_check_delay[1]: 300 	# avoid sleeping
+	offence_police_check_delay[1]: 30 	# avoid sleeping
 	offence_police_check_delay[2]: 5 	# wrong way
-	offence_police_check_delay[3]: 3 	# speeding (camera)
+	offence_police_check_delay[3]: 0 	# speeding (camera)
 	offence_police_check_delay[4]: 7	# no lights during night
-	offence_police_check_delay[5]: 3 	# red lights
+	offence_police_check_delay[5]: 0 	# red lights
 	offence_police_check_delay[6]: 3 	# speeding
 	offence_police_check_delay[7]: 0 	# avoid weighing
 
 	offence_probabilty[0]: 0.7 	# car crash
-	offence_probabilty[1]: 0.1 	# avoid sleeping
-	offence_probabilty[2]: 0.7 	# wrong way
-	offence_probabilty[3]: 0.7 	# speeding (camera) # 1.0
+	offence_probabilty[1]: 0.3 	# avoid sleeping
+	offence_probabilty[2]: 0.6 	# wrong way
+	offence_probabilty[3]: 1.0 	# speeding (camera)
 	offence_probabilty[4]: 0.3	# no lights during night
 	offence_probabilty[5]: 0.7 	# red lights
-	offence_probabilty[6]: 0.1 	# speeding
+	offence_probabilty[6]: 0.0 	# speeding
 
 	offence_police_probabilty[0]: 1.0 	# car crash
-	offence_police_probabilty[1]: 0.5 	# avoid sleeping
+	offence_police_probabilty[1]: 0.3 	# avoid sleeping
 	offence_police_probabilty[2]: 0.7 	# wrong way
 	offence_police_probabilty[3]: 1.0 	# speeding (camera)
 	offence_police_probabilty[4]: 0.8	# no lights during night
@@ -83,16 +78,15 @@ police_data : police.data
 	offence_message[6]: "<img src=/material/ui/hud/speed_camera.mat kr=center><br offset=-5>@@offence_speeding@@"
 
 	# timer decrease rate how much time it takes to decrease timer by 1 second (in seconds of real time)
-	timer_decrease_rate: 60 // 120	# 2 minutes
+	timer_decrease_rate: 120	# 2 minutes
 
 	# police offence information message delay in seconds of real time
-	message_delay: 5 // 4.0
+	message_delay: 4.0
 
 	# increase fine if there is some police car nearby
-	police_nearby_fine_rate: 1 // 2
+	police_nearby_fine_rate: 2
 
 	# how often can nearby police car impose a fine
-	police_nearby_offence_timer: 10 // 15.0
+	police_nearby_offence_timer: 15.0
 }
-
 }
