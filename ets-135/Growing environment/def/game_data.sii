@@ -12,7 +12,7 @@ game_data : .game.data {
 	refund_coef: 1.0
 
 	interior_sound_volume:	0.40	// Interior sound attenuation value (the outside sounds will have 5% of original volume)
-	interior_sound_pitch:	0.7	// Sound pitch for outside sound group when camera is in interior
+	interior_sound_pitch:	0.8	// Sound pitch for outside sound group when camera is in interior
 	blinker_auto_off_limit: 0.22	// 22% of maximum angle of steering wheel
 	blinker_auto_off_trigger: 0.05	// 5% of maximum angle of steering wheel
 	
