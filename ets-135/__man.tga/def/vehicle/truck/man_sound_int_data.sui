@@ -27,7 +27,7 @@ sound_data: .air_warn
 
 # Air noise.
 
-#sound_noise_data: .anoise
+#sound_noise_data: .airnoise
 #{
 #	name: "/sound/truck/noises/wind_inside_int_1.ogg"
 #

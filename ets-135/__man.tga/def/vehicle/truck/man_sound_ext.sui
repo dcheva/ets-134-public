@@ -4,7 +4,7 @@
 	retarder: .retarder
 	lift_axle: .lift
 	
-	aero_noise: .anoise
+#	aero_noise: .airnoise
 	gear_grind_loop: .ggloop
 
 	air_cutoff[]: .aircut0

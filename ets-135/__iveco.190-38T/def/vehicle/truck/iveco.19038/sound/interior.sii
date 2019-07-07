@@ -42,6 +42,7 @@ accessory_sound_data : std.iveco.19038.isound
 
 	engine_brake[]: .eb
 	horn: .horn
+	air_horn: .ahorn	
 	reverse: .reverse
 	blinker_on: .blinker_on
 	blinker_off: .blinker_off
@@ -302,23 +303,20 @@ sound_engine_data: .el06
 
 sound_engine_data: .enf0
 {
-	name: "/sound/truck/iveco_19038/int/lever_le_pied.ogg"
-
+	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_0800.ogg"
 	looped: true
+	pitch_reference: 800
 
 	min_rpm: 880.0
 	max_rpm: 3000.0
-	pitch_reference:  1475
-	volume: 0.37
+	volume: 0.47
 }
 
 sound_engine_data: .enf1
 {
-	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_0800.ogg"
-
+	name: "/sound/truck/iveco_19038/int/lever_le_pied.ogg"
 	looped: true
-
-	pitch_reference: 800
+	pitch_reference:  1475
 
 	min_rpm: 200.0
 	max_rpm: 920.0
@@ -328,14 +326,12 @@ sound_engine_data: .enf1
 sound_engine_data: .enf2
 {
 	name: "/sound/truck/iveco_19038/int/turbo_idle.ogg"
-
 	looped: true
-
 	pitch_reference: 580
 
 	min_rpm: 820.0
 	max_rpm: 3000.0
-	volume: 0.48
+	volume: 0.38
 }
 
 sound_data: .t
@@ -402,27 +398,34 @@ sound_engine_data: .eb
 sound_data: .horn
 {
 	name: "/sound/truck/iveco_19038/int/horn.ogg"
-	looped: true
+	volume: 0.46
 }
+
+sound_data: .ahorn
+{
+	name: "/sound/truck/iveco_19038/int/air_horn.ogg"
+	volume: 0.66
+}
+
 
 sound_data: .reverse
 {
 	name: "/sound/truck/iveco_19038/int/reverse.ogg"
-	looped: true
+	volume: 0.46
 }
 
 sound_data: .blinker_on
 {
 	name: "/sound/truck/iveco_19038/int/blinker_on.ogg"
 	is_2d: true
-	volume: 0.49
+	volume: 0.69
 }
 
 sound_data: .blinker_off
 {
 	name: "/sound/truck/iveco_19038/int/blinker_off.ogg"
 	is_2d: true
-	volume: 0.42
+	volume: 0.59
 }
 
 sound_data: .wipers_up

@@ -304,8 +304,13 @@ sound_engine_data: .eb
 sound_data: .horn
 {
 	name: "/sound/truck/iveco_19038/ext/horn.ogg"
-	looped: true
 }
+
+sound_data: .ahorn
+{
+	name: "/sound/truck/iveco_19038/int/air_horn.ogg"
+}
+
 
 sound_data: .reverse
 {

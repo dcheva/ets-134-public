@@ -16,7 +16,7 @@
 	park_brake_stick: .pbrake_s
 	park_brake_stick_off: .pbrake2_s
 
-	aero_noise: .anoise
+#	aero_noise: .airnoise
 	gear_grind_loop: .ggloop
 
 	air_cutoff[]: .aircut0

@@ -18,7 +18,7 @@ sound_data: .lift
 
 # Air noise.
 
-#sound_noise_data: .anoise
+#sound_noise_data: .airnoise
 #{
 #	name: "/sound/truck/noises/wind_inside_ext_1.ogg"
 #
