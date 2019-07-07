@@ -30,12 +30,15 @@ accessory_sound_data : std.iveco.19038.esound
 	
 	air_brake[0]: .airbrake0
 	air_brake[1]: .airbrake1
-     air_brake[2]: .airbrake2
+	air_brake[2]: .airbrake2
 
 	engine_brake[]: .eb
 
 	horn: .horn
+	air_horn: .ahorn	
+
 	reverse: .reverse
+
 	change_gear: .changeg
 
 	exterior_sound: true
@@ -304,13 +307,14 @@ sound_engine_data: .eb
 sound_data: .horn
 {
 	name: "/sound/truck/iveco_19038/ext/horn.ogg"
+	volume: 2.36
 }
 
 sound_data: .ahorn
 {
-	name: "/sound/truck/iveco_19038/int/air_horn.ogg"
+	name: "/sound/truck/iveco_19038/ext/air_horn.ogg"
+	volume: 2.96
 }
-
 
 sound_data: .reverse
 {
