@@ -1,0 +1,34 @@
+SiiNunit
+{
+accessory_truck_data : vehicle.iveco.19038	
+{
+	info[]: "@@brand_iveco@@"
+	info[]: "Turbo"
+	info[]: "190-38 Special"	# compact output uses 3rd line instead of 2nd if present
+
+	behind_camera: camera.behind.basic
+	interior_camera: camera.interior.iveco.190_38
+	#interior_camera_oculus: camera.interior.iveco.hiway.oculus
+	bumper_camera: camera.bumper.basic
+	window_camera: camera.window.basic
+	cabin_camera: camera.cabin.basic
+	wheel_camera: camera.wheel.basic
+	top_camera: camera.top.basic
+	tv_camera: camera.tv.basic
+	debug_camera: camera.debug
+
+	fallback[]: "chassis|190_38s.sii"
+	fallback[]: "cabin|190_38s.sii"
+	fallback[]: "interior|190_38s.sii"
+	fallback[]: "engine|190_381hp.sii"
+	fallback[]: "transmission|fuller.sii"
+	fallback[]: "f_wheel|190_38s.sii"
+	fallback[]: "r_wheel|190_38s.sii"
+	fallback[]: "paint_job|color3.sii"
+	fallback[]: "head_light|standard.sii"
+
+	require[]: mirror
+
+
+}
+}

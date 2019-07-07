@@ -1,0 +1,26 @@
+﻿SiiNunit
+
+{
+
+accessory_addon_data : shapep2.iveco.stralis.kuzov
+
+{
+
+	name: "Cistern Chrome Painted"
+
+	price: 31000
+	unlock: 12
+	icon: "vinge_cic"
+
+	exterior_model: "/vehicle/truck/upgrade/cargo/tandem/cistern/cistern_p.pmd"
+	coll: "/vehicle/truck/upgrade/cargo/tandem/cistern/cistern_p.pmc"
+	
+	suitable_for[]: "6x2t.iveco.stralis.chassis" 
+	suitable_for[]: "6x2t_ml.iveco.stralis.chassis" 
+	suitable_for[]: "6x4t.iveco.stralis.chassis" 
+	suitable_for[]: "6x4t_ml.iveco.stralis.chassis" 
+	suitable_for[]: "8x4t.iveco.stralis.chassis" 
+	suitable_for[]: "8x4t_ml.iveco.stralis.chassis" 
+
+}
+}

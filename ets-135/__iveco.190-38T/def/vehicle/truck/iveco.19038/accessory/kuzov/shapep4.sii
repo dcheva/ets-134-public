@@ -1,0 +1,26 @@
+﻿SiiNunit
+
+{
+
+accessory_addon_data : shapep4.iveco.stralis.kuzov
+
+{
+
+	name: "Coolliner Painted"
+
+	price: 26000
+	unlock: 10
+	icon: "vinge_coo"
+
+	exterior_model: "/vehicle/truck/upgrade/cargo/tandem/coolliner/coolliner_paint.pmd"
+	coll: "/vehicle/truck/upgrade/cargo/tandem/coolliner/coolliner_paint.pmc"
+	
+	suitable_for[]: "6x2t.iveco.stralis.chassis" 
+	suitable_for[]: "6x2t_ml.iveco.stralis.chassis" 
+	suitable_for[]: "6x4t.iveco.stralis.chassis" 
+	suitable_for[]: "6x4t_ml.iveco.stralis.chassis" 
+	suitable_for[]: "8x4t.iveco.stralis.chassis" 
+	suitable_for[]: "8x4t_ml.iveco.stralis.chassis" 
+	
+}
+}

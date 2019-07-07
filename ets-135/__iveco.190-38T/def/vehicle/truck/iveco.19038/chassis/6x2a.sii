@@ -1,0 +1,48 @@
+SiiNunit
+{
+accessory_chassis_data : 6x2a.iveco.19038.chassis
+{
+	name: "@@chassis@@ 6x2/4"
+	price: 39000
+	unlock: 0
+
+	info[]: "6x2/4"
+	info[]: "400 @@unit_l@@"
+
+	icon: "chassis_stralis_6x2"
+	detail_model: "/vehicle/truck/iveco_stralis/truck.pmd"
+	collision: "/vehicle/truck/iveco_stralis/truck.pmc"
+
+	residual_travel[]: 0.10
+	residual_travel[]: 0.088
+	residual_travel[]: 0.088
+
+	tank_size: 400
+	variant: chs_6x2_4_a
+	look: default
+
+	extended_shadow_texture: "/vehicle/truck/iveco_stralis/shadow_6x2.tobj"
+	extended_shadow_intensity: 0.95
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+
+	ui_shadow: "/vehicle/truck/iveco_stralis/ui_shadow_6x2.pmd"
+
+	powered_axle[0]: false
+	powered_axle[1]: false
+	powered_axle[2]: true
+
+	steerable_axle[0]: true
+	steerable_axle[1]: true
+	steerable_axle[2]: false
+
+	kerb_weight[0]: 4655
+	kerb_weight[1]: 1064
+	kerb_weight[2]: 1976
+
+	defaults[]: "/def/vehicle/truck/iveco.stralis/paint_job/color6.sii"
+	defaults[]: "/def/vehicle/truck/iveco.stralis/accessory/doorstep/shape1.sii"
+	defaults[]: "/def/vehicle/truck/iveco.stralis/accessory/exhaust_l/shape14_6xx.sii"
+	defaults[]: "/def/vehicle/truck/iveco.stralis/accessory/trlr_cables/stock.sii"
+}
+}

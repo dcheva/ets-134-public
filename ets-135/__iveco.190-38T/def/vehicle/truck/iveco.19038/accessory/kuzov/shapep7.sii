@@ -1,0 +1,21 @@
+﻿SiiNunit
+
+{
+
+accessory_addon_data : shapep7.iveco.stralis.kuzov
+
+{
+
+	name: "Profiliner Short Painted"
+
+	price: 21000
+	unlock: 8
+	icon: "vinge_pro"
+
+	exterior_model: "/vehicle/truck/upgrade/cargo/tandem/profiliner_short/profiliner_p.pmd"
+	coll: "/vehicle/truck/upgrade/cargo/tandem/profiliner_short/profiliner_p.pmc"
+	
+	suitable_for[]: "4x2t.iveco.stralis.chassis" 
+
+}
+}

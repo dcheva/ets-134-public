@@ -1,0 +1,26 @@
+﻿SiiNunit
+
+{
+
+accessory_addon_data : shape09.iveco.stralis.kuzov
+
+{
+
+	name: "Container Skin"
+
+	price: 27000
+	unlock: 10
+	icon: "vinge_con"
+
+	exterior_model: "/vehicle/truck/upgrade/cargo/tandem/container/container.pmd"
+	coll: "/vehicle/truck/upgrade/cargo/tandem/container/container.pmc"
+	
+	suitable_for[]: "6x2t.iveco.stralis.chassis" 
+	suitable_for[]: "6x2t_ml.iveco.stralis.chassis" 
+	suitable_for[]: "6x4t.iveco.stralis.chassis" 
+	suitable_for[]: "6x4t_ml.iveco.stralis.chassis" 
+	suitable_for[]: "8x4t.iveco.stralis.chassis" 
+	suitable_for[]: "8x4t_ml.iveco.stralis.chassis" 
+
+}
+}

@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : shape5_0.iveco.stralis.sideskirt
+{
+	name: "@@stock@@ 8X4"
+	price: 15000
+	unlock: 10
+	icon: "sideskirt_02_stralis"
+	exterior_model: "/vehicle/truck/upgrade/sideskirts/iveco_stralis/sideskirt_8x4_fv.pmd"
+	suitable_for[]: "8x4t.iveco.stralis.chassis" 
+	suitable_for[]: "8x4t_ml.iveco.stralis.chassis" 
+}
+}

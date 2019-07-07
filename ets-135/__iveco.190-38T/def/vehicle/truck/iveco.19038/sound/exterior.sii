@@ -1,0 +1,322 @@
+SiiNunit
+{
+accessory_sound_data : std.iveco.19038.esound
+{
+	start: .start
+	stop: .stop
+	start_no_fuel: .startbad
+
+	engine[]: .e0
+	engine[]: .e1
+     engine[]: .e2
+     engine[]: .e3
+     engine[]: .e4
+
+	engine_load[]: .el0
+	engine_load[]: .el1
+     engine_load[]: .el2
+     engine_load[]: .el3
+     engine_load[]: .el4
+
+	engine_nofuel[]: .enf0
+	engine_nofuel[]: .enf1
+	engine_nofuel[]: .enf2
+
+	turbo: .t
+
+	air_gear[0]: .airgear0
+	air_gear[1]: .airgear1
+	air_gear[2]: .airgear2
+	
+	air_brake[0]: .airbrake0
+	air_brake[1]: .airbrake1
+     air_brake[2]: .airbrake2
+
+	engine_brake[]: .eb
+
+	horn: .horn
+	reverse: .reverse
+	change_gear: .changeg
+
+	exterior_sound: true
+
+	retarder: .retarder
+
+@include "/def/vehicle/truck/common_sound_ext.sui"
+
+
+}
+
+sound_data: .retarder
+{
+	name: "/sound/truck/noises/retarder.ogg"
+	looped: true
+	volume: 0.7
+}
+
+sound_data: .start
+{
+	name: "/sound/truck/iveco_19038/ext/engine_on.ogg"
+	looped: false
+}
+
+sound_data: .startbad
+{
+	name: "/sound/truck/iveco_19038/ext/engine_on_bad.ogg"
+	looped: false
+}
+
+
+sound_data: .stop
+{
+	name: "/sound/truck/iveco_19038/ext/engine_off.ogg"
+	looped: false
+}
+
+sound_engine_data: .e0
+{
+	name: "/sound/truck/iveco_19038/ext/500rpm.ogg"
+
+	looped: true
+
+	pitch_reference: 600
+
+	min_rpm: 300.0
+	max_rpm: 800.0
+	volume: 0.62
+}
+
+sound_engine_data: .e1
+{
+	name: "/sound/truck/iveco_19038/ext/lever_le_pied.ogg"
+
+	looped: true
+
+	min_rpm: 580.0
+	max_rpm: 3000.0
+	pitch_reference:  1475
+	volume: 0.30
+}
+
+sound_engine_data: .e2
+{
+	name: "/sound/truck/iveco_19038/ext/1000rpm.ogg"
+
+	looped: true
+
+	pitch_reference: 1100
+
+	min_rpm: 625.0
+	max_rpm: 1300.0
+	volume: 0.70
+}
+
+sound_engine_data: .e3
+{
+	name: "/sound/truck/iveco_19038/ext/1500rpm.ogg"
+
+	looped: true
+
+	pitch_reference: 1700
+
+	min_rpm: 1200.0
+	max_rpm: 2800.0
+	volume: 0.75
+}
+
+sound_engine_data: .e4
+{
+	name: "/sound/truck/iveco_19038/ext/turbo_idle.ogg"
+
+	looped: true
+
+	pitch_reference: 580
+
+	min_rpm: 620.0
+	max_rpm: 2800.0
+	volume: 0.13
+}
+
+
+sound_engine_data: .el0
+{
+	name: "/sound/truck/iveco_19038/ext/exhaust_idle.ogg"
+
+	looped: true
+
+	pitch_reference: 480
+
+	min_rpm: 300.0
+	max_rpm: 1000.0
+	volume: 1.30
+}
+
+sound_engine_data: .el1
+{
+	name: "/sound/truck/iveco_19038/ext/1000rpm_exhaust.ogg"
+
+	looped: true
+
+	pitch_reference: 1225
+
+	min_rpm: 840.0
+	max_rpm: 1360.0
+	volume: 0.90
+}
+
+sound_engine_data: .el2
+{
+	name: "/sound/truck/iveco_19038/ext/1500rpm_exhaust.ogg"
+
+	looped: true
+
+	pitch_reference: 1675
+
+	min_rpm: 880.0
+	max_rpm: 2100.0
+	volume: 1.90
+}
+
+sound_engine_data: .el3
+{
+	name: "/sound/truck/iveco_19038/ext/2000rpm_exhaust.ogg"
+
+	looped: true
+
+	pitch_reference: 1792
+
+	min_rpm: 1550.0
+	max_rpm: 3000.0
+	volume: 2.20
+}
+
+sound_engine_data: .el4
+{
+	name: "/sound/truck/iveco_19038/ext/drr.ogg"
+
+	looped: true
+
+	min_rpm: 500.0
+	max_rpm: 3000.0
+	volume: 1.5
+}
+
+sound_engine_data: .enf0
+{
+	name: 			"/sound/truck/iveco_19038/ext/lever_le_pied.ogg"
+	looped: true
+
+	looped: true
+
+	min_rpm: 580.0
+	max_rpm: 3000.0
+	pitch_reference:  1475
+	volume: 1.15
+}
+
+sound_engine_data: .enf1
+{
+	name: "/sound/truck/iveco_19038/ext/1500rpm.ogg"
+
+	looped: true
+
+	pitch_reference: 1700
+
+	min_rpm: 400.0
+	max_rpm: 2800.0
+	volume: 0.65
+}
+
+sound_engine_data: .enf2
+{
+	name: "/sound/truck/iveco_19038/ext/turbo_idle.ogg"
+
+	looped: true
+
+	pitch_reference: 580
+
+	min_rpm: 620.0
+	max_rpm: 2800.0
+	volume: 0.13
+}
+
+sound_data: .t
+{
+	name: "/sound/truck/iveco_19038/ext/turbo_ext.ogg"
+	looped: true
+
+	volume: 0.80
+}
+
+sound_data: .airgear0
+{
+	name: "/sound/truck/iveco_19038/ext/gear_air_1.ogg"
+		volume: 0.65
+}
+
+sound_data: .airgear1
+{
+	name: "/sound/truck/iveco_19038/ext/gear_air_2.ogg"
+		volume: 0.65
+}
+sound_data: .airgear2
+{
+	name: "/sound/truck/iveco_19038/ext/gear_air_3.ogg"
+		volume: 0.65
+}
+
+sound_data: .airbrake0
+{
+	name: "/sound/truck/iveco_19038/ext/air_brake1.ogg"
+
+	looped: false
+}
+
+sound_data: .airbrake1
+{
+	name: "/sound/truck/iveco_19038/ext/air_brake2.ogg"
+
+	looped: false
+}
+
+sound_data: .airbrake2
+{
+	name: "/sound/truck/iveco_19038/ext/air_brake3.ogg"
+
+	looped: false
+}
+
+sound_data: .changeg
+{
+	name: "/sound/truck/iveco_19038/int/gear_change.ogg"
+}
+
+sound_engine_data: .eb
+{
+	name: "/sound/truck/iveco_19038/ext/engine_brake_ext.ogg"
+	looped: true
+	is_2d: true
+	pitch_reference: 1600
+	min_rpm: 750.0
+	max_rpm: 3000.0
+}
+
+sound_data: .horn
+{
+	name: "/sound/truck/iveco_19038/ext/horn.ogg"
+	looped: true
+}
+
+sound_data: .reverse
+{
+	name: "/sound/truck/iveco_19038/ext/reverse.ogg"
+	looped: true
+}
+
+@include "/def/vehicle/truck/common_sound_ext_data.sui"
+
+}
+
+
+
+

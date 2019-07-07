@@ -1,0 +1,16 @@
+﻿SiiNunit
+{
+accessory_addon_data : shape6.iveco.stralis.bdf_stuff
+{
+	name: "Big Tanks"
+	price: 12000
+	unlock: 8
+	icon: "fv_ftanks"
+	exterior_model: "/vehicle/truck/upgrade/bdf_stuff/tanks/big_tanks.pmd"
+	suitable_for[]: "4x2t.iveco.stralis.chassis" 
+	suitable_for[]: "6x2t.iveco.stralis.chassis" 
+	suitable_for[]: "6x2t_ml.iveco.stralis.chassis" 
+	suitable_for[]: "6x4t.iveco.stralis.chassis" 
+	suitable_for[]: "6x4t_ml.iveco.stralis.chassis" 
+}
+}

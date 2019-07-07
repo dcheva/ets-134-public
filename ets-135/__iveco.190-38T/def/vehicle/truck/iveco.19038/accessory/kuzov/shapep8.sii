@@ -1,0 +1,21 @@
+﻿SiiNunit
+
+{
+
+accessory_addon_data : shapep8.iveco.stralis.kuzov
+
+{
+
+	name: "Universal Short Painted"
+
+	price: 16000
+	unlock: 8
+	icon: "vinge_uni"
+
+	exterior_model: "/vehicle/truck/upgrade/cargo/tandem/universal_short/universal_p.pmd"
+	coll: "/vehicle/truck/upgrade/cargo/tandem/universal_short/universal_p.pmc"
+	
+	suitable_for[]: "4x2t.iveco.stralis.chassis" 
+
+}
+}

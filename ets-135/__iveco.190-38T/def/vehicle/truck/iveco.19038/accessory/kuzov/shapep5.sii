@@ -1,0 +1,21 @@
+﻿SiiNunit
+
+{
+
+accessory_addon_data : shapep5.iveco.stralis.kuzov
+
+{
+
+	name: "Coolliner Short Painted"
+
+	price: 26000
+	unlock: 8
+	icon: "vinge_coo"
+
+	exterior_model: "/vehicle/truck/upgrade/cargo/tandem/coolliner_short/coolliner_paint.pmd"
+	coll: "/vehicle/truck/upgrade/cargo/tandem/coolliner_short/coolliner_paint.pmc"
+	
+	suitable_for[]: "4x2t.iveco.stralis.chassis" 
+	
+}
+}
