@@ -94,19 +94,19 @@ sound_engine_data: .e0
 
 	min_rpm: 300.0
 	max_rpm: 780.0
-	volume: 0.50
+	volume: 0.45
 }
 
 sound_engine_data: .e1
 {
-	name: 			"/sound/truck/iveco_19038/int/lever_le_pied.ogg"
+	name: "/sound/truck/iveco_19038/int/lever_le_pied.ogg"
 
 	looped: true
 
-	min_rpm: 580.0
+	min_rpm: 680.0
 	max_rpm: 3000.0
 	pitch_reference:  1475
-	volume: 0.15
+	volume: 0.33
 }
 
 sound_engine_data: .e2
@@ -115,7 +115,7 @@ sound_engine_data: .e2
 
 	pitch_reference: 1100
 
-	min_rpm: 625.0
+	min_rpm: 825.0
 	max_rpm: 1280.0
 	volume: 0.22
 }
@@ -139,24 +139,24 @@ sound_engine_data: .e4
 
 	looped: true
 
-	pitch_reference: 580
+	pitch_reference: 1000
 
-	min_rpm: 620.0
-	max_rpm: 2800.0
-	volume: 0.09
+	min_rpm: 200.0
+	max_rpm: 1880.0
+	volume: 0.15
 }
 
 sound_engine_data: .el0
 {
-	name: "/sound/truck/iveco_19038/int/exhaust_idle.ogg"
+	name: "/sound/truck/iveco_19038/int/1000rpm-int-exhaust.ogg"
 
 	looped: true
 
-	pitch_reference: 480
+	pitch_reference: 1225
 
-	min_rpm: 300.0
+	min_rpm: 200.0
 	max_rpm: 1000.0
-	volume: 0.45
+	volume: 0.33
 }
 
 sound_engine_data: .el1
@@ -165,11 +165,11 @@ sound_engine_data: .el1
 
 	looped: true
 
-	pitch_reference: 1225
+	pitch_reference: 1100
 
 	min_rpm: 840.0
 	max_rpm: 1360.0
-	volume: 0.42
+	volume: 0.22
 }
 
 sound_engine_data: .el2
@@ -182,7 +182,7 @@ sound_engine_data: .el2
 
 	min_rpm: 990.0
 	max_rpm: 2000.0
-	volume: 0.52
+	volume: 0.33
 }
 
 sound_engine_data: .el3
@@ -195,7 +195,7 @@ sound_engine_data: .el3
 
 	min_rpm: 1460.0
 	max_rpm: 3000.0
-	volume: 0.65
+	volume: 0.44
 }
 
 sound_engine_data: .el4
@@ -204,9 +204,9 @@ sound_engine_data: .el4
 
 	looped: true
 
-	min_rpm: 500.0
+	min_rpm: 200.0
 	max_rpm: 3000.0
-	volume: 0.35
+	volume: 0.22
 }
 
 sound_engine_data: .el00
@@ -217,7 +217,7 @@ sound_engine_data: .el00
 
 	pitch_reference: 800
 
-	min_rpm: 600.0
+	min_rpm: 200.0
 	max_rpm: 1000.0
 	volume: 0.25
 }
@@ -232,7 +232,7 @@ sound_engine_data: .el01
 
 	min_rpm: 800.0
 	max_rpm: 1200.0
-	volume: 0.25
+	volume: 0.29
 }
 
 sound_engine_data: .el02
@@ -245,7 +245,7 @@ sound_engine_data: .el02
 
 	min_rpm: 1000.0
 	max_rpm: 1400.0
-	volume: 0.25
+	volume: 0.30
 }
 
 sound_engine_data: .el03
@@ -258,7 +258,7 @@ sound_engine_data: .el03
 
 	min_rpm: 1200.0
 	max_rpm: 1600.0
-	volume: 0.25
+	volume: 0.30
 }
 
 sound_engine_data: .el04
@@ -267,9 +267,9 @@ sound_engine_data: .el04
 
 	looped: true
 
-	pitch_reference: 1600
+	pitch_reference: 800
 
-	min_rpm: 500.0
+	min_rpm: 100.0
 	max_rpm: 3000.0
 	volume: 0.15
 }
@@ -280,11 +280,11 @@ sound_engine_data: .el05
 
 	looped: true
 
-	pitch_reference: 1800
+	pitch_reference: 900
 
-	min_rpm: 1600.0
+	min_rpm: 1400.0
 	max_rpm: 2000.0
-	volume: 0.32
+	volume: 0.30
 }
 
 sound_engine_data: .el06
@@ -293,9 +293,11 @@ sound_engine_data: .el06
 
 	looped: true
 
-	min_rpm: 1800.0
+	pitch_reference: 1000
+
+	min_rpm: 1900.0
 	max_rpm: 3000.0
-	volume: 0.42
+	volume: 0.35
 }
 
 sound_engine_data: .enf0
@@ -304,23 +306,23 @@ sound_engine_data: .enf0
 
 	looped: true
 
-	min_rpm: 580.0
+	min_rpm: 880.0
 	max_rpm: 3000.0
 	pitch_reference:  1475
-	volume: 1.00
+	volume: 0.37
 }
 
 sound_engine_data: .enf1
 {
-	name: "/sound/truck/iveco_19038/int/1500rpm-int-mono.ogg"
+	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_0800.ogg"
 
 	looped: true
 
-	pitch_reference: 1700
+	pitch_reference: 800
 
-	min_rpm: 400.0
-	max_rpm: 2800.0
-	volume: 0.28
+	min_rpm: 200.0
+	max_rpm: 920.0
+	volume: 0.43
 }
 
 sound_engine_data: .enf2
@@ -331,9 +333,9 @@ sound_engine_data: .enf2
 
 	pitch_reference: 580
 
-	min_rpm: 620.0
-	max_rpm: 2800.0
-	volume: 0.10
+	min_rpm: 820.0
+	max_rpm: 3000.0
+	volume: 0.48
 }
 
 sound_data: .t
@@ -413,28 +415,28 @@ sound_data: .blinker_on
 {
 	name: "/sound/truck/iveco_19038/int/blinker_on.ogg"
 	is_2d: true
-	volume: 0.19
+	volume: 0.49
 }
 
 sound_data: .blinker_off
 {
 	name: "/sound/truck/iveco_19038/int/blinker_off.ogg"
 	is_2d: true
-	volume: 0.19
+	volume: 0.42
 }
 
 sound_data: .wipers_up
 {
 	name: "/sound/truck/iveco_19038/int/wiper_up.ogg"
 	is_2d: true
-	volume: 0.36
+	volume: 0.46
 }
 
 sound_data: .wipers_down
 {
 	name: "/sound/truck/iveco_19038/int/wiper_down.ogg"
 	is_2d: true
-	volume: 0.36
+	volume: 0.40
 }
 
 @include "/def/vehicle/truck/common_sound_int_data.sui"
