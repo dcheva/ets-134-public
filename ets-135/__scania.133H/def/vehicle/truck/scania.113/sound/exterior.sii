@@ -16,7 +16,7 @@ accessory_sound_data : v8.scania.r_2016e.sound
 
 	start_no_fuel: .startbad
 
-	retarder: .r
+	retarder: .retarder
 
 
 
@@ -110,7 +110,7 @@ accessory_sound_data : v8.scania.r_2016e.sound
 
 
 
-@include "/def/vehicle/truck/common_sound_ext.sui"
+@include "/def/vehicle/truck/common_sound_ext_s113.sui"
 
 
 
@@ -157,7 +157,7 @@ sound_data: .stop
 
 # Retarder 
 
-sound_data: .r
+sound_data: .retarder
 
 {
 
@@ -916,7 +916,7 @@ sound_data: .reverse
 
 
 
-@include "/def/vehicle/truck/common_sound_ext_data.sui"
+@include "/def/vehicle/truck/common_sound_ext_data_s113.sui"
 
 
 

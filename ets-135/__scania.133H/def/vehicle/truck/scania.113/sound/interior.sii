@@ -15,7 +15,7 @@ accessory_sound_data : v8.scania.r_2016i.sound
 
 	start_no_fuel: .startbad
 
-	retarder: .r
+	retarder: .retarder
 
 
 
@@ -125,7 +125,7 @@ accessory_sound_data : v8.scania.r_2016i.sound
 
 
 
-@include "/def/vehicle/truck/common_sound_int.sui"
+@include "/def/vehicle/truck/common_sound_int_s113.sui"
 
 
  
@@ -174,7 +174,7 @@ sound_data: .stop
 
 
 
-sound_data: .r
+sound_data: .retarder
 
 {
 
@@ -1085,7 +1085,7 @@ sound_data: .wipers_down
 
 
 
-@include "/def/vehicle/truck/common_sound_int_data.sui"
+@include "/def/vehicle/truck/common_sound_int_data_s113.sui"
 
 
 
