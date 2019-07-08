@@ -98,14 +98,14 @@ sound_engine_data: .e0
 
 	pitch_reference: 600
 
-	min_rpm: 300.0
+	min_rpm: 200.0
 	max_rpm: 780.0
 	volume: 0.50
 }
 
 sound_engine_data: .e1
 {
-	name: 			"/sound/truck/iveco_19038/int/lever_le_pied.ogg"
+	name: "/sound/truck/iveco_19038/int/lever_le_pied.ogg"
 
 	looped: true
 
@@ -149,7 +149,7 @@ sound_engine_data: .e4
 
 	min_rpm: 620.0
 	max_rpm: 2800.0
-	volume: 0.09
+	volume: 0.12
 }
 
 sound_engine_data: .el0
@@ -160,7 +160,7 @@ sound_engine_data: .el0
 
 	pitch_reference: 480
 
-	min_rpm: 300.0
+	min_rpm: 200.0
 	max_rpm: 1000.0
 	volume: 0.85
 }
@@ -210,21 +210,20 @@ sound_engine_data: .el4
 
 	looped: true
 
-	min_rpm: 500.0
+	min_rpm: 200.0
 	max_rpm: 3000.0
 	volume: 0.30
 }
 
 sound_engine_data: .enf0
 {
-	name: 			"/sound/truck/iveco_19038/int/lever_le_pied.ogg"
+	name: "/sound/truck/iveco_19038/int/1000rpm-int-mono.ogg"
 
-	looped: true
+	pitch_reference: 1100
 
-	min_rpm: 580.0
-	max_rpm: 3000.0
-	pitch_reference:  1475
-	volume: 1.00
+	min_rpm: 200.0
+	max_rpm: 1280.0
+	volume: 0.32
 }
 
 sound_engine_data: .enf1
@@ -235,9 +234,9 @@ sound_engine_data: .enf1
 
 	pitch_reference: 1700
 
-	min_rpm: 400.0
-	max_rpm: 2800.0
-	volume: 0.28
+	min_rpm: 1200.0
+	max_rpm: 3000.0
+	volume: 0.42
 }
 
 sound_engine_data: .enf2
@@ -248,9 +247,9 @@ sound_engine_data: .enf2
 
 	pitch_reference: 580
 
-	min_rpm: 620.0
-	max_rpm: 2800.0
-	volume: 0.10
+	min_rpm: 200.0
+	max_rpm: 3000.0
+	volume: 0.28
 }
 
 
@@ -277,7 +276,7 @@ sound_engine_data: .el01
 
 	min_rpm: 800.0
 	max_rpm: 1200.0
-	volume: 0.29
+	volume: 0.50
 }
 
 sound_engine_data: .el02
@@ -290,7 +289,7 @@ sound_engine_data: .el02
 
 	min_rpm: 1000.0
 	max_rpm: 1400.0
-	volume: 0.32
+	volume: 0.40
 }
 
 sound_engine_data: .el03
@@ -303,7 +302,7 @@ sound_engine_data: .el03
 
 	min_rpm: 1200.0
 	max_rpm: 1600.0
-	volume: 0.38
+	volume: 0.40
 }
 
 sound_engine_data: .el04
@@ -316,7 +315,7 @@ sound_engine_data: .el04
 
 	min_rpm: 100.0
 	max_rpm: 3000.0
-	volume: 0.30
+	volume: 0.20
 }
 
 sound_engine_data: .el05
@@ -342,7 +341,7 @@ sound_engine_data: .el06
 
 	min_rpm: 1900.0
 	max_rpm: 3000.0
-	volume: 0.40
+	volume: 0.50
 }
 
 
@@ -350,52 +349,52 @@ sound_data: .t
 {
 	name: "/sound/truck/iveco_19038/int/turbo_int.ogg"
 	looped: true
-	volume: 0.50
+	volume: 0.32
 }
 
 sound_data: .airgear0
 {
 	name: "/sound/truck/iveco_19038/int/int_gear_air_1.ogg"
-	volume: 0.56
+	volume: 0.46
 }
 
 sound_data: .airgear1
 {
 	name: "/sound/truck/iveco_19038/int/int_gear_air_2.ogg"
-	volume: 0.54
+	volume: 0.44
 }
 
 sound_data: .airgear2
 {
 	name: "/sound/truck/iveco_19038/int/int_gear_air_3.ogg"
-	volume: 0.50
+	volume: 0.40
 }
 
 sound_data: .airbrake0
 {
 	name: "/sound/truck/iveco_19038/int/air_brake1.ogg"
 	looped: false
-	volume: 2.20
+	volume: 3.30
 }
 
 sound_data: .airbrake1
 {
 	name: "/sound/truck/iveco_19038/int/air_brake2.ogg"
 	looped: false
-	volume: 2.00
+	volume: 3.00
 }
 
 sound_data: .airbrake2
 {
 	name: "/sound/truck/iveco_19038/int/air_brake3.ogg"
 	looped: false
-	volume: 2.30
+	volume: 3.60
 }
 
 sound_data: .changeg
 {
 	name: "/sound/truck/iveco_19038/int/gear_change.ogg"
-	volume: 2.16
+	volume: 3.36
 }
 
 sound_engine_data: .eb
@@ -459,7 +458,3 @@ sound_data: .wipers_down
 @include "/def/vehicle/truck/common_sound_int_data.sui"
 
 }
-
-
-
-
