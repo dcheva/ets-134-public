@@ -1,8 +1,0 @@
-cargo_data: cargo.junk
-{
-	name: "@@cargo_junk@"
-	fragility: 0.2
-	price_coef: 1.25
-	group[]: containers
-	body_types[]: _junk_01
-}

@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.holmsund.vaasa {
-	price: 180
-	time: 300
-	distance: 100
-}
-}

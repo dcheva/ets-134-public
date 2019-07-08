@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.mariehamn.kapellskar{
-	price: 500
-	time: 335
-	distance: 120
-}
-}
-

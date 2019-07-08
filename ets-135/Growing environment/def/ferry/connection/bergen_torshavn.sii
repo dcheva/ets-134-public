@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.bergen.torshavn{
-	price: 1290
-	time: 1100
-	distance: 680
-}
-}
-

@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.douglas.heysham{
-	price: 384
-	time: 270
-	distance: 110
-}
-}
-

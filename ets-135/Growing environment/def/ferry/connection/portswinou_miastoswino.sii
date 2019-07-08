@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.portswinou.miastoswino {
-	price: 4
-	time: 10
-	distance : 1
-}
-}
-

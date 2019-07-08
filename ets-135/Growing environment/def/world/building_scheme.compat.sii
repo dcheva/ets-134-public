@@ -1,9 +1,0 @@
-SiiNunit
-{
-building_scheme : bld_scheme.scheme3sc {
-	name: "poplar avenue sc"
-	models[]: bld_model.3sc
-  category: "dlc_north/vegetation"
-}
-
-}

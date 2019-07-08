@@ -1,9 +1,0 @@
-﻿###
-# WARNING: Map must be rebuilt when anything is changed here!
-###
-ferry_data: ferry.mariehamn
-{
-	ferry_name: "Mariehamn"
-} 
-
-
