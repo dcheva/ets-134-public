@@ -349,40 +349,40 @@ sound_data: .t
 sound_data: .airgear0
 {
 	name: "/sound/truck/iveco_19038/int/int_gear_air_1.ogg"
-	volume: 0.942			
+	volume: 0.56
 }
 
 sound_data: .airgear1
 {
 	name: "/sound/truck/iveco_19038/int/int_gear_air_2.ogg"
-	volume: 0.742
+	volume: 0.54
 }
 
 sound_data: .airgear2
 {
 	name: "/sound/truck/iveco_19038/int/int_gear_air_3.ogg"
-	volume: 0.642
+	volume: 0.50
 }
 
 sound_data: .airbrake0
 {
 	name: "/sound/truck/iveco_19038/int/air_brake1.ogg"
 	looped: false
-	volume: 2.16
+	volume: 2.20
 }
 
 sound_data: .airbrake1
 {
 	name: "/sound/truck/iveco_19038/int/air_brake2.ogg"
 	looped: false
-	volume: 2.06
+	volume: 2.00
 }
 
 sound_data: .airbrake2
 {
 	name: "/sound/truck/iveco_19038/int/air_brake3.ogg"
 	looped: false
-	volume: 2.36
+	volume: 2.30
 }
 
 sound_data: .changeg
@@ -425,28 +425,28 @@ sound_data: .blinker_on
 {
 	name: "/sound/truck/iveco_19038/int/blinker_on.ogg"
 	is_2d: true
-	volume: 1.69
+	volume: 0.69
 }
 
 sound_data: .blinker_off
 {
 	name: "/sound/truck/iveco_19038/int/blinker_off.ogg"
 	is_2d: true
-	volume: 1.39
+	volume: 0.79
 }
 
 sound_data: .wipers_up
 {
 	name: "/sound/truck/iveco_19038/int/wiper_up.ogg"
 	is_2d: true
-	volume: 0.76
+	volume: 0.86
 }
 
 sound_data: .wipers_down
 {
 	name: "/sound/truck/iveco_19038/int/wiper_down.ogg"
 	is_2d: true
-	volume: 0.66
+	volume: 0.76
 }
 
 @include "/def/vehicle/truck/common_sound_int_data.sui"
