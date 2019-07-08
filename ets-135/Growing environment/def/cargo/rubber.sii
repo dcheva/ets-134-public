@@ -1,8 +1,0 @@
-cargo_data: cargo.rubber
-	{
-	name: "@@cargo_rubberd@@"
-	fragility: 0.5
-	price_coef: 0.910
-	group[]: containers
-	body_types[]: _rubber
-	}

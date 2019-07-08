@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.cherbourg.portsmouth{
-	price: 470
-	time: 520
-	distance: 130
-}
-}
-

@@ -4,20 +4,16 @@ Sounds and noises.
 Place this mod in the top.
 
 [blue]Changes:[normal]
-	- Interior volume (open window) and pitch.
 	- Psycho yawn sound.
-	- Interior and exterior sounds and noises.
-	- Truck refund (almost equal to truck price, x1.0 coef).
+	- Rain and thunder sounds.
 
 
 [green]Звуки и шумы.[normal]
 Поместите этот мод в топ.
 
 [blue]Изменения:[normal]
-	- Звуки салона (открытое окно) и фильтр.
 	- Психо-зевок.
-	- Внутренние и внешние звуки и шумы.
-	- Стоимость возврата грузовика (почти равен стоимости грузовика, x1.0 коэф).
+	- Звуки дождя и грозы.
 
 github: https://github.com/dcheva
 fcbook: https://www.facebook.com/groups/FS19modsByCheva/

@@ -1,7 +1,0 @@
-SiiNunit
-{
-country_traffic_info : .country.info.traffic.loc_cl66 {
-	object: traffic.loc_cl66
-	spawn_frequency: 2.00
-}
-}

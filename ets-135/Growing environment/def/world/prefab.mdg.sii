@@ -1,8 +1,0 @@
-SiiNunit
-{
-prefab_model : prefab.mdg_001  {
-	model_desc:  "/prefab/service/truckwash_service.pmd"
-	prefab_desc: "/prefab/service/truckwash_service.ppd"
-	use_perlin:  false 
-}
-}

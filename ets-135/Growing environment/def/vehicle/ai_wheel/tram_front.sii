@@ -1,7 +1,0 @@
-SiiNunit
-{
-accessory_wheel_data : tram.fwheel
-{
-	model: "/vehicle/wheel/tram/tram_wheel.pmd"
-}
-}
