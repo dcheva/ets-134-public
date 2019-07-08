@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.199.da16.25a0 {
+input_config : _nameless.130.12e1.a560 {
  version: 11
  config_lines: 406
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -164,7 +164,7 @@ input_config : _nameless.199.da16.25a0 {
  config_lines[158]: "mix wndtask `keyboard.pgup?0`"
  config_lines[159]: "mix sndedittool `keyboard.lshift?0 & keyboard.rshift?0`"
  config_lines[160]: "mix sndeditdata `keyboard.lalt?0 & keyboard.d?0`"
- config_lines[161]: "mix cam1 `keyboard.key1?0 | mouse.button_middle?0 | semantical.cam1?0`"
+ config_lines[161]: "mix cam1 `keyboard.key1?0 | keyboard.darrow?0 | semantical.cam1?0`"
  config_lines[162]: "mix cam2 `keyboard.key2?0 | semantical.cam2?0`"
  config_lines[163]: "mix cam3 `keyboard.key3?0 | semantical.cam3?0`"
  config_lines[164]: "mix cam4 `keyboard.key4?0 | semantical.cam4?0`"
@@ -172,7 +172,7 @@ input_config : _nameless.199.da16.25a0 {
  config_lines[166]: "mix cam6 `keyboard.key6?0 | semantical.cam6?0`"
  config_lines[167]: "mix cam7 `keyboard.key7?0 | semantical.cam7?0`"
  config_lines[168]: "mix cam8 `keyboard.key8?0 | semantical.cam8?0`"
- config_lines[169]: "mix camcycle `keyboard.key9?0 | keyboard.darrow?0 | semantical.camcycle?0`"
+ config_lines[169]: "mix camcycle `keyboard.key9?0 | semantical.camcycle?0`"
  config_lines[170]: "mix camdbg `keyboard.key0?0`"
  config_lines[171]: "mix camwnd `keyboard.minus?0`"
  config_lines[172]: "mix camrotate `mouse.button_right?0 | semantical.camrotate?0`"
@@ -207,8 +207,8 @@ input_config : _nameless.199.da16.25a0 {
  config_lines[201]: "mix lookpos7 `semantical.lookpos7?0`"
  config_lines[202]: "mix lookpos8 `semantical.lookpos8?0`"
  config_lines[203]: "mix lookpos9 `semantical.lookpos9?0`"
- config_lines[204]: "mix looksteer `semantical.looksteer?0`"
- config_lines[205]: "mix lookblink `semantical.lookblink?0`"
+ config_lines[204]: "mix looksteer `keyboard.rctrl?0 | semantical.looksteer?0`"
+ config_lines[205]: "mix lookblink `keyboard.rshift?0 | semantical.lookblink?0`"
  config_lines[206]: "mix trackiron `trackir.device.active?0`"
  config_lines[207]: "mix trackiryaw `trackir.device.position.yaw?0`"
  config_lines[208]: "mix trackirpitch `trackir.device.position.pitch?0`"
@@ -256,7 +256,7 @@ input_config : _nameless.199.da16.25a0 {
  config_lines[250]: "mix backward `dbackward + abackward`"
  config_lines[251]: "mix dclutch ``"
  config_lines[252]: "mix clutch `dclutch + normalize(sel(c_jzclutch, sel(c_jiclutch, -j_clutch?0, j_clutch?0), sel(c_jiclutch, j_clutch?1 * -0.5 + 0.5, j_clutch?-1 * 0.5 + 0.5)), c_clutch_dz) + semantical.clutch?0`"
- config_lines[253]: "mix activate `keyboard.enter?0 | semantical.activate?0`"
+ config_lines[253]: "mix activate `keyboard.enter?0 | keyboard.numenter?0 | semantical.activate?0`"
  config_lines[254]: "mix menu `keyboard.esc?0 | semantical.menu?0`"
  config_lines[255]: "mix engine `keyboard.e?0 | semantical.engine?0`"
  config_lines[256]: "mix engineelect `semantical.engineelect?0`"
@@ -272,7 +272,7 @@ input_config : _nameless.199.da16.25a0 {
  config_lines[266]: "mix engbraketog `semantical.engbraketog?0`"
  config_lines[267]: "mix engbrakeup `semantical.engbrakeup?0`"
  config_lines[268]: "mix engbrakedwn `semantical.engbrakedwn?0`"
- config_lines[269]: "mix trailerbrake `semantical.trailerbrake?0`"
+ config_lines[269]: "mix trailerbrake `keyboard.lctrl?0 | semantical.trailerbrake?0`"
  config_lines[270]: "mix retarderup `keyboard.semicolon?0 | semantical.retarderup?0`"
  config_lines[271]: "mix retarderdown `keyboard.apostrophe?0 | semantical.retarderdown?0`"
  config_lines[272]: "mix retarder0 `semantical.retarder0?0`"
@@ -315,8 +315,8 @@ input_config : _nameless.199.da16.25a0 {
  config_lines[309]: "mix radiodown `keyboard.del?0 | semantical.radiodown?0`"
  config_lines[310]: "mix display `keyboard.i?0 | semantical.display?0`"
  config_lines[311]: "mix quickpark `keyboard.q?0 | semantical.quickpark?0`"
- config_lines[312]: "mix dashmapzoom `semantical.dashmapzoom?0`"
- config_lines[313]: "mix tripreset `semantical.tripreset?0`"
+ config_lines[312]: "mix dashmapzoom `keyboard.comma?0 | semantical.dashmapzoom?0`"
+ config_lines[313]: "mix tripreset `keyboard.period?0 | semantical.tripreset?0`"
  config_lines[314]: "mix eyecfg `modifier(shift_only, keyboard.numlock?0)`"
  config_lines[315]: "mix photoleave `keyboard.esc?0 | semantical.photoleave?0`"
  config_lines[316]: "mix photores `keyboard.r?0 | semantical.photores?0`"
