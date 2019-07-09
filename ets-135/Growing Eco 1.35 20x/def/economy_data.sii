@@ -105,7 +105,7 @@ economy_data : economy.data.storage
 	skill_distance[]:	800 // 1100
 	skill_distance[]:	1300 // 850
 	skill_distance[]:	2100 // 1100
-	skill_distance[]:	3400 // 1500 // for big maps as ProMods, EAA or RusMap
+	skill_distance[]:	1 // 1500 // for big maps as ProMods, EAA or RusMap //!!!ANY distance +60% total!!!//
 
 	max_eco_consumption_drop[]: (0.15, 0.20) # consumption decreased by 40% (or 60% if driving with trailer) // 0.1 0.1
 	max_eco_consumption_drop[]: (0.20, 0.25) // 0.15 0.15
@@ -115,19 +115,19 @@ economy_data : economy.data.storage
 	max_eco_consumption_drop[]: (0.40, 0.45) # Maximum consumption drop is 0.99.
 
 ### all values was 0.05 or 5% or total +30%
-	reward_bonus_long_dist[]: 0.03
 	reward_bonus_long_dist[]: 0.05
-	reward_bonus_long_dist[]: 0.08
-	reward_bonus_long_dist[]: 0.13
-	reward_bonus_long_dist[]: 0.21
-	reward_bonus_long_dist[]: 0.34 // total + 84% 
+	reward_bonus_long_dist[]: 0.10
+	reward_bonus_long_dist[]: 0.15
+	reward_bonus_long_dist[]: 0.15
+	reward_bonus_long_dist[]: 0.10
+	reward_bonus_long_dist[]: 0.05 // total + 60% //!!!ANY distance!!!//
 
-	reward_bonus_valuable[]: 0.21
-	reward_bonus_valuable[]: 0.13
-	reward_bonus_valuable[]: 0.08
+	reward_bonus_valuable[]: 0.20
+	reward_bonus_valuable[]: 0.15
+	reward_bonus_valuable[]: 0.10
 	reward_bonus_valuable[]: 0.05
-	reward_bonus_valuable[]: 0.03
-	reward_bonus_valuable[]: 0.02 // total + +53%
+	reward_bonus_valuable[]: 0.05
+	reward_bonus_valuable[]: 0.05 // total + +60%
 
 	reward_bonus_fragile[]: 0.10
 	reward_bonus_fragile[]: 0.10
@@ -136,12 +136,12 @@ economy_data : economy.data.storage
 	reward_bonus_fragile[]: 0.10
 	reward_bonus_fragile[]: 0.10 // total +60%
 
-	reward_bonus_urgent[]: 0.02
-	reward_bonus_urgent[]: 0.03
 	reward_bonus_urgent[]: 0.05
-	reward_bonus_urgent[]: 0.08
-	reward_bonus_urgent[]: 0.13
-	reward_bonus_urgent[]: 0.21 // total + +53%
+	reward_bonus_urgent[]: 0.05
+	reward_bonus_urgent[]: 0.05
+	reward_bonus_urgent[]: 0.10
+	reward_bonus_urgent[]: 0.15
+	reward_bonus_urgent[]: 0.20 // total + +60%
 
 	reward_bonus_level: 0.01 // 0.015
 ### 50 lvl +50%

@@ -53,7 +53,7 @@
 	wheel_grass[]: .wgrs1
 	wheel_grass[]: .wgrs2
 
-	seat_noise_treshold: 6.5
+	seat_noise_treshold: 4
 	seat_noise[]: .snoise0
 	seat_noise[]: .snoise1
 	seat_noise[]: .snoise2
@@ -72,7 +72,7 @@
 	seat_noise[]: .snoise15
 	seat_noise[]: .snoise16
 		
-	suspension_noise_treshold: 3.5
+	suspension_noise_treshold: 2
 	suspension_noise[]: .sunoise0
 	suspension_noise[]: .sunoise1
 	suspension_noise[]: .sunoise2
