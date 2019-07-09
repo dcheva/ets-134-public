@@ -1,0 +1,36 @@
+SiiNunit
+{
+accessory_engine_data : mx13_303.daf.f241.engine
+{
+	name: "MX-13 303 Euro 6"
+	price: 12600
+	unlock: 0
+	info[]: "410 @@hp@@ (303@@kw@@)"
+	info[]: "2@@dg@@000 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@425 @@rpm@@"
+	icon: "engine_01"
+	torque: 2000
+	rpm_limit: 2200
+	volume: 12.9
+	no_adblue_power_limit: 0.5
+
+    torque_curve[]: (300, 0)
+    torque_curve[]: (550, 0.54)
+    torque_curve[]: (1000, 0.92)
+    torque_curve[]: (1100, 0.96)
+    torque_curve[]: (1200, 0.98)
+    torque_curve[]: (1300, 1.00)
+    torque_curve[]: (1400, 0.99)
+    torque_curve[]: (1500, 0.98)
+    torque_curve[]: (1600, 0.97)
+    torque_curve[]: (1700, 0.95)
+    torque_curve[]: (1800, 0.92)
+    torque_curve[]: (1900, 0.90)
+    torque_curve[]: (2000, 0.87)
+    torque_curve[]: (2100, 0.85)
+    torque_curve[]: (2400, 0.58)
+    torque_curve[]: (2600, 0)
+
+	overrides[]: "/def/vehicle/truck/daf.xf_euro6/badge/badge_410.sii"
+}
+}

@@ -1,0 +1,21 @@
+SiiNunit
+{
+accessory_engine_data : dhs825.daf.f241.engine
+{
+	name: "DAF DHS 825"
+	price: 810
+	unlock: 0
+
+	info[]: "250 @@hp@@ (184@@kw@@)"
+	info[]: "0@@dg@@915 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@500 @@rpm@@"
+
+	icon: "engine_01"
+	torque: 915
+	volume: 8.25
+	rpm_limit: 2150
+	no_adblue_power_limit: 0.5
+
+#	overrides[]: "/def/vehicle/truck/daf.f241/accessory/badge/_.sii"
+}
+}

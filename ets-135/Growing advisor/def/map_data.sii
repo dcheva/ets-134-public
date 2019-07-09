@@ -2,11 +2,11 @@ SiiNunit
 {
 map_data : .map.data {
 
-	road_color:			0xFF336699 	//Advisor map undiscovered route
+	road_color:			0xFF224466 	//Advisor map undiscovered route
 	road_discovered_color:		0xFFCC6633	//Advisor map discovered route
-	job_road_color:			0xFF336699	//Job market map undiscovered route
+	job_road_color:			0xFF224466	//Job market map undiscovered route
 	job_road_discovered_color:	0xFFCC6633	//Job market map discovered route
-	world_road_color:		0xFF336699	//Main map undiscovered route
+	world_road_color:		0xFF224466	//Main map undiscovered route
 	world_road_discovered_color:	0xFFCC6633 	//Main map discovered route
 
 	prefab_color:				0xFF737373	//Undiscovered prefab driveable areas
@@ -22,11 +22,19 @@ map_data : .map.data {
 	navigation_fade_color:		0xFF6A6DCC	//Navigation path color, faded segment
 	navigation_arrow_color:		0xFF5EA1FF	//Navigation crossroad arrows color
 	
+//	zoom_uplift[0]: 50.0		// close zoom for 3d map
+//	zoom_uplift[1]: 220.0		// far zoom for 3d map
+//	zoom_uplift[2]: 900.0		// close zoom for minimap
+//	zoom_uplift[3]: 4000.0		// far zoom for minimap
+//	zoom_uplift[4]: 1000.0		// city detail zoom for world map
+//	zoom_uplift[5]: 5000.0		// closest zoom for world map
+//	zoom_uplift[6]: 18500.0		// middle zoom for world map
+//	zoom_uplift[7]: 45000.0    	// whole world map zoom
 	
-	zoom_uplift[0]: 150.0		// close zoom for 3d map
-	zoom_uplift[1]: 450.0		// far zoom for 3d map
-	zoom_uplift[2]: 1200.0		// close zoom for minimap
-	zoom_uplift[3]: 5000.0		// far zoom for minimap
+	zoom_uplift[0]: 100.0		// close zoom for 3d map
+	zoom_uplift[1]: 400.0		// far zoom for 3d map
+	zoom_uplift[2]: 1000.0		// close zoom for minimap0
+	zoom_uplift[3]: 4000.0		// far zoom for minimap
 	zoom_uplift[4]: 1000.0		// city detail zoom for world map
 	zoom_uplift[5]: 5000.0		// closest zoom for world map
 	zoom_uplift[6]: 18500.0		// middle zoom for world map

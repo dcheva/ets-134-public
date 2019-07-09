@@ -1,0 +1,39 @@
+SiiNunit
+{
+accessory_engine_data : dks1160.daf.f241.engine
+{
+	name: "DAF DKS 1160"
+	price: 820
+	unlock: 0
+
+	info[]: "307 @@hp@@ (229@@kw@@)"
+	info[]: "1@@dg@@160 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@450 @@rpm@@"
+
+	icon: "engine_01"
+	
+	torque: 1160
+	torque_curve[]: (300, 0)
+    torque_curve[]: (550, 0.54)
+    torque_curve[]: (1000, 0.92)
+    torque_curve[]: (1100, 0.96)
+    torque_curve[]: (1200, 0.98)
+    torque_curve[]: (1300, 1.00)
+    torque_curve[]: (1400, 0.99)
+    torque_curve[]: (1500, 0.98)
+    torque_curve[]: (1600, 0.97)
+    torque_curve[]: (1700, 0.95)
+    torque_curve[]: (1800, 0.92)
+    torque_curve[]: (1900, 0.90)
+    torque_curve[]: (2000, 0.87)
+    torque_curve[]: (2100, 0.85)
+    torque_curve[]: (2400, 0.58)
+    torque_curve[]: (2600, 0)
+	
+	volume: 11.6
+	rpm_limit: 2150
+	no_adblue_power_limit: 0.5
+
+#	overrides[]: "/def/vehicle/truck/daf.f241/accessory/badge/_.sii"
+}
+}
