@@ -1,26 +1,19 @@
 ;-) click
-
-!`::LButton
-
-;`::LButton
-;!`::RButton
+F1::LButton
+!F1::RButton
 
 ;-) another click
-
 !1::WheelUp
 !q::WheelDown
 
 ;-) more clicks
-
 ;Insert::LButton
 ;Home::MButton
 ;End::RButton
-
 PgUp::WheelUp
 PgDn::WheelDown
 
 ;-) suspend, pause and reload
-
 ^!r::Reload
 ^!p::Pause
 ^!s::
@@ -38,9 +31,9 @@ PgDn::WheelDown
 !z::
 	; WhichButton, X, Y, ClickCount, Speed, DownOrUp, Relative
 	MouseClick, Left
-	MouseClick, Left, -240, 0, 1, 10, ,R
+	MouseClick, Left, -220, 0, 1, 10, ,R
 	; X, Y, Speed, Relative
-	MouseMove, 240, 0, 2, R
+	MouseMove, 220, 0, 2, R
 	return
 
 !x::
@@ -48,7 +41,7 @@ PgDn::WheelDown
 	; WhichButton, X, Y, ClickCount, Speed, DownOrUp, Relative
 	MouseClick, Left, 0, -40, 1, 2, ,R
 	; Chrome 210 FF 240
-	MouseClick, Left, -240, 40, 1, 10, ,R
+	MouseClick, Left, -220, 40, 1, 10, ,R
 	; X, Y, Speed, Relative
-	MouseMove, 240, 0, 2, R
+	MouseMove, 220, 0, 2, R
 	return
