@@ -509,7 +509,7 @@ sound_engine_data: .el10
 
 	min_rpm: 1150.0
 	max_rpm: 1500.0
-	volume: 0.38
+	volume: 0.28
 }
 
 sound_engine_data: .el11
@@ -522,7 +522,7 @@ sound_engine_data: .el11
 
 	min_rpm: 1360.0
 	max_rpm: 1730.0
-	volume: 0.40
+	volume: 0.24
 }
 
 sound_engine_data: .el12
@@ -535,7 +535,7 @@ sound_engine_data: .el12
 
 	min_rpm: 1550.0
 	max_rpm: 2000.0
-	volume: 0.45
+	volume: 0.20
 }
 
 sound_engine_data: .el13
@@ -548,7 +548,7 @@ sound_engine_data: .el13
 
 	min_rpm: 1760.0
 	max_rpm: 3000.0
-	volume: 0.5
+	volume: 0.18
 } 
 
 # +++++++++++++++++++++++++++ brake ++++++++++++++++++++++++++
@@ -623,28 +623,28 @@ sound_data: .blinker_on
 {
 	name: "/sound/truck/daf_f241/int/blink_on.ogg"
 	is_2d: true
-	volume: 0.15
+	volume: 0.35
 }
 
 sound_data: .blinker_off
 {
 	name: "/sound/truck/daf_f241/int/blink_off.ogg"
 	is_2d: true
-	volume: 0.15
+	volume: 0.35
 }
 
 sound_data: .wipers_up
 {
 	name: "/sound/truck/renault/magnum_int/wiper_up.ogg"
 	is_2d: true
-	volume: 0.45
+	volume: 0.85
 }
 
 sound_data: .wipers_down
 {
 	name: "/sound/truck/renault/magnum_int/wiper_down.ogg"
 	is_2d: true
-	volume: 0.45
+	volume: 0.85
 }
 
 
@@ -724,7 +724,7 @@ sound_noise_data: .was0
     	min_speed: 3.0
 	max_speed: 10.0
 	pitch_reference: 7.0
-	volume: 0.15
+	volume: 0.25
 }
 sound_noise_data: .was1
 {
@@ -733,7 +733,7 @@ sound_noise_data: .was1
     min_speed: 5.0
 	max_speed: 15.0
 	pitch_reference: 13.0
-	volume: 0.17
+	volume: 0.29
 }
 sound_noise_data: .was2
 {
@@ -742,7 +742,7 @@ sound_noise_data: .was2
     min_speed: 10.0
 	max_speed: 20.0
 	pitch_reference: 17.0
-	volume: 0.19
+	volume: 0.33
 }
 sound_noise_data: .was3
 {
@@ -751,7 +751,7 @@ sound_noise_data: .was3
     min_speed: 15.0
 	max_speed: 25.0
 	pitch_reference: 23.0
-	volume: 0.21
+	volume: 0.35
 }
 sound_noise_data: .was4
 {
@@ -760,7 +760,7 @@ sound_noise_data: .was4
 	min_speed: 20.0
 	max_speed: 30.0
 	pitch_reference: 27.0
-	volume: 0.23
+	volume: 0.37
 }
 sound_noise_data: .was5
 {
@@ -769,7 +769,7 @@ sound_noise_data: .was5
     	min_speed: 25.0
 	max_speed: 35.0
 	pitch_reference: 32.0
-	volume: 0.25
+	volume: 0.39
 }
 sound_noise_data: .was6
 {
@@ -778,7 +778,7 @@ sound_noise_data: .was6
     	min_speed: 30.0
 	max_speed: 40.0
 	pitch_reference: 37.0
-	volume: 0.26
+	volume: 0.41
 }
 sound_noise_data: .was7
 {
@@ -787,7 +787,7 @@ sound_noise_data: .was7
     	min_speed: 35.0
 	max_speed: 45.0
 	pitch_reference: 43.0
-	volume: 0.28
+	volume: 0.42
 }
 sound_noise_data: .was8
 {
@@ -796,7 +796,7 @@ sound_noise_data: .was8
 	min_speed: 40.0
 	max_speed: 50.0
 	pitch_reference: 47.0
-	volume: 0.30
+	volume: 0.43
 }
 sound_noise_data: .was9
 {
@@ -805,7 +805,7 @@ sound_noise_data: .was9
     	min_speed: 45.0
 	max_speed: 55.0
 	pitch_reference: 53.0
-	volume: 0.32
+	volume: 0.44
 }
 sound_noise_data: .was10
 {
@@ -888,7 +888,7 @@ sound_noise_data: .wru0
 	min_speed: 20.0
 	max_speed: 300.0
 	pitch_reference: 60
-	volume: 2.0
+	volume: 0.44
 }
 
 sound_noise_data: .wru1
@@ -899,7 +899,7 @@ sound_noise_data: .wru1
 	min_speed: 70.0
 	max_speed: 200.0
 	pitch_reference: 95
-	volume: 2.0
+	volume: 0.66
 }
 
 sound_noise_data: .wgrv0
@@ -909,7 +909,7 @@ sound_noise_data: .wgrv0
 	min_speed: 5.0
 	max_speed: 40.0
 	pitch_reference: 25.0
-	volume: 2.0
+	volume: 3.0
 }
 
 sound_noise_data: .wgrv1
@@ -919,7 +919,7 @@ sound_noise_data: .wgrv1
 	min_speed: 23.0
 	max_speed: 65.0
 	pitch_reference: 45.0
-	volume: 2.0
+	volume: 3.0
 }                 
 
 sound_noise_data: .wgrv2
@@ -929,7 +929,7 @@ sound_noise_data: .wgrv2
 	min_speed: 45.0
 	max_speed: 110.0
 	pitch_reference: 83.0
-	volume: 2.0
+	volume: 3.0
 }
 sound_noise_data: .wgrv3
 {
@@ -938,7 +938,7 @@ sound_noise_data: .wgrv3
 	min_speed: 90.0
 	max_speed: 200.0
 	pitch_reference: 130.0
-	volume: 2.0
+	volume: 3.0
 }
 
 
@@ -950,7 +950,7 @@ sound_noise_data: .wgrs0
 	min_speed: 5.0
 	max_speed: 45.0
 	pitch_reference: 28.0
-	volume: 2.0
+	volume: 3.0
 }
 
 
@@ -961,7 +961,7 @@ sound_noise_data: .wgrs1
 	min_speed: 30.0
 	max_speed: 90.0
 	pitch_reference: 65.0
-	volume: 2.0
+	volume: 3.0
 }
 
 sound_noise_data: .wgrs2
@@ -971,7 +971,7 @@ sound_noise_data: .wgrs2
 	min_speed: 65.0
 	max_speed: 200.0
 	pitch_reference: 120.0
-	volume: 2.0
+	volume: 3.0
 }
 
 
@@ -984,7 +984,7 @@ sound_data: .lights_s
 	name: "/sound/truck/noises/sticks/light5_botton.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.49
+	volume: 1.49
 }
 
 sound_data: .hbeam_s
@@ -992,7 +992,7 @@ sound_data: .hbeam_s
 	name: "/sound/truck/noises/sticks/hbeam5_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.49
+	volume: 1.49
 }
 
 sound_data: .lhorn_s
@@ -1000,7 +1000,7 @@ sound_data: .lhorn_s
 	name: "/sound/truck/noises/sticks/common5_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.45	
+	volume: 1.45	
 }
 
 sound_data: .blinker_s
@@ -1008,7 +1008,7 @@ sound_data: .blinker_s
 	name: "/sound/truck/noises/sticks/switch5_blinker_on.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.49	
+	volume: 2.49	
 }
 
 sound_data: .blinker2_s
@@ -1016,7 +1016,7 @@ sound_data: .blinker2_s
 	name: "/sound/truck/noises/sticks/switch5_blinker_off.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.43	
+	volume: 2.33	
 }
 
 sound_data: .hwarn_s
@@ -1024,7 +1024,7 @@ sound_data: .hwarn_s
 	name: "/sound/truck/noises/sticks/warning5_button.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.49	
+	volume: 2.49	
 }
 
 sound_data: .wiper_s
@@ -1032,7 +1032,7 @@ sound_data: .wiper_s
 	name: "/sound/truck/noises/sticks/wiper5_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.55
+	volume: 2.25
 }
 
 sound_data: .retarder_s
@@ -1040,7 +1040,7 @@ sound_data: .retarder_s
 	name: "/sound/truck/noises/sticks/switch5_retarder.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.65
+	volume: 1.65
 }
 
 sound_data: .pbrake_s
@@ -1048,7 +1048,7 @@ sound_data: .pbrake_s
 	name: "/sound/truck/noises/sticks/brake5_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.45
+	volume: 1.45
 }
 
 sound_data: .pbrake2_s
@@ -1056,7 +1056,7 @@ sound_data: .pbrake2_s
 	name: "/sound/truck/noises/sticks/brake5_off_stick.ogg"
 	is_2d: true
 	looped: false
-	volume: 0.49
+	volume: 1.49
 }
 
 #----------------------------------
