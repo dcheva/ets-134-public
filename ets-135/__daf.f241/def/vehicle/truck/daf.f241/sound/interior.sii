@@ -104,6 +104,7 @@ accessory_sound_data : std.daf.f241.isound
 
 	wheel_rumble[]: .wru0
 	wheel_rumble[]: .wru1
+	wheel_rumble[]: .wru2
 
 	wheel_gravel[]: .wgrv0
 	wheel_gravel[]: .wgrv1
@@ -201,7 +202,7 @@ sound_data: .retarder
 {
 	name: "/sound/truck/renault/magnum_int/retarder.ogg"
 	looped: true
-	volume: 0.5
+	volume: 0.65
 }
 
 
@@ -217,7 +218,7 @@ sound_engine_data: .e0
 
 	min_rpm:  0.0
 	max_rpm: 800.0
-	volume: 0.55
+	volume: 0.44
 }
 
 sound_engine_data: .e1
@@ -230,7 +231,7 @@ sound_engine_data: .e1
 
 	min_rpm: 600.0
 	max_rpm: 1000.0
-	volume: 0.60
+	volume: 0.22
 }
 
 sound_engine_data: .e2
@@ -243,7 +244,7 @@ sound_engine_data: .e2
 
 	min_rpm: 800.0
 	max_rpm: 1200.0
-	volume: 0.69
+	volume: 0.24
 }
 
 sound_engine_data: .e3
@@ -256,7 +257,7 @@ sound_engine_data: .e3
 
 	min_rpm: 1000.0
 	max_rpm: 1550.0
-	volume: 0.70
+	volume: 0.30
 }
 
 sound_engine_data: .e4
@@ -269,7 +270,7 @@ sound_engine_data: .e4
 
 	min_rpm: 1300.0
 	max_rpm: 1870.0
-	volume: 0.73
+	volume: 0.34
 }
 
 sound_engine_data: .e5
@@ -282,7 +283,7 @@ sound_engine_data: .e5
 
 	min_rpm: 1600.0
 	max_rpm: 3000.0
-	volume: 0.75
+	volume: 0.30
 }
 
 # +++++++++++++++++++++ tire +++++++++++++++++++++++++++++
@@ -457,7 +458,7 @@ sound_engine_data: .el6
 
 	min_rpm: 300.0
 	max_rpm: 690.0
-	volume: 0.15
+	volume: 0.25
 }
 
 sound_engine_data: .el7
@@ -470,7 +471,7 @@ sound_engine_data: .el7
 
 	min_rpm: 610.0
 	max_rpm: 900.0
-	volume: 0.18
+	volume: 0.28
 }
 
 sound_engine_data: .el8
@@ -483,7 +484,7 @@ sound_engine_data: .el8
 
 	min_rpm: 720.0
 	max_rpm: 1050.0
-	volume: 0.25
+	volume: 0.30
 }
 
 sound_engine_data: .el9
@@ -496,7 +497,7 @@ sound_engine_data: .el9
 
 	min_rpm: 920.0
 	max_rpm: 1300.0
-	volume: 0.3
+	volume: 0.33
 }
 
 sound_engine_data: .el10
@@ -509,7 +510,7 @@ sound_engine_data: .el10
 
 	min_rpm: 1150.0
 	max_rpm: 1500.0
-	volume: 0.28
+	volume: 0.35
 }
 
 sound_engine_data: .el11
@@ -522,7 +523,7 @@ sound_engine_data: .el11
 
 	min_rpm: 1360.0
 	max_rpm: 1730.0
-	volume: 0.24
+	volume: 0.33
 }
 
 sound_engine_data: .el12
@@ -535,7 +536,7 @@ sound_engine_data: .el12
 
 	min_rpm: 1550.0
 	max_rpm: 2000.0
-	volume: 0.20
+	volume: 0.30
 }
 
 sound_engine_data: .el13
@@ -548,7 +549,7 @@ sound_engine_data: .el13
 
 	min_rpm: 1760.0
 	max_rpm: 3000.0
-	volume: 0.18
+	volume: 0.28
 } 
 
 # +++++++++++++++++++++++++++ brake ++++++++++++++++++++++++++
@@ -617,6 +618,7 @@ sound_data: .reverse
 {
 	name: "/sound/truck/daf_f241/int/reverse.ogg"
 	looped: true
+	volume: 0.35
 }
 
 sound_data: .blinker_on
@@ -885,10 +887,10 @@ sound_noise_data: .wru0
 	name: "/sound/truck/noises/rumblestripe.ogg"
 	looped: true
 
-	min_speed: 20.0
-	max_speed: 300.0
-	pitch_reference: 60
-	volume: 0.44
+	min_speed: 0.0
+	max_speed: 40.0
+	pitch_reference: 19
+	volume: 0.33
 }
 
 sound_noise_data: .wru1
@@ -896,7 +898,18 @@ sound_noise_data: .wru1
 	name: "/sound/truck/noises/rumblestripe.ogg"
 	looped: true
 
-	min_speed: 70.0
+	min_speed: 20.0
+	max_speed: 100.0
+	pitch_reference: 60
+	volume: 0.44
+}
+
+sound_noise_data: .wru2
+{
+	name: "/sound/truck/noises/rumblestripe.ogg"
+	looped: true
+
+	min_speed: 80.0
 	max_speed: 200.0
 	pitch_reference: 95
 	volume: 0.66
