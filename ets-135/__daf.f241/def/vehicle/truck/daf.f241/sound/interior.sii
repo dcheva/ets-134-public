@@ -43,14 +43,23 @@ accessory_sound_data : std.daf.f241.isound
 
 	turbo: .t
 
-	air_gear[0]: .airgear0
-	air_gear[1]: .airgear1
-	air_gear[2]: .airgear2
+	air_gear[]: .airgear0
+	air_gear[]: .airgear1
+	air_gear[]: .airgear2
+	air_gear[]: .airgear3
+	air_gear[]: .airgear4
+	air_gear[]: .airgear5
 		
-	air_brake[0]: .airbrake0
-	air_brake[1]: .airbrake1
+	air_brake[]: .airbrake0
+	air_brake[]: .airbrake1
+	air_brake[]: .airbrake_1
+	air_brake[]: .airbrake_2
+	air_brake[]: .airbrake_3
+	air_brake[]: .airbrake_4
+	air_brake[]: .airbrake_5
 
 	horn: .horn
+	air_horn: .ahorn	
 	reverse: .reverse
 
 	blinker_on: .blinker_on
@@ -218,7 +227,7 @@ sound_engine_data: .e0
 
 	min_rpm:  0.0
 	max_rpm: 800.0
-	volume: 0.44
+	volume: 0.64
 }
 
 sound_engine_data: .e1
@@ -231,7 +240,7 @@ sound_engine_data: .e1
 
 	min_rpm: 600.0
 	max_rpm: 1000.0
-	volume: 0.22
+	volume: 0.48
 }
 
 sound_engine_data: .e2
@@ -244,7 +253,7 @@ sound_engine_data: .e2
 
 	min_rpm: 800.0
 	max_rpm: 1200.0
-	volume: 0.24
+	volume: 0.64
 }
 
 sound_engine_data: .e3
@@ -257,7 +266,7 @@ sound_engine_data: .e3
 
 	min_rpm: 1000.0
 	max_rpm: 1550.0
-	volume: 0.30
+	volume: 0.72
 }
 
 sound_engine_data: .e4
@@ -270,7 +279,7 @@ sound_engine_data: .e4
 
 	min_rpm: 1300.0
 	max_rpm: 1870.0
-	volume: 0.34
+	volume: 0.48
 }
 
 sound_engine_data: .e5
@@ -283,7 +292,7 @@ sound_engine_data: .e5
 
 	min_rpm: 1600.0
 	max_rpm: 3000.0
-	volume: 0.30
+	volume: 0.12
 }
 
 # +++++++++++++++++++++ tire +++++++++++++++++++++++++++++
@@ -350,7 +359,7 @@ sound_engine_data: .e10
 
 	min_rpm: 1300.0
 	max_rpm: 1870.0
-	volume: 0.48
+	volume: 0.58
 }
 
 sound_engine_data: .e11
@@ -363,7 +372,7 @@ sound_engine_data: .e11
 
 	min_rpm: 1600.0
 	max_rpm: 3000.0
-	volume: 0.6
+	volume: 0.66
 }
 
 # +++++++++++++++++++++++++ loaded +++++++++++++++++++++++++
@@ -583,13 +592,31 @@ sound_data: .airgear0
 
 sound_data: .airgear1
 {
-	name: "/sound/truck/daf_f241/int/int_gear_air_1.ogg"
+	name: "/sound/truck/daf_f241/int/int_gear_air_2.ogg"
 	volume: 0.20
 }
 
 sound_data: .airgear2
 {
-	name: "/sound/truck/daf_f241/int/int_gear_air_1.ogg"
+	name: "/sound/truck/daf_f241/int/int_gear_air_3.ogg"
+	volume: 0.20
+}
+
+sound_data: .airgear3
+{
+	name: "/sound/truck/daf_f241/int/int_gear_air_4.ogg"
+	volume: 0.20
+}
+
+sound_data: .airgear4
+{
+	name: "/sound/truck/daf_f241/int/int_gear_air_5.ogg"
+	volume: 0.20
+}
+
+sound_data: .airgear5
+{
+	name: "/sound/truck/daf_f241/int/int_gear_air_6.ogg"
 	volume: 0.20
 }
 
@@ -597,28 +624,73 @@ sound_data: .airbrake0
 {
 	name: "/sound/truck/daf_f241/int/air_brake1.ogg"
 	looped: false
-	volume: 0.3
+	volume: 0.60
 }
 
 sound_data: .airbrake1
 {
 	name: "/sound/truck/daf_f241/int/air_brake2.ogg"
 	looped: false
-	volume: 0.3
+	volume: 0.60
 }
+// air_brake_1.ogg
+
+sound_data: .airbrake_1
+{
+	name: "/sound/truck/daf_f241/int/air_brake_1.ogg"
+	looped: false
+	volume: 0.60
+}
+
+sound_data: .airbrake_2
+{
+	name: "/sound/truck/daf_f241/int/air_brake_2.ogg"
+	looped: false
+	volume: 0.60
+}
+
+sound_data: .airbrake_3
+{
+	name: "/sound/truck/daf_f241/int/air_brake_3.ogg"
+	looped: false
+	volume: 0.60
+}
+
+sound_data: .airbrake_4
+{
+	name: "/sound/truck/daf_f241/int/air_brake_4.ogg"
+	looped: false
+	volume: 0.60
+}
+
+sound_data: .airbrake_5
+{
+	name: "/sound/truck/daf_f241/int/air_brake_5.ogg"
+	looped: false
+	volume: 0.60
+}
+
+
 
 sound_data: .horn
 {
 	name: "/sound/truck/daf_f241/int/horn.ogg"
-	looped: true
-	volume: 0.2
+	looped: false
+	volume: 0.60
+}
+
+sound_data: .ahorn
+{
+	name: "/sound/truck/daf_f241/int/air_horn.ogg"
+	looped: false
+	volume: 0.60
 }
 
 sound_data: .reverse
 {
 	name: "/sound/truck/daf_f241/int/reverse.ogg"
 	looped: true
-	volume: 0.35
+	volume: 0.30
 }
 
 sound_data: .blinker_on
