@@ -240,7 +240,7 @@ sound_engine_data: .e1
 
 	min_rpm: 600.0
 	max_rpm: 1000.0
-	volume: 0.48
+	volume: 0.66
 }
 
 sound_engine_data: .e2
@@ -253,7 +253,7 @@ sound_engine_data: .e2
 
 	min_rpm: 800.0
 	max_rpm: 1200.0
-	volume: 0.64
+	volume: 0.70
 }
 
 sound_engine_data: .e3
@@ -279,7 +279,7 @@ sound_engine_data: .e4
 
 	min_rpm: 1300.0
 	max_rpm: 1870.0
-	volume: 0.48
+	volume: 0.78
 }
 
 sound_engine_data: .e5
@@ -292,7 +292,7 @@ sound_engine_data: .e5
 
 	min_rpm: 1600.0
 	max_rpm: 3000.0
-	volume: 0.12
+	volume: 0.62
 }
 
 # +++++++++++++++++++++ tire +++++++++++++++++++++++++++++
@@ -307,7 +307,7 @@ sound_engine_data: .e6
 
 	min_rpm:  0.0
 	max_rpm: 800.0
-	volume: 0.15
+	volume: 0.25
 }
 
 sound_engine_data: .e7
@@ -333,7 +333,7 @@ sound_engine_data: .e8
 
 	min_rpm: 800.0
 	max_rpm: 1200.0
-	volume: 0.37
+	volume: 0.42
 }
 
 sound_engine_data: .e9
@@ -346,7 +346,7 @@ sound_engine_data: .e9
 
 	min_rpm: 1000.0
 	max_rpm: 1550.0
-	volume: 0.4
+	volume: 0.55
 }
 
 sound_engine_data: .e10
@@ -587,37 +587,37 @@ sound_data: .t
 sound_data: .airgear0
 {
 	name: "/sound/truck/daf_f241/int/int_gear_air_1.ogg"
-	volume: 0.20
+	volume: 0.60
 }
 
 sound_data: .airgear1
 {
 	name: "/sound/truck/daf_f241/int/int_gear_air_2.ogg"
-	volume: 0.20
+	volume: 0.60
 }
 
 sound_data: .airgear2
 {
 	name: "/sound/truck/daf_f241/int/int_gear_air_3.ogg"
-	volume: 0.20
+	volume: 0.60
 }
 
 sound_data: .airgear3
 {
 	name: "/sound/truck/daf_f241/int/int_gear_air_4.ogg"
-	volume: 0.20
+	volume: 0.60
 }
 
 sound_data: .airgear4
 {
 	name: "/sound/truck/daf_f241/int/int_gear_air_5.ogg"
-	volume: 0.20
+	volume: 0.60
 }
 
 sound_data: .airgear5
 {
 	name: "/sound/truck/daf_f241/int/int_gear_air_6.ogg"
-	volume: 0.20
+	volume: 0.60
 }
 
 sound_data: .airbrake0
@@ -697,28 +697,28 @@ sound_data: .blinker_on
 {
 	name: "/sound/truck/daf_f241/int/blink_on.ogg"
 	is_2d: true
-	volume: 0.35
+	volume: 0.55
 }
 
 sound_data: .blinker_off
 {
 	name: "/sound/truck/daf_f241/int/blink_off.ogg"
 	is_2d: true
-	volume: 0.35
+	volume: 0.55
 }
 
 sound_data: .wipers_up
 {
 	name: "/sound/truck/renault/magnum_int/wiper_up.ogg"
 	is_2d: true
-	volume: 0.85
+	volume: 1.15
 }
 
 sound_data: .wipers_down
 {
 	name: "/sound/truck/renault/magnum_int/wiper_down.ogg"
 	is_2d: true
-	volume: 0.85
+	volume: 1.15
 }
 
 

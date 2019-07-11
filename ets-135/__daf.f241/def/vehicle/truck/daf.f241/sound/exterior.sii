@@ -282,7 +282,7 @@ sound_data: .airbrake1
 sound_data: .horn
 {
 	name: "/sound/truck/daf_f241/int/horn.ogg"
-	looped: fasle
+	looped: false
 	volume: 0.7
 }
 
