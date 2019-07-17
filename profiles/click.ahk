@@ -1,7 +1,7 @@
 ;-) click
-F1::LButton
-!F1::RButton
-!F2::MButton
+`::LButton
+!`::RButton
+;!2::MButton
 
 ;-) scroll
 !1::WheelUp
@@ -36,14 +36,14 @@ X:=240 ; basic margin
 !x::
 	; Place cursor on second row on Buy icon
 	MouseClick, Left, 0, -40, 1, 2, ,R
-	MouseClick, Left, % 0-X, 40, 1, 10, ,R
+	MouseClick, Left, % 0-X, 40, 1, 4, ,R
 	MouseMove, % X, 0, 2, R
 	return
 ; Buyer clicks
 !z::
 	; WhichButton, X, Y, ClickCount, Speed, DownOrUp, Relative
 	MouseClick, Left
-	MouseClick, Left, % 0-X, 0, 1, 10, ,R
+	MouseClick, Left, % 0-X, 0, 1, 4, ,R
 	MouseMove, % X, 0, 2, R
 	return
 ; Eater clicks
