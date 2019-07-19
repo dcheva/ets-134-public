@@ -1,0 +1,49 @@
+SiiNunit
+{
+ui_blend_only_window : _nameless._.window {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ clip_children: true
+ window_handler: null
+ keep_aspect: left
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.leftmirror
+
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: null
+}
+
+ui::text_common : _nameless._.leftmirror {
+ value: close
+ look_template: txt.mirrors
+ text: ""
+ coords_l: 490
+ coords_r: 620
+ coords_t: 876
+ coords_b: 746
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 10
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.window
+}
+
+}

@@ -1,0 +1,88 @@
+SiiNunit
+{
+ui::window : 0049e32d0 {
+ clip_children: true
+ window_handler: null
+ keep_aspect: center
+ fitting: true
+ my_children: 3
+ my_children[0]: 1049e32d1
+ my_children[1]: 0049e32d1
+ my_children[2]: 0049e32d2
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: null
+}
+
+ui::text_common : 1049e32d1 {
+ value: BF000000
+ look_template: txt.window.bcg_rect8
+ text: ""
+ coords_l: 1100
+ coords_r: 1433
+ coords_t: 177
+ coords_b: 22
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 0049e32d0
+}
+
+ui::text_common : 0049e32d1 {
+ value: "<color value=@@clr_red@@>@@info_title@@"
+ look_template: txt.adv_title
+ text: ""
+ coords_l: 288
+ coords_r: 411
+ coords_t: 900
+ coords_b: 878
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 610
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 0049e32d0
+}
+
+ui::text_common : 0049e32d2 {
+ value: "nejaky warning<br>asi ne moc dulezity"
+ look_template: txt.normal.center
+ text: ""
+ coords_l: 1102
+ coords_r: 1431
+ coords_t: 175
+ coords_b: 24
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 600
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: 0049e32d0
+}
+
+}

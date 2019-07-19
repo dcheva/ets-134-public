@@ -1,0 +1,9 @@
+SiiNunit
+{
+
+ui::text_template : txt.adv_drvmsg.hj {
+	name: "Adviser driver message"
+	text: "<align vstyle=center><color value=FF00FF51><font face=/font/small.font>%0</font></align>"
+}
+
+}
