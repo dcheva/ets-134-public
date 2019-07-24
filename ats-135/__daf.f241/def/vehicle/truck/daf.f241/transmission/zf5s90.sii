@@ -1,0 +1,26 @@
+SiiNunit
+{
+accessory_transmission_data : zf5s90.daf.f241.transmission
+{
+	name: "ZF 5S-90 GP"
+	price: 580
+	unlock: 0
+	icon: "transmission_generic"
+
+	# Axle Ratios: STD 4.49:1, 5.03:1 std
+	differential_ratio: 3.40
+
+	ratios_reverse[0]: -11.24
+	
+	ratios_forward[0]: 13.0 //Crawler
+	ratios_forward[1]: 8.70
+	ratios_forward[2]: 6.35
+	ratios_forward[3]: 4.70
+	ratios_forward[4]: 3.43
+	ratios_forward[5]: 2.54
+	ratios_forward[6]: 1.85
+	ratios_forward[7]: 1.37
+	ratios_forward[8]: 1.0
+	
+}
+}

@@ -1,0 +1,77 @@
+SiiNunit
+{
+game_data : .game.data {
+
+	# Version of the structure used by the game to reduce some mod compatibility issues.
+
+	version: 1
+
+	refund_coef: 0.6
+
+	interior_sound_volume:	0.25	// Interior sound attenuation value (the outside sounds will have 25% of original volume)
+	interior_sound_pitch:	0.8	// Sound pitch for outside sound group when camera is in interior
+	blinker_auto_off_limit: 0.2	// 20% of maximum angle of steering wheel
+	blinker_auto_off_trigger: 0.05	// 5% of maximum angle of steering wheel
+	
+	hud_bright_att:		0.7	// the hud opacity during night (70%)
+	hud_bright_att_start:	1200	// it starts hud brightness attenuation at 20:00
+	hud_bright_att_end:	360	// it ends hud brightness attenuation at 6:00
+	hud_bright_att_delay:	90	// hud brightness attenuation transition takes 1.5 hours
+	
+	mirror_fov[]:		55.0f 	// close mirror
+	mirror_fov[]:		90.0f 	// close small mirror
+	mirror_fov[]:		55.0f 	// far mirror
+	mirror_fov[]:		90.0f 	// far small mirror
+	mirror_fov[]:		60.0f 	// side mirror
+	mirror_fov[]:		45.0f 	// front mirror
+	mirror_fov[]:		45.0f 	// front2 mirror
+
+	tiny_garages[]: prefab.poor_garage
+	small_garages[]: prefab.81		// small garage prefab index in prefab.sii
+	large_garages[]: prefab.82		// large garage prefab index in prefab.sii
+
+	truck_speed_limit:	104.607	// 65mph
+
+	used_truck_odometer_min: 500000
+	used_truck_odometer_max: 600000
+
+	
+	#          stream volume | stream path
+	city_loops[]: "0.5|/sound/environment/city_loop_1.ogg"
+	city_loops[]: "0.5|/sound/environment/city_loop_2.ogg"
+	city_loops[]: "0.5|/sound/environment/city_loop_3.ogg"
+	
+	country_loops[]: "1.0|/sound/environment/forest.ogg"
+
+	# Currently we use:
+	#
+	# - first lod class for trees.
+	# - second lod class for grass (detail vegetation).
+	#
+	# Note:
+	# Make sure that (end - start) distance for grass
+	# is not higher than end/9.0 for proper lod fading.
+	leaves_lod_start: (240.0, 410.0, 50.0)
+	leaves_lod_end:   (300.0, 460.0, 100.0)
+
+	rain_cube_strength: 0.16
+	rain_planar_strength: 0.16
+	rain_fake_shadow_scale: 1.25
+
+	no_hdr_truck_light_boost: 3.3
+
+	cargo_groups[]: machinery
+	cargo_groups[]: adr
+	cargo_groups[]: containers
+	cargo_groups[]: refrigerated
+	cargo_groups[]: liquid
+	cargo_groups[]: fragile
+	cargo_groups[]: construction
+	cargo_groups[]: bulk
+	cargo_groups[]: gooseneck
+	cargo_groups[]: inloader
+	cargo_groups[]: livestock
+	cargo_groups[]: oversize
+}
+
+}
