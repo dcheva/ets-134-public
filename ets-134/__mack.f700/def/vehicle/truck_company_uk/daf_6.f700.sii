@@ -1,227 +1,227 @@
 SiiNunit
 {
-vehicle : .company.truck
+vehicle: .tdealer.f700
 {
-	accessories[]: .f7001.data
-	accessories[]: .f7001.chassis
-	accessories[]: .f7001.cabin
-	accessories[]: .f7001.interior
-	accessories[]: .f7001.engine
-	accessories[]: .f7001.transm
-	accessories[]: .f7001.sndint
-	accessories[]: .f7001.sndext
-	accessories[]: .f7001.headl
-	accessories[]: .f7001.ftire
-	accessories[]: .f7001.fdisc
-	accessories[]: .f7001.fhub
-	accessories[]: .f7001.fnuts
-	accessories[]: .f7001.fcover
-	accessories[]: .f7001.rtire1
-	accessories[]: .f7001.rdisc1
-	accessories[]: .f7001.rhub1
-	accessories[]: .f7001.rnuts1
-	accessories[]: .f7001.rcover1
-	accessories[]: .f7001.rtire2
-	accessories[]: .f7001.rdisc2
-	accessories[]: .f7001.rhub2
-	accessories[]: .f7001.rnuts2
-	accessories[]: .f7001.rcover2
-	accessories[]: .f7001.paint
-	accessories[]: .f7001.mirror
-	accessories[]: .f7001.swheel
-	accessories[]: .f7001.bumper
-	accessories[]: .f7001.exhaust
-	accessories[]: .f7001.filter
-	accessories[]: .f7001.grill
-	accessories[]: .f7001.tank
-	accessories[]: .f7001.f_lights
-	accessories[]: .f7001.intake
-	accessories[]: .f7001.straps
-	accessories[]: .f7001.t_lining
-	accessories[]: .f7001.b_lining
-	accessories[]: .f7001.panels
-	accessories[]: .f7001.gauges
-	accessories[]: .f7001.r_mudflap
-	accessories[]: .f7001.frame
+	accessories[]: .f700.data
+	accessories[]: .f700.chassis
+	accessories[]: .f700.cabin
+	accessories[]: .f700.interior
+	accessories[]: .f700.engine
+	accessories[]: .f700.transm
+	accessories[]: .f700.sndint
+	accessories[]: .f700.sndext
+	accessories[]: .f700.headl
+	accessories[]: .f700.ftire
+	accessories[]: .f700.fdisc
+	accessories[]: .f700.fhub
+	accessories[]: .f700.fnuts
+	accessories[]: .f700.fcover
+	accessories[]: .f700.rtire1
+	accessories[]: .f700.rdisc1
+	accessories[]: .f700.rhub1
+	accessories[]: .f700.rnuts1
+	accessories[]: .f700.rcover1
+	accessories[]: .f700.rtire2
+	accessories[]: .f700.rdisc2
+	accessories[]: .f700.rhub2
+	accessories[]: .f700.rnuts2
+	accessories[]: .f700.rcover2
+	accessories[]: .f700.paint
+	accessories[]: .f700.mirror
+	accessories[]: .f700.swheel
+	accessories[]: .f700.bumper
+	accessories[]: .f700.exhaust
+	accessories[]: .f700.filter
+	accessories[]: .f700.grill
+	accessories[]: .f700.tank
+	accessories[]: .f700.f_lights
+	accessories[]: .f700.intake
+	accessories[]: .f700.straps
+	accessories[]: .f700.t_lining
+	accessories[]: .f700.b_lining
+	accessories[]: .f700.panels
+	accessories[]: .f700.gauges
+	accessories[]: .f700.r_mudflap
+	accessories[]: .f700.frame
 	accessories[]: .trlr_cables
 }
 
-vehicle_accessory : .f7001.data {
+vehicle_accessory : .f700.data {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/data.sii"
 }
-vehicle_accessory : .f7001.chassis {
+vehicle_accessory : .f700.chassis {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/chassis/short_6x2.sii"
 }
-vehicle_accessory : .f7001.cabin {
+vehicle_accessory : .f700.cabin {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/cabin/sleeper.sii"
 }
-vehicle_accessory : .f7001.interior {
+vehicle_accessory : .f700.interior {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/interior/duty_ablc.sii"
 }
-vehicle_accessory : .f7001.engine {
+vehicle_accessory : .f700.engine {
 	wear: 0
-	data_path: "/def/vehicle/truck/f700/engine/6v92ta.sii"
+	data_path: "/def/vehicle/truck/f700/engine/cum275_250.sii"
 }
-vehicle_accessory : .f7001.transm {
+vehicle_accessory : .f700.transm {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/transmission/spicer6x4_476_15speed.sii"
 }
-vehicle_sound_accessory : .f7001.sndint {
+vehicle_sound_accessory : .f700.sndint {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/sound/interior_275.sii"
 }
-vehicle_sound_accessory : .f7001.sndext {
+vehicle_sound_accessory : .f700.sndext {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/sound/exterior_275.sii"
 }
-vehicle_accessory : .f7001.headl {
+vehicle_accessory : .f700.headl {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/head_light/standard.sii"
 }
-vehicle_wheel_accessory : .f7001.ftire {
+vehicle_wheel_accessory : .f700.ftire {
 	offset: 0
 	wear: 0
 	data_path: "/def/vehicle/f_tire/f7001.sii"
 }
-vehicle_wheel_accessory : .f7001.fdisc {
+vehicle_wheel_accessory : .f700.fdisc {
 	offset: 0
 	wear: 0
 	data_path: "/def/vehicle/f_disc/f7002.sii"
 }
-vehicle_wheel_accessory : .f7001.fhub {
+vehicle_wheel_accessory : .f700.fhub {
 	offset: 0
 	wear: 0
 	data_path: "/def/vehicle/f_hub/f7002.sii"
 }
-vehicle_wheel_accessory : .f7001.fnuts {
+vehicle_wheel_accessory : .f700.fnuts {
 	offset: 0
 	wear: 0
 	data_path: "/def/vehicle/f_nuts/f7002.sii"
 }
-vehicle_wheel_accessory : .f7001.fcover {
+vehicle_wheel_accessory : .f700.fcover {
 	offset: 0
 	wear: 0
 	data_path: "/def/vehicle/f_cover/f7002.sii"
 }
-vehicle_wheel_accessory : .f7001.rtire1 {
+vehicle_wheel_accessory : .f700.rtire1 {
 	offset: 0
 	wear: 0
 	data_path: "/def/vehicle/r_tire/f7001.sii"
 }
-vehicle_wheel_accessory : .f7001.rdisc1 {
+vehicle_wheel_accessory : .f700.rdisc1 {
 	offset: 0
 	wear: 0
 	data_path: "/def/vehicle/r_disc/f7002.sii"
 }
-vehicle_wheel_accessory : .f7001.rhub1 {
+vehicle_wheel_accessory : .f700.rhub1 {
 	offset: 0
 	wear: 0
 	data_path: "/def/vehicle/r_hub/f7002.sii"
 }
-vehicle_wheel_accessory : .f7001.rnuts1 {
+vehicle_wheel_accessory : .f700.rnuts1 {
 	offset: 0
 	wear: 0
 	data_path: "/def/vehicle/r_nuts/f7002.sii"
 }
-vehicle_wheel_accessory : .f7001.rcover1 {
+vehicle_wheel_accessory : .f700.rcover1 {
 	offset: 0
 	wear: 0
 	data_path: "/def/vehicle/r_cover/f7002.sii"
 }
-vehicle_wheel_accessory : .f7001.rtire2 {
+vehicle_wheel_accessory : .f700.rtire2 {
 	offset: 2
 	wear: 0
 	data_path: "/def/vehicle/r_tire/f7001.sii"
 }
-vehicle_wheel_accessory : .f7001.rdisc2 {
+vehicle_wheel_accessory : .f700.rdisc2 {
 	offset: 2
 	wear: 0
 	data_path: "/def/vehicle/r_disc/f7002.sii"
 }
-vehicle_wheel_accessory : .f7001.rhub2 {
+vehicle_wheel_accessory : .f700.rhub2 {
 	offset: 2
 	wear: 0
 	data_path: "/def/vehicle/r_hub/f7002.sii"
 }
-vehicle_wheel_accessory : .f7001.rnuts2 {
+vehicle_wheel_accessory : .f700.rnuts2 {
 	offset: 2
 	wear: 0
 	data_path: "/def/vehicle/r_nuts/f7002.sii"
 }
-vehicle_wheel_accessory : .f7001.rcover2 {
+vehicle_wheel_accessory : .f700.rcover2 {
 	offset: 2
 	wear: 0
 	data_path: "/def/vehicle/r_cover/f7002.sii"
 }
-vehicle_paint_job_accessory : .f7001.paint {
+vehicle_paint_job_accessory : .f700.paint {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/paint_job/color1.sii"
 }
-vehicle_addon_accessory : .f7001.mirror {
+vehicle_addon_accessory : .f700.mirror {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/mirror/shape01.sii"
 }
-vehicle_addon_accessory : .f7001.swheel {
+vehicle_addon_accessory : .f700.swheel {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/steering_w/default.sii"
 }
-vehicle_addon_accessory : .f7001.bumper {
+vehicle_addon_accessory : .f700.bumper {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/bumper/shape1.sii"
 }
-vehicle_addon_accessory : .f7001.exhaust {
+vehicle_addon_accessory : .f700.exhaust {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/exhaust/shape1.sii"
 }
-vehicle_addon_accessory : .f7001.filter {
+vehicle_addon_accessory : .f700.filter {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/filter/shape1.sii"
 }
-vehicle_addon_accessory : .f7001.grill {
+vehicle_addon_accessory : .f700.grill {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/grill/shape1.sii"
 }
-vehicle_addon_accessory : .f7001.tank {
+vehicle_addon_accessory : .f700.tank {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/tank/roundal.sii"
 }
-vehicle_addon_accessory : .f7001.f_lights {
+vehicle_addon_accessory : .f700.f_lights {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/f_lights/shape2.sii"
 }
-vehicle_addon_accessory : .f7001.intake {
+vehicle_addon_accessory : .f700.intake {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/intake/shape19.sii"
 }
-vehicle_addon_accessory : .f7001.straps {
+vehicle_addon_accessory : .f700.straps {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/straps/roundst.sii"
 }
-vehicle_addon_accessory : .f7001.t_lining {
+vehicle_addon_accessory : .f700.t_lining {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/t_lining/shape13.sii"
 }
-vehicle_addon_accessory : .f7001.b_lining {
+vehicle_addon_accessory : .f700.b_lining {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/b_lining/shape25.sii"
 }
-vehicle_addon_accessory : .f7001.panels {
+vehicle_addon_accessory : .f700.panels {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/panels/wood.sii"
 }
-vehicle_addon_accessory : .f7001.gauges {
+vehicle_addon_accessory : .f700.gauges {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/gauges/chrome.sii"
 }
-vehicle_addon_accessory : .f7001.r_mudflap {
+vehicle_addon_accessory : .f700.r_mudflap {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/r_mudflap/shape1.sii"
 }
-vehicle_addon_accessory : .f7001.frame {
+vehicle_addon_accessory : .f700.frame {
 	wear: 0
 	data_path: "/def/vehicle/truck/f700/accessory/frame/shape3.sii"
 }

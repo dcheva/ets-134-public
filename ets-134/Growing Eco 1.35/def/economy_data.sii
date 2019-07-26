@@ -44,12 +44,11 @@ economy_data : economy.data.storage
 
 #########################################
 #
-#       Sleeping time 4/10
+#       Sleeping time 8/20
 #
 #########################################
-	maximum_driving_time: 600	# 10h working shift duration // 660
-	## (in minutes), 8 to drive and 2 to find parking
-	sleeping_time: 240		# 4h rest duration (in minutes) // 540
+	maximum_driving_time: 1200	# 10h working shift duration // 660
+	sleeping_time: 480		# 4h rest duration (in minutes) // 540
 #########################################
 
 	delivery_window[0]: 480		# easy // 400
@@ -99,12 +98,12 @@ economy_data : economy.data.storage
 ## Skill job filtering
 ##  Job distance limit (in km of real world)
 ##
-	skill_distance[]:	1 // 250
-	skill_distance[]:	100 // 350
-	skill_distance[]:	200 // 1100
-	skill_distance[]:	300 // 850
-	skill_distance[]:	400 // 1100
-	skill_distance[]:	500 // 1500 
+	skill_distance[]:	30 // 250
+	skill_distance[]:	50 // 350
+	skill_distance[]:	80 // 1100
+	skill_distance[]:	130 // 850
+	skill_distance[]:	210 // 1100
+	skill_distance[]:	1 // 1500 // for big maps as ProMods, EAA or RusMap //!!!ANY distance +30% total!!!//
 
 	max_eco_consumption_drop[]: (0.15, 0.20) # consumption decreased by 40% (or 60% if driving with trailer) // 0.1 0.1
 	max_eco_consumption_drop[]: (0.20, 0.25) // 0.15 0.15
@@ -119,14 +118,14 @@ economy_data : economy.data.storage
 	reward_bonus_long_dist[]: 0.05
 	reward_bonus_long_dist[]: 0.05
 	reward_bonus_long_dist[]: 0.05
-	reward_bonus_long_dist[]: 0.05 // total +30%
+	reward_bonus_long_dist[]: 0.05 // total + 30%
 
 	reward_bonus_valuable[]: 0.20
 	reward_bonus_valuable[]: 0.15
 	reward_bonus_valuable[]: 0.10
 	reward_bonus_valuable[]: 0.05
 	reward_bonus_valuable[]: 0.05
-	reward_bonus_valuable[]: 0.05 // total + +60%
+	reward_bonus_valuable[]: 0.05 // total + 60%
 
 	reward_bonus_fragile[]: 0.10
 	reward_bonus_fragile[]: 0.10

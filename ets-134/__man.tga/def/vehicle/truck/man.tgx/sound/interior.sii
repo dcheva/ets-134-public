@@ -330,19 +330,19 @@ sound_data: .t
 sound_data: .airgear0
 {
 	name: "/sound/truck/man/int/gear1.ogg"
-	volume: 0.56
+	volume: 0.26
 }
 
 sound_data: .airgear1
 {
 	name: "/sound/truck/man/int/gear2.ogg"
-	volume: 0.56
+	volume: 0.26
 }
 
 sound_data: .airgear2
 {
 	name: "/sound/truck/man/int/gear3.ogg"
-	volume: 0.56
+	volume: 0.26
 }                 
 
 sound_data: .airbrake0

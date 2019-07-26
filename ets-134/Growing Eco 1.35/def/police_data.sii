@@ -13,13 +13,13 @@ police_data : police.data
 
 	# https://www.vicroads.vic.gov.au/safety-and-road-rules/road-rules/penalties/fines
 	# 2018/19 Penalty Amount $ (The value of a penalty unit is currently $161.19)
-	fine_amounts[0]: 201 		# car crash
-	fine_amounts[1]: 201 		# avoid sleeping
-	fine_amounts[2]: 322 		# wrong way
-	fine_amounts[3]: 322 		# speeding (camera)
-	fine_amounts[4]: 242		# no lights during night
-	fine_amounts[5]: 201 		# red lights // 403 but too expensive
-	fine_amounts[6]: 161 		# speeding
+	fine_amounts[0]: 200	//201 		# car crash
+	fine_amounts[1]: 20	//201 		# avoid sleeping
+	fine_amounts[2]: 60	//322 		# wrong way
+	fine_amounts[3]: 60	//322 		# speeding (camera)
+	fine_amounts[4]: 80	//242		# no lights during night
+	fine_amounts[5]: 80	//201 		# red lights // 403 but too expensive
+	fine_amounts[6]: 60	//161 		# speeding
 
 	#
 	# in seconds of real time
