@@ -104,7 +104,7 @@ economy_data : economy.data.storage
 	skill_distance[]:	800 // 1100
 	skill_distance[]:	1300 // 850
 	skill_distance[]:	2100 // 1100
-	skill_distance[]:	1 // 1500 // for big maps as ProMods, EAA or RusMap //!!!ANY distance +60% total!!!//
+	skill_distance[]:	1 // 1500 // for big maps as ProMods, EAA or RusMap //!!!ANY distance +30% total!!!//
 
 	max_eco_consumption_drop[]: (0.15, 0.20) # consumption decreased by 40% (or 60% if driving with trailer) // 0.1 0.1
 	max_eco_consumption_drop[]: (0.20, 0.25) // 0.15 0.15
@@ -115,18 +115,18 @@ economy_data : economy.data.storage
 
 ### all values was 0.05 or 5% or total +30%
 	reward_bonus_long_dist[]: 0.05
-	reward_bonus_long_dist[]: 0.10
-	reward_bonus_long_dist[]: 0.15
-	reward_bonus_long_dist[]: 0.15
-	reward_bonus_long_dist[]: 0.10
-	reward_bonus_long_dist[]: 0.05 // total + 60% //!!!ANY distance!!!//
+	reward_bonus_long_dist[]: 0.05
+	reward_bonus_long_dist[]: 0.05
+	reward_bonus_long_dist[]: 0.05
+	reward_bonus_long_dist[]: 0.05
+	reward_bonus_long_dist[]: 0.05 // total + 30%
 
 	reward_bonus_valuable[]: 0.20
 	reward_bonus_valuable[]: 0.15
 	reward_bonus_valuable[]: 0.10
 	reward_bonus_valuable[]: 0.05
 	reward_bonus_valuable[]: 0.05
-	reward_bonus_valuable[]: 0.05 // total + +60%
+	reward_bonus_valuable[]: 0.05 // total + 60%
 
 	reward_bonus_fragile[]: 0.10
 	reward_bonus_fragile[]: 0.10
@@ -143,22 +143,22 @@ economy_data : economy.data.storage
 	reward_bonus_urgent[]: 0.20 // total + +60%
 
 	reward_bonus_level: 0.01 // 0.015
-### 50 lvl +50%
+	### 50 lvl +50%
 
 #  Experience points
-	free_roam_report_limit: 100
 
-	exp_cargo_delivery: 1.0		# per km of real world
-	exp_free_roam: 		0.75		# per km of real world // 0.5
+	free_roam_report_limit: 100 // 100
+
+	exp_cargo_delivery: 	1.0		# per km of real world
+	exp_free_roam: 		1.5		# per km of real world // 0.5 //!!!20x!!!//
 	exp_road_discovery:	1.25		# per km of real world // 0.8
-//	exp_late_delivery: 	0.4		# -40% 	
-	exp_perfect_delivery:0.1	# // 0.24
-	exp_adr_bonus:		0.1		# // 0.21
-	exp_important_bonus:0.1		# // 0.2
-	exp_urgent_bonus:	0.1		# // 0.3
-	exp_fragile_bonus:	0.1		# // 0.22
-	exp_long_dist_bonus:0.1		# // 0.25
-	exp_valuable_bonus:	0.1		# // 0.18
+	exp_perfect_delivery:	0.15		# // 0.24
+	exp_adr_bonus:		0.15		# // 0.21
+	exp_important_bonus:	0.15		# // 0.2
+	exp_urgent_bonus:	0.25		# // 0.3
+	exp_fragile_bonus:	0.15		# // 0.22
+	exp_long_dist_bonus:	0.10		# // 0.25
+	exp_valuable_bonus:	0.25		# // 0.18
 
 	exp_park_bonus: 100	// 15 # bonus for not using the autopark feature on EASY parking spot
 	exp_park_bonus_medium: 200 // 40 # bonus for not using the autopark feature on MEDIUM parking spot
