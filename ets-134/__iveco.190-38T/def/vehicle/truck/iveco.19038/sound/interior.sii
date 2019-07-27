@@ -155,11 +155,13 @@ accessory_sound_data : std.iveco.19038.isound
 	crash_hard[2]: .crashha2
 	crash_hard[3]: .crashha3
 	crash_hard[4]: .crashha4
+	crash_hard[5]: .crashha5
 	crash_soft[0]: .crashso0
 	crash_soft[1]: .crashso1
 	crash_soft[2]: .crashso2
 	crash_soft[3]: .crashso3
 	crash_soft[4]: .crashso4
+	crash_soft[5]: .crashso5
 	crash_scratch[0]: .crashsc0
 	crash_scratch[1]: .crashsc1
 
@@ -808,7 +810,7 @@ sound_noise_data: .wru0
 	min_speed: 20.0
 	max_speed: 300.0
 	pitch_reference: 60
-	volume: 2.0
+	volume: 1.0
 }
 
 sound_noise_data: .wru1
@@ -819,7 +821,7 @@ sound_noise_data: .wru1
 	min_speed: 70.0
 	max_speed: 200.0
 	pitch_reference: 95
-	volume: 2.0
+	volume: 1.0
 }
 
 sound_noise_data: .wgrv0
@@ -1215,6 +1217,24 @@ sound_data: .crashha4
 	looped: false
     volume: 2.0
 }
+
+sound_data: .crashha5
+{
+	name: "/sound/truck/noises/b1.ogg"
+	looped: false
+
+    volume: 0.7
+
+}
+
+sound_data: .crashso5
+{
+	name: "/sound/truck/noises/b2.ogg"
+	looped: false
+
+    volume: 0.66
+
+}
 
 sound_data: .crashso0
 {

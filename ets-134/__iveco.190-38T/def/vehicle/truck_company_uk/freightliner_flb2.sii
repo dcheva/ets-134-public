@@ -1,6 +1,7 @@
 SiiNunit
 {
-vehicle : .company.truck {
+vehicle : .company.truck 
+{
  accessories[]: _nameless.823.8e10
  accessories[]: _nameless.823.8e70
  accessories[]: _nameless.823.90b0

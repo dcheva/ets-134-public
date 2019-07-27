@@ -1,6 +1,6 @@
 SiiNunit
 {
-vehicle : .company.truck {
+vehicle : .company.truck
 {
  accessories[]: .iveco4.data
  accessories[]: .iveco4.chassis
