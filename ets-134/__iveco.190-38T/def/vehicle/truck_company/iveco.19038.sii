@@ -1,0 +1,211 @@
+SiiNunit
+{
+vehicle : .company.truck {
+{
+ accessories[]: .iveco4.data
+ accessories[]: .iveco4.chassis
+ accessories[]: .iveco4.cabin
+ accessories[]: .iveco4.interior
+ accessories[]: .iveco4.engine
+ accessories[]: .iveco4.transmission
+ accessories[]: .iveco4.soundint
+ accessories[]: .iveco4.soundext
+ accessories[]: .iveco4.head_light
+ accessories[]: .iveco4.ftire
+ accessories[]: .iveco4.fdisc
+ accessories[]: .iveco4.fhub
+ accessories[]: .iveco4.fnuts
+ accessories[]: .iveco4.rtire
+ accessories[]: .iveco4.rdisc
+ accessories[]: .iveco4.rhub
+ accessories[]: .iveco4.rnuts
+ accessories[]: .iveco4.paint_job
+ accessories[]: .iveco4.mirror
+ accessories[]: .iveco4.decals
+ accessories[]: .iveco4.s_mirror
+ accessories[]: .iveco4.trlr_cables
+}
+
+
+vehicle_accessory : .iveco4.data {
+
+ wear: 0
+
+ data_path: "/def/vehicle/truck/iveco.19038/data.sii"
+
+}
+
+
+vehicle_accessory : .iveco4.chassis {
+
+ wear: 0
+
+ data_path: "/def/vehicle/truck/iveco.19038/chassis/190_38s.sii"
+
+}
+
+
+vehicle_accessory : .iveco4.cabin {
+
+ wear: 0
+
+ data_path: "/def/vehicle/truck/iveco.19038/cabin/190_38s.sii"
+
+}
+
+
+vehicle_accessory : .iveco4.interior {
+
+ wear: 0
+
+ data_path: "/def/vehicle/truck/iveco.19038/interior/190_38e.sii"
+
+}
+
+
+vehicle_accessory : .iveco4.engine {
+
+ wear: 0
+
+ data_path: "/def/vehicle/truck/iveco.19038/engine/190_381hp.sii"
+
+}
+
+
+vehicle_accessory : .iveco4.transmission {
+
+ wear: 0
+
+ data_path: "/def/vehicle/truck/iveco.19038/transmission/fuller.sii"
+
+}
+
+
+vehicle_sound_accessory : .iveco4.soundint {
+
+ wear: 0
+
+ data_path: "/def/vehicle/truck/iveco.19038/sound/interior.sii"
+
+}
+
+
+vehicle_sound_accessory : .iveco4.soundext {
+
+ wear: 0
+
+ data_path: "/def/vehicle/truck/iveco.19038/sound/exterior.sii"
+
+}
+
+
+vehicle_accessory : .iveco4.head_light {
+
+ wear: 0
+
+ data_path: "/def/vehicle/truck/iveco.19038/head_light/standard.sii"
+
+}
+
+
+vehicle_wheel_accessory : .iveco4.ftire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .iveco4.fdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_disc/front_disc_02_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .iveco4.fhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_hub/front_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .iveco4.fnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .iveco4.rtire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .iveco4.rdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .iveco4.rhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .iveco4.rnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+
+
+
+vehicle_paint_job_accessory : .iveco4.paint_job {
+
+ mask_r_color: (1, 0, 0)
+
+ mask_g_color: (0, 1, 0)
+
+ mask_b_color: (0, 0, 1)
+
+ base_color : (0.4564, 0.0051, 0.008)
+
+ wear: 0
+
+ data_path: "/def/vehicle/truck/iveco.19038/paint_job/color3.sii"
+
+}
+
+
+vehicle_addon_accessory : .iveco4.mirror {
+
+ slot_name: 0
+ slot_hookup: 0
+
+ wear: 0
+
+ data_path: "/def/vehicle/truck/iveco.19038/accessory/mirror/190_38s.sii"
+
+}
+vehicle_addon_accessory : .iveco4.s_mirror {
+
+ slot_name: 0
+
+ slot_hookup: 0
+
+ wear: 0
+
+ data_path: "/def/vehicle/truck/iveco.19038/accessory/s_mirror/190_38s.sii"
+
+}
+
+vehicle_addon_accessory : .iveco4.decals {
+
+ wear: 0
+
+ data_path: "/def/vehicle/truck/iveco.19038/accessory/decals/shape0.sii"
+}
+
+vehicle_addon_accessory : .iveco4.trlr_cables {
+	data_path: "/def/vehicle/truck/iveco.19038/accessory/trlr_cables/stock.sii"
+}
+}

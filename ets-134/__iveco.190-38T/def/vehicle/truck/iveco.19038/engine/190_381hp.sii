@@ -37,7 +37,7 @@ accessory_engine_data : 190_381.iveco.19038.engine
 	rpm_range_power_boost: (550, 450)
 	
 	# Engine Brake data
-	engine_brake: 1.0			# Engine Brake Strength
+	engine_brake: 1.2			# Engine Brake Strength
 	engine_brake_downshift: 1	# Enable automatic downshift for Engine Brake   0 or 1
 	engine_brake_positions: 1	# The number of engine brake intensities		1,2,3
 	

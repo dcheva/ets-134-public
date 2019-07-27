@@ -1,0 +1,222 @@
+SiiNunit
+{
+vehicle: .tdealer.ive_r11
+{
+	accessories[]: .daf11.data
+	accessories[]: .daf11.chassis
+	accessories[]: .daf11.cab
+	accessories[]: .daf11.interior
+	accessories[]: .daf11.engine
+	accessories[]: .daf11.trans
+	accessories[]: .daf11.sound_int
+	accessories[]: .daf11.sound_ext
+	accessories[]: .daf11.hlight
+	accessories[]: .daf11.ftire
+	accessories[]: .daf11.fdisc
+	accessories[]: .daf11.fhub
+	accessories[]: .daf11.fnuts
+	accessories[]: .daf11.rtire
+	accessories[]: .daf11.rdisc
+	accessories[]: .daf11.rhub
+	accessories[]: .daf11.rnuts
+	accessories[]: .daf11.rtire2
+	accessories[]: .daf11.rdisc2
+	accessories[]: .daf11.rhub2
+	accessories[]: .daf11.rnuts2
+	accessories[]: .daf11.paintjob
+	accessories[]: .daf11.bumper
+	accessories[]: .daf11.tank
+	accessories[]: .daf11.f_intake_cab
+	accessories[]: .daf11.f_intake_chs
+	accessories[]: .daf11.f_fender
+	accessories[]: .daf11.dstep
+	accessories[]: .daf11.dhandle
+	accessories[]: .daf11.mirrors
+	accessories[]: .daf11.f_logo
+	accessories[]: .daf11.exhaust
+	accessories[]: .daf11.r_light
+	accessories[]: .daf11.sunshld
+	accessories[]: .daf11.f_badge
+	accessories[]: .daf11.cab_decal
+	accessories[]: .daf11.b_grill
+	accessories[]: .daf11.spoiler
+    
+	accessories[]: .daf11.steering_w
+    accessories[]: .daf11.trlr_cables
+
+}
+
+vehicle_accessory : .daf11.data {
+	data_path: "/def/vehicle/truck/daf.f241/data.sii"
+}
+
+vehicle_accessory : .daf11.chassis {
+	data_path: "/def/vehicle/truck/daf.f241/chassis/6x4.sii"
+}
+
+vehicle_accessory : .daf11.cab {
+	data_path: "/def/vehicle/truck/daf.f241/cabin/cab_d.sii"
+}
+
+vehicle_accessory : .daf11.interior {
+	data_path: "/def/vehicle/truck/daf.f241/interior/exl_d.sii"
+}
+
+vehicle_accessory : .daf11.engine {
+	data_path: "/def/vehicle/truck/daf.f241/engine/dkz1160ati.sii"
+}
+
+vehicle_accessory : .daf11.trans {
+	data_path: "/def/vehicle/truck/daf.f241/transmission/zf16s130.sii"
+}
+
+vehicle_sound_accessory : .daf11.sound_int {
+	data_path: "/def/vehicle/truck/daf.f241/sound/interior.sii"
+}
+
+vehicle_sound_accessory : .daf11.sound_ext {
+	data_path: "/def/vehicle/truck/daf.f241/sound/exterior.sii"
+}
+
+vehicle_accessory : .daf11.hlight {
+	data_path: "/def/vehicle/truck/daf.f241/head_light/standard.sii"
+}
+
+vehicle_wheel_accessory : .daf11.ftire {
+	data_path: "/def/vehicle/f_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .daf11.fdisc {
+	data_path: "/def/vehicle/f_disc/front_disc_02_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .daf11.fhub {
+	data_path: "/def/vehicle/f_hub/front_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .daf11.fnuts {
+	data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .daf11.rtire {
+	data_path: "/def/vehicle/r_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .daf11.rdisc {
+	data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .daf11.rhub {
+	data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .daf11.rnuts {
+	data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .daf11.rtire2 {
+	offset: 2
+	data_path: "/def/vehicle/r_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .daf11.rdisc2 {
+	offset: 2
+	data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .daf11.rhub2 {
+	offset: 2
+	data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .daf11.rnuts2 {
+	offset: 2
+	data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_paint_job_accessory : .daf11.paintjob {
+	base_color: (0.4677, 0.0129, 0.0176)
+	data_path: "/def/vehicle/truck/daf.f241/paint_job/ati_spacecab.sii"
+}
+
+vehicle_addon_accessory : .daf11.bumper {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/bumper/shape2.sii"
+}
+
+vehicle_addon_accessory : .daf11.tank {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/tank/shape1.sii"
+}
+
+vehicle_addon_accessory : .daf11.f_intake_cab {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/f_intake_cab/stock.sii"
+}
+
+vehicle_addon_accessory : .daf11.f_intake_chs {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/f_intake_chs/paint.sii"
+}
+
+vehicle_addon_accessory : .daf11.f_fender {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/f_fender/stock.sii"
+}
+
+vehicle_addon_accessory : .daf11.dstep {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/doorstep/shape1.sii"
+}
+
+vehicle_addon_accessory : .daf11.dhandle {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/doorhndl/shape2.sii"
+}
+
+vehicle_addon_accessory : .daf11.mirrors {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/mirror/shape2.sii"
+}
+
+vehicle_addon_accessory : .daf11.f_logo {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/f_logo/old.sii"
+}
+
+vehicle_addon_accessory : .daf11.exhaust {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/exhaust_l/shape1.sii"
+}
+
+vehicle_addon_accessory : .daf11.r_light {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/r_light/shape1.sii"
+}
+
+vehicle_addon_accessory : .daf11.sunshld {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/sunshld/shape4.sii"
+}
+
+vehicle_addon_accessory : .daf11.f_badge {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/f_badge/ati3600l.sii"
+}
+
+vehicle_addon_accessory : .daf11.cab_decal {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/cab_decal/ldec3600.sii"
+}
+
+vehicle_addon_accessory : .daf11.b_grill {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/b_grill/paint.sii"
+}
+
+vehicle_addon_accessory : .daf11.spoiler {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/spoiler/shape1.sii"
+}
+
+
+
+
+
+
+
+vehicle_addon_accessory : .daf11.steering_w {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/steering_w/standard.sii"
+}
+
+ 
+
+vehicle_addon_accessory : .daf11.trlr_cables {
+	data_path: "/def/vehicle/truck/daf.f241/accessory/trlr_cables/stock.sii"
+}
+
+}

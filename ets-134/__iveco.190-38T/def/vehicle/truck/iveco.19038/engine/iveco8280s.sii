@@ -11,10 +11,6 @@ accessory_engine_data : iveco8280s.iveco.19038.engine
 	icon: "engine_01"
 
 	torque: 2006	#1800rpm
-
-	engine_brake: 1.5
-	engine_brake_downshift: 0
-
 	volume:	12.88
 
 	# Torque Curves
@@ -37,7 +33,7 @@ accessory_engine_data : iveco8280s.iveco.19038.engine
 	rpm_range_power_boost: (550, 450)
 	
 	# Engine Brake data
-	engine_brake: 1.0			# Engine Brake Strength
+	engine_brake: 1.2			# Engine Brake Strength
 	engine_brake_downshift: 1	# Enable automatic downshift for Engine Brake   0 or 1
 	engine_brake_positions: 1	# The number of engine brake intensities		1,2,3
 	
