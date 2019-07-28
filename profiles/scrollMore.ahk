@@ -1,19 +1,19 @@
-;by cheva
+; Mouse clicks
+; by Cheva (c) 2017-2019
 
-;reload
+; reload
 $!^R::Reload
 ;suspend/resume
 $!^S::Suspend, toggle
 
-;-) click
-Numpad0::LButton
-NumpadDot::MButton
-NumpadEnter::RButton
+; clicks
+!`::LButton
+!1::MButton
+!2::RButton
+!q::WheelUp
+!a::WheelDown
 
-!1::WheelUp
-!q::WheelDown
-
-;-) Mouse move
+;-) moves
 ;$Left::MouseMove, -20, 0, 2, R
 ;$Right::MouseMove, 20, 0, 2, R
 ;$Up::MouseMove, 0, -20, 2, R
