@@ -1,0 +1,192 @@
+SiiNunit
+{
+vehicle : .company.truck
+{
+	accessories[]: .sisu_0.data
+	accessories[]: .sisu_0.chassis
+	accessories[]: .sisu_0.cabin
+	accessories[]: .sisu_0.interior
+	accessories[]: .sisu_0.engine
+	accessories[]: .sisu_0.transmission
+	accessories[]: .sisu_0.soundint
+	accessories[]: .sisu_0.soundext
+	accessories[]: .sisu_0.head_light
+	accessories[]: .sisu_0.ftire
+	accessories[]: .sisu_0.fdisc
+	accessories[]: .sisu_0.fhub
+	accessories[]: .sisu_0.fnuts
+	accessories[]: .sisu_0.rtire
+	accessories[]: .sisu_0.rdisc
+	accessories[]: .sisu_0.rhub
+	accessories[]: .sisu_0.rnuts
+	accessories[]: .sisu_0.paint_job
+	accessories[]: .sisu_0.mirror
+	accessories[]: .sisu_0.badge
+	accessories[]: .sisu_0.f_intake_cab
+	accessories[]: .sisu_0.f_intake_chs
+	accessories[]: .sisu_0.tank
+	accessories[]: .sisu_0.swheel
+	accessories[]: .sisu_0.r_light
+	accessories[]: .sisu_0.s_equip
+	accessories[]: .sisu_0.exhaust
+	accessories[]: .sisu_0.f_light_chs
+	accessories[]: .sisu_0.r_fender
+	accessories[]: .sisu_0.air_intake
+	accessories[]: .sisu_0.bumper
+	accessories[]: .sisu_0.f_badge
+	
+	accessories[]: .trlr_cables
+	
+
+}
+
+vehicle_accessory : .sisu_0.data {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/data.sii"
+}
+vehicle_accessory : .sisu_0.chassis {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/chassis/4x2.sii"
+}
+vehicle_accessory : .sisu_0.cabin {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/cabin/daycab.sii"
+}
+vehicle_accessory : .sisu_0.interior {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/interior/standard_a.sii"
+}
+vehicle_accessory : .sisu_0.engine {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/engine/c290.sii"
+}
+
+vehicle_addon_accessory : .sisu_0.f_intake_cab {
+	data_path: "/def/vehicle/truck/sisu.m/accessory/f_intake_cab/shape1.sii"
+}
+vehicle_addon_accessory : .sisu_0.f_intake_chs {
+	data_path: "/def/vehicle/truck/sisu.m/accessory/f_intake_chs/shape1.sii"
+}
+
+vehicle_accessory : .sisu_0.transmission {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/transmission/rto_9508.sii"
+}
+vehicle_sound_accessory : .sisu_0.soundint {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/sound/interior.sii"
+}
+vehicle_sound_accessory : .sisu_0.soundext {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/sound/exterior.sii"
+}
+vehicle_accessory : .sisu_0.head_light {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/head_light/standard.sii"
+}
+vehicle_paint_job_accessory : .sisu_0.paint_job {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/paint_job/color1.sii"
+}
+
+vehicle_addon_accessory : .sisu_0.mirror {
+	slot_name: 0
+	slot_hookup: 0
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/accessory/mirror/shape2.sii"
+}
+
+vehicle_addon_accessory : .sisu_0.badge {
+	data_path: "/def/vehicle/truck/sisu.m/badge/c290.sii"
+}
+
+vehicle_wheel_accessory : .sisu_0.ftire {
+	offset: 0
+	wear: 0
+	data_path: "/def/vehicle/f_tire/1.sii"
+}
+vehicle_wheel_accessory : .sisu_0.fdisc {
+	offset: 0
+	wear: 0
+	data_path: "/def/vehicle/f_disc/front_disc_02_matt_gray.sii"
+}
+vehicle_wheel_accessory : .sisu_0.fhub {
+	offset: 0
+	wear: 0
+	data_path: "/def/vehicle/f_hub/front_hub_01.sii"
+}
+vehicle_wheel_accessory : .sisu_0.fnuts {
+	offset: 0
+	wear: 0
+	data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .sisu_0.rtire {
+	offset: 0
+	wear: 0
+	data_path: "/def/vehicle/r_tire/1.sii"
+}
+vehicle_wheel_accessory : .sisu_0.rdisc {
+	offset: 0
+	wear: 0
+	data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+}
+vehicle_wheel_accessory : .sisu_0.rhub {
+	offset: 0
+	wear: 0
+	data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+vehicle_wheel_accessory : .sisu_0.rnuts {
+	offset: 0
+	wear: 0
+	data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_addon_accessory : .sisu_0.tank {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/accessory/tank/black.sii"
+}
+
+vehicle_addon_accessory : .sisu_0.swheel {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/accessory/steering_w/standard.sii"
+}
+
+vehicle_addon_accessory : .sisu_0.r_light {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/accessory/r_light/shape1.sii"
+}
+
+vehicle_addon_accessory : .sisu_0.s_equip {
+	wear: 0
+	data_path: "/def/vehicle/truck/sisu.m/accessory/s_equip/shape1.sii"
+}
+
+vehicle_addon_accessory : .sisu_0.exhaust {
+	data_path: "/def/vehicle/truck/sisu.m/accessory/exhaust/shape1.sii"
+}
+
+vehicle_addon_accessory : .sisu_0.f_light_chs {
+	data_path: "/def/vehicle/truck/sisu.m/accessory/f_light_chs/shape2.sii"
+}
+
+vehicle_addon_accessory : .sisu_0.r_fender {
+	data_path: "/def/vehicle/truck/sisu.m/accessory/r_fender/parlok4x2.sii"
+}
+
+vehicle_addon_accessory : .sisu_0.air_intake {
+	data_path: "/def/vehicle/truck/sisu.m/accessory/air_intake/shape2.sii"
+}
+
+vehicle_addon_accessory : .sisu_0.bumper {
+	data_path: "/def/vehicle/truck/sisu.m/accessory/bumper/shape1.sii"
+}
+
+vehicle_addon_accessory : .sisu_0.f_badge {
+	data_path: "/def/vehicle/truck/sisu.m/accessory/f_badge/stock.sii"
+}
+
+vehicle_addon_accessory : .trlr_cables {
+	data_path: "/def/vehicle/truck/sisu.m/accessory/trlr_cables/stock.sii"
+}
+}

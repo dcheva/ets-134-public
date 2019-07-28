@@ -1,0 +1,29 @@
+SiiNunit
+{
+accessory_cabin_data : sleeper.sisu.m.cabin
+{
+	name: " Sleeper Cab "
+	price: 4440
+	unlock: 0
+	icon: "sisu/sisu_cabin_b"
+	detail_model: "/vehicle/truck/sisu_m/truck.pmd"
+	collision: "/vehicle/truck/sisu_m/truck.pmc"
+	variant: cab_b
+	look: default
+	wiper_model: "/vehicle/truck/sisu_m/wipers.pmd"
+	wiper_anim: "/vehicle/truck/sisu_m/wipers.pma"
+	defaults[]: "/def/vehicle/truck/sisu.m/accessory/mirror/shape1.sii"
+	defaults[]: "/def/vehicle/truck/sisu.m/paint_job/color1.sii"
+	defaults[]: "/def/vehicle/truck/sisu.m/head_light/standard.sii"
+	defaults[]: "/def/vehicle/truck/sisu.m/interior/standard.sii"
+	defaults[]: "/def/vehicle/truck/sisu.m/accessory/f_intake_cab/shape1.sii"
+
+	suitable_for[]: "4x2.sisu.m.chassis"
+	suitable_for[]: "6x2.sisu.m.chassis"
+	suitable_for[]: "6x4.sisu.m.chassis"
+	
+
+
+	require[]: "f_intake_cab"
+}
+}

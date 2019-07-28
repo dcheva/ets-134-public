@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : shape1.sisu.m.b_grill
+{
+	name: "Home-made"
+	price: 90
+	unlock: 0
+	icon: "sisu/b_grill_01"
+	exterior_model: "/vehicle/truck/upgrade/bottomgrill/sisu_m/b_grill_01.pmd"
+	conflict_with[]: "new_logo.sisu.m.f_mudflap"
+	conflict_with[]: "old_logo.sisu.m.f_mudflap"
+	conflict_with[]: "stock.sisu.m.f_mudflap"
+}
+}

@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_int_data : gps_ms.sisu.m.set_lglass
+{
+	name: "Navigator"
+	price: 410
+	unlock: 0
+	icon: "sisu/gps_lumia"
+   
+  	interior_model: "/vehicle/truck/upgrade/interior_decors/toyglass/gps_ms.pmd"
+}
+}

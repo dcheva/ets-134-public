@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data: shape3.sisu.m.sunshld
+{
+	name: "@@stock@@ red"
+	price: 100
+	unlock: 0
+	icon: "sisu/sunshield_red"
+	exterior_model: "/vehicle/truck/upgrade/sunshield/sisu_m/sunshield_01.pmd"
+	interior_model: "/vehicle/truck/upgrade/sunshield/sisu_m/sunshield_01.pmd"
+	#suitable_for[]: "_"
+	variant: red
+}
+}

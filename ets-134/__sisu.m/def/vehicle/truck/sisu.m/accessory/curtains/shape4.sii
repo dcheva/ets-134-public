@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : shape4.sisu.m.curtains
+{
+	name: "Elite Brown"
+	price: 97
+	unlock: 0
+	icon: "sisu/curtain_int_3"
+	interior_model: "/vehicle/truck/upgrade/curtains/sisu_m/curtains_var2_b.pmd"
+	exterior_model: "/vehicle/truck/upgrade/curtains/sisu_m/curtains_var2_b.pmd"
+	look: look2
+	suitable_for[]: "sleeper.sisu.m.cabin"
+}
+}

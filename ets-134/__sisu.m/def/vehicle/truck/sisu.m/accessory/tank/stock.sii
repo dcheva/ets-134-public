@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : stock.sisu.m.tank
+{
+	name: "@@stock@@"
+	price: 125
+	unlock: 0
+	icon: "sisu/sisu_tank_2"
+	
+	exterior_model: "/vehicle/truck/upgrade/tank/sisu_m/tank_01.pmd"
+	variant: metal
+}
+}

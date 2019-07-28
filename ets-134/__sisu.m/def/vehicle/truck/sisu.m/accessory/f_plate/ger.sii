@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : ger.sisu.m.f_plate
+{
+	name: "Germany License Plate"
+	price: 20
+	unlock: 0
+	icon: "sisu/license_plate_ger"
+	exterior_model: "/vehicle/truck/upgrade/l_plate/sisu_m/lp_front_de.pmd"
+
+}
+}

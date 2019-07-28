@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape4.sisu.m.f_light_chs
+{
+	name: "Hella 4000"
+	price: 190
+	unlock: 0
+	icon: "sisu/f_light_chs_3"
+	exterior_model: "/vehicle/truck/upgrade/f_light_chs/sisu_m/hella_4000_lamp.pmd"
+
+}
+}

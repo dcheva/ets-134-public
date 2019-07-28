@@ -1,0 +1,37 @@
+SiiNunit
+{
+accessory_interior_data: standard.sisu.m.interior
+{
+	name: "@@standard@@"
+	price: 3440
+	unlock: 0
+	icon: "interior_sisu_m_std"
+
+	model: "/vehicle/truck/sisu_m/interior/model.pmd"
+	collision: "/vehicle/truck/sisu_m/interior/model.pmc"
+	animated_model: "/vehicle/truck/sisu_m/interior/anim.pmd"
+	look: look1
+	variant: standard_b
+
+@include "animations.sui"
+
+	dashboard_path: "/ui/dashboard/sisu_m.sii"
+
+	glass_panes[]: .sisu.m.pane.front
+	glass_panes[]: .sisu.m.pane.close
+	glass_panes[]: .sisu.m.pane.far
+	glass_panes[]: .sisu.m.pane.back
+
+	suitable_for[]: "sleeper.sisu.m.cabin"
+	ext_model: "/vehicle/truck/upgrade/ext_interior/sisu_m/stock.pmd"
+	ext_variant: std_b
+	ext_look: default #standard
+
+	defaults[]: "/def/vehicle/truck/sisu.m/accessory/steering_w/standard.sii"
+
+@include "dashboard_color.sui"
+@include "seat.sui"
+}
+@include "glass.sui"
+@include "glass_b.sui"
+}

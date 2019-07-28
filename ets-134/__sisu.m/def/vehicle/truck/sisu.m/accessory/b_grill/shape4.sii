@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape4.sisu.m.b_grill
+{
+	name: "painted protection"
+	price: 65
+	unlock: 0
+	icon: "sisu/b_grill_04"
+	exterior_model: "/vehicle/truck/upgrade/bottomgrill/sisu_m/b_griil_03.pmd"
+
+}
+}

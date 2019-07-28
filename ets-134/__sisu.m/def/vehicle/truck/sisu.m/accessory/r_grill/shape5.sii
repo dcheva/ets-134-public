@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : shape5.sisu.m.r_grill
+{
+	name: "Bau Roof Grill"
+	price: 160
+	unlock: 0
+	icon: "sisu/roofgrill_sisu_03"
+	exterior_model: "/vehicle/truck/upgrade/roofgrill/sisu_m/roof_grill_b.pmd"
+	interior_model: "/vehicle/truck/upgrade/roofgrill/sisu_m/roof_grill_b_int.pmd"
+    variant: default
+	suitable_for[]: "sleeper.sisu.m.cabin"
+}
+}

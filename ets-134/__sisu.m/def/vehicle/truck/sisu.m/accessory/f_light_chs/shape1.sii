@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : shape1.sisu.m.f_light_chs
+{
+	name: "Additional light"
+	price: 40
+	unlock: 0
+	icon: "sisu/f_light_chs_1"
+	exterior_model: "/vehicle/truck/upgrade/f_light_chs/sisu_m/f_light_01.pmd"
+
+	#overrides[]: "_.sii"
+}
+}

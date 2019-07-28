@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : shape3.sisu.m.s_equip
+{
+	name: "@@paint@@"
+	price: 120
+	unlock: 0
+	icon: "sisu/s_equip_03"
+	
+	exterior_model: "/vehicle/truck/upgrade/s_equip/sisu_m/equip_side_03.pmd"
+	
+	
+}
+}

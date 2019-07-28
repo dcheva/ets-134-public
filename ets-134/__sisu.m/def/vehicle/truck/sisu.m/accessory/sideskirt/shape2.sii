@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_addon_data : shape2.sisu.m.sideskirt
+{
+	name: "Side Skirt"
+	price: 95
+	unlock: 0
+	icon: "sisu/sideskirt_01"
+	exterior_model: "/vehicle/truck/upgrade/sideskirts/sisu_m/sideskirt_6x.pmd"
+    #variant: -
+	#look: -
+	
+	suitable_for[]: "6x2.sisu.m.chassis"
+	suitable_for[]: "6x4.sisu.m.chassis"
+	
+	
+}
+}

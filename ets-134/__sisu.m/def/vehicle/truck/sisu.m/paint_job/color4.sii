@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_paint_job_data : color4.sisu.m.paint_job
+{
+	name: "Military"
+	price: 300
+	unlock: 0
+	base_color: (0.0246, 0.0384, 0.0199) # RGB= 40,50,36 SCS= 0.0246, 0.0384, 0.0199
+	base_color_locked: true
+	stock: true
+}
+}

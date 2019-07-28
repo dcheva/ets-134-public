@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_paint_job_data : color5.sisu.m.paint_job
+{
+	name: "Sky Blue"
+	price: 590
+	unlock: 0
+	base_color: (0.030, 0.050, 0.22)
+	base_color_locked: true
+	stock: true
+}
+}

@@ -1,0 +1,8 @@
+SiiNunit
+{
+accessory_addon_data : c290.sisu.m.badge
+{
+	exterior_model: "/vehicle/truck/upgrade/badges/sisu_m/badge_engine.pmd"
+	look: c290
+}
+}

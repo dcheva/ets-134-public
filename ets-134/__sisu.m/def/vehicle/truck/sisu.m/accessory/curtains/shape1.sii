@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : shape1.sisu.m.curtains
+{
+	name: "curtains"
+	price: 90
+	unlock: 0
+	icon: "sisu/curtain_int"
+	interior_model: "/vehicle/truck/upgrade/curtains/sisu_m/curtains_b.pmd"
+	exterior_model: "/vehicle/truck/upgrade/curtains/sisu_m/curtains_b.pmd"
+	suitable_for[]: "sleeper.sisu.m.cabin"
+}
+}

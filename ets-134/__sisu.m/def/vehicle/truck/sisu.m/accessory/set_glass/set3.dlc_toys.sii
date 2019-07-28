@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : glass_set3.sisu.m.set_glass
+{
+	name: "Arrow"
+	price: 1
+	unlock: 0
+	icon: "glass_set_3.dlc_toys"
+   
+	interior_model: "/vehicle/truck/upgrade/interior_set/sisu_m/glass_set_3.dlc_toys.pmd"
+}
+}

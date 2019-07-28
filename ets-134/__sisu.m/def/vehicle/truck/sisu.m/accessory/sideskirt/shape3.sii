@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_addon_data : shape3.sisu.m.sideskirt
+{
+	name: "Home-made"
+	price: 110
+	unlock: 0
+	icon: "sisu/sideskirt_panel_4x2"
+	exterior_model: "/vehicle/truck/upgrade/sideskirts/sisu_m/sideskirt_panel_4x2.pmd"
+    #variant: -
+	#look: -
+	
+	suitable_for[]: "4x2.sisu.m.chassis"
+	
+	
+}
+}

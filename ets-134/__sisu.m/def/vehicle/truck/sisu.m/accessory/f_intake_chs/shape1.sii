@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_addon_data : shape1.sisu.m.f_intake_chs
+{
+	exterior_model: "/vehicle/truck/upgrade/frontintake/sisu_m/f_intake_chs_pls.pmd"
+}
+}

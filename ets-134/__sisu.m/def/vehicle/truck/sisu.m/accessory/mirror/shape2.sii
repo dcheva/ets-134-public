@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : shape2.sisu.m.mirror
+{
+	name: "@@plastic@@"
+	price: 80
+	unlock: 0
+	icon: "mirror_sisu_plastic"
+	exterior_model: "/vehicle/truck/upgrade/mirror/sisu_m/mirror_pls.pmd"
+	
+	interior_model: "/vehicle/truck/upgrade/mirror/sisu_m/mirror_pls_interior.pmd"
+	
+}
+}

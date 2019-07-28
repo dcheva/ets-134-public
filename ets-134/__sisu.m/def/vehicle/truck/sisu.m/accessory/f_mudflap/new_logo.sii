@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_addon_data : new_logo.sisu.m.f_mudflap
+{
+	name			: "SISU Logo New"
+	price			: 52
+	unlock			: 0
+	exterior_model	:	"/vehicle/truck/upgrade/frontmudflaps/sisu_m/f_mudflup_01.pmd"
+	icon			:	"sisu/f_mudflups_03"
+	variant         : logo
+	look			: sisu_n
+	conflict_with[]: "shape1.sisu.m.b_grill"
+
+}
+}

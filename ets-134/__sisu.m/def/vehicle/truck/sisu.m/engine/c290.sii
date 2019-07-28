@@ -1,0 +1,21 @@
+SiiNunit
+{
+accessory_engine_data : c290.sisu.m.engine
+{
+	name: "Cummins NTE-290"
+	price: 780
+	unlock: 0
+	info[]: "293 @@hp@@ (216@@kw@@)"
+	info[]: "1@@dg@@261 @@nm@@"
+	info[]: "1@@dg@@100-1@@dg@@400 @@rpm@@"
+	icon: "engine_cm"
+	torque: 1261
+	volume: 14
+	no_adblue_power_limit: 0.5
+
+	#overrides[]: "/def/vehicle/truck/sisu.m/accessory/c_badge/euro_none.sii"
+	overrides[]: "/def/vehicle/truck/sisu.m/badge/c290.sii"
+	overrides[]: "/def/vehicle/truck/sisu.m/sound/interior.sii"
+	overrides[]: "/def/vehicle/truck/sisu.m/sound/exterior.sii"
+}
+}

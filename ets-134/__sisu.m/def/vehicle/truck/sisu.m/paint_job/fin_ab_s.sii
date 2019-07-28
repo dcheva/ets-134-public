@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_paint_job_data : fin_ab_s.sisu.m.paint_job
+{
+@include "fin_ab_s_settings.sui"
+	#suitable_for[]: "day.sisu.m.cabin"
+	suitable_for[]: "sleeper.sisu.m.cabin"
+	suitable_for[]: "daycab.sisu.m.cabin"
+	paint_job_mask: "/vehicle/truck/upgrade/paintjob/sisu_m/fin_ab_s/cabin2.tobj"
+}
+}

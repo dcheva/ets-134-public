@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape3.sisu.m.f_light_chs
+{
+	name: "Hella Stone Shield"
+	price: 100
+	unlock: 0
+	icon: "sisu/f_light_chs_2"
+	exterior_model: "/vehicle/truck/upgrade/f_light_chs/sisu_m/hella_stone_shield.pmd"
+
+}
+}

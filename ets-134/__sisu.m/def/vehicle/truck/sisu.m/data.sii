@@ -1,0 +1,50 @@
+SiiNunit
+{
+accessory_truck_data : vehicle.sisu.m
+{
+	info[]: " SISU "
+	info[]: "@@ M-series @@"
+	
+	behind_camera: camera.behind.basic
+	interior_camera: camera.interior.sisu.m
+	interior_camera_oculus: camera.interior.sisu.m
+	bumper_camera: camera.bumper.basic
+	window_camera: camera.window.basic
+	cabin_camera: camera.cabin.basic
+	wheel_camera: camera.wheel.basic
+	top_camera: camera.top.basic
+	tv_camera: camera.tv.basic
+	wander_camera: camera.wander
+	debug_camera: camera.debug
+	
+	fallback[]: "chassis|4x2.sii"
+	fallback[]: "cabin|daycab.sii"
+	fallback[]: "interior|standard.sii"
+	fallback[]: "engine|c290.sii"
+	fallback[]: "transmission|rto_9508.sii"
+	fallback[]: "f_tire|1.sii"
+	fallback[]: "f_disc|front_disc_02_matt_gray.sii"
+	fallback[]: "f_hub|front_hub_01.sii"
+	fallback[]: "f_nuts|front_nuts_01_steel.sii"
+	fallback[]: "r_tire|1.sii"
+	fallback[]: "r_disc|rear_disc_01_matt_gray.sii"
+	fallback[]: "r_hub|rear_hub_01.sii"
+	fallback[]: "r_nuts|rear_nuts_01_steel.sii"
+	fallback[]: "paint_job|color1.sii"
+	fallback[]: "head_light|standard.sii"
+	fallback[]: "accessory|steering_w/standard.sii"
+	
+	#cab
+	
+	require[]: mirror
+	require[]: f_badge
+	
+	#chassis
+	
+	require[]: bumper
+	require[]: tank
+	require[]: r_light
+	require[]: exhaust
+	
+}
+}

@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape4.sisu.m.f_sign
+{
+	name: "Leveä kuljetus"
+	price: 10
+	unlock: 0
+	icon: "sisu/fsign_levea"
+	exterior_model: "/vehicle/truck/upgrade/f_sign/sisu_m/f_sign_fin.pmd"
+	look:look1
+}
+}

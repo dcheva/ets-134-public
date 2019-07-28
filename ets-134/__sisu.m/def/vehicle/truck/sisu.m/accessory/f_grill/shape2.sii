@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape2.sisu.m.f_grill
+{
+	name: "Whirlwind high"
+	price: 235
+	unlock: 0
+	icon: "sisu/f_grill_sisu_02"
+	exterior_model: "/vehicle/truck/upgrade/frontgrill/sisu_m/frontgrill_02.pmd"
+}
+}

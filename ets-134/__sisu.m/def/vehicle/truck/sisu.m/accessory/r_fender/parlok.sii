@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_data : parlok.sisu.m.r_fender
+{
+	name: "Parlok WHITE LINE"
+	price: 42
+	unlock: 0
+	icon: "sisu/r_fender_parlok_6x4"
+	
+	exterior_model: "/vehicle/truck/upgrade/r_fender/sisu_m/r_fender_parlok.pmd"
+	
+		suitable_for[]: "6x2.sisu.m.chassis"
+		suitable_for[]: "6x4.sisu.m.chassis"
+	
+}
+}

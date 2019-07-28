@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data: shape1.sisu.m.sunshld
+{
+	name: "@@paint@@"
+	price: 160
+	unlock: 0
+	icon: "sisu/sunshield_paint"
+	exterior_model: "/vehicle/truck/upgrade/sunshield/sisu_m/sunshield_01.pmd"
+	interior_model: "/vehicle/truck/upgrade/sunshield/sisu_m/sunshield_01.pmd"
+	#suitable_for[]: "_"
+	variant: paint
+}
+}

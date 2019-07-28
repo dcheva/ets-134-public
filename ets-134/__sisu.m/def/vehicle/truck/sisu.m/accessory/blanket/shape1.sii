@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : shape1.sisu.m.blanket
+{
+	name: "Flowers"
+	price: 20
+	unlock: 0
+	icon: "sisu/blanket_sisu_01"
+	interior_model: "/vehicle/truck/upgrade/interior_decors/blanket/blanket_sisu01.pmd"
+	exterior_model: "/vehicle/truck/upgrade/interior_decors/blanket/blanket_sisu01.pmd"
+	look: look1
+	suitable_for[]: "sleeper.sisu.m.cabin"
+}
+}

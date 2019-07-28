@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : shape2.sisu.m.air_intake
+{
+	name: "Air intake"
+	price: 100
+	unlock: 0
+	icon: "air_equip"
+	exterior_model: "/vehicle/truck/upgrade/air_intake_b/sisu_m/air_intake_a.pmd"
+	interior_model: "/vehicle/truck/upgrade/air_intake_b/sisu_m/air_intake_a_int.pmd"
+	suitable_for[]: "daycab.sisu.m.cabin"
+}
+}

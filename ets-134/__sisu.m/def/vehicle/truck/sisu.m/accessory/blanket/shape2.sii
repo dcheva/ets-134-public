@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : shape2.sisu.m.blanket
+{
+	name: "Geometry"
+	price: 21
+	unlock: 0
+	icon: "sisu/blanket_sisu_02"
+	interior_model: "/vehicle/truck/upgrade/interior_decors/blanket/blanket_sisu01.pmd"
+	exterior_model: "/vehicle/truck/upgrade/interior_decors/blanket/blanket_sisu01.pmd"
+	look: look2
+	suitable_for[]: "sleeper.sisu.m.cabin"
+}
+}

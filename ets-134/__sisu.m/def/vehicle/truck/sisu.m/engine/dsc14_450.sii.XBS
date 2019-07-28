@@ -1,0 +1,20 @@
+SiiNunit
+{
+accessory_engine_data : dsc14_450.sisu.m.engine
+{
+	name: "DSC14 450"
+	price: 1120
+	unlock: 0
+	info[]: "450 @@hp@@ (331@@kw@@)"
+	info[]: "1@@dg@@580 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@300 @@rpm@@"
+	icon: "engine_sc"
+	torque: 1580
+	volume: 14.2
+	#no_adblue_power_limit: 0.5
+
+	overrides[]: "/def/vehicle/truck/sisu.m/badge/s450.sii"
+	overrides[]: "/def/vehicle/truck/sisu.m/sound/interior_sc.sii"
+	overrides[]: "/def/vehicle/truck/sisu.m/sound/exterior_sc.sii"
+}
+}

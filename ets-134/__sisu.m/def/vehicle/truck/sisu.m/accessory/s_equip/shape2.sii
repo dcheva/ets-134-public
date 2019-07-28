@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : shape2.sisu.m.s_equip
+{
+	name: "@@chrome@@"
+	price: 100
+	unlock: 0
+	icon: "sisu/s_equip_02"
+	
+	exterior_model: "/vehicle/truck/upgrade/s_equip/sisu_m/equip_side_02.pmd"
+	
+	
+}
+}

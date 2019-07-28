@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : shape1.sisu.m.cb_radio
+{
+	name: "stabo_x5006e"
+	price: 120
+	unlock: 0
+	icon: "sisu/cb_radio_1"
+	#exterior_model: "/vehicle/truck/upgrade/antenna/sisu_m/cb_radio_01.pmd"
+	
+	interior_model: "/vehicle/truck/upgrade/antenna/sisu_m/cb_radio_01.pmd"
+	
+}
+}

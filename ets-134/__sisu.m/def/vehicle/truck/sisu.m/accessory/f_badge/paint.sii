@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : paint.sisu.m.f_badge
+{
+	name			: "@@paint@@"
+	price			: 30
+	unlock			: 0
+	exterior_model	:	"/vehicle/truck/upgrade/frontbadge/sisu_m/f_badge_paint.pmd"
+	icon			:	"sisu/frontbadge_paint"
+	
+
+}
+}

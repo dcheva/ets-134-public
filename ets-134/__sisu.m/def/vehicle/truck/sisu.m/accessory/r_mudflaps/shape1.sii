@@ -1,0 +1,21 @@
+SiiNunit
+{
+accessory_addon_data : shape1.sisu.m.r_mudflaps
+{
+	name: "SISU"
+	price: 15
+	unlock: 0
+	icon: "sisu/rearmudflups_1"
+	exterior_model: "/vehicle/truck/upgrade/rearmudflaps/sisu_m/rear_mudflap_1.pmd"
+    variant: default
+	look: sisu
+	
+	suitable_for[]: "fdr_4x2.sisu.m.r_fender"
+	suitable_for[]: "fdr_6x2.sisu.m.r_fender"
+	suitable_for[]: "mon.sisu.m.r_fender"
+	suitable_for[]: "parlok.sisu.m.r_fender"
+	suitable_for[]: "parlok4x2.sisu.m.r_fender"
+	
+		
+}
+}

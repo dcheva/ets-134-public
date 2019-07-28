@@ -1,0 +1,68 @@
+	wheel_updown_anim: "/vehicle/truck/sisu_m/interior/st_col_rot.pma"
+	wheel_frontback_anim: "/vehicle/truck/sisu_m/interior/st_col_ext.pma"
+	wheel_updown_anim_default: 0.4
+	wheel_frontback_anim_default: 0.5
+	
+	wiper_anim: "/vehicle/truck/sisu_m/interior/wipers.pma"
+	wiper_delay[]: 2
+	wheel_anim: "/vehicle/truck/sisu_m/interior/s_wheel.pma"
+	blinker_delay: 0.333
+	blinker_anim: "/vehicle/truck/sisu_m/interior/blinker_st.pma"
+	lights_anim: "/vehicle/truck/sisu_m/interior/light_st.pma"
+	high_beam_anim: "/vehicle/truck/sisu_m/interior/farlight_st.pma"
+	parking_stick_anim: "/vehicle/truck/sisu_m/interior/parking_st.pma"
+	#retarder_stick_anim: "/vehicle/truck/sisu_m/interior/retarder_st.pma"
+	wiper_stick_anim: "/vehicle/truck/sisu_m/interior/wiper_st.pma"
+
+	differential_lock_stick_anim: "/vehicle/truck/sisu_m/interior/st_diff.pma"
+	indicator_differential_lock: "/vehicle/truck/sisu_m/interior/i_diff.pma"
+
+	lift_axle_stick_anim: "/vehicle/truck/sisu_m/interior/st_axle.pma"
+	indicator_axle_lift: "/vehicle/truck/sisu_m/interior/i_axle.pma"
+
+	oil_pressure_anim: "/vehicle/truck/sisu_m/interior/oil.pma"
+	oil_pressure_anim_min: 0
+	oil_pressure_anim_max: 11 #8
+	water_temp_anim: "/vehicle/truck/sisu_m/interior/water.pma"
+	water_temp_anim_min: 60 #30
+	water_temp_anim_max: 100 #110
+	tachometer_anim: "/vehicle/truck/sisu_m/interior/rpm.pma"
+	tachometer_anim_min: 0 #300
+	tachometer_anim_max: 3000 #2700
+	speedometer_anim: "/vehicle/truck/sisu_m/interior/speed.pma"
+	speedometer_anim_min: 10 #10
+	speedometer_anim_max: 130 #130
+	fuel_anim: "/vehicle/truck/sisu_m/interior/fuel.pma"
+	
+	battery_anim: "/vehicle/truck/sisu_m/interior/bat.pma"
+	battery_anim_min: 18
+	battery_anim_max:32
+	air_pressure_anim: "/vehicle/truck/sisu_m/interior/brakes.pma"
+	air_pressure_anim_min: 0
+	air_pressure_anim_max: 10 #10.34
+	engine_start_anim : "/vehicle/truck/sisu_m/interior/key.pma"
+
+    clock_big_anim: "/vehicle/truck/sisu_m/interior/c_big.pma"
+	clock_small_anim: "/vehicle/truck/sisu_m/interior/c_small.pma"
+	clock_small_anim_min: 0
+	clock_small_anim_max: 24 
+	
+
+	button_left_blinker: "/vehicle/truck/sisu_m/interior/blinker_l.pma"
+	button_right_blinker: "/vehicle/truck/sisu_m/interior/blinker.pma"
+	button_high_beam_lights: "/vehicle/truck/sisu_m/interior/farlight.pma"
+	button_parking_brake: "/vehicle/truck/sisu_m/interior/parking.pma"
+	button_jakebrake: "/vehicle/truck/sisu_m/interior/m_brake.pma"
+	
+	indicator_aux_lights_any: "/vehicle/truck/sisu_m/interior/aux_light.pma"
+	button_battery_warning: "/vehicle/truck/sisu_m/interior/batt_sign.pma"
+	button_low_fuel: "/vehicle/truck/sisu_m/interior/fuel_sign.pma"
+	button_lights: "/vehicle/truck/sisu_m/interior/i_lights.pma"
+	indicator_low_oil_pressure: "/vehicle/truck/sisu_m/interior/oil_warn.pma"
+
+	indicator_low_air_pressure: "/vehicle/truck/sisu_m/interior/psi_warn.pma"
+	indicator_trailer_axle_lift: "/vehicle/truck/sisu_m/interior/tr_lift.pma"
+	button_water_temp: "/vehicle/truck/sisu_m/interior/water_sign.pma"
+	indicator_warning: "/vehicle/truck/sisu_m/interior/i_warn.pma"
+	#indicator_retarder: "/vehicle/truck/sisu_m/interior/i_retarder.pma"
+
