@@ -1,8 +1,0 @@
-SiiNunit
-{
-accessory_addon_data : s450.sisu.m.badge
-{
-	exterior_model: "/vehicle/truck/upgrade/badges/sisu_m/badge_engine_scan.pmd"
-	look: default
-}
-}
