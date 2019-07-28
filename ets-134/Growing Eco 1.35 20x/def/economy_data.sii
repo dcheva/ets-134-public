@@ -150,9 +150,9 @@ economy_data : economy.data.storage
 
 	free_roam_report_limit: 10 // 100
 
-	exp_cargo_delivery: 	10		# per km of real world
-	exp_free_roam: 		15		# per km of real world // 0.5 //!!!20x!!!//
-	exp_road_discovery:	12.5		# per km of real world // 0.8
+	exp_cargo_delivery: 	1.0		# per km of real world
+	exp_free_roam: 		1.5		# per km of real world // 0.5 //!!!20x!!!//
+	exp_road_discovery:	1.25		# per km of real world // 0.8
 	exp_perfect_delivery:	0.15		# // 0.24
 	exp_adr_bonus:		0.15		# // 0.21
 	exp_important_bonus:	0.15		# // 0.2
