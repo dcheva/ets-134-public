@@ -1,4 +1,4 @@
-[green]Growing Economy [normal]v1.35 by Cheva
+[green]Growing Economy [normal]v1.34.1 1X maps by Cheva
 
 Main module.
 Place this mod in the top of all. (rewrote def/economy.data, def/damage_data, def/bank.data)
