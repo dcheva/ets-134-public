@@ -2,6 +2,16 @@ SiiNunit
 {
 vehicle : .company.truck
 {
+ fuel_relative: &3f000000
+ user_mirror_rot: 4
+ user_mirror_rot[0]: (1; 0, 0, 0)
+ user_mirror_rot[1]: (1; 0, 0, 0)
+ user_mirror_rot[2]: (1; 0, 0, 0)
+ user_mirror_rot[3]: (1; 0, 0, 0)
+
+ odometer: 0
+ odometer_float_part: &3c6234d0
+
  accessories[]: .kamaztruck.data
  accessories[]: .kamaztruck.chassis
  accessories[]: .kamaztruck.cabin
