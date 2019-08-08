@@ -2,12 +2,12 @@ SiiNunit
 {
 map_data : .map.data {
 
-	road_color:			0xFF224466 	//Advisor map undiscovered route
-	road_discovered_color:		0xFFCC6633	//Advisor map discovered route
-	job_road_color:			0xFF224466	//Job market map undiscovered route
-	job_road_discovered_color:	0xFFCC6633	//Job market map discovered route
-	world_road_color:		0xFF224466	//Main map undiscovered route
-	world_road_discovered_color:	0xFFCC6633 	//Main map discovered route
+	road_color:			0x99224466 	//Advisor map undiscovered route
+	road_discovered_color:		0x99CC6633	//Advisor map discovered route
+	job_road_color:			0x99224466	//Job market map undiscovered route
+	job_road_discovered_color:	0x99CC6633	//Job market map discovered route
+	world_road_color:		0x99224466	//Main map undiscovered route
+	world_road_discovered_color:	0x99CC6633 	//Main map discovered route
 
 	prefab_color:				0xFF737373	//Undiscovered prefab driveable areas
 	prefab_obstacle_color:			0xFF333333	//Undiscovered prefab buildings
@@ -16,20 +16,11 @@ map_data : .map.data {
 	prefab_obstacle_discovered_color:	0xFF3BA2E0	//Discovered prefab buildings
 	prefab_grass_discovered_color:		0xFF95CAA9	//Discovered prefab grass
 
-	outline_color:			0xFF000000	//Route outline
+	outline_color:			0xFF112233	//Route outline
 	navigation_color:		0xFFFCCC33	//Navigation path color
-	navigation_highlight_color:	0xFF9D53EF	//Navigation path color, highligted segment
-	navigation_fade_color:		0xFF6A6D33	//Navigation path color, faded segment
+	navigation_highlight_color:	0xFFFCCC33	//Navigation path color, highligted segment
+	navigation_fade_color:		0xFFC99933	//Navigation path color, faded segment
 	navigation_arrow_color:		0xFFCC6633	//Navigation crossroad arrows color
-	
-//	zoom_uplift[0]: 50.0		// close zoom for 3d map
-//	zoom_uplift[1]: 220.0		// far zoom for 3d map
-//	zoom_uplift[2]: 900.0		// close zoom for minimap
-//	zoom_uplift[3]: 4000.0		// far zoom for minimap
-//	zoom_uplift[4]: 1000.0		// city detail zoom for world map
-//	zoom_uplift[5]: 5000.0		// closest zoom for world map
-//	zoom_uplift[6]: 18500.0		// middle zoom for world map
-//	zoom_uplift[7]: 45000.0    	// whole world map zoom
 	
 	zoom_uplift[0]: 400.0		// close zoom for 3d map
 	zoom_uplift[1]: 200.0		// far zoom for 3d map
@@ -49,11 +40,11 @@ map_data : .map.data {
 	player_size[6]: 1000.0
 	player_size[7]: 5000.0
 
-	road_size_factor[0]: 2.0
-	road_size_factor[1]: 1.0
+	road_size_factor[0]: 1.25
+	road_size_factor[1]: 1.1
 	road_size_factor[2]: 1.5
 	road_size_factor[3]: 3.0
-	road_size_factor[4]: 1.0
+	road_size_factor[4]: 1.1
 	road_size_factor[5]: 1.5
 	road_size_factor[6]: 4.5
 	road_size_factor[7]: 8.0
@@ -67,19 +58,19 @@ map_data : .map.data {
 	full_detail[6]: true
 	full_detail[7]: false
 
-	icon_size[0]: (23.0, 24.0)
-	icon_size[1]: (10.0, 11.0)
-	icon_size[2]: (7.0, 8.0)
-	icon_size[3]: (7.0, 8.0)
-	icon_size[4]: (17.0, 18.0)
-	icon_size[5]: (13.0, 14.0)
-	icon_size[6]: (11.0, 12.0)
-	icon_size[7]: (13.0, 14.0)
+	icon_size[0]: (16.0, 16.0)
+	icon_size[1]: (16.0, 16.0)
+	icon_size[2]: (16.0, 16.0)
+	icon_size[3]: (16.0, 16.0)
+	icon_size[4]: (14.0, 14.0)
+	icon_size[5]: (12.0, 12.0)
+	icon_size[6]: (10.0, 10.0)
+	icon_size[7]: (8.0, 8.0)
 
 	company_icon_size[0]: (32.0, 8.0)
 	company_icon_size[1]: (20.0, 5.0)
-	company_icon_size[2]: (0.0, 0.0)
-	company_icon_size[3]: (0.0, 0.0)
+	company_icon_size[2]: (20.0, 5.0)
+	company_icon_size[3]: (20.0, 5.0)
 	company_icon_size[4]: (60.0, 15.0)
 	company_icon_size[5]: (40.0, 10.0)
 	company_icon_size[6]: (16.0, 4.0)
