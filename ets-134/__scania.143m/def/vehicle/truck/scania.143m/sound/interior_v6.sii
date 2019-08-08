@@ -14,6 +14,17 @@ accessory_sound_data : v6.scania.143m.isound
 	engine[]: .e1
 	engine[]: .e2
 
+	engine[]: .e3
+	engine[]: .e4
+	engine[]: .e5
+	
+	engine[]: .e6
+	engine[]: .e7
+	engine[]: .e8
+	engine[]: .e9
+	engine[]: .e10
+	engine[]: .e11
+
 	engine_load[]: .el0
 	engine_load[]: .el1
 	engine_load[]: .el2
@@ -127,6 +138,128 @@ sound_engine_data: .e2
 	volume: 0.00
 }
 
+
+# +++++++++++++++++++++ 1000+ +++++++++++++++++++++++++++++
+
+sound_engine_data: .e3
+{
+	name: "/sound/truck/scania_143m/scania_v8/int/int_loaded_4.ogg"
+
+	looped: true
+
+	pitch_reference: 1250
+
+	min_rpm: 1000.0
+	max_rpm: 1550.0
+	volume: 0.72
+}
+
+sound_engine_data: .e4
+{
+	name: "/sound/truck/scania_143m/scania_v8/int/int_loaded_5.ogg"
+
+	looped: true
+
+	pitch_reference: 1500
+
+	min_rpm: 1300.0
+	max_rpm: 1870.0
+	volume: 0.78
+}
+
+sound_engine_data: .e5
+{
+	name: "/sound/truck/scania_143m/scania_v8/int/int_loaded_6.ogg"
+
+	looped: true
+
+	pitch_reference: 2000
+
+	min_rpm: 1600.0
+	max_rpm: 3000.0
+	volume: 0.62
+}
+
+# +++++++++++++++++++++ tire +++++++++++++++++++++++++++++
+
+sound_engine_data: .e6
+{
+	name: "/sound/truck/noises/tires/asphalt_int_01.ogg"
+
+	looped: true
+
+	pitch_reference: 600
+
+	min_rpm:  0.0
+	max_rpm: 800.0
+	volume: 0.25
+}
+
+sound_engine_data: .e7
+{
+	name: "/sound/truck/noises/tires/asphalt_int_02.ogg"
+
+	looped: true
+
+	pitch_reference: 800
+
+	min_rpm: 600.0
+	max_rpm: 1000.0
+	volume: 0.33
+}
+
+sound_engine_data: .e8
+{
+	name: "/sound/truck/noises/tires/asphalt_int_03.ogg"
+
+	looped: true
+
+	pitch_reference: 1000
+
+	min_rpm: 800.0
+	max_rpm: 1200.0
+	volume: 0.42
+}
+
+sound_engine_data: .e9
+{
+	name: "/sound/truck/noises/tires/asphalt_int_04.ogg"
+
+	looped: true
+
+	pitch_reference: 1250
+
+	min_rpm: 1000.0
+	max_rpm: 1550.0
+	volume: 0.55
+}
+
+sound_engine_data: .e10
+{
+	name: "/sound/truck/noises/tires/asphalt_int_05.ogg"
+
+	looped: true
+
+	pitch_reference: 1500
+
+	min_rpm: 1300.0
+	max_rpm: 1870.0
+	volume: 0.58
+}
+
+sound_engine_data: .e11
+{
+	name: "/sound/truck/noises/tires/asphalt_int_05.ogg"
+
+	looped: true
+
+	pitch_reference: 2000
+
+	min_rpm: 1600.0
+	max_rpm: 3000.0
+	volume: 0.66
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 sound_engine_data: .el0
