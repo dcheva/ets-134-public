@@ -1,9 +1,0 @@
-SiiNunit
-{
-
-@include "addon_hookups/light.mack_rhpl.sii"
-@include "addon_hookups/lightats.mack_rhpl.sii"
-@include "addon_hookups/hornsats.mack_rhpl.sii"
-
-}
-

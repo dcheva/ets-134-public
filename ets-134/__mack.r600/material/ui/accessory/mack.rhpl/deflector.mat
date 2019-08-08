@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "deflector.tobj"
-	texture_name : "texture"
-}

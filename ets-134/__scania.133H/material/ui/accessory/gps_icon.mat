@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "gps_icon.tobj"
-	texture_name : "texture"
-}

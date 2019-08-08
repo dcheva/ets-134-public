@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "plastic_gauges.tobj"
-	texture_name : "texture"
-}

@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "c_grill.tobj"
-	texture_name : "texture"
-}

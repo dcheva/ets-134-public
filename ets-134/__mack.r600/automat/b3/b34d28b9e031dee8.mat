@@ -1,9 +1,0 @@
-material : "eut2.dif.spec.rfx" {
-	texture[0] : "/vehicle/truck/mack.rhpl/textures/radiator.tobj"
-	texture_name[0] : "texture_base"
-	add_ambient : 0
-	diffuse : { 0.384002 , 0.384002 , 0.384002 }
-	reflection : 0
-	shininess : 50
-	specular : { 0.108215 , 0.108215 , 0.108215 }
-}
