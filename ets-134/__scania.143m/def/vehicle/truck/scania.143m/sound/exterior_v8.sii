@@ -44,12 +44,6 @@ accessory_sound_data : v8.scania.143m.esound
 
         asphalt_noise: .asphnoise
 
-	suitable_for[]: "dc13_450.scania.143m.engine"
-	suitable_for[]: "dc13_450i.scania.143m.engine"
-	suitable_for[]: "dc13_470.scania.143m.engine"
-	suitable_for[]: "dc13_470i.scania.143m.engine"
-	suitable_for[]: "dc16_500.scania.143m.engine"
-	suitable_for[]: "dc16_500i.scania.143m.engine"	
 }
 
 

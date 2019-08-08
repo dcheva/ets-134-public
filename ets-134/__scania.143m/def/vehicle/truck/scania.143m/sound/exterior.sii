@@ -42,15 +42,6 @@ accessory_sound_data : std.scania.143m.esound
 	horn: .horn
 	reverse: .reverse
 
-	suitable_for[]: "dc13_400.scania.143m.engine"
-	suitable_for[]: "dc12_420.scania.143m.engine"
-	#suitable_for[]: "dc13_450.scania.143m.engine"
-	#suitable_for[]: "dc13_470.scania.143m.engine"
-	suitable_for[]: "dc13_400i.scania.143m.engine"
-	suitable_for[]: "dc12_420i.scania.143m.engine"
-	#suitable_for[]: "dc13_450i.scania.143m.engine"
-	#suitable_for[]: "dc13_470i.scania.143m.engine"	
-
 }
 
 sound_data: .start
