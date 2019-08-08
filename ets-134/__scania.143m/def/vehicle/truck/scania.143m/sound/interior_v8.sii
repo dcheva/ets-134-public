@@ -103,7 +103,7 @@ sound_engine_data: .e0
 
 	min_rpm: 240.0
 	max_rpm: 710.0
-	volume: 0.60
+	volume: 0.85
 }
 
 sound_engine_data: .e1

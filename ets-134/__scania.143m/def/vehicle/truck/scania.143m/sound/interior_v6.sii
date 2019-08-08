@@ -90,6 +90,7 @@ sound_data: .startbad
 {
 	name: "/sound/truck/scania_143m/scania_v8/int/engine_on_bad.ogg"
 	looped: false
+	volume: 0.65
 }
 
 
@@ -98,6 +99,7 @@ sound_data: .stop
 	name: "/sound/truck/scania_143m/scania_v8/int/int_stop.ogg"
 	looped: false
 }
+
 
 sound_engine_data: .e0
 {
@@ -108,22 +110,23 @@ sound_engine_data: .e0
 	pitch_reference: 800
 
 	min_rpm: 240.0
-	max_rpm: 650.0
+	max_rpm: 950.0
 	volume: 0.75
 }
 
 sound_engine_data: .e1
 {
-	name: "/sound/truck/scania_143m/scania_v8/int/int_1600.ogg"
+	name: "/sound/truck/scania_2016/v8/int/int_scania_v8_load_1100.ogg"
 
 	looped: true
 
-	pitch_reference: 1445
+	pitch_reference: 1000
 
-	min_rpm: 550.0
-	max_rpm: 1100.0
-	volume: 0.85
+	min_rpm: 850.0
+	max_rpm: 3100.0
+	volume: 0.45
 }
+
 
 sound_engine_data: .e2
 {
@@ -420,6 +423,7 @@ sound_engine_data: .el26
 	max_rpm: 3000.0
 	volume: 0.99
 }
+
 sound_engine_data: .enf0
 {
 	name: "/sound/truck/scania_2016/v8/int/int_scania_v8_idle2.ogg"
@@ -427,7 +431,7 @@ sound_engine_data: .enf0
 	pitch_reference: 550
 	min_rpm: 240.0
 	max_rpm: 690.0
-	volume: 0.48
+	volume: 0.68
 }
 sound_engine_data: .enf1
 {
@@ -436,7 +440,7 @@ sound_engine_data: .enf1
 	pitch_reference: 900
 	min_rpm: 330.0
 	max_rpm: 1000.0
-	volume: 0.39
+	volume: 0.59
 }
 sound_engine_data: .enf2
 {
@@ -445,7 +449,7 @@ sound_engine_data: .enf2
 	pitch_reference: 1110
 	min_rpm: 790.0
 	max_rpm: 1290.0
-	volume: 0.39
+	volume: 0.55
 }
 sound_engine_data: .enf3
 {
@@ -454,7 +458,7 @@ sound_engine_data: .enf3
 	pitch_reference: 1360
 	min_rpm: 1100.0
 	max_rpm: 1590.0
-	volume: 0.30
+	volume: 0.50
 }
 sound_engine_data: .enf4
 {
@@ -463,7 +467,7 @@ sound_engine_data: .enf4
 	pitch_reference: 1660
 	min_rpm: 1380.0
 	max_rpm: 1889.0
-	volume: 0.30
+	volume: 0.50
 }
 sound_engine_data: .enf5
 {
@@ -472,7 +476,17 @@ sound_engine_data: .enf5
 	pitch_reference: 1960
 	min_rpm: 1680.0
 	max_rpm: 2300.0
-	volume: 0.30
+	volume: 0.50
+}
+
+sound_engine_data: .enf6
+{
+	name: "/sound/truck/scania_2016/v8/int/int_scania_v8_2100.ogg"
+	looped: true
+	pitch_reference: 2210
+	min_rpm: 2100.0
+	max_rpm: 3100.0
+	volume: 0.50
 }
 
 sound_engine_data: .enf6
