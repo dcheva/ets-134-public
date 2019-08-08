@@ -1,0 +1,31 @@
+SiiNunit
+{
+accessory_engine_data : d2066_265.man.tga.engine
+{
+	name: "D2066 LF67T 265 Euro 6"
+	price: 8520
+	unlock: 0
+	info[]: "360 @@hp@@ (265@@kw@@)"
+	info[]: "1@@dg@@800 @@nm@@"
+	info[]: "930-1@@dg@@400 @@rpm@@"
+	icon: "engine/man_d2066"
+
+	torque: 1800
+	volume: 10.5
+	no_adblue_power_limit: 0.5
+
+	torque_curve[]: (300, 0)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (930, 1)
+	torque_curve[]: (1400, 1)
+	torque_curve[]: (1800, 0.7857)
+	torque_curve[]: (1900, 0.75)
+	torque_curve[]: (2150, 0.66)
+	torque_curve[]: (2250, 0)
+	rpm_limit: 2500
+
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/badge_b/badge_xx360.sii"
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/sound/interior.sii"
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/sound/exterior.sii"
+}
+}

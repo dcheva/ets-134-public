@@ -1,0 +1,333 @@
+SiiNunit
+{
+vehicle: .company.truck
+{
+	fuel_relative: 1.0
+	odometer: 0
+
+ accessories[]: .data
+ accessories[]: .chassis
+ accessories[]: .cabin
+ accessories[]: .interior
+ accessories[]: .engine
+ accessories[]: .transmission
+ accessories[]: .soundint
+ accessories[]: .soundext
+ accessories[]: .head_light
+ accessories[]: .paint_job
+ accessories[]: .doorstep
+ accessories[]: .doorhndl
+ accessories[]: .mirror
+ accessories[]: .sunshld
+ accessories[]: .f_mirror
+ accessories[]: .s_mirror
+ accessories[]: .badge
+ accessories[]: .chs_badges
+ accessories[]: .spoiler
+ accessories[]: .fenders
+ accessories[]: .wingsb 
+ accessories[]: .bumper
+ accessories[]: .side_pannels
+ accessories[]: .cover
+ accessories[]: .ftire
+ accessories[]: .fdisc
+ accessories[]: .fhub
+ accessories[]: .fnuts
+ accessories[]: .rtire
+ accessories[]: .rdisc
+ accessories[]: .rhub
+ accessories[]: .rnuts
+ accessories[]: .front_grill
+ accessories[]: .side_door
+ accessories[]: .window
+ accessories[]: .front_l
+ accessories[]: .rear_l
+ accessories[]: .fog_l
+ accessories[]: .chocks
+ accessories[]: .steps
+ accessories[]: .swheel
+ accessories[]: .front_l_gls
+ accessories[]: .trl_cables
+ accessories[]: .gearstick
+ 
+ 
+}
+
+vehicle_accessory : .data {
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/data.sii"
+}
+
+vehicle_accessory : .chassis {
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/chassis/4x2.sii"
+}
+
+vehicle_accessory : .cabin {
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/cabin/xlx_cab.sii"
+}
+
+vehicle_accessory : .interior {
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/interior/standard_black_mid.sii"
+}
+
+vehicle_accessory : .engine {
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/engine/d2866_410.sii"
+}
+
+vehicle_addon_accessory : .badge {
+data_path: "/def/vehicle/truck/man.tga/badge/440.sii"
+}
+
+vehicle_addon_accessory : .chs_badges {
+data_path: "/def/vehicle/truck/man.tga/chs_badges/chs_badges_18.sii"
+}
+
+vehicle_accessory : .transmission {
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/transmission/12_speed.sii"
+}
+
+vehicle_sound_accessory : .soundint {
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/sound/interior.sii"
+}
+
+vehicle_sound_accessory : .soundext {
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/sound/exterior.sii"
+}
+
+vehicle_accessory : .head_light {
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/head_light/standard.sii"
+}
+
+
+vehicle_paint_job_accessory : .paint_job {
+ 
+ base_color: (0.0284, 0.0782, 0.2789)
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/paint_job/color0.sii"
+}
+
+vehicle_addon_accessory : .doorstep {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/doorstep/shape1.sii"
+}
+
+vehicle_addon_accessory : .doorhndl {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/doorhndl/shape1.sii"
+}
+
+vehicle_addon_accessory : .mirror {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/mirror/shape2.sii"
+}
+
+vehicle_addon_accessory : .sunshld {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/sunshld/shape1_b.sii"
+}
+
+vehicle_addon_accessory : .f_mirror {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/f_mirror/shape1.sii"
+}
+
+vehicle_addon_accessory : .s_mirror {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/s_mirror/shape1.sii"
+}
+
+
+vehicle_addon_accessory : .spoiler {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/spoiler/shape11.sii"
+}
+
+
+vehicle_addon_accessory : .fenders {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/fenders/shape1.sii"
+}
+
+vehicle_addon_accessory : .wingsb {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/wingsb/shape1.sii"
+}
+
+vehicle_addon_accessory : .bumper {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/bumper/shape2.sii"
+}
+
+vehicle_addon_accessory : .side_pannels {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/side_pannels/shape2.sii"
+}
+
+
+vehicle_addon_accessory : .cover {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/cover/shape1.sii"
+}
+
+vehicle_wheel_accessory : .ftire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .fdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_disc/front_disc_02_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .fhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_hub/front_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .fnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .rtire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .rdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .rhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .rnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_addon_accessory : .front_grill {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/front_grill/shape1.sii"
+}
+
+vehicle_addon_accessory : .side_door {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/side_door/shape1_bc.sii"
+}
+
+vehicle_addon_accessory : .window {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/window/shape1_bc.sii"
+}
+
+vehicle_addon_accessory : .front_l {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/front_l/shape1.sii"
+}
+
+vehicle_addon_accessory : .rear_l {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/rear_l/shape1.sii"
+}
+
+vehicle_addon_accessory : .fog_l {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/fog_l/shape1.sii"
+}
+
+vehicle_addon_accessory : .chocks {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/chocks/shape2.sii"
+}
+
+vehicle_addon_accessory : .steps {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/steps/shape1.sii"
+}	
+	
+vehicle_addon_accessory : .swheel {
+	wear: 0
+	data_path: "/def/vehicle/truck/man.tga/accessory/steering_w/std_01.sii"
+}
+
+vehicle_addon_accessory : .front_l_gls {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/front_l_gls/shape1.sii"
+}
+
+vehicle_addon_accessory : .trl_cables {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/trlr_cables/stock.sii"
+}
+
+vehicle_addon_accessory : .gearstick {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/man.tga/accessory/gearstick/auto.sii"
+}
+}

@@ -1,0 +1,30 @@
+SiiNunit
+{
+accessory_engine_data : d2868_500.man.tga.engine
+{
+	name: "D2868 LFT 500"
+	price: 19980
+	unlock: 8
+	info[]: "680 @@hp@@ (500@@kw@@)"
+	info[]: "3@@dg@@000 @@nm@@"
+	info[]: "1@@dg@@100-1@@dg@@400 @@rpm@@"
+	icon: "engine_01"
+
+	torque: 3000
+	volume: 16.2
+
+	torque_curve[]: (300, 0)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (930, 1)
+	torque_curve[]: (1400, 1)
+	torque_curve[]: (1800, 0.81)
+	torque_curve[]: (2100, 0.75)
+	torque_curve[]: (2300, 0.66)
+	torque_curve[]: (2400, 0)
+	rpm_limit: 2500
+
+	no_adblue_power_limit: 0.5
+
+	overrides[]: "/def/vehicle/truck/man.tgx/badge/18680.sii"
+}
+}

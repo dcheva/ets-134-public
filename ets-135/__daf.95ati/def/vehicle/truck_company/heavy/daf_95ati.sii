@@ -1,0 +1,172 @@
+SiiNunit
+{
+vehicle : .company.truck
+{
+	accessories[]: .data
+	accessories[]: .chassis
+	accessories[]: .cab
+	accessories[]: .interior
+	accessories[]: .engine
+	accessories[]: .trans
+	accessories[]: .sound_int
+	accessories[]: .sound_ext
+	accessories[]: .hlight
+	accessories[]: .ftire
+	accessories[]: .fdisc
+	accessories[]: .fhub
+	accessories[]: .fnuts
+	accessories[]: .rtire
+	accessories[]: .rdisc
+	accessories[]: .rhub
+	accessories[]: .rnuts
+	accessories[]: .paintjob
+    accessories[]: .dhandle
+	accessories[]: .mirrors
+ 	accessories[]: .badge
+	accessories[]: .f_logo
+    accessories[]: .f_intake_cab
+	accessories[]: .s_deflector
+	accessories[]: .f_fender_cab
+ 	accessories[]: .f_wnd_frame
+	accessories[]: .f_bumper
+	accessories[]: .f_light_chs
+ 	accessories[]: .r_fender
+	accessories[]: .r_mudflap
+	
+	accessories[]: .steering_w
+	accessories[]: .trlr_cables
+
+}
+
+vehicle_accessory : .data {
+	data_path: "/def/vehicle/truck/daf.95ati/data.sii"
+}
+
+vehicle_accessory : .chassis {
+	data_path: "/def/vehicle/truck/daf.95ati/chassis/4x2.sii"
+}
+
+vehicle_accessory : .cab {
+	data_path: "/def/vehicle/truck/daf.95ati/cabin/space_cab.sii"
+}
+
+vehicle_accessory : .interior {
+	data_path: "/def/vehicle/truck/daf.95ati/interior/standard.sii"
+}
+
+vehicle_accessory : .engine {
+	data_path: "/def/vehicle/truck/daf.95ati/engine/ws_400.sii"
+}
+
+vehicle_accessory : .trans {
+	data_path: "/def/vehicle/truck/daf.95ati/transmission/16s130.sii"
+}
+
+vehicle_sound_accessory : .sound_int {
+	data_path: "/def/vehicle/truck/daf.95ati/sound/interior.sii"
+}
+
+vehicle_sound_accessory : .sound_ext {
+	data_path: "/def/vehicle/truck/daf.95ati/sound/exterior.sii"
+}
+
+vehicle_accessory : .hlight {
+	data_path: "/def/vehicle/truck/daf.95ati/head_light/xenon.sii"
+}
+vehicle_wheel_accessory : .ftire {
+	data_path: "/def/vehicle/f_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .fdisc {
+	data_path: "/def/vehicle/f_disc/front_disc_02_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .fhub {
+	data_path: "/def/vehicle/f_hub/front_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .fnuts {
+	data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .rtire {
+	data_path: "/def/vehicle/r_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .rdisc {
+	data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .rhub {
+	data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .rnuts {
+	data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_paint_job_accessory : .paintjob {
+	base_color : (0.9822, 0.7088, 0.0251)
+	data_path: "/def/vehicle/truck/daf.95ati/paint_job/color1.sii"
+}
+
+vehicle_addon_accessory : .dhandle {
+	data_path: "/def/vehicle/truck/daf.95ati/accessory/doorhndl/stock.sii"
+}
+
+vehicle_addon_accessory : .mirrors {
+	data_path: "/def/vehicle/truck/daf.95ati/accessory/mirror/shape1.sii"
+}
+
+vehicle_addon_accessory : .badge {
+	data_path: "/def/vehicle/truck/daf.95ati/badge/400.sii"
+}
+
+vehicle_addon_accessory : .f_logo {
+	data_path: "/def/vehicle/truck/daf.95ati/accessory/f_logo/stock.sii"
+}
+
+vehicle_addon_accessory : .f_intake_cab {
+	data_path: "/def/vehicle/truck/daf.95ati/accessory/f_intake_cab/plast.sii"
+}
+
+vehicle_addon_accessory : .s_deflector {
+	data_path: "/def/vehicle/truck/daf.95ati/accessory/s_deflector/stock.sii"
+}
+
+vehicle_addon_accessory : .f_fender_cab {
+	data_path: "/def/vehicle/truck/daf.95ati/accessory/f_fender_cab/plast_a.sii"
+}
+
+vehicle_addon_accessory : .f_wnd_frame {
+	data_path: "/def/vehicle/truck/daf.95ati/accessory/f_wnd_frame/plast.sii"
+}
+
+vehicle_addon_accessory : .f_bumper {
+	data_path: "/def/vehicle/truck/daf.95ati/accessory/f_bumper/plast.sii"
+}
+
+vehicle_addon_accessory : .f_light_chs {
+	data_path: "/def/vehicle/truck/daf.95ati/accessory/f_light_chs/stock.sii"
+}
+
+vehicle_addon_accessory : .r_fender {
+	data_path: "/def/vehicle/truck/daf.95ati/accessory/r_fender/stock_4x2.sii"
+}
+
+vehicle_addon_accessory : .r_mudflap {
+	data_path: "/def/vehicle/truck/daf.95ati/accessory/r_mudflap/stock.sii"
+}
+
+
+
+
+vehicle_addon_accessory : .steering_w {
+	data_path: "/def/vehicle/truck/daf.95ati/accessory/steering_w/standard.sii"
+}
+
+vehicle_addon_accessory : .trlr_cables {
+	data_path: "/def/vehicle/truck/daf.95ati/accessory/trlr_cables/stock.sii"
+}
+
+}

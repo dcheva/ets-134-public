@@ -1,0 +1,31 @@
+SiiNunit
+{
+accessory_engine_data : d2676_324.man.tga.engine
+{
+	name: "D2676 LF26T 324 Euro 6"
+	price: 12600
+	unlock: 8
+	info[]: "440 @@hp@@ (324@@kw@@)"
+	info[]: "2@@dg@@100 @@nm@@"
+	info[]: "930-1@@dg@@400 @@rpm@@"
+	icon: "engine/man_d2676"
+
+	torque: 2100
+	torque_curve[]: (300, 0)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (930, 1)
+	torque_curve[]: (1400, 1)
+	torque_curve[]: (1800, 0.81)
+	torque_curve[]: (1900, 0.75)
+	torque_curve[]: (2250, 0.66)
+	torque_curve[]: (2350, 0)
+
+	volume: 12.4
+	rpm_limit: 2500
+	no_adblue_power_limit: 0.5
+
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/badge_b/badge_xx440.sii"
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/sound/interior.sii"
+	overrides[]: "/def/vehicle/truck/man.tgx_euro6/sound/exterior.sii"
+}
+}

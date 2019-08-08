@@ -1,0 +1,308 @@
+SiiNunit
+{
+vehicle: .tdealer.volvo_f12_0
+{
+ fuel_relative: &3f000000
+ user_mirror_rot: 4
+ user_mirror_rot[0]: (1; 0, 0, 0)
+ user_mirror_rot[1]: (1; 0, 0, 0)
+ user_mirror_rot[2]: (1; 0, 0, 0)
+ user_mirror_rot[3]: (1; 0, 0, 0)
+
+ accessories[]: .volvo0.data
+ accessories[]: .volvo0.chassis
+ accessories[]: .volvo0.cabin
+ accessories[]: .volvo0.interior
+ accessories[]: .volvo0.engine
+ accessories[]: .volvo0.transmission
+ accessories[]: .volvo0.soundint
+ accessories[]: .volvo0.soundext
+ accessories[]: .volvo0.head_light
+ accessories[]: .volvo0.ftire
+ accessories[]: .volvo0.fdisc
+ accessories[]: .volvo0.fhub
+ accessories[]: .volvo0.fnuts
+ accessories[]: .volvo0.rtire
+ accessories[]: .volvo0.rdisc
+ accessories[]: .volvo0.rhub
+ accessories[]: .volvo0.rnuts
+ accessories[]: .volvo0.rtire2
+ accessories[]: .volvo0.rdisc2
+ accessories[]: .volvo0.rhub2
+ accessories[]: .volvo0.rnuts2
+ accessories[]: .volvo0.paint_job
+ accessories[]: .volvo0.doorstep
+ accessories[]: .volvo0.mirror
+ accessories[]: .volvo0.sunshld
+ accessories[]: .volvo0.s_mirror
+ accessories[]: .volvo0.badge
+ accessories[]: .volvo0.swheel
+ accessories[]: .volvo0.b_light
+ accessories[]: .volvo0.f_gelgir
+ accessories[]: .volvo0.gelgir
+ accessories[]: .volvo0.rgelgir
+ accessories[]: .volvo0.hood
+ accessories[]: .volvo0.irankave
+ accessories[]: .volvo0.jelo
+ accessories[]: .volvo0.r_light
+ accessories[]: .volvo0.separ
+ accessories[]: .volvo0.steel_chs
+ accessories[]: .volvo0.z_door
+ accessories[]: .volvo0.horn
+ accessories[]: .volvo0.trlr_cables
+ odometer: 0
+ odometer_float_part: &391ddad3
+}
+
+vehicle_accessory : .volvo0.data {
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/data.sii"
+}
+
+vehicle_accessory : .volvo0.chassis {
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/chassis/6x4a.sii"
+}
+
+vehicle_accessory : .volvo0.cabin {
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/cabin/l2h1.sii"
+}
+
+vehicle_accessory : .volvo0.interior {
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/interior/standard_low.sii"
+}
+
+vehicle_accessory : .volvo0.engine {
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/engine/d12g385.sii"
+}
+
+vehicle_accessory : .volvo0.transmission {
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/transmission/12_speed.sii"
+}
+
+vehicle_sound_accessory : .volvo0.soundint {
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/sound/interior.sii"
+}
+
+vehicle_sound_accessory : .volvo0.soundext {
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/sound/exterior.sii"
+}
+
+vehicle_accessory : .volvo0.head_light {
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/head_light/standard.sii"
+}
+
+vehicle_paint_job_accessory : .volvo0.paint_job {
+ mask_r_color: (1, 0, 0)
+ mask_g_color: (0, 1, 0)
+ mask_b_color: (0, 0, 1)
+ base_color :  (0.0077, 0.0077, 0.0077)
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/paint_job/color2.sii"
+}
+
+vehicle_addon_accessory : .volvo0.doorstep {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/doorstep/shape1.sii"
+}
+
+vehicle_addon_accessory : .volvo0.mirror {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/mirror/shape1.sii"
+}
+
+vehicle_addon_accessory : .volvo0.sunshld {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/sunshld/shape1.sii"
+}
+
+vehicle_addon_accessory : .volvo0.s_mirror {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/s_mirror/shape1.sii"
+}
+
+vehicle_addon_accessory : .volvo0.badge {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/badge/f12.sii"
+}
+vehicle_wheel_accessory : .volvo0.ftire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .volvo0.fdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_disc/front_disc_02_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .volvo0.fhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_hub/front_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .volvo0.fnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .volvo0.rtire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .volvo0.rdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .volvo0.rhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .volvo0.rnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+vehicle_wheel_accessory : .volvo0.rtire2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_tire/1.sii"
+}
+
+vehicle_wheel_accessory : .volvo0.rdisc2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .volvo0.rhub2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .volvo0.rnuts2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_addon_accessory : .volvo0.b_light {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/b_light/shape2.sii"
+}
+
+vehicle_addon_accessory : .volvo0.f_gelgir {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/f_gelgir/shape1.sii"
+}
+
+vehicle_addon_accessory : .volvo0.gelgir {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/gelgir/shape2.sii"
+}
+
+vehicle_addon_accessory : .volvo0.rgelgir {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/rgelgir/shape3.sii"
+}
+
+vehicle_addon_accessory : .volvo0.hood {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/hood/shape1.sii"
+}
+
+vehicle_addon_accessory : .volvo0.irankave {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/irankave/shape2.sii"
+}
+
+vehicle_addon_accessory : .volvo0.jelo {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/jelo/shape1.sii"
+}
+
+vehicle_addon_accessory : .volvo0.r_light {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/r_light/shape2.sii"
+}
+
+vehicle_addon_accessory : .volvo0.separ {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/separ/shape3.sii"
+}
+
+vehicle_addon_accessory : .volvo0.steel_chs {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/steel_chs/shape1.sii"
+}
+
+vehicle_addon_accessory : .volvo0.z_door {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/z_door/shape2.sii"
+}
+
+vehicle_addon_accessory : .volvo0.horn {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.f12/accessory/horn/shape2.sii"
+}
+
+vehicle_addon_accessory : .volvo0.swheel {
+	wear: 0
+	data_path: "/def/vehicle/truck/volvo.f12/accessory/steering_w/standard.sii"
+}
+
+vehicle_addon_accessory : .volvo0.trlr_cables {
+	data_path: "/def/vehicle/truck/volvo.f12/accessory/trlr_cables/stock.sii"
+}
+}
