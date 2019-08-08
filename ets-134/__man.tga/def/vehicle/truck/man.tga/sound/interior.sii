@@ -99,6 +99,9 @@ accessory_sound_data : int.man.tga.isound
 	engine_load[]: .el15e
 	engine_load[]: .el16e
 	engine_load[]: .el17e
+	engine_load[]: .el17a
+	engine_load[]: .el18a
+	engine_load[]: .el19a
 	engine_brake[]: .eb
 	engine_brake[]: .eb1
 	air_gear[0]: .airgear0
@@ -977,6 +980,52 @@ sound_engine_data: .el17e
 	max_rpm: 2503.0
 	volume: 1.3
 }
+
+
+
+sound_engine_data: .el17a
+{
+	name: "/sound/truck/man/int/1500.ogg"
+
+	looped: true
+
+	pitch_reference: 750
+
+	min_rpm: 1460.0
+	max_rpm: 3000.0
+	volume: 1.05
+}
+
+
+sound_engine_data: .el18a
+{
+	name: "/sound/truck/man/int/loaded_2.ogg"
+
+	looped: true
+
+	pitch_reference: 500
+
+	min_rpm: 1660.0
+	max_rpm: 3060.0
+	volume: 1.35
+}
+
+sound_engine_data: .el19a
+{
+	name: "/sound/truck/man/int/loaded_4.ogg"
+
+	looped: true
+
+	pitch_reference: 1500
+
+	min_rpm: 1860.0
+	max_rpm: 3000.0
+	volume: 1.65
+}
+
+
+
+
 sound_engine_data: .eb
 {
 	name: "/sound/truck/man/tga/d_2066_430_e3/interior/engine_brake_int.ogg"

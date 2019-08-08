@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_sound_data : int.man.tgx_euro6.sound
+accessory_sound_data : std.man.tgx.isound
 {
 	exterior_sound: false
 
@@ -50,7 +50,7 @@ accessory_sound_data : int.man.tgx_euro6.sound
 	wipers_up: .wipers_up
 	wipers_down: .wipers_down
 
-@include "/def/vehicle/truck/man_tga_2006_int.sui"
+@include "/def/vehicle/truck/man_sound_int.sui"
 
 }
 
@@ -150,7 +150,7 @@ sound_engine_data: .e5
 
 	min_rpm: 1800.0
 	max_rpm: 3000.0
-	volume: 1.25
+	volume: 1.05
 }
 
 sound_engine_data: .e6
@@ -179,6 +179,7 @@ sound_engine_data: .e7
 	volume: 1.25
 }
 
+
 sound_engine_data: .el0
 {
 	name: "/sound/truck/volvo/int/volvo_int_exhaust_idle.ogg"
@@ -196,7 +197,7 @@ sound_engine_data: .el1
 
 	looped: true
 
-	pitch_reference: 0800
+	pitch_reference: 800
 
 	min_rpm: 610.0
 	max_rpm: 900.0
@@ -264,7 +265,7 @@ sound_engine_data: .el6
 	pitch_reference: 900
 
 	min_rpm: 1550.0
-	max_rpm: 2000.0
+	max_rpm: 3000.0
 	volume: 1.8
 }
 
@@ -276,10 +277,11 @@ sound_engine_data: .el7
 
 	pitch_reference: 750
 
-	min_rpm: 1760.0
+	min_rpm: 1460.0
 	max_rpm: 3000.0
-	volume: 2.0
+	volume: 1.05
 }
+
 
 sound_engine_data: .el8
 {
@@ -291,7 +293,7 @@ sound_engine_data: .el8
 
 	min_rpm: 1660.0
 	max_rpm: 3060.0
-	volume: 1.4
+	volume: 1.35
 }
 
 sound_engine_data: .el9
@@ -302,9 +304,9 @@ sound_engine_data: .el9
 
 	pitch_reference: 1500
 
-	min_rpm: 1760.0
+	min_rpm: 1860.0
 	max_rpm: 3000.0
-	volume: 1.6
+	volume: 1.05
 }
 
 sound_engine_data: .el10
@@ -317,7 +319,7 @@ sound_engine_data: .el10
 
 	min_rpm: 1860.0
 	max_rpm: 3000.0
-	volume: 1.8
+	volume: 1.15
 }
 
 sound_data: .t
@@ -349,7 +351,7 @@ sound_data: .airgear2
 sound_data: .airbrake0
 {
 	name: "/sound/truck/volvo/int/air_brake1.ogg"
-	looped: false 
+	looped: false
 	volume: 0.7
 }
 
@@ -379,24 +381,23 @@ sound_engine_data: .eb
 }
 
 
+sound_data: .horn
+{
+	name: "/sound/truck/man/int/horn.ogg"
+	looped: true  volume: 4.0
+}
+
 sound_data: .ahorn
 {
 	name: "/sound/truck/man/int/air_horn.ogg"
 	looped: true
-        volume: 4.0
-}
-
-sound_data: .horn
-{
-	name: "/sound/truck/volvo/int/horn.ogg"
-	looped: true
-	volume: 3.6
+        volume: 3.6
 }
 
 sound_data: .reverse
 {
 	name: "/sound/truck/volvo/int/reverse.ogg"
-	looped: true
+	looped: true  
 	volume: 3.8
 }
 
@@ -410,14 +411,14 @@ sound_data: .blinker_on
 {
 	name: "/sound/truck/volvo/int/blinker_on.ogg"
 	is_2d: true
-	volume: 0.32
+	volume: 0.42
 }
 
 sound_data: .blinker_off
 {
 	name: "/sound/truck/volvo/int/blinker_off.ogg"
 	is_2d: true
-	volume: 0.32
+	volume: 0.42
 }
 
 sound_data: .wipers_up
@@ -434,6 +435,6 @@ sound_data: .wipers_down
 	volume: 0.65
 }
 
-@include "/def/vehicle/truck/man_tga_2006_int_data.sui"
+@include "/def/vehicle/truck/man_sound_int_data.sui"
 
 }

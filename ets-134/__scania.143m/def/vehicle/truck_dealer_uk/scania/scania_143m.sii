@@ -2,133 +2,133 @@ SiiNunit
 {
 vehicle: .tdealer.scania_143mz
 {
- accessories[]: scania.143m.data
- accessories[]: scania.143m.chassis
- accessories[]: scania.143m.cabin
- accessories[]: scania.143m.interior
- accessories[]: scania.143m.engine
- accessories[]: scania.143m.transmission
- accessories[]: scania.143m.isound
- accessories[]: scania.143m.esound
- accessories[]: scania.143m.head_light
- accessories[]: scania.143m.fdisc
- accessories[]: scania.143m.ftire
- accessories[]: scania.143m.fhub
- accessories[]: scania.143m.fnuts
- accessories[]: scania.143m.rdisc
- accessories[]: scania.143m.rhub
- accessories[]: scania.143m.rnuts
- accessories[]: scania.143m.rtire
- accessories[]: scania.143m.paint_job
- accessories[]: scania.143m.mirror
- accessories[]: scania.143m.s_mirror
- accessories[]: scania.143m.sunshld
- accessories[]: scania.143m.exhaust
- accessories[]: scania.143m.grill_c
- accessories[]: scania.143m.bumper
- accessories[]: scania.143m.badge6
+ accessories[]: scania.143mz.data
+ accessories[]: scania.143mz.chassis
+ accessories[]: scania.143mz.cabin
+ accessories[]: scania.143mz.interior
+ accessories[]: scania.143mz.engine
+ accessories[]: scania.143mz.transmission
+ accessories[]: scania.143mz.isound
+ accessories[]: scania.143mz.esound
+ accessories[]: scania.143mz.head_light
+ accessories[]: scania.143mz.fdisc
+ accessories[]: scania.143mz.ftire
+ accessories[]: scania.143mz.fhub
+ accessories[]: scania.143mz.fnuts
+ accessories[]: scania.143mz.rdisc
+ accessories[]: scania.143mz.rhub
+ accessories[]: scania.143mz.rnuts
+ accessories[]: scania.143mz.rtire
+ accessories[]: scania.143mz.paint_job
+ accessories[]: scania.143mz.mirror
+ accessories[]: scania.143mz.s_mirror
+ accessories[]: scania.143mz.sunshld
+ accessories[]: scania.143mz.exhaust
+ accessories[]: scania.143mz.grill_c
+ accessories[]: scania.143mz.bumper
+ accessories[]: scania.143mz.badge6
  odometer: 0
  odometer_float_part: &3c84f542
 }
 
-vehicle_accessory : scania.143m.data {
+vehicle_accessory : scania.143mz.data {
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/data.sii"
 }
 
-vehicle_accessory : scania.143m.chassis {
+vehicle_accessory : scania.143mz.chassis {
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/chassis/4x2.sii"
 }
 
-vehicle_accessory : scania.143m.cabin {
+vehicle_accessory : scania.143mz.cabin {
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/cabin/topline.sii"
 }
 
-vehicle_accessory : scania.143m.interior {
+vehicle_accessory : scania.143mz.interior {
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/interior/standard.sii"
 }
 
-vehicle_accessory : scania.143m.engine {
+vehicle_accessory : scania.143mz.engine {
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/engine/dc13_360.sii"
 }
 
-vehicle_addon_accessory : scania.143m.badge6 {
+vehicle_addon_accessory : scania.143mz.badge6 {
  data_path: "/def/vehicle/truck/scania.143m/badge/r360.sii"
 }
 
-vehicle_accessory : scania.143m.transmission {
+vehicle_accessory : scania.143mz.transmission {
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/transmission/10_speed.sii"
 }
 
-vehicle_sound_accessory : scania.143m.isound {
+vehicle_sound_accessory : scania.143mz.isound {
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/sound/interior.sii"
 }
 
-vehicle_sound_accessory : scania.143m.esound {
+vehicle_sound_accessory : scania.143mz.esound {
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/sound/exterior.sii"
 }
 
-vehicle_accessory : scania.143m.head_light {
+vehicle_accessory : scania.143mz.head_light {
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/head_light/standard.sii"
 }
 
-vehicle_wheel_accessory : scania.143m.fdisc {
+vehicle_wheel_accessory : scania.143mz.fdisc {
  offset: 0
  wear: 0
  data_path: "/def/vehicle/f_disc/front_disc_02_matt_gray.sii"
 }
 
-vehicle_wheel_accessory : scania.143m.ftire {
+vehicle_wheel_accessory : scania.143mz.ftire {
  offset: 0
  wear: 0
  data_path: "/def/vehicle/f_tire/1.sii"
 }
 
-vehicle_wheel_accessory : scania.143m.fhub {
+vehicle_wheel_accessory : scania.143mz.fhub {
  offset: 0
  wear: 0
  data_path: "/def/vehicle/f_hub/front_hub_01.sii"
 }
 
-vehicle_wheel_accessory : scania.143m.fnuts {
+vehicle_wheel_accessory : scania.143mz.fnuts {
  offset: 0
  wear: 0
  data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
 }
 
-vehicle_wheel_accessory : scania.143m.rdisc {
+vehicle_wheel_accessory : scania.143mz.rdisc {
  offset: 0
  wear: 0
  data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
 }
 
-vehicle_wheel_accessory : scania.143m.rhub {
+vehicle_wheel_accessory : scania.143mz.rhub {
  offset: 0
  wear: 0
  data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
 }
 
-vehicle_wheel_accessory : scania.143m.rnuts {
+vehicle_wheel_accessory : scania.143mz.rnuts {
  offset: 0
  wear: 0
  data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
 }
 
-vehicle_wheel_accessory : scania.143m.rtire {
+vehicle_wheel_accessory : scania.143mz.rtire {
  offset: 0
  wear: 0
  data_path: "/def/vehicle/r_tire/1.sii"
 }
 
-vehicle_paint_job_accessory : scania.143m.paint_job {
+vehicle_paint_job_accessory : scania.143mz.paint_job {
  mask_r_color: (1, 0, 0)
  mask_g_color: (0, 1, 0)
  mask_b_color: (0, 0, 1)
@@ -137,42 +137,42 @@ vehicle_paint_job_accessory : scania.143m.paint_job {
  data_path: "/def/vehicle/truck/scania.143m/paint_job/color5.sii"
 }
 
-vehicle_addon_accessory : scania.143m.mirror {
+vehicle_addon_accessory : scania.143mz.mirror {
  slot_name: 0
  slot_hookup: 0
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/accessory/mirror/shape1.sii"
 }
 
-vehicle_addon_accessory : scania.143m.s_mirror {
+vehicle_addon_accessory : scania.143mz.s_mirror {
  slot_name: 0
  slot_hookup: 0
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/accessory/s_mirror/shape1.sii"
 }
 
-vehicle_addon_accessory : scania.143m.sunshld {
+vehicle_addon_accessory : scania.143mz.sunshld {
  slot_name: 0
  slot_hookup: 0
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/accessory/sunshld/shape0.sii"
  }
 
-vehicle_addon_accessory : scania.143m.exhaust {
+vehicle_addon_accessory : scania.143mz.exhaust {
  slot_name: 0
  slot_hookup: 0
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/accessory/exhaust_l/exh0.sii"
  }
 
-vehicle_addon_accessory : scania.143m.grill_c {
+vehicle_addon_accessory : scania.143mz.grill_c {
  slot_name: 0
  slot_hookup: 0
  wear: 0
  data_path: "/def/vehicle/truck/scania.143m/accessory/grill_c/shape1.sii"
 }
 
-vehicle_addon_accessory : scania.143m.bumper {
+vehicle_addon_accessory : scania.143mz.bumper {
  slot_name: 0
  slot_hookup: 0
  wear: 0
