@@ -79,7 +79,7 @@ sound_noise_data: .was0
     	min_speed: 3.0
 	max_speed: 10.0
 	pitch_reference: 7.0
-	volume: 0.25
+	volume: 0.75
 }
 sound_noise_data: .was1
 {
@@ -88,7 +88,7 @@ sound_noise_data: .was1
     min_speed: 5.0
 	max_speed: 15.0
 	pitch_reference: 13.0
-	volume: 0.29
+	volume: 0.60
 }
 sound_noise_data: .was2
 {
@@ -97,7 +97,7 @@ sound_noise_data: .was2
     min_speed: 10.0
 	max_speed: 20.0
 	pitch_reference: 17.0
-	volume: 0.33
+	volume: 0.50
 }
 sound_noise_data: .was3
 {
@@ -106,7 +106,7 @@ sound_noise_data: .was3
     min_speed: 15.0
 	max_speed: 25.0
 	pitch_reference: 23.0
-	volume: 0.35
+	volume: 0.40
 }
 sound_noise_data: .was4
 {
@@ -115,7 +115,7 @@ sound_noise_data: .was4
 	min_speed: 20.0
 	max_speed: 30.0
 	pitch_reference: 27.0
-	volume: 0.37
+	volume: 0.40
 }
 sound_noise_data: .was5
 {
@@ -124,7 +124,7 @@ sound_noise_data: .was5
     	min_speed: 25.0
 	max_speed: 35.0
 	pitch_reference: 32.0
-	volume: 0.39
+	volume: 0.40
 }
 sound_noise_data: .was6
 {

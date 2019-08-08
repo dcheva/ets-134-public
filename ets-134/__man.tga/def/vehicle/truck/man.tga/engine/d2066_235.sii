@@ -1,0 +1,29 @@
+SiiNunit
+{
+accessory_engine_data : d2066_235.man.tgx.engine
+{
+	name: "D2066 LFT 235"
+	price: 8520
+	unlock: 0
+	info[]: "320 @@hp@@ (235@@kw@@)"
+	info[]: "1@@dg@@600 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@400 @@rpm@@"
+	icon: "engine_01"
+	torque: 1600
+	volume: 10.5
+
+	torque_curve[]: (300, 0)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (930, 1)
+	torque_curve[]: (1400, 1)
+	torque_curve[]: (1800, 0.7857)
+	torque_curve[]: (1900, 0.75)
+	torque_curve[]: (2050, 0.66)
+	torque_curve[]: (2150, 0)
+	rpm_limit: 2500
+
+	no_adblue_power_limit: 0.5
+
+	overrides[]: "/def/vehicle/truck/man.tgx/badge/18320.sii"
+}
+}

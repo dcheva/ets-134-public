@@ -58,18 +58,21 @@ sound_data: .start
 {
 	name: "/sound/truck/man/int/start.ogg"
 	looped: false
+	volume: 1.45
 }
 
 sound_data: .startbad
 {
 	name: "/sound/truck/volvo/int/volvo_int_engine_start_bad.ogg"
 	looped: false
+	volume: 1.45
 }
 
 sound_data: .stop
 {
 	name: "/sound/truck/man/int/stop.ogg"
 	looped: false
+	volume: 1.45
 }
 
 sound_engine_data: .e0
@@ -82,7 +85,7 @@ sound_engine_data: .e0
 
 	min_rpm: 300.0
 	max_rpm: 690.0
-	volume: 0.85
+	volume: 0.95
 }
 
 sound_engine_data: .e1
@@ -95,7 +98,7 @@ sound_engine_data: .e1
 
 	min_rpm: 620.0
 	max_rpm: 980.0
-	volume: 0.60
+	volume: 0.90
 }
 
 sound_engine_data: .e2
@@ -108,7 +111,7 @@ sound_engine_data: .e2
 
 	min_rpm: 730.0
 	max_rpm: 1230.0
-	volume: 0.70
+	volume: 0.85
 }
 
 sound_engine_data: .e3
@@ -121,7 +124,7 @@ sound_engine_data: .e3
 
 	min_rpm: 1050.0
 	max_rpm: 1600.0
-	volume: 0.75
+	volume: 0.80
 }
 
 sound_engine_data: .e4
@@ -133,8 +136,8 @@ sound_engine_data: .e4
 	pitch_reference: 1760
 
 	min_rpm: 1420.0
-	max_rpm: 2050.0
-	volume: 0.80
+	max_rpm: 3050.0
+	volume: 0.85
 }
 
 sound_engine_data: .e5
@@ -143,11 +146,11 @@ sound_engine_data: .e5
 
 	looped: true
 
-	pitch_reference: 2150
+	pitch_reference: 1075
 
 	min_rpm: 1800.0
 	max_rpm: 3000.0
-	volume: 2.25
+	volume: 1.25
 }
 
 sound_engine_data: .e6
@@ -184,7 +187,7 @@ sound_engine_data: .el0
 
 	min_rpm: 300.0
 	max_rpm: 690.0
-	volume: 0.6
+	volume: 1.3
 }
 
 sound_engine_data: .el1
@@ -197,7 +200,7 @@ sound_engine_data: .el1
 
 	min_rpm: 610.0
 	max_rpm: 900.0
-	volume: 0.6
+	volume: 1.3
 }
 
 sound_engine_data: .el2
@@ -210,7 +213,7 @@ sound_engine_data: .el2
 
 	min_rpm: 720.0
 	max_rpm: 1050.0
-	volume: 0.6
+	volume: 1.3
 }
 
 sound_engine_data: .el3
@@ -223,7 +226,7 @@ sound_engine_data: .el3
 
 	min_rpm: 920.0
 	max_rpm: 1300.0
-	volume: 0.6
+	volume: 1.3
 }
 
 sound_engine_data: .el4
@@ -236,7 +239,7 @@ sound_engine_data: .el4
 
 	min_rpm: 1150.0
 	max_rpm: 1500.0
-	volume: 0.6
+	volume: 1.3
 }
 
 sound_engine_data: .el5
@@ -249,7 +252,7 @@ sound_engine_data: .el5
 
 	min_rpm: 1200.0
 	max_rpm: 1900.0
-	volume: 0.65
+	volume: 1.4
 }
 
 sound_engine_data: .el6
@@ -262,7 +265,7 @@ sound_engine_data: .el6
 
 	min_rpm: 1550.0
 	max_rpm: 2000.0
-	volume: 0.75
+	volume: 1.8
 }
 
 sound_engine_data: .el7
@@ -275,7 +278,7 @@ sound_engine_data: .el7
 
 	min_rpm: 1760.0
 	max_rpm: 3000.0
-	volume: 0.85
+	volume: 2.0
 }
 
 sound_engine_data: .el8
@@ -284,11 +287,11 @@ sound_engine_data: .el8
 
 	looped: true
 
-	pitch_reference: 1000
+	pitch_reference: 500
 
 	min_rpm: 1660.0
-	max_rpm: 2060.0
-	volume: 0.43
+	max_rpm: 3060.0
+	volume: 1.4
 }
 
 sound_engine_data: .el9
@@ -301,7 +304,7 @@ sound_engine_data: .el9
 
 	min_rpm: 1760.0
 	max_rpm: 3000.0
-	volume: 0.55
+	volume: 1.6
 }
 
 sound_engine_data: .el10
@@ -314,7 +317,7 @@ sound_engine_data: .el10
 
 	min_rpm: 1860.0
 	max_rpm: 3000.0
-	volume: 0.67
+	volume: 1.8
 }
 
 sound_data: .t

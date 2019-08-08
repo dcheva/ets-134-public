@@ -369,6 +369,6 @@ sound_data: .wipers_down
 	volume: 0.26
 }
 
-@include "/def/vehicle/truck/common_sound_int_s113.sui"
+@include "/def/vehicle/truck/common_sound_int_data_s113.sui"
 }
 
