@@ -1,7 +1,6 @@
 # Common truck sound list.
 # Units have to be defined with same names as in "common_sound_int_data.sui".
 
-	retarder: .retarder
 	lift_axle: .lift
 	air_warning: .air_warn
 
@@ -43,7 +42,9 @@
 	wheel_asphalt[]: .was16
 	wheel_asphalt[]: .was17
 
-	wheel_rumble[]: .wru
+	wheel_rumble[]: .wru0
+	wheel_rumble[]: .wru1
+	wheel_rumble[]: .wru2
 
 	wheel_gravel[]: .wgrv0
 	wheel_gravel[]: .wgrv1
@@ -53,7 +54,7 @@
 	wheel_grass[]: .wgrs1
 	wheel_grass[]: .wgrs2
 
-	seat_noise_treshold: 4
+	seat_noise_treshold: 6
 	seat_noise[]: .snoise0
 	seat_noise[]: .snoise1
 	seat_noise[]: .snoise2
@@ -72,7 +73,7 @@
 	seat_noise[]: .snoise15
 	seat_noise[]: .snoise16
 		
-	suspension_noise_treshold: 2
+	suspension_noise_treshold: 3
 	suspension_noise[]: .sunoise0
 	suspension_noise[]: .sunoise1
 	suspension_noise[]: .sunoise2
@@ -85,23 +86,25 @@
 # crash_metal = 60-90km/h, crash_hard = 30-59km/h, crash_soft = 6-29
 # crash_sctratch = loop sample pri speed > 1 
 
-	crash_metal[0]: .crashm0
-	crash_metal[1]: .crashm1
-	crash_metal[2]: .crashm2
-	crash_metal[3]: .crashm3
-	crash_metal[4]: .crashm4
-	crash_hard[0]: .crashha0
-	crash_hard[1]: .crashha1
-	crash_hard[2]: .crashha2
-	crash_hard[3]: .crashha3
-	crash_hard[4]: .crashha4
-	crash_soft[0]: .crashso0
-	crash_soft[1]: .crashso1
-	crash_soft[2]: .crashso2
-	crash_soft[3]: .crashso3
-	crash_soft[4]: .crashso4
-	crash_scratch[0]: .crashsc0
-	crash_scratch[1]: .crashsc1
+	crash_metal[]: .crashm0
+	crash_metal[]: .crashm1
+	crash_metal[]: .crashm2
+	crash_metal[]: .crashm3
+	crash_metal[]: .crashm4
+	crash_hard[]: .crashha0
+	crash_hard[]: .crashha1
+	crash_hard[]: .crashha2
+	crash_hard[]: .crashha3
+	crash_hard[]: .crashha4
+	crash_hard[]: .crashha5
+	crash_soft[]: .crashso0
+	crash_soft[]: .crashso1
+	crash_soft[]: .crashso2
+	crash_soft[]: .crashso3
+	crash_soft[]: .crashso4
+	crash_soft[]: .crashso5
+	crash_scratch[]: .crashsc0
+	crash_scratch[]: .crashsc1
 
 	gear_noise[]: .gnoise1
 	gear_noise[]: .gnoise2
