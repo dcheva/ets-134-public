@@ -1,5 +1,7 @@
 SiiNunit
 {
+### (c) Cheva 2017-2019
+### //xx this values are original
 xp_level_data : economy.data.xp_levels
 {
 #

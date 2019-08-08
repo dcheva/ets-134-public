@@ -1,8 +1,6 @@
 SiiNunit
-### --- Sibir Map 1:1 edition ---
 ### (c) Cheva 2017-2019
-### //xx this values are original
-### //!!!20x!!!// this values are 20x from Growing Eco
+###//xx this values are original
 {
 economy_data : economy.data.storage
 {
@@ -11,17 +9,17 @@ economy_data : economy.data.storage
 
 	##################################################################################################################################
 	# Base revenue per km in game native currency.
-	revenue_per_km_base: 10 // 15 //!!!20x!!!//
+	revenue_per_km_base: 0.5 // 15
 	# but gamae do not use this value, we use Revenue coefficient
 
 	# Concrete barn may be 15500
-	price_small_garage: 310000 // 180000 //!!!20x!!!//
-	price_garage_upgrade: 210000 // 100000 //!!!20x!!!//
+	price_small_garage: 300000 // 180000
+	price_garage_upgrade: 200000 // 100000
 
-	garage_prod_plan_tiny: 80000	// 20000 //!!!20x!!!//
-	garage_prod_plan_small: 300000 // 150000 //!!!20x!!!//
-	garage_prod_plan_large: 600000 // 300000 //!!!20x!!!//
-	### for 1, 3, 5 20x
+	garage_prod_plan_tiny: 80000	// 20000
+	garage_prod_plan_small: 300000 // 150000
+	garage_prod_plan_large: 600000 // 300000
+	### for 1, 3, 5 trucks
 	##################################################################################################################################
 
 	fuel_discount_in_garage: 0.15	# 15%
@@ -29,14 +27,14 @@ economy_data : economy.data.storage
 	truck_count_for_online:	0	# number of owned trucks to unlock buying online feature // 5
 	### available from start
 
-	abandoned_job_fine: 40000 // 12000 //!!!20x!!!//
+	abandoned_job_fine: 40000 // 12000
 
 	cargo_damage_cost: 0.0 		# 0 Euro per 1% of damage // 5.0
 	cargo_damage_cost_factor: 0.10 	# -10% total cost penalty per 1% of damage // 4%
 
-	late_delivery_max_overtime[]: 960	# 16 hours for "easy" deliveries // 2880
-	late_delivery_max_overtime[]: 480	# 8 hours for "normal" deliveries // 720
-	late_delivery_max_overtime[]: 240	# 4 hours for "urgent" deliveries // 240
+	late_delivery_max_overtime[0]: 960	# 16 hours for "easy" deliveries // 2880
+	late_delivery_max_overtime[1]: 480	# 8 hours for "normal" deliveries // 720
+	late_delivery_max_overtime[2]: 240	# 4 hours for "urgent" deliveries // 240
 
 	simulation_avg_speed: 60.0	# km/h // 62
 	### city limit 50, highway 90, traffic calculated
@@ -49,17 +47,17 @@ economy_data : economy.data.storage
 #       Sleeping time 8/20
 #
 #########################################
-	maximum_driving_time: 1200	# 20h working shift duration // 660
-	sleeping_time: 480		# 8h rest duration (in minutes) // 540
+	maximum_driving_time: 1200	# 10h working shift duration // 660
+	sleeping_time: 480		# 4h rest duration (in minutes) // 540
 #########################################
 
-	delivery_window[]: 480		# easy // 400
-	delivery_window[]: 240		# medium // 250
-	delivery_window[]: 120		# hard // 90
+	delivery_window[0]: 480		# easy // 400
+	delivery_window[1]: 240		# medium // 250
+	delivery_window[2]: 120		# hard // 90
 
-	delivery_window_coef[]: 1.5	# easy // 1.0
-	delivery_window_coef[]: 1.65	# medium revenue coef // 1.15
-	delivery_window_coef[]: 2.0	# hard // 1.4
+	delivery_window_coef[0]: 1.5	# easy // 1.0
+	delivery_window_coef[1]: 1.65	# medium revenue coef // 1.15
+	delivery_window_coef[2]: 2.0	# hard // 1.4
 
 	hurry_up_timer: 60		# how long the hurry up music will play (in game minutes) // 114
 
@@ -72,19 +70,19 @@ economy_data : economy.data.storage
 ######################################### European prices: https://della.eu/price/local/ (current mediana $0.85)
 ######################################### With this settings: Company cargo ~.~ all skills 1, up to ~.~ all skills 5, Market cargo: x3
 
-	fixed_revenue: 7720 // 600/350*167 // 600 //!!!20x!!!//
-	revenue_coef_per_km: 1 # Revenue coefficient per km used during freight market jobs. // 0.5/10 base, 0.85 is europe medium price // 0.9 //!!!20x!!!//
-	cargo_market_revenue_coef_per_km: 1.4 # Revenue coefficient per km used during cargo market jobs. // 0.7/10 base // 1.0 //!!!20x!!!//
+	fixed_revenue: 8000 // 600/350*167 // 600
+	revenue_coef_per_km: 1.0 # Revenue coefficient per km used during freight market jobs. // 0.5/10 base, 0.85 is europe medium price // 0.9
+	cargo_market_revenue_coef_per_km: 1.4 # Revenue coefficient per km used during cargo market jobs. // 0.7/10 base // 1.0
 
-	fuel_cost_per_km: (1.2, 1.5)		# for driver simulation // 40l*1$ per 100 km // 1.5, 2.0 //!!!3x!!!//
+	fuel_cost_per_km: (8, 10)		# for driver simulation // 40l*1$ per 100 km // 1.5, 2.0
 	driver_max_cargo_damage: 5.0		# in %, decrease with skill // 6.0
-	driver_maintenance_cost: (2, 3)	# maintenance + insurance, base range in E/km // 1.8/10 and 3/10 // 1.8, 3.0
+	driver_maintenance_cost: (4, 6)	# maintenance + insurance, base range in E/km // 1.8/10 and 3/10 // 1.8, 3.0
 
-	minimal_driver_salary:	3340			# fixed part of driver's pay // 350 //!!!20x!!!//
-	driver_revenue_coef_per_km: 0.7	# Revenue coefficient used during quick job and drivers jobs. // // 0.67 //!!!20x!!!//
-	driver_cargo_market_revenue_coef_per_km: 1.0	# Revenue coefficient used during cargo market jobs for drivers. // 0.70 //!!!20x!!!//
+	minimal_driver_salary:	4000			# fixed part of driver's pay // 350
+	driver_revenue_coef_per_km: 0.7			# Revenue coefficient used during quick job and drivers jobs. // // 0.67
+	driver_cargo_market_revenue_coef_per_km: 1	# Revenue coefficient used during cargo market jobs for drivers. // 0.70
 
-	driver_hire_cost: 19300		# Euro // 1500 //!!!20x!!!//
+	driver_hire_cost: 20000		# Euro // 1500
 
 	free_driver_level_cap: 50	# don't grow offered drivers higher than this level // 30
 	driver_offer_scrap_prob: 0.1 // 0.5
@@ -98,13 +96,13 @@ economy_data : economy.data.storage
 #################################################################
 ##
 ## Skill job filtering
-## Job distance limit (in km of real world)
+##  Job distance limit (in km of real world)
 ##
-	skill_distance[]:	30 // 250
-	skill_distance[]:	50 // 350
-	skill_distance[]:	80 // 1100
-	skill_distance[]:	130 // 850
-	skill_distance[]:	210 // 1100
+	skill_distance[]:	300 // 250
+	skill_distance[]:	500 // 350
+	skill_distance[]:	800 // 1100
+	skill_distance[]:	1300 // 850
+	skill_distance[]:	2100 // 1100
 	skill_distance[]:	1 // 1500 // for big maps as ProMods, EAA or RusMap //!!!ANY distance +30% total!!!//
 
 	max_eco_consumption_drop[]: (0.15, 0.20) # consumption decreased by 40% (or 60% if driving with trailer) // 0.1 0.1
@@ -127,7 +125,7 @@ economy_data : economy.data.storage
 	reward_bonus_valuable[]: 0.10
 	reward_bonus_valuable[]: 0.05
 	reward_bonus_valuable[]: 0.05
-	reward_bonus_valuable[]: 0.05 // total + +60%
+	reward_bonus_valuable[]: 0.05 // total + 60%
 
 	reward_bonus_fragile[]: 0.10
 	reward_bonus_fragile[]: 0.10
@@ -146,30 +144,30 @@ economy_data : economy.data.storage
 	reward_bonus_level: 0.01 // 0.015
 	### 50 lvl +50%
 
-### Experience points
+#  Experience points
 
 	free_roam_report_limit: 10 // 100
 
-	exp_cargo_delivery: 	1.0		# per km of real world
-	exp_free_roam: 		1.5		# per km of real world // 0.5 //!!!20x!!!//
-	exp_road_discovery:	1.25		# per km of real world // 0.8
-	exp_perfect_delivery:	0.15		# // 0.24
-	exp_adr_bonus:		0.15		# // 0.21
-	exp_important_bonus:	0.15		# // 0.2
-	exp_urgent_bonus:	0.25		# // 0.3
-	exp_fragile_bonus:	0.15		# // 0.22
-	exp_long_dist_bonus:	0.10		# // 0.25
-	exp_valuable_bonus:	0.25		# // 0.18
+	exp_cargo_delivery: 	200		# per km of real world
+	exp_free_roam: 		300		# per km of real world // 0.5 //!!!20x!!!//
+	exp_road_discovery:	250		# per km of real world // 0.8
+	exp_perfect_delivery:	3		# // 0.24
+	exp_adr_bonus:		3		# // 0.21
+	exp_important_bonus:	3		# // 0.2
+	exp_urgent_bonus:	5		# // 0.3
+	exp_fragile_bonus:	3		# // 0.22
+	exp_long_dist_bonus:	2		# // 0.25
+	exp_valuable_bonus:	5		# // 0.18
 
-	exp_park_bonus: 	100	// 15 # bonus for not using the autopark feature on EASY parking spot
-	exp_park_bonus_medium: 	200 	// 40 # bonus for not using the autopark feature on MEDIUM parking spot
-	exp_park_bonus_hard: 	400 	// 90 # bonus for not using the autopark feature on HARD parking spot
+	exp_park_bonus: 	2000	// 15 # bonus for not using the autopark feature on EASY parking spot
+	exp_park_bonus_medium: 	4000 	// 40 # bonus for not using the autopark feature on MEDIUM parking spot
+	exp_park_bonus_hard: 	8000 	// 90 # bonus for not using the autopark feature on HARD parking spot
 
-	exp_park_double_bonus: 		300 // 20 # bonus for not using the autopark feature on EASY parking spot with double
-	exp_park_double_bonus_medium: 	600 // 60 # bonus for not using the autopark feature on MEDIUM parking spot with double
-	exp_park_double_bonus_hard: 	1200 // 170 # bonus for not using the autopark feature on HARD parking spot with double
+	exp_park_double_bonus: 		6000 // 20 # bonus for not using the autopark feature on EASY parking spot with double
+	exp_park_double_bonus_medium: 	12000 // 60 # bonus for not using the autopark feature on MEDIUM parking spot with double
+	exp_park_double_bonus_hard: 	24000 // 170 # bonus for not using the autopark feature on HARD parking spot with double
 
-	exp_park_load_bonus: 		200 // 15 # exp bonus for manually parking trailer during loading phase of the job
+	exp_park_load_bonus: 		4000 // 15 # exp bonus for manually parking trailer during loading phase of the job
 	exp_damaged_cargo:		0		# no -XP per 1% of cargo damage // 5
 	exp_damaged_cargo_factor: 	0.1		# -10% of total XP per 1% of cargo damage // 0.04
 
