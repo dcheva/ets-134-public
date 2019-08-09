@@ -252,8 +252,8 @@ sound_engine_data: .el5
 	pitch_reference: 800
 
 	min_rpm: 1200.0
-	max_rpm: 1900.0
-	volume: 1.4
+	max_rpm: 1560.0
+	volume: 0.95
 }
 
 sound_engine_data: .el6
@@ -262,11 +262,11 @@ sound_engine_data: .el6
 
 	looped: true
 
-	pitch_reference: 900
+	pitch_reference: 1800
 
-	min_rpm: 1550.0
+	min_rpm: 1400.0
 	max_rpm: 3000.0
-	volume: 1.8
+	volume: 1.2
 }
 
 sound_engine_data: .el7
@@ -289,7 +289,7 @@ sound_engine_data: .el8
 
 	looped: true
 
-	pitch_reference: 500
+	pitch_reference: 750
 
 	min_rpm: 1660.0
 	max_rpm: 3060.0
