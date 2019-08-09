@@ -2,12 +2,12 @@ SiiNunit
 {
 map_data : .map.data {
 
-	road_color:			0x99224466 	//Advisor map undiscovered route
-	road_discovered_color:		0x99CC6633	//Advisor map discovered route
-	job_road_color:			0x99224466	//Job market map undiscovered route
-	job_road_discovered_color:	0x99CC6633	//Job market map discovered route
-	world_road_color:		0x99224466	//Main map undiscovered route
-	world_road_discovered_color:	0x99CC6633 	//Main map discovered route
+	road_color:			0xFF224466 	//Advisor map undiscovered route
+	road_discovered_color:		0xFFCC9966	//Advisor map discovered route
+	job_road_color:			0xFF224466	//Job market map undiscovered route
+	job_road_discovered_color:	0xFFCC9966	//Job market map discovered route
+	world_road_color:		0xFF224466	//Main map undiscovered route
+	world_road_discovered_color:	0xFFCC9966 	//Main map discovered route
 
 	prefab_color:				0xFF737373	//Undiscovered prefab driveable areas
 	prefab_obstacle_color:			0xFF333333	//Undiscovered prefab buildings
@@ -40,14 +40,14 @@ map_data : .map.data {
 	player_size[6]: 1000.0
 	player_size[7]: 5000.0
 
-	road_size_factor[0]: 1.25
+	road_size_factor[0]: 1.1
 	road_size_factor[1]: 1.1
-	road_size_factor[2]: 1.5
-	road_size_factor[3]: 3.0
+	road_size_factor[2]: 1.65
+	road_size_factor[3]: 3.25
 	road_size_factor[4]: 1.1
-	road_size_factor[5]: 1.5
-	road_size_factor[6]: 4.5
-	road_size_factor[7]: 8.0
+	road_size_factor[5]: 1.65
+	road_size_factor[6]: 4.9
+	road_size_factor[7]: 8.8
 	
 	full_detail[0]: true
 	full_detail[1]: true
@@ -76,40 +76,43 @@ map_data : .map.data {
 	company_icon_size[6]: (16.0, 4.0)
 	company_icon_size[7]: (16.0, 4.0)
 
-	camera_limits_min[0]: (-4000000.0, -4000000.0)
-	camera_limits_min[1]: (-4000000.0, -4000000.0)
-	camera_limits_min[2]: (-4000000.0, -4000000.0)
-	camera_limits_min[3]: (-4000000.0, -4000000.0)
-	camera_limits_min[4]: (-240000.0, -240000.0)
-	camera_limits_min[5]: (-240000.0, -240000.0)
-	camera_limits_min[6]: (-240000.0, -240000.0)
-	camera_limits_min[7]: (-240000.0, -240000.0)
-
-	camera_limits_max[0]: (4000000.0, 4000000.0)
-	camera_limits_max[1]: (4000000.0, 4000000.0)
-	camera_limits_max[2]: (4000000.0, 4000000.0)
-	camera_limits_max[3]: (4000000.0, 4000000.0)
-	camera_limits_max[4]: (240000.0, 240000.0)
-	camera_limits_max[5]: (240000.0, 240000.0)
-	camera_limits_max[6]: (240000.0, 240000.0)
-	camera_limits_max[7]: (240000.0, 240000.0)
+	camera_limits_min[0]: (-1000000.0, -1000000.0)	# left, up
+	camera_limits_min[1]: (-1000000.0, -1000000.0)
+	camera_limits_min[2]: (-1000000.0, -1000000.0)
+	camera_limits_min[3]: (-1000000.0, -1000000.0)
+	camera_limits_min[4]: (-57000.0, -63000.0)
+	camera_limits_min[5]: (-55000.0, -62000.0)
+	camera_limits_min[6]: (-46000.0, -56000.0)
+	camera_limits_min[7]: (-30000.0, -45000.0)
+	
+	camera_limits_max[0]: (1000000.0, 1000000.0) # right, down
+	camera_limits_max[1]: (1000000.0, 1000000.0)
+	camera_limits_max[2]: (1000000.0, 1000000.0)
+	camera_limits_max[3]: (1000000.0, 1000000.0)
+	camera_limits_max[4]: (64000.0, 77000.0)
+	camera_limits_max[5]: (62000.0, 76000.0)
+	camera_limits_max[6]: (54000.0, 70000.0)
+	camera_limits_max[7]: (38000.0, 60000.0)
 
 	map_items_flags[0]: 0x81FFF
 	map_items_flags[1]: 0x81FFF
-	map_items_flags[2]: 0x81F7F  // no parkings
-	map_items_flags[3]: 0x81F7F  // no parkings
-	map_items_flags[4]: 0x81FAF	// target, cities, roads, gas stations, dealers, recruitments, garages, companies, parkings, services
-	map_items_flags[5]: 0x81F27	// target, cities, roads, gas stations, dealers, recruitments, garages, companies
-	map_items_flags[6]: 0x81407	// target, cities, roads, gas stations
-	map_items_flags[7]: 0x81402	// target, cities
+	map_items_flags[2]: 0x81F7F	// no parkings
+	map_items_flags[3]: 0x81F7F	// no parkings
+	map_items_flags[4]: 0x81FAF	// target, cities, roads, gas stations, dealers, recruitments, garages, companies, parkings, services, trailer
+	map_items_flags[5]: 0x81F27	// target, cities, roads, gas stations, dealers, recruitments, garages, companies, trailer
+	map_items_flags[6]: 0x81407	// target, cities, roads, gas stations, trailer
+	map_items_flags[7]: 0x81402	// target, cities, trailer
 
 	map_3d_camera_pitch: 60.0      // camera pitch in 3d map
 
-	ui_map_center:	(-14800.1, -8600.1)	// in game units
-	ui_map_size:   (4647.4, 4560.0) // map texture in real km // Changed for FINLAND AND ICELAND
+	ui_map_center:	(-13500.0, -4950.0)	// in editor coordinates
+	ui_map_size:	(5308.2, 5200.0)	// map texture in real km
 
-	ui_map_camera_min: (-240000.0, -240000.0)
-	ui_map_camera_max: (240000.0, 240000.0)
+	ui_map_camera_min: (-30000.0, -45000.0)
+	ui_map_camera_max: (38000.0, 60000.0)
+
+	ui_map_always_draw_city: true
+
 	# navigation params
 	navigation_city_penalty: 3.0
 	navigation_slow_road_penalty: 5.0
