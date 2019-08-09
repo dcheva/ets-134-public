@@ -115,7 +115,7 @@ map_data : .map.data {
 	map_3d_camera_pitch: 60.0      // camera pitch in 3d map
 
 	ui_map_center:	(-14800.1, -8600.1)	// in game units
-	ui_map_size:   (4647.4, 4560.0) // map texture in real km // Changed for FINLAND AND ICELAND
+	ui_map_size:   (0, 0) // map texture in real km // Changed for FINLAND AND ICELAND
 
 	ui_map_camera_min: (-240000.0, -240000.0)
 	ui_map_camera_max: (240000.0, 240000.0)
