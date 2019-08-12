@@ -10,7 +10,7 @@ accessory_engine_data : d12g385.volvo.f88.engine
 	info[]: "1@@dg@@000-1@@dg@@300 @@rpm@@"
 	icon: "engine_01"
 	torque: 2050
-	rpm_limit: 2150
+	rpm_limit: 2250
 	volume: 16.1
 	no_adblue_power_limit: 0.5
 
@@ -28,7 +28,7 @@ accessory_engine_data : d12g385.volvo.f88.engine
         torque_curve[]: (1900, 0.87)
         torque_curve[]: (2000, 0.85)
         torque_curve[]: (2200, 0.58)
-        torque_curve[]: (2600, 0)
+        torque_curve[]: (2400, 0)
 
 	overrides[]: "/def/vehicle/truck/volvo.f88/sound/interior_f12.sii"
 	overrides[]: "/def/vehicle/truck/volvo.f88/sound/exterior_f12.sii"

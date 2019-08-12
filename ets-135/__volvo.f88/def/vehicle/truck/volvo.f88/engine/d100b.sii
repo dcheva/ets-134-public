@@ -10,7 +10,7 @@ accessory_engine_data : d100b.volvo.f88.engine
 	info[]: "1@@dg@@000-1@@dg@@450 @@rpm@@"
 	icon: "engine_volvo_f88"
 	torque: 1100
-	rpm_limit: 2300
+	rpm_limit: 2450
 	volume: 9.6
 	no_adblue_power_limit: 0.5
 

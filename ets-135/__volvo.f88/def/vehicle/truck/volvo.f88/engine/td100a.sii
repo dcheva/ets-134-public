@@ -10,7 +10,7 @@ accessory_engine_data : td100a.volvo.f88.engine
 	info[]: "1@@dg@@000-1@@dg@@400 @@rpm@@"
 	icon: "engine_volvo_f88"
 	torque: 1400  # Torque 1400 r.p.m(DIN) kgm 96, (SAE) 100 kgm
-	rpm_limit: 2300
+	rpm_limit: 2350
 	volume: 9.6
 	no_adblue_power_limit: 0.5
 
@@ -30,7 +30,7 @@ accessory_engine_data : td100a.volvo.f88.engine
         torque_curve[]: (2100, 0.87)
         torque_curve[]: (2200, 0.85)
         torque_curve[]: (2300, 0.58)
-        torque_curve[]: (2600, 0)
+        torque_curve[]: (2500, 0)
 	
 	overrides[]: "/def/vehicle/truck/volvo.f88/badge/badge_260.sii"
 	overrides[]: "/def/vehicle/truck/volvo.f88/sound/interior_turbo.sii"
