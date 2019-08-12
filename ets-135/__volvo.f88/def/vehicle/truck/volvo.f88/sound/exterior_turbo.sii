@@ -446,13 +446,12 @@ sound_engine_data: .el9
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-
 sound_data: .t
 {
-	name: "/sound/truck/volvo_f88/int/turbo_int.ogg"
+	name: "/sound/truck/ext/turbo_ext_dor.ogg"
 	looped: true
 
-	volume: 1.0 #0.8
+	volume: 0.6 //0.4
 }
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
