@@ -525,7 +525,7 @@ sound_data: .ahorn
 
 sound_data: .reverse
 {
-	name: "/sound/truck/volvo_f88/int/reverse.ogg"
+	name: "/sound/truck/int/reverse.ogg"
 	looped: true
 }
 
