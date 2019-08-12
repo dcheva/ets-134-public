@@ -3,7 +3,7 @@ SiiNunit
 accessory_engine_data : d12g385.volvo.f88.engine
 {
 	name: "D12G385"
-	price: 11040
+	price: 8060
 	unlock: 0
 	info[]: "385 @@hp@@ (283@@kw@@)"
 	info[]: "2@@dg@@050 @@nm@@"
