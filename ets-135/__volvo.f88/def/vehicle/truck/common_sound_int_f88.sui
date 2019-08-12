@@ -1,0 +1,117 @@
+# Common truck sound list.
+# Units have to be defined with same names as in "common_sound_int_data.sui".
+
+	lift_axle: .lift
+	air_warning: .air_warn
+
+	lights_stick: .lights_s
+	high_beam_stick: .hbeam_s
+	light_horn_stick: .lhorn_s
+	blinker_stick: .blinker_s
+	blinker_stick_off: .blinker2_s
+	hazard_warning_stick: .hwarn_s
+	wipers_stick: .wiper_s
+	retarder_stick: .retarder_s
+	park_brake_stick: .pbrake_s
+	park_brake_stick_off: .pbrake2_s
+
+#	aero_noise: .airnoise
+	gear_grind_loop: .ggloop
+
+	air_cutoff[]: .aircut0
+	air_cutoff[]: .aircut1
+	air_cutoff[]: .aircut2
+
+# sound of tires - asphalt - rumblestripes - gravel - grass 
+	wheel_asphalt[]: .was0
+	wheel_asphalt[]: .was1
+	wheel_asphalt[]: .was2
+	wheel_asphalt[]: .was3
+	wheel_asphalt[]: .was4
+	wheel_asphalt[]: .was5
+	wheel_asphalt[]: .was6
+	wheel_asphalt[]: .was7
+	wheel_asphalt[]: .was8
+	wheel_asphalt[]: .was9
+	wheel_asphalt[]: .was10
+	wheel_asphalt[]: .was11
+	wheel_asphalt[]: .was12
+	wheel_asphalt[]: .was13
+	wheel_asphalt[]: .was14
+	wheel_asphalt[]: .was15
+	wheel_asphalt[]: .was16
+	wheel_asphalt[]: .was17
+
+	wheel_rumble[]: .wru0
+	wheel_rumble[]: .wru1
+	wheel_rumble[]: .wru2
+
+	wheel_gravel[]: .wgrv0
+	wheel_gravel[]: .wgrv1
+	wheel_gravel[]: .wgrv2
+	wheel_gravel[]: .wgrv3
+	wheel_grass[]: .wgrs0
+	wheel_grass[]: .wgrs1
+	wheel_grass[]: .wgrs2
+
+	seat_noise_treshold: 6
+	seat_noise[]: .snoise0
+	seat_noise[]: .snoise1
+	seat_noise[]: .snoise2
+	seat_noise[]: .snoise3
+	seat_noise[]: .snoise4
+	seat_noise[]: .snoise5
+	seat_noise[]: .snoise6
+	seat_noise[]: .snoise7
+	seat_noise[]: .snoise8
+	seat_noise[]: .snoise9
+	seat_noise[]: .snoise10
+	seat_noise[]: .snoise11
+	seat_noise[]: .snoise12
+	seat_noise[]: .snoise13
+	seat_noise[]: .snoise14
+	seat_noise[]: .snoise15
+	seat_noise[]: .snoise16
+		
+	suspension_noise_treshold: 3
+	suspension_noise[]: .sunoise0
+	suspension_noise[]: .sunoise1
+	suspension_noise[]: .sunoise2
+	suspension_noise[]: .sunoise3
+	suspension_noise[]: .sunoise4
+	suspension_noise[]: .sunoise5
+	suspension_noise[]: .sunoise6
+	suspension_noise[]: .sunoise7
+	
+# crash_metal = 60-90km/h, crash_hard = 30-59km/h, crash_soft = 6-29
+# crash_sctratch = loop sample pri speed > 1 
+
+	crash_metal[]: .crashm0
+	crash_metal[]: .crashm1
+	crash_metal[]: .crashm2
+	crash_metal[]: .crashm3
+	crash_metal[]: .crashm4
+	crash_hard[]: .crashha0
+	crash_hard[]: .crashha1
+	crash_hard[]: .crashha2
+	crash_hard[]: .crashha3
+	crash_hard[]: .crashha4
+	crash_hard[]: .crashha5
+	crash_soft[]: .crashso0
+	crash_soft[]: .crashso1
+	crash_soft[]: .crashso2
+	crash_soft[]: .crashso3
+	crash_soft[]: .crashso4
+	crash_soft[]: .crashso5
+	crash_scratch[]: .crashsc0
+	crash_scratch[]: .crashsc1
+
+	gear_noise[]: .gnoise1
+	gear_noise[]: .gnoise2
+	gear_noise[]: .gnoise3
+	gear_noise[]: .gnoise4
+	gear_noise[]: .gnoise5
+	gear_noise[]: .gnoise6
+	gear_noise[]: .gnoise7
+	gear_noise[]: .gnoise8
+	gear_noise[]: .gnoise9

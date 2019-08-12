@@ -1,0 +1,22 @@
+SiiNunit
+{
+accessory_engine_data : td100a.volvo.f88.engine
+{
+	name: "TD100 A"
+	price: 3500
+	unlock: 0
+	info[]: "260 @@hp@@ (192@@kw@@)"
+	info[]: "1@@dg@@400 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@400 @@rpm@@"
+	icon: "engine_volvo_f88"
+	torque: 1400  # Torque 1400 r.p.m(DIN) kgm 96, (SAE) 100 kgm
+	rpm_limit: 2300
+	volume: 9.6
+	no_adblue_power_limit: 0.5
+	
+	overrides[]: "/def/vehicle/truck/volvo.f88/badge/badge_260.sii"
+	overrides[]: "/def/vehicle/truck/volvo.f88/sound/interior_turbo.sii"
+	overrides[]: "/def/vehicle/truck/volvo.f88/sound/exterior_turbo.sii"
+	
+}
+}

@@ -1,0 +1,23 @@
+SiiNunit
+{
+accessory_engine_data : d100b.volvo.f88.engine
+{
+	name: "D100 B"
+	price: 2000
+	unlock: 0
+	info[]: "200 @@hp@@ (149@@kw@@)"
+	info[]: "1@@dg@@100 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@450 @@rpm@@"
+	icon: "engine_volvo_f88"
+	torque: 1100
+	rpm_limit: 2300
+	volume: 9.6
+	no_adblue_power_limit: 0.5
+	
+	overrides[]: "/def/vehicle/truck/volvo.f88/badge/badge_200.sii"
+	overrides[]: "/def/vehicle/truck/volvo.f88/sound/interior.sii"
+	overrides[]: "/def/vehicle/truck/volvo.f88/sound/exterior.sii"
+	
+	
+}
+}
