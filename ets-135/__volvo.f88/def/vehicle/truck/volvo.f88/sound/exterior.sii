@@ -277,7 +277,7 @@ sound_engine_data: .e13
 
 sound_engine_data: .e14
 {
-	name: "/sound/truck/volvo_f88/ext/int_tires1.ogg"
+	name: "/sound/truck/int/int_tires1.ogg"
 
 	looped: true
 
@@ -447,19 +447,19 @@ sound_engine_data: .el9
 
 sound_data: .airgear0
 {
-	name: "/sound/truck/volvo_f88/ext/gear_air_1.ogg"
+	name: "/sound/truck/ext/gear_air_1.ogg"
 	volume: 0.8
 }
 
 sound_data: .airgear1
 {
-	name: "/sound/truck/volvo_f88/ext/gear_air_2.ogg"
+	name: "/sound/truck/ext/gear_air_2.ogg"
 	volume: 0.8
 }
 
 sound_data: .airgear2
 {
-	name: "/sound/truck/volvo_f88/ext/gear_air_3.ogg"
+	name: "/sound/truck/ext/gear_air_3.ogg"
 	volume: 0.8
 }
 
@@ -468,14 +468,14 @@ sound_data: .airgear2
 
 sound_data: .airbrake0
 {
-	name: "/sound/truck/volvo_f88/ext/air_brake1.ogg"
+	name: "/sound/truck/ext/air_brake1.ogg"
 
 	looped: false
 	volume: 0.6
 }
 sound_data: .airbrake1
 {
-	name: "/sound/truck/volvo_f88/ext/air_brake2.ogg"
+	name: "/sound/truck/ext/air_brake2.ogg"
 
 	looped: false
 	volume: 0.6
@@ -483,7 +483,7 @@ sound_data: .airbrake1
 
 sound_data: .airbrake2
 {
-	name: "/sound/truck/volvo_f88/ext/air_brake3.ogg"
+	name: "/sound/truck/ext/air_brake3.ogg"
 
 	looped: false
 	volume: 0.6
