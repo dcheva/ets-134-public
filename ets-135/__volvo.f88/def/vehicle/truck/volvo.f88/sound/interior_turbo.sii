@@ -435,40 +435,6 @@ sound_engine_data: .el8
 }
 
 
-
-sound_engine_data: .enf0
-{
-	name: "/sound/truck/iveco_19038/int/1000rpm-int-mono.ogg"
-	looped: true
-	min_rpm: 200.0
-	max_rpm: 1280.0
-	volume: 0.12
-}
-
-sound_engine_data: .enf1
-{
-	name: "/sound/truck/iveco_19038/int/1500rpm-int-mono.ogg"
-	looped: true
-	min_rpm: 1200.0
-	max_rpm: 3000.0
-	volume: 0.14
-}
-
-sound_engine_data: .enf2
-{
-	name: "/sound/truck/iveco_19038/int/turbo_idle.ogg"
-
-	looped: true
-
-	pitch_reference: 640
-
-	min_rpm: 200.0
-	max_rpm: 3000.0
-	volume: 0.08
-}
-
-
-
 sound_engine_data: .el9
 {
 	name: "/sound/truck/volvo_f88/int/exhaust_1500.ogg"
@@ -481,6 +447,40 @@ sound_engine_data: .el9
 	max_rpm: 3500.0
 	volume: 0.30
 }
+
+
+
+sound_engine_data: .enf0
+{
+	name: "/sound/truck/iveco_19038/int/1000rpm-int-mono.ogg"
+	looped: true
+	min_rpm: 200.0
+	max_rpm: 1280.0
+	volume: 0.16
+}
+
+sound_engine_data: .enf1
+{
+	name: "/sound/truck/iveco_19038/int/1500rpm-int-mono.ogg"
+	looped: true
+	min_rpm: 1200.0
+	max_rpm: 3000.0
+	volume: 0.18
+}
+
+sound_engine_data: .enf2
+{
+	name: "/sound/truck/iveco_19038/int/turbo_idle.ogg"
+
+	looped: true
+
+	pitch_reference: 640
+
+	min_rpm: 200.0
+	max_rpm: 3000.0
+	volume: 0.12
+}
+
 
 
 #+++++++++++++++++++++++++++++++ getriebe ++++++++++++++++++++++++++++++

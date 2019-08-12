@@ -584,7 +584,7 @@ sound_engine_data: .enf0
 	looped: true
 	min_rpm: 200.0
 	max_rpm: 1280.0
-	volume: 0.12
+	volume: 0.16
 }
 
 sound_engine_data: .enf1
@@ -593,7 +593,7 @@ sound_engine_data: .enf1
 	looped: true
 	min_rpm: 1200.0
 	max_rpm: 3000.0
-	volume: 0.14
+	volume: 0.18
 }
 
 sound_engine_data: .enf2
@@ -606,7 +606,7 @@ sound_engine_data: .enf2
 
 	min_rpm: 200.0
 	max_rpm: 3000.0
-	volume: 0.08
+	volume: 0.12
 }
 
 sound_data: .t
