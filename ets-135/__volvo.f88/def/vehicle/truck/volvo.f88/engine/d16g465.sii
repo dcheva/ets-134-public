@@ -19,7 +19,7 @@ accessory_engine_data : d16g465.volvo.f88.engine
         torque_curve[]: (1000, 0.92)
         torque_curve[]: (1100, 0.96)
         torque_curve[]: (1200, 0.98)
-        torque_curve[]: (1300, 1.00)
+        torque_curve[]: (1300, 0.99)
         torque_curve[]: (1400, 1.00)
         torque_curve[]: (1500, 0.99)
         torque_curve[]: (1600, 0.98)

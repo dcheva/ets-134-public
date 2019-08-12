@@ -13,6 +13,24 @@ accessory_engine_data : d100b.volvo.f88.engine
 	rpm_limit: 2300
 	volume: 9.6
 	no_adblue_power_limit: 0.5
+
+        torque_curve[]: (300, 0)
+        torque_curve[]: (550, 0.54)
+        torque_curve[]: (1000, 0.92)
+        torque_curve[]: (1100, 0.96)
+        torque_curve[]: (1200, 0.98)
+        torque_curve[]: (1300, 1.00)
+        torque_curve[]: (1400, 1.00)
+        torque_curve[]: (1500, 0.99)
+        torque_curve[]: (1600, 0.98)
+        torque_curve[]: (1700, 0.97)
+        torque_curve[]: (1800, 0.95)
+        torque_curve[]: (1900, 0.92)
+        torque_curve[]: (2000, 0.90)
+        torque_curve[]: (2100, 0.87)
+        torque_curve[]: (2200, 0.85)
+        torque_curve[]: (2400, 0.58)
+        torque_curve[]: (2600, 0)
 	
 	overrides[]: "/def/vehicle/truck/volvo.f88/badge/badge_200.sii"
 	overrides[]: "/def/vehicle/truck/volvo.f88/sound/interior.sii"

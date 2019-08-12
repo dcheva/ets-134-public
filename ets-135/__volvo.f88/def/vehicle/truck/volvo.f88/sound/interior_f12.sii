@@ -85,21 +85,21 @@ sound_data: .start
 {
 	name: "/sound/truck/volvo_f88/int/start.ogg"
 	looped: false
-	volume: 0.8
+	volume: 1.8
 }
 
 sound_data: .startbad
 {
 	name: "/sound/truck/volvo_f88/int/start_bad.ogg"
 	looped: false
-	volume: 0.8
+	volume: 1.4
 }
 
 sound_data: .stop
 {
 	name: "/sound/truck/volvo_f88/int/volvo_int_engine_stop.ogg"
 	looped: false
-	volume: 0.8
+	volume: 1.2
 }
 
 sound_engine_data: .e0
