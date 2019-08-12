@@ -96,7 +96,7 @@ sound_data: .stop
 
 sound_engine_data: .e0
 {
-	name: "/sound/truck/volvo_f88/int/volvo_int_engine_idle.ogg"
+	name: "/sound/truck/int/volvo_int_engine_idle.ogg"
 
 	looped: true
 
@@ -104,12 +104,12 @@ sound_engine_data: .e0
 
 	min_rpm: 300.0
 	max_rpm: 690.0
-	volume: 0.4
+	volume: 0.8 //0.3
 }
 
 sound_engine_data: .e1
 {
-	name: "/sound/truck/volvo_f88/int/volvo_int_engine_0700.ogg"
+	name: "/sound/truck/int/volvo_int_engine_0700.ogg"
 
 	looped: true
 
@@ -117,12 +117,12 @@ sound_engine_data: .e1
 
 	min_rpm: 610.0
 	max_rpm: 900.0
-	volume: 0.45
+	volume: 0.9 //0.35
 }
 
 sound_engine_data: .e2
 {
-	name: "/sound/truck/volvo_f88/int/volvo_int_engine_1000.ogg"
+	name: "/sound/truck/int/volvo_int_engine_1000.ogg"
 
 	looped: true
 
@@ -130,12 +130,12 @@ sound_engine_data: .e2
 
 	min_rpm: 720.0
 	max_rpm: 1050.0
-	volume: 0.45
+	volume: 0.9 //0.35
 }
 
 sound_engine_data: .e3
 {
-	name: "/sound/truck/volvo_f88/int/volvo_int_engine_1200.ogg"
+	name: "/sound/truck/int/volvo_int_engine_1200.ogg"
 
 	looped: true
 
@@ -143,12 +143,12 @@ sound_engine_data: .e3
 
 	min_rpm: 920.0
 	max_rpm: 1300.0
-	volume: 0.5
+	volume: 1 //0.4
 }
 
 sound_engine_data: .e4
 {
-	name: "/sound/truck/volvo_f88/int/volvo_int_engine_1400.ogg"
+	name: "/sound/truck/int/volvo_int_engine_1400.ogg"
 
 	looped: true
 
@@ -156,12 +156,12 @@ sound_engine_data: .e4
 
 	min_rpm: 1150.0
 	max_rpm: 1500.0
-	volume: 0.55
+	volume: 1.1 //0.45
 }
 
 sound_engine_data: .e5
 {
-	name: "/sound/truck/volvo_f88/int/volvo_int_engine_1600.ogg"
+	name: "/sound/truck/int/volvo_int_engine_1600.ogg"
 
 	looped: true
 
@@ -169,12 +169,12 @@ sound_engine_data: .e5
 
 	min_rpm: 1360.0
 	max_rpm: 1730.0
-	volume: 0.6
+	volume: 1.2 //0.5
 }
 
 sound_engine_data: .e6
 {
-	name: "/sound/truck/volvo_f88/int/volvo_int_engine_1800.ogg"
+	name: "/sound/truck/int/volvo_int_engine_1800.ogg"
 
 	looped: true
 
@@ -182,12 +182,12 @@ sound_engine_data: .e6
 
 	min_rpm: 1550.0
 	max_rpm: 2000.0
-	volume: 0.65
+	volume: 1.3 //0.55
 }
 
 sound_engine_data: .e7
 {
-	name: "/sound/truck/volvo_f88/int/volvo_int_engine_2000.ogg"
+	name: "/sound/truck/int/volvo_int_engine_2000.ogg"
 
 	looped: true
 
@@ -195,16 +195,25 @@ sound_engine_data: .e7
 
 	min_rpm: 1760.0
 	max_rpm: 3000.0
-	volume: 0.7
+	volume: 1.4 //0.6
 }
-
-
-#+++++++++++++++++++++++++++++ entladen 2 ++++++++++++++++++++++++++++++
-
 
 sound_engine_data: .e8
 {
-	name: "/sound/truck/volvo_f88/int/engine_0700.ogg"
+	name: "/sound/truck/int/perdun-int.ogg"
+
+	looped: true
+	
+    min_rpm: 300.0
+	max_rpm: 3000.0
+	volume: 0.3 //0.19
+}
+
+
+
+sound_engine_data: .e9
+{
+	name: "/sound/truck/ext/500rpm-int.ogg"
 
 	looped: true
 
@@ -212,14 +221,14 @@ sound_engine_data: .e8
 
 	min_rpm: 300.0
 	max_rpm: 740.0
-	volume: 0.2
+	volume: 0.6
 }
 
 
 
-sound_engine_data: .e9
+sound_engine_data: .e10
 {
-	name: "/sound/truck/volvo_f88/int/engine_1000.ogg"
+	name: "/sound/truck/ext/800rpm-int.ogg"
 
 	looped: true
 
@@ -227,12 +236,12 @@ sound_engine_data: .e9
 
 	min_rpm: 664.0
 	max_rpm: 955.0
-	volume: 0.25
+	volume: 0.7
 }
 
-sound_engine_data: .e10
+sound_engine_data: .e11
 {
-	name: "/sound/truck/volvo_f88/int/engine_1200.ogg"
+	name: "/sound/truck/ext/1000rpm-int.ogg"
 
 	looped: true
 
@@ -240,12 +249,12 @@ sound_engine_data: .e10
 
 	min_rpm: 818.0
 	max_rpm: 1155.0
-	volume: 0.3
+	volume: 0.8
 }
 
-sound_engine_data: .e11
+sound_engine_data: .e12
 {
-	name: "/sound/truck/volvo_f88/int/engine_1400.ogg"
+	name: "/sound/truck/ext/1200rpm-int.ogg"
 
 	looped: true
 
@@ -253,12 +262,12 @@ sound_engine_data: .e11
 
 	min_rpm: 1048.0
 	max_rpm: 1418.0
-	volume: 0.35
+	volume: 0.9
 }
 
-sound_engine_data: .e12
+sound_engine_data: .e13
 {
-	name: "/sound/truck/volvo_f88/int/engine_1600.ogg"
+	name: "/sound/truck/ext/1500rpm-int.ogg"
 
 	looped: true
 
@@ -266,12 +275,12 @@ sound_engine_data: .e12
 
 	min_rpm: 1275.0
 	max_rpm: 1893.0
-	volume: 0.4
+	volume: 1
 }
 
-sound_engine_data: .e13
+sound_engine_data: .e14
 {
-	name: "/sound/truck/volvo_f88/int/engine_1800.ogg"
+	name: "/sound/truck/ext/2000rpm-int.ogg"
 
 	looped: true
 
@@ -279,14 +288,12 @@ sound_engine_data: .e13
 
 	min_rpm: 1635.0
 	max_rpm: 3000.0
-	volume: 0.45
+	volume: 1.1
 }
 
-################################ geräusch von reifen #########################
-
-sound_engine_data: .e14
+sound_engine_data: .e15
 {
-	name: "/sound/truck/volvo_f88/ext/int_tires1.ogg"
+	name: "/sound/truck/ext/int_tires1.ogg"
 
 	looped: true
 
@@ -294,22 +301,7 @@ sound_engine_data: .e14
 
 	min_rpm: 800.0
 	max_rpm: 2800.0
-	volume: 0.08 #0.5
-}
-
-############################### sound idle #########################
-
-sound_engine_data: .e15
-{
-	name: "/sound/truck/volvo_f88/int/exhaust_idle.ogg"
-
-	looped: true
-
-	pitch_reference: 700
-
-	min_rpm: 0.0
-	max_rpm: 3500.0
-	volume: 0.12
+	volume: 0.015
 }
 
 ############################# geladen ############################
@@ -324,7 +316,7 @@ sound_engine_data: .el0
 
 	min_rpm: 300.0
 	max_rpm: 690.0
-	volume: 0.4
+	volume: 0.8
 }
 
 sound_engine_data: .el1
@@ -337,7 +329,7 @@ sound_engine_data: .el1
 
 	min_rpm: 610.0
 	max_rpm: 900.0
-	volume: 0.5
+	volume: 0.75
 }
 
 sound_engine_data: .el2
@@ -350,7 +342,7 @@ sound_engine_data: .el2
 
 	min_rpm: 720.0
 	max_rpm: 1050.0
-	volume: 0.6
+	volume: 0.8
 }
 
 sound_engine_data: .el3
@@ -363,7 +355,7 @@ sound_engine_data: .el3
 
 	min_rpm: 920.0
 	max_rpm: 1300.0
-	volume: 0.7
+	volume: 0.9
 }
 
 sound_engine_data: .el4
@@ -376,7 +368,7 @@ sound_engine_data: .el4
 
 	min_rpm: 1150.0
 	max_rpm: 1500.0
-	volume: 0.75
+	volume: 0.95
 }
 
 sound_engine_data: .el5
@@ -389,7 +381,7 @@ sound_engine_data: .el5
 
 	min_rpm: 1360.0
 	max_rpm: 1730.0
-	volume: 0.8
+	volume: 1.0
 }
 
 sound_engine_data: .el6
@@ -402,7 +394,7 @@ sound_engine_data: .el6
 
 	min_rpm: 1550.0
 	max_rpm: 2000.0
-	volume: 0.85
+	volume: 1.05
 }
 
 sound_engine_data: .el7
@@ -415,7 +407,7 @@ sound_engine_data: .el7
 
 	min_rpm: 1760.0
 	max_rpm: 3000.0
-	volume: 0.9
+	volume: 1.10
 }
 
 
@@ -522,9 +514,9 @@ sound_engine_data: .eb
 	looped: true	
 	is_2d: true
 	pitch_reference: 1200
-	min_rpm: 750.0
+	min_rpm: 450.0
 	max_rpm: 3000.0
-	volume: 0.4
+	volume: 1.29
 }
 
 sound_data: .horn

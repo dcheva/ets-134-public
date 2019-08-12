@@ -1,6 +1,6 @@
 SiiNunit
 {
-vehicle : .company.truck
+vehicle: .tdealer.volvo_1
 {
 	accessories[]: .volvo1.data
 	accessories[]: .volvo1.chassis
@@ -45,11 +45,11 @@ vehicle_accessory : .volvo1.data {
 }
 vehicle_accessory : .volvo1.chassis {
 	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/chassis/4x2.sii"
+	data_path: "/def/vehicle/truck/volvo.f88/chassis/4x4.sii"
 }
 vehicle_accessory : .volvo1.cabin {
 	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/cabin/short.sii"
+	data_path: "/def/vehicle/truck/volvo.f88/cabin/long.sii"
 }
 vehicle_accessory : .volvo1.interior {
 	wear: 0
@@ -57,19 +57,19 @@ vehicle_accessory : .volvo1.interior {
 }
 vehicle_accessory : .volvo1.engine {
 	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/engine/td100a.sii"
+	data_path: "/def/vehicle/truck/volvo.f88/engine/d12g385.sii"
 }
 vehicle_accessory : .volvo1.transmission {
 	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/transmission/r_60.sii"
+	data_path: "/def/vehicle/truck/volvo.f88/transmission/r_61.sii"
 }
 vehicle_sound_accessory : .volvo1.soundint {
 	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/sound/interior_turbo.sii"
+	data_path: "/def/vehicle/truck/volvo.f88/sound/interior_f12.sii"
 }
 vehicle_sound_accessory : .volvo1.soundext {
 	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/sound/exterior_turbo.sii"
+	data_path: "/def/vehicle/truck/volvo.f88/sound/exterior_f12.sii"
 }
 vehicle_accessory : .volvo1.head_light {
 	wear: 0
@@ -81,7 +81,7 @@ vehicle_paint_job_accessory : .volvo1.paint_job {
 	mask_b_color: (0.0, 0.0, 1.0)
 	base_color: (&3f470a3d, &3f36c8b4, &3e4adaba)
 	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/paint_job/color3.sii"
+	data_path: "/def/vehicle/truck/volvo.f88/paint_job/dut_ab_v.sii"
 }
 vehicle_addon_accessory : .volvo1.doorstep {
 	slot_name: 0
@@ -99,7 +99,7 @@ vehicle_addon_accessory : .volvo1.mirror {
 	slot_name: 0
 	slot_hookup: 0
 	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/accessory/mirror/shape1.sii"
+	data_path: "/def/vehicle/truck/volvo.f88/accessory/mirror/shape3.sii"
 }
   
   
@@ -200,9 +200,4 @@ vehicle_addon_accessory : .volvo1.sunroof {
 	
 }
 
-vehicle_addon_accessory : .volvo1.badge {
-	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/badge/badge_260.sii"
-	
-}
 }

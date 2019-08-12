@@ -24,7 +24,7 @@ accessory_sound_data : aint.volvo.f88_12.tsound
 	engine[]: .e12
 	engine[]: .e13
 	engine[]: .e14
-	engine[]: .e14noise
+	engine[]: .e15
 
 	engine_load[]: .el0
 	engine_load[]: .el1
@@ -41,7 +41,18 @@ accessory_sound_data : aint.volvo.f88_12.tsound
 	engine_load[]: .el11
 	engine_load[]: .el12
 	engine_load[]: .el13
-	
+
+	engine_load[]: .el00
+	engine_load[]: .el01
+	engine_load[]: .el02
+	engine_load[]: .el03
+	engine_load[]: .el04
+	engine_load[]: .el05
+	engine_load[]: .el06
+		
+	engine_nofuel[]: .enf0
+	engine_nofuel[]: .enf1
+	engine_nofuel[]: .enf2
 
 	turbo: .t
 
@@ -72,28 +83,28 @@ suitable_for[]: "d16g465.volvo.f88.engine"
 
 sound_data: .start
 {
-	name: "/sound/truck/volvo/int/volvo_int_engine_start_bad.ogg"
+	name: "/sound/truck/volvo_f88/int/start.ogg"
 	looped: false
-	volume: 0.4
+	volume: 0.8
 }
 
 sound_data: .startbad
 {
-	name: "/sound/truck/volvo/int/volvo_int_engine_start_bad.ogg"
+	name: "/sound/truck/volvo_f88/int/start_bad.ogg"
 	looped: false
-	volume: 0.4
+	volume: 0.8
 }
 
 sound_data: .stop
 {
-	name: "/sound/truck/volvo/int/volvo_int_engine_stop.ogg"
+	name: "/sound/truck/volvo_f88/int/volvo_int_engine_stop.ogg"
 	looped: false
-	volume: 0.4
+	volume: 0.8
 }
 
 sound_engine_data: .e0
 {
-	name: "/sound/truck/volvo/int/volvo_int_engine_idle.ogg"
+	name: "/sound/truck/int/volvo_int_engine_idle.ogg"
 
 	looped: true
 
@@ -101,12 +112,12 @@ sound_engine_data: .e0
 
 	min_rpm: 300.0
 	max_rpm: 690.0
-	volume: 0.4 //0.3
+	volume: 0.8 //0.3
 }
 
 sound_engine_data: .e1
 {
-	name: "/sound/truck/volvo/int/volvo_int_engine_0700.ogg"
+	name: "/sound/truck/int/volvo_int_engine_0700.ogg"
 
 	looped: true
 
@@ -114,12 +125,12 @@ sound_engine_data: .e1
 
 	min_rpm: 610.0
 	max_rpm: 900.0
-	volume: 0.45 //0.35
+	volume: 0.9 //0.35
 }
 
 sound_engine_data: .e2
 {
-	name: "/sound/truck/volvo/int/volvo_int_engine_1000.ogg"
+	name: "/sound/truck/int/volvo_int_engine_1000.ogg"
 
 	looped: true
 
@@ -127,12 +138,12 @@ sound_engine_data: .e2
 
 	min_rpm: 720.0
 	max_rpm: 1050.0
-	volume: 0.45 //0.35
+	volume: 0.9 //0.35
 }
 
 sound_engine_data: .e3
 {
-	name: "/sound/truck/volvo/int/volvo_int_engine_1200.ogg"
+	name: "/sound/truck/int/volvo_int_engine_1200.ogg"
 
 	looped: true
 
@@ -140,12 +151,12 @@ sound_engine_data: .e3
 
 	min_rpm: 920.0
 	max_rpm: 1300.0
-	volume: 0.5 //0.4
+	volume: 1 //0.4
 }
 
 sound_engine_data: .e4
 {
-	name: "/sound/truck/volvo/int/volvo_int_engine_1400.ogg"
+	name: "/sound/truck/int/volvo_int_engine_1400.ogg"
 
 	looped: true
 
@@ -153,12 +164,12 @@ sound_engine_data: .e4
 
 	min_rpm: 1150.0
 	max_rpm: 1500.0
-	volume: 0.55 //0.45
+	volume: 1.1 //0.45
 }
 
 sound_engine_data: .e5
 {
-	name: "/sound/truck/volvo/int/volvo_int_engine_1600.ogg"
+	name: "/sound/truck/int/volvo_int_engine_1600.ogg"
 
 	looped: true
 
@@ -166,12 +177,12 @@ sound_engine_data: .e5
 
 	min_rpm: 1360.0
 	max_rpm: 1730.0
-	volume: 0.6 //0.5
+	volume: 1.2 //0.5
 }
 
 sound_engine_data: .e6
 {
-	name: "/sound/truck/volvo/int/volvo_int_engine_1800.ogg"
+	name: "/sound/truck/int/volvo_int_engine_1800.ogg"
 
 	looped: true
 
@@ -179,12 +190,12 @@ sound_engine_data: .e6
 
 	min_rpm: 1550.0
 	max_rpm: 2000.0
-	volume: 0.65 //0.55
+	volume: 1.3 //0.55
 }
 
 sound_engine_data: .e7
 {
-	name: "/sound/truck/volvo/int/volvo_int_engine_2000.ogg"
+	name: "/sound/truck/int/volvo_int_engine_2000.ogg"
 
 	looped: true
 
@@ -192,7 +203,7 @@ sound_engine_data: .e7
 
 	min_rpm: 1760.0
 	max_rpm: 3000.0
-	volume: 0.7 //0.6
+	volume: 1.4 //0.6
 }
 
 sound_engine_data: .e8
@@ -203,14 +214,14 @@ sound_engine_data: .e8
 	
     min_rpm: 300.0
 	max_rpm: 3000.0
-	volume: 0.15 //0.19
+	volume: 0.3 //0.19
 }
 
 
 
 sound_engine_data: .e9
 {
-	name: "/sound/truck/volvo/ext/500rpm-int.ogg"
+	name: "/sound/truck/ext/500rpm-int.ogg"
 
 	looped: true
 
@@ -218,14 +229,14 @@ sound_engine_data: .e9
 
 	min_rpm: 300.0
 	max_rpm: 740.0
-	volume: 0.3
+	volume: 0.6
 }
 
 
 
 sound_engine_data: .e10
 {
-	name: "/sound/truck/volvo/ext/800rpm-int.ogg"
+	name: "/sound/truck/ext/800rpm-int.ogg"
 
 	looped: true
 
@@ -233,12 +244,12 @@ sound_engine_data: .e10
 
 	min_rpm: 664.0
 	max_rpm: 955.0
-	volume: 0.35
+	volume: 0.7
 }
 
 sound_engine_data: .e11
 {
-	name: "/sound/truck/volvo/ext/1000rpm-int.ogg"
+	name: "/sound/truck/ext/1000rpm-int.ogg"
 
 	looped: true
 
@@ -246,12 +257,12 @@ sound_engine_data: .e11
 
 	min_rpm: 818.0
 	max_rpm: 1155.0
-	volume: 0.4
+	volume: 0.8
 }
 
 sound_engine_data: .e12
 {
-	name: "/sound/truck/volvo/ext/1200rpm-int.ogg"
+	name: "/sound/truck/ext/1200rpm-int.ogg"
 
 	looped: true
 
@@ -259,12 +270,12 @@ sound_engine_data: .e12
 
 	min_rpm: 1048.0
 	max_rpm: 1418.0
-	volume: 0.45
+	volume: 0.9
 }
 
 sound_engine_data: .e13
 {
-	name: "/sound/truck/volvo/ext/1500rpm-int.ogg"
+	name: "/sound/truck/ext/1500rpm-int.ogg"
 
 	looped: true
 
@@ -272,12 +283,12 @@ sound_engine_data: .e13
 
 	min_rpm: 1275.0
 	max_rpm: 1893.0
-	volume: 0.5
+	volume: 1
 }
 
 sound_engine_data: .e14
 {
-	name: "/sound/truck/volvo/ext/2000rpm-int.ogg"
+	name: "/sound/truck/ext/2000rpm-int.ogg"
 
 	looped: true
 
@@ -285,12 +296,12 @@ sound_engine_data: .e14
 
 	min_rpm: 1635.0
 	max_rpm: 3000.0
-	volume: 0.55
+	volume: 1.1
 }
 
-sound_engine_data: .e14noise
+sound_engine_data: .e15
 {
-	name: "/sound/truck/volvo/ext/int_tires1.ogg"
+	name: "/sound/truck/ext/int_tires1.ogg"
 
 	looped: true
 
@@ -298,12 +309,14 @@ sound_engine_data: .e14noise
 
 	min_rpm: 800.0
 	max_rpm: 2800.0
-	volume: 0.05
+	volume: 0.015
 }
+
+############################# geladen ############################
 
 sound_engine_data: .el0
 {
-	name: "/sound/truck/volvo/int/volvo_int_exhaust_idle.ogg"
+	name: "/sound/truck/volvo_f88/int/volvo_int_exhaust_idle.ogg"
 
 	looped: true
 
@@ -311,12 +324,12 @@ sound_engine_data: .el0
 
 	min_rpm: 300.0
 	max_rpm: 690.0
-	volume: 0.4 //0.4
+	volume: 0.8
 }
 
 sound_engine_data: .el1
 {
-	name: "/sound/truck/volvo/int/volvo_int_exhaust_0700.ogg"
+	name: "/sound/truck/volvo_f88/int/volvo_int_exhaust_0700.ogg"
 
 	looped: true
 
@@ -324,12 +337,12 @@ sound_engine_data: .el1
 
 	min_rpm: 610.0
 	max_rpm: 900.0
-	volume: 0.5 //0.5
+	volume: 0.75
 }
 
 sound_engine_data: .el2
 {
-	name: "/sound/truck/volvo/int/volvo_int_exhaust_1000.ogg"
+	name: "/sound/truck/volvo_f88/int/volvo_int_exhaust_1000.ogg"
 
 	looped: true
 
@@ -337,12 +350,12 @@ sound_engine_data: .el2
 
 	min_rpm: 720.0
 	max_rpm: 1050.0
-	volume: 0.6 //0.6
+	volume: 0.8
 }
 
 sound_engine_data: .el3
 {
-	name: "/sound/truck/volvo/int/volvo_int_exhaust_1200.ogg"
+	name: "/sound/truck/volvo_f88/int/volvo_int_exhaust_1200.ogg"
 
 	looped: true
 
@@ -350,12 +363,12 @@ sound_engine_data: .el3
 
 	min_rpm: 920.0
 	max_rpm: 1300.0
-	volume: 0.7 //0.7
+	volume: 0.9
 }
 
 sound_engine_data: .el4
 {
-	name: "/sound/truck/volvo/int/volvo_int_exhaust_1400.ogg"
+	name: "/sound/truck/volvo_f88/int/volvo_int_exhaust_1400.ogg"
 
 	looped: true
 
@@ -363,12 +376,12 @@ sound_engine_data: .el4
 
 	min_rpm: 1150.0
 	max_rpm: 1500.0
-	volume: 0.75 //0.75
+	volume: 0.95
 }
 
 sound_engine_data: .el5
 {
-	name: "/sound/truck/volvo/int/volvo_int_exhaust_1600.ogg"
+	name: "/sound/truck/volvo_f88/int/volvo_int_exhaust_1600.ogg"
 
 	looped: true
 
@@ -376,12 +389,12 @@ sound_engine_data: .el5
 
 	min_rpm: 1360.0
 	max_rpm: 1730.0
-	volume: 0.8 //0.8
+	volume: 1.0
 }
 
 sound_engine_data: .el6
 {
-	name: "/sound/truck/volvo/int/volvo_int_exhaust_1800.ogg"
+	name: "/sound/truck/volvo_f88/int/volvo_int_exhaust_1800.ogg"
 
 	looped: true
 
@@ -389,12 +402,12 @@ sound_engine_data: .el6
 
 	min_rpm: 1550.0
 	max_rpm: 2000.0
-	volume: 0.85 //0.85
+	volume: 1.05
 }
 
 sound_engine_data: .el7
 {
-	name: "/sound/truck/volvo/int/volvo_int_exhaust_2000.ogg"
+	name: "/sound/truck/volvo_f88/int/volvo_int_exhaust_2000.ogg"
 
 	looped: true
 
@@ -402,111 +415,203 @@ sound_engine_data: .el7
 
 	min_rpm: 1760.0
 	max_rpm: 3000.0
-	volume: 0.9 //0.9
+	volume: 1.10
 }
-
-
-
-
-
-
-
-
-
-
-
 
 sound_engine_data: .el8
 {
-	name: "/sound/truck/volvo/ext/500rpm-int-exhaust.ogg"
+	name: "/sound/truck/ext/500rpm-int-exhaust.ogg"
 
 	looped: true
 
 	min_rpm: 300.0
 	max_rpm: 748.0
-	volume: 0.25
+	volume: 0.45
 }
 
 sound_engine_data: .el9
 {
-	name: "/sound/truck/volvo/ext/800rpm-int-exhaust.ogg"
+	name: "/sound/truck/ext/800rpm-int-exhaust.ogg"
 
 	looped: true
 
 	min_rpm: 659.0
 	max_rpm: 956.0
-	volume: 0.25
+	volume: 0.45
 }
 
 sound_engine_data: .el10
 {
-	name: "/sound/truck/volvo/ext/1000rpm-int-exhaust.ogg"
+	name: "/sound/truck/ext/1000rpm-int-exhaust.ogg"
 
 	looped: true
 
 	min_rpm: 814.0
 	max_rpm: 1158.0
-	volume: 0.25
+	volume: 0.45
 }
 
 sound_engine_data: .el11
 {
-	name: "/sound/truck/volvo/ext/1200rpm-int-exhaust.ogg"
+	name: "/sound/truck/ext/1200rpm-int-exhaust.ogg"
 
 	looped: true
 
 	min_rpm: 1048.0
 	max_rpm: 1421.0
-	volume: 0.32
+	volume: 0.52
 }
 
 sound_engine_data: .el12
 {
-	name: "/sound/truck/volvo/ext/1500rpm-int-exhaust.ogg"
+	name: "/sound/truck/ext/1500rpm-int-exhaust.ogg"
 
 	looped: true
 
 	min_rpm: 1275.0
 	max_rpm: 1899.0
-	volume: 0.32
+	volume: 0.56
 }
 
 sound_engine_data: .el13
 {
-	name: "/sound/truck/volvo/ext/2000rpm-int-exhaust.ogg"
+	name: "/sound/truck/ext/2000rpm-int-exhaust.ogg"
 
 	looped: true
 
 	min_rpm: 1635.0
 	max_rpm: 3000.0
-	volume: 0.4
+	volume: 0.65
+}
+
+sound_engine_data: .el00
+{
+	name: "/sound/truck/iveco_19038/int/lever_le_pied.ogg"
+
+	looped: true
+
+	pitch_reference: 1475
+
+	min_rpm: 200.0
+	max_rpm: 1000.0
+	volume: 0.29
+}
+
+sound_engine_data: .el01
+{
+	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_1000.ogg"
+
+	looped: true
+
+	pitch_reference: 1000
+
+	min_rpm: 800.0
+	max_rpm: 1200.0
+	volume: 0.50
+}
+
+sound_engine_data: .el02
+{
+	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_1200.ogg"
+
+	looped: true
+
+	pitch_reference: 1200
+
+	min_rpm: 1000.0
+	max_rpm: 1400.0
+	volume: 0.40
+}
+
+sound_engine_data: .el03
+{
+	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_1400.ogg"
+
+	looped: true
+
+	pitch_reference: 1400
+
+	min_rpm: 1200.0
+	max_rpm: 1600.0
+	volume: 0.40
+}
+
+sound_engine_data: .el04
+{
+	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_1600.ogg"
+
+	looped: true
+
+	pitch_reference: 1600
+
+	min_rpm: 100.0
+	max_rpm: 3000.0
+	volume: 0.20
+}
+
+sound_engine_data: .el05
+{
+	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_1800.ogg"
+
+	looped: true
+
+	pitch_reference: 1800
+
+	min_rpm: 1400.0
+	max_rpm: 2000.0
+	volume: 0.40
+}
+
+sound_engine_data: .el06
+{
+	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_2000.ogg"
+
+	looped: true
+
+	pitch_reference: 1000
+
+	min_rpm: 1900.0
+	max_rpm: 3000.0
+	volume: 0.50
 }
 
 
+sound_engine_data: .enf0
+{
+	name: "/sound/truck/iveco_19038/int/1000rpm-int-mono.ogg"
 
+	pitch_reference: 1100
 
+	min_rpm: 200.0
+	max_rpm: 1280.0
+	volume: 0.32
+}
 
+sound_engine_data: .enf1
+{
+	name: "/sound/truck/iveco_19038/int/1500rpm-int-mono.ogg"
 
+	looped: true
 
+	pitch_reference: 1700
 
+	min_rpm: 1200.0
+	max_rpm: 3000.0
+	volume: 0.42
+}
 
+sound_engine_data: .enf2
+{
+	name: "/sound/truck/iveco_19038/int/turbo_idle.ogg"
 
+	looped: true
 
+	pitch_reference: 580
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	min_rpm: 200.0
+	max_rpm: 3000.0
+	volume: 0.28
+}
 
 sound_data: .t
 {
@@ -518,32 +623,32 @@ sound_data: .t
 
 sound_data: .airgear0
 {
-	name: "/sound/truck/volvo/ext/gear_air_1.ogg"
+	name: "/sound/truck/ext/gear_air_1.ogg"
 	volume: 0.5 //0.6
 }
 
 sound_data: .airgear1
 {
-	name: "/sound/truck/volvo/ext/gear_air_2.ogg"
+	name: "/sound/truck/ext/gear_air_2.ogg"
 	volume: 0.5 //0.6
 }
 
 sound_data: .airgear2
 {
-	name: "/sound/truck/volvo/ext/gear_air_3.ogg"
+	name: "/sound/truck/ext/gear_air_3.ogg"
 	volume: 0.5 //0.6
 }
 
 sound_data: .airbrake0
 {
-	name: "/sound/truck/volvo/ext/air_brake1.ogg"
+	name: "/sound/truck/ext/air_brake1.ogg"
 
 	looped: false
 	volume: 1.5
 }
 sound_data: .airbrake1
 {
-	name: "/sound/truck/volvo/ext/air_brake2.ogg"
+	name: "/sound/truck/ext/air_brake2.ogg"
 
 	looped: false
 	volume: 1.5
@@ -553,61 +658,62 @@ sound_data: .airbrake1
 
 sound_engine_data: .eb
 {
-	name: "/sound/truck/volvo/int/engine_brake_int.ogg"
+	name: "/sound/truck/renault/magnum_int/1900rpm_exhaust_int.ogg"
 	looped: true	
 	is_2d: true
-	pitch_reference: 1850
-	min_rpm: 750.0
+	pitch_reference: 1200
+	min_rpm: 450.0
 	max_rpm: 3000.0
+	volume: 1.29
 }
 
 sound_data: .horn
 {
-	name: "/sound/truck/volvo/int/int_air_horn_0.ogg"
+	name: "/sound/truck/int/int_air_horn_0.ogg"
 	looped: true
 }
 
 sound_data: .ahorn
 {
-	name: "/sound/truck/volvo/int/int_air_horn_7.ogg"
+	name: "/sound/truck/int/int_air_horn_7.ogg"
 	looped: true
 }
 
 sound_data: .reverse
 {
-	name: "/sound/truck/volvo/int/reverse.ogg"
+	name: "/sound/truck/int/reverse.ogg"
 	looped: true
 }
 
 sound_data: .changeg
 {
-	name: "/sound/truck/volvo/int/gear_change.ogg"
+	name: "/sound/truck/int/gear_change.ogg"
 }
 
 sound_data: .blinker_on
 {
-	name: "/sound/truck/volvo/int/blinker_on.ogg"
+	name: "/sound/truck/int/blinker_on.ogg"
 	is_2d: true
 	volume: 0.25 //0.35
 }
 
 sound_data: .blinker_off
 {
-	name: "/sound/truck/volvo/int/blinker_off.ogg"
+	name: "/sound/truck/int/blinker_off.ogg"
 	is_2d: true
 	volume: 0.25 //0.35
 }
 
 sound_data: .wipers_up
 {
-	name: "/sound/truck/volvo/int/wiper_up.ogg"
+	name: "/sound/truck/int/wiper_up.ogg"
 	is_2d: true
 	volume: 0.45
 }
 
 sound_data: .wipers_down
 {
-	name: "/sound/truck/volvo/int/wiper_down.ogg"
+	name: "/sound/truck/int/wiper_down.ogg"
 	is_2d: true
 	volume: 0.45
 }
