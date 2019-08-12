@@ -57,7 +57,7 @@ vehicle_accessory : .volvo1.interior {
 }
 vehicle_accessory : .volvo1.engine {
 	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/engine/d16g385.sii"
+	data_path: "/def/vehicle/truck/volvo.f88/engine/d12g385.sii"
 }
 vehicle_accessory : .volvo1.transmission {
 	wear: 0

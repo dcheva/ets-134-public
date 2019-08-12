@@ -579,25 +579,19 @@ sound_engine_data: .el06
 sound_engine_data: .enf0
 {
 	name: "/sound/truck/iveco_19038/int/1000rpm-int-mono.ogg"
-
-	pitch_reference: 1100
-
+	looped: true
 	min_rpm: 200.0
 	max_rpm: 1280.0
-	volume: 0.32
+	volume: 0.28
 }
 
 sound_engine_data: .enf1
 {
 	name: "/sound/truck/iveco_19038/int/1500rpm-int-mono.ogg"
-
 	looped: true
-
-	pitch_reference: 1700
-
 	min_rpm: 1200.0
 	max_rpm: 3000.0
-	volume: 0.42
+	volume: 0.24
 }
 
 sound_engine_data: .enf2
@@ -606,11 +600,11 @@ sound_engine_data: .enf2
 
 	looped: true
 
-	pitch_reference: 580
+	pitch_reference: 640
 
 	min_rpm: 200.0
 	max_rpm: 3000.0
-	volume: 0.28
+	volume: 0.08
 }
 
 sound_data: .t
