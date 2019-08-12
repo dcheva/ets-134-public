@@ -45,7 +45,7 @@ vehicle_accessory : .volvo1.data {
 }
 vehicle_accessory : .volvo1.chassis {
 	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/chassis/4x6.sii"
+	data_path: "/def/vehicle/truck/volvo.f88/chassis/6x4.sii"
 }
 vehicle_accessory : .volvo1.cabin {
 	wear: 0
@@ -61,7 +61,7 @@ vehicle_accessory : .volvo1.engine {
 }
 vehicle_accessory : .volvo1.transmission {
 	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/transmission/r_61b.sii"
+	data_path: "/def/vehicle/truck/volvo.f88/transmission/sr_61b.sii"
 }
 vehicle_sound_accessory : .volvo1.soundint {
 	wear: 0

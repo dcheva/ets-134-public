@@ -61,7 +61,7 @@ vehicle_accessory : .volvo1.engine {
 }
 vehicle_accessory : .volvo1.transmission {
 	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/transmission/r_61.sii"
+	data_path: "/def/vehicle/truck/volvo.f88/transmission/sr_61.sii"
 }
 vehicle_sound_accessory : .volvo1.soundint {
 	wear: 0
