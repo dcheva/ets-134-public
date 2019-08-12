@@ -309,7 +309,7 @@ sound_engine_data: .e15
 
 	min_rpm: 800.0
 	max_rpm: 2800.0
-	volume: 0.015
+	volume: 0.03
 }
 
 ############################# geladen ############################
