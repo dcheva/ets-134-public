@@ -40,6 +40,12 @@ accessory_sound_data : atd.volvo.f88.isound
 	engine_load[]: .el8
 	engine_load[]: .el9
 	
+
+	engine_nofuel[]: .enf0
+	engine_nofuel[]: .enf1
+	engine_nofuel[]: .enf2
+
+
 	turbo: .t
 
 	air_gear[0]: .airgear0
@@ -427,6 +433,42 @@ sound_engine_data: .el8
 	max_rpm: 2000.0
 	volume: 0.20 
 }
+
+
+
+
+sound_engine_data: .enf0
+{
+	name: "/sound/truck/iveco_19038/int/1000rpm-int-mono.ogg"
+	looped: true
+	min_rpm: 200.0
+	max_rpm: 1280.0
+	volume: 0.22
+}
+
+sound_engine_data: .enf1
+{
+	name: "/sound/truck/iveco_19038/int/1500rpm-int-mono.ogg"
+	looped: true
+	min_rpm: 1200.0
+	max_rpm: 3000.0
+	volume: 0.20
+}
+
+sound_engine_data: .enf2
+{
+	name: "/sound/truck/iveco_19038/int/turbo_idle.ogg"
+
+	looped: true
+
+	pitch_reference: 640
+
+	min_rpm: 200.0
+	max_rpm: 3000.0
+	volume: 0.08
+}
+
+
 
 sound_engine_data: .el9
 {

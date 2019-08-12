@@ -49,10 +49,12 @@ accessory_sound_data : aint.volvo.f88_12.tsound
 	engine_load[]: .el04
 	engine_load[]: .el05
 	engine_load[]: .el06
+
 		
 	engine_nofuel[]: .enf0
 	engine_nofuel[]: .enf1
 	engine_nofuel[]: .enf2
+
 
 	turbo: .t
 
@@ -494,7 +496,7 @@ sound_engine_data: .el00
 
 	min_rpm: 200.0
 	max_rpm: 1000.0
-	volume: 0.29
+	volume: 0.44
 }
 
 sound_engine_data: .el01
@@ -505,7 +507,7 @@ sound_engine_data: .el01
 
 	pitch_reference: 1000
 
-	min_rpm: 800.0
+	min_rpm: 900.0
 	max_rpm: 1200.0
 	volume: 0.50
 }
@@ -518,9 +520,9 @@ sound_engine_data: .el02
 
 	pitch_reference: 1200
 
-	min_rpm: 1000.0
+	min_rpm: 1100.0
 	max_rpm: 1400.0
-	volume: 0.40
+	volume: 0.54
 }
 
 sound_engine_data: .el03
@@ -531,25 +533,12 @@ sound_engine_data: .el03
 
 	pitch_reference: 1400
 
-	min_rpm: 1200.0
-	max_rpm: 1600.0
-	volume: 0.40
+	min_rpm: 1300.0
+	max_rpm: 1800.0
+	volume: 0.58
 }
 
 sound_engine_data: .el04
-{
-	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_1600.ogg"
-
-	looped: true
-
-	pitch_reference: 1600
-
-	min_rpm: 100.0
-	max_rpm: 3000.0
-	volume: 0.20
-}
-
-sound_engine_data: .el05
 {
 	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_1800.ogg"
 
@@ -557,9 +546,22 @@ sound_engine_data: .el05
 
 	pitch_reference: 1800
 
-	min_rpm: 1400.0
+	min_rpm: 1700.0
 	max_rpm: 2000.0
-	volume: 0.40
+	volume: 0.54
+}
+
+sound_engine_data: .el05
+{
+	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_1600.ogg"
+
+	looped: true
+
+	pitch_reference: 800
+
+	min_rpm: 100.0
+	max_rpm: 3000.0
+	volume: 0.20
 }
 
 sound_engine_data: .el06
@@ -572,7 +574,7 @@ sound_engine_data: .el06
 
 	min_rpm: 1900.0
 	max_rpm: 3000.0
-	volume: 0.50
+	volume: 0.28
 }
 
 
@@ -582,7 +584,7 @@ sound_engine_data: .enf0
 	looped: true
 	min_rpm: 200.0
 	max_rpm: 1280.0
-	volume: 0.28
+	volume: 0.22
 }
 
 sound_engine_data: .enf1
@@ -591,7 +593,7 @@ sound_engine_data: .enf1
 	looped: true
 	min_rpm: 1200.0
 	max_rpm: 3000.0
-	volume: 0.24
+	volume: 0.20
 }
 
 sound_engine_data: .enf2
