@@ -45,7 +45,7 @@ vehicle_accessory : .volvo1.data {
 }
 vehicle_accessory : .volvo1.chassis {
 	wear: 0
-	data_path: "/def/vehicle/truck/volvo.f88/chassis/4x4.sii"
+	data_path: "/def/vehicle/truck/volvo.f88/chassis/6x4.sii"
 }
 vehicle_accessory : .volvo1.cabin {
 	wear: 0
