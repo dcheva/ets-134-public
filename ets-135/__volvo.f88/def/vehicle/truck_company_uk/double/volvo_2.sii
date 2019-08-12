@@ -1,6 +1,6 @@
 SiiNunit
 {
-vehicle: .tdealer.volvo_1
+vehicle : .company.truck
 {
 	accessories[]: .volvo1.data
 	accessories[]: .volvo1.chassis
@@ -36,7 +36,6 @@ vehicle: .tdealer.volvo_1
 	accessories[]: .volvo1.r_light
 	accessories[]: .volvo1.s_equip
 	accessories[]: .volvo1.sunroof
-	accessories[]: .volvo1.badge
 }
 
 vehicle_accessory : .volvo1.data {
