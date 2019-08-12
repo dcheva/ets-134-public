@@ -544,29 +544,30 @@ sound_data: .blinker_on
 {
 	name: "/sound/truck/volvo_f88/int/blinker_on.ogg"
 	is_2d: true
-	volume: 0.25
+	volume: 0.65
 }
 
 sound_data: .blinker_off
 {
 	name: "/sound/truck/volvo_f88/int/blinker_off.ogg"
 	is_2d: true
-	volume: 0.25
+	volume: 0.65
 }
 
 sound_data: .wipers_up
 {
 	name: "/sound/truck/volvo_f88/int/wiper_up.ogg"
 	is_2d: true
-	volume: 0.45
+	volume: 1.25
 }
 
 sound_data: .wipers_down
 {
 	name: "/sound/truck/volvo_f88/int/wiper_down.ogg"
 	is_2d: true
-	volume: 0.45
+	volume: 1.25
 }
+
 
 @include "/def/vehicle/truck/common_sound_int_data_f88.sui"
 
