@@ -66,6 +66,8 @@ accessory_sound_data : aint.volvo.f88_12.tsound
 
 	air_brake[0]: .airbrake0
 	air_brake[1]: .airbrake1
+	air_brake[2]: .airbrake2
+	air_brake[3]: .airbrake3
 
 
 	engine_brake[]: .eb
@@ -676,21 +678,42 @@ sound_data: .airgear2
 	volume: 0.5 //0.6
 }
 
+
+#+++++++++++++++++++++++++++++  druckluftbremse +++++++++++++++++++++++++
+
+
 sound_data: .airbrake0
 {
-	name: "/sound/truck/ext/air_brake1.ogg"
+	name: "/sound/truck/volvo_f88/int/air_brake1.ogg"
 
 	looped: false
-	volume: 1.5
+	volume: 0.35
 }
 sound_data: .airbrake1
 {
-	name: "/sound/truck/ext/air_brake2.ogg"
+	name: "/sound/truck/volvo_f88/int/air_brake2.ogg"
 
 	looped: false
-	volume: 1.5
+	volume: 0.3
 }
 
+sound_data: .airbrake2
+{
+	name: "/sound/truck/volvo_f88/int/air_brake3.ogg"
+
+	looped: false
+	volume: 0.5
+}
+
+sound_data: .airbrake3
+{
+	name: "/sound/truck/volvo_f88/int/air_brake4.ogg"
+
+	looped: false
+	volume: 0.3
+}
+
+#++++++++++++++++++++++++++++++++ andere geräusche +++++++++++++++++++++++++++++++
 
 
 sound_engine_data: .eb
