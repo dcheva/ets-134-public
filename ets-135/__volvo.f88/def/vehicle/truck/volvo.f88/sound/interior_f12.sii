@@ -644,7 +644,7 @@ sound_engine_data: .enf4
 
 	min_rpm: 200.0
 	max_rpm: 3000.0
-	volume: 0.12
+	volume: 0.06
 }
 
 
@@ -653,10 +653,9 @@ sound_engine_data: .enf4
 
 sound_data: .t
 {
-	name: "/sound/truck/int/turbo_int_dor.ogg"
+	name: "/sound/truck/volvo_f88/int/turbo_int.ogg"
 	looped: true
-
-	volume: 0.4 //0.4
+	volume: 0.30
 }
 
 sound_data: .airgear0
