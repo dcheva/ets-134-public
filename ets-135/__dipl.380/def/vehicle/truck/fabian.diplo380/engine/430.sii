@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_engine_data : 360.scania.dipl380.engine
+accessory_engine_data : 430.scania.dipl380.engine
 {
 	name: "Scania 430v8 11.6l"
 	price: 9560
@@ -8,7 +8,7 @@ accessory_engine_data : 360.scania.dipl380.engine
 	info[]: "428 @@hp@@ (315@@kw@@)"
 	info[]: "2@@dg@@065 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@300 @@rpm@@"
-	icon: "scania_engine"
+	icon: "engine_01"
 	torque: 2065
 	torque_curve[]: (300, 0.1)
 	torque_curve[]: (440, 0.5)

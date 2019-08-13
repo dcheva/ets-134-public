@@ -8,7 +8,7 @@ accessory_engine_data : 360.scania.dipl380.engine
 	info[]: "360 @@hp@@ (265@@kw@@)"
 	info[]: "1@@dg@@850 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@200 @@rpm@@"
-	icon: "scania_engine"
+	icon: "engine_01"
 	torque: 1850
 	torque_curve[]: (300, 0.1)
 	torque_curve[]: (440, 0.5)
