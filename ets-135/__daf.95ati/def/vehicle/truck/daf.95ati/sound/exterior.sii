@@ -41,8 +41,13 @@ accessory_sound_data : std.daf.95ati.esound
 	air_gear[1]: .airgear1
 	air_gear[2]: .airgear2
 
-	air_brake[0]: .airbrake0
-	air_brake[1]: .airbrake1
+	air_brake[]: .airbrake0
+	air_brake[]: .airbrake1
+	air_brake[]: .airbrake_1
+	air_brake[]: .airbrake_2
+	air_brake[]: .airbrake_3
+	air_brake[]: .airbrake_4
+	air_brake[]: .airbrake_5
 
 	horn: .horn
 	air_horn: .ahorn
@@ -358,37 +363,82 @@ sound_data: .t
 	volume: 0.7
 }
 
+
+
 sound_data: .airgear0
 {
 	name: "/sound/truck/daf_95ati/ext/gear_air_1.ogg"
-	volume: 0.2
+	volume: 0.92
 }
 
 sound_data: .airgear1
 {
 	name: "/sound/truck/daf_95ati/ext/gear_air_2.ogg"
-	volume: 0.2
+	volume: 0.92
 }
 
 sound_data: .airgear2
 {
 	name: "/sound/truck/daf_95ati/ext/gear_air_3.ogg"
-	volume: 0.2
+	volume: 0.92
 }
+
+
 
 sound_data: .airbrake0
 {
-	name: "/sound/truck/daf_95ati/ext/air_brake1.ogg"
+	name: "/sound/truck/daf_95ati/int/air_brake1.ogg"
 	looped: false
-	volume: 1.0
+	volume: 0.40
 }
 
 sound_data: .airbrake1
 {
-	name: "/sound/truck/daf_95ati/ext/air_brake1.ogg"
+	name: "/sound/truck/daf_95ati/int/air_brake1.ogg"
 	looped: false
-	volume: 1.0
+	volume: 0.40
 }
+
+
+
+sound_data: .airbrake_1
+{
+	name: "/sound/truck/daf_95ati/int/air_brake_1.ogg"
+	looped: false
+	volume: 0.40
+}
+
+sound_data: .airbrake_2
+{
+	name: "/sound/truck/daf_95ati/int/air_brake_2.ogg"
+	looped: false
+	volume: 0.40
+}
+
+sound_data: .airbrake_3
+{
+	name: "/sound/truck/daf_95ati/int/air_brake_3.ogg"
+	looped: false
+	volume: 0.40
+}
+
+sound_data: .airbrake_4
+{
+	name: "/sound/truck/daf_95ati/int/air_brake_4.ogg"
+	looped: false
+	volume: 0.40
+}
+
+sound_data: .airbrake_5
+{
+	name: "/sound/truck/daf_95ati/int/air_brake_5.ogg"
+	looped: false
+	volume: 0.40
+}
+
+
+
+
 
 sound_data: .horn
 {
