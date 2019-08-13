@@ -1,9 +1,0 @@
-material : "eut2.dif.lum.rfx" {
-	texture[0] : "/vehicle/truck/upgrade/scania_113/radio/textures/visor.tobj"
-	texture_name[0] : "texture_base"
-	add_ambient : 0
-	diffuse : { 0.600001 , 0.600001 , 0.600001 }
-	reflection : 0
-	shininess : 30
-	specular : { 0.00496454 , 0.00496454 , 0.00496454 }
-}

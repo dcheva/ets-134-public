@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "tank_sc.tobj"
-	texture_name : "texture"
-}

@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "wind_def.tobj"
-	texture_name : "texture"
-}

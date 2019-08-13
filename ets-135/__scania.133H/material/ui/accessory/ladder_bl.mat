@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "ladder_bl.tobj"
-	texture_name : "texture"
-}

@@ -1,8 +1,0 @@
-material : "eut2.dif.spec.rfx" {
-	texture[0] : "/vehicle/truck/upgrade/scania_113/cp_bordo/textures/plastic1.tobj"
-	texture_name[0] : "texture_base"
-	add_ambient : 0
-	diffuse : { 0.494119 , 0.494119 , 0.494119 }
-	shininess : 10
-	specular : { 0.00784317 , 0.00784317 , 0.00784317 }
-}

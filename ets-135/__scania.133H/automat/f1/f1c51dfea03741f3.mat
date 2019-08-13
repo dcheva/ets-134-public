@@ -1,9 +1,0 @@
-material : "eut2.dif.spec.rfx" {
-	texture[0] : "/vehicle/truck/upgrade/scania_113/aerofolio1/textures/preto_fosco.tobj"
-	texture_name[0] : "texture_base"
-	add_ambient : 0
-	diffuse : { 0.2 , 0.2 , 0.2 }
-	reflection : 0
-	shininess : 500
-	specular : { 0.2 , 0.2 , 0.2 }
-}
