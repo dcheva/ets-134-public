@@ -37,15 +37,19 @@ accessory_sound_data : scania.dipl380e.sound
 	engine_nofuel[]: .enf7
 	engine_brake[]: .eb0
 	turbo: .t
-	air_gear[0]: .airgear0
-	air_gear[1]: .airgear1
-	air_gear[2]: .airgear2
-	air_gear[3]: .airgear3
-	air_gear[4]: .airgear4
-	air_gear[5]: .airgear5
-	air_brake[0]: .airbrake0
-	air_brake[1]: .airbrake1
-	air_brake[2]: .airbrake2
+	air_gear[]: .airgear0
+	air_gear[]: .airgear1
+	air_gear[]: .airgear2
+	air_gear[]: .airgear3
+	air_gear[]: .airgear4
+	air_gear[]: .airgear5
+
+	air_brake[]: .airbrake0
+	air_brake[]: .airbrake1
+	air_brake[]: .airbrake2
+	air_brake[]: .airbrake3
+	air_brake[]: .airbrake4
+
 	horn: .horn
 	air_horn: .ahorn
 	reverse: .reverse
@@ -374,24 +378,40 @@ sound_data: .airgear5
 	name: "/sound/truck/scania_2016/v8/ext/ext_scania_shifting-6.ogg"
 	volume: 0.88
 }
+
+
 sound_data: .airbrake0
 {
-	name: "/sound/truck/scania_2016/v8/ext/air_brake1_ext.ogg"
+	name: "/sound/truck/scania_3_V8/int/air_brake_1.ogg"
 	looped: false
-	volume: 0.7
+	volume: 0.6
 }
 sound_data: .airbrake1
 {
-	name: "/sound/truck/scania_2016/v8/ext/air_brake2_ext.ogg"
+	name: "/sound/truck/scania_3_V8/int/air_brake_2.ogg"
 	looped: false
-	volume: 0.7
+	volume: 0.6
 }
 sound_data: .airbrake2
 {
-	name: "/sound/truck/scania_2016/v8/ext/air_brake3_ext.ogg"
+	name: "/sound/truck/scania_3_V8/int/air_brake_3.ogg"
 	looped: false
-	volume: 0.7
+	volume: 0.6
 }
+sound_data: .airbrake3
+{
+	name: "/sound/truck/scania_3_V8/int/air_brake_4.ogg"
+	looped: false
+	volume: 0.6
+}
+sound_data: .airbrake4
+{
+	name: "/sound/truck/scania_3_V8/int/air_brake_5.ogg"
+	looped: false
+	volume: 0.6
+}
+
+
 sound_data: .horn
 {
 	name: "/sound/truck/scania_2016/v8/ext/scania_horn_ext.ogg"

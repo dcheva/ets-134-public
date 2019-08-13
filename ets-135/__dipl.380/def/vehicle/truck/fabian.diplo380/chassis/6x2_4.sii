@@ -1,0 +1,45 @@
+SiiNunit
+{
+
+#filename is incorrect but cannot be changed due to existing saves.
+
+accessory_chassis_data : 6x2_4.fabian.diplo380.chassis
+{
+	name: "@@chassis@@ K113"
+	price: 4160
+	unlock: 1
+	info[]: "6x2-4"
+	info[]: "450 @@unit_l@@"
+
+	icon: "etsint"
+	detail_model: "/vehicle/truck/diplo380/truck.pmd"
+	collision: "/vehicle/truck/diplo380/truck.pmc"
+
+	residual_travel[]: 0.16 	# 1st axle
+	residual_travel[]: 0.12 	# 2nd axle
+	residual_travel[]: 0.12 	# 3rd axle
+
+	tank_size: 1800
+
+	variant: chs_6x2_1
+	look: default
+
+	extended_shadow_texture: "/vehicle/truck/man_tgx/shadow_6x2.tobj"
+	extended_shadow_intensity: 1.0
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+	ui_shadow: "/vehicle/truck/man_tgx/ui_shadow_6x2.pmd"
+
+	powered_axle[0]: false
+	powered_axle[1]: false
+	powered_axle[2]: true
+
+	steerable_axle[0]: true
+	steerable_axle[1]: false
+	steerable_axle[2]: false
+
+	kerb_weight[0]:	7100.1
+	kerb_weight[1]:	5350.1
+	kerb_weight[2]:	5350.1
+}
+}
