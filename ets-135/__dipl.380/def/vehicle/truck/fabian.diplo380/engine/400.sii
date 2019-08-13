@@ -1,0 +1,31 @@
+SiiNunit
+{
+accessory_engine_data : 400.scania.dipl380.engine
+{
+	name: "Scania 400v8 11.6l"
+	price: 8560
+	unlock: 0
+	info[]: "401 @@hp@@ (295@@kw@@)"
+	info[]: "1@@dg@@940 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@300 @@rpm@@"
+	icon: "scania_engine"
+	torque: 1940
+	torque_curve[]: (300, 0.1)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (1000, 1)
+	torque_curve[]: (1300, 1)
+	torque_curve[]: (1600, 0.83)
+	torque_curve[]: (1900, 0.74)
+	torque_curve[]: (2300, 0.4)
+	torque_curve[]: (2500, 0.1)
+
+	rpm_limit: 2500
+	volume: 11.6
+	adblue_consumption: 0.06
+	no_adblue_power_limit: 0.5
+
+	overrides[]: "/def/vehicle/truck/fabian.diplo380/sound/interior_v8.sii"
+	overrides[]: "/def/vehicle/truck/fabian.diplo380/sound/exterior_v8.sii"
+	
+}
+}

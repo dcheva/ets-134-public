@@ -2,17 +2,28 @@ SiiNunit
 {
 accessory_engine_data : 320.scania.dipl380.engine
 {
-	name: "Scania 3-series 320 Engine"
-	price: 1560
+	name: "Scania 320 10.6l"
+	price: 4560
 	unlock: 0
 	info[]: "320 @@hp@@ (235@@kw@@)"
 	info[]: "1@@dg@@750 @@nm@@"
-	info[]: "1@@dg@@100-1@@dg@@300 @@rpm@@"
+	info[]: "1@@dg@@000-1@@dg@@200 @@rpm@@"
 	icon: "scania_engine"
-	torque: 1660
+	torque: 1750
+	torque_curve[]: (300, 0.1)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (1000, 1)
+	torque_curve[]: (1200, 1)
+	torque_curve[]: (1400, 0.83)
+	torque_curve[]: (1600, 0.74)
+	torque_curve[]: (2000, 0.4)
+	torque_curve[]: (2200, 0.1)
 	volume:	10.6
-	rpm_limit: 2500
+	rpm_limit: 2200
 	rpm_limit_neutral: 1800
+
+	overrides[]: "/def/vehicle/truck/fabian.diplo380/sound/interior.sii"
+	overrides[]: "/def/vehicle/truck/fabian.diplo380/sound/exterior.sii"
 	
 }
 }

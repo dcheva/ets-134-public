@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_sound_data : scania.dipl380e.sound
+accessory_sound_data : scania.dipl380v8e.sound
 {
 	exterior_sound: true
 	start: .start
@@ -330,7 +330,7 @@ sound_engine_data: .eb0
 {
 	name: "/sound/truck/scania_2016/v8/ext/Scania_V8_Engine_Brake_EXT.ogg"
 	looped: true
-is_2d: true
+	is_2d: true
 	pitch_reference: 1800
 	min_rpm: 500.0
 	max_rpm: 3000.0

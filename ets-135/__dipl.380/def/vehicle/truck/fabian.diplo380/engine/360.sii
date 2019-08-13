@@ -2,17 +2,28 @@ SiiNunit
 {
 accessory_engine_data : 360.scania.dipl380.engine
 {
-	name: "Scania 3-series 360 Engine"
-	price: 1750
+	name: "Scania 360 12.8l"
+	price: 5560
 	unlock: 0
 	info[]: "360 @@hp@@ (265@@kw@@)"
 	info[]: "1@@dg@@850 @@nm@@"
-	info[]: "1@@dg@@000-1@@dg@@300 @@rpm@@"
+	info[]: "1@@dg@@000-1@@dg@@200 @@rpm@@"
 	icon: "scania_engine"
 	torque: 1850
+	torque_curve[]: (300, 0.1)
+	torque_curve[]: (440, 0.5)
+	torque_curve[]: (1000, 1)
+	torque_curve[]: (1200, 1)
+	torque_curve[]: (1400, 0.83)
+	torque_curve[]: (1600, 0.74)
+	torque_curve[]: (2000, 0.4)
+	torque_curve[]: (2200, 0.1)
 	volume:	12.74
-	rpm_limit: 2500
+	rpm_limit: 2200
 	rpm_limit_neutral: 1800
+
+	overrides[]: "/def/vehicle/truck/fabian.diplo380/sound/interior.sii"
+	overrides[]: "/def/vehicle/truck/fabian.diplo380/sound/exterior.sii"
 	
 }
 }
