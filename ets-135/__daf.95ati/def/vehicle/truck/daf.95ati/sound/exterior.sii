@@ -457,7 +457,7 @@ sound_data: .reverse
 {
 	name: "/sound/truck/daf_95ati/ext/reverse.ogg"
 	looped: true
-	volume: 0.3
+	volume: 1.0
 }
 
 

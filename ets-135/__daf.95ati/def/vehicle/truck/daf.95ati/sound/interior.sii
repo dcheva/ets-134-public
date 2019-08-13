@@ -101,7 +101,7 @@ sound_data: .r
 {
 	name: "/sound/truck/daf_95ati/int/daf_retarder_1_int.ogg"
 	looped: true
-	volume: 1.0
+	volume: 1.25
 }
 
 #++++++++++++++++++++++++++++ unloaded ++++++++++++++++++++++
@@ -559,17 +559,17 @@ sound_engine_data: .eb
 	pitch_reference: 1850
 	min_rpm: 750.0
 	max_rpm: 3000.0
-	volume: 0.7
+	volume: 0.70
 }
 
-#+++++++++++++++++++++++ end ++++++++++++++++++++++
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 sound_data: .t
 {
 	name: "/sound/truck/daf_95ati/int/turbo_int.ogg"
 	looped: true
 
-	volume: 0.75
+	volume: 0.85
 }
 
 
@@ -577,19 +577,19 @@ sound_data: .t
 sound_data: .airgear0
 {
 	name: "/sound/truck/daf_95ati/int/gear_air_1.ogg"
-	volume: 0.62
+	volume: 0.42
 }
 
 sound_data: .airgear1
 {
 	name: "/sound/truck/daf_95ati/int/gear_air_2.ogg"
-	volume: 0.62
+	volume: 0.42
 }
 
 sound_data: .airgear2
 {
 	name: "/sound/truck/daf_95ati/int/gear_air_3.ogg"
-	volume: 0.62
+	volume: 0.42
 }
 
 
@@ -599,14 +599,14 @@ sound_data: .airbrake0
 {
 	name: "/sound/truck/daf_95ati/int/air_brake1.ogg"
 	looped: false
-	volume: 0.40
+	volume: 0.30
 }
 
 sound_data: .airbrake1
 {
 	name: "/sound/truck/daf_95ati/int/air_brake1.ogg"
 	looped: false
-	volume: 0.40
+	volume: 0.30
 }
 
 
@@ -615,35 +615,35 @@ sound_data: .airbrake_1
 {
 	name: "/sound/truck/daf_95ati/int/air_brake_1.ogg"
 	looped: false
-	volume: 0.40
+	volume: 0.30
 }
 
 sound_data: .airbrake_2
 {
 	name: "/sound/truck/daf_95ati/int/air_brake_2.ogg"
 	looped: false
-	volume: 0.40
+	volume: 0.30
 }
 
 sound_data: .airbrake_3
 {
 	name: "/sound/truck/daf_95ati/int/air_brake_3.ogg"
 	looped: false
-	volume: 0.40
+	volume: 0.30
 }
 
 sound_data: .airbrake_4
 {
 	name: "/sound/truck/daf_95ati/int/air_brake_4.ogg"
 	looped: false
-	volume: 0.40
+	volume: 0.30
 }
 
 sound_data: .airbrake_5
 {
 	name: "/sound/truck/daf_95ati/int/air_brake_5.ogg"
 	looped: false
-	volume: 0.40
+	volume: 0.30
 }
 
 
@@ -659,14 +659,14 @@ sound_data: .ahorn
 {
 	name: "/sound/truck/noises/horns/int_air_horn_7.ogg"
 	looped: true
-	volume: 0.6
+	volume: 0.9
 }
 
 sound_data: .reverse
 {
 	name: "/sound/truck/daf_95ati/int/reverse.ogg"
 	looped: true
-	volume: 0.4
+	volume: 0.9
 }
 
 

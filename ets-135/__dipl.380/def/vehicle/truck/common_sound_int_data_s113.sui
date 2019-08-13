@@ -1,0 +1,677 @@
+# Common truck sounds data.
+# Units have to be defined with same names as in "common_sound_int.sui".
+
+# Retarder.
+
+# Lifting axle sound.
+
+sound_data: .lift
+{
+	name: "/sound/truck/noises/lift_axle_int.ogg"
+	looped: true
+	volume: 1.0
+}
+
+# Low air pressure warning sound.
+
+sound_data: .air_warn
+{
+	name: "/sound/truck/noises/low_air_warn.ogg"
+	looped: true
+}
+
+# Air noise.
+
+#sound_noise_data: .airnoise
+#{
+#	name: "/sound/truck/noises/wind_inside_int_1.ogg"
+#
+#	looped: true
+#	is_2d: true
+#
+#	min_speed: 65.0
+#	max_speed: 300.0
+#	volume: 0.65
+#}
+
+# Gear grinding.
+
+sound_data: .ggloop
+{
+	name: "/sound/truck/noises/gear_loop_int.ogg"
+	looped: true
+	is_2d: true
+	volume: 1.0
+}
+
+# Air pressurize cut off
+
+sound_data: .aircut0
+{
+	name: "/sound/truck/noises/air_cutoff1_int.ogg"
+	is_2d: true
+	looped: false
+	volume: 1.75
+}
+
+sound_data: .aircut1
+{
+	name: "/sound/truck/noises/air_cutoff2_int.ogg"
+	is_2d: true
+	looped: false
+	volume: 1.75
+}
+
+sound_data: .aircut2
+{
+	name: "/sound/truck/noises/air_cutoff3_int.ogg"
+	is_2d: true
+	looped: false
+	volume: 1.75
+}
+
+
+sound_noise_data: .wru0
+{
+	name: "/sound/truck/noises/rumblestripe.ogg"
+	looped: true
+
+	min_speed: 0.0
+	max_speed: 40.0
+	pitch_reference: 19
+	volume: 0.28
+}
+
+sound_noise_data: .wru1
+{
+	name: "/sound/truck/noises/rumblestripe.ogg"
+	looped: true
+
+	min_speed: 20.0
+	max_speed: 100.0
+	pitch_reference: 60
+	volume: 0.20
+}
+
+sound_noise_data: .wru2
+{
+	name: "/sound/truck/noises/rumblestripe.ogg"
+	looped: true
+
+	min_speed: 80.0
+	max_speed: 200.0
+	pitch_reference: 95
+	volume: 0.22
+}
+
+sound_noise_data: .wgrv0
+{
+	name: "/sound/truck/noises/tires/gravel2_int_01.ogg"
+	looped: true
+	min_speed: 5.0
+	max_speed: 40.0
+	pitch_reference: 25.0
+	volume: 3.0
+}
+
+sound_noise_data: .wgrv1
+{
+	name: "/sound/truck/noises/tires/gravel2_int_02.ogg"
+	looped: true
+	min_speed: 23.0
+	max_speed: 65.0
+	pitch_reference: 45.0
+	volume: 3.0
+}                 
+
+sound_noise_data: .wgrv2
+{
+	name: "/sound/truck/noises/tires/gravel2_int_03.ogg"
+	looped: true
+	min_speed: 45.0
+	max_speed: 110.0
+	pitch_reference: 83.0
+	volume: 3.0
+}
+sound_noise_data: .wgrv3
+{
+	name: "/sound/truck/noises/tires/gravel2_int_04.ogg"
+	looped: true
+	min_speed: 90.0
+	max_speed: 200.0
+	pitch_reference: 130.0
+	volume: 3.0
+}
+
+
+
+sound_noise_data: .wgrs0
+{
+	name: "/sound/truck/noises/tires/grass1_int_1.ogg"
+	looped: true
+	min_speed: 5.0
+	max_speed: 45.0
+	pitch_reference: 28.0
+	volume: 3.0
+}
+
+
+sound_noise_data: .wgrs1
+{
+	name: "/sound/truck/noises/tires/grass1_int_2.ogg"
+	looped: true
+	min_speed: 30.0
+	max_speed: 90.0
+	pitch_reference: 65.0
+	volume: 3.0
+}
+
+sound_noise_data: .wgrs2
+{
+	name: "/sound/truck/noises/tires/grass1_int_3.ogg"
+	looped: true
+	min_speed: 65.0
+	max_speed: 200.0
+	pitch_reference: 120.0
+	volume: 3.0
+}
+
+
+#------------STICKS--------------
+
+# Sticks and buttons sounds
+
+sound_data: .lights_s
+{
+	name: "/sound/truck/noises/sticks/light5_botton.ogg"
+	is_2d: true
+	looped: false
+	volume: 1.49
+}
+
+sound_data: .hbeam_s
+{
+	name: "/sound/truck/noises/sticks/hbeam5_stick.ogg"
+	is_2d: true
+	looped: false
+	volume: 1.49
+}
+
+sound_data: .lhorn_s
+{
+	name: "/sound/truck/noises/sticks/common5_stick.ogg"
+	is_2d: true
+	looped: false
+	volume: 1.45	
+}
+
+sound_data: .blinker_s
+{
+	name: "/sound/truck/noises/sticks/switch5_blinker_on.ogg"
+	is_2d: true
+	looped: false
+	volume: 2.49	
+}
+
+sound_data: .blinker2_s
+{
+	name: "/sound/truck/noises/sticks/switch5_blinker_off.ogg"
+	is_2d: true
+	looped: false
+	volume: 2.33	
+}
+
+sound_data: .hwarn_s
+{
+	name: "/sound/truck/noises/sticks/warning5_button.ogg"
+	is_2d: true
+	looped: false
+	volume: 2.49	
+}
+
+sound_data: .wiper_s
+{
+	name: "/sound/truck/noises/sticks/wiper5_stick.ogg"
+	is_2d: true
+	looped: false
+	volume: 2.25
+}
+
+sound_data: .retarder_s
+{
+	name: "/sound/truck/noises/sticks/switch5_retarder.ogg"
+	is_2d: true
+	looped: false
+	volume: 1.65
+}
+
+sound_data: .pbrake_s
+{
+	name: "/sound/truck/noises/sticks/brake5_stick.ogg"
+	is_2d: true
+	looped: false
+	volume: 1.45
+}
+
+sound_data: .pbrake2_s
+{
+	name: "/sound/truck/noises/sticks/brake5_off_stick.ogg"
+	is_2d: true
+	looped: false
+	volume: 1.49
+}
+
+#----------------------------------
+
+# Seat noise.
+
+sound_data: .snoise0
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_02.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise1
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_06.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise2
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_07.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise3
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_09.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise4
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_13.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise5
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_17.ogg"
+	volume: 6.0
+}
+sound_data: .snoise6
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_18.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise7
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_21.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise8
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_30.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise9
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_31.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise10
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_32.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise11
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_33.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise12
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_34.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise13
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_38.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise14
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_39.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise15
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_42.ogg"
+	volume: 6.0
+}
+
+sound_data: .snoise16
+{
+	name: "/sound/truck/noises/inside_noises/inside_noise_43.ogg"
+	volume: 6.0
+}
+
+# Suspension noise.
+
+sound_data: .sunoise0
+{
+	name: "/sound/truck/noises/small_obstacle/int/suspension_int_01.ogg"
+	looped: false
+	volume: 6.0	
+}
+
+sound_data: .sunoise1
+{
+	name: "/sound/truck/noises/small_obstacle/int/suspension_int_02.ogg"
+	looped: false
+	volume: 6.0
+}
+
+sound_data: .sunoise2
+{
+	name: "/sound/truck/noises/small_obstacle/int/suspension_int_03.ogg"
+	looped: false
+	volume: 6.0
+}
+
+sound_data: .sunoise3
+{
+	name: "/sound/truck/noises/small_obstacle/int/suspension_int_04.ogg"
+	looped: false
+	volume: 6.0
+}
+
+sound_data: .sunoise4
+{
+	name: "/sound/truck/noises/small_obstacle/int/suspension_int_05.ogg"
+	looped: false
+	volume: 6.0
+}
+
+sound_data: .sunoise5
+{
+	name: "/sound/truck/noises/small_obstacle/int/suspension_int_06.ogg"
+	looped: false
+	volume: 6.0
+}
+
+sound_data: .sunoise6
+{
+	name: "/sound/truck/noises/small_obstacle/int/suspension_int_07.ogg"
+	looped: false
+	volume: 6.0
+}
+
+sound_data: .sunoise7
+{
+	name: "/sound/truck/noises/small_obstacle/int/suspension_int_08.ogg"
+	looped: false
+	volume: 6.0
+}
+
+
+# Crach sounds: metal, hard, soft, scratch (loop)
+# Crash_metal = 60-90km/h, crash_hard = 30-59km/h, crash_soft = 6-29
+
+sound_data: .crashm0
+{
+	name: "/sound/truck/crashes/int/crash_13.ogg"
+	looped: false
+	volume: 3.0
+}
+
+sound_data: .crashm1
+{
+	name: "/sound/truck/crashes/int/crash_14.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashm2
+{
+	name: "/sound/truck/crashes/int/crash_15.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashm3
+{
+	name: "/sound/truck/crashes/int/crash_17.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashm4
+{
+	name: "/sound/truck/crashes/int/crash_29.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashha0
+{
+	name: "/sound/truck/crashes/int/crash_01.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashha1
+{
+	name: "/sound/truck/crashes/int/crash_03.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashha2
+{
+	name: "/sound/truck/crashes/int/crash_05.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashha3
+{
+	name: "/sound/truck/crashes/int/crash_07.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashha4
+{
+	name: "/sound/truck/crashes/int/crash_08.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashha5
+{
+	name: "/sound/truck/noises/b1.ogg"
+	looped: false
+
+    volume: 0.6
+
+}
+
+sound_data: .crashso0
+{
+	name: "/sound/truck/crashes/int/crash_21.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashso1
+{
+	name: "/sound/truck/crashes/int/crash_24.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashso2
+{
+	name: "/sound/truck/crashes/int/crash_30.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashso3
+{
+	name: "/sound/truck/crashes/int/crash_34.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashso4
+{
+	name: "/sound/truck/crashes/int/crash_35.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .crashso5
+{
+	name: "/sound/truck/noises/b2.ogg"
+	looped: false
+
+    volume: 0.66
+
+}
+
+sound_data: .crashsc0
+{
+	name: "/sound/truck/int/crashsc0.ogg"
+	looped: true
+    volume: 3.0
+}
+
+sound_data: .crashsc1
+{
+	name: "/sound/truck/int/crashsc1.ogg"
+	looped: true
+    volume: 3.0
+}
+
+# Damaged gear noises.
+
+sound_data: .gnoise1
+{
+	name: "/sound/truck/noises/damaged_int_gear_1.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .gnoise2
+{
+	name: "/sound/truck/noises/damaged_int_gear_2.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .gnoise3
+{
+	name: "/sound/truck/noises/damaged_int_gear_3.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .gnoise4
+{
+	name: "/sound/truck/noises/damaged_int_gear_4.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .gnoise5
+{
+	name: "/sound/truck/noises/damaged_int_gear_5.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .gnoise6
+{
+	name: "/sound/truck/noises/damaged_int_gear_6.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .gnoise7
+{
+	name: "/sound/truck/noises/damaged_int_gear_7.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .gnoise8
+{
+	name: "/sound/truck/noises/damaged_int_gear_8.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
+
+sound_data: .gnoise9
+{
+	name: "/sound/truck/noises/damaged_int_gear_9.ogg"
+	looped: false
+
+    volume: 3.0
+
+}
