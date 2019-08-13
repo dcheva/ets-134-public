@@ -117,7 +117,7 @@ map_data : .map.data {
 	map_items_flags[]: 0x81407	// target, cities, roads, gas stations, trailer
 	map_items_flags[]: 0x81402	// target, cities, trailer
 
-	map_3d_camera_pitch: 60.0      // camera pitch in 3d map
+	map_3d_camera_pitch: 45.0      // camera pitch in 3d map
 
 	ui_map_center:	(-13500.0, -4950.0)	// in editor coordinates
 	ui_map_size:	(5308.2, 5200.0)	// map texture in real km
