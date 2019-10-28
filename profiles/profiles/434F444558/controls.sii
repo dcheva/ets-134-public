@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.18a.017b.b5e0 {
+input_config : _nameless.1e8.b487.2bc0 {
  version: 11
  config_lines: 406
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -249,7 +249,7 @@ input_config : _nameless.18a.017b.b5e0 {
  config_lines[243]: "mix msteering `-mouse.rel_position.x?0 * c_msens`"
  config_lines[244]: "mix mpedals `-mouse.rel_position.y?0 * c_msens`"
  config_lines[245]: "mix dforward `keyboard.a?0`"
- config_lines[246]: "mix dbackward `keyboard.z?0`"
+ config_lines[246]: "mix dbackward `keyboard.z?0 | mouse.button_left?0`"
  config_lines[247]: "mix aforward `normalize(sel(c_jzthrottle, sel(c_jithrottle, -j_throttle?0, j_throttle?0), sel(c_jithrottle, j_throttle?1 * -0.5 + 0.5, j_throttle?-1 * 0.5 + 0.5)), c_throt_dz) + semantical.aforward?0`"
  config_lines[248]: "mix abackward `normalize(sel(c_jzbrake, sel(c_jibrake, -j_brake?0, j_brake?0), sel(c_jibrake, j_brake?1 * -0.5 + 0.5, j_brake?-1 * 0.5 + 0.5)), c_brake_dz) + semantical.abackward?0`"
  config_lines[249]: "mix forward `dforward + aforward`"
@@ -266,7 +266,7 @@ input_config : _nameless.18a.017b.b5e0 {
  config_lines[260]: "mix attach `keyboard.t?0 | semantical.attach?0`"
  config_lines[261]: "mix horn `keyboard.h?0 | semantical.horn?0`"
  config_lines[262]: "mix airhorn `keyboard.n?0 | semantical.airhorn?0`"
- config_lines[263]: "mix lighthorn `mouse.button_left?0 | keyboard.lalt?0 | semantical.lighthorn?0`"
+ config_lines[263]: "mix lighthorn `unbound?0 | keyboard.lalt?0 | semantical.lighthorn?0`"
  config_lines[264]: "mix beacon `keyboard.o?0 | semantical.beacon?0`"
  config_lines[265]: "mix motorbrake `keyboard.lshift?0 | semantical.motorbrake?0`"
  config_lines[266]: "mix engbraketog `semantical.engbraketog?0`"
@@ -333,8 +333,8 @@ input_config : _nameless.18a.017b.b5e0 {
  config_lines[327]: "mix gearup `keyboard.s?0 | semantical.gearup?0`"
  config_lines[328]: "mix geardown `keyboard.x?0 | semantical.geardown?0`"
  config_lines[329]: "mix gear0 `keyboard.d?0 | semantical.gear0?0`"
- config_lines[330]: "mix gearuphint `semantical.gearuphint?0`"
- config_lines[331]: "mix geardownhint `semantical.geardownhint?0`"
+ config_lines[330]: "mix gearuphint `keyboard.rbracket?0 | semantical.gearuphint?0`"
+ config_lines[331]: "mix geardownhint `keyboard.lbracket?0 | semantical.geardownhint?0`"
  config_lines[332]: "mix transemi `keyboard.caps?0 | semantical.transemi?0`"
  config_lines[333]: "mix drive `joy.b11?0 | semantical.drive?0`"
  config_lines[334]: "mix reverse `joy.b12?0 | semantical.reverse?0`"

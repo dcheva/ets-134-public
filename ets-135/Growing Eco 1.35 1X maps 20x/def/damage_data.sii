@@ -24,8 +24,8 @@ vehicle_damage_data : .damage_data
 
 	cabin_wear:		0.0
 	chassis_wear:		0.0
-	engine_wear:		2e-6
-	transmission_wear:	2e-6
+	engine_wear:		2e-5
+	transmission_wear:	2e-5
 	wheel_wear:		2e-5
 
 	# damage distribution to trailer and cargo

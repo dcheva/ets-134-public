@@ -431,7 +431,7 @@ sound_engine_data: .el8
 
 	min_rpm: 300.0
 	max_rpm: 748.0
-	volume: 0.45
+	volume: 0.65
 }
 
 sound_engine_data: .el9
@@ -442,7 +442,7 @@ sound_engine_data: .el9
 
 	min_rpm: 659.0
 	max_rpm: 956.0
-	volume: 0.45
+	volume: 0.65
 }
 
 sound_engine_data: .el10
@@ -453,7 +453,7 @@ sound_engine_data: .el10
 
 	min_rpm: 814.0
 	max_rpm: 1158.0
-	volume: 0.45
+	volume: 0.65
 }
 
 sound_engine_data: .el11
@@ -464,7 +464,7 @@ sound_engine_data: .el11
 
 	min_rpm: 1048.0
 	max_rpm: 1421.0
-	volume: 0.52
+	volume: 0.70
 }
 
 sound_engine_data: .el12
@@ -475,7 +475,7 @@ sound_engine_data: .el12
 
 	min_rpm: 1275.0
 	max_rpm: 1899.0
-	volume: 0.56
+	volume: 0.75
 }
 
 sound_engine_data: .el13
@@ -486,7 +486,7 @@ sound_engine_data: .el13
 
 	min_rpm: 1635.0
 	max_rpm: 3000.0
-	volume: 0.65
+	volume: 0.80
 }
 
 sound_engine_data: .el00
@@ -593,7 +593,7 @@ sound_engine_data: .enf0
 
 	min_rpm: 460.0
 	max_rpm: 950.0
-	volume: 0.60
+	volume: 0.50
 }
 
 sound_engine_data: .enf1
@@ -606,7 +606,7 @@ sound_engine_data: .enf1
 
 	min_rpm: 850.0
 	max_rpm: 1450.0
-	volume: 0.65
+	volume: 0.50
 }
 
 sound_engine_data: .enf2
@@ -619,7 +619,7 @@ sound_engine_data: .enf2
 
 	min_rpm: 1350.0
 	max_rpm: 2050.0
-	volume: 0.70
+	volume: 0.50
 }
 
 sound_engine_data: .enf3
@@ -632,7 +632,7 @@ sound_engine_data: .enf3
 
 	min_rpm: 1950.0
 	max_rpm: 3050.0
-	volume: 0.75
+	volume: 0.50
 }
 
 sound_engine_data: .enf4
@@ -665,19 +665,19 @@ sound_data: .t
 sound_data: .airgear0
 {
 	name: "/sound/truck/ext/gear_air_1.ogg"
-	volume: 0.8
+	volume: 0.5
 }
 
 sound_data: .airgear1
 {
 	name: "/sound/truck/ext/gear_air_2.ogg"
-	volume: 0.8
+	volume: 0.5
 }
 
 sound_data: .airgear2
 {
 	name: "/sound/truck/ext/gear_air_3.ogg"
-	volume: 0.8
+	volume: 0.5
 }
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -712,13 +712,13 @@ sound_data: .airbrake2
 
 sound_engine_data: .eb
 {
-	name: "/sound/truck/renault/magnum_int/1900rpm_exhaust_int.ogg"
+	name: "/sound/truck/ext/1500rpm-int.ogg"
+	pitch_reference: 1600
 	looped: true	
 	is_2d: true
-	pitch_reference: 1200
 	min_rpm: 450.0
 	max_rpm: 3000.0
-	volume: 1.29
+	volume: 0.79
 }
 
 sound_data: .horn

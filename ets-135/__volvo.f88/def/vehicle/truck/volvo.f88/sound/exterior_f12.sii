@@ -482,12 +482,13 @@ sound_data: .airbrake2
 
 sound_engine_data: .eb
 {
-	name: "/sound/truck/ext/engine_brake_ext.ogg"
-	looped: true
-
-	pitch_reference: 1850
-	min_rpm: 200.0
+	name: "/sound/truck/ext/1500rpm-int.ogg"
+	pitch_reference: 1600
+	looped: true	
+	is_2d: true
+	min_rpm: 450.0
 	max_rpm: 3000.0
+	volume: 1.29
 }
 
 sound_data: .horn
