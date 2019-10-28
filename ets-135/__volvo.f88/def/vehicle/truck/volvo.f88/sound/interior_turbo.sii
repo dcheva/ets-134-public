@@ -487,7 +487,7 @@ sound_engine_data: .enf2
 	pitch_reference: 1600
 
 	min_rpm: 1350.0
-	max_rpm: 2050.0
+	max_rpm: 3050.0
 	volume: 0.70
 }
 
@@ -501,7 +501,7 @@ sound_engine_data: .enf3
 
 	min_rpm: 1950.0
 	max_rpm: 3050.0
-	volume: 0.75
+	volume: 0.55
 }
 
 sound_engine_data: .enf4

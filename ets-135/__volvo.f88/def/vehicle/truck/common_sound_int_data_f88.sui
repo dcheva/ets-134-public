@@ -22,17 +22,17 @@ sound_data: .air_warn
 
 # Air noise.
 
-#sound_noise_data: .airnoise
-#{
-#	name: "/sound/truck/noises/wind_inside_int_1.ogg"
-#
-#	looped: true
-#	is_2d: true
-#
-#	min_speed: 65.0
-#	max_speed: 300.0
-#	volume: 0.65
-#}
+sound_noise_data: .airnoise
+{
+	name: "/sound/truck/noises/wind_inside_int_1.ogg"
+
+	looped: true
+	is_2d: true
+
+	min_speed: 65.0
+	max_speed: 300.0
+	volume: 0.65
+}
 
 # Gear grinding.
 
@@ -51,7 +51,7 @@ sound_data: .aircut0
 	name: "/sound/truck/noises/air_cutoff1_int.ogg"
 	is_2d: true
 	looped: false
-	volume: 1.35
+	volume: 1.0
 }
 
 sound_data: .aircut1
@@ -59,7 +59,7 @@ sound_data: .aircut1
 	name: "/sound/truck/noises/air_cutoff2_int.ogg"
 	is_2d: true
 	looped: false
-	volume: 1.35
+	volume: 1.0
 }
 
 sound_data: .aircut2
@@ -67,7 +67,7 @@ sound_data: .aircut2
 	name: "/sound/truck/noises/air_cutoff3_int.ogg"
 	is_2d: true
 	looped: false
-	volume: 1.35
+	volume: 1.0
 }
 
 # Tire noises.

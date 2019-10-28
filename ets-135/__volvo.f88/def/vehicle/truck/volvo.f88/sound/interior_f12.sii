@@ -194,7 +194,7 @@ sound_engine_data: .e6
 	pitch_reference: 1800
 
 	min_rpm: 1550.0
-	max_rpm: 2000.0
+	max_rpm: 3000.0
 	volume: 1.3 //0.55
 }
 
@@ -208,7 +208,7 @@ sound_engine_data: .e7
 
 	min_rpm: 1760.0
 	max_rpm: 3000.0
-	volume: 1.4 //0.6
+	volume: 0.7 //0.6
 }
 
 sound_engine_data: .e8
