@@ -51,7 +51,7 @@ sound_data: .aircut0
 	name: "/sound/truck/noises/air_cutoff1_int.ogg"
 	is_2d: true
 	looped: false
-	volume: 1.75
+	volume: 1.35
 }
 
 sound_data: .aircut1
@@ -59,7 +59,7 @@ sound_data: .aircut1
 	name: "/sound/truck/noises/air_cutoff2_int.ogg"
 	is_2d: true
 	looped: false
-	volume: 1.75
+	volume: 1.35
 }
 
 sound_data: .aircut2
@@ -67,7 +67,7 @@ sound_data: .aircut2
 	name: "/sound/truck/noises/air_cutoff3_int.ogg"
 	is_2d: true
 	looped: false
-	volume: 1.75
+	volume: 1.35
 }
 
 # Tire noises.
@@ -79,7 +79,7 @@ sound_noise_data: .was0
     	min_speed: 3.0
 	max_speed: 10.0
 	pitch_reference: 7.0
-	volume: 0.25
+	volume: 0.35
 }
 sound_noise_data: .was1
 {
@@ -88,7 +88,7 @@ sound_noise_data: .was1
     min_speed: 5.0
 	max_speed: 15.0
 	pitch_reference: 13.0
-	volume: 0.29
+	volume: 0.39
 }
 sound_noise_data: .was2
 {
@@ -97,7 +97,7 @@ sound_noise_data: .was2
     min_speed: 10.0
 	max_speed: 20.0
 	pitch_reference: 17.0
-	volume: 0.33
+	volume: 0.43
 }
 sound_noise_data: .was3
 {
@@ -106,7 +106,7 @@ sound_noise_data: .was3
     min_speed: 15.0
 	max_speed: 25.0
 	pitch_reference: 23.0
-	volume: 0.35
+	volume: 0.45
 }
 sound_noise_data: .was4
 {
@@ -115,7 +115,7 @@ sound_noise_data: .was4
 	min_speed: 20.0
 	max_speed: 30.0
 	pitch_reference: 27.0
-	volume: 0.37
+	volume: 0.47
 }
 sound_noise_data: .was5
 {
@@ -124,7 +124,7 @@ sound_noise_data: .was5
     	min_speed: 25.0
 	max_speed: 35.0
 	pitch_reference: 32.0
-	volume: 0.39
+	volume: 0.49
 }
 sound_noise_data: .was6
 {
@@ -133,7 +133,7 @@ sound_noise_data: .was6
     	min_speed: 30.0
 	max_speed: 40.0
 	pitch_reference: 37.0
-	volume: 0.41
+	volume: 0.51
 }
 sound_noise_data: .was7
 {
@@ -142,7 +142,7 @@ sound_noise_data: .was7
     	min_speed: 35.0
 	max_speed: 45.0
 	pitch_reference: 43.0
-	volume: 0.42
+	volume: 0.52
 }
 sound_noise_data: .was8
 {
@@ -151,7 +151,7 @@ sound_noise_data: .was8
 	min_speed: 40.0
 	max_speed: 50.0
 	pitch_reference: 47.0
-	volume: 0.43
+	volume: 0.53
 }
 sound_noise_data: .was9
 {
@@ -160,7 +160,7 @@ sound_noise_data: .was9
     	min_speed: 45.0
 	max_speed: 55.0
 	pitch_reference: 53.0
-	volume: 0.44
+	volume: 0.54
 }
 sound_noise_data: .was10
 {
@@ -169,7 +169,7 @@ sound_noise_data: .was10
     	min_speed: 50.0
 	max_speed: 60.0
 	pitch_reference: 57.0
-	volume: 0.34
+	volume: 0.55
 }
 sound_noise_data: .was11
 {
@@ -178,7 +178,7 @@ sound_noise_data: .was11
     	min_speed: 55.0
 	max_speed: 65.0
 	pitch_reference: 63.0
-	volume: 0.37
+	volume: 0.56
 }
 sound_noise_data: .was12
 {
@@ -187,7 +187,7 @@ sound_noise_data: .was12
     	min_speed: 60.0
 	max_speed: 70.0
 	pitch_reference: 67.0
-	volume: 0.42
+	volume: 0.57
 }
 sound_noise_data: .was13
 {
@@ -196,7 +196,7 @@ sound_noise_data: .was13
     	min_speed: 65.0
 	max_speed: 75.0
 	pitch_reference: 73.0
-	volume: 0.50
+	volume: 0.58
 }
 sound_noise_data: .was14
 {
@@ -205,7 +205,7 @@ sound_noise_data: .was14
     	min_speed: 70.0
 	max_speed: 80.0
 	pitch_reference: 77.0
-	volume: 0.54
+	volume: 0.59
 }
 sound_noise_data: .was15
 {
@@ -223,7 +223,7 @@ sound_noise_data: .was16
     	min_speed: 80.0
 	max_speed: 90.0
 	pitch_reference: 87.0
-	volume: 0.64
+	volume: 0.62
 }
 sound_noise_data: .was17
 {
@@ -242,8 +242,8 @@ sound_noise_data: .wru0
 
 	min_speed: 0.0
 	max_speed: 40.0
-	pitch_reference: 19
-	volume: 0.33
+	pitch_reference: 20
+	volume: 0.88
 }
 
 sound_noise_data: .wru1
@@ -254,7 +254,7 @@ sound_noise_data: .wru1
 	min_speed: 20.0
 	max_speed: 100.0
 	pitch_reference: 60
-	volume: 0.44
+	volume: 0.99
 }
 
 sound_noise_data: .wru2
