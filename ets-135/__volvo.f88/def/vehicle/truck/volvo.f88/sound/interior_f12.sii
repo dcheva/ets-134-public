@@ -80,10 +80,21 @@ accessory_sound_data : aint.volvo.f88_12.tsound
 	wipers_up: .wipers_up
 	wipers_down: .wipers_down
 
+	retarder: .retarder
+
 @include "/def/vehicle/truck/common_sound_int_f88.sui"
 suitable_for[]: "d12g385.volvo.f88.engine"
 suitable_for[]: "d16g465.volvo.f88.engine"
 
+}
+
+# Retarder.
+
+sound_data: .retarder
+{
+	name: "/sound/truck/noises/retarder.ogg"
+	looped: true
+	volume: 0.65
 }
 
 sound_data: .start

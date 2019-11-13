@@ -1,0 +1,39 @@
+SiiNunit
+{
+accessory_transmission_data : sr_61b.volvo.f88.transmission
+{
+	name: "SR-61"
+	price: 1250
+	unlock: 0
+	icon: "transmission_generic"
+
+	# Rear axle Total ratio 4.88, 5.58, 6.14
+	# Double reduction ratio 4.92, 5.43
+	differential_ratio: 3.78
+
+	ratios_reverse[0]: -10.29 #1st reverse
+	ratios_reverse[1]: -8.67  #2st reverse
+	
+
+	ratios_forward[0]: 11.22
+	ratios_forward[1]: 9.46
+	ratios_forward[2]: 7.84
+	ratios_forward[3]: 6.61
+	ratios_forward[4]: 5.50
+	ratios_forward[5]: 4.64
+	ratios_forward[6]: 3.93
+	ratios_forward[7]: 3.31
+	
+	ratios_forward[8]: 2.86
+	ratios_forward[9]: 2.41
+	ratios_forward[10]: 2.00
+	ratios_forward[11]: 1.68
+	ratios_forward[12]: 1.40
+	ratios_forward[13]: 1.18
+	ratios_forward[14]: 1.00 
+	ratios_forward[15]: 0.84
+	
+	retarder: 3
+	
+}
+}

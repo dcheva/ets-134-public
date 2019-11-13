@@ -55,12 +55,22 @@ accessory_sound_data : atd.volvo.f88.esound
 	horn: .horn
 	air_horn: .ahorn
 	reverse: .reverse
-	
+
+	retarder: .retarder	
 
 @include "/def/vehicle/truck/common_sound_ext_f88.sui"
 suitable_for[]: "td100a.volvo.f88.engine"
 suitable_for[]: "td120a.volvo.f88.engine"
 suitable_for[]: "td120a_89.volvo.f88.engine"
+}
+
+# Retarder.
+
+sound_data: .retarder
+{
+	name: "/sound/truck/noises/retarder.ogg"
+	looped: true
+	volume: 0.65
 }
 
 sound_data: .start
