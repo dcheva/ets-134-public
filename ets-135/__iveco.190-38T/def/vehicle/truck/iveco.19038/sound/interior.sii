@@ -506,9 +506,9 @@ sound_engine_data: .eb
 	looped: true
 	is_2d: true
 	pitch_reference: 1600
-	min_rpm: 750.0
+	min_rpm: 500.0
 	max_rpm: 3000.0
-	volume: 1.66
+	volume: 0.66
 }
 
 sound_data: .horn

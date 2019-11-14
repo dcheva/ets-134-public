@@ -33,6 +33,7 @@ accessory_transmission_data : fuller.iveco.19038.transmission
 	ratios_forward[11]: 1.16
 	ratios_forward[12]: 1.00
 	
+	retarder: 3
 	shift_time: 1.4
 
 }
