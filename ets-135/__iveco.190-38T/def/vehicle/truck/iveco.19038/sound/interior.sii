@@ -252,7 +252,7 @@ sound_engine_data: .e4
 
 	min_rpm: 620.0
 	max_rpm: 2800.0
-	volume: 0.12
+	volume: 0.08
 }
 
 sound_engine_data: .el0
@@ -452,7 +452,7 @@ sound_data: .t
 {
 	name: "/sound/truck/iveco_19038/int/turbo_int.ogg"
 	looped: true
-	volume: 0.18
+	volume: 0.12
 }
 
 sound_data: .airgear0

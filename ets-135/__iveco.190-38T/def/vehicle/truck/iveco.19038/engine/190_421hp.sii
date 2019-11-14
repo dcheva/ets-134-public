@@ -3,7 +3,7 @@ SiiNunit
 accessory_engine_data : 190_421.iveco.19038.engine
 {
 
-	name: "Fiat 8310.22 - V8"
+	name: "Fiat 8310TE - V8"
 	price: 13160
 	unlock: 0
 	
@@ -15,9 +15,9 @@ accessory_engine_data : 190_421.iveco.19038.engine
 
 	# Engine Specs
 	torque: 1750			# Engine power in Newton-metres
-	volume:	18.874			# Engine size in liters. Used for Realistic Fuel Consumption settings
+	volume:	19.974			# Engine size in liters. Used for Realistic Fuel Consumption settings
 	adblue_consumption: 0.0	# This is how many liters of AdBlue (Diesel Exhaust Fluid) are consumed per liter of fuel.
-	consumption_coef: 1.0	# This is used to scale the fuel consumption of the engine relative to the game's calculated value.
+	consumption_coef: 0.9	# This is used to scale the fuel consumption of the engine relative to the game's calculated value.
 	
 	# Torque Curves
 	torque_curve[]: (300, 0)
