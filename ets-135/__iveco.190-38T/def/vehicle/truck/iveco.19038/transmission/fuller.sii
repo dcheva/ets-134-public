@@ -5,52 +5,56 @@ accessory_transmission_data : fuller.iveco.19038.transmission
 
 {
 	transmission_names: .names
-	name: "Eaton Fuller RTO-9513"
+	name: "Eaton Fuller RT-12513"
 	price: 10000
 	unlock: 0
 	icon: "transmission_generic"
 
-	# Eaton Fuller (RTO-9513)
+	# Eaton Fuller (RT-12513)
+	# Differential Ratio: 2.64, 2.85, 3.08, 3.36, 3.40, 3.70, 3.78	
 	differential_ratio: 2.64
 
 	# reverse gear
 	ratios_reverse[0]: -13.13
-
-	# forward gears
-	ratios_forward[0]: 12.56
-	ratios_forward[1]: 8.32
-	ratios_forward[2]: 6.18
-	ratios_forward[3]: 4.54
-	ratios_forward[4]: 3.38
-	ratios_forward[5]: 2.46
-	ratios_forward[6]: 2.15
-	ratios_forward[7]: 1.75
-	ratios_forward[8]: 1.45
-	ratios_forward[9]: 1.25
-	ratios_forward[10]: 1.15
-	ratios_forward[11]: 1.0
-	ratios_forward[12]: 0.85
+	ratios_reverse[1]: -3.87
 	
+	# forward gears
+	ratios_forward[0]: 12.50
+	ratios_forward[1]: 8.35
+	ratios_forward[2]: 6.12
+	ratios_forward[3]: 4.56
+	ratios_forward[4]: 3.38
+	ratios_forward[5]: 2.86
+	ratios_forward[6]: 2.47
+	ratios_forward[7]: 2.10
+	ratios_forward[8]: 1.81
+	ratios_forward[9]: 1.56
+	ratios_forward[10]: 1.35
+	ratios_forward[11]: 1.16
+	ratios_forward[12]: 1.00
+	
+	shift_time: 1.4
 
 }
 transmission_names : .names
 {
   neutral: "N"
-  forward[0]: "L1"
-  forward[1]: "2"
-  forward[2]: "3"
-  forward[3]: "4"
-  forward[4]: "5"
-  forward[5]: "6"
-  forward[6]: "7"
-  forward[7]: "8"
-  forward[8]: "9"
-  forward[9]: "10"
-  forward[10]: "11"
-  forward[11]: "12"
-  forward[12]: "13"
+  forward[0]: "L"
+  forward[1]: "1"
+  forward[2]: "2"
+  forward[3]: "3"
+  forward[4]: "4"
+  forward[5]: "L5"
+  forward[6]: "H5"
+  forward[7]: "L6"
+  forward[8]: "H6"
+  forward[9]: "L7"
+  forward[10]: "H7"
+  forward[11]: "L8"
+  forward[12]: "H8"
 
-  reverse[0]: "R"
+  reverse[0]: "LR"
+  reverse[1]: "HR"
 
 }
 }

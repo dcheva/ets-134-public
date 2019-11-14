@@ -291,7 +291,7 @@ sound_engine_data: .el2
 
 	min_rpm: 990.0
 	max_rpm: 2000.0
-	volume: 1.2
+	volume: 0.82
 }
 
 sound_engine_data: .el3
@@ -304,7 +304,7 @@ sound_engine_data: .el3
 
 	min_rpm: 1460.0
 	max_rpm: 3000.0
-	volume: 1.5
+	volume: 0.85
 }
 
 sound_engine_data: .el4
@@ -352,7 +352,7 @@ sound_engine_data: .enf2
 
 	min_rpm: 200.0
 	max_rpm: 3000.0
-	volume: 0.28
+	volume: 0.08
 }
 
 
@@ -392,7 +392,7 @@ sound_engine_data: .el02
 
 	min_rpm: 1000.0
 	max_rpm: 1400.0
-	volume: 0.40
+	volume: 0.45
 }
 
 sound_engine_data: .el03
@@ -418,7 +418,7 @@ sound_engine_data: .el04
 
 	min_rpm: 100.0
 	max_rpm: 3000.0
-	volume: 0.20
+	volume: 0.40
 }
 
 sound_engine_data: .el05
@@ -431,7 +431,7 @@ sound_engine_data: .el05
 
 	min_rpm: 1400.0
 	max_rpm: 2000.0
-	volume: 0.40
+	volume: 0.45
 }
 
 sound_engine_data: .el06
@@ -452,7 +452,7 @@ sound_data: .t
 {
 	name: "/sound/truck/iveco_19038/int/turbo_int.ogg"
 	looped: true
-	volume: 0.32
+	volume: 0.18
 }
 
 sound_data: .airgear0
