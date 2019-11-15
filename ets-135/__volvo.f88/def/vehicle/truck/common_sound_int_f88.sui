@@ -23,24 +23,6 @@
 	air_cutoff[]: .aircut2
 
 # sound of tires - asphalt - rumblestripes - gravel - grass 
-	wheel_asphalt[]: .was0
-	wheel_asphalt[]: .was1
-	wheel_asphalt[]: .was2
-	wheel_asphalt[]: .was3
-	wheel_asphalt[]: .was4
-	wheel_asphalt[]: .was5
-	wheel_asphalt[]: .was6
-	wheel_asphalt[]: .was7
-	wheel_asphalt[]: .was8
-	wheel_asphalt[]: .was9
-	wheel_asphalt[]: .was10
-	wheel_asphalt[]: .was11
-	wheel_asphalt[]: .was12
-	wheel_asphalt[]: .was13
-	wheel_asphalt[]: .was14
-	wheel_asphalt[]: .was15
-	wheel_asphalt[]: .was16
-	wheel_asphalt[]: .was17
 
 	wheel_rumble[]: .wru0
 	wheel_rumble[]: .wru1

@@ -83,24 +83,6 @@ accessory_sound_data : std.iveco.19038.isound
 	air_cutoff[]: .aircut2
 
 # sound of tires - asphalt - rumblestripes - gravel - grass 
-	wheel_asphalt[]: .was0
-	wheel_asphalt[]: .was1
-	wheel_asphalt[]: .was2
-	wheel_asphalt[]: .was3
-	wheel_asphalt[]: .was4
-	wheel_asphalt[]: .was5
-	wheel_asphalt[]: .was6
-	wheel_asphalt[]: .was7
-	wheel_asphalt[]: .was8
-	wheel_asphalt[]: .was9
-	wheel_asphalt[]: .was10
-	wheel_asphalt[]: .was11
-	wheel_asphalt[]: .was12
-	wheel_asphalt[]: .was13
-	wheel_asphalt[]: .was14
-	wheel_asphalt[]: .was15
-	wheel_asphalt[]: .was16
-	wheel_asphalt[]: .was17
 
 	wheel_rumble[]: .wru0
 	wheel_rumble[]: .wru1
@@ -315,7 +297,7 @@ sound_engine_data: .el4
 
 	min_rpm: 200.0
 	max_rpm: 3000.0
-	volume: 0.30
+	volume: 0.85
 }
 
 sound_engine_data: .enf0
@@ -324,9 +306,9 @@ sound_engine_data: .enf0
 
 	pitch_reference: 1100
 
-	min_rpm: 200.0
-	max_rpm: 1280.0
-	volume: 0.32
+	min_rpm: 200
+	max_rpm: 1300
+	volume: 0.52
 }
 
 sound_engine_data: .enf1
@@ -337,9 +319,9 @@ sound_engine_data: .enf1
 
 	pitch_reference: 1700
 
-	min_rpm: 1200.0
+	min_rpm: 1100.0
 	max_rpm: 3000.0
-	volume: 0.42
+	volume: 0.62
 }
 
 sound_engine_data: .enf2
@@ -358,33 +340,33 @@ sound_engine_data: .enf2
 
 sound_engine_data: .el00
 {
-	name: "/sound/truck/iveco_19038/int/lever_le_pied.ogg"
+	name: "/sound/truck/iveco_19038/ext/volvo_ext_exhaust_0800.ogg"
 
 	looped: true
 
-	pitch_reference: 1475
+	pitch_reference: 800
 
 	min_rpm: 200.0
 	max_rpm: 1000.0
-	volume: 0.29
+	volume: 0.50
 }
 
 sound_engine_data: .el01
 {
-	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_1000.ogg"
+	name: "/sound/truck/iveco_19038/ext/volvo_ext_exhaust_1000.ogg"
 
 	looped: true
 
 	pitch_reference: 1000
 
-	min_rpm: 800.0
+	min_rpm: 400.0
 	max_rpm: 1200.0
-	volume: 0.50
+	volume: 0.55
 }
 
 sound_engine_data: .el02
 {
-	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_1200.ogg"
+	name: "/sound/truck/iveco_19038/ext/volvo_ext_exhaust_1200.ogg"
 
 	looped: true
 
@@ -392,12 +374,12 @@ sound_engine_data: .el02
 
 	min_rpm: 1000.0
 	max_rpm: 1400.0
-	volume: 0.45
+	volume: 0.60
 }
 
 sound_engine_data: .el03
 {
-	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_1400.ogg"
+	name: "/sound/truck/iveco_19038/ext/volvo_ext_exhaust_1400.ogg"
 
 	looped: true
 
@@ -405,46 +387,46 @@ sound_engine_data: .el03
 
 	min_rpm: 1200.0
 	max_rpm: 1600.0
-	volume: 0.40
+	volume: 0.65
 }
 
 sound_engine_data: .el04
 {
-	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_1600.ogg"
+	name: "/sound/truck/iveco_19038/ext/volvo_ext_exhaust_1600.ogg"
 
 	looped: true
 
 	pitch_reference: 1600
 
-	min_rpm: 100.0
-	max_rpm: 3000.0
-	volume: 0.40
+	min_rpm: 1400.0
+	max_rpm: 1800.0
+	volume: 0.70
 }
 
 sound_engine_data: .el05
 {
-	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_1800.ogg"
+	name: "/sound/truck/iveco_19038/ext/volvo_ext_exhaust_1800.ogg"
 
 	looped: true
 
 	pitch_reference: 1800
 
-	min_rpm: 1400.0
+	min_rpm: 1600.0
 	max_rpm: 2000.0
-	volume: 0.45
+	volume: 0.75
 }
 
 sound_engine_data: .el06
 {
-	name: "/sound/truck/iveco_19038/int/volvo_int_exhaust_2000.ogg"
+	name: "/sound/truck/iveco_19038/ext/volvo_ext_exhaust_2000.ogg"
 
 	looped: true
 
 	pitch_reference: 1000
 
-	min_rpm: 1900.0
+	min_rpm: 1800.0
 	max_rpm: 3000.0
-	volume: 0.50
+	volume: 0.80
 }
 
 
@@ -636,169 +618,6 @@ sound_data: .aircut2
 }
 
 # Tire noises.
-
-sound_noise_data: .was0
-{
-	name: "/sound/truck/noises/tires/asph_05_km.ogg"
-	looped: true
-    	min_speed: 3.0
-	max_speed: 10.0
-	pitch_reference: 7.0
-	volume: 0.15
-}
-sound_noise_data: .was1
-{
-	name: "/sound/truck/noises/tires/asph_10_km.ogg"
-	looped: true
-    min_speed: 5.0
-	max_speed: 15.0
-	pitch_reference: 13.0
-	volume: 0.17
-}
-sound_noise_data: .was2
-{
-	name: "/sound/truck/noises/tires/asph_15_km.ogg"
-	looped: true
-    min_speed: 10.0
-	max_speed: 20.0
-	pitch_reference: 17.0
-	volume: 0.19
-}
-sound_noise_data: .was3
-{
-	name: "/sound/truck/noises/tires/asph_20_km.ogg"
-	looped: true
-    min_speed: 15.0
-	max_speed: 25.0
-	pitch_reference: 23.0
-	volume: 0.21
-}
-sound_noise_data: .was4
-{
-	name: "/sound/truck/noises/tires/asph_25_km.ogg"
-	looped: true
-	min_speed: 20.0
-	max_speed: 30.0
-	pitch_reference: 27.0
-	volume: 0.23
-}
-sound_noise_data: .was5
-{
-	name: "/sound/truck/noises/tires/asph_30_km.ogg"
-	looped: true
-    	min_speed: 25.0
-	max_speed: 35.0
-	pitch_reference: 32.0
-	volume: 0.25
-}
-sound_noise_data: .was6
-{
-	name: "/sound/truck/noises/tires/asph_35_km.ogg"
-	looped: true
-    	min_speed: 30.0
-	max_speed: 40.0
-	pitch_reference: 37.0
-	volume: 0.26
-}
-sound_noise_data: .was7
-{
-	name: "/sound/truck/noises/tires/asph_40_km.ogg"
-	looped: true
-    	min_speed: 35.0
-	max_speed: 45.0
-	pitch_reference: 43.0
-	volume: 0.28
-}
-sound_noise_data: .was8
-{
-	name: "/sound/truck/noises/tires/asph_45_km.ogg"
-	looped: true
-	min_speed: 40.0
-	max_speed: 50.0
-	pitch_reference: 47.0
-	volume: 0.30
-}
-sound_noise_data: .was9
-{
-	name: "/sound/truck/noises/tires/asph_50_km.ogg"
-	looped: true
-    	min_speed: 45.0
-	max_speed: 55.0
-	pitch_reference: 53.0
-	volume: 0.32
-}
-sound_noise_data: .was10
-{
-	name: "/sound/truck/noises/tires/asph_55_km.ogg"
-	looped: true
-    	min_speed: 50.0
-	max_speed: 60.0
-	pitch_reference: 57.0
-	volume: 0.34
-}
-sound_noise_data: .was11
-{
-	name: "/sound/truck/noises/tires/asph_60_km.ogg"
-	looped: true
-    	min_speed: 55.0
-	max_speed: 65.0
-	pitch_reference: 63.0
-	volume: 0.37
-}
-sound_noise_data: .was12
-{
-	name: "/sound/truck/noises/tires/asph_65_km.ogg"
-	looped: true
-    	min_speed: 60.0
-	max_speed: 70.0
-	pitch_reference: 67.0
-	volume: 0.42
-}
-sound_noise_data: .was13
-{
-	name: "/sound/truck/noises/tires/asph_70_km.ogg"
-	looped: true
-    	min_speed: 65.0
-	max_speed: 75.0
-	pitch_reference: 73.0
-	volume: 0.50
-}
-sound_noise_data: .was14
-{
-	name: "/sound/truck/noises/tires/asph_75_km.ogg"
-	looped: true
-    	min_speed: 70.0
-	max_speed: 80.0
-	pitch_reference: 77.0
-	volume: 0.54
-}
-sound_noise_data: .was15
-{
-	name: "/sound/truck/noises/tires/asph_80_km.ogg"
-	looped: true
-    	min_speed: 75.0
-	max_speed: 85.0
-	pitch_reference: 83.0
-	volume: 0.60
-}
-sound_noise_data: .was16
-{
-	name: "/sound/truck/noises/tires/asph_85_km.ogg"
-	looped: true
-    	min_speed: 80.0
-	max_speed: 90.0
-	pitch_reference: 87.0
-	volume: 0.64
-}
-sound_noise_data: .was17
-{
-	name: "/sound/truck/noises/tires/asph_90_km.ogg"
-	looped: true
-    	min_speed: 85.0
-	max_speed: 130.0
-	pitch_reference: 100.0
-	volume: 0.66
-}
 
 sound_noise_data: .wru0
 {

@@ -57,18 +57,6 @@ sound_data: .aircut2
 }
 
 # Tire noises.
-
-sound_noise_data: .was0
-{
-	name: "/sound/truck/noises/tires/asphalt_ext_01.ogg"
-	is_2d: true
-	looped: true
-  	min_speed: 0.0
-	max_speed: 200.0
-	pitch_reference: 60.0
-	volume: 0.35
-}
-
 sound_noise_data: .wru0
 {
 	name: "/sound/truck/noises/rumblestripe.ogg"

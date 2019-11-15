@@ -176,65 +176,6 @@ sound_data: .aircut2
 
 # Tire noises.
 
-sound_noise_data: .was0
-{
-	//name: "/sound/truck/noises/tires/int/asphalt_int_01.ogg"
-	name: "/sound/truck/noises/tires/asphalt_int_01.ogg"
-	looped: true
-
-	min_speed: 5.0
-	max_speed: 35.0
-	pitch_reference: 20.0
-	volume: 0.32
-}
-
-sound_noise_data: .was1
-{
-	//name: "/sound/truck/noises/tires/int/asphalt_int_02.ogg"
-	name: "/sound/truck/noises/tires/asphalt_int_02.ogg"
-	looped: true
-
-	min_speed: 22.0
-	max_speed: 55.0
-	pitch_reference: 37.0
-	volume: 0.4
-}
-
-sound_noise_data: .was2
-{
-	//name: "/sound/truck/noises/tires/int/asphalt_int_03.ogg"
-	name: "/sound/truck/noises/tires/asphalt_int_03.ogg"
-	looped: true
-
-	min_speed: 40.0
-	max_speed: 78.0
-	pitch_reference: 58.0
-	volume: 0.45
-}
-
-sound_noise_data: .was3
-{
-	//name: "/sound/truck/noises/tires/int/asphalt_int_04.ogg"
-	name: "/sound/truck/noises/tires/asphalt_int_04.ogg"
-	looped: true
-
-	min_speed: 60.0
-	max_speed: 115.0
-	pitch_reference: 86.0
-	volume: 0.5
-}
-
-sound_noise_data: .was4
-{
-	//name: "/sound/truck/noises/tires/int/asphalt_int_05.ogg"
-	name: "/sound/truck/noises/tires/asphalt_int_05.ogg"
-	looped: true
-
-	min_speed: 100.0
-	max_speed: 200.0
-	pitch_reference: 130.0
-	volume: 0.6
-}
 
 sound_noise_data: .wru
 {
