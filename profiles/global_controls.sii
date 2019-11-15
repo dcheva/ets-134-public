@@ -1,0 +1,19 @@
+SiiNunit
+{
+global_input_config : _nameless.245.8148.bd80 {
+ version: 0
+ ui_whitelisted: 0
+ ui_blacklisted: 1
+ ui_blacklisted[0]: "di8.'{09887DC0-5306-11E9-8003-444553540000}|{BEAD1234-0000-0000-0000-504944564944}'"
+ display_names: 8
+ display_names[0]: "`sys.keyboard`|@@keyboard@@"
+ display_names[1]: "`sys.mouse`|@@i_mouse@@"
+ display_names[2]: "`di8.keyboard`|@@keyboard@@"
+ display_names[3]: "`di8.mouse`|@@i_mouse@@"
+ display_names[4]: "`di8.'{09887DC0-5306-11E9-8003-444553540000}|{BEAD1234-0000-0000-0000-504944564944}'`|vJoy Device"
+ display_names[5]: "`dialogs.keyboard`|@@keyboard@@"
+ display_names[6]: "`dialogs.mouse`|@@i_mouse@@"
+ display_names[7]: "`fusion.mouse`|@@i_mouse@@"
+}
+
+}

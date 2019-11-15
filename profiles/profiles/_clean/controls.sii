@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.12e.984a.9fc0 {
+input_config : _nameless.236.3f38.5190 {
  version: 11
  config_lines: 406
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -198,7 +198,7 @@ input_config : _nameless.12e.984a.9fc0 {
  config_lines[192]: "mix looklranaspd `looklranaraw * c_jrspeed`"
  config_lines[193]: "mix looklrspd `looklrdigspd + looklranaspd`"
  config_lines[194]: "mix lookudspd `lookudanaraw * c_jrspeed`"
- config_lines[195]: "mix lookpos1 `mouse.button_left?0 | keyboard.num5?0 | semantical.lookpos1?0`"
+ config_lines[195]: "mix lookpos1 `mouse.button_middle?0 | keyboard.num5?0 | semantical.lookpos1?0`"
  config_lines[196]: "mix lookpos2 `keyboard.pgdn?0 | keyboard.num9?0 | semantical.lookpos2?0`"
  config_lines[197]: "mix lookpos3 `unbound?0 | keyboard.num7?0 | semantical.lookpos3?0`"
  config_lines[198]: "mix lookpos4 `keyboard.num6?0 | semantical.lookpos4?0`"
@@ -207,8 +207,8 @@ input_config : _nameless.12e.984a.9fc0 {
  config_lines[201]: "mix lookpos7 `semantical.lookpos7?0`"
  config_lines[202]: "mix lookpos8 `semantical.lookpos8?0`"
  config_lines[203]: "mix lookpos9 `semantical.lookpos9?0`"
- config_lines[204]: "mix looksteer `keyboard.rshift?0 | semantical.looksteer?0`"
- config_lines[205]: "mix lookblink `keyboard.rctrl?0 | semantical.lookblink?0`"
+ config_lines[204]: "mix looksteer `semantical.looksteer?0`"
+ config_lines[205]: "mix lookblink `semantical.lookblink?0`"
  config_lines[206]: "mix trackiron `trackir.device.active?0`"
  config_lines[207]: "mix trackiryaw `trackir.device.position.yaw?0`"
  config_lines[208]: "mix trackirpitch `trackir.device.position.pitch?0`"
@@ -249,7 +249,7 @@ input_config : _nameless.12e.984a.9fc0 {
  config_lines[243]: "mix msteering `-mouse.rel_position.x?0 * c_msens`"
  config_lines[244]: "mix mpedals `-mouse.rel_position.y?0 * c_msens`"
  config_lines[245]: "mix dforward `keyboard.a?0`"
- config_lines[246]: "mix dbackward `keyboard.z?0`"
+ config_lines[246]: "mix dbackward `keyboard.z?0 | mouse.button_left?0`"
  config_lines[247]: "mix aforward `normalize(sel(c_jzthrottle, sel(c_jithrottle, -j_throttle?0, j_throttle?0), sel(c_jithrottle, j_throttle?1 * -0.5 + 0.5, j_throttle?-1 * 0.5 + 0.5)), c_throt_dz) + semantical.aforward?0`"
  config_lines[248]: "mix abackward `normalize(sel(c_jzbrake, sel(c_jibrake, -j_brake?0, j_brake?0), sel(c_jibrake, j_brake?1 * -0.5 + 0.5, j_brake?-1 * 0.5 + 0.5)), c_brake_dz) + semantical.abackward?0`"
  config_lines[249]: "mix forward `dforward + aforward`"
@@ -266,7 +266,7 @@ input_config : _nameless.12e.984a.9fc0 {
  config_lines[260]: "mix attach `keyboard.t?0 | semantical.attach?0`"
  config_lines[261]: "mix horn `keyboard.h?0 | semantical.horn?0`"
  config_lines[262]: "mix airhorn `keyboard.n?0 | semantical.airhorn?0`"
- config_lines[263]: "mix lighthorn `keyboard.lalt?0 | semantical.lighthorn?0`"
+ config_lines[263]: "mix lighthorn `unbound?0 | keyboard.lalt?0 | semantical.lighthorn?0`"
  config_lines[264]: "mix beacon `keyboard.o?0 | semantical.beacon?0`"
  config_lines[265]: "mix motorbrake `keyboard.lshift?0 | semantical.motorbrake?0`"
  config_lines[266]: "mix engbraketog `semantical.engbraketog?0`"
@@ -293,8 +293,8 @@ input_config : _nameless.12e.984a.9fc0 {
  config_lines[287]: "mix wipers3 `semantical.wipers3?0`"
  config_lines[288]: "mix wipers4 `semantical.wipers4?0`"
  config_lines[289]: "mix cruiectrl `keyboard.c?0 | semantical.cruiectrl?0`"
- config_lines[290]: "mix cruiectrlinc `keyboard.numplus?0 | keyboard.g?0 | semantical.cruiectrlinc?0`"
- config_lines[291]: "mix cruiectrldec `keyboard.numminus?0 | keyboard.f?0 | semantical.cruiectrldec?0`"
+ config_lines[290]: "mix cruiectrlinc `mouse.wheel_up?0 | keyboard.g?0 | semantical.cruiectrlinc?0`"
+ config_lines[291]: "mix cruiectrldec `mouse.wheel_down?0 | keyboard.f?0 | semantical.cruiectrldec?0`"
  config_lines[292]: "mix cruiectrlres `keyboard.v?0 | semantical.cruiectrlres?0`"
  config_lines[293]: "mix light `keyboard.l?0 | semantical.light?0`"
  config_lines[294]: "mix hblight `keyboard.k?0 | semantical.hblight?0`"
@@ -333,8 +333,8 @@ input_config : _nameless.12e.984a.9fc0 {
  config_lines[327]: "mix gearup `keyboard.s?0 | semantical.gearup?0`"
  config_lines[328]: "mix geardown `keyboard.x?0 | semantical.geardown?0`"
  config_lines[329]: "mix gear0 `keyboard.d?0 | semantical.gear0?0`"
- config_lines[330]: "mix gearuphint `semantical.gearuphint?0`"
- config_lines[331]: "mix geardownhint `semantical.geardownhint?0`"
+ config_lines[330]: "mix gearuphint `keyboard.rbracket?0 | semantical.gearuphint?0`"
+ config_lines[331]: "mix geardownhint `keyboard.lbracket?0 | semantical.geardownhint?0`"
  config_lines[332]: "mix transemi `keyboard.caps?0 | semantical.transemi?0`"
  config_lines[333]: "mix drive `joy.b11?0 | semantical.drive?0`"
  config_lines[334]: "mix reverse `joy.b12?0 | semantical.reverse?0`"

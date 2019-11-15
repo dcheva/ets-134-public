@@ -6,7 +6,7 @@ SiiNunit
     author: "dmitry.cheva"
     icon: "eco.jpg"
     category[]:	"other"
-    display_name: "Growing Economy 1.35 20x"
+    display_name: "Growing Economy 1.35 100x"
     description_file: "mod_description.txt"
   }
 }
