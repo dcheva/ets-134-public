@@ -253,7 +253,7 @@ sound_engine_data: .el4
 
 	min_rpm: 500.0
 	max_rpm: 3000.0
-	volume: 1.0
+	volume: 1.15
 }
 
 sound_engine_data: .enf0

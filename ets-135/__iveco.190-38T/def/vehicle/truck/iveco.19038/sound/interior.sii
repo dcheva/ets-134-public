@@ -197,7 +197,7 @@ sound_engine_data: .e1
 	min_rpm: 580.0
 	max_rpm: 3000.0
 	pitch_reference:  1475
-	volume: 0.15
+	volume: 0.25
 }
 
 sound_engine_data: .e2
@@ -208,7 +208,7 @@ sound_engine_data: .e2
 
 	min_rpm: 625.0
 	max_rpm: 1280.0
-	volume: 0.22
+	volume: 0.32
 }
 
 sound_engine_data: .e3
@@ -221,7 +221,7 @@ sound_engine_data: .e3
 
 	min_rpm: 1200.0
 	max_rpm: 2800.0
-	volume: 0.22
+	volume: 0.32
 }
 
 sound_engine_data: .e4
@@ -247,7 +247,7 @@ sound_engine_data: .el0
 
 	min_rpm: 200.0
 	max_rpm: 1000.0
-	volume: 0.85
+	volume: 0.75
 }
 
 sound_engine_data: .el1
@@ -260,7 +260,7 @@ sound_engine_data: .el1
 
 	min_rpm: 840.0
 	max_rpm: 1360.0
-	volume: 0.82
+	volume: 0.72
 }
 
 sound_engine_data: .el2
@@ -273,7 +273,7 @@ sound_engine_data: .el2
 
 	min_rpm: 990.0
 	max_rpm: 2000.0
-	volume: 0.82
+	volume: 0.72
 }
 
 sound_engine_data: .el3
@@ -286,18 +286,18 @@ sound_engine_data: .el3
 
 	min_rpm: 1460.0
 	max_rpm: 3000.0
-	volume: 0.85
+	volume: 0.75
 }
 
 sound_engine_data: .el4
 {
-	name: "/sound/truck/iveco_19038/int/drr.ogg"
+	name: "/sound/truck/iveco_19038/ext/drr.ogg"
 
 	looped: true
 
 	min_rpm: 200.0
 	max_rpm: 3000.0
-	volume: 0.85
+	volume: 0.55
 }
 
 sound_engine_data: .enf0
@@ -422,7 +422,7 @@ sound_engine_data: .el06
 
 	looped: true
 
-	pitch_reference: 1000
+	pitch_reference: 2000
 
 	min_rpm: 1800.0
 	max_rpm: 3000.0
