@@ -1,0 +1,26 @@
+﻿SiiNunit
+
+{
+
+accessory_addon_data : shape10.iveco.19038.kuzov
+
+{
+
+	name: "Container Skin TK"
+
+	price: 28000
+	unlock: 10
+	icon: "vinge_con"
+
+	exterior_model: "/vehicle/truck/upgrade/cargo/tandem/container/container_tk.pmd"
+	coll: "/vehicle/truck/upgrade/cargo/tandem/container/container_tk.pmc"
+	
+	suitable_for[]: "6x2t.iveco.19038.chassis" 
+	suitable_for[]: "6x2t_ml.iveco.19038.chassis" 
+	suitable_for[]: "6x4t.iveco.19038.chassis" 
+	suitable_for[]: "6x4t_ml.iveco.19038.chassis" 
+	suitable_for[]: "8x4t.iveco.19038.chassis" 
+	suitable_for[]: "8x4t_ml.iveco.19038.chassis" 
+
+}
+}

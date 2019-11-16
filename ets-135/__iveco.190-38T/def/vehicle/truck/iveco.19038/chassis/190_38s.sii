@@ -13,7 +13,7 @@ accessory_chassis_data : 190_38s.iveco.19038.chassis
 
 	info[]: "400 @@unit_l@@"
 
-	icon: "chassis_19038_4x2"
+	icon: "chassis_stralis_4x2"
 
 	model: "/vehicle/truck/iveco_190_38_special/truck.pmd"
 

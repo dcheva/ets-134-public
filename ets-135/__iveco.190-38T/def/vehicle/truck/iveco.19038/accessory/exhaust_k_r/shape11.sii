@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape11.iveco.19038.exhaust_k_r
+{
+	name: "Volcano I"
+	price: 4680
+	unlock: 18
+	icon: "exhaust_11"
+	exterior_model: "/vehicle/truck/upgrade/exhaust_k/tandem/exhaust_11_r.pmd"
+
+}
+}

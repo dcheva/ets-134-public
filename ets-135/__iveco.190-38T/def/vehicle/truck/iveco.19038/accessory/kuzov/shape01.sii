@@ -1,0 +1,26 @@
+﻿SiiNunit
+
+{
+
+accessory_addon_data : shape01.iveco.19038.kuzov
+
+{
+
+	name: "Profiliner Skin"
+
+	price: 20000
+	unlock: 10
+	icon: "vinge_pro"
+
+	exterior_model: "/vehicle/truck/upgrade/cargo/tandem/profiliner/profiliner_bdr_car.pmd"
+	coll: "/vehicle/truck/upgrade/cargo/tandem/profiliner/profiliner_bdr_car.pmc"
+	
+	suitable_for[]: "6x2t.iveco.19038.chassis" 
+	suitable_for[]: "6x2t_ml.iveco.19038.chassis" 
+	suitable_for[]: "6x4t.iveco.19038.chassis" 
+	suitable_for[]: "6x4t_ml.iveco.19038.chassis" 
+	suitable_for[]: "8x4t.iveco.19038.chassis" 
+	suitable_for[]: "8x4t_ml.iveco.19038.chassis" 
+
+}
+}

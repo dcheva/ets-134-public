@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape2.mercedes.actros.doorstep
+{
+	name: "Serpent"
+	price: 1980
+	unlock: 6
+	icon: "doorstep_02"
+	exterior_model: "/vehicle/truck/upgrade/doorstep/mercedes_actros_2009/doorstep_02.pmd"
+}
+}

@@ -1,0 +1,21 @@
+﻿SiiNunit
+
+{
+
+accessory_addon_data : shape12.iveco.19038.kuzov
+
+{
+
+	name: "Container Short Skin TK"
+
+	price: 28000
+	unlock: 8
+	icon: "vinge_con"
+
+	exterior_model: "/vehicle/truck/upgrade/cargo/tandem/container_short/container_short_tk.pmd"
+	coll: "/vehicle/truck/upgrade/cargo/tandem/container_short/container_short_tk.pmc"
+	
+	suitable_for[]: "4x2t.iveco.19038.chassis" 
+	
+}
+}

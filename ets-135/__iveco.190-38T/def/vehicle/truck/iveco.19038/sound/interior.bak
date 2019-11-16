@@ -235,7 +235,7 @@ sound_engine_data: .e4
 
 	pitch_reference: 580
 
-	min_rpm: 920.0
+	min_rpm: 620.0
 	max_rpm: 2800.0
 	volume: 0.08
 }
@@ -287,7 +287,7 @@ sound_engine_data: .el4
 
 	min_rpm: 200.0
 	max_rpm: 3000.0
-	volume: 0.65
+	volume: 0.55
 }
 
 sound_engine_data: .el0
@@ -296,11 +296,9 @@ sound_engine_data: .el0
 
 	looped: true
 
-	pitch_reference: 2666
-
 	min_rpm: 1200.0
 	max_rpm: 3000.0
-	volume: 0.35
+	volume: 0.45
 }
 
 
@@ -327,7 +325,7 @@ sound_engine_data: .enf1
 
 	min_rpm: 850.0
 	max_rpm: 1450.0
-	volume: 0.75
+	volume: 0.65
 }
 
 sound_engine_data: .enf2
@@ -340,7 +338,7 @@ sound_engine_data: .enf2
 
 	min_rpm: 1350.0
 	max_rpm: 3050.0
-	volume: 0.75
+	volume: 0.70
 }
 
 sound_engine_data: .enf3
@@ -353,7 +351,7 @@ sound_engine_data: .enf3
 
 	min_rpm: 1950.0
 	max_rpm: 3050.0
-	volume: 0.85
+	volume: 0.55
 }
 
 
@@ -1181,4 +1179,5 @@ sound_data: .gnoise9
 	looped: false
     volume: 2.0
 }
+
 }

@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_data : shape3.mercedes.actros.doorstep
+{
+	name: "Ranger"
+	price: 1920
+	unlock: 3
+	icon: "doorstep_03"
+	exterior_model: "/vehicle/truck/upgrade/doorstep/mercedes_actros_2009/doorstep_03.pmd"
+}
+}

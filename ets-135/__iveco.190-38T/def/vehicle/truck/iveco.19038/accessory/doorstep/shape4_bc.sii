@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_addon_data : shape4_bc.mercedes.actros.doorstep
+{
+	name: "Ninja"
+	price: 2400
+	unlock: 17
+	icon: "doorstep_04"
+	exterior_model: "/vehicle/truck/upgrade/doorstep/mercedes_actros_2009/doorstep_04_bc.pmd"
+	#suitable_for[]: "4x2c.mercedes.actros.chassis"
+	#suitable_for[]: "6x2bc.mercedes.actros.chassis"
+	#suitable_for[]: "6x2bc_tl.mercedes.actros.chassis"
+	#suitable_for[]: "6x2_4bc.mercedes.actros.chassis"
+	#suitable_for[]: "6x2_4bc_ml.mercedes.actros.chassis"
+	#suitable_for[]: "6x4bc.mercedes.actros.chassis"
+}
+}

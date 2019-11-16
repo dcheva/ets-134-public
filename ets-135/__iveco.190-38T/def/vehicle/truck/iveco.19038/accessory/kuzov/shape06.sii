@@ -1,0 +1,26 @@
+﻿SiiNunit
+
+{
+
+accessory_addon_data : shape06.iveco.19038.kuzov
+
+{
+
+	name: "Cistern Paint Skin"
+
+	price: 33000
+	unlock: 10
+	icon: "vinge_cip"
+
+	exterior_model: "/vehicle/truck/upgrade/cargo/tandem/cist_paint/cist_paint_bdr.pmd"
+	coll: "/vehicle/truck/upgrade/cargo/tandem/cist_paint/cist_paint_bdr.pmc"
+	
+	suitable_for[]: "6x2t.iveco.19038.chassis" 
+	suitable_for[]: "6x2t_ml.iveco.19038.chassis" 
+	suitable_for[]: "6x4t.iveco.19038.chassis" 
+	suitable_for[]: "6x4t_ml.iveco.19038.chassis" 
+	suitable_for[]: "8x4t.iveco.19038.chassis" 
+	suitable_for[]: "8x4t_ml.iveco.19038.chassis" 
+
+}
+}

@@ -1,0 +1,21 @@
+﻿SiiNunit
+
+{
+
+accessory_addon_data : shape08.iveco.19038.kuzov
+
+{
+
+	name: "Universal Short Skin"
+
+	price: 15000
+	unlock: 8
+	icon: "vinge_uni"
+
+	exterior_model: "/vehicle/truck/upgrade/cargo/tandem/universal_short/universal_bdr.pmd"
+	coll: "/vehicle/truck/upgrade/cargo/tandem/universal_short/universal_bdr.pmc"
+	
+	suitable_for[]: "4x2t.iveco.19038.chassis" 
+
+}
+}

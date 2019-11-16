@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_data : shape5.iveco.19038.bdf_stuff
+{
+	name: "Spare Tyre"
+	price: 5000
+	unlock: 8
+	icon: "fv_sptyre"
+	exterior_model: "/vehicle/truck/upgrade/bdf_stuff/tyres/spare_tyre.pmd"
+	suitable_for[]: "4x2t.iveco.19038.chassis" 
+	suitable_for[]: "6x2t.iveco.19038.chassis" 
+	suitable_for[]: "6x2t_ml.iveco.19038.chassis" 
+	suitable_for[]: "6x4t.iveco.19038.chassis" 
+	suitable_for[]: "6x4t_ml.iveco.19038.chassis"
+}
+}
