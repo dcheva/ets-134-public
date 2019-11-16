@@ -9,7 +9,7 @@ accessory_engine_data : td100a.volvo.f88.engine
 	info[]: "1@@dg@@400 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@400 @@rpm@@"
 	icon: "engine_volvo_f88"
-	torque: 1400  # Torque 1400 r.p.m(DIN) kgm 96, (SAE) 100 kgm
+	torque: 2000
 	rpm_limit: 2350
 	volume: 9.6
 	no_adblue_power_limit: 0.5

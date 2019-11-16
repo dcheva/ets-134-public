@@ -9,7 +9,7 @@ accessory_engine_data : d12g385.volvo.f88.engine
 	info[]: "2@@dg@@050 @@nm@@"
 	info[]: "1@@dg@@000-1@@dg@@300 @@rpm@@"
 	icon: "engine_01"
-	torque: 2050
+	torque: 1750
 	rpm_limit: 2250
 	volume: 16.1
 	no_adblue_power_limit: 0.5
