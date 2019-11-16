@@ -266,19 +266,6 @@ sound_engine_data: .el2
 	volume: 0.72
 }
 
-sound_engine_data: .el3
-{
-	name: "/sound/truck/iveco_19038/int/exhaust_1500.ogg"
-
-	looped: true
-
-	pitch_reference: 1344
-
-	min_rpm: 1460.0
-	max_rpm: 3000.0
-	volume: 0.75
-}
-
 sound_engine_data: .el4
 {
 	name: "/sound/truck/iveco_19038/ext/drr.ogg"
@@ -298,11 +285,23 @@ sound_engine_data: .el0
 
 	pitch_reference: 2666
 
-	min_rpm: 1200.0
-	max_rpm: 3000.0
-	volume: 0.35
+	min_rpm: 200.0
+	max_rpm: 1160.0
+	volume: 0.55
 }
 
+sound_engine_data: .el3
+{
+	name: "/sound/truck/iveco_19038/int/exhaust_1500.ogg"
+
+	looped: true
+
+	pitch_reference: 2666
+
+	min_rpm: 1060.0
+	max_rpm: 3000.0
+	volume: 0.65
+}
 
 sound_engine_data: .enf0
 {
