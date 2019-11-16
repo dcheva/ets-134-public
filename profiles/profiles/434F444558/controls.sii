@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.1e8.b487.2bc0 {
+input_config : _nameless.236.3f38.5190 {
  version: 11
  config_lines: 406
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -207,8 +207,8 @@ input_config : _nameless.1e8.b487.2bc0 {
  config_lines[201]: "mix lookpos7 `semantical.lookpos7?0`"
  config_lines[202]: "mix lookpos8 `semantical.lookpos8?0`"
  config_lines[203]: "mix lookpos9 `semantical.lookpos9?0`"
- config_lines[204]: "mix looksteer `keyboard.rshift?0 | semantical.looksteer?0`"
- config_lines[205]: "mix lookblink `keyboard.rctrl?0 | semantical.lookblink?0`"
+ config_lines[204]: "mix looksteer `semantical.looksteer?0`"
+ config_lines[205]: "mix lookblink `semantical.lookblink?0`"
  config_lines[206]: "mix trackiron `trackir.device.active?0`"
  config_lines[207]: "mix trackiryaw `trackir.device.position.yaw?0`"
  config_lines[208]: "mix trackirpitch `trackir.device.position.pitch?0`"
@@ -293,8 +293,8 @@ input_config : _nameless.1e8.b487.2bc0 {
  config_lines[287]: "mix wipers3 `semantical.wipers3?0`"
  config_lines[288]: "mix wipers4 `semantical.wipers4?0`"
  config_lines[289]: "mix cruiectrl `keyboard.c?0 | semantical.cruiectrl?0`"
- config_lines[290]: "mix cruiectrlinc `keyboard.numplus?0 | keyboard.g?0 | semantical.cruiectrlinc?0`"
- config_lines[291]: "mix cruiectrldec `keyboard.numminus?0 | keyboard.f?0 | semantical.cruiectrldec?0`"
+ config_lines[290]: "mix cruiectrlinc `mouse.wheel_up?0 | keyboard.g?0 | semantical.cruiectrlinc?0`"
+ config_lines[291]: "mix cruiectrldec `mouse.wheel_down?0 | keyboard.f?0 | semantical.cruiectrldec?0`"
  config_lines[292]: "mix cruiectrlres `keyboard.v?0 | semantical.cruiectrlres?0`"
  config_lines[293]: "mix light `keyboard.l?0 | semantical.light?0`"
  config_lines[294]: "mix hblight `keyboard.k?0 | semantical.hblight?0`"
