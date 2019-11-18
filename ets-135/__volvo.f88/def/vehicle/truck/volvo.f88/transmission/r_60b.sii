@@ -2,7 +2,7 @@ SiiNunit
 {
 accessory_transmission_data : r_60b.volvo.f88.transmission
 {
-	name: "R-60"
+	name: "R-60B"
 	price: 1050
 	unlock: 0
 	icon: "transmission_generic"

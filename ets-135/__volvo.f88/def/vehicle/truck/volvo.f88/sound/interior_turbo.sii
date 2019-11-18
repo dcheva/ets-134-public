@@ -443,7 +443,7 @@ sound_engine_data: .el8
 
 	min_rpm: 300.0
 	max_rpm: 2000.0
-	volume: 0.20 
+	volume: 0.35 
 }
 
 
@@ -457,7 +457,7 @@ sound_engine_data: .el9
 
 	min_rpm: 1500.0
 	max_rpm: 3500.0
-	volume: 0.30
+	volume: 0.45
 }
 
 
