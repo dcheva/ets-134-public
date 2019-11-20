@@ -45,12 +45,15 @@ economy_data : economy.data.storage
 
 #########################################
 #
-#       Sleeping time 8/20
+##      Sleeping time 4/10
+#!      Sleeping time 8/20
 #
 #########################################
-	maximum_driving_time: 1200	# 10h working shift duration // 660
-	## (in minutes), 18 to drive and 2 to find parking
-	sleeping_time: 480		# 4h rest duration (in minutes) // 540
+#	maximum_driving_time: 600	# 10h working shift duration // 660
+#	## (in minutes), 8 to drive and 2 to find parking
+#	sleeping_time: 240		# 4h rest duration (in minutes) // 540
+	maximum_driving_time: 1200	
+	sleeping_time: 480		
 #########################################
 
 	delivery_window[]: 480		# easy // 400

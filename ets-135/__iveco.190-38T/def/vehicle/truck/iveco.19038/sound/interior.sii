@@ -309,7 +309,7 @@ sound_engine_data: .enf0
 
 	looped: true
 
-	pitch_reference: 800
+	pitch_reference: 1600
 
 	min_rpm: 460.0
 	max_rpm: 950.0
@@ -322,7 +322,7 @@ sound_engine_data: .enf1
 
 	looped: true
 
-	pitch_reference: 1200
+	pitch_reference: 2400
 
 	min_rpm: 850.0
 	max_rpm: 1450.0
@@ -335,7 +335,7 @@ sound_engine_data: .enf2
 
 	looped: true
 
-	pitch_reference: 1600
+	pitch_reference: 3000
 
 	min_rpm: 1350.0
 	max_rpm: 3050.0
@@ -348,25 +348,25 @@ sound_engine_data: .enf3
 
 	looped: true
 
-	pitch_reference: 2000
+	pitch_reference: 4000
 
 	min_rpm: 1950.0
 	max_rpm: 3050.0
-	volume: 0.85
+	volume: 0.80
 }
 
 
 sound_engine_data: .enf4
 {
-	name: "/sound/truck/iveco_19038/int/turbo_idle.ogg"
+	name: "/sound/truck/iveco_19038/int/1000rpm-int-mono.ogg"
 
 	looped: true
 
-	pitch_reference: 580
+	pitch_reference: 2000
 
-	min_rpm: 200.0
-	max_rpm: 3000.0
-	volume: 0.08
+	min_rpm: 900.0
+	max_rpm: 2200.0
+	volume: 0.70
 }
 
 
