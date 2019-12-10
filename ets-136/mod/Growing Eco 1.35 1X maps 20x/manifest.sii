@@ -1,0 +1,12 @@
+SiiNunit
+{
+  mod_package : .universal 
+  {
+    package_version: "1.34.1"
+    author: "dmitry.cheva"
+    icon: "eco.jpg"
+    category[]:	"other"
+    display_name: "Growing Economy 1.34.1 1X maps 20x"
+    description_file: "mod_description.txt"
+  }
+}

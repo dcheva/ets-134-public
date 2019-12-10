@@ -1,0 +1,161 @@
+SiiNunit
+{
+vehicle: .tdealer.kamaztruck4
+{
+ accessories[]: .iveco2.data
+ accessories[]: .iveco2.chassis
+ accessories[]: .iveco2.cabin
+ accessories[]: .iveco2.interior
+ accessories[]: .iveco2.engine
+ accessories[]: .iveco2.transmission
+ accessories[]: .iveco2.soundint
+ accessories[]: .iveco2.soundext
+ accessories[]: .iveco2.head_light
+ accessories[]: .iveco2.paint_job
+ accessories[]: .iveco2.mirror
+ accessories[]: .iveco2.ftire
+ accessories[]: .iveco2.fdisc
+ accessories[]: .iveco2.fhub
+ accessories[]: .iveco2.fnuts
+ accessories[]: .iveco2.rtire
+ accessories[]: .iveco2.rdisc
+ accessories[]: .iveco2.rhub
+ accessories[]: .iveco2.rnuts
+ accessories[]: .iveco2.rtire2
+ accessories[]: .iveco2.rdisc2
+ accessories[]: .iveco2.rhub2
+ accessories[]: .iveco2.rnuts2
+}
+
+vehicle_accessory : .iveco2.data {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/data.sii"
+}
+
+vehicle_accessory : .iveco2.chassis {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/chassis/6x4.sii"
+}
+
+vehicle_accessory : .iveco2.cabin {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/cabin/low.sii"
+}
+
+vehicle_accessory : .iveco2.interior {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/interior/standard.sii"
+}
+
+vehicle_accessory : .iveco2.engine {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/engine/700hp.sii"
+}
+vehicle_accessory : .iveco2.transmission {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/transmission/10_speed.sii"
+}
+
+vehicle_sound_accessory : .iveco2.soundint {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/sound/interior.sii"
+}
+
+vehicle_sound_accessory : .iveco2.soundext {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/sound/exterior.sii"
+}
+
+vehicle_accessory : .iveco2.head_light {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/head_light/standard.sii"
+}
+
+vehicle_paint_job_accessory : .iveco2.paint_job {
+ mask_r_color: (1, 0, 0)
+ mask_g_color: (0, 1, 0)
+ mask_b_color: (0, 0, 1)
+ base_color: (&3e7bb2ff, &3c5b8bac, &3c54fdf4)
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/paint_job/color3.sii"
+}
+vehicle_addon_accessory : .iveco2.mirror {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/accessory/mirror/shape2.sii"
+}
+vehicle_wheel_accessory : .iveco2.ftire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_tire/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .iveco2.fdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_disc/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .iveco2.fhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_hub/front_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .iveco2.fnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .iveco2.rtire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_tire/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .iveco2.rdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_disc/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .iveco2.rhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .iveco2.rnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .iveco2.rtire2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_tire/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .iveco2.rdisc2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_disc/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .iveco2.rhub2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .iveco2.rnuts2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+}
+
+

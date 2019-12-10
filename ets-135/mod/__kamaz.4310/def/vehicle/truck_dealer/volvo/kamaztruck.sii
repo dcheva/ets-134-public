@@ -1,0 +1,161 @@
+SiiNunit
+{
+vehicle: .tdealer.kamaztruck2
+{
+ accessories[]: .volvo2.data
+ accessories[]: .volvo2.chassis
+ accessories[]: .volvo2.cabin
+ accessories[]: .volvo2.interior
+ accessories[]: .volvo2.engine
+ accessories[]: .volvo2.transmission
+ accessories[]: .volvo2.soundint
+ accessories[]: .volvo2.soundext
+ accessories[]: .volvo2.head_light
+ accessories[]: .volvo2.paint_job
+ accessories[]: .volvo2.mirror
+ accessories[]: .volvo2.ftire
+ accessories[]: .volvo2.fdisc
+ accessories[]: .volvo2.fhub
+ accessories[]: .volvo2.fnuts
+ accessories[]: .volvo2.rtire
+ accessories[]: .volvo2.rdisc
+ accessories[]: .volvo2.rhub
+ accessories[]: .volvo2.rnuts
+ accessories[]: .volvo2.rtire2
+ accessories[]: .volvo2.rdisc2
+ accessories[]: .volvo2.rhub2
+ accessories[]: .volvo2.rnuts2
+}
+
+vehicle_accessory : .volvo2.data {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/data.sii"
+}
+
+vehicle_accessory : .volvo2.chassis {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/chassis/6x4.sii"
+}
+
+vehicle_accessory : .volvo2.cabin {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/cabin/low.sii"
+}
+
+vehicle_accessory : .volvo2.interior {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/interior/standard.sii"
+}
+
+vehicle_accessory : .volvo2.engine {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/engine/700hp.sii"
+}
+vehicle_accessory : .volvo2.transmission {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/transmission/10_speed.sii"
+}
+
+vehicle_sound_accessory : .volvo2.soundint {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/sound/interior.sii"
+}
+
+vehicle_sound_accessory : .volvo2.soundext {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/sound/exterior.sii"
+}
+
+vehicle_accessory : .volvo2.head_light {
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/head_light/standard.sii"
+}
+
+vehicle_paint_job_accessory : .volvo2.paint_job {
+ mask_r_color: (1, 0, 0)
+ mask_g_color: (0, 1, 0)
+ mask_b_color: (0, 0, 1)
+ base_color: (&3e7bb2ff, &3c5b8bac, &3c54fdf4)
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/paint_job/color3.sii"
+}
+vehicle_addon_accessory : .volvo2.mirror {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/kamaztruck/accessory/mirror/shape2.sii"
+}
+vehicle_wheel_accessory : .volvo2.ftire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_tire/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .volvo2.fdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_disc/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .volvo2.fhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_hub/front_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .volvo2.fnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .volvo2.rtire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_tire/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .volvo2.rdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_disc/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .volvo2.rhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .volvo2.rnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .volvo2.rtire2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_tire/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .volvo2.rdisc2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_disc/kam65221v1.sii"
+}
+
+vehicle_wheel_accessory : .volvo2.rhub2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : .volvo2.rnuts2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+}
+
+

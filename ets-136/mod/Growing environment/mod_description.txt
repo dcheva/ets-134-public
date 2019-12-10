@@ -1,0 +1,21 @@
+[green]Growing Environment [normal]v1.35 by Cheva
+
+Sounds and noises.
+Place this mod in the top.
+
+[blue]Changes:[normal]
+	- Psycho yawn sound.
+	- Rain and thunder sounds.
+
+
+[green]Звуки и шумы.[normal]
+Поместите этот мод в топ.
+
+[blue]Изменения:[normal]
+	- Психо-зевок.
+	- Звуки дождя и грозы.
+
+github: https://github.com/dcheva
+fcbook: https://www.facebook.com/groups/FS19modsByCheva/
+photos: https://photos.app.goo.gl/XcPpfLJezCNCexnF8
+yutube: https://www.youtube.com/user/dmitrycheva
