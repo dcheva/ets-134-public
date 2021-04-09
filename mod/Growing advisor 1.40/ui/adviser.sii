@@ -917,7 +917,7 @@ ui::text_common : _nameless._.eta {
  value: ""
  look_template: txt.adv_navi_eta
  text: ""
- coords_l: 240
+ coords_l: 875
  coords_r: 1200
  coords_t: 900
  coords_b: 878
