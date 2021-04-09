@@ -535,11 +535,11 @@ ui::portal : _nameless._.page {
 #====== fon top II
 #===============================================================================_nameless._.window.bg
 ui::text_common : _nameless._.window.bg {
- value: FF000000 //6F000000
+ value: 6F000000
  look_template: txt.window.bcg_rect
  text: ""
- coords_l: 238 //288
- coords_r: 1152
+ coords_l: 240
+ coords_r: 1200
  coords_t: 900
  coords_b: 878
  area_l: 1
@@ -917,8 +917,8 @@ ui::text_common : _nameless._.eta {
  value: ""
  look_template: txt.adv_navi_eta
  text: ""
- coords_l: 875
- coords_r: 1179
+ coords_l: 240
+ coords_r: 1200
  coords_t: 900
  coords_b: 878
  area_l: 1
