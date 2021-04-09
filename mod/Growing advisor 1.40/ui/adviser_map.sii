@@ -1,0 +1,137 @@
+SiiNunit  #- bobo58  /  dmitry.cheva
+{
+ui::window : _nameless.0049fb330 {
+ window_handler: null
+ clip_children: true
+ keep_aspect: center //right
+ user_string_data: ""
+ fitting: false
+ my_children: 3 //5
+ my_children[0]: _nameless.004a04e70
+ my_children[1]: _nameless._.zoom.cycle
+ my_children[2]: _nameless._.speed.limit
+#------------------------------------------------
+# my_children[0]: _nameless._.map.scene //off
+# my_children[1]: _nameless.004a04e70
+# my_children[2]: _nameless._.zoom.cycle
+# my_children[3]: _nameless._.speed.limit
+# my_children[4]: _nameless._.route_notify //off
+#------------------------------------------------
+ coords_l: 0	//1069
+ coords_r: 1440	//1419
+ coords_t: 900	//288
+ coords_b: 83
+ area_l: 0		//1069
+ area_r: 1440	//1419
+ area_t: 900	//288
+ area_b: 0		//83
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+/**==== OFF ==== OFF ==== OFF ==== OFF ==== OFF ==== OFF ==== OFF ====
+ui_map : _nameless._.map.scene {
+ coords_l: 1069
+ coords_r: 1419
+ coords_t: 266
+ coords_b: 83
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 700
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0049fb330
+}
+==== OFF ==== OFF ==== OFF ==== OFF ==== OFF ==== OFF ==== OFF ==== */
+
+ui::text_common : _nameless.004a04e70 {
+ value: "<color value=@@clr_sel@@>@@navigation_title@@"
+ look_template: txt.adv_title
+ text: ""
+ coords_l: 248 //1069
+ coords_r: 411 //1269
+ coords_t: 900 //288
+ coords_b: 878 //267
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0 //720
+ layer: 12
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0049fb330
+}
+
+ui::button_common : _nameless._.zoom.cycle {
+ value: F2
+ value2: ""
+ look_template: btn.adviser.map_zoom
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1 //1353
+ coords_r: 0 //1414
+ coords_t: 0 //260
+ coords_b: 1 //231
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 710
+ layer: 11
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0049fb330
+}
+
+ui::text_common : _nameless._.speed.limit {
+ value: 130
+ look_template: txt.adv_navi_spd
+ text: ""
+ coords_l: 517 //1079
+ coords_r: 549 //589
+ coords_t: 878 //1111
+ coords_b: 846 //223
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 760
+ layer: 14
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0049fb330
+}
+
+/**==== OFF ==== OFF ==== OFF ==== OFF ==== OFF ==== OFF ==== OFF ====
+ui::text_common : _nameless._.route_notify {
+ value: ""
+ look_template: null
+ text: ""
+ coords_l: 1091
+ coords_r: 1399
+ coords_t: 215
+ coords_b: 174
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 770
+ layer: 15
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0049fb330
+}
+==== OFF ==== OFF ==== OFF ==== OFF ==== OFF ==== OFF ==== OFF ==== */
+
+}

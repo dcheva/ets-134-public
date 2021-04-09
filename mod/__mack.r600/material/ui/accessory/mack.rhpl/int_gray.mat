@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "int_gray.tobj"
-	texture_name : "texture"
-}

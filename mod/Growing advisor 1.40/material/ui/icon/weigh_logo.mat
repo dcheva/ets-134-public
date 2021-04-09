@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "weigh_logo.tobj"
+	texture_name : "texture"
+}

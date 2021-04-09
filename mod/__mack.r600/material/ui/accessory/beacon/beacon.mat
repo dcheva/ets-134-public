@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "beacon.tobj"
-	texture_name : "texture"
-}

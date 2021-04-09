@@ -1,0 +1,85 @@
+SiiNunit  #- bobo58  /  dmitry.cheva
+{
+ui::window : _nameless.0049e32d0 {
+ clip_children: true
+ window_handler: null
+ keep_aspect: center
+ user_string_data: ""
+ fitting: true
+ my_children: 3
+ my_children[0]: _nameless.1049e32d1
+ my_children[1]: _nameless._.title
+ my_children[2]: _nameless._.txt
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::text_common : _nameless.1049e32d1 {
+ value: FF000000 //BF000000
+ look_template: txt.window.bcg_rect8
+ text: ""
+ coords_l: 1100	//555
+ coords_r: 1433	//885
+ coords_t: 177
+ coords_b: 22
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0049e32d0
+}
+
+ui::text_common : _nameless._.title {
+ value: "<color value=@@clr_red@@>@@info_title@@"
+ look_template: txt.adv_title
+ text: ""
+ coords_l: 248 //288
+ coords_r: 411 //411
+ coords_t: 900
+ coords_b: 878
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 610
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0049e32d0
+}
+
+ui::text_common : _nameless._.txt {
+ value: "nejaky warning<br>asi ne moc dulezity"
+ look_template: txt.normal.center
+ text: ""
+ coords_l: 1102	//557
+ coords_r: 1431	//883
+ coords_t: 175
+ coords_b: 24
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 600
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0049e32d0
+}
+
+}

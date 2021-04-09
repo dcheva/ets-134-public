@@ -1,0 +1,83 @@
+SiiNunit
+{
+### (c) Cheva 2017-2021
+### //xx this values are original
+xp_level_data : economy.data.xp_levels
+{
+#
+#	Level names  "level_limit|level name"
+#
+	level_names[]: "0|@@lvl_name0@@|0xFFe0e0e0"
+	level_names[]: "5|@@lvl_name1@@|0xFF45c294"
+	level_names[]: "10|@@lvl_name2@@|0xFF75baea"
+	level_names[]: "15|@@lvl_name3@@|0xFF3a88f4"
+	level_names[]: "20|@@lvl_name4@@|0xFF5847f0"
+	level_names[]: "25|@@lvl_name5@@|0xFFda9356"
+	level_names[]: "30|@@lvl_name6@@|0xFFf58493"
+	level_names[]: "40|@@lvl_name7@@|0xFFc99ef2"
+	level_names[]: "50|@@lvl_name8@@|0xFFc2f9ff"
+	level_names[]: "75|@@lvl_name8@@|0xFFc2f9ff"
+	level_names[]: "100|@@lvl_name9@@|0xFFf1dea5"
+	level_names[]: "125|@@lvl_name9@@|0xFFf1dea5"
+
+	level_last: 150
+
+#
+#	experience points to the next level
+#
+	
+	level_xp[0]:	200
+	level_xp[1]:	400
+	level_xp[2]:	600
+	level_xp[3]:	800
+	level_xp[4]:	1000
+	level_xp[5]:	1200
+	level_xp[6]:	1400
+	level_xp[7]:	1600
+	level_xp[8]:	1800
+	level_xp[9]:	2029
+	level_xp[10]:	2286
+	level_xp[11]:	2576
+	level_xp[12]:	2902
+	level_xp[13]:	3270
+	level_xp[14]:	3685
+	level_xp[15]:	4152
+	level_xp[16]:	4678
+	level_xp[17]:	5271
+	level_xp[18]:	5939
+	level_xp[19]:	6692
+	level_xp[20]:	7541
+	level_xp[21]:	8497
+	level_xp[22]:	9574
+	level_xp[23]:	10788
+	level_xp[24]:	12156
+	level_xp[25]:	13697
+	level_xp[26]:	15434
+	level_xp[27]:	17390
+	level_xp[28]:	19595
+	level_xp[29]:	22080
+	level_xp[30]:	24879
+	level_xp[31]:	28033
+	level_xp[32]:	31587
+	level_xp[33]:	35592
+	level_xp[34]:	40104
+	level_xp[35]:	45189
+	level_xp[36]:	50918
+	level_xp[37]:	57374
+	level_xp[38]:	64648
+	level_xp[39]:	72844
+	level_xp[40]:	82079
+	level_xp[41]:	92486
+	level_xp[42]:	104211
+	level_xp[43]:	117423
+	level_xp[44]:	132311
+	level_xp[45]:	149085
+	level_xp[46]:	167987
+	level_xp[47]:	189285
+	level_xp[48]:	213283
+	level_xp[49]:	240324
+	level_xp[50]:	270793
+
+	driver_xp_scale: 2.0
+}
+}

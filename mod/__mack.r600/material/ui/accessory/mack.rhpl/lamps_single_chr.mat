@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "lamps_single_chr.tobj"
-	texture_name : "texture"
-}

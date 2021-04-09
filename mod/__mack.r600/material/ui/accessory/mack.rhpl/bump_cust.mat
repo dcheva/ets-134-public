@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "bump_cust.tobj"
-	texture_name : "texture"
-}

@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "plastic_panels.tobj"
-	texture_name : "texture"
-}

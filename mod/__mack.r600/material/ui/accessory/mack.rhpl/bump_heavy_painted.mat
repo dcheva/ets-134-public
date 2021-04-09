@@ -1,5 +1,0 @@
-material : "ui"
-{
-	texture : "bump_heavy_painted.tobj"
-	texture_name : "texture"
-}

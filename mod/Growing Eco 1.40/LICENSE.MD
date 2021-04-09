@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2015-2021 by Cheva
+Copyright (c) 2021 Cheva
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

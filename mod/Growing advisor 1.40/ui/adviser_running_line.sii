@@ -1,0 +1,45 @@
+SiiNunit  #- bobo58  /  dmitry.cheva
+{
+ui::window : _nameless.0049d6dc0 {
+ clip_children: true
+ window_handler: null
+ keep_aspect: none
+ user_string_data: ""
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.driver.msg
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 23
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::text_common : _nameless._.driver.msg {
+ value: "Income: 1234$ (Driver Josef Dvorsky)"
+ look_template: txt.adv_drvmsg
+ text: ""
+ coords_l: 0
+ coords_r: 1440	//2880
+ coords_t: 23	//35
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 300
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0049d6dc0
+}
+
+}
